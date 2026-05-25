@@ -76,7 +76,7 @@
             "addressLocality": "Guangzhou",
             "addressCountry": "CN"
           },
-          "telephone": "+86-138-0000-7212",
+          "telephone": "+86-159-0277-8636",
           "email": "sales@berunactivewear.com",
           "url": "https://www.berunactivewear.com/",
           "priceRange": "$$",
@@ -174,14 +174,17 @@
             -webkit-font-smoothing: antialiased;
         }
         #dynamic-menu-container { min-height: 70px; background: #fff; border-bottom: 1px solid #eee; }
+
+        /* ===== Common Buttons ===== */
         .btn-bra-primary {
             background-color: var(--bra-primary);
             border-color: var(--bra-primary);
             color: #fff;
             font-weight: 600;
-            padding: 0.875rem 1.75rem;
+            padding: 1rem 2rem;
             border-radius: 0.5rem;
             transition: background 0.18s ease;
+            font-size: 1.0625rem;
         }
         .btn-bra-primary:hover { background-color: var(--bra-primary-dark); border-color: var(--bra-primary-dark); color: #fff; }
         .btn-bra-outline {
@@ -189,9 +192,10 @@
             border: 1.5px solid #fff;
             color: #fff;
             font-weight: 600;
-            padding: 0.875rem 1.75rem;
+            padding: 1rem 2rem;
             border-radius: 0.5rem;
             transition: background 0.18s ease;
+            font-size: 1.0625rem;
         }
         .btn-bra-outline:hover { background-color: rgba(255,255,255,0.12); color: #fff; }
         .btn-bra-white {
@@ -202,74 +206,133 @@
             border-radius: 0.5rem;
             border: none;
             transition: transform 0.18s ease;
+            font-size: 1.0625rem;
         }
         .btn-bra-white:hover { transform: translateY(-1px); color: var(--bra-primary-dark); background: #fff; }
+        .btn-bra-outline-white {
+            background-color: transparent;
+            border: 2px solid rgba(255,255,255,0.5);
+            color: #fff;
+            font-weight: 600;
+            padding: 1rem 2rem;
+            border-radius: 0.5rem;
+            transition: all 0.18s ease;
+            font-size: 1.0625rem;
+        }
+        .btn-bra-outline-white:hover { background-color: rgba(255,255,255,0.1); border-color: #fff; color: #fff; }
+
+        /* ===== Common Section Helpers ===== */
         .eyebrow {
             color: var(--bra-primary);
-            font-size: 0.78rem;
+            font-size: 0.8rem;
             letter-spacing: 0.12em;
             text-transform: uppercase;
             font-weight: 600;
-            margin-bottom: 1rem;
+            margin-bottom: 1.25rem;
             display: inline-block;
         }
         .eyebrow-light {
             color: var(--bra-accent);
-            font-size: 0.78rem;
+            font-size: 0.8rem;
             letter-spacing: 0.12em;
             text-transform: uppercase;
             font-weight: 600;
-            margin-bottom: 1rem;
+            margin-bottom: 1.25rem;
             display: inline-block;
         }
+        .section-h2 {
+            font-size: clamp(2rem, 4vw, 3.5rem);
+            font-weight: 700;
+            color: var(--bra-text);
+            margin-bottom: 1.25rem;
+            line-height: 1.15;
+        }
+        .section-sub {
+            font-size: clamp(1rem, 1.5vw, 1.25rem);
+            color: #6B7280;
+            line-height: 1.6;
+            max-width: 60ch;
+            margin: 0 auto 3.5rem;
+        }
+        .section-header-center {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto 4rem;
+        }
+        .bra-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding-left: clamp(1rem, 3vw, 2rem);
+            padding-right: clamp(1rem, 3vw, 2rem);
+        }
 
-        /* ===== Section 1 · Hero ===== */
+        /* ===== 100vh Section Base ===== */
+        .bra-section-full {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            padding: 8rem 0;
+        }
+        .bra-section-break {
+            min-height: 60vh;
+            display: flex;
+            align-items: center;
+            padding: 8rem 0;
+        }
+        @media (max-width: 768px) {
+            .bra-section-full {
+                min-height: auto;
+                padding: 5rem 0;
+            }
+            .bra-section-break {
+                min-height: auto;
+                padding: 5rem 0;
+            }
+        }
+
+        /* ===== Section 1 - Hero ===== */
         .hero-section {
             position: relative;
             overflow: hidden;
             color: #fff;
-            background:
-                linear-gradient(135deg, rgba(17,24,39,0.78) 0%, rgba(31,41,55,0.72) 45%, rgba(220,38,38,0.55) 100%),
-                linear-gradient(45deg, #1F2937 0%, #111827 50%, #DC2626 100%);
-            min-height: 640px;
-            display: flex;
-            align-items: center;
-            padding: 6rem 0 5rem;
+            background: linear-gradient(160deg, #1F2937 0%, #111827 60%, #1F2937 100%);
         }
         .hero-section::before {
             content: '';
             position: absolute;
             inset: 0;
-            background-image:
-                radial-gradient(circle at 20% 30%, rgba(252,211,77,0.08) 0, transparent 40%),
-                radial-gradient(circle at 80% 70%, rgba(220,38,38,0.18) 0, transparent 45%);
+            background:
+                radial-gradient(ellipse 800px 600px at 25% 40%, rgba(220,38,38,0.15) 0%, transparent 70%),
+                radial-gradient(ellipse 600px 500px at 75% 60%, rgba(220,38,38,0.08) 0%, transparent 70%),
+                radial-gradient(circle at 50% 90%, rgba(252,211,77,0.05) 0%, transparent 50%);
             z-index: 1;
         }
-        .hero-section .container { position: relative; z-index: 2; }
+        .hero-section .bra-container { position: relative; z-index: 2; width: 100%; }
         .hero-h1 {
-            font-size: clamp(2.25rem, 4vw, 4rem);
+            font-size: clamp(3rem, 6vw, 5.5rem);
             font-weight: 800;
-            line-height: 1.12;
-            letter-spacing: -0.015em;
-            margin-bottom: 1.5rem;
+            line-height: 1.08;
+            letter-spacing: -0.02em;
+            margin-bottom: 1.75rem;
         }
         .hero-sub {
-            font-size: 1.125rem;
-            line-height: 1.55;
+            font-size: clamp(1rem, 1.5vw, 1.25rem);
+            line-height: 1.6;
             color: #E5E7EB;
-            margin-bottom: 2.25rem;
-            max-width: 62ch;
+            margin-bottom: 2.5rem;
+            max-width: 60ch;
         }
         .hero-trust {
-            font-size: 0.85rem;
+            font-size: 0.9rem;
             color: #D1D5DB;
             letter-spacing: 0.02em;
-            margin-top: 2rem;
+            margin-top: 2.5rem;
         }
         .hero-visual {
-            background: linear-gradient(180deg, rgba(31,41,55,0.4) 0%, rgba(31,41,55,0.85) 100%), repeating-linear-gradient(45deg, #1F2937 0 8px, #111827 8px 16px);
+            background: linear-gradient(180deg, rgba(31,41,55,0.4) 0%, rgba(31,41,55,0.85) 100%),
+                        repeating-linear-gradient(45deg, #1F2937 0 8px, #111827 8px 16px);
             border-radius: 0.75rem;
-            min-height: 400px;
+            min-height: 440px;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -280,47 +343,46 @@
             border: 1px solid rgba(255,255,255,0.06);
         }
 
-        /* ===== Section 2 · Data Wall ===== */
-        .data-wall-section { background: var(--bra-bg-light); padding: 5rem 0; }
+        /* ===== Section 2 - Data Wall ===== */
+        .data-wall-section { background: var(--bra-bg-light); }
         .data-stat-card {
-            padding: 2rem 1.5rem;
+            padding: 2.5rem 2rem;
             text-align: left;
             position: relative;
         }
         .data-stat-number {
-            font-size: clamp(2.75rem, 5vw, 4.25rem);
+            font-size: clamp(4rem, 8vw, 7rem);
             font-weight: 800;
             color: var(--bra-primary);
             line-height: 1;
             letter-spacing: -0.02em;
-            margin-bottom: 0.75rem;
+            margin-bottom: 1rem;
         }
         .data-stat-label {
-            font-size: 0.875rem;
+            font-size: 1.0625rem;
             color: #4B5563;
-            line-height: 1.5;
-            max-width: 30ch;
+            line-height: 1.65;
+            max-width: 34ch;
         }
         .data-stat-icon {
             position: absolute;
-            top: 1.75rem;
-            right: 1.5rem;
-            color: #9CA3AF;
-            font-size: 1.25rem;
-            opacity: 0.6;
+            top: 2rem;
+            right: 2rem;
+            color: #D1D5DB;
+            font-size: 1.5rem;
+            opacity: 0.5;
         }
 
-        /* ===== Section 3 · Break Band ===== */
+        /* ===== Section 3 - Break Band ===== */
         .break-band-section {
             background: var(--bra-darker);
             color: #fff;
-            padding: 7rem 0;
             text-align: center;
             border-top: 1px solid #374151;
             border-bottom: 1px solid #374151;
         }
         .break-band-quote {
-            font-size: clamp(1.75rem, 4vw, 3rem);
+            font-size: clamp(2rem, 4.5vw, 3.5rem);
             font-weight: 700;
             line-height: 1.18;
             letter-spacing: -0.01em;
@@ -331,15 +393,16 @@
             margin-right: auto;
         }
         .break-band-note {
-            font-size: 0.9375rem;
+            font-size: 1rem;
             color: var(--bra-accent);
             opacity: 0.9;
             max-width: 60ch;
             margin: 0 auto;
+            line-height: 1.5;
         }
 
-        /* ===== Section 4 · Product Family ===== */
-        .product-family-section { padding: 5rem 0; background: #fff; }
+        /* ===== Section 4 - Product Family ===== */
+        .product-family-section { background: #fff; }
         .pf-card {
             background: #fff;
             border: 1px solid var(--bra-border);
@@ -374,34 +437,34 @@
             letter-spacing: 0.04em;
             text-transform: uppercase;
         }
-        .pf-card-body { padding: 1.5rem; flex: 1; display: flex; flex-direction: column; }
+        .pf-card-body { padding: 1.75rem; flex: 1; display: flex; flex-direction: column; }
         .pf-card-title { font-size: 1.125rem; font-weight: 700; margin-bottom: 0.5rem; color: var(--bra-text); }
-        .pf-card-desc { font-size: 0.9375rem; color: #4B5563; line-height: 1.55; margin-bottom: 1rem; flex: 1; }
+        .pf-card-desc { font-size: 1.0625rem; color: #4B5563; line-height: 1.65; margin-bottom: 1rem; flex: 1; }
         .pf-card-chips { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 1rem; }
         .pf-chip {
             background: var(--bra-bg-soft);
             color: var(--bra-text);
             border-radius: 9999px;
-            padding: 0.25rem 0.625rem;
-            font-size: 0.75rem;
+            padding: 0.3rem 0.75rem;
+            font-size: 0.8125rem;
             line-height: 1.4;
         }
         .pf-card-link {
             color: var(--bra-primary);
-            font-size: 0.875rem;
+            font-size: 0.9375rem;
             text-decoration: none;
             font-weight: 600;
             margin-top: auto;
         }
         .pf-card-link:hover { color: var(--bra-primary-dark); }
 
-        /* ===== Section 5 · Services ===== */
-        .services-section { padding: 5rem 0; background: var(--bra-bg-light); }
+        /* ===== Section 5 - Services ===== */
+        .services-section { background: var(--bra-bg-light); }
         .svc-card {
             background: #fff;
             border: 1px solid var(--bra-border);
             border-radius: 0.5rem;
-            padding: 1.5rem;
+            padding: 2rem;
             height: 100%;
             display: flex;
             flex-direction: column;
@@ -410,34 +473,23 @@
         .svc-card:hover { border-color: var(--bra-primary); }
         .svc-card-icon {
             color: #4B5563;
-            font-size: 1.5rem;
-            margin-bottom: 1rem;
+            font-size: 1.75rem;
+            margin-bottom: 1.25rem;
         }
-        .svc-card-title { font-size: 1rem; font-weight: 600; color: var(--bra-text); margin-bottom: 0.5rem; }
-        .svc-card-desc { font-size: 0.875rem; color: #4B5563; line-height: 1.5; margin-bottom: 1rem; }
+        .svc-card-title { font-size: 1.0625rem; font-weight: 600; color: var(--bra-text); margin-bottom: 0.5rem; }
+        .svc-card-desc { font-size: 1.0625rem; color: #4B5563; line-height: 1.65; margin-bottom: 1rem; }
         .svc-card-divider { border: 0; border-top: 1px solid var(--bra-border); margin: 0.75rem 0; }
         .svc-card-data {
             font-family: 'SF Mono', 'Menlo', 'Consolas', monospace;
-            font-size: 0.8125rem;
-            color: var(--bra-text);
-            margin-bottom: 0.75rem;
-        }
-        .svc-card-link { color: var(--bra-primary); font-size: 0.875rem; text-decoration: none; font-weight: 600; margin-top: auto; }
-        .svc-card-link:hover { color: var(--bra-primary-dark); }
-        .svc-floorshot {
-            margin-top: 3rem;
-            aspect-ratio: 16/6;
-            background: linear-gradient(120deg, #1F2937 0%, #374151 40%, #1F2937 100%);
-            border-radius: 0.75rem;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #9CA3AF;
             font-size: 0.875rem;
+            color: var(--bra-text);
+            margin-bottom: 1rem;
         }
+        .svc-card-link { color: var(--bra-primary); font-size: 0.9375rem; text-decoration: none; font-weight: 600; margin-top: auto; }
+        .svc-card-link:hover { color: var(--bra-primary-dark); }
 
-        /* ===== Section 6 · Capacity Datasheet ===== */
-        .capacity-section { padding: 5rem 0; background: #fff; }
+        /* ===== Section 6 - Capacity Datasheet ===== */
+        .capacity-section { background: #fff; }
         .cap-table { width: 100%; border-collapse: collapse; }
         .cap-table thead th {
             background: var(--bra-bg-light);
@@ -446,15 +498,17 @@
             letter-spacing: 0.06em;
             color: var(--bra-muted);
             font-weight: 600;
-            padding: 0.875rem 1rem;
+            padding: 1rem 1.25rem;
             text-align: left;
             border-bottom: 1px solid var(--bra-border);
         }
         .cap-table tbody td {
-            padding: 0.875rem 1rem;
+            padding: 1rem 1.25rem;
             border-bottom: 1px solid var(--bra-border);
-            font-size: 0.9375rem;
+            font-size: 1.0625rem;
+            line-height: 1.65;
         }
+        .cap-table tbody tr:nth-child(even) { background: var(--bra-bg-light); }
         .cap-table tbody td:first-child { color: var(--bra-text); font-weight: 500; }
         .cap-table tbody td:last-child {
             font-family: 'SF Mono', 'Menlo', 'Consolas', monospace;
@@ -474,96 +528,98 @@
             padding: 2rem;
         }
 
-        /* ===== Section 7 · Mid CTA ===== */
+        /* ===== Section 7 - Mid CTA ===== */
         .mid-cta-section {
             background: var(--bra-primary);
             color: #fff;
-            padding: 5rem 0;
             text-align: center;
         }
         .mid-cta-h2 {
-            font-size: clamp(1.5rem, 3vw, 2.25rem);
+            font-size: clamp(1.75rem, 3.5vw, 2.75rem);
             font-weight: 700;
             color: #fff;
-            margin-bottom: 1rem;
+            margin-bottom: 1.25rem;
         }
         .mid-cta-sub {
-            font-size: 1.125rem;
+            font-size: clamp(1rem, 1.5vw, 1.25rem);
             color: rgba(255,255,255,0.85);
             max-width: 50ch;
-            margin: 0 auto 2rem;
+            margin: 0 auto 2.5rem;
+            line-height: 1.6;
         }
-        .mid-cta-note { font-size: 0.8125rem; color: rgba(255,255,255,0.7); margin-top: 1rem; }
+        .mid-cta-note { font-size: 0.875rem; color: rgba(255,255,255,0.7); margin-top: 1.25rem; }
 
-        /* ===== Section 8 · Comparison ===== */
-        .comparison-section { padding: 5rem 0; background: var(--bra-bg-light); }
+        /* ===== Section 8 - Comparison ===== */
+        .comparison-section { background: #fff; }
         .cmp-row {
             display: grid;
             grid-template-columns: 16% 42% 42%;
-            gap: 1.5rem;
-            padding: 1.5rem 0;
+            gap: 2rem;
+            padding: 2rem 0;
             border-bottom: 1px solid var(--bra-border);
             align-items: start;
         }
         .cmp-row:last-child { border-bottom: none; }
-        .cmp-row-label { font-size: 0.875rem; font-weight: 600; color: var(--bra-text); }
+        .cmp-row-label { font-size: 1rem; font-weight: 600; color: var(--bra-text); }
         .cmp-row-industry {
-            font-size: 0.9375rem;
+            font-size: 1.0625rem;
             color: var(--bra-muted);
-            line-height: 1.55;
+            line-height: 1.65;
             position: relative;
-            padding-left: 1.5rem;
+            padding-left: 2rem;
         }
         .cmp-row-industry::before {
-            content: '✗';
+            content: '\2717';
             position: absolute;
             left: 0;
-            top: 0;
+            top: 0.1em;
             color: #9CA3AF;
             font-weight: 700;
+            font-size: 1.125rem;
         }
         .cmp-row-berun {
-            font-size: 0.9375rem;
+            font-size: 1.0625rem;
             color: var(--bra-text);
-            line-height: 1.55;
+            line-height: 1.65;
             font-weight: 500;
             position: relative;
-            padding-left: 1.5rem;
+            padding-left: 2rem;
         }
         .cmp-row-berun::before {
-            content: '✓';
+            content: '\2713';
             position: absolute;
             left: 0;
-            top: 0;
+            top: 0.1em;
             color: var(--bra-primary);
             font-weight: 700;
+            font-size: 1.125rem;
         }
         @media (max-width: 768px) {
-            .cmp-row { grid-template-columns: 1fr; gap: 0.75rem; }
-            .cmp-row-label { font-size: 0.95rem; color: var(--bra-primary); }
+            .cmp-row { grid-template-columns: 1fr; gap: 1rem; }
+            .cmp-row-label { font-size: 1.0625rem; color: var(--bra-primary); }
         }
 
-        /* ===== Section 9 · Certifications ===== */
-        .cert-section { padding: 5rem 0; background: #fff; }
+        /* ===== Section 9 - Certifications ===== */
+        .cert-section { background: var(--bra-bg-light); }
         .cert-badge-row {
             display: flex;
             justify-content: center;
             align-items: center;
             flex-wrap: wrap;
             gap: 2.5rem;
-            margin: 2.5rem 0 3.5rem;
+            margin: 3rem 0 4rem;
         }
         .cert-badge {
-            height: 64px;
-            min-width: 110px;
+            height: 72px;
+            min-width: 120px;
             display: flex;
             align-items: center;
             justify-content: center;
-            background: var(--bra-bg-light);
+            background: #fff;
             border: 1px solid var(--bra-border);
             border-radius: 0.5rem;
-            padding: 0.75rem 1rem;
-            font-size: 0.78rem;
+            padding: 0.875rem 1.25rem;
+            font-size: 0.8125rem;
             font-weight: 700;
             color: #4B5563;
             letter-spacing: 0.04em;
@@ -576,17 +632,17 @@
         .cert-list .cert-row {
             display: grid;
             grid-template-columns: 60% 40%;
-            gap: 1.25rem;
+            gap: 1.5rem;
             align-items: start;
-            padding: 1.25rem 0;
+            padding: 1.5rem 0;
             border-bottom: 1px solid var(--bra-border);
         }
         .cert-list .cert-row:last-child { border-bottom: none; }
-        .cert-name { font-size: 1rem; font-weight: 600; color: var(--bra-text); margin-bottom: 0.25rem; }
-        .cert-desc { font-size: 0.875rem; color: #4B5563; line-height: 1.5; }
+        .cert-name { font-size: 1.0625rem; font-weight: 600; color: var(--bra-text); margin-bottom: 0.25rem; }
+        .cert-desc { font-size: 1.0625rem; color: #4B5563; line-height: 1.65; }
         .cert-action {
             text-align: right;
-            font-size: 0.8125rem;
+            font-size: 0.875rem;
             color: var(--bra-text);
             font-family: 'SF Mono', 'Menlo', 'Consolas', monospace;
         }
@@ -597,53 +653,53 @@
             .cert-action { text-align: left; }
         }
 
-        /* ===== Section 10 · Quote Cards ===== */
-        .quote-section { padding: 6rem 0; background: var(--bra-bg-light); }
+        /* ===== Section 10 - Client Voice ===== */
+        .quote-section { background: #fff; }
         .quote-section-eyebrow {
             text-align: center;
-            font-size: 0.78rem;
+            font-size: 0.8rem;
             letter-spacing: 0.12em;
             text-transform: uppercase;
             color: var(--bra-muted);
             font-weight: 600;
-            margin-bottom: 3rem;
+            margin-bottom: 3.5rem;
         }
         .quote-card {
-            background: #fff;
+            background: var(--bra-bg-light);
             border-radius: 0.75rem;
-            padding: 2.5rem;
+            padding: 3rem;
             height: 100%;
             display: flex;
             flex-direction: column;
             box-shadow: 0 1px 3px rgba(17,24,39,0.04);
         }
         .quote-mark {
-            font-size: 4rem;
+            font-size: 5rem;
             color: var(--bra-primary);
-            opacity: 0.3;
+            opacity: 0.25;
             line-height: 0.8;
             font-family: Georgia, 'Times New Roman', serif;
-            margin-bottom: 1rem;
+            margin-bottom: 1.25rem;
         }
         .quote-text {
             font-size: 1.0625rem;
-            line-height: 1.6;
+            line-height: 1.65;
             color: var(--bra-text);
-            margin-bottom: 1.5rem;
+            margin-bottom: 2rem;
             flex: 1;
         }
-        .quote-divider { border: 0; border-top: 1px solid var(--bra-border); margin-bottom: 1.25rem; }
+        .quote-divider { border: 0; border-top: 1px solid var(--bra-border); margin-bottom: 1.5rem; }
         .quote-attr {
             display: flex;
             align-items: center;
-            gap: 0.875rem;
-            font-size: 0.875rem;
+            gap: 1rem;
+            font-size: 0.9375rem;
             color: #4B5563;
             font-weight: 500;
         }
         .quote-avatar {
-            width: 42px;
-            height: 42px;
+            width: 48px;
+            height: 48px;
             border-radius: 50%;
             background: linear-gradient(135deg, var(--bra-primary) 0%, var(--bra-primary-dark) 100%);
             color: #fff;
@@ -651,46 +707,54 @@
             align-items: center;
             justify-content: center;
             font-weight: 700;
-            font-size: 0.875rem;
+            font-size: 0.9375rem;
             flex-shrink: 0;
         }
 
-        /* ===== Section 11 · Markets Served ===== */
-        .markets-section { padding: 5rem 0; background: #fff; }
+        /* ===== Section 11 - Markets Served ===== */
+        .markets-section {
+            background: var(--bra-dark);
+            color: #fff;
+        }
+        .markets-section .section-h2 { color: #fff; }
+        .markets-section .section-sub { color: #D1D5DB; }
+        .markets-section .eyebrow { color: var(--bra-accent); }
         .logo-wall {
             display: grid;
             grid-template-columns: repeat(4, 1fr);
-            gap: 1rem 1.5rem;
-            margin: 2.5rem 0 3rem;
+            gap: 1.25rem;
+            margin: 3rem 0 4rem;
         }
         @media (max-width: 768px) {
             .logo-wall { grid-template-columns: repeat(3, 1fr); }
         }
         .logo-item {
-            height: 60px;
-            background: var(--bra-bg-light);
-            border: 1px solid var(--bra-border);
+            height: 68px;
+            background: rgba(255,255,255,0.06);
+            border: 1px solid rgba(255,255,255,0.1);
             border-radius: 0.375rem;
             display: flex;
             align-items: center;
             justify-content: center;
             font-size: 0.78rem;
             font-weight: 700;
-            color: #6B7280;
+            color: rgba(255,255,255,0.7);
             letter-spacing: 0.04em;
             text-align: center;
             line-height: 1.15;
             padding: 0.5rem;
+            transition: background 0.18s ease;
         }
+        .logo-item:hover { background: rgba(255,255,255,0.1); }
         .market-list { list-style: none; padding: 0; margin: 0; }
         .market-list li {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 0.75rem 0;
-            border-bottom: 1px solid var(--bra-border);
-            font-size: 0.9375rem;
-            color: var(--bra-text);
+            padding: 1rem 0;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+            font-size: 1.0625rem;
+            color: #E5E7EB;
             font-weight: 500;
         }
         .market-list li:last-child { border-bottom: none; }
@@ -698,57 +762,58 @@
             font-family: 'SF Mono', 'Menlo', 'Consolas', monospace;
             color: var(--bra-primary);
             font-weight: 700;
+            font-size: 1.125rem;
         }
         .market-col-h3 {
             font-size: 0.875rem;
             text-transform: uppercase;
             letter-spacing: 0.08em;
-            color: var(--bra-muted);
+            color: var(--bra-accent);
             font-weight: 700;
-            margin-bottom: 1.25rem;
+            margin-bottom: 1.5rem;
         }
 
-        /* ===== Section 12 · Final CTA ===== */
+        /* ===== Section 12 - Final CTA ===== */
         .final-cta-section {
-            background: var(--bra-darker);
+            background: linear-gradient(135deg, var(--bra-darker) 0%, #2a1215 50%, var(--bra-primary-dark) 100%);
             color: #fff;
-            padding: 6.5rem 0;
             text-align: center;
         }
         .final-cta-h2 {
-            font-size: clamp(2rem, 4vw, 3rem);
+            font-size: clamp(2rem, 4vw, 3.5rem);
             font-weight: 700;
             color: #fff;
-            line-height: 1.2;
+            line-height: 1.15;
             max-width: 22ch;
-            margin: 0 auto 1.5rem;
+            margin: 0 auto 1.75rem;
         }
         .final-cta-sub {
-            font-size: 1.125rem;
+            font-size: clamp(1rem, 1.5vw, 1.25rem);
             color: #D1D5DB;
-            line-height: 1.55;
+            line-height: 1.6;
             max-width: 56ch;
-            margin: 0 auto 2.5rem;
-        }
-        .final-cta-btns { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
-        .final-cta-trust { font-size: 0.875rem; color: #9CA3AF; margin-top: 2rem; letter-spacing: 0.02em; }
-
-        /* Section header common */
-        .section-h2 {
-            font-size: clamp(1.75rem, 3vw, 2.5rem);
-            font-weight: 700;
-            color: var(--bra-text);
-            margin-bottom: 1rem;
-            line-height: 1.2;
-        }
-        .section-sub {
-            font-size: 1.0625rem;
-            color: #4B5563;
-            line-height: 1.55;
-            max-width: 60ch;
             margin: 0 auto 3rem;
         }
-        .section-header-center { text-align: center; max-width: 720px; margin: 0 auto 3rem; }
+        .final-cta-btns { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; }
+        .final-cta-trust { font-size: 0.9375rem; color: #9CA3AF; margin-top: 2.5rem; letter-spacing: 0.02em; }
+
+        /* ===== Animations ===== */
+        .bra-fade-up {
+            opacity: 0;
+            transform: translateY(24px);
+            transition: opacity 0.7s cubic-bezier(0.2,0.8,0.2,1), transform 0.7s cubic-bezier(0.2,0.8,0.2,1);
+        }
+        .bra-fade-up.is-visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        @media (prefers-reduced-motion: reduce) {
+            .bra-fade-up {
+                opacity: 1;
+                transform: none;
+                transition: none;
+            }
+        }
     </style>
 </head>
 <body>
@@ -762,23 +827,23 @@
     <main>
 
         <!-- ============================================== -->
-        <!-- Section 1 · Hero [full-bleed] -->
+        <!-- Section 1 - Hero [100vh] -->
         <!-- ============================================== -->
-        <section id="section-1-hero" class="hero-section" aria-labelledby="hero-h1">
-            <div class="container">
+        <section id="section-1-hero" class="hero-section bra-section-full" aria-labelledby="hero-h1">
+            <div class="bra-container">
                 <div class="row align-items-center g-5">
                     <div class="col-lg-7">
-                        <span class="eyebrow-light">For sourcing directors replacing a factory that drifted</span>
-                        <h1 id="hero-h1" class="hero-h1">Custom Activewear Manufacturer — 380K pcs/mo, OTD 92.4%, AQL 98.5%</h1>
-                        <p class="hero-sub">OEM / ODM cut-and-sew across 12 lines · MOQ 300 / SKU split XS-XXL (not multiplied by size) · sample in 5 working days · OEKO-TEX 100, BSCI, WRAP Gold, GRS and Higg FEM on file.</p>
-                        <div class="d-flex flex-wrap gap-3">
+                        <span class="eyebrow-light bra-fade-up">For sourcing directors replacing a factory that drifted</span>
+                        <h1 id="hero-h1" class="hero-h1 bra-fade-up">Custom Activewear Manufacturer — 380K pcs/mo, OTD 92.4%, AQL 98.5%</h1>
+                        <p class="hero-sub bra-fade-up">OEM / ODM cut-and-sew across 12 lines · MOQ 300 / SKU split XS-XXL (not multiplied by size) · sample in 5 working days · OEKO-TEX 100, BSCI, WRAP Gold, GRS and Higg FEM on file.</p>
+                        <div class="d-flex flex-wrap gap-3 bra-fade-up">
                             <a href="/contact" class="btn btn-bra-primary">Send your tech-pack</a>
                             <a href="/contact?type=deck" class="btn btn-bra-outline">Request capability deck</a>
                         </div>
-                        <div class="hero-trust">8 years on the floor · 280 staff · 12 production lines · 5 regions shipped</div>
+                        <div class="hero-trust bra-fade-up">8 years on the floor · 280 staff · 12 production lines · 5 regions shipped</div>
                     </div>
                     <div class="col-lg-5">
-                        <div class="hero-visual" role="img" aria-label="Factory cutting room with pattern-makers comparing spec sheet to lay marker, fabric rolls in soft focus">
+                        <div class="hero-visual bra-fade-up" role="img" aria-label="Factory cutting room with pattern-makers comparing spec sheet to lay marker, fabric rolls in soft focus">
                             <span>[Factory cutting room · pattern-makers reviewing lay marker · fabric roll racks in background]</span>
                         </div>
                     </div>
@@ -787,51 +852,51 @@
         </section>
 
         <!-- ============================================== -->
-        <!-- Section 2 · 5-Second Disqualifier Check [data-wall] -->
+        <!-- Section 2 - Data Wall [100vh, #F9FAFB bg] -->
         <!-- ============================================== -->
-        <section id="section-2-data-wall" class="data-wall-section" aria-labelledby="datawall-h2">
-            <div class="container">
-                <div class="section-header-center">
+        <section id="section-2-data-wall" class="data-wall-section bra-section-full" aria-labelledby="datawall-h2">
+            <div class="bra-container" style="width:100%;">
+                <div class="section-header-center bra-fade-up">
                     <h2 id="datawall-h2" class="section-h2">Six numbers your last factory wouldn't put on a webpage</h2>
                     <p class="section-sub">If the supplier you're replacing won't share these in writing, you already know why the third PO drifted.</p>
                 </div>
                 <div class="row g-4">
-                    <div class="col-md-6 col-lg-4">
+                    <div class="col-md-6 col-lg-4 bra-fade-up">
                         <div class="data-stat-card">
                             <i class="bi bi-speedometer2 data-stat-icon" aria-hidden="true"></i>
                             <div class="data-stat-number">&plusmn;5% GSM</div>
                             <div class="data-stat-label">Per-batch fabric weight tolerance vs spec. Lab report attached to every PO.</div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4">
+                    <div class="col-md-6 col-lg-4 bra-fade-up">
                         <div class="data-stat-card">
                             <i class="bi bi-palette data-stat-icon" aria-hidden="true"></i>
                             <div class="data-stat-number">ΔE ≤ 1.5</div>
                             <div class="data-stat-label">Spectrophotometer color delta vs your approved lab dip. Black-on-black, neon, marl — same rule.</div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4">
+                    <div class="col-md-6 col-lg-4 bra-fade-up">
                         <div class="data-stat-card">
                             <i class="bi bi-rulers data-stat-icon" aria-hidden="true"></i>
                             <div class="data-stat-number">&plusmn;0.5 cm</div>
                             <div class="data-stat-label">Garment measurement tolerance on POM points: chest, waist, inseam, sleeve.</div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4">
+                    <div class="col-md-6 col-lg-4 bra-fade-up">
                         <div class="data-stat-card">
                             <i class="bi bi-calendar-check data-stat-icon" aria-hidden="true"></i>
                             <div class="data-stat-number">OTD 92.4%</div>
                             <div class="data-stat-label">12-month rolling on-time delivery. Quarterly PDF report shareable under NDA.</div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4">
+                    <div class="col-md-6 col-lg-4 bra-fade-up">
                         <div class="data-stat-card">
                             <i class="bi bi-patch-check data-stat-icon" aria-hidden="true"></i>
                             <div class="data-stat-number">AQL 2.5 / 98.5%</div>
                             <div class="data-stat-label">Pre-shipment inspection pass rate. SGS and Bureau Veritas compatible.</div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4">
+                    <div class="col-md-6 col-lg-4 bra-fade-up">
                         <div class="data-stat-card">
                             <i class="bi bi-stack data-stat-icon" aria-hidden="true"></i>
                             <div class="data-stat-number">MOQ 300 / SKU</div>
@@ -843,28 +908,28 @@
         </section>
 
         <!-- ============================================== -->
-        <!-- Section 3 · Promise Break [break-band] -->
+        <!-- Section 3 - Promise Break [60vh, dark bg] -->
         <!-- ============================================== -->
-        <section id="section-3-break-band" class="break-band-section" aria-labelledby="breakband-h2">
-            <div class="container">
-                <h2 id="breakband-h2" class="break-band-quote">Spec on paper. Spec on goods. Audit any PO.</h2>
-                <p class="break-band-note">Every shipment includes a per-batch AQL 2.5 report and a spectrophotometer ΔE log. Pull them at any stage.</p>
+        <section id="section-3-break-band" class="break-band-section bra-section-break" aria-labelledby="breakband-h2">
+            <div class="bra-container" style="width:100%;">
+                <h2 id="breakband-h2" class="break-band-quote bra-fade-up">Spec on paper. Spec on goods. Audit any PO.</h2>
+                <p class="break-band-note bra-fade-up">Every shipment includes a per-batch AQL 2.5 report and a spectrophotometer ΔE log. Pull them at any stage.</p>
             </div>
         </section>
 
         <!-- ============================================== -->
-        <!-- Section 4 · Product Family [standard / 5-card grid] -->
+        <!-- Section 4 - Product Family [100vh, white bg] -->
         <!-- ============================================== -->
-        <section id="section-4-product-family" class="product-family-section" aria-labelledby="pf-h2">
-            <div class="container">
-                <div class="section-header-center">
+        <section id="section-4-product-family" class="product-family-section bra-section-full" aria-labelledby="pf-h2">
+            <div class="bra-container" style="width:100%;">
+                <div class="section-header-center bra-fade-up">
                     <span class="eyebrow">Product portfolio</span>
                     <h2 id="pf-h2" class="section-h2">Five families running side-by-side on the same floor</h2>
                     <p class="section-sub">Each family below has its own pattern team and fabric library, but shares the same 32 QC inspectors and same lab-dip lane. Click through for subcategory specs.</p>
                 </div>
                 <!-- Row 1: 3-card grid -->
                 <div class="row g-4 mb-4">
-                    <div class="col-md-4">
+                    <div class="col-md-4 bra-fade-up">
                         <div class="pf-card">
                             <div class="pf-card-img" data-label="Training" aria-label="Black leggings flat-lay with visible cross-grain stretch texture">[Black leggings flat-lay]</div>
                             <div class="pf-card-body">
@@ -881,7 +946,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 bra-fade-up">
                         <div class="pf-card">
                             <div class="pf-card-img" data-label="Athleisure" aria-label="Grey oversized hoodie flat-lay on neutral background">[Grey oversized hoodie flat-lay]</div>
                             <div class="pf-card-body">
@@ -898,7 +963,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 bra-fade-up">
                         <div class="pf-card">
                             <div class="pf-card-img" data-label="Team / Club" aria-label="Sublimated jersey with number 12, red and blue colorway">[Sublimated jersey · #12]</div>
                             <div class="pf-card-body">
@@ -917,7 +982,7 @@
                 </div>
                 <!-- Row 2: 2-card grid centered -->
                 <div class="row g-4 justify-content-center">
-                    <div class="col-md-5">
+                    <div class="col-md-5 bra-fade-up">
                         <div class="pf-card">
                             <div class="pf-card-img" data-label="Outdoor" aria-label="Bright yellow windbreaker on outdoor park trail backdrop">[Yellow windbreaker · trail backdrop]</div>
                             <div class="pf-card-body">
@@ -933,7 +998,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-5">
+                    <div class="col-md-5 bra-fade-up">
                         <div class="pf-card">
                             <div class="pf-card-img" data-label="Accessories" aria-label="Headband, socks and cap accessories color-matched flat lay">[Headband · socks · cap composition]</div>
                             <div class="pf-card-body">
@@ -954,18 +1019,18 @@
         </section>
 
         <!-- ============================================== -->
-        <!-- Section 5 · Production Services [standard / 7-card grid 4+3] -->
+        <!-- Section 5 - Production Services [100vh, #F9FAFB bg] -->
         <!-- ============================================== -->
-        <section id="section-5-services" class="services-section" aria-labelledby="svc-h2">
-            <div class="container">
-                <div class="section-header-center">
+        <section id="section-5-services" class="services-section bra-section-full" aria-labelledby="svc-h2">
+            <div class="bra-container" style="width:100%;">
+                <div class="section-header-center bra-fade-up">
                     <span class="eyebrow">Production tracks</span>
                     <h2 id="svc-h2" class="section-h2">Seven production tracks for repeat clients</h2>
                     <p class="section-sub">Whether you bring a tech-pack, a sketch, or a sample you want repeated — there's a track that starts where you are.</p>
                 </div>
                 <!-- Row 1: 4 cards -->
                 <div class="row g-4 mb-4">
-                    <div class="col-md-6 col-lg-3">
+                    <div class="col-md-6 col-lg-3 bra-fade-up">
                         <div class="svc-card">
                             <i class="bi bi-scissors svc-card-icon" aria-hidden="true"></i>
                             <h3 class="svc-card-title">OEM (Cut-and-Sew)</h3>
@@ -975,7 +1040,7 @@
                             <a href="/services/oem" class="svc-card-link">See service spec &rarr;</a>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-3">
+                    <div class="col-md-6 col-lg-3 bra-fade-up">
                         <div class="svc-card">
                             <i class="bi bi-grid-3x3-gap svc-card-icon" aria-hidden="true"></i>
                             <h3 class="svc-card-title">ODM</h3>
@@ -985,7 +1050,7 @@
                             <a href="/services/odm" class="svc-card-link">See service spec &rarr;</a>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-3">
+                    <div class="col-md-6 col-lg-3 bra-fade-up">
                         <div class="svc-card">
                             <i class="bi bi-tag svc-card-icon" aria-hidden="true"></i>
                             <h3 class="svc-card-title">Private Label</h3>
@@ -995,7 +1060,7 @@
                             <a href="/services/private-label" class="svc-card-link">See service spec &rarr;</a>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-3">
+                    <div class="col-md-6 col-lg-3 bra-fade-up">
                         <div class="svc-card">
                             <i class="bi bi-box svc-card-icon" aria-hidden="true"></i>
                             <h3 class="svc-card-title">Small-Batch Sampling</h3>
@@ -1008,7 +1073,7 @@
                 </div>
                 <!-- Row 2: 3 cards centered -->
                 <div class="row g-4 justify-content-center">
-                    <div class="col-md-6 col-lg-3">
+                    <div class="col-md-6 col-lg-3 bra-fade-up">
                         <div class="svc-card">
                             <i class="bi bi-palette2 svc-card-icon" aria-hidden="true"></i>
                             <h3 class="svc-card-title">Custom Print &amp; Embroidery</h3>
@@ -1018,7 +1083,7 @@
                             <a href="/services/printing" class="svc-card-link">See service spec &rarr;</a>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-3">
+                    <div class="col-md-6 col-lg-3 bra-fade-up">
                         <div class="svc-card">
                             <i class="bi bi-people svc-card-icon" aria-hidden="true"></i>
                             <h3 class="svc-card-title">Team Customization</h3>
@@ -1028,7 +1093,7 @@
                             <a href="/services/team-customization" class="svc-card-link">See service spec &rarr;</a>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-3">
+                    <div class="col-md-6 col-lg-3 bra-fade-up">
                         <div class="svc-card">
                             <i class="bi bi-file-earmark-ruled svc-card-icon" aria-hidden="true"></i>
                             <h3 class="svc-card-title">Tech-Pack &amp; Pattern</h3>
@@ -1039,24 +1104,21 @@
                         </div>
                     </div>
                 </div>
-                <div class="svc-floorshot" role="img" aria-label="Production floor with sublimation press, cut-and-sew sewing machines and heat-transfer stations running in parallel">
-                    [Production floor · sublimation + cut-and-sew + heat-transfer in parallel]
-                </div>
             </div>
         </section>
 
         <!-- ============================================== -->
-        <!-- Section 6 · Capacity Datasheet [standard / 2-column split] -->
+        <!-- Section 6 - Capacity Datasheet [100vh, white bg] -->
         <!-- ============================================== -->
-        <section id="section-6-capacity" class="capacity-section" aria-labelledby="cap-h2">
-            <div class="container">
-                <div class="section-header-center">
+        <section id="section-6-capacity" class="capacity-section bra-section-full" aria-labelledby="cap-h2">
+            <div class="bra-container" style="width:100%;">
+                <div class="section-header-center bra-fade-up">
                     <span class="eyebrow">Audit-verifiable numbers</span>
                     <h2 id="cap-h2" class="section-h2">Factory at a glance — copy these rows into your supplier scorecard</h2>
                     <p class="section-sub">Send this row-for-row to your sourcing manager. Every number here goes into the MSA and is audit-verifiable on-site.</p>
                 </div>
                 <div class="row g-5 align-items-start">
-                    <div class="col-lg-7">
+                    <div class="col-lg-7 bra-fade-up">
                         <table class="cap-table">
                             <thead>
                                 <tr>
@@ -1078,9 +1140,9 @@
                                 <tr><td>Years on the floor</td><td>8 (since 2017)</td></tr>
                             </tbody>
                         </table>
-                        <p class="mt-3 text-muted" style="font-size:0.875rem;">Want this as a one-page PDF? <a href="#section-7-mid-cta" style="color:var(--bra-primary);text-decoration:none;font-weight:600;">Section below &darr;</a></p>
+                        <p class="mt-3 text-muted" style="font-size:0.9375rem;">Want this as a one-page PDF? <a href="#section-7-mid-cta" style="color:var(--bra-primary);text-decoration:none;font-weight:600;">Section below &darr;</a></p>
                     </div>
-                    <div class="col-lg-5">
+                    <div class="col-lg-5 bra-fade-up">
                         <div class="cap-floorshot" role="img" aria-label="Factory overhead — production lines, cut-and-sew stations, finished goods packaging area">
                             [Factory overhead · lines · cut-and-sew · finishing &amp; packaging]
                         </div>
@@ -1090,30 +1152,32 @@
         </section>
 
         <!-- ============================================== -->
-        <!-- Section 7 · Mid-Page CTA [mid-cta] -->
+        <!-- Section 7 - Mid-Page CTA [60vh, red bg] -->
         <!-- ============================================== -->
-        <section id="section-7-mid-cta" class="mid-cta-section" aria-labelledby="mid-cta-h2">
-            <div class="container">
-                <h2 id="mid-cta-h2" class="mid-cta-h2">Want the production numbers before sales?</h2>
-                <p class="mid-cta-sub">One-page PDF capacity datasheet — direct download, no email gate. Forward it to your sourcing director or operations lead.</p>
-                <a href="/assets/files/capacity-datasheet.pdf" class="btn btn-bra-white">
-                    <i class="bi bi-file-earmark-pdf me-2" aria-hidden="true"></i>Download capacity datasheet (PDF)
-                </a>
-                <p class="mid-cta-note">No form. Direct PDF, 280 KB. Updated quarterly.</p>
+        <section id="section-7-mid-cta" class="mid-cta-section bra-section-break" aria-labelledby="mid-cta-h2">
+            <div class="bra-container" style="width:100%;">
+                <h2 id="mid-cta-h2" class="mid-cta-h2 bra-fade-up">Want the production numbers before sales?</h2>
+                <p class="mid-cta-sub bra-fade-up">One-page PDF capacity datasheet — direct download, no email gate. Forward it to your sourcing director or operations lead.</p>
+                <div class="bra-fade-up">
+                    <a href="/assets/files/capacity-datasheet.pdf" class="btn btn-bra-white">
+                        <i class="bi bi-file-earmark-pdf me-2" aria-hidden="true"></i>Download capacity datasheet (PDF)
+                    </a>
+                </div>
+                <p class="mid-cta-note bra-fade-up">No form. Direct PDF, 280 KB. Updated quarterly.</p>
             </div>
         </section>
 
         <!-- ============================================== -->
-        <!-- Section 8 · Differentiation [comparison] -->
+        <!-- Section 8 - Differentiation [100vh, white bg] -->
         <!-- ============================================== -->
-        <section id="section-8-comparison" class="comparison-section" aria-labelledby="cmp-h2">
-            <div class="container">
-                <div class="section-header-center">
+        <section id="section-8-comparison" class="comparison-section bra-section-full" aria-labelledby="cmp-h2">
+            <div class="bra-container" style="width:100%;">
+                <div class="section-header-center bra-fade-up">
                     <span class="eyebrow">What we publish vs what most factories hide</span>
                     <h2 id="cmp-h2" class="section-h2">Four lines the rest of the industry won't put on a webpage</h2>
                     <p class="section-sub">Not a knock on other factories — this is just what we made public. Compare on your shortlist scorecard.</p>
                 </div>
-                <div class="cmp-table">
+                <div class="cmp-table bra-fade-up">
                     <div class="cmp-row">
                         <div class="cmp-row-label">Tolerance commitment</div>
                         <div class="cmp-row-industry">Tolerance numbers live inside the MSA, not on the website. You see them after you've already signed.</div>
@@ -1139,23 +1203,23 @@
         </section>
 
         <!-- ============================================== -->
-        <!-- Section 9 · Certifications [standard / 5 badges + 5-row list] -->
+        <!-- Section 9 - Certifications [100vh, #F9FAFB bg] -->
         <!-- ============================================== -->
-        <section id="section-9-certifications" class="cert-section" aria-labelledby="cert-h2">
-            <div class="container">
-                <div class="section-header-center">
+        <section id="section-9-certifications" class="cert-section bra-section-full" aria-labelledby="cert-h2">
+            <div class="bra-container" style="width:100%;">
+                <div class="section-header-center bra-fade-up">
                     <span class="eyebrow">Audited annually</span>
                     <h2 id="cert-h2" class="section-h2">Five certifications on file — request the PDFs by name</h2>
                     <p class="section-sub">Sourcing for US retailers, EU marketplaces, or Amazon brand-registry compliance? These are the five audit-checked annually.</p>
                 </div>
-                <div class="cert-badge-row" role="list">
+                <div class="cert-badge-row bra-fade-up" role="list">
                     <div class="cert-badge" role="listitem">OEKO-TEX<br>Standard 100</div>
                     <div class="cert-badge" role="listitem">BSCI</div>
                     <div class="cert-badge" role="listitem">WRAP<br>Gold</div>
                     <div class="cert-badge" role="listitem">GRS</div>
                     <div class="cert-badge" role="listitem">Higg FEM</div>
                 </div>
-                <div class="cert-list">
+                <div class="cert-list bra-fade-up">
                     <div class="cert-row">
                         <div>
                             <div class="cert-name">OEKO-TEX Standard 100</div>
@@ -1192,20 +1256,20 @@
                         <div class="cert-action">Assessment no. HIG-FEM-2024-CN-08<a href="/contact?req=higg">Request PDF &rarr;</a></div>
                     </div>
                 </div>
-                <div class="text-center mt-4">
+                <div class="text-center mt-4 bra-fade-up">
                     <a href="/contact?req=all-certs" style="color:var(--bra-primary);font-weight:600;text-decoration:none;">Get all five as a zipped pack &rarr;</a>
                 </div>
             </div>
         </section>
 
         <!-- ============================================== -->
-        <!-- Section 10 · Client Voice [quote-card] -->
+        <!-- Section 10 - Client Voice [60vh, white bg] -->
         <!-- ============================================== -->
-        <section id="section-10-quotes" class="quote-section" aria-labelledby="quote-h2">
-            <div class="container">
-                <h2 id="quote-h2" class="quote-section-eyebrow">What our sourcing-side counterparts say after PO 3</h2>
+        <section id="section-10-quotes" class="quote-section bra-section-break" aria-labelledby="quote-h2">
+            <div class="bra-container" style="width:100%;">
+                <h2 id="quote-h2" class="quote-section-eyebrow bra-fade-up">What our sourcing-side counterparts say after PO 3</h2>
                 <div class="row g-4">
-                    <div class="col-md-6">
+                    <div class="col-md-6 bra-fade-up">
                         <div class="quote-card">
                             <div class="quote-mark" aria-hidden="true">&ldquo;</div>
                             <p class="quote-text">Two factories ago, batch-to-batch GSM drift was killing my Amazon BSR — 14% variance across one PO. We switched 3 SKUs to Berun. First PO: 4,200 pieces across 4 colors, OTD 17 days, lab dip passed on the first round. Reordered 11K pieces 6 weeks later. The pre-shipment AQL report comes with every PO — I cut my third-party inspection budget in half.</p>
@@ -1216,7 +1280,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 bra-fade-up">
                         <div class="quote-card">
                             <div class="quote-mark" aria-hidden="true">&ldquo;</div>
                             <p class="quote-text">Most factories quote MOQ 300 per SKU but actually mean 300 × 5 sizes = 1,500 units. That math killed 6 SKU launches for us in 2023. Berun split 300 across XS-XXL on our first PO — we launched 5 SKUs in Q1 2024 and hit 88% sell-through within 60 days. They send a monthly OTD report unprompted; I forward it to my CFO every month.</p>
@@ -1232,16 +1296,16 @@
         </section>
 
         <!-- ============================================== -->
-        <!-- Section 11 · Markets Served [standard / logo wall + 2-col list] -->
+        <!-- Section 11 - Markets Served [100vh, dark bg] -->
         <!-- ============================================== -->
-        <section id="section-11-markets" class="markets-section" aria-labelledby="markets-h2">
-            <div class="container">
-                <div class="section-header-center">
+        <section id="section-11-markets" class="markets-section bra-section-full" aria-labelledby="markets-h2">
+            <div class="bra-container" style="width:100%;">
+                <div class="section-header-center bra-fade-up">
                     <span class="eyebrow">Eight years on the floor</span>
                     <h2 id="markets-h2" class="section-h2">Eight years, five regions, five buyer types</h2>
                     <p class="section-sub">Where the goods land and who's behind the POs. Twelve client brands listed below — full reference list available after intro call.</p>
                 </div>
-                <div class="logo-wall" role="list" aria-label="Twelve client brand names">
+                <div class="logo-wall bra-fade-up" role="list" aria-label="Twelve client brand names">
                     <div class="logo-item" role="listitem">AKARRA ACTIVE</div>
                     <div class="logo-item" role="listitem">ASPEN ATHLETIC CO.</div>
                     <div class="logo-item" role="listitem">BERLIN MILE CLUB</div>
@@ -1255,7 +1319,7 @@
                     <div class="logo-item" role="listitem">SEQUOIA SWEAT</div>
                     <div class="logo-item" role="listitem">VERDANT ATHLETICS</div>
                 </div>
-                <div class="row g-5">
+                <div class="row g-5 bra-fade-up">
                     <div class="col-md-6">
                         <h3 class="market-col-h3">Markets shipped (% 2024 volume)</h3>
                         <ul class="market-list">
@@ -1281,17 +1345,17 @@
         </section>
 
         <!-- ============================================== -->
-        <!-- Section 12 · Final CTA [mid-cta · dark] -->
+        <!-- Section 12 - Final CTA [60vh, gradient dark-to-red bg] -->
         <!-- ============================================== -->
-        <section id="section-12-final-cta" class="final-cta-section" aria-labelledby="final-h2">
-            <div class="container">
-                <h2 id="final-h2" class="final-cta-h2">Ready to put a real factory on your shortlist?</h2>
-                <p class="final-cta-sub">Send your tech-pack and we'll come back within one business day with a per-size MOQ split, sampling timeline, and an FOB quote. Or book a 30-min sourcing call with our engineering lead first.</p>
-                <div class="final-cta-btns">
-                    <a href="/contact?type=call" class="btn btn-bra-primary">Book a 30-min sourcing call</a>
-                    <a href="/assets/files/spec-template.xlsx" class="btn btn-bra-outline">Download spec template (XLSX)</a>
+        <section id="section-12-final-cta" class="final-cta-section bra-section-break" aria-labelledby="final-h2">
+            <div class="bra-container" style="width:100%;">
+                <h2 id="final-h2" class="final-cta-h2 bra-fade-up">Ready to put a real factory on your shortlist?</h2>
+                <p class="final-cta-sub bra-fade-up">Send your tech-pack and we'll come back within one business day with a per-size MOQ split, sampling timeline, and an FOB quote. Or book a 30-min sourcing call with our engineering lead first.</p>
+                <div class="final-cta-btns bra-fade-up">
+                    <a href="/contact?type=call" class="btn btn-bra-white">Book a 30-min sourcing call</a>
+                    <a href="/assets/files/spec-template.xlsx" class="btn btn-bra-outline-white">Download spec template (XLSX)</a>
                 </div>
-                <p class="final-cta-trust">Replies within 1 business day · NDA on request · Sample fee waived after first PO</p>
+                <p class="final-cta-trust bra-fade-up">Replies within 1 business day · NDA on request · Sample fee waived after first PO</p>
             </div>
         </section>
 
@@ -1306,5 +1370,26 @@
     <script src="/assets/dynamic-menu.js"></script>
     <script src="/assets/footer.js"></script>
     <script src="/assets/whatsapp-widget.js"></script>
+
+    <!-- Entrance Animations (IntersectionObserver) -->
+    <script>
+    (function() {
+        var els = document.querySelectorAll('.bra-fade-up');
+        if (!els.length) return;
+        if (!('IntersectionObserver' in window)) {
+            els.forEach(function(el) { el.classList.add('is-visible'); });
+            return;
+        }
+        var observer = new IntersectionObserver(function(entries) {
+            entries.forEach(function(entry) {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('is-visible');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+        els.forEach(function(el) { observer.observe(el); });
+    })();
+    </script>
 </body>
 </html>
