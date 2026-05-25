@@ -1,0 +1,91 @@
+{
+  "logo": {
+    "text": "Berun Active Wear",
+    "image": "/assets/images/logo.svg",
+    "link": "/",
+    "showText": false
+  },
+  "menuItems": [
+    {
+      "text": "Home",
+      "link": "/"
+    },
+    {
+      "text": "Products",
+      "link": "/products",
+      "children": [
+        {
+          "text": "Training & Performance",
+          "link": "/products/training-performance"
+        },
+        {
+          "text": "Athleisure",
+          "link": "/products/athleisure"
+        },
+        {
+          "text": "Team & Club",
+          "link": "/products/team-club"
+        },
+        {
+          "text": "Outdoor & Running",
+          "link": "/products/outdoor-running"
+        },
+        {
+          "text": "Accessories",
+          "link": "/products/accessories"
+        }
+      ]
+    },
+    {
+      "text": "Services",
+      "link": "/services",
+      "children": [
+        {
+          "text": "OEM Cut-and-Sew",
+          "link": "/services/oem"
+        },
+        {
+          "text": "ODM",
+          "link": "/services/odm"
+        },
+        {
+          "text": "Private Label",
+          "link": "/services/private-label"
+        },
+        {
+          "text": "Small-Batch Sampling",
+          "link": "/services/sampling"
+        },
+        {
+          "text": "Custom Print & Embroidery",
+          "link": "/services/printing"
+        },
+        {
+          "text": "Team Customization",
+          "link": "/services/team-customization"
+        },
+        {
+          "text": "Tech-Pack & Pattern",
+          "link": "/services/tech-pack"
+        }
+      ]
+    },
+    {
+      "text": "About",
+      "link": "/about"
+    },
+    {
+      "text": "Blog",
+      "link": "/blog"
+    },
+    {
+      "text": "Contact",
+      "link": "/contact"
+    }
+  ],
+  "ctaButton": {
+    "text": "Send Tech-Pack",
+    "link": "/contact",
+    "style": "primary"
+  }
+}

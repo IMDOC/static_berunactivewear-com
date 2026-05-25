@@ -1,0 +1,93 @@
+/**
+ * Article TOC — 目录导航
+ * berunactivewear.com
+ */
+
+/* ========== TOC Container (post-optimizer 结构) ========== */
+#toc-nav-container,
+.article-toc {
+    background: #f8f9fa;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 2rem;
+}
+
+/* ========== TOC Title ========== */
+.article-toc-title {
+    font-size: 0.8125rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #1a1a1a;
+    margin-bottom: 0.875rem;
+    padding-bottom: 0.625rem;
+    border-bottom: 2px solid #1EB7E6;
+}
+
+/* ========== TOC List ========== */
+.article-toc-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* ========== TOC Item ========== */
+.article-toc-item {
+    margin-bottom: 4px;
+}
+
+/* ========== TOC Link ========== */
+.article-toc-link {
+    display: block;
+    padding: 6px 0 6px 14px;
+    border-left: 3px solid transparent;
+    color: #444;
+    font-size: 0.9375rem;
+    line-height: 1.45;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.article-toc-link:hover {
+    color: #1EB7E6;
+    border-left-color: #1EB7E6;
+    background: rgba(30,183,230,0.05);
+    text-decoration: none;
+}
+
+/* ========== 站点原有 TOC 兼容 ========== */
+.toc-nav {
+    background: #f8f9fa;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.toc-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.toc-list li {
+    margin-bottom: 4px;
+}
+
+.toc-list li a {
+    display: block;
+    padding: 6px 0 6px 14px;
+    border-left: 3px solid transparent;
+    color: #444;
+    font-size: 0.9375rem;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.toc-list li a:hover {
+    color: #1EB7E6;
+    border-left-color: #1EB7E6;
+    background: rgba(30,183,230,0.05);
+    text-decoration: none;
+}

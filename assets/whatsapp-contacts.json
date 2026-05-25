@@ -1,0 +1,12 @@
+{
+  "contacts": [
+    {
+      "name": "Sales",
+      "title": "Sales Team",
+      "phone": "+8613800007212",
+      "email": "sales@berunactivewear.com",
+      "message": "Hi, I'm interested in your custom activewear OEM/ODM services.",
+      "default": true
+    }
+  ]
+}

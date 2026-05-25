@@ -1,0 +1,109 @@
+{
+  "company": {
+    "logo": "/assets/images/logo.svg",
+    "name": "Berun Active Wear",
+    "description": "Custom activewear and sportswear manufacturer offering one-stop OEM/ODM production for global brands, distributors, and private-label businesses. 12 production lines, 380K pcs/mo, OEKO-TEX/BSCI/WRAP/GRS/Higg FEM on file.",
+    "socialLinks": [
+      {
+        "icon": "linkedin",
+        "url": "https://www.linkedin.com/company/berun-active-wear",
+        "label": "LinkedIn"
+      }
+    ]
+  },
+  "columns": [
+    {
+      "title": "Products",
+      "links": [
+        {
+          "text": "Training & Performance",
+          "url": "/products/training-performance"
+        },
+        {
+          "text": "Athleisure",
+          "url": "/products/athleisure"
+        },
+        {
+          "text": "Team & Club",
+          "url": "/products/team-club"
+        },
+        {
+          "text": "Outdoor & Running",
+          "url": "/products/outdoor-running"
+        },
+        {
+          "text": "Accessories",
+          "url": "/products/accessories"
+        }
+      ]
+    },
+    {
+      "title": "Services",
+      "links": [
+        {
+          "text": "OEM Cut-and-Sew",
+          "url": "/services/oem"
+        },
+        {
+          "text": "ODM",
+          "url": "/services/odm"
+        },
+        {
+          "text": "Private Label",
+          "url": "/services/private-label"
+        },
+        {
+          "text": "Small-Batch Sampling",
+          "url": "/services/sampling"
+        },
+        {
+          "text": "Tech-Pack & Pattern",
+          "url": "/services/tech-pack"
+        }
+      ]
+    },
+    {
+      "title": "Company",
+      "links": [
+        {
+          "text": "About",
+          "url": "/about"
+        },
+        {
+          "text": "Blog",
+          "url": "/blog"
+        },
+        {
+          "text": "Contact",
+          "url": "/contact"
+        },
+        {
+          "text": "Privacy Policy",
+          "url": "/privacy-policy"
+        }
+      ]
+    }
+  ],
+  "contact": {
+    "title": "Contact Us",
+    "email": "sales@berunactivewear.com",
+    "phone": "+86-138-0000-7212",
+    "address": "Guangzhou, China",
+    "hours": "Mon-Fri 9AM-6PM (GMT+8)"
+  },
+  "copyright": {
+    "year": 2026,
+    "company": "Berun Active Wear",
+    "text": "All rights reserved. 8 years on the floor since 2017.",
+    "links": [
+      {
+        "text": "Privacy Policy",
+        "url": "/privacy-policy"
+      },
+      {
+        "text": "Terms of Service",
+        "url": "/terms-of-service"
+      }
+    ]
+  }
+}
