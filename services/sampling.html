@@ -238,7 +238,7 @@
 
     /* ===== Section system ===== */
     .section-corp {
-      min-height: 100vh;
+      min-height: auto;
       display: flex;
       align-items: center;
       padding: clamp(80px, 10vh, 120px) 0;
@@ -780,7 +780,7 @@
           </div>
           <div class="hero-sampling__media anim-rise anim-d4">
             <!-- [TODO: image of sample garment flat-lay with measurement tape and swatch cards] -->
-            <img src="https://placehold.co/640x480/374151/9CA3AF?text=Sample+Flat-Lay" alt="Activewear sample garment flat-lay with measurement tape and swatch cards" width="640" height="480" loading="eager">
+            <div style="background: linear-gradient(135deg, #374151 0%, #1F2937 100%); border-radius: 12px; width: 100%; height: 100%; min-height: 300px;" aria-hidden="true"></div>
           </div>
         </div>
       </div>
@@ -860,7 +860,7 @@
           <aside class="process-aside">
             <div class="process-aside__media">
               <!-- [TODO: image of factory sewing station producing a single sample piece] -->
-              <img src="https://placehold.co/480x640/F0EBE4/9CA3AF?text=Sample+Sewing" alt="Factory sewing station producing a single activewear sample piece" width="480" height="640" loading="lazy">
+              <div style="background: linear-gradient(135deg, #F0EBE4 0%, #E5E0D8 100%); width: 100%; height: 100%; min-height: 400px;" aria-hidden="true"></div>
             </div>
             <p class="process-aside__note">Fabric-to-order projects add 7 working days (total 12 working days).</p>
           </aside>
