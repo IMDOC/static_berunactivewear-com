@@ -119,6 +119,11 @@
     <!-- DNS Prefetch & Preconnect -->
     <link rel="dns-prefetch" href="//cdn.jsdelivr.net">
     <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Google Fonts: Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
     <!-- Bootstrap 5 + Icons -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -129,7 +134,7 @@
     <link href="/assets/css/topbar.css" rel="stylesheet">
     <link href="/assets/css/dynamic-menu.css" rel="stylesheet">
 
-    <!-- TopBar Configuration -->
+    <!-- TopBar / Menu / Footer Configuration -->
     <script>
         window.TopBarConfig = {
             configFile: '/assets/topbar-config.json',
@@ -154,6 +159,9 @@
         };
     </script>
 
+    <!-- Hero LCP preload -->
+    <link rel="preload" as="image" fetchpriority="high" href="/assets/images/hero-factory-bg.webp">
+
     <!-- Home page styles -->
     <style>
         :root {
@@ -172,6 +180,7 @@
             font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
             color: var(--bra-text);
             -webkit-font-smoothing: antialiased;
+            margin: 0;
         }
         #dynamic-menu-container { min-height: 70px; background: #fff; border-bottom: 1px solid #eee; }
 
@@ -185,6 +194,8 @@
             border-radius: 0.5rem;
             transition: background 0.18s ease;
             font-size: 1.0625rem;
+            text-decoration: none;
+            display: inline-block;
         }
         .btn-bra-primary:hover { background-color: var(--bra-primary-dark); border-color: var(--bra-primary-dark); color: #fff; }
         .btn-bra-outline {
@@ -196,6 +207,8 @@
             border-radius: 0.5rem;
             transition: background 0.18s ease;
             font-size: 1.0625rem;
+            text-decoration: none;
+            display: inline-block;
         }
         .btn-bra-outline:hover { background-color: rgba(255,255,255,0.12); color: #fff; }
         .btn-bra-white {
@@ -207,6 +220,8 @@
             border: none;
             transition: transform 0.18s ease;
             font-size: 1.0625rem;
+            text-decoration: none;
+            display: inline-block;
         }
         .btn-bra-white:hover { transform: translateY(-1px); color: var(--bra-primary-dark); background: #fff; }
         .btn-bra-outline-white {
@@ -218,6 +233,8 @@
             border-radius: 0.5rem;
             transition: all 0.18s ease;
             font-size: 1.0625rem;
+            text-decoration: none;
+            display: inline-block;
         }
         .btn-bra-outline-white:hover { background-color: rgba(255,255,255,0.1); border-color: #fff; color: #fff; }
 
@@ -295,17 +312,26 @@
             position: relative;
             overflow: hidden;
             color: #fff;
-            background: linear-gradient(160deg, #1F2937 0%, #111827 60%, #1F2937 100%);
+            background: var(--bra-darker);
         }
-        .hero-section::before {
+        .hero-bg {
+            position: absolute;
+            inset: 0;
+            z-index: 0;
+        }
+        .hero-bg img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+        .hero-bg::after {
             content: '';
             position: absolute;
             inset: 0;
             background:
-                radial-gradient(ellipse 800px 600px at 25% 40%, rgba(220,38,38,0.15) 0%, transparent 70%),
-                radial-gradient(ellipse 600px 500px at 75% 60%, rgba(220,38,38,0.08) 0%, transparent 70%),
-                radial-gradient(circle at 50% 90%, rgba(252,211,77,0.05) 0%, transparent 50%);
-            z-index: 1;
+                linear-gradient(160deg, rgba(17,24,39,0.92) 0%, rgba(31,41,55,0.78) 45%, rgba(17,24,39,0.65) 100%),
+                radial-gradient(ellipse 800px 600px at 25% 40%, rgba(220,38,38,0.12) 0%, transparent 70%);
         }
         .hero-section .bra-container { position: relative; z-index: 2; width: 100%; }
         .hero-h1 {
@@ -329,20 +355,6 @@
             letter-spacing: 0.02em;
             margin-top: 2.5rem;
         }
-        .hero-visual {
-            background: linear-gradient(180deg, rgba(31,41,55,0.4) 0%, rgba(31,41,55,0.85) 100%),
-                        repeating-linear-gradient(45deg, #1F2937 0 8px, #111827 8px 16px);
-            border-radius: 0.75rem;
-            min-height: 440px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #9CA3AF;
-            font-size: 0.875rem;
-            text-align: center;
-            padding: 2rem;
-            border: 1px solid rgba(255,255,255,0.06);
-        }
 
         /* ===== Section 2 - Data Wall ===== */
         .data-wall-section { background: var(--bra-bg-light); }
@@ -350,6 +362,15 @@
             padding: 2.5rem 2rem;
             text-align: left;
             position: relative;
+        }
+        .data-stat-icon {
+            position: absolute;
+            top: 2rem;
+            right: 2rem;
+            color: #D1D5DB;
+            opacity: 0.5;
+            width: 28px;
+            height: 28px;
         }
         .data-stat-number {
             font-size: clamp(4rem, 8vw, 7rem);
@@ -364,14 +385,6 @@
             color: #4B5563;
             line-height: 1.65;
             max-width: 34ch;
-        }
-        .data-stat-icon {
-            position: absolute;
-            top: 2rem;
-            right: 2rem;
-            color: #D1D5DB;
-            font-size: 1.5rem;
-            opacity: 0.5;
         }
 
         /* ===== Section 3 - Break Band ===== */
@@ -417,14 +430,17 @@
         .pf-card:hover { transform: translateY(-4px); box-shadow: 0 12px 28px rgba(17,24,39,0.08); }
         .pf-card-img {
             aspect-ratio: 4/3;
-            background: linear-gradient(135deg, #F3F4F6 0%, #E5E7EB 100%);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: var(--bra-muted);
-            font-size: 0.8125rem;
+            overflow: hidden;
             position: relative;
         }
+        .pf-card-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+            transition: transform 0.3s ease;
+        }
+        .pf-card:hover .pf-card-img img { transform: scale(1.03); }
         .pf-card-img::after {
             content: attr(data-label);
             position: absolute;
@@ -474,8 +490,10 @@
         .svc-card:hover { border-color: var(--bra-primary); }
         .svc-card-icon {
             color: #4B5563;
-            font-size: 1.75rem;
+            width: 32px;
+            height: 32px;
             margin-bottom: 1.25rem;
+            flex-shrink: 0;
         }
         .svc-card-title { font-size: 1.0625rem; font-weight: 600; color: var(--bra-text); margin-bottom: 0.5rem; }
         .svc-card-desc { font-size: 1.0625rem; color: #4B5563; line-height: 1.65; margin-bottom: 1rem; }
@@ -518,15 +536,14 @@
         }
         .cap-floorshot {
             aspect-ratio: 4/3;
-            background: linear-gradient(135deg, #1F2937 0%, #374151 50%, #4B5563 100%);
             border-radius: 0.75rem;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #9CA3AF;
-            font-size: 0.875rem;
-            text-align: center;
-            padding: 2rem;
+            overflow: hidden;
+        }
+        .cap-floorshot img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
         }
 
         /* ===== Section 7 - Mid CTA ===== */
@@ -551,7 +568,22 @@
         .mid-cta-note { font-size: 0.875rem; color: rgba(255,255,255,0.7); margin-top: 1.25rem; }
 
         /* ===== Section 8 - Comparison ===== */
-        .comparison-section { background: #fff; }
+        .comparison-section { background: var(--bra-bg-light); }
+        .cmp-header-row {
+            display: grid;
+            grid-template-columns: 16% 42% 42%;
+            gap: 2rem;
+            padding: 1rem 0 1.25rem;
+            border-bottom: 2px solid var(--bra-border);
+        }
+        .cmp-header-row span {
+            font-size: 0.8125rem;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            color: var(--bra-muted);
+            font-weight: 600;
+        }
+        .cmp-header-row span:first-child { /* empty label column */ }
         .cmp-row {
             display: grid;
             grid-template-columns: 16% 42% 42%;
@@ -596,12 +628,17 @@
             font-size: 1.125rem;
         }
         @media (max-width: 768px) {
+            .cmp-header-row { display: none; }
             .cmp-row { grid-template-columns: 1fr; gap: 1rem; }
             .cmp-row-label { font-size: 1.0625rem; color: var(--bra-primary); }
+            .cmp-row-industry::before { content: 'Industry: \2717 '; position: static; display: inline; }
+            .cmp-row-industry { padding-left: 0; }
+            .cmp-row-berun::before { content: 'Berun: \2713 '; position: static; display: inline; }
+            .cmp-row-berun { padding-left: 0; }
         }
 
         /* ===== Section 9 - Certifications ===== */
-        .cert-section { background: var(--bra-bg-light); }
+        .cert-section { background: #fff; }
         .cert-badge-row {
             display: flex;
             justify-content: center;
@@ -627,7 +664,7 @@
             text-align: center;
             line-height: 1.2;
             filter: grayscale(60%);
-            transition: filter 0.18s ease;
+            transition: filter 0.18s ease, border-color 0.18s ease;
         }
         .cert-badge:hover { filter: grayscale(0%); border-color: var(--bra-primary); }
         .cert-list .cert-row {
@@ -655,7 +692,7 @@
         }
 
         /* ===== Section 10 - Client Voice ===== */
-        .quote-section { background: #fff; }
+        .quote-section { background: var(--bra-bg-light); }
         .quote-section-eyebrow {
             text-align: center;
             font-size: 0.8rem;
@@ -666,7 +703,7 @@
             margin-bottom: 3.5rem;
         }
         .quote-card {
-            background: var(--bra-bg-light);
+            background: #fff;
             border-radius: 0.75rem;
             padding: 3rem;
             height: 100%;
@@ -828,13 +865,16 @@
     <main>
 
         <!-- ============================================== -->
-        <!-- Section 1 - Hero [100vh] -->
+        <!-- Section 1 - Hero [100vh, dark bg + hero image] -->
         <!-- ============================================== -->
         <section id="section-1-hero" class="hero-section bra-section-full" aria-labelledby="hero-h1">
+            <div class="hero-bg">
+                <img src="/assets/images/hero-factory-bg.webp" alt="Factory cutting room with pattern-makers comparing spec sheet to lay marker, fabric rolls in soft focus" loading="eager" width="1920" height="1080" fetchpriority="high">
+            </div>
             <div class="bra-container">
                 <div class="row align-items-center g-5">
                     <div class="col-lg-7">
-                        <span class="eyebrow-light bra-fade-up">For sourcing directors replacing a factory that drifted</span>
+                        <span class="eyebrow-light bra-fade-up" style="color: var(--bra-primary);">FOR SOURCING DIRECTORS REPLACING A FACTORY THAT DRIFTED</span>
                         <h1 id="hero-h1" class="hero-h1 bra-fade-up">Custom Activewear Manufacturer — 380K pcs/mo, OTD 92.4%, AQL 98.5%</h1>
                         <p class="hero-sub bra-fade-up">OEM / ODM cut-and-sew across 12 lines · MOQ 300 / SKU split XS-XXL (not multiplied by size) · sample in 5 working days · OEKO-TEX 100, BSCI, WRAP Gold, GRS and Higg FEM on file.</p>
                         <div class="d-flex flex-wrap gap-3 bra-fade-up">
@@ -842,11 +882,6 @@
                             <a href="/contact?type=deck" class="btn btn-bra-outline">Request capability deck</a>
                         </div>
                         <div class="hero-trust bra-fade-up">8 years on the floor · 280 staff · 12 production lines · 5 regions shipped</div>
-                    </div>
-                    <div class="col-lg-5">
-                        <div class="hero-visual bra-fade-up">
-                            <img src="/assets/images/hero-factory-bg.webp" alt="Factory cutting room with pattern-makers comparing spec sheet to lay marker, fabric rolls in soft focus" loading="eager" width="1920" height="1080" style="width:100%;height:100%;object-fit:cover;border-radius:0.75rem;">
-                        </div>
                     </div>
                 </div>
             </div>
@@ -864,42 +899,42 @@
                 <div class="row g-4">
                     <div class="col-md-6 col-lg-4 bra-fade-up">
                         <div class="data-stat-card">
-                            <i class="bi bi-speedometer2 data-stat-icon" aria-hidden="true"></i>
+                            <svg class="data-stat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2 2"/><path d="M5 3L2 6"/><path d="M22 6l-3-3"/></svg>
                             <div class="data-stat-number">&plusmn;5% GSM</div>
                             <div class="data-stat-label">Per-batch fabric weight tolerance vs spec. Lab report attached to every PO.</div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 bra-fade-up">
                         <div class="data-stat-card">
-                            <i class="bi bi-palette data-stat-icon" aria-hidden="true"></i>
+                            <svg class="data-stat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><rect x="7" y="7" width="3" height="3"/><rect x="14" y="7" width="3" height="3"/><rect x="7" y="14" width="3" height="3"/><rect x="14" y="14" width="3" height="3"/></svg>
                             <div class="data-stat-number">ΔE ≤ 1.5</div>
                             <div class="data-stat-label">Spectrophotometer color delta vs your approved lab dip. Black-on-black, neon, marl — same rule.</div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 bra-fade-up">
                         <div class="data-stat-card">
-                            <i class="bi bi-rulers data-stat-icon" aria-hidden="true"></i>
+                            <svg class="data-stat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 2v20"/><path d="M2 12h6"/><path d="M2 6h10"/><path d="M2 18h14"/><circle cx="20" cy="12" r="2"/><path d="M20 10V2"/><path d="M20 14v8"/></svg>
                             <div class="data-stat-number">&plusmn;0.5 cm</div>
                             <div class="data-stat-label">Garment measurement tolerance on POM points: chest, waist, inseam, sleeve.</div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 bra-fade-up">
                         <div class="data-stat-card">
-                            <i class="bi bi-calendar-check data-stat-icon" aria-hidden="true"></i>
+                            <svg class="data-stat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4"/><path d="M8 2v4"/><path d="M3 10h18"/><path d="M8 14h.01"/><path d="M12 14h.01"/><path d="M16 14h.01"/><path d="M8 18h.01"/><path d="M12 18h.01"/></svg>
                             <div class="data-stat-number">OTD 92.4%</div>
                             <div class="data-stat-label">12-month rolling on-time delivery. Quarterly PDF report shareable under NDA.</div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 bra-fade-up">
                         <div class="data-stat-card">
-                            <i class="bi bi-patch-check data-stat-icon" aria-hidden="true"></i>
+                            <svg class="data-stat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
                             <div class="data-stat-number">AQL 2.5 / 98.5%</div>
                             <div class="data-stat-label">Pre-shipment inspection pass rate. SGS and Bureau Veritas compatible.</div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 bra-fade-up">
                         <div class="data-stat-card">
-                            <i class="bi bi-stack data-stat-icon" aria-hidden="true"></i>
+                            <svg class="data-stat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a4 4 0 00-8 0v2"/><path d="M12 15v2"/><path d="M8 11h8"/></svg>
                             <div class="data-stat-number">MOQ 300 / SKU</div>
                             <div class="data-stat-label">Total piece count, not per size. Split XS-XXL however your size curve reads.</div>
                         </div>
@@ -932,7 +967,7 @@
                 <div class="row g-4 mb-4">
                     <div class="col-md-4 bra-fade-up">
                         <div class="pf-card">
-                            <div class="pf-card-img" data-label="Training"><img src="/assets/images/product-training-performance.webp" alt="Black leggings flat-lay with visible cross-grain stretch texture" loading="lazy" width="800" height="600" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="pf-card-img" data-label="Training"><img src="/assets/images/product-training-performance.webp" alt="Black leggings flat-lay with visible cross-grain stretch texture" loading="lazy" width="800" height="600"></div>
                             <div class="pf-card-body">
                                 <h3 class="pf-card-title">Training &amp; Performance</h3>
                                 <p class="pf-card-desc">High-stretch performance pieces — anti-pilling, moisture-wicking, four-way stretch builds for studio and gym SKUs.</p>
@@ -949,7 +984,7 @@
                     </div>
                     <div class="col-md-4 bra-fade-up">
                         <div class="pf-card">
-                            <div class="pf-card-img" data-label="Athleisure"><img src="/assets/images/product-athleisure.webp" alt="Grey oversized hoodie flat-lay on neutral background" loading="lazy" width="800" height="600" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="pf-card-img" data-label="Athleisure"><img src="/assets/images/product-athleisure.webp" alt="Grey oversized hoodie flat-lay on neutral background" loading="lazy" width="800" height="600"></div>
                             <div class="pf-card-body">
                                 <h3 class="pf-card-title">Athleisure / Lifestyle Fit</h3>
                                 <p class="pf-card-desc">Heavier-weight knits and looser fits for off-gym wear and lounge collections.</p>
@@ -966,7 +1001,7 @@
                     </div>
                     <div class="col-md-4 bra-fade-up">
                         <div class="pf-card">
-                            <div class="pf-card-img" data-label="Team / Club"><img src="/assets/images/product-team-club.webp" alt="Sublimated jersey with number 12, red and blue colorway" loading="lazy" width="800" height="600" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="pf-card-img" data-label="Team / Club"><img src="/assets/images/product-team-club.webp" alt="Sublimated jersey with number 12, red and blue colorway" loading="lazy" width="800" height="600"></div>
                             <div class="pf-card-body">
                                 <h3 class="pf-card-title">Team &amp; Club Apparel</h3>
                                 <p class="pf-card-desc">Sublimated team sets with number, name, crest personalization built into the pattern — driven by your roster CSV.</p>
@@ -985,7 +1020,7 @@
                 <div class="row g-4 justify-content-center">
                     <div class="col-md-5 bra-fade-up">
                         <div class="pf-card">
-                            <div class="pf-card-img" data-label="Outdoor"><img src="/assets/images/product-outdoor-running.webp" alt="Bright yellow windbreaker on outdoor park trail backdrop" loading="lazy" width="800" height="600" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="pf-card-img" data-label="Outdoor"><img src="/assets/images/product-outdoor-running.webp" alt="Bright yellow windbreaker on outdoor park trail backdrop" loading="lazy" width="800" height="600"></div>
                             <div class="pf-card-body">
                                 <h3 class="pf-card-title">Outdoor / Running</h3>
                                 <p class="pf-card-desc">Wind-blocking shells, lightweight running tights, technical singlets for trail and road brands.</p>
@@ -1001,7 +1036,7 @@
                     </div>
                     <div class="col-md-5 bra-fade-up">
                         <div class="pf-card">
-                            <div class="pf-card-img" data-label="Accessories"><img src="/assets/images/product-accessories.webp" alt="Headband, socks and cap accessories color-matched flat lay" loading="lazy" width="800" height="600" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="pf-card-img" data-label="Accessories"><img src="/assets/images/product-accessories.webp" alt="Headband, socks and cap accessories color-matched flat lay" loading="lazy" width="800" height="600"></div>
                             <div class="pf-card-body">
                                 <h3 class="pf-card-title">Accessories</h3>
                                 <p class="pf-card-desc">Cut-and-sew accessories matched to your main collection's fabric and dye lot.</p>
@@ -1033,7 +1068,7 @@
                 <div class="row g-4 mb-4">
                     <div class="col-md-6 col-lg-3 bra-fade-up">
                         <div class="svc-card">
-                            <i class="bi bi-scissors svc-card-icon" aria-hidden="true"></i>
+                            <svg class="svc-card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"/><path d="M6 3v18"/><path d="M20 21a2 2 0 01-2-2V9l-4-4"/><path d="M14 5h6"/></svg>
                             <h3 class="svc-card-title">OEM (Cut-and-Sew)</h3>
                             <p class="svc-card-desc">You send tech-pack and approved lab dip; we cut-and-sew to spec.</p>
                             <hr class="svc-card-divider">
@@ -1043,7 +1078,7 @@
                     </div>
                     <div class="col-md-6 col-lg-3 bra-fade-up">
                         <div class="svc-card">
-                            <i class="bi bi-grid-3x3-gap svc-card-icon" aria-hidden="true"></i>
+                            <svg class="svc-card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
                             <h3 class="svc-card-title">ODM</h3>
                             <p class="svc-card-desc">Pick from our pattern library, swap color, fabric or logo, skip the pattern-making cycle.</p>
                             <hr class="svc-card-divider">
@@ -1053,7 +1088,7 @@
                     </div>
                     <div class="col-md-6 col-lg-3 bra-fade-up">
                         <div class="svc-card">
-                            <i class="bi bi-tag svc-card-icon" aria-hidden="true"></i>
+                            <svg class="svc-card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
                             <h3 class="svc-card-title">Private Label</h3>
                             <p class="svc-card-desc">Your hangtag, care label, polybag and master carton — full label kit assembled by us.</p>
                             <hr class="svc-card-divider">
@@ -1063,7 +1098,7 @@
                     </div>
                     <div class="col-md-6 col-lg-3 bra-fade-up">
                         <div class="svc-card">
-                            <i class="bi bi-box svc-card-icon" aria-hidden="true"></i>
+                            <svg class="svc-card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/><path d="M3.27 6.96L12 12.01l8.73-5.05"/><path d="M12 22.08V12"/></svg>
                             <h3 class="svc-card-title">Small-Batch Sampling</h3>
                             <p class="svc-card-desc">One piece per sample. Sample fee USD 45. Fabric-on-stock turn in 5 working days.</p>
                             <hr class="svc-card-divider">
@@ -1076,7 +1111,7 @@
                 <div class="row g-4 justify-content-center">
                     <div class="col-md-6 col-lg-3 bra-fade-up">
                         <div class="svc-card">
-                            <i class="bi bi-palette2 svc-card-icon" aria-hidden="true"></i>
+                            <svg class="svc-card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="13.5" cy="6.5" r="2.5"/><circle cx="6.5" cy="13.5" r="2.5"/><path d="M12 12l6 6"/><path d="M19 19l-1.5-1.5"/><circle cx="19" cy="19" r="2"/><path d="M3 3l4 4"/></svg>
                             <h3 class="svc-card-title">Custom Print &amp; Embroidery</h3>
                             <p class="svc-card-desc">Sublimation, DTG, silicone, 3D embossed, flat embroidery, heat transfer — all in-house.</p>
                             <hr class="svc-card-divider">
@@ -1086,7 +1121,7 @@
                     </div>
                     <div class="col-md-6 col-lg-3 bra-fade-up">
                         <div class="svc-card">
-                            <i class="bi bi-people svc-card-icon" aria-hidden="true"></i>
+                            <svg class="svc-card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
                             <h3 class="svc-card-title">Team Customization</h3>
                             <p class="svc-card-desc">Per-piece number, name, crest, sponsor block driven by your roster CSV.</p>
                             <hr class="svc-card-divider">
@@ -1096,7 +1131,7 @@
                     </div>
                     <div class="col-md-6 col-lg-3 bra-fade-up">
                         <div class="svc-card">
-                            <i class="bi bi-file-earmark-ruled svc-card-icon" aria-hidden="true"></i>
+                            <svg class="svc-card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6"/><path d="M16 13H8"/><path d="M16 17H8"/><path d="M10 9H8"/></svg>
                             <h3 class="svc-card-title">Tech-Pack &amp; Pattern</h3>
                             <p class="svc-card-desc">No tech-pack yet? Our 16 pattern-makers build one from a reference sample or your sketch.</p>
                             <hr class="svc-card-divider">
@@ -1133,9 +1168,9 @@
                                 <tr><td>Production lines</td><td>12 (4 sublimation · 5 cut-and-sew · 3 team-set)</td></tr>
                                 <tr><td>Single-line monthly output</td><td>~31,700 pieces (12 × 31.7K = 380K)</td></tr>
                                 <tr><td>Staff on site</td><td>280 (32 QC · 16 pattern · 8 lab · 224 sewing)</td></tr>
-                                <tr><td>Factory footprint</td><td>8,500 m² single-site</td></tr>
-                                <tr><td>Bulk lead time (OEM)</td><td>35-42 days (fabric on stock)</td></tr>
-                                <tr><td>Sample lead time</td><td>5 working days (fabric on stock)</td></tr>
+                                <tr><td>Factory footprint</td><td>8,500 m² (single-site, no offsite subcontracting)</td></tr>
+                                <tr><td>Bulk lead time (OEM)</td><td>35-42 days (fabric on stock) · 48-58 days (fabric to-order)</td></tr>
+                                <tr><td>Sample lead time</td><td>5 working days (fabric on stock) · 12 working days (fabric to-order)</td></tr>
                                 <tr><td>On-time delivery (12-mo rolling)</td><td>92.4%</td></tr>
                                 <tr><td>Pre-shipment AQL 2.5 pass rate</td><td>98.5% (12-month avg)</td></tr>
                                 <tr><td>Years on the floor</td><td>8 (since 2017)</td></tr>
@@ -1145,7 +1180,7 @@
                     </div>
                     <div class="col-lg-5 bra-fade-up">
                         <div class="cap-floorshot" role="img" aria-label="Factory overhead — production lines, cut-and-sew stations, finished goods packaging area">
-                            [Factory overhead · lines · cut-and-sew · finishing &amp; packaging]
+                            <img src="/assets/images/factory-overhead.webp" alt="Factory overhead view showing production lines, cut-and-sew stations, and packaging area" loading="lazy" width="800" height="600">
                         </div>
                     </div>
                 </div>
@@ -1169,7 +1204,7 @@
         </section>
 
         <!-- ============================================== -->
-        <!-- Section 8 - Differentiation [100vh, white bg] -->
+        <!-- Section 8 - Differentiation [100vh, #F9FAFB bg] -->
         <!-- ============================================== -->
         <section id="section-8-comparison" class="comparison-section bra-section-full" aria-labelledby="cmp-h2">
             <div class="bra-container" style="width:100%;">
@@ -1179,6 +1214,11 @@
                     <p class="section-sub">Not a knock on other factories — this is just what we made public. Compare on your shortlist scorecard.</p>
                 </div>
                 <div class="cmp-table bra-fade-up">
+                    <div class="cmp-header-row">
+                        <span></span>
+                        <span>Industry Standard</span>
+                        <span>Berun</span>
+                    </div>
                     <div class="cmp-row">
                         <div class="cmp-row-label">Tolerance commitment</div>
                         <div class="cmp-row-industry">Tolerance numbers live inside the MSA, not on the website. You see them after you've already signed.</div>
@@ -1204,7 +1244,7 @@
         </section>
 
         <!-- ============================================== -->
-        <!-- Section 9 - Certifications [100vh, #F9FAFB bg] -->
+        <!-- Section 9 - Certifications [100vh, white bg] -->
         <!-- ============================================== -->
         <section id="section-9-certifications" class="cert-section bra-section-full" aria-labelledby="cert-h2">
             <div class="bra-container" style="width:100%;">
@@ -1264,7 +1304,7 @@
         </section>
 
         <!-- ============================================== -->
-        <!-- Section 10 - Client Voice [60vh, white bg] -->
+        <!-- Section 10 - Client Voice [60vh, #F9FAFB bg] -->
         <!-- ============================================== -->
         <section id="section-10-quotes" class="quote-section bra-section-break" aria-labelledby="quote-h2">
             <div class="bra-container" style="width:100%;">
