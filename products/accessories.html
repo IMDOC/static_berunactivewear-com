@@ -207,7 +207,7 @@
     main { display: block; }
     img { max-width: 100%; height: auto; }
 
-    #dynamic-menu-container { min-height: 70px; background: #fff; border-bottom: 1px solid #eee; }
+    #dynamic-menu-container { background: #fff; border-bottom: 1px solid #eee; }
 
     /* ===== Container ===== */
     .container-bra {
@@ -274,35 +274,6 @@
       max-width: 60ch;
       margin: 0 auto;
     }
-
-    /* ===== Breadcrumb ===== */
-    .breadcrumb-strip {
-      padding: 14px 0;
-      background: var(--color-bg-white);
-      border-bottom: 1px solid var(--color-border);
-    }
-    .breadcrumb-strip ol {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      display: flex;
-      align-items: center;
-      gap: 6px;
-      font-size: 0.8125rem;
-      color: var(--color-muted);
-    }
-    .breadcrumb-strip li + li::before {
-      content: "/";
-      margin-right: 6px;
-      opacity: 0.4;
-    }
-    .breadcrumb-strip a {
-      color: var(--color-muted);
-      text-decoration: none;
-      transition: color 0.2s ease;
-    }
-    .breadcrumb-strip a:hover { color: var(--color-primary); }
-    .breadcrumb-strip .current { color: var(--color-text); font-weight: 600; }
 
     /* ===== Buttons ===== */
     .btn-corp {
@@ -673,26 +644,6 @@
 
   <main>
 
-    <!-- Breadcrumb -->
-    <nav class="breadcrumb-strip" aria-label="Breadcrumb">
-      <div class="container-bra">
-        <ol itemscope itemtype="https://schema.org/BreadcrumbList">
-          <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-            <a itemprop="item" href="/"><span itemprop="name">Home</span></a>
-            <meta itemprop="position" content="1">
-          </li>
-          <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-            <a itemprop="item" href="/products"><span itemprop="name">Products</span></a>
-            <meta itemprop="position" content="2">
-          </li>
-          <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-            <span itemprop="name" class="current">Accessories</span>
-            <meta itemprop="position" content="3">
-          </li>
-        </ol>
-      </div>
-    </nav>
-
     <!-- ============== S1 — Hero ============== -->
     <section class="hero-sub" aria-labelledby="hero-h1">
       <div class="hero-sub__bg">
@@ -723,7 +674,7 @@
         <div class="subcat-grid anim-rise anim-d2">
           <div class="subcat-card">
             <figure class="subcat-card__media">
-              <img src="/assets/images/products/accessories-headband.webp"
+              <img src="/assets/images/products/accessories-headband.png"
                    alt="Wide and slim headbands on neutral surface"
                    width="600" height="450" loading="lazy" decoding="async">
             </figure>
@@ -736,7 +687,7 @@
 
           <div class="subcat-card">
             <figure class="subcat-card__media">
-              <img src="/assets/images/products/accessories-arm-sleeves.webp"
+              <img src="/assets/images/products/accessories-arm-sleeves.png"
                    alt="Compression arm sleeve pair in two colorways"
                    width="600" height="450" loading="lazy" decoding="async">
             </figure>
@@ -749,7 +700,7 @@
 
           <div class="subcat-card">
             <figure class="subcat-card__media">
-              <img src="/assets/images/products/accessories-socks.webp"
+              <img src="/assets/images/products/accessories-socks.png"
                    alt="Crew, ankle, and no-show sock trio"
                    width="600" height="450" loading="lazy" decoding="async">
             </figure>
@@ -762,7 +713,7 @@
 
           <div class="subcat-card">
             <figure class="subcat-card__media">
-              <img src="/assets/images/products/accessories-cap.webp"
+              <img src="/assets/images/products/accessories-cap.png"
                    alt="5-panel and 6-panel caps side by side"
                    width="600" height="450" loading="lazy" decoding="async">
             </figure>

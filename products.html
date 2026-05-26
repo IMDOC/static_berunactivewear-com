@@ -186,7 +186,7 @@
     main { display: block; }
     img { max-width: 100%; height: auto; }
 
-    #dynamic-menu-container { min-height: 70px; background: #fff; border-bottom: 1px solid #eee; }
+    #dynamic-menu-container { background: #fff; border-bottom: 1px solid #eee; }
 
     /* ===== Container ===== */
     .container-bra {
@@ -388,34 +388,6 @@
       color: rgba(250,247,242,0.85);
       margin: 0;
       max-width: 560px;
-    }
-    /* Breadcrumb nav */
-    .breadcrumb-nav {
-      margin-bottom: 16px;
-    }
-    .breadcrumb-nav ol {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      display: flex;
-      gap: 6px;
-      align-items: center;
-    }
-    .breadcrumb-nav li {
-      font-size: 0.8125rem;
-      color: rgba(250,247,242,0.55);
-      font-weight: 500;
-    }
-    .breadcrumb-nav li a {
-      color: rgba(250,247,242,0.65);
-      text-decoration: none;
-      transition: color .2s ease;
-    }
-    .breadcrumb-nav li a:hover { color: var(--color-accent); }
-    .breadcrumb-nav li + li::before {
-      content: "/";
-      margin-right: 6px;
-      opacity: 0.4;
     }
     @media (max-width: 991px) {
       .hero-products { min-height: auto; }
@@ -658,12 +630,6 @@
       <div class="hero-products__inner">
         <div class="container-bra">
           <div class="hero-products__copy">
-            <nav class="breadcrumb-nav" aria-label="Breadcrumb">
-              <ol>
-                <li><a href="/">Home</a></li>
-                <li aria-current="page">Products</li>
-              </ol>
-            </nav>
             <span class="hero-products__eyebrow anim-rise anim-d1">PRODUCT CATALOG</span>
             <h1 class="hero-products__h1 anim-rise anim-d2">Custom Activewear Products &mdash; Five Families, One Factory</h1>
             <p class="hero-products__sub anim-rise anim-d3">Every product below runs on the same 12 production lines, through the same 32 QC inspectors, from a single 8,500&nbsp;m&sup2; facility. Explore a family to see subcategory specs and MOQs.</p>

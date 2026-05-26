@@ -192,7 +192,7 @@
     main { display: block; }
     img { max-width: 100%; height: auto; }
 
-    #dynamic-menu-container { min-height: 70px; background: #fff; border-bottom: 1px solid #eee; }
+    #dynamic-menu-container { background: #fff; border-bottom: 1px solid #eee; }
 
     /* ===== Container ===== */
     .container-bra {
@@ -201,35 +201,6 @@
       padding-right: clamp(16px, 3vw, 32px);
       margin-inline: auto;
     }
-
-    /* ===== Breadcrumb ===== */
-    .breadcrumb-bar {
-      padding: 14px 0;
-      background: var(--color-bg-white);
-      border-bottom: 1px solid var(--color-border);
-    }
-    .breadcrumb-bar ol {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 4px;
-      font-size: 0.8125rem;
-      color: var(--color-muted);
-    }
-    .breadcrumb-bar li + li::before {
-      content: "/";
-      margin-right: 4px;
-      opacity: 0.5;
-    }
-    .breadcrumb-bar a {
-      color: var(--color-muted);
-      text-decoration: none;
-      transition: color 0.2s;
-    }
-    .breadcrumb-bar a:hover { color: var(--color-primary); }
-    .breadcrumb-bar .current { color: var(--color-text); font-weight: 600; }
 
     /* ===== Section system ===== */
     .section-corp {
@@ -730,26 +701,6 @@
   <script src="/assets/dynamic-menu.js" defer></script>
 
   <main>
-
-    <!-- Breadcrumb -->
-    <nav class="breadcrumb-bar" aria-label="Breadcrumb">
-      <div class="container-bra">
-        <ol itemscope itemtype="https://schema.org/BreadcrumbList">
-          <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-            <a itemprop="item" href="/"><span itemprop="name">Home</span></a>
-            <meta itemprop="position" content="1">
-          </li>
-          <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-            <a itemprop="item" href="/services/"><span itemprop="name">Services</span></a>
-            <meta itemprop="position" content="2">
-          </li>
-          <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-            <span itemprop="name" class="current">Custom Print &amp; Embroidery</span>
-            <meta itemprop="position" content="3">
-          </li>
-        </ol>
-      </div>
-    </nav>
 
     <!-- ============== S1 — Hero ============== -->
     <section class="hero-corp" id="hero" aria-labelledby="s1-h1">

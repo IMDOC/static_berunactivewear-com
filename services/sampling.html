@@ -195,7 +195,7 @@
     main { display: block; }
     img { max-width: 100%; height: auto; }
 
-    #dynamic-menu-container { min-height: 70px; background: #fff; border-bottom: 1px solid #eee; }
+    #dynamic-menu-container { background: #fff; border-bottom: 1px solid #eee; }
 
     /* ===== Container ===== */
     .container-bra {
@@ -204,37 +204,6 @@
       padding-right: clamp(16px, 3vw, 32px);
       margin-inline: auto;
     }
-
-    /* ===== Breadcrumb ===== */
-    .breadcrumb-bar {
-      background: var(--color-bg-white);
-      border-bottom: 1px solid var(--color-border);
-      padding: 14px 0;
-    }
-    .breadcrumb-bar__list {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      align-items: center;
-      gap: 6px;
-      font-size: 0.8125rem;
-      color: var(--color-muted);
-    }
-    .breadcrumb-bar__list li + li::before {
-      content: "\f285";
-      font-family: "bootstrap-icons";
-      font-size: 0.625rem;
-      margin-right: 6px;
-      opacity: 0.5;
-    }
-    .breadcrumb-bar__list a {
-      color: var(--color-muted);
-      text-decoration: none;
-      transition: color .2s ease;
-    }
-    .breadcrumb-bar__list a:hover { color: var(--color-primary); }
-    .breadcrumb-bar__list .active { color: var(--color-text); font-weight: 600; }
 
     /* ===== Section system ===== */
     .section-corp {
@@ -748,26 +717,6 @@
   <script src="/assets/dynamic-menu.js" defer></script>
 
   <main id="main">
-
-    <!-- Breadcrumb -->
-    <nav class="breadcrumb-bar" aria-label="Breadcrumb">
-      <div class="container-bra">
-        <ol class="breadcrumb-bar__list" itemscope itemtype="https://schema.org/BreadcrumbList">
-          <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-            <a itemprop="item" href="/"><span itemprop="name">Home</span></a>
-            <meta itemprop="position" content="1">
-          </li>
-          <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-            <a itemprop="item" href="/services"><span itemprop="name">Services</span></a>
-            <meta itemprop="position" content="2">
-          </li>
-          <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="active">
-            <span itemprop="name">Sampling</span>
-            <meta itemprop="position" content="3">
-          </li>
-        </ol>
-      </div>
-    </nav>
 
     <!-- ============== S1 — Hero (50vh, dark bg) ============== -->
     <section class="hero-sampling" aria-labelledby="hero-h1">

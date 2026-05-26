@@ -190,7 +190,7 @@
     main { display: block; }
     img { max-width: 100%; height: auto; }
 
-    #dynamic-menu-container { min-height: 70px; background: #fff; border-bottom: 1px solid #eee; }
+    #dynamic-menu-container { background: #fff; border-bottom: 1px solid #eee; }
 
     /* ===== Container ===== */
     .container-bra {
@@ -391,31 +391,6 @@
       color: rgba(250,247,242,0.85);
       margin: 0;
     }
-
-    /* ===== Breadcrumb ===== */
-    .breadcrumb-strip {
-      background: var(--color-bg-white);
-      border-bottom: 1px solid rgba(15,23,42,0.06);
-      padding: 12px 0;
-    }
-    .breadcrumb-strip ol {
-      list-style: none;
-      display: flex;
-      gap: 6px;
-      align-items: center;
-      margin: 0;
-      padding: 0;
-      font-size: 0.8125rem;
-      color: var(--color-muted);
-    }
-    .breadcrumb-strip a {
-      color: var(--color-muted);
-      text-decoration: none;
-      transition: color 0.2s;
-    }
-    .breadcrumb-strip a:hover { color: var(--color-primary); }
-    .breadcrumb-strip .sep { margin: 0 2px; opacity: 0.5; }
-    .breadcrumb-strip .current { color: var(--color-text); font-weight: 600; }
 
     /* ===== S2: Inquiry Form + Contact Info ===== */
     .inquiry-section {
@@ -793,23 +768,6 @@
         </div>
       </div>
     </section>
-
-    <!-- Breadcrumb -->
-    <nav class="breadcrumb-strip" aria-label="Breadcrumb">
-      <div class="container-bra">
-        <ol itemscope itemtype="https://schema.org/BreadcrumbList">
-          <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-            <a itemprop="item" href="/"><span itemprop="name">Home</span></a>
-            <meta itemprop="position" content="1">
-          </li>
-          <li class="sep" aria-hidden="true">/</li>
-          <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-            <span class="current" itemprop="name">Contact</span>
-            <meta itemprop="position" content="2">
-          </li>
-        </ol>
-      </div>
-    </nav>
 
     <!-- ============== S2 — Inquiry Form + Contact Info ============== -->
     <section class="inquiry-section" id="inquiry" aria-labelledby="s2-h2">

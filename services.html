@@ -181,7 +181,7 @@
     main { display: block; }
     img { max-width: 100%; height: auto; }
 
-    #dynamic-menu-container { min-height: 70px; background: #fff; border-bottom: 1px solid #eee; }
+    #dynamic-menu-container { background: #fff; border-bottom: 1px solid #eee; }
 
     /* ===== Container ===== */
     .container-bra {
@@ -306,30 +306,6 @@
     @media (prefers-reduced-motion: reduce) {
       .anim-rise { opacity: 1; transform: none; animation: none; }
     }
-
-    /* ===== Breadcrumb ===== */
-    .breadcrumb-bar {
-      padding: 14px 0;
-      background: transparent;
-    }
-    .breadcrumb-bar ol {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      display: flex;
-      align-items: center;
-      gap: 6px;
-      font-size: 0.8125rem;
-      color: rgba(250,247,242,0.5);
-    }
-    .breadcrumb-bar a {
-      color: rgba(250,247,242,0.7);
-      text-decoration: none;
-      transition: color 0.2s;
-    }
-    .breadcrumb-bar a:hover { color: #FFFFFF; }
-    .breadcrumb-bar .sep { margin: 0 2px; }
-    .breadcrumb-bar .current { color: rgba(250,247,242,0.9); }
 
     /* ===== S1: Hero ===== */
     .hero-services {
@@ -668,19 +644,6 @@
       </div>
       <div class="hero-services__inner">
         <div class="container-bra">
-          <nav class="breadcrumb-bar" aria-label="Breadcrumb">
-            <ol itemscope itemtype="https://schema.org/BreadcrumbList">
-              <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                <a itemprop="item" href="/"><span itemprop="name">Home</span></a>
-                <meta itemprop="position" content="1">
-              </li>
-              <li class="sep" aria-hidden="true">/</li>
-              <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                <span itemprop="name" class="current">Services</span>
-                <meta itemprop="position" content="2">
-              </li>
-            </ol>
-          </nav>
           <div class="hero-services__copy anim-rise anim-d1">
             <p class="hero-services__eyebrow">Production Services</p>
             <h1 class="hero-services__h1" id="s1-h1">Activewear Manufacturing Services &mdash; From Tech-Pack to Delivery</h1>

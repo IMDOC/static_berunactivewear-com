@@ -199,7 +199,7 @@
     main { display: block; }
     img { max-width: 100%; height: auto; }
 
-    #dynamic-menu-container { min-height: 70px; background: #fff; border-bottom: 1px solid #eee; }
+    #dynamic-menu-container { background: #fff; border-bottom: 1px solid #eee; }
 
     /* ===== Container ===== */
     .container-bra {
@@ -266,24 +266,6 @@
       max-width: 60ch;
       margin: 0 auto;
     }
-
-    /* ===== Breadcrumb ===== */
-    .breadcrumb-bar {
-      background: var(--color-bg-white);
-      border-bottom: 1px solid rgba(15,31,30,0.06);
-      padding: 12px 0;
-    }
-    .breadcrumb-bar nav {
-      font-size: 0.8125rem;
-      color: var(--color-muted);
-    }
-    .breadcrumb-bar a {
-      color: var(--color-muted);
-      text-decoration: none;
-      transition: color .2s ease;
-    }
-    .breadcrumb-bar a:hover { color: var(--color-primary); }
-    .breadcrumb-bar .sep { margin: 0 6px; opacity: 0.5; }
 
     /* ===== Buttons ===== */
     .btn-corp {
@@ -811,14 +793,6 @@
   <div id="dynamic-menu-container"></div>
   <script src="/assets/dynamic-menu.js" defer></script>
 
-  <!-- Breadcrumb -->
-  <div class="breadcrumb-bar">
-    <div class="container-bra">
-      <nav aria-label="Breadcrumb">
-        <a href="/">Home</a><span class="sep">/</span><span>About</span>
-      </nav>
-    </div>
-  </div>
 
   <main id="main">
 

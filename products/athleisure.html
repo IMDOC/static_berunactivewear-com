@@ -213,7 +213,7 @@
     main { display: block; }
     img { max-width: 100%; height: auto; }
 
-    #dynamic-menu-container { min-height: 70px; background: #fff; border-bottom: 1px solid #eee; }
+    #dynamic-menu-container { background: #fff; border-bottom: 1px solid #eee; }
 
     /* ===== Container ===== */
     .container-bra {
@@ -280,35 +280,6 @@
       max-width: 60ch;
       margin: 0 auto;
     }
-
-    /* ===== Breadcrumb ===== */
-    .breadcrumb-strip {
-      padding: 14px 0;
-      background: var(--color-bg-white);
-      border-bottom: 1px solid var(--color-border);
-    }
-    .breadcrumb-strip ol {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      display: flex;
-      align-items: center;
-      gap: 6px;
-      font-size: 0.8125rem;
-      color: var(--color-muted);
-    }
-    .breadcrumb-strip li + li::before {
-      content: "/";
-      margin-right: 6px;
-      opacity: 0.4;
-    }
-    .breadcrumb-strip a {
-      color: var(--color-muted);
-      text-decoration: none;
-      transition: color 0.2s ease;
-    }
-    .breadcrumb-strip a:hover { color: var(--color-primary); }
-    .breadcrumb-strip .current { color: var(--color-text); font-weight: 600; }
 
     /* ===== Buttons ===== */
     .btn-corp {
@@ -688,26 +659,6 @@
 
   <main>
 
-    <!-- Breadcrumb -->
-    <nav class="breadcrumb-strip" aria-label="Breadcrumb">
-      <div class="container-bra">
-        <ol itemscope itemtype="https://schema.org/BreadcrumbList">
-          <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-            <a itemprop="item" href="/"><span itemprop="name">Home</span></a>
-            <meta itemprop="position" content="1">
-          </li>
-          <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-            <a itemprop="item" href="/products"><span itemprop="name">Products</span></a>
-            <meta itemprop="position" content="2">
-          </li>
-          <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-            <span itemprop="name" class="current">Athleisure</span>
-            <meta itemprop="position" content="3">
-          </li>
-        </ol>
-      </div>
-    </nav>
-
     <!-- ============== S1 — Hero ============== -->
     <section class="hero-sub" aria-labelledby="hero-h1">
       <div class="hero-sub__bg">
@@ -738,7 +689,7 @@
         <div class="subcat-grid anim-rise anim-d2">
           <div class="subcat-card">
             <figure class="subcat-card__media">
-              <img src="/assets/images/products/athleisure-sweatshirt.webp"
+              <img src="/assets/images/products/athleisure-sweatshirt.png"
                    alt="Oversized crew-neck tee flat-lay"
                    width="600" height="450" loading="lazy" decoding="async">
             </figure>
@@ -751,7 +702,7 @@
 
           <div class="subcat-card">
             <figure class="subcat-card__media">
-              <img src="/assets/images/products/athleisure-hoodie.webp"
+              <img src="/assets/images/products/athleisure-hoodie.png"
                    alt="Cream pullover hoodie flat-lay with kangaroo pocket and ribbed cuff detail"
                    width="600" height="450" loading="lazy" decoding="async">
             </figure>
@@ -764,7 +715,7 @@
 
           <div class="subcat-card">
             <figure class="subcat-card__media">
-              <img src="/assets/images/products/athleisure-sports-jacket.webp"
+              <img src="/assets/images/products/athleisure-sports-jacket.png"
                    alt="Olive green lightweight sport jacket flat-lay showing zipper and panel seams"
                    width="600" height="450" loading="lazy" decoding="async">
             </figure>
@@ -793,7 +744,7 @@
 
           <div class="subcat-card">
             <figure class="subcat-card__media">
-              <img src="/assets/images/products/athleisure-lounge-pants.webp"
+              <img src="/assets/images/products/athleisure-lounge-pants.png"
                    alt="Black leisure pants flat-lay with drawstring waist and cuff detail"
                    width="600" height="450" loading="lazy" decoding="async">
             </figure>

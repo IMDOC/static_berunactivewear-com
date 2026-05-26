@@ -220,7 +220,7 @@
     main { display: block; }
     img { max-width: 100%; height: auto; }
 
-    #dynamic-menu-container { min-height: 70px; background: #fff; border-bottom: 1px solid #eee; }
+    #dynamic-menu-container { background: #fff; border-bottom: 1px solid #eee; }
 
     /* ===== Container ===== */
     .container-bra {
@@ -360,28 +360,6 @@
     @media (prefers-reduced-motion: reduce) {
       .anim-rise { opacity: 1; transform: none; animation: none; }
     }
-
-    /* ===== Breadcrumb ===== */
-    .breadcrumb-bar {
-      background: var(--color-bg-white);
-      border-bottom: 1px solid var(--color-border);
-      padding: 14px 0;
-    }
-    .breadcrumb-bar nav {
-      display: flex;
-      align-items: center;
-      gap: 6px;
-      font-size: 0.8125rem;
-      color: var(--color-muted);
-    }
-    .breadcrumb-bar a {
-      color: var(--color-muted);
-      text-decoration: none;
-      transition: color 0.2s;
-    }
-    .breadcrumb-bar a:hover { color: var(--color-primary); }
-    .breadcrumb-bar .sep { opacity: 0.4; margin: 0 2px; }
-    .breadcrumb-bar .current { color: var(--color-text); font-weight: 600; }
 
     /* ===== S1: Hero (half-height, bg image) ===== */
     .hero-sub {
@@ -671,19 +649,6 @@
     <div id="dynamic-menu-container"></div>
     <script src="/assets/dynamic-menu.js" defer></script>
 
-    <!-- Breadcrumb -->
-    <div class="breadcrumb-bar" aria-label="Breadcrumb">
-      <div class="container-bra">
-        <nav>
-          <a href="/">Home</a>
-          <span class="sep">/</span>
-          <a href="/products">Products</a>
-          <span class="sep">/</span>
-          <span class="current">Training &amp; Performance</span>
-        </nav>
-      </div>
-    </div>
-
     <main>
 
     <!-- ============== S1 — Hero ============== -->
@@ -715,7 +680,7 @@
         <div class="subcat-grid">
           <!-- Card 1 — Leggings -->
           <div class="subcat-card anim-rise anim-d1" id="leggings">
-            <img class="subcat-card__img" src="/assets/images/products/training-leggings.webp" alt="Black compression leggings flat-lay on neutral background" width="600" height="450" loading="lazy">
+            <img class="subcat-card__img" src="/assets/images/products/training-leggings.png" alt="Black compression leggings flat-lay on neutral background" width="600" height="450" loading="lazy">
             <div class="subcat-card__body">
               <h3 class="subcat-card__h3">Leggings (Yoga / HIIT)</h3>
               <p class="subcat-card__desc">Full-length and 7/8 cuts in 230-280 GSM compression knit. Gusseted crotch, flatlock seams, hidden waistband pocket. Available in high-rise and mid-rise waist.</p>
@@ -725,7 +690,7 @@
 
           <!-- Card 2 — Sports Bras -->
           <div class="subcat-card anim-rise anim-d2" id="sports-bras">
-            <img class="subcat-card__img" src="/assets/images/products/training-sports-bra.webp" alt="Red sports bra flat-lay on neutral background" width="600" height="450" loading="lazy">
+            <img class="subcat-card__img" src="/assets/images/products/training-sports-bra.png" alt="Red sports bra flat-lay on neutral background" width="600" height="450" loading="lazy">
             <div class="subcat-card__body">
               <h3 class="subcat-card__h3">Sports Bras (Low / Mid / High Impact)</h3>
               <p class="subcat-card__desc">Three support tiers with adjustable straps on mid and high impact, removable pads, and moisture-wicking mesh panels. Bonded or flatlock seam options.</p>
@@ -735,7 +700,7 @@
 
           <!-- Card 3 — Joggers -->
           <div class="subcat-card anim-rise anim-d3" id="joggers">
-            <img class="subcat-card__img" src="/assets/images/products/training-joggers.webp" alt="Gray joggers flat-lay showing elastic cuff detail" width="600" height="450" loading="lazy">
+            <img class="subcat-card__img" src="/assets/images/products/training-joggers.png" alt="Gray joggers flat-lay showing elastic cuff detail" width="600" height="450" loading="lazy">
             <div class="subcat-card__body">
               <h3 class="subcat-card__h3">Joggers</h3>
               <p class="subcat-card__desc">Tapered fit, elastic cuff, drawstring waist. French terry or brushed fleece construction, side pockets with reinforced bartack stitching.</p>
@@ -745,7 +710,7 @@
 
           <!-- Card 4 — Shorts -->
           <div class="subcat-card anim-rise anim-d4" id="shorts">
-            <img class="subcat-card__img" src="/assets/images/products/training-shorts.webp" alt="Deep navy training shorts flat-lay showing waistband and liner detail" width="600" height="450" loading="lazy">
+            <img class="subcat-card__img" src="/assets/images/products/training-shorts.png" alt="Deep navy training shorts flat-lay showing waistband and liner detail" width="600" height="450" loading="lazy">
             <div class="subcat-card__body">
               <h3 class="subcat-card__h3">Shorts (Training / Running)</h3>
               <p class="subcat-card__desc">5-inch and 7-inch inseams with optional built-in compression liner. Laser-cut ventilation panels, flat elastic waistband, internal drawcord.</p>
