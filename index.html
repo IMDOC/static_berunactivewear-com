@@ -122,8 +122,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <!-- Google Fonts: Inter -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Google Fonts: Plus Jakarta Sans + Inter -->
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap">
 
     <!-- Bootstrap 5 + Icons -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -162,1275 +163,1752 @@
     <!-- Hero LCP preload -->
     <link rel="preload" as="image" fetchpriority="high" href="/assets/images/hero-factory-bg.webp">
 
-    <!-- Home page styles -->
     <style>
-        :root {
-            --bra-primary: #DC2626;
-            --bra-primary-dark: #991B1B;
-            --bra-dark: #1F2937;
-            --bra-darker: #111827;
-            --bra-accent: #FCD34D;
-            --bra-muted: #6B7280;
-            --bra-text: #1F2937;
-            --bra-border: #E5E7EB;
-            --bra-bg-light: #F9FAFB;
-            --bra-bg-soft: #F3F4F6;
-        }
-        body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-            color: var(--bra-text);
-            -webkit-font-smoothing: antialiased;
-            margin: 0;
-        }
-        #dynamic-menu-container { min-height: 70px; background: #fff; border-bottom: 1px solid #eee; }
+    /* ==========================================================================
+       Berun Active Wear — Index v4 (yogavendor design system)
+       All CSS inline — no landing-shell.css / landing-blocks.css
+       ========================================================================== */
 
-        /* ===== Common Buttons ===== */
-        .btn-bra-primary {
-            background-color: var(--bra-primary);
-            border-color: var(--bra-primary);
-            color: #fff;
-            font-weight: 600;
-            padding: 1rem 2rem;
-            border-radius: 0.5rem;
-            transition: background 0.18s ease;
-            font-size: 1.0625rem;
-            text-decoration: none;
-            display: inline-block;
-        }
-        .btn-bra-primary:hover { background-color: var(--bra-primary-dark); border-color: var(--bra-primary-dark); color: #fff; }
-        .btn-bra-outline {
-            background-color: transparent;
-            border: 1.5px solid #fff;
-            color: #fff;
-            font-weight: 600;
-            padding: 1rem 2rem;
-            border-radius: 0.5rem;
-            transition: background 0.18s ease;
-            font-size: 1.0625rem;
-            text-decoration: none;
-            display: inline-block;
-        }
-        .btn-bra-outline:hover { background-color: rgba(255,255,255,0.12); color: #fff; }
-        .btn-bra-white {
-            background-color: #fff;
-            color: var(--bra-primary);
-            font-weight: 600;
-            padding: 1rem 2rem;
-            border-radius: 0.5rem;
-            border: none;
-            transition: transform 0.18s ease;
-            font-size: 1.0625rem;
-            text-decoration: none;
-            display: inline-block;
-        }
-        .btn-bra-white:hover { transform: translateY(-1px); color: var(--bra-primary-dark); background: #fff; }
-        .btn-bra-outline-white {
-            background-color: transparent;
-            border: 2px solid rgba(255,255,255,0.5);
-            color: #fff;
-            font-weight: 600;
-            padding: 1rem 2rem;
-            border-radius: 0.5rem;
-            transition: all 0.18s ease;
-            font-size: 1.0625rem;
-            text-decoration: none;
-            display: inline-block;
-        }
-        .btn-bra-outline-white:hover { background-color: rgba(255,255,255,0.1); border-color: #fff; color: #fff; }
+    :root {
+      --color-primary: #DC2626;
+      --color-primary-dark: #991B1B;
+      --color-secondary: #1F2937;
+      --color-accent: #FCD34D;
+      --color-text: #1A1A1A;
+      --color-muted: #5b6473;
+      --color-bg-tint: #FAF7F2;
+      --color-bg-white: #FFFFFF;
+      --color-border: rgba(15,31,30,0.08);
+      --font-sans: 'Plus Jakarta Sans', 'Inter', system-ui, sans-serif;
+      --corp-shadow-1: 0 4px 16px rgba(15,31,30,0.06);
+      --corp-shadow-2: 0 14px 32px rgba(15,31,30,0.10);
+    }
 
-        /* ===== Common Section Helpers ===== */
-        .eyebrow {
-            color: var(--bra-primary);
-            font-size: 0.8rem;
-            letter-spacing: 0.12em;
-            text-transform: uppercase;
-            font-weight: 600;
-            margin-bottom: 1.25rem;
-            display: inline-block;
-        }
-        .eyebrow-light {
-            color: var(--bra-accent);
-            font-size: 0.8rem;
-            letter-spacing: 0.12em;
-            text-transform: uppercase;
-            font-weight: 600;
-            margin-bottom: 1.25rem;
-            display: inline-block;
-        }
-        .section-h2 {
-            font-size: clamp(2rem, 4vw, 3.5rem);
-            font-weight: 700;
-            color: var(--bra-text);
-            margin-bottom: 1.25rem;
-            line-height: 1.15;
-        }
-        .section-sub {
-            font-size: clamp(1rem, 1.5vw, 1.25rem);
-            color: #6B7280;
-            line-height: 1.6;
-            max-width: 60ch;
-            margin: 0 auto 3.5rem;
-        }
-        .section-header-center {
-            text-align: center;
-            max-width: 800px;
-            margin: 0 auto 4rem;
-        }
-        .bra-container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding-left: clamp(1rem, 3vw, 2rem);
-            padding-right: clamp(1rem, 3vw, 2rem);
-        }
+    *, *::before, *::after { box-sizing: border-box; }
 
-        /* ===== 100vh Section Base ===== */
-        .bra-section-full {
-            min-height: 100vh;
-            display: flex;
-            align-items: center;
-            padding: 8rem 0;
-        }
-        .bra-section-break {
-            min-height: 60vh;
-            display: flex;
-            align-items: center;
-            padding: 8rem 0;
-        }
-        @media (max-width: 768px) {
-            .bra-section-full {
-                min-height: auto;
-                padding: 5rem 0;
-            }
-            .bra-section-break {
-                min-height: auto;
-                padding: 5rem 0;
-            }
-        }
+    body {
+      margin: 0;
+      padding-top: 45px;
+      background: var(--color-bg-tint);
+      font-family: var(--font-sans);
+      color: var(--color-text);
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    @media (max-width: 991px) { body { padding-top: 0; } }
 
-        /* ===== Section 1 - Hero ===== */
-        .hero-section {
-            position: relative;
-            overflow: hidden;
-            color: #fff;
-            background: var(--bra-darker);
-        }
-        .hero-bg {
-            position: absolute;
-            inset: 0;
-            z-index: 0;
-        }
-        .hero-bg img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            display: block;
-        }
-        .hero-bg::after {
-            content: '';
-            position: absolute;
-            inset: 0;
-            background:
-                linear-gradient(160deg, rgba(17,24,39,0.92) 0%, rgba(31,41,55,0.78) 45%, rgba(17,24,39,0.65) 100%),
-                radial-gradient(ellipse 800px 600px at 25% 40%, rgba(220,38,38,0.12) 0%, transparent 70%);
-        }
-        .hero-section .bra-container { position: relative; z-index: 2; width: 100%; }
-        .hero-h1 {
-            font-size: clamp(3rem, 6vw, 5.5rem);
-            font-weight: 800;
-            line-height: 1.08;
-            letter-spacing: -0.02em;
-            margin-bottom: 1.75rem;
-            color: #ffffff;
-        }
-        .hero-sub {
-            font-size: clamp(1rem, 1.5vw, 1.25rem);
-            line-height: 1.6;
-            color: #E5E7EB;
-            margin-bottom: 2.5rem;
-            max-width: 60ch;
-        }
-        .hero-trust {
-            font-size: 0.9rem;
-            color: #D1D5DB;
-            letter-spacing: 0.02em;
-            margin-top: 2.5rem;
-        }
+    main { display: block; }
+    img { max-width: 100%; height: auto; }
 
-        /* ===== Section 2 - Data Wall ===== */
-        .data-wall-section { background: var(--bra-bg-light); }
-        .data-stat-card {
-            padding: 2.5rem 2rem;
-            text-align: left;
-            position: relative;
-        }
-        .data-stat-icon {
-            position: absolute;
-            top: 2rem;
-            right: 2rem;
-            color: #D1D5DB;
-            opacity: 0.5;
-            width: 28px;
-            height: 28px;
-        }
-        .data-stat-number {
-            font-size: clamp(4rem, 8vw, 7rem);
-            font-weight: 800;
-            color: var(--bra-primary);
-            line-height: 1;
-            letter-spacing: -0.02em;
-            margin-bottom: 1rem;
-        }
-        .data-stat-label {
-            font-size: 1.0625rem;
-            color: #4B5563;
-            line-height: 1.65;
-            max-width: 34ch;
-        }
+    #dynamic-menu-container { min-height: 70px; background: #fff; border-bottom: 1px solid #eee; }
 
-        /* ===== Section 3 - Break Band ===== */
-        .break-band-section {
-            background: var(--bra-darker);
-            color: #fff;
-            text-align: center;
-            border-top: 1px solid #374151;
-            border-bottom: 1px solid #374151;
-        }
-        .break-band-quote {
-            font-size: clamp(2rem, 4.5vw, 3.5rem);
-            font-weight: 700;
-            line-height: 1.18;
-            letter-spacing: -0.01em;
-            color: #fff;
-            margin-bottom: 2rem;
-            max-width: 26ch;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        .break-band-note {
-            font-size: 1rem;
-            color: var(--bra-accent);
-            opacity: 0.9;
-            max-width: 60ch;
-            margin: 0 auto;
-            line-height: 1.5;
-        }
+    /* ===== Container ===== */
+    .container-bra {
+      max-width: 1320px;
+      padding-left: clamp(16px, 3vw, 32px);
+      padding-right: clamp(16px, 3vw, 32px);
+      margin-inline: auto;
+    }
 
-        /* ===== Section 4 - Product Family ===== */
-        .product-family-section { background: #fff; }
-        .pf-card {
-            background: #fff;
-            border: 1px solid var(--bra-border);
-            border-radius: 0.75rem;
-            overflow: hidden;
-            height: 100%;
-            transition: transform 0.18s ease, box-shadow 0.18s ease;
-            display: flex;
-            flex-direction: column;
-        }
-        .pf-card:hover { transform: translateY(-4px); box-shadow: 0 12px 28px rgba(17,24,39,0.08); }
-        .pf-card-img {
-            aspect-ratio: 4/3;
-            overflow: hidden;
-            position: relative;
-        }
-        .pf-card-img img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            display: block;
-            transition: transform 0.3s ease;
-        }
-        .pf-card:hover .pf-card-img img { transform: scale(1.03); }
-        .pf-card-img::after {
-            content: attr(data-label);
-            position: absolute;
-            bottom: 0.75rem;
-            left: 0.75rem;
-            background: rgba(31,41,55,0.6);
-            color: #fff;
-            padding: 0.25rem 0.625rem;
-            font-size: 0.6875rem;
-            border-radius: 0.25rem;
-            letter-spacing: 0.04em;
-            text-transform: uppercase;
-        }
-        .pf-card-body { padding: 1.75rem; flex: 1; display: flex; flex-direction: column; }
-        .pf-card-title { font-size: 1.125rem; font-weight: 700; margin-bottom: 0.5rem; color: var(--bra-text); }
-        .pf-card-desc { font-size: 1.0625rem; color: #4B5563; line-height: 1.65; margin-bottom: 1rem; flex: 1; }
-        .pf-card-chips { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 1rem; }
-        .pf-chip {
-            background: var(--bra-bg-soft);
-            color: var(--bra-text);
-            border-radius: 9999px;
-            padding: 0.3rem 0.75rem;
-            font-size: 0.8125rem;
-            line-height: 1.4;
-        }
-        .pf-card-link {
-            color: var(--bra-primary);
-            font-size: 0.9375rem;
-            text-decoration: none;
-            font-weight: 600;
-            margin-top: auto;
-        }
-        .pf-card-link:hover { color: var(--bra-primary-dark); }
+    /* ===== Section system ===== */
+    .section-corp {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      padding: clamp(80px, 10vh, 120px) 0;
+      position: relative;
+    }
+    .section-corp--compact {
+      min-height: auto;
+    }
+    @media (max-width: 768px) {
+      .section-corp {
+        min-height: auto;
+        padding: clamp(48px, 8vh, 80px) 0;
+      }
+    }
+    .section-corp--white { background: var(--color-bg-white); }
+    .section-corp--tint  { background: var(--color-bg-tint); }
+    .section-corp--ink   { background: var(--color-secondary); color: #FAF7F2; }
+    .section-corp--ink .section-h2 { color: #FFFFFF; }
+    .section-corp--ink .section-sub { color: rgba(250,247,242,0.78); }
+    .section-corp--ink .section-rail { color: var(--color-accent); }
 
-        /* ===== Section 5 - Services ===== */
-        .services-section { background: var(--bra-bg-light); }
-        .svc-card {
-            background: #fff;
-            border: 1px solid var(--bra-border);
-            border-radius: 0.5rem;
-            padding: 2rem;
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-            transition: border-color 0.18s ease;
-        }
-        .svc-card:hover { border-color: var(--bra-primary); }
-        .svc-card-icon {
-            color: #4B5563;
-            width: 32px;
-            height: 32px;
-            margin-bottom: 1.25rem;
-            flex-shrink: 0;
-        }
-        .svc-card-title { font-size: 1.0625rem; font-weight: 600; color: var(--bra-text); margin-bottom: 0.5rem; }
-        .svc-card-desc { font-size: 1.0625rem; color: #4B5563; line-height: 1.65; margin-bottom: 1rem; }
-        .svc-card-divider { border: 0; border-top: 1px solid var(--bra-border); margin: 0.75rem 0; }
-        .svc-card-data {
-            font-family: 'SF Mono', 'Menlo', 'Consolas', monospace;
-            font-size: 0.875rem;
-            color: var(--bra-text);
-            margin-bottom: 1rem;
-        }
-        .svc-card-link { color: var(--bra-primary); font-size: 0.9375rem; text-decoration: none; font-weight: 600; margin-top: auto; }
-        .svc-card-link:hover { color: var(--bra-primary-dark); }
+    .section-corp + .section-corp:not(.section-corp--ink):not(.section-corp--ink + .section-corp) {
+      border-top: 1px solid rgba(15,23,42,0.06);
+    }
 
-        /* ===== Section 6 - Capacity Datasheet ===== */
-        .capacity-section { background: #fff; }
-        .cap-table { width: 100%; border-collapse: collapse; }
-        .cap-table thead th {
-            background: var(--bra-bg-light);
-            font-size: 0.8125rem;
-            text-transform: uppercase;
-            letter-spacing: 0.06em;
-            color: var(--bra-muted);
-            font-weight: 600;
-            padding: 1rem 1.25rem;
-            text-align: left;
-            border-bottom: 1px solid var(--bra-border);
-        }
-        .cap-table tbody td {
-            padding: 1rem 1.25rem;
-            border-bottom: 1px solid var(--bra-border);
-            font-size: 1.0625rem;
-            line-height: 1.65;
-        }
-        .cap-table tbody tr:nth-child(even) { background: var(--bra-bg-light); }
-        .cap-table tbody td:first-child { color: var(--bra-text); font-weight: 500; }
-        .cap-table tbody td:last-child {
-            font-family: 'SF Mono', 'Menlo', 'Consolas', monospace;
-            color: var(--bra-text);
-            text-align: right;
-        }
-        .cap-floorshot {
-            aspect-ratio: 4/3;
-            border-radius: 0.75rem;
-            overflow: hidden;
-        }
-        .cap-floorshot img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            display: block;
-        }
+    /* ===== Section headings ===== */
+    .section-head {
+      text-align: center;
+      margin-bottom: clamp(32px, 5vw, 56px);
+    }
+    .section-rail {
+      font-size: 0.75rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--color-primary);
+      font-weight: 700;
+      display: inline-block;
+      margin-bottom: 8px;
+    }
+    .section-h2 {
+      font-size: clamp(1.75rem, 3.5vw, 2.75rem);
+      font-weight: 800;
+      color: #0F1F1E;
+      letter-spacing: -0.02em;
+      margin: 8px 0 14px;
+      line-height: 1.12;
+    }
+    .section-sub {
+      font-size: clamp(0.9375rem, 1.3vw, 1.125rem);
+      line-height: 1.55;
+      color: var(--color-muted);
+      max-width: 60ch;
+      margin: 0 auto;
+    }
 
-        /* ===== Section 7 - Mid CTA ===== */
-        .mid-cta-section {
-            background: var(--bra-primary);
-            color: #fff;
-            text-align: center;
-        }
-        .mid-cta-h2 {
-            font-size: clamp(1.75rem, 3.5vw, 2.75rem);
-            font-weight: 700;
-            color: #fff;
-            margin-bottom: 1.25rem;
-        }
-        .mid-cta-sub {
-            font-size: clamp(1rem, 1.5vw, 1.25rem);
-            color: rgba(255,255,255,0.85);
-            max-width: 50ch;
-            margin: 0 auto 2.5rem;
-            line-height: 1.6;
-        }
-        .mid-cta-note { font-size: 0.875rem; color: rgba(255,255,255,0.7); margin-top: 1.25rem; }
+    /* ===== Buttons ===== */
+    .btn-corp {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      min-height: 52px;
+      padding: 0 28px;
+      font-family: var(--font-sans);
+      font-size: 0.9375rem;
+      font-weight: 600;
+      letter-spacing: 0.005em;
+      border-radius: 8px;
+      text-decoration: none;
+      cursor: pointer;
+      border: 1.5px solid transparent;
+      transition: background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
+    }
+    .btn-corp--primary {
+      background: var(--color-primary);
+      color: #FFFFFF;
+      border-color: var(--color-primary);
+    }
+    .btn-corp--primary:hover {
+      background: var(--color-primary-dark);
+      border-color: var(--color-primary-dark);
+      color: #FFFFFF;
+      transform: translateY(-1px);
+    }
+    .btn-corp--ghost {
+      background: transparent;
+      color: #FFFFFF;
+      border-color: rgba(255,255,255,0.5);
+    }
+    .btn-corp--ghost:hover {
+      background: rgba(255,255,255,0.12);
+      border-color: #FFFFFF;
+      color: #FFFFFF;
+    }
+    .btn-corp--ghost-dark {
+      background: transparent;
+      color: var(--color-secondary);
+      border-color: var(--color-secondary);
+    }
+    .btn-corp--ghost-dark:hover {
+      background: var(--color-secondary);
+      color: #FFFFFF;
+    }
+    .btn-corp--white {
+      background: #FFFFFF;
+      color: var(--color-primary);
+      border-color: #FFFFFF;
+    }
+    .btn-corp--white:hover {
+      background: #F3F4F6;
+      color: var(--color-primary-dark);
+      transform: translateY(-1px);
+    }
+    .btn-corp--accent {
+      position: relative;
+      overflow: hidden;
+    }
+    .btn-corp--accent::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(110deg, transparent 35%, rgba(255,255,255,0.35) 50%, transparent 65%);
+      transform: translateX(-120%);
+      transition: transform 0.7s ease;
+      pointer-events: none;
+    }
+    .btn-corp--accent:hover::before { transform: translateX(120%); }
 
-        /* ===== Section 8 - Comparison ===== */
-        .comparison-section { background: var(--bra-bg-light); }
-        .cmp-header-row {
-            display: grid;
-            grid-template-columns: 16% 42% 42%;
-            gap: 2rem;
-            padding: 1rem 0 1.25rem;
-            border-bottom: 2px solid var(--bra-border);
-        }
-        .cmp-header-row span {
-            font-size: 0.8125rem;
-            text-transform: uppercase;
-            letter-spacing: 0.06em;
-            color: var(--bra-muted);
-            font-weight: 600;
-        }
-        .cmp-header-row span:first-child { /* empty label column */ }
-        .cmp-row {
-            display: grid;
-            grid-template-columns: 16% 42% 42%;
-            gap: 2rem;
-            padding: 2rem 0;
-            border-bottom: 1px solid var(--bra-border);
-            align-items: start;
-        }
-        .cmp-row:last-child { border-bottom: none; }
-        .cmp-row-label { font-size: 1rem; font-weight: 600; color: var(--bra-text); }
-        .cmp-row-industry {
-            font-size: 1.0625rem;
-            color: var(--bra-muted);
-            line-height: 1.65;
-            position: relative;
-            padding-left: 2rem;
-        }
-        .cmp-row-industry::before {
-            content: '\2717';
-            position: absolute;
-            left: 0;
-            top: 0.1em;
-            color: #9CA3AF;
-            font-weight: 700;
-            font-size: 1.125rem;
-        }
-        .cmp-row-berun {
-            font-size: 1.0625rem;
-            color: var(--bra-text);
-            line-height: 1.65;
-            font-weight: 500;
-            position: relative;
-            padding-left: 2rem;
-        }
-        .cmp-row-berun::before {
-            content: '\2713';
-            position: absolute;
-            left: 0;
-            top: 0.1em;
-            color: var(--bra-primary);
-            font-weight: 700;
-            font-size: 1.125rem;
-        }
-        @media (max-width: 768px) {
-            .cmp-header-row { display: none; }
-            .cmp-row { grid-template-columns: 1fr; gap: 1rem; }
-            .cmp-row-label { font-size: 1.0625rem; color: var(--bra-primary); }
-            .cmp-row-industry::before { content: 'Industry: \2717 '; position: static; display: inline; }
-            .cmp-row-industry { padding-left: 0; }
-            .cmp-row-berun::before { content: 'Berun: \2713 '; position: static; display: inline; }
-            .cmp-row-berun { padding-left: 0; }
-        }
+    /* ===== Animation ===== */
+    @keyframes corp-rise {
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .anim-rise {
+      opacity: 0;
+      transform: translateY(18px);
+      animation: corp-rise 0.7s cubic-bezier(0.2,0.8,0.2,1) forwards;
+    }
+    .anim-d1 { animation-delay: 0.05s; }
+    .anim-d2 { animation-delay: 0.18s; }
+    .anim-d3 { animation-delay: 0.30s; }
+    .anim-d4 { animation-delay: 0.42s; }
+    .anim-d5 { animation-delay: 0.55s; }
+    @media (prefers-reduced-motion: reduce) {
+      .anim-rise { opacity: 1; transform: none; animation: none; }
+    }
 
-        /* ===== Section 9 - Certifications ===== */
-        .cert-section { background: #fff; }
-        .cert-badge-row {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: 2.5rem;
-            margin: 3rem 0 4rem;
-        }
-        .cert-badge {
-            height: 72px;
-            min-width: 120px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background: #fff;
-            border: 1px solid var(--bra-border);
-            border-radius: 0.5rem;
-            padding: 0.875rem 1.25rem;
-            font-size: 0.8125rem;
-            font-weight: 700;
-            color: #4B5563;
-            letter-spacing: 0.04em;
-            text-align: center;
-            line-height: 1.2;
-            filter: grayscale(60%);
-            transition: filter 0.18s ease, border-color 0.18s ease;
-        }
-        .cert-badge:hover { filter: grayscale(0%); border-color: var(--bra-primary); }
-        .cert-list .cert-row {
-            display: grid;
-            grid-template-columns: 60% 40%;
-            gap: 1.5rem;
-            align-items: start;
-            padding: 1.5rem 0;
-            border-bottom: 1px solid var(--bra-border);
-        }
-        .cert-list .cert-row:last-child { border-bottom: none; }
-        .cert-name { font-size: 1.0625rem; font-weight: 600; color: var(--bra-text); margin-bottom: 0.25rem; }
-        .cert-desc { font-size: 1.0625rem; color: #4B5563; line-height: 1.65; }
-        .cert-action {
-            text-align: right;
-            font-size: 0.875rem;
-            color: var(--bra-text);
-            font-family: 'SF Mono', 'Menlo', 'Consolas', monospace;
-        }
-        .cert-action a { color: var(--bra-primary); text-decoration: none; font-family: inherit; font-weight: 600; margin-left: 0.5rem; }
-        .cert-action a:hover { color: var(--bra-primary-dark); }
-        @media (max-width: 768px) {
-            .cert-list .cert-row { grid-template-columns: 1fr; }
-            .cert-action { text-align: left; }
-        }
+    /* ===== S1: Hero (full-bleed bg image) ===== */
+    .hero-corp {
+      position: relative;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      background: #0F1F1E;
+    }
+    .hero-corp__bg {
+      position: absolute;
+      inset: 0;
+      z-index: 0;
+    }
+    .hero-corp__bg img {
+      width: 100%; height: 100%;
+      object-fit: cover;
+      object-position: center 40%;
+      display: block;
+    }
+    .hero-corp__bg::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(90deg, rgba(15,31,30,0.88) 0%, rgba(15,31,30,0.62) 50%, rgba(15,31,30,0.30) 100%);
+    }
+    .hero-corp__inner {
+      position: relative;
+      z-index: 1;
+      flex: 1;
+      display: flex;
+      align-items: center;
+      padding: clamp(100px, 14vh, 160px) 0 clamp(40px, 5vw, 80px);
+    }
+    .hero-corp__copy {
+      display: flex;
+      flex-direction: column;
+      gap: clamp(14px, 1.8vw, 22px);
+      max-width: 640px;
+    }
+    .hero-corp__eyebrow {
+      font-size: 0.75rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: var(--color-primary);
+    }
+    .hero-corp__h1 {
+      font-family: var(--font-sans);
+      font-size: clamp(2.25rem, 4vw, 4rem);
+      font-weight: 800;
+      line-height: 1.08;
+      letter-spacing: -0.025em;
+      color: #FFFFFF;
+      margin: 0;
+    }
+    .hero-corp__h1 em {
+      font-style: normal;
+      color: var(--color-accent);
+    }
+    .hero-corp__sub {
+      font-size: clamp(1rem, 0.5vw + 0.875rem, 1.1875rem);
+      line-height: 1.55;
+      color: rgba(250,247,242,0.85);
+      margin: 0;
+      max-width: 560px;
+    }
+    .hero-corp__trust-line {
+      font-size: 0.8125rem;
+      letter-spacing: 0.03em;
+      color: rgba(250,247,242,0.6);
+      margin: 0;
+    }
+    .hero-corp__trust-line span {
+      margin: 0 6px;
+      opacity: 0.4;
+    }
+    .hero-corp__ctas {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin: 4px 0 0;
+    }
 
-        /* ===== Section 10 - Client Voice ===== */
-        .quote-section { background: var(--bra-bg-light); }
-        .quote-section-eyebrow {
-            text-align: center;
-            font-size: 0.8rem;
-            letter-spacing: 0.12em;
-            text-transform: uppercase;
-            color: var(--bra-muted);
-            font-weight: 600;
-            margin-bottom: 3.5rem;
-        }
-        .quote-card {
-            background: #fff;
-            border-radius: 0.75rem;
-            padding: 3rem;
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-            box-shadow: 0 1px 3px rgba(17,24,39,0.04);
-        }
-        .quote-mark {
-            font-size: 5rem;
-            color: var(--bra-primary);
-            opacity: 0.25;
-            line-height: 0.8;
-            font-family: Georgia, 'Times New Roman', serif;
-            margin-bottom: 1.25rem;
-        }
-        .quote-text {
-            font-size: 1.0625rem;
-            line-height: 1.65;
-            color: var(--bra-text);
-            margin-bottom: 2rem;
-            flex: 1;
-        }
-        .quote-divider { border: 0; border-top: 1px solid var(--bra-border); margin-bottom: 1.5rem; }
-        .quote-attr {
-            display: flex;
-            align-items: center;
-            gap: 1rem;
-            font-size: 0.9375rem;
-            color: #4B5563;
-            font-weight: 500;
-        }
-        .quote-avatar {
-            width: 48px;
-            height: 48px;
-            border-radius: 50%;
-            background: linear-gradient(135deg, var(--bra-primary) 0%, var(--bra-primary-dark) 100%);
-            color: #fff;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-weight: 700;
-            font-size: 0.9375rem;
-            flex-shrink: 0;
-        }
+    /* Stats band at hero bottom */
+    .hero-corp__stats-band {
+      position: relative;
+      z-index: 1;
+      background: rgba(15,31,30,0.85);
+      backdrop-filter: blur(8px);
+      border-top: 1px solid rgba(250,247,242,0.08);
+      padding: clamp(20px, 3vw, 32px) 0;
+    }
+    .hero-corp__stats {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: clamp(12px, 2vw, 28px);
+    }
+    .hero-corp__stat {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 0 8px;
+      border-right: 1px solid rgba(250,247,242,0.10);
+    }
+    .hero-corp__stat:last-child { border-right: 0; }
+    .hero-corp__stat-icon {
+      width: 40px; height: 40px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--color-accent);
+      font-size: 1.25rem;
+      flex-shrink: 0;
+    }
+    .hero-corp__stat-num {
+      display: block;
+      font-family: var(--font-sans);
+      font-weight: 700;
+      font-size: clamp(1.25rem, 1.4vw + 0.5rem, 1.75rem);
+      line-height: 1;
+      color: #FFFFFF;
+      letter-spacing: -0.015em;
+    }
+    .hero-corp__stat-num em {
+      font-style: normal;
+      font-weight: 600;
+      color: var(--color-accent);
+      margin-left: 1px;
+    }
+    .hero-corp__stat-label {
+      display: block;
+      margin-top: 4px;
+      font-size: 0.75rem;
+      letter-spacing: 0.02em;
+      color: rgba(250,247,242,0.68);
+      line-height: 1.35;
+    }
+    @media (max-width: 991px) {
+      .hero-corp { min-height: auto; }
+      .hero-corp__inner { padding: clamp(120px, 18vh, 200px) 0 clamp(40px, 5vw, 60px); }
+      .hero-corp__copy { max-width: 100%; }
+      .hero-corp__stats { grid-template-columns: repeat(3, 1fr); gap: 16px 12px; }
+      .hero-corp__stat:nth-child(3) { border-right: 0; }
+      .hero-corp__stat:nth-child(n+4) { padding-top: 14px; border-top: 1px solid rgba(250,247,242,0.08); }
+    }
+    @media (max-width: 575px) {
+      .hero-corp__h1 { font-size: clamp(1.875rem, 7vw, 2.5rem); }
+      .hero-corp__ctas .btn-corp { width: 100%; text-align: center; }
+      .hero-corp__stats { grid-template-columns: repeat(2, 1fr); }
+      .hero-corp__stat:nth-child(2n) { border-right: 0; }
+      .hero-corp__stat:nth-child(n+3) { padding-top: 14px; border-top: 1px solid rgba(250,247,242,0.08); }
+      .hero-corp__stat:nth-child(5) { grid-column: 1 / -1; }
+    }
 
-        /* ===== Section 11 - Markets Served ===== */
-        .markets-section {
-            background: var(--bra-dark);
-            color: #fff;
-        }
-        .markets-section .section-h2 { color: #fff; }
-        .markets-section .section-sub { color: #D1D5DB; }
-        .markets-section .eyebrow { color: var(--bra-accent); }
-        .logo-wall {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 1.25rem;
-            margin: 3rem 0 4rem;
-        }
-        @media (max-width: 768px) {
-            .logo-wall { grid-template-columns: repeat(3, 1fr); }
-        }
-        .logo-item {
-            height: 68px;
-            background: rgba(255,255,255,0.06);
-            border: 1px solid rgba(255,255,255,0.1);
-            border-radius: 0.375rem;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 0.78rem;
-            font-weight: 700;
-            color: rgba(255,255,255,0.7);
-            letter-spacing: 0.04em;
-            text-align: center;
-            line-height: 1.15;
-            padding: 0.5rem;
-            transition: background 0.18s ease;
-        }
-        .logo-item:hover { background: rgba(255,255,255,0.1); }
-        .market-list { list-style: none; padding: 0; margin: 0; }
-        .market-list li {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 1rem 0;
-            border-bottom: 1px solid rgba(255,255,255,0.1);
-            font-size: 1.0625rem;
-            color: #E5E7EB;
-            font-weight: 500;
-        }
-        .market-list li:last-child { border-bottom: none; }
-        .market-pct {
-            font-family: 'SF Mono', 'Menlo', 'Consolas', monospace;
-            color: var(--bra-primary);
-            font-weight: 700;
-            font-size: 1.125rem;
-        }
-        .market-col-h3 {
-            font-size: 0.875rem;
-            text-transform: uppercase;
-            letter-spacing: 0.08em;
-            color: var(--bra-accent);
-            font-weight: 700;
-            margin-bottom: 1.5rem;
-        }
+    /* ===== S2: Data Wall — stat cards ===== */
+    .data-wall-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: clamp(16px, 2vw, 24px);
+    }
+    .data-wall-card {
+      padding: clamp(28px, 3vw, 40px) clamp(24px, 2.5vw, 32px);
+      background: #FFFFFF;
+      border: 1px solid var(--color-border);
+      border-radius: 12px;
+      transition: transform .25s ease, box-shadow .25s ease;
+      position: relative;
+    }
+    .data-wall-card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--corp-shadow-2);
+    }
+    .data-wall-card__icon {
+      position: absolute;
+      top: clamp(20px, 2vw, 28px);
+      right: clamp(20px, 2vw, 28px);
+      color: var(--color-muted);
+      font-size: 1.25rem;
+      opacity: 0.5;
+    }
+    .data-wall-card__num {
+      font-family: var(--font-sans);
+      font-size: clamp(3rem, 5vw, 4.5rem);
+      font-weight: 800;
+      color: var(--color-primary);
+      letter-spacing: -0.02em;
+      line-height: 1;
+      margin: 0 0 12px;
+    }
+    .data-wall-card__num small {
+      font-size: 0.55em;
+      color: var(--color-primary);
+      font-weight: 700;
+    }
+    .data-wall-card__desc {
+      font-size: 0.875rem;
+      line-height: 1.5;
+      color: var(--color-muted);
+      margin: 0;
+      max-width: 28ch;
+    }
+    @media (max-width: 991px) {
+      .data-wall-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (max-width: 575px) {
+      .data-wall-grid { grid-template-columns: repeat(2, 1fr); }
+      .data-wall-card__num { font-size: clamp(2.5rem, 10vw, 3.25rem); }
+    }
 
-        /* ===== Section 12 - Final CTA ===== */
-        .final-cta-section {
-            background: linear-gradient(135deg, var(--bra-darker) 0%, #2a1215 50%, var(--bra-primary-dark) 100%);
-            color: #fff;
-            text-align: center;
-        }
-        .final-cta-h2 {
-            font-size: clamp(2rem, 4vw, 3.5rem);
-            font-weight: 700;
-            color: #fff;
-            line-height: 1.15;
-            max-width: 22ch;
-            margin: 0 auto 1.75rem;
-        }
-        .final-cta-sub {
-            font-size: clamp(1rem, 1.5vw, 1.25rem);
-            color: #D1D5DB;
-            line-height: 1.6;
-            max-width: 56ch;
-            margin: 0 auto 3rem;
-        }
-        .final-cta-btns { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; }
-        .final-cta-trust { font-size: 0.9375rem; color: #9CA3AF; margin-top: 2.5rem; letter-spacing: 0.02em; }
+    /* ===== S3: Promise Break ===== */
+    .promise-break {
+      min-height: auto;
+      padding: clamp(80px, 10vh, 112px) 0;
+      background: var(--color-secondary);
+      text-align: center;
+      border-top: 1px solid #374151;
+      border-bottom: 1px solid #374151;
+    }
+    .promise-break__headline {
+      font-size: clamp(1.875rem, 4.5vw, 3.25rem);
+      font-weight: 700;
+      color: #FFFFFF;
+      letter-spacing: -0.01em;
+      line-height: 1.15;
+      margin: 0;
+    }
+    .promise-break__note {
+      font-size: 0.875rem;
+      color: var(--color-accent);
+      opacity: 0.85;
+      margin: 2rem auto 0;
+      max-width: 60ch;
+      line-height: 1.5;
+    }
 
-        /* ===== Animations ===== */
-        .bra-fade-up {
-            opacity: 0;
-            transform: translateY(24px);
-            transition: opacity 0.7s cubic-bezier(0.2,0.8,0.2,1), transform 0.7s cubic-bezier(0.2,0.8,0.2,1);
-        }
-        .bra-fade-up.is-visible {
-            opacity: 1;
-            transform: translateY(0);
-        }
-        @media (prefers-reduced-motion: reduce) {
-            .bra-fade-up {
-                opacity: 1;
-                transform: none;
-                transition: none;
-            }
-        }
+    /* ===== S4: Product Family cards (with images) ===== */
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: clamp(16px, 2vw, 28px);
+    }
+    .product-grid--row2 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: clamp(16px, 2vw, 28px);
+      max-width: 66.666%;
+      margin: clamp(16px, 2vw, 28px) auto 0;
+    }
+    .product-card {
+      position: relative;
+      background: #FFFFFF;
+      border: 1px solid var(--color-border);
+      border-radius: 12px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
+    }
+    .product-card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--corp-shadow-2);
+      border-color: rgba(15,31,30,0.16);
+    }
+    .product-card__media {
+      aspect-ratio: 4 / 3;
+      overflow: hidden;
+      background: #F0EBE4;
+      margin: 0;
+      position: relative;
+    }
+    .product-card__media img {
+      width: 100%; height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: transform .5s ease;
+    }
+    .product-card:hover .product-card__media img { transform: scale(1.04); }
+    .product-card__body {
+      padding: clamp(18px, 2vw, 24px);
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+    }
+    .product-card__title {
+      font-size: 1.125rem;
+      font-weight: 700;
+      color: #0F1F1E;
+      margin: 0 0 8px;
+      letter-spacing: -0.01em;
+    }
+    .product-card__desc {
+      font-size: 0.9375rem;
+      line-height: 1.5;
+      color: #2A332A;
+      margin: 0 0 14px;
+      flex: 1;
+    }
+    .product-card__chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 16px;
+    }
+    .product-card__chip {
+      display: inline-block;
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: var(--color-secondary);
+      background: #F3F4F6;
+      padding: 4px 10px;
+      border-radius: 9999px;
+    }
+    .product-card__link {
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: var(--color-primary);
+      text-decoration: none;
+      transition: color .2s ease;
+    }
+    .product-card__link:hover { color: var(--color-primary-dark); }
+    @media (max-width: 991px) {
+      .product-grid { grid-template-columns: repeat(2, 1fr); }
+      .product-grid--row2 { max-width: 100%; grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (max-width: 575px) {
+      .product-grid { grid-template-columns: 1fr; }
+      .product-grid--row2 { grid-template-columns: 1fr; }
+    }
+
+    /* ===== S5: Production Services cards ===== */
+    .services-grid {
+      display: grid;
+      grid-template-columns: 1.4fr 1fr 1fr;
+      grid-template-rows: auto auto;
+      gap: clamp(16px, 2vw, 24px);
+    }
+    .service-card {
+      position: relative;
+      padding: clamp(22px, 2.5vw, 28px);
+      background: #FFFFFF;
+      border: 1px solid var(--color-border);
+      border-radius: 12px;
+      display: flex;
+      flex-direction: column;
+      transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
+    }
+    .service-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 28px rgba(15,31,30,0.08);
+      border-color: rgba(15,31,30,0.16);
+    }
+    .service-card--featured {
+      grid-row: span 2;
+      background: linear-gradient(160deg, #FEF2F2 0%, #FFFFFF 60%);
+      border: 2px solid var(--color-primary);
+      box-shadow: 0 12px 32px rgba(220,38,38,0.08);
+    }
+    .service-card--featured:hover {
+      box-shadow: 0 18px 40px rgba(220,38,38,0.12);
+    }
+    .service-card__icon {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 44px; height: 44px;
+      border-radius: 10px;
+      background: rgba(220,38,38,0.08);
+      color: var(--color-primary);
+      font-size: 1.25rem;
+      margin-bottom: 14px;
+    }
+    .service-card--featured .service-card__icon {
+      background: var(--color-primary);
+      color: #FFFFFF;
+      width: 52px; height: 52px;
+      font-size: 1.5rem;
+    }
+    .service-card__hot {
+      display: inline-block;
+      font-size: 0.6875rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--color-primary);
+      background: rgba(220,38,38,0.06);
+      padding: 4px 10px;
+      border-radius: 999px;
+      margin-bottom: 10px;
+      border: 1px solid rgba(220,38,38,0.20);
+    }
+    .service-card__title {
+      font-size: 1.125rem;
+      font-weight: 700;
+      color: #0F1F1E;
+      margin: 0 0 10px;
+      letter-spacing: -0.01em;
+    }
+    .service-card--featured .service-card__title { font-size: 1.375rem; }
+    .service-card__desc {
+      font-size: 0.9375rem;
+      line-height: 1.55;
+      color: #2A332A;
+      margin: 0 0 14px;
+    }
+    .service-card__moq {
+      font-family: 'SF Mono', 'Fira Code', 'Cascadia Mono', monospace;
+      font-size: 0.8125rem;
+      color: var(--color-muted);
+      padding-top: 12px;
+      border-top: 1px dashed rgba(15,31,30,0.10);
+      margin-top: auto;
+      margin-bottom: 12px;
+    }
+    .service-card__link {
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: var(--color-primary);
+      text-decoration: none;
+    }
+    .service-card__link:hover { color: var(--color-primary-dark); }
+    @media (max-width: 991px) {
+      .services-grid { grid-template-columns: 1fr 1fr; }
+      .service-card--featured { grid-column: span 2; grid-row: auto; }
+    }
+    @media (max-width: 575px) {
+      .services-grid { grid-template-columns: 1fr; }
+      .service-card--featured { grid-column: auto; }
+    }
+
+    /* ===== S6: Capacity Datasheet ===== */
+    .datasheet-split {
+      display: grid;
+      grid-template-columns: 55% 1fr;
+      gap: clamp(24px, 4vw, 48px);
+      align-items: start;
+    }
+    .datasheet-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .datasheet-table thead th {
+      font-size: 0.75rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--color-muted);
+      font-weight: 700;
+      padding: 12px 16px;
+      background: var(--color-bg-tint);
+      border-bottom: 2px solid rgba(15,31,30,0.10);
+      text-align: left;
+    }
+    .datasheet-table td {
+      padding: 14px 16px;
+      font-size: 0.9375rem;
+      border-bottom: 1px solid rgba(15,31,30,0.06);
+      vertical-align: top;
+    }
+    .datasheet-table td:first-child {
+      font-weight: 500;
+      color: var(--color-secondary);
+      width: 44%;
+    }
+    .datasheet-table td:last-child {
+      font-family: 'SF Mono', 'Fira Code', monospace;
+      color: var(--color-text);
+    }
+    .datasheet-table tbody tr:hover {
+      background: rgba(220,38,38,0.02);
+    }
+    .datasheet-img {
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 8px 24px rgba(15,31,30,0.12);
+      position: sticky;
+      top: 120px;
+    }
+    .datasheet-img img {
+      width: 100%; height: auto;
+      display: block;
+      aspect-ratio: 4 / 3;
+      object-fit: cover;
+    }
+    @media (max-width: 991px) {
+      .datasheet-split {
+        grid-template-columns: 1fr;
+      }
+      .datasheet-img { position: static; order: -1; }
+    }
+
+    /* ===== S7: Mid-CTA (red bg) ===== */
+    .mid-cta {
+      min-height: auto;
+      padding: clamp(56px, 8vh, 96px) 0;
+      background: var(--color-primary);
+      text-align: center;
+    }
+    .mid-cta__h2 {
+      font-size: clamp(1.5rem, 3vw, 2.25rem);
+      font-weight: 700;
+      color: #FFFFFF;
+      margin: 0 0 12px;
+    }
+    .mid-cta__sub {
+      font-size: 1.0625rem;
+      color: rgba(255,255,255,0.82);
+      margin: 0 auto 28px;
+      max-width: 50ch;
+      line-height: 1.5;
+    }
+    .mid-cta__note {
+      font-size: 0.8125rem;
+      color: rgba(255,255,255,0.6);
+      margin: 16px 0 0;
+    }
+
+    /* ===== S8: Differentiation / Comparison ===== */
+    .compare-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .compare-table th {
+      padding: 16px 20px;
+      font-size: 0.75rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: var(--color-muted);
+      background: rgba(15,31,30,0.03);
+      border-bottom: 2px solid rgba(15,31,30,0.10);
+      text-align: left;
+    }
+    .compare-table th:first-child { width: 16%; }
+    .compare-table th:nth-child(2) { width: 42%; }
+    .compare-table th:nth-child(3) { width: 42%; }
+    .compare-table td {
+      padding: clamp(18px, 2vw, 24px) 20px;
+      font-size: 0.9375rem;
+      line-height: 1.55;
+      border-bottom: 1px solid rgba(15,31,30,0.06);
+      vertical-align: top;
+    }
+    .compare-table td:first-child {
+      font-weight: 600;
+      color: var(--color-secondary);
+      font-size: 0.875rem;
+    }
+    .compare-table .compare-industry {
+      color: var(--color-muted);
+    }
+    .compare-table .compare-berun {
+      color: var(--color-text);
+      background: rgba(220,38,38,0.02);
+    }
+    .compare-table .compare-berun strong {
+      color: var(--color-primary);
+      font-weight: 700;
+    }
+    .compare-icon {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 22px; height: 22px;
+      border-radius: 50%;
+      font-size: 0.75rem;
+      margin-right: 8px;
+      flex-shrink: 0;
+      vertical-align: middle;
+    }
+    .compare-icon--x {
+      background: #F3F4F6;
+      color: #9CA3AF;
+    }
+    .compare-icon--check {
+      background: rgba(220,38,38,0.10);
+      color: var(--color-primary);
+    }
+    @media (max-width: 767px) {
+      .compare-table, .compare-table thead, .compare-table tbody,
+      .compare-table th, .compare-table tr, .compare-table td {
+        display: block;
+      }
+      .compare-table thead { display: none; }
+      .compare-table tr {
+        margin-bottom: 24px;
+        border: 1px solid var(--color-border);
+        border-radius: 12px;
+        overflow: hidden;
+      }
+      .compare-table td {
+        padding: 14px 20px;
+        border-bottom: 1px solid rgba(15,31,30,0.04);
+      }
+      .compare-table td:first-child {
+        background: rgba(15,31,30,0.03);
+        font-size: 0.8125rem;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+      }
+      .compare-table td::before {
+        content: attr(data-label);
+        display: block;
+        font-size: 0.6875rem;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: var(--color-muted);
+        font-weight: 700;
+        margin-bottom: 6px;
+      }
+      .compare-table td:first-child::before { display: none; }
+    }
+
+    /* ===== S9: Certifications ===== */
+    .cert-badges-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: clamp(12px, 2vw, 20px);
+      margin-bottom: clamp(28px, 4vw, 44px);
+    }
+    .cert-badge {
+      display: inline-flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      padding: clamp(14px, 2vw, 20px) clamp(16px, 2vw, 24px);
+      background: var(--color-bg-tint);
+      border: 1px solid var(--color-border);
+      border-radius: 10px;
+      min-width: 120px;
+      text-align: center;
+      transition: transform .25s ease, box-shadow .25s ease;
+    }
+    .cert-badge:hover {
+      transform: translateY(-3px);
+      box-shadow: var(--corp-shadow-1);
+    }
+    .cert-badge__icon {
+      font-size: 1.5rem;
+      color: var(--color-primary);
+    }
+    .cert-badge__name {
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      color: #0F1F1E;
+      text-transform: uppercase;
+    }
+    .cert-detail-list {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .cert-detail-row {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 24px;
+      align-items: center;
+      padding: clamp(16px, 2vw, 20px) 0;
+      border-bottom: 1px solid rgba(15,31,30,0.06);
+    }
+    .cert-detail-row:last-child { border-bottom: 0; }
+    .cert-detail__name {
+      font-size: 0.9375rem;
+      font-weight: 600;
+      color: #0F1F1E;
+      margin: 0 0 4px;
+    }
+    .cert-detail__desc {
+      font-size: 0.875rem;
+      color: var(--color-muted);
+      margin: 0;
+      line-height: 1.5;
+    }
+    .cert-detail__right {
+      text-align: right;
+      white-space: nowrap;
+    }
+    .cert-detail__id {
+      font-family: 'SF Mono', 'Fira Code', monospace;
+      font-size: 0.8125rem;
+      color: var(--color-secondary);
+      display: block;
+      margin-bottom: 4px;
+    }
+    .cert-detail__link {
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: var(--color-primary);
+      text-decoration: none;
+    }
+    .cert-detail__link:hover { color: var(--color-primary-dark); }
+    @media (max-width: 575px) {
+      .cert-detail-row { grid-template-columns: 1fr; gap: 8px; }
+      .cert-detail__right { text-align: left; }
+    }
+
+    /* ===== S10: Client Voice / Testimonials ===== */
+    .testimonial-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: clamp(20px, 3vw, 32px);
+      max-width: 1060px;
+      margin: 0 auto;
+    }
+    .testimonial-card {
+      background: #FFFFFF;
+      border-radius: 12px;
+      padding: clamp(24px, 3.5vw, 40px);
+      box-shadow: var(--corp-shadow-1);
+      border-left: 4px solid var(--color-primary);
+    }
+    .testimonial-card__mark {
+      font-size: 3.5rem;
+      line-height: 0.8;
+      color: var(--color-primary);
+      opacity: 0.25;
+      font-family: Georgia, serif;
+      margin-bottom: 12px;
+    }
+    .testimonial-card__quote {
+      font-size: clamp(0.9375rem, 1.2vw, 1.0625rem);
+      line-height: 1.65;
+      color: var(--color-text);
+      margin: 0 0 20px;
+      font-weight: 400;
+    }
+    .testimonial-card__attr {
+      padding-top: 16px;
+      border-top: 1px solid rgba(15,31,30,0.08);
+    }
+    .testimonial-card__name {
+      font-size: 0.9375rem;
+      font-weight: 700;
+      color: #0F1F1E;
+      margin: 0 0 2px;
+    }
+    .testimonial-card__role {
+      font-size: 0.8125rem;
+      color: var(--color-muted);
+      margin: 0;
+      font-weight: 500;
+    }
+    @media (max-width: 767px) {
+      .testimonial-grid { grid-template-columns: 1fr; }
+    }
+
+    /* ===== S11: Markets & Clients (dark bg) ===== */
+    .client-wall-grid {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap: clamp(12px, 2vw, 20px);
+      margin-bottom: clamp(36px, 5vw, 56px);
+    }
+    .client-wall-logo {
+      aspect-ratio: 16 / 7;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 8px;
+      padding: 10px 14px;
+      transition: background .25s ease, border-color .25s ease;
+    }
+    .client-wall-logo:hover {
+      background: rgba(255,255,255,0.12);
+      border-color: rgba(255,255,255,0.18);
+    }
+    .client-wall-logo span {
+      font-family: var(--font-sans);
+      font-weight: 700;
+      font-size: clamp(0.6875rem, 0.8vw, 0.8125rem);
+      letter-spacing: 0.02em;
+      color: rgba(250,247,242,0.72);
+      text-align: center;
+      white-space: nowrap;
+    }
+    .markets-split {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: clamp(32px, 4vw, 56px);
+      padding-top: clamp(24px, 3vw, 36px);
+      border-top: 1px solid rgba(255,255,255,0.08);
+    }
+    .markets-col__title {
+      font-size: 0.75rem;
+      letter-spacing: 0.10em;
+      text-transform: uppercase;
+      color: var(--color-accent);
+      font-weight: 700;
+      margin: 0 0 18px;
+    }
+    .markets-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      padding: 10px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+    }
+    .markets-row:last-child { border-bottom: 0; }
+    .markets-row__label {
+      font-size: 0.9375rem;
+      color: rgba(250,247,242,0.85);
+      font-weight: 500;
+    }
+    .markets-row__value {
+      font-family: 'SF Mono', 'Fira Code', monospace;
+      font-size: 0.9375rem;
+      color: var(--color-primary);
+      font-weight: 600;
+    }
+    @media (max-width: 991px) {
+      .client-wall-grid { grid-template-columns: repeat(3, 1fr); }
+    }
+    @media (max-width: 575px) {
+      .client-wall-grid { grid-template-columns: repeat(2, 1fr); }
+      .markets-split { grid-template-columns: 1fr; }
+    }
+
+    /* ===== S12: Final CTA ===== */
+    .final-cta {
+      min-height: auto;
+      padding: clamp(72px, 10vh, 120px) 0;
+      background: linear-gradient(180deg, var(--color-secondary) 0%, #111827 100%);
+      text-align: center;
+    }
+    .final-cta__h2 {
+      font-size: clamp(2rem, 4vw, 3rem);
+      font-weight: 700;
+      color: #FFFFFF;
+      margin: 0 0 20px;
+      line-height: 1.2;
+      max-width: 22ch;
+      margin-inline: auto;
+    }
+    .final-cta__sub {
+      font-size: 1.125rem;
+      color: #D1D5DB;
+      max-width: 56ch;
+      margin: 0 auto clamp(28px, 4vw, 40px);
+      line-height: 1.55;
+    }
+    .final-cta__btns {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      justify-content: center;
+      margin-bottom: 24px;
+    }
+    .final-cta__trust {
+      font-size: 0.875rem;
+      letter-spacing: 0.02em;
+      color: #9CA3AF;
+    }
+    .final-cta__trust span { margin: 0 6px; opacity: 0.4; }
+    @media (max-width: 575px) {
+      .final-cta__btns .btn-corp { width: 100%; }
+    }
+
+    /* ===== Scroll anchor offset ===== */
+    #inquiry { scroll-margin-top: 80px; }
+
+    /* ===== Inline anchor ===== */
+    a.inline-link {
+      color: var(--color-primary);
+      font-weight: 600;
+      text-decoration: none;
+      position: relative;
+      background-image: linear-gradient(var(--color-primary), var(--color-primary));
+      background-size: 0 1px;
+      background-position: 0 100%;
+      background-repeat: no-repeat;
+      transition: background-size .35s ease;
+    }
+    a.inline-link:hover { background-size: 100% 1px; }
     </style>
 </head>
 <body>
 
-    <!-- TopBar -->
-    <div id="topbar-container"></div>
+  <!-- TopBar plugin -->
+  <div id="topbar-container"></div>
+  <script src="/assets/topbar.js" defer></script>
 
-    <!-- Dynamic Menu -->
-    <div id="dynamic-menu-container"></div>
+  <!-- Dynamic Menu plugin -->
+  <div id="dynamic-menu-container"></div>
+  <script src="/assets/dynamic-menu.js" defer></script>
 
-    <main>
+  <main id="main">
 
-        <!-- ============================================== -->
-        <!-- Section 1 - Hero [100vh, dark bg + hero image] -->
-        <!-- ============================================== -->
-        <section id="section-1-hero" class="hero-section bra-section-full" aria-labelledby="hero-h1">
-            <div class="hero-bg">
-                <img src="/assets/images/hero-factory-bg.webp" alt="Factory cutting room with pattern-makers comparing spec sheet to lay marker, fabric rolls in soft focus" loading="eager" width="1920" height="1080" fetchpriority="high">
+    <!-- ============== S1 — Hero (full-bleed bg image, text overlay) ============== -->
+    <section class="hero-corp" aria-labelledby="hero-h1">
+      <picture class="hero-corp__bg" aria-hidden="true">
+        <img src="/assets/images/hero-factory-bg.webp"
+             alt=""
+             width="1920" height="1080" loading="eager" fetchpriority="high" decoding="sync">
+      </picture>
+
+      <div class="container-bra hero-corp__inner">
+        <div class="hero-corp__copy">
+          <span class="hero-corp__eyebrow anim-rise anim-d1">FOR SOURCING DIRECTORS REPLACING A FACTORY THAT DRIFTED</span>
+          <h1 class="hero-corp__h1 anim-rise anim-d2" id="hero-h1">Custom Activewear Manufacturer &mdash; OEM, ODM &amp; Private Label</h1>
+          <p class="hero-corp__sub anim-rise anim-d3">OEM / ODM cut-and-sew across 12 lines &middot; MOQ 300 / SKU split XS-XXL (not multiplied by size) &middot; sample in 5 working days &middot; OEKO-TEX 100, BSCI, WRAP Gold, GRS and Higg FEM on file.</p>
+          <p class="hero-corp__trust-line anim-rise anim-d3">8 years on the floor <span>&middot;</span> 280 staff <span>&middot;</span> 12 production lines <span>&middot;</span> 5 regions shipped</p>
+          <div class="hero-corp__ctas anim-rise anim-d4">
+            <a href="#inquiry" class="btn-corp btn-corp--primary btn-corp--accent">Send your tech-pack</a>
+            <a href="#inquiry" class="btn-corp btn-corp--ghost">Request capability deck</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Stats band at bottom -->
+      <div class="hero-corp__stats-band anim-rise anim-d5" role="list" aria-label="Factory capacity stats">
+        <div class="container-bra">
+          <ul class="hero-corp__stats">
+            <li class="hero-corp__stat" role="listitem">
+              <span class="hero-corp__stat-icon" aria-hidden="true"><i class="bi bi-calendar3"></i></span>
+              <div>
+                <span class="hero-corp__stat-num">8<em>+</em></span>
+                <span class="hero-corp__stat-label">Years on the Floor</span>
+              </div>
+            </li>
+            <li class="hero-corp__stat" role="listitem">
+              <span class="hero-corp__stat-icon" aria-hidden="true"><i class="bi bi-people"></i></span>
+              <div>
+                <span class="hero-corp__stat-num">280</span>
+                <span class="hero-corp__stat-label">Staff on Site</span>
+              </div>
+            </li>
+            <li class="hero-corp__stat" role="listitem">
+              <span class="hero-corp__stat-icon" aria-hidden="true"><i class="bi bi-bounding-box"></i></span>
+              <div>
+                <span class="hero-corp__stat-num">12</span>
+                <span class="hero-corp__stat-label">Production Lines</span>
+              </div>
+            </li>
+            <li class="hero-corp__stat" role="listitem">
+              <span class="hero-corp__stat-icon" aria-hidden="true"><i class="bi bi-box-seam"></i></span>
+              <div>
+                <span class="hero-corp__stat-num">380K<em>+</em></span>
+                <span class="hero-corp__stat-label">Monthly Capacity</span>
+              </div>
+            </li>
+            <li class="hero-corp__stat" role="listitem">
+              <span class="hero-corp__stat-icon" aria-hidden="true"><i class="bi bi-globe2"></i></span>
+              <div>
+                <span class="hero-corp__stat-num">5</span>
+                <span class="hero-corp__stat-label">Regions Shipped</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== S2 — Data Wall ============== -->
+    <section class="section-corp section-corp--tint" aria-labelledby="s2-h2">
+      <div class="container-bra" style="width:100%;">
+        <div class="section-head">
+          <span class="section-rail">5-Second Disqualifier Check</span>
+          <h2 class="section-h2" id="s2-h2">Six numbers your last factory wouldn't put on a webpage</h2>
+          <p class="section-sub">If the supplier you're replacing won't share these in writing, you already know why the third PO drifted.</p>
+        </div>
+        <div class="data-wall-grid">
+          <div class="data-wall-card">
+            <span class="data-wall-card__icon"><i class="bi bi-speedometer2"></i></span>
+            <p class="data-wall-card__num">&plusmn;5<small>% GSM</small></p>
+            <p class="data-wall-card__desc">Per-batch fabric weight tolerance vs spec. Lab report attached to every PO.</p>
+          </div>
+          <div class="data-wall-card">
+            <span class="data-wall-card__icon"><i class="bi bi-palette"></i></span>
+            <p class="data-wall-card__num">&Delta;E &le; 1.5</p>
+            <p class="data-wall-card__desc">Spectrophotometer color delta vs your approved lab dip. Black-on-black, neon, marl &mdash; same rule.</p>
+          </div>
+          <div class="data-wall-card">
+            <span class="data-wall-card__icon"><i class="bi bi-rulers"></i></span>
+            <p class="data-wall-card__num">&plusmn;0.5<small> cm</small></p>
+            <p class="data-wall-card__desc">Garment measurement tolerance on POM points: chest, waist, inseam, sleeve.</p>
+          </div>
+          <div class="data-wall-card">
+            <span class="data-wall-card__icon"><i class="bi bi-calendar-check"></i></span>
+            <p class="data-wall-card__num">92.4<small>%</small></p>
+            <p class="data-wall-card__desc">12-month rolling on-time delivery. Quarterly PDF report shareable under NDA.</p>
+          </div>
+          <div class="data-wall-card">
+            <span class="data-wall-card__icon"><i class="bi bi-clipboard2-check"></i></span>
+            <p class="data-wall-card__num">98.5<small>%</small></p>
+            <p class="data-wall-card__desc">AQL 2.5 pre-shipment inspection pass rate. SGS and Bureau Veritas compatible.</p>
+          </div>
+          <div class="data-wall-card">
+            <span class="data-wall-card__icon"><i class="bi bi-box-seam"></i></span>
+            <p class="data-wall-card__num">300<small> / SKU</small></p>
+            <p class="data-wall-card__desc">Total piece count, not per size. Split XS-XXL however your size curve reads.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== S3 — Promise Break ============== -->
+    <section class="promise-break" aria-labelledby="s3-h2">
+      <div class="container-bra">
+        <h2 class="promise-break__headline" id="s3-h2">Spec on paper. Spec on goods. Audit any PO.</h2>
+        <p class="promise-break__note">Every shipment includes a per-batch AQL 2.5 report and a spectrophotometer &Delta;E log. Pull them at any stage.</p>
+      </div>
+    </section>
+
+    <!-- ============== S4 — Product Family ============== -->
+    <section class="section-corp section-corp--white" aria-labelledby="s4-h2">
+      <div class="container-bra" style="width:100%;">
+        <div class="section-head">
+          <span class="section-rail">Product Range</span>
+          <h2 class="section-h2" id="s4-h2">Five families running side-by-side on the same floor</h2>
+          <p class="section-sub">Each family below has its own pattern team and fabric library, but shares the same 32 QC inspectors and same lab-dip lane. Click through for subcategory specs.</p>
+        </div>
+
+        <!-- Row 1: 3 cards -->
+        <div class="product-grid">
+          <article class="product-card">
+            <figure class="product-card__media">
+              <img loading="lazy" width="800" height="600"
+                   alt="Training and performance activewear flat-lay — leggings, sports bras, compression top"
+                   src="/assets/images/product-training-performance.webp">
+            </figure>
+            <div class="product-card__body">
+              <h3 class="product-card__title">Training &amp; Performance</h3>
+              <p class="product-card__desc">High-stretch performance pieces &mdash; anti-pilling, moisture-wicking, four-way stretch builds for studio and gym SKUs.</p>
+              <div class="product-card__chips">
+                <span class="product-card__chip">leggings</span>
+                <span class="product-card__chip">sports bras</span>
+                <span class="product-card__chip">joggers</span>
+                <span class="product-card__chip">shorts</span>
+                <span class="product-card__chip">compression top</span>
+              </div>
+              <a href="/products/training-performance" class="product-card__link">View Family &rarr;</a>
             </div>
-            <div class="bra-container">
-                <div class="row align-items-center g-5">
-                    <div class="col-lg-7">
-                        <span class="eyebrow-light bra-fade-up" style="color: var(--bra-primary);">FOR SOURCING DIRECTORS REPLACING A FACTORY THAT DRIFTED</span>
-                        <h1 id="hero-h1" class="hero-h1 bra-fade-up">Custom Activewear Manufacturer — 380K pcs/mo, OTD 92.4%, AQL 98.5%</h1>
-                        <p class="hero-sub bra-fade-up">OEM / ODM cut-and-sew across 12 lines · MOQ 300 / SKU split XS-XXL (not multiplied by size) · sample in 5 working days · OEKO-TEX 100, BSCI, WRAP Gold, GRS and Higg FEM on file.</p>
-                        <div class="d-flex flex-wrap gap-3 bra-fade-up">
-                            <a href="/contact" class="btn btn-bra-primary">Send your tech-pack</a>
-                            <a href="/contact?type=deck" class="btn btn-bra-outline">Request capability deck</a>
-                        </div>
-                        <div class="hero-trust bra-fade-up">8 years on the floor · 280 staff · 12 production lines · 5 regions shipped</div>
-                    </div>
-                </div>
+          </article>
+
+          <article class="product-card">
+            <figure class="product-card__media">
+              <img loading="lazy" width="800" height="600"
+                   alt="Athleisure and lifestyle fit collection — hoodie, jacket, sweatpant"
+                   src="/assets/images/product-athleisure.webp">
+            </figure>
+            <div class="product-card__body">
+              <h3 class="product-card__title">Athleisure / Lifestyle Fit</h3>
+              <p class="product-card__desc">Heavier-weight knits and looser fits for off-gym wear and lounge collections.</p>
+              <div class="product-card__chips">
+                <span class="product-card__chip">tee</span>
+                <span class="product-card__chip">hoodie</span>
+                <span class="product-card__chip">jacket</span>
+                <span class="product-card__chip">pullover</span>
+                <span class="product-card__chip">sweatpant</span>
+              </div>
+              <a href="/products/athleisure" class="product-card__link">View Family &rarr;</a>
             </div>
-        </section>
+          </article>
 
-        <!-- ============================================== -->
-        <!-- Section 2 - Data Wall [100vh, #F9FAFB bg] -->
-        <!-- ============================================== -->
-        <section id="section-2-data-wall" class="data-wall-section bra-section-full" aria-labelledby="datawall-h2">
-            <div class="bra-container" style="width:100%;">
-                <div class="section-header-center bra-fade-up">
-                    <h2 id="datawall-h2" class="section-h2">Six numbers your last factory wouldn't put on a webpage</h2>
-                    <p class="section-sub">If the supplier you're replacing won't share these in writing, you already know why the third PO drifted.</p>
-                </div>
-                <div class="row g-4">
-                    <div class="col-md-6 col-lg-4 bra-fade-up">
-                        <div class="data-stat-card">
-                            <svg class="data-stat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2 2"/><path d="M5 3L2 6"/><path d="M22 6l-3-3"/></svg>
-                            <div class="data-stat-number">&plusmn;5% GSM</div>
-                            <div class="data-stat-label">Per-batch fabric weight tolerance vs spec. Lab report attached to every PO.</div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 bra-fade-up">
-                        <div class="data-stat-card">
-                            <svg class="data-stat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><rect x="7" y="7" width="3" height="3"/><rect x="14" y="7" width="3" height="3"/><rect x="7" y="14" width="3" height="3"/><rect x="14" y="14" width="3" height="3"/></svg>
-                            <div class="data-stat-number">ΔE ≤ 1.5</div>
-                            <div class="data-stat-label">Spectrophotometer color delta vs your approved lab dip. Black-on-black, neon, marl — same rule.</div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 bra-fade-up">
-                        <div class="data-stat-card">
-                            <svg class="data-stat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 2v20"/><path d="M2 12h6"/><path d="M2 6h10"/><path d="M2 18h14"/><circle cx="20" cy="12" r="2"/><path d="M20 10V2"/><path d="M20 14v8"/></svg>
-                            <div class="data-stat-number">&plusmn;0.5 cm</div>
-                            <div class="data-stat-label">Garment measurement tolerance on POM points: chest, waist, inseam, sleeve.</div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 bra-fade-up">
-                        <div class="data-stat-card">
-                            <svg class="data-stat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4"/><path d="M8 2v4"/><path d="M3 10h18"/><path d="M8 14h.01"/><path d="M12 14h.01"/><path d="M16 14h.01"/><path d="M8 18h.01"/><path d="M12 18h.01"/></svg>
-                            <div class="data-stat-number">OTD 92.4%</div>
-                            <div class="data-stat-label">12-month rolling on-time delivery. Quarterly PDF report shareable under NDA.</div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 bra-fade-up">
-                        <div class="data-stat-card">
-                            <svg class="data-stat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <div class="data-stat-number">AQL 2.5 / 98.5%</div>
-                            <div class="data-stat-label">Pre-shipment inspection pass rate. SGS and Bureau Veritas compatible.</div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 bra-fade-up">
-                        <div class="data-stat-card">
-                            <svg class="data-stat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a4 4 0 00-8 0v2"/><path d="M12 15v2"/><path d="M8 11h8"/></svg>
-                            <div class="data-stat-number">MOQ 300 / SKU</div>
-                            <div class="data-stat-label">Total piece count, not per size. Split XS-XXL however your size curve reads.</div>
-                        </div>
-                    </div>
-                </div>
+          <article class="product-card">
+            <figure class="product-card__media">
+              <img loading="lazy" width="800" height="600"
+                   alt="Team and club sublimated jersey with number 12"
+                   src="/assets/images/product-team-club.webp">
+            </figure>
+            <div class="product-card__body">
+              <h3 class="product-card__title">Team &amp; Club Apparel</h3>
+              <p class="product-card__desc">Sublimated team sets with number, name, crest personalization built into the pattern &mdash; driven by your roster CSV.</p>
+              <div class="product-card__chips">
+                <span class="product-card__chip">jersey</span>
+                <span class="product-card__chip">training tee</span>
+                <span class="product-card__chip">warm-up</span>
+                <span class="product-card__chip">custom team set</span>
+              </div>
+              <a href="/products/team-club" class="product-card__link">View Family &rarr;</a>
             </div>
-        </section>
+          </article>
+        </div>
 
-        <!-- ============================================== -->
-        <!-- Section 3 - Promise Break [60vh, dark bg] -->
-        <!-- ============================================== -->
-        <section id="section-3-break-band" class="break-band-section bra-section-break" aria-labelledby="breakband-h2">
-            <div class="bra-container" style="width:100%;">
-                <h2 id="breakband-h2" class="break-band-quote bra-fade-up">Spec on paper. Spec on goods. Audit any PO.</h2>
-                <p class="break-band-note bra-fade-up">Every shipment includes a per-batch AQL 2.5 report and a spectrophotometer ΔE log. Pull them at any stage.</p>
+        <!-- Row 2: 2 cards centered -->
+        <div class="product-grid--row2">
+          <article class="product-card">
+            <figure class="product-card__media">
+              <img loading="lazy" width="800" height="600"
+                   alt="Outdoor running windbreaker on park trail"
+                   src="/assets/images/product-outdoor-running.webp">
+            </figure>
+            <div class="product-card__body">
+              <h3 class="product-card__title">Outdoor / Running</h3>
+              <p class="product-card__desc">Wind-blocking shells, lightweight running tights, technical singlets for trail and road brands.</p>
+              <div class="product-card__chips">
+                <span class="product-card__chip">windbreaker</span>
+                <span class="product-card__chip">running tights</span>
+                <span class="product-card__chip">singlet</span>
+                <span class="product-card__chip">technical shell</span>
+              </div>
+              <a href="/products/outdoor-running" class="product-card__link">View Family &rarr;</a>
             </div>
-        </section>
+          </article>
 
-        <!-- ============================================== -->
-        <!-- Section 4 - Product Family [100vh, white bg] -->
-        <!-- ============================================== -->
-        <section id="section-4-product-family" class="product-family-section bra-section-full" aria-labelledby="pf-h2">
-            <div class="bra-container" style="width:100%;">
-                <div class="section-header-center bra-fade-up">
-                    <span class="eyebrow">Product portfolio</span>
-                    <h2 id="pf-h2" class="section-h2">Five families running side-by-side on the same floor</h2>
-                    <p class="section-sub">Each family below has its own pattern team and fabric library, but shares the same 32 QC inspectors and same lab-dip lane. Click through for subcategory specs.</p>
-                </div>
-                <!-- Row 1: 3-card grid -->
-                <div class="row g-4 mb-4">
-                    <div class="col-md-4 bra-fade-up">
-                        <div class="pf-card">
-                            <div class="pf-card-img" data-label="Training"><img src="/assets/images/product-training-performance.webp" alt="Black leggings flat-lay with visible cross-grain stretch texture" loading="lazy" width="800" height="600"></div>
-                            <div class="pf-card-body">
-                                <h3 class="pf-card-title">Training &amp; Performance</h3>
-                                <p class="pf-card-desc">High-stretch performance pieces — anti-pilling, moisture-wicking, four-way stretch builds for studio and gym SKUs.</p>
-                                <div class="pf-card-chips">
-                                    <span class="pf-chip">leggings</span>
-                                    <span class="pf-chip">sports bras</span>
-                                    <span class="pf-chip">joggers</span>
-                                    <span class="pf-chip">shorts</span>
-                                    <span class="pf-chip">compression top</span>
-                                </div>
-                                <a href="/products/training-performance" class="pf-card-link">View Training &amp; Performance &rarr;</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 bra-fade-up">
-                        <div class="pf-card">
-                            <div class="pf-card-img" data-label="Athleisure"><img src="/assets/images/product-athleisure.webp" alt="Grey oversized hoodie flat-lay on neutral background" loading="lazy" width="800" height="600"></div>
-                            <div class="pf-card-body">
-                                <h3 class="pf-card-title">Athleisure / Lifestyle Fit</h3>
-                                <p class="pf-card-desc">Heavier-weight knits and looser fits for off-gym wear and lounge collections.</p>
-                                <div class="pf-card-chips">
-                                    <span class="pf-chip">tee</span>
-                                    <span class="pf-chip">hoodie</span>
-                                    <span class="pf-chip">jacket</span>
-                                    <span class="pf-chip">pullover</span>
-                                    <span class="pf-chip">sweatpant</span>
-                                </div>
-                                <a href="/products/athleisure" class="pf-card-link">View Athleisure &rarr;</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 bra-fade-up">
-                        <div class="pf-card">
-                            <div class="pf-card-img" data-label="Team / Club"><img src="/assets/images/product-team-club.webp" alt="Sublimated jersey with number 12, red and blue colorway" loading="lazy" width="800" height="600"></div>
-                            <div class="pf-card-body">
-                                <h3 class="pf-card-title">Team &amp; Club Apparel</h3>
-                                <p class="pf-card-desc">Sublimated team sets with number, name, crest personalization built into the pattern — driven by your roster CSV.</p>
-                                <div class="pf-card-chips">
-                                    <span class="pf-chip">jersey</span>
-                                    <span class="pf-chip">training tee</span>
-                                    <span class="pf-chip">warm-up</span>
-                                    <span class="pf-chip">custom team set</span>
-                                </div>
-                                <a href="/products/team-club" class="pf-card-link">View Team &amp; Club &rarr;</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Row 2: 2-card grid centered -->
-                <div class="row g-4 justify-content-center">
-                    <div class="col-md-5 bra-fade-up">
-                        <div class="pf-card">
-                            <div class="pf-card-img" data-label="Outdoor"><img src="/assets/images/product-outdoor-running.webp" alt="Bright yellow windbreaker on outdoor park trail backdrop" loading="lazy" width="800" height="600"></div>
-                            <div class="pf-card-body">
-                                <h3 class="pf-card-title">Outdoor / Running</h3>
-                                <p class="pf-card-desc">Wind-blocking shells, lightweight running tights, technical singlets for trail and road brands.</p>
-                                <div class="pf-card-chips">
-                                    <span class="pf-chip">windbreaker</span>
-                                    <span class="pf-chip">running tights</span>
-                                    <span class="pf-chip">singlet</span>
-                                    <span class="pf-chip">technical shell</span>
-                                </div>
-                                <a href="/products/outdoor-running" class="pf-card-link">View Outdoor &amp; Running &rarr;</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-5 bra-fade-up">
-                        <div class="pf-card">
-                            <div class="pf-card-img" data-label="Accessories"><img src="/assets/images/product-accessories.webp" alt="Headband, socks and cap accessories color-matched flat lay" loading="lazy" width="800" height="600"></div>
-                            <div class="pf-card-body">
-                                <h3 class="pf-card-title">Accessories</h3>
-                                <p class="pf-card-desc">Cut-and-sew accessories matched to your main collection's fabric and dye lot.</p>
-                                <div class="pf-card-chips">
-                                    <span class="pf-chip">headband</span>
-                                    <span class="pf-chip">arm sleeve</span>
-                                    <span class="pf-chip">socks</span>
-                                    <span class="pf-chip">cap</span>
-                                </div>
-                                <a href="/products/accessories" class="pf-card-link">View Accessories &rarr;</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          <article class="product-card">
+            <figure class="product-card__media">
+              <img loading="lazy" width="800" height="600"
+                   alt="Activewear accessories — headband, socks, cap"
+                   src="/assets/images/product-accessories.webp">
+            </figure>
+            <div class="product-card__body">
+              <h3 class="product-card__title">Accessories</h3>
+              <p class="product-card__desc">Cut-and-sew accessories matched to your main collection's fabric and dye lot.</p>
+              <div class="product-card__chips">
+                <span class="product-card__chip">headband</span>
+                <span class="product-card__chip">arm sleeve</span>
+                <span class="product-card__chip">socks</span>
+                <span class="product-card__chip">cap</span>
+              </div>
+              <a href="/products/accessories" class="product-card__link">View Family &rarr;</a>
             </div>
-        </section>
+          </article>
+        </div>
+      </div>
+    </section>
 
-        <!-- ============================================== -->
-        <!-- Section 5 - Production Services [100vh, #F9FAFB bg] -->
-        <!-- ============================================== -->
-        <section id="section-5-services" class="services-section bra-section-full" aria-labelledby="svc-h2">
-            <div class="bra-container" style="width:100%;">
-                <div class="section-header-center bra-fade-up">
-                    <span class="eyebrow">Production tracks</span>
-                    <h2 id="svc-h2" class="section-h2">Seven production tracks for repeat clients</h2>
-                    <p class="section-sub">Whether you bring a tech-pack, a sketch, or a sample you want repeated — there's a track that starts where you are.</p>
-                </div>
-                <!-- Row 1: 4 cards -->
-                <div class="row g-4 mb-4">
-                    <div class="col-md-6 col-lg-3 bra-fade-up">
-                        <div class="svc-card">
-                            <svg class="svc-card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"/><path d="M6 3v18"/><path d="M20 21a2 2 0 01-2-2V9l-4-4"/><path d="M14 5h6"/></svg>
-                            <h3 class="svc-card-title">OEM (Cut-and-Sew)</h3>
-                            <p class="svc-card-desc">You send tech-pack and approved lab dip; we cut-and-sew to spec.</p>
-                            <hr class="svc-card-divider">
-                            <div class="svc-card-data">MOQ 300 / SKU · lead time 35-42 days</div>
-                            <a href="/services/oem" class="svc-card-link">See service spec &rarr;</a>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3 bra-fade-up">
-                        <div class="svc-card">
-                            <svg class="svc-card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
-                            <h3 class="svc-card-title">ODM</h3>
-                            <p class="svc-card-desc">Pick from our pattern library, swap color, fabric or logo, skip the pattern-making cycle.</p>
-                            <hr class="svc-card-divider">
-                            <div class="svc-card-data">MOQ 200 / SKU · lead time 30-40 days</div>
-                            <a href="/services/odm" class="svc-card-link">See service spec &rarr;</a>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3 bra-fade-up">
-                        <div class="svc-card">
-                            <svg class="svc-card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
-                            <h3 class="svc-card-title">Private Label</h3>
-                            <p class="svc-card-desc">Your hangtag, care label, polybag and master carton — full label kit assembled by us.</p>
-                            <hr class="svc-card-divider">
-                            <div class="svc-card-data">Add-on to OEM / ODM · no extra MOQ</div>
-                            <a href="/services/private-label" class="svc-card-link">See service spec &rarr;</a>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3 bra-fade-up">
-                        <div class="svc-card">
-                            <svg class="svc-card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/><path d="M3.27 6.96L12 12.01l8.73-5.05"/><path d="M12 22.08V12"/></svg>
-                            <h3 class="svc-card-title">Small-Batch Sampling</h3>
-                            <p class="svc-card-desc">One piece per sample. Sample fee USD 45. Fabric-on-stock turn in 5 working days.</p>
-                            <hr class="svc-card-divider">
-                            <div class="svc-card-data">1 piece per sample · 5 working days</div>
-                            <a href="/services/sampling" class="svc-card-link">See service spec &rarr;</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Row 2: 3 cards centered -->
-                <div class="row g-4 justify-content-center">
-                    <div class="col-md-6 col-lg-3 bra-fade-up">
-                        <div class="svc-card">
-                            <svg class="svc-card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="13.5" cy="6.5" r="2.5"/><circle cx="6.5" cy="13.5" r="2.5"/><path d="M12 12l6 6"/><path d="M19 19l-1.5-1.5"/><circle cx="19" cy="19" r="2"/><path d="M3 3l4 4"/></svg>
-                            <h3 class="svc-card-title">Custom Print &amp; Embroidery</h3>
-                            <p class="svc-card-desc">Sublimation, DTG, silicone, 3D embossed, flat embroidery, heat transfer — all in-house.</p>
-                            <hr class="svc-card-divider">
-                            <div class="svc-card-data">Combinable on the same PO · no separate MOQ</div>
-                            <a href="/services/printing" class="svc-card-link">See service spec &rarr;</a>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3 bra-fade-up">
-                        <div class="svc-card">
-                            <svg class="svc-card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
-                            <h3 class="svc-card-title">Team Customization</h3>
-                            <p class="svc-card-desc">Per-piece number, name, crest, sponsor block driven by your roster CSV.</p>
-                            <hr class="svc-card-divider">
-                            <div class="svc-card-data">MOQ 50 pieces · 18-25 days</div>
-                            <a href="/services/team-customization" class="svc-card-link">See service spec &rarr;</a>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3 bra-fade-up">
-                        <div class="svc-card">
-                            <svg class="svc-card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6"/><path d="M16 13H8"/><path d="M16 17H8"/><path d="M10 9H8"/></svg>
-                            <h3 class="svc-card-title">Tech-Pack &amp; Pattern</h3>
-                            <p class="svc-card-desc">No tech-pack yet? Our 16 pattern-makers build one from a reference sample or your sketch.</p>
-                            <hr class="svc-card-divider">
-                            <div class="svc-card-data">1 pattern fee USD 220 · 7-14 days</div>
-                            <a href="/services/tech-pack" class="svc-card-link">See service spec &rarr;</a>
-                        </div>
-                    </div>
-                </div>
+    <!-- ============== S5 — Production Services ============== -->
+    <section class="section-corp section-corp--tint" aria-labelledby="s5-h2">
+      <div class="container-bra" style="width:100%;">
+        <div class="section-head">
+          <span class="section-rail">Production Tracks</span>
+          <h2 class="section-h2" id="s5-h2">Seven production tracks for repeat clients</h2>
+          <p class="section-sub">Whether you bring a tech-pack, a sketch, or a sample you want repeated &mdash; there's a track that starts where you are.</p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Card 1: Featured -->
+          <article class="service-card service-card--featured">
+            <span class="service-card__hot">Most Popular</span>
+            <span class="service-card__icon"><i class="bi bi-scissors"></i></span>
+            <h3 class="service-card__title">OEM (Cut-and-Sew)</h3>
+            <p class="service-card__desc">You send tech-pack and approved lab dip; we cut-and-sew to spec.</p>
+            <p class="service-card__moq">MOQ 300 / SKU &middot; lead time 35-42 days</p>
+            <a href="/services/oem-cut-and-sew" class="service-card__link">See service spec &rarr;</a>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="service-card">
+            <span class="service-card__icon"><i class="bi bi-pencil-square"></i></span>
+            <h3 class="service-card__title">ODM</h3>
+            <p class="service-card__desc">Pick from our pattern library, swap color, fabric or logo, skip the pattern-making cycle.</p>
+            <p class="service-card__moq">MOQ 200 / SKU &middot; lead time 30-40 days</p>
+            <a href="/services/odm" class="service-card__link">See service spec &rarr;</a>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="service-card">
+            <span class="service-card__icon"><i class="bi bi-tag"></i></span>
+            <h3 class="service-card__title">Private Label</h3>
+            <p class="service-card__desc">Your hangtag, care label, polybag and master carton &mdash; full label kit assembled by us.</p>
+            <p class="service-card__moq">Add-on to OEM / ODM &middot; no extra MOQ</p>
+            <a href="/services/private-label" class="service-card__link">See service spec &rarr;</a>
+          </article>
+
+          <!-- Card 4 -->
+          <article class="service-card">
+            <span class="service-card__icon"><i class="bi bi-lightning"></i></span>
+            <h3 class="service-card__title">Small-Batch Sampling</h3>
+            <p class="service-card__desc">One piece per sample. Sample fee USD 45. Fabric-on-stock turn in 5 working days.</p>
+            <p class="service-card__moq">1 piece per sample &middot; 5 working days</p>
+            <a href="/services/small-batch-sampling" class="service-card__link">See service spec &rarr;</a>
+          </article>
+
+          <!-- Card 5 -->
+          <article class="service-card">
+            <span class="service-card__icon"><i class="bi bi-printer"></i></span>
+            <h3 class="service-card__title">Custom Print &amp; Embroidery</h3>
+            <p class="service-card__desc">Sublimation, DTG, silicone, 3D embossed, flat embroidery, heat transfer &mdash; all in-house.</p>
+            <p class="service-card__moq">Combinable on the same PO &middot; no separate MOQ</p>
+            <a href="/services/custom-print-embroidery" class="service-card__link">See service spec &rarr;</a>
+          </article>
+
+          <!-- Card 6 -->
+          <article class="service-card">
+            <span class="service-card__icon"><i class="bi bi-people"></i></span>
+            <h3 class="service-card__title">Team Customization</h3>
+            <p class="service-card__desc">Per-piece number, name, crest, sponsor block driven by your roster CSV.</p>
+            <p class="service-card__moq">MOQ 50 pieces &middot; 18-25 days</p>
+            <a href="/services/team-customization" class="service-card__link">See service spec &rarr;</a>
+          </article>
+
+          <!-- Card 7 -->
+          <article class="service-card">
+            <span class="service-card__icon"><i class="bi bi-rulers"></i></span>
+            <h3 class="service-card__title">Tech-Pack &amp; Pattern Service</h3>
+            <p class="service-card__desc">No tech-pack yet? Our 16 pattern-makers build one from a reference sample or your sketch.</p>
+            <p class="service-card__moq">1 pattern fee USD 220 &middot; 7-14 days</p>
+            <a href="/services/tech-pack-pattern" class="service-card__link">See service spec &rarr;</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== S6 — Capacity Datasheet ============== -->
+    <section class="section-corp section-corp--white" aria-labelledby="s6-h2">
+      <div class="container-bra" style="width:100%;">
+        <div class="section-head">
+          <span class="section-rail">Factory Profile</span>
+          <h2 class="section-h2" id="s6-h2">Factory at a glance</h2>
+          <p class="section-sub">Send this row-for-row to your sourcing manager. Every number here goes into the MSA and is audit-verifiable on-site.</p>
+        </div>
+
+        <div class="datasheet-split">
+          <div>
+            <table class="datasheet-table">
+              <thead>
+                <tr>
+                  <th>Metric</th>
+                  <th>Data</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td>Monthly capacity (rolling 12-month avg)</td><td>380,000 pieces / month</td></tr>
+                <tr><td>Single-PO capacity range</td><td>50,000 - 100,000 pieces</td></tr>
+                <tr><td>Production lines</td><td>12 (4 sublimation &middot; 5 cut-and-sew &middot; 3 team-set)</td></tr>
+                <tr><td>Single-line monthly output</td><td>~31,700 pieces (12 &times; 31.7K = 380K)</td></tr>
+                <tr><td>Staff on site</td><td>280 (32 QC &middot; 16 pattern-makers &middot; 8 lab-techs &middot; 224 sewing &amp; finishing)</td></tr>
+                <tr><td>Factory footprint</td><td>8,500 m&sup2; (single-site, no offsite subcontracting)</td></tr>
+                <tr><td>Bulk lead time (OEM)</td><td>35-42 days (fabric on stock) &middot; 48-58 days (fabric to-order)</td></tr>
+                <tr><td>Sample lead time</td><td>5 working days (on stock) &middot; 12 working days (to-order)</td></tr>
+                <tr><td>On-time delivery (12-mo rolling)</td><td>92.4%</td></tr>
+                <tr><td>Pre-shipment AQL 2.5 pass rate</td><td>98.5% (12-month avg)</td></tr>
+                <tr><td>Years on the floor</td><td>8 (since 2017)</td></tr>
+              </tbody>
+            </table>
+            <p style="margin:18px 0 0; font-size:0.875rem; color:var(--color-muted);">
+              Want this as a one-page PDF? <a href="#mid-cta" class="inline-link">Section below &darr;</a>
+            </p>
+          </div>
+          <div class="datasheet-img">
+            <img loading="lazy" width="800" height="600"
+                 alt="Berun Active Wear factory overhead — production lines and finishing area"
+                 src="/assets/images/factory-overhead.webp">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== S7 — Mid-Page CTA ============== -->
+    <section class="mid-cta" id="mid-cta" aria-labelledby="s7-h2">
+      <div class="container-bra">
+        <h2 class="mid-cta__h2" id="s7-h2">Want the production numbers before sales?</h2>
+        <p class="mid-cta__sub">One-page PDF capacity datasheet &mdash; direct download, no email gate. Forward it to your sourcing director or operations lead.</p>
+        <a href="#" class="btn-corp btn-corp--white"><i class="bi bi-file-earmark-pdf"></i> Download capacity datasheet (PDF)</a>
+        <p class="mid-cta__note">No form. Direct PDF, 280 KB. Updated quarterly.</p>
+      </div>
+    </section>
+
+    <!-- ============== S8 — Differentiation ============== -->
+    <section class="section-corp section-corp--tint section-corp--compact" style="padding:clamp(64px,8vh,100px) 0;" aria-labelledby="s8-h2">
+      <div class="container-bra" style="width:100%;">
+        <div class="section-head">
+          <span class="section-rail">Competitive Edge</span>
+          <h2 class="section-h2" id="s8-h2">Four lines the rest of the industry won't put on a webpage</h2>
+          <p class="section-sub">Not a knock on other factories &mdash; this is just what we made public. Compare on your shortlist scorecard.</p>
+        </div>
+
+        <table class="compare-table">
+          <thead>
+            <tr>
+              <th></th>
+              <th>Industry Standard</th>
+              <th>Berun</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Tolerance commitment</td>
+              <td class="compare-industry" data-label="Industry Standard">
+                <span class="compare-icon compare-icon--x"><i class="bi bi-x"></i></span>
+                Tolerance numbers live inside the MSA, not on the website. You see them after you've already signed.
+              </td>
+              <td class="compare-berun" data-label="Berun">
+                <span class="compare-icon compare-icon--check"><i class="bi bi-check2"></i></span>
+                <strong>&plusmn;5% GSM, &Delta;E &le; 1.5, &plusmn;0.5 cm</strong> &mdash; printed on this page, written into every PO, attached as report per shipment.
+              </td>
+            </tr>
+            <tr>
+              <td>MOQ math</td>
+              <td class="compare-industry" data-label="Industry Standard">
+                <span class="compare-icon compare-icon--x"><i class="bi bi-x"></i></span>
+                MOQ 300 / SKU often reads as 300 &times; 5 sizes = 1,500 unit minimum once your size curve splits.
+              </td>
+              <td class="compare-berun" data-label="Berun">
+                <span class="compare-icon compare-icon--check"><i class="bi bi-check2"></i></span>
+                <strong>MOQ 300 is the total piece count.</strong> Split XS-XXL however your size curve actually sells.
+              </td>
+            </tr>
+            <tr>
+              <td>Sampling start</td>
+              <td class="compare-industry" data-label="Industry Standard">
+                <span class="compare-icon compare-icon--x"><i class="bi bi-x"></i></span>
+                Sample fee plus a 5-10 piece minimum to even open a sample order.
+              </td>
+              <td class="compare-berun" data-label="Berun">
+                <span class="compare-icon compare-icon--check"><i class="bi bi-check2"></i></span>
+                <strong>One piece per sample. USD 45 fee.</strong> 5 working days on fabric-on-stock styles.
+              </td>
+            </tr>
+            <tr>
+              <td>On-time accountability</td>
+              <td class="compare-industry" data-label="Industry Standard">
+                <span class="compare-icon compare-icon--x"><i class="bi bi-x"></i></span>
+                OTD% lives in the contract; you find out it slipped after the second late PO.
+              </td>
+              <td class="compare-berun" data-label="Berun">
+                <span class="compare-icon compare-icon--check"><i class="bi bi-check2"></i></span>
+                <strong>92.4% rolling OTD published quarterly.</strong> Monthly PDF report for active accounts under NDA.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- ============== S9 — Certifications ============== -->
+    <section class="section-corp section-corp--white section-corp--compact" style="padding:clamp(64px,8vh,100px) 0;" aria-labelledby="s9-h2">
+      <div class="container-bra" style="width:100%;">
+        <div class="section-head">
+          <span class="section-rail">Compliance</span>
+          <h2 class="section-h2" id="s9-h2">Five certifications on file &mdash; request the PDFs by name</h2>
+          <p class="section-sub">Sourcing for US retailers, EU marketplaces, or Amazon brand-registry compliance? These are the five audit-checked annually.</p>
+        </div>
+
+        <!-- Badge row -->
+        <div class="cert-badges-row">
+          <div class="cert-badge">
+            <span class="cert-badge__icon"><i class="bi bi-patch-check-fill"></i></span>
+            <span class="cert-badge__name">OEKO-TEX 100</span>
+          </div>
+          <div class="cert-badge">
+            <span class="cert-badge__icon"><i class="bi bi-people-fill"></i></span>
+            <span class="cert-badge__name">BSCI</span>
+          </div>
+          <div class="cert-badge">
+            <span class="cert-badge__icon"><i class="bi bi-shield-fill-check"></i></span>
+            <span class="cert-badge__name">WRAP Gold</span>
+          </div>
+          <div class="cert-badge">
+            <span class="cert-badge__icon"><i class="bi bi-recycle"></i></span>
+            <span class="cert-badge__name">GRS</span>
+          </div>
+          <div class="cert-badge">
+            <span class="cert-badge__icon"><i class="bi bi-leaf-fill"></i></span>
+            <span class="cert-badge__name">Higg FEM</span>
+          </div>
+        </div>
+
+        <!-- Detail rows -->
+        <div class="cert-detail-list">
+          <div class="cert-detail-row">
+            <div>
+              <p class="cert-detail__name">OEKO-TEX Standard 100</p>
+              <p class="cert-detail__desc">Fabric tested for harmful substances per Annex 6, covering our knit and woven main fabrics.</p>
             </div>
-        </section>
-
-        <!-- ============================================== -->
-        <!-- Section 6 - Capacity Datasheet [100vh, white bg] -->
-        <!-- ============================================== -->
-        <section id="section-6-capacity" class="capacity-section bra-section-full" aria-labelledby="cap-h2">
-            <div class="bra-container" style="width:100%;">
-                <div class="section-header-center bra-fade-up">
-                    <span class="eyebrow">Audit-verifiable numbers</span>
-                    <h2 id="cap-h2" class="section-h2">Factory at a glance — copy these rows into your supplier scorecard</h2>
-                    <p class="section-sub">Send this row-for-row to your sourcing manager. Every number here goes into the MSA and is audit-verifiable on-site.</p>
-                </div>
-                <div class="row g-5 align-items-start">
-                    <div class="col-lg-7 bra-fade-up">
-                        <table class="cap-table">
-                            <thead>
-                                <tr>
-                                    <th scope="col">Metric</th>
-                                    <th scope="col" style="text-align:right;">Value</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr><td>Monthly capacity (rolling 12-month avg)</td><td>380,000 pieces / month</td></tr>
-                                <tr><td>Single-PO capacity range</td><td>50,000 - 100,000 pieces</td></tr>
-                                <tr><td>Production lines</td><td>12 (4 sublimation · 5 cut-and-sew · 3 team-set)</td></tr>
-                                <tr><td>Single-line monthly output</td><td>~31,700 pieces (12 × 31.7K = 380K)</td></tr>
-                                <tr><td>Staff on site</td><td>280 (32 QC · 16 pattern · 8 lab · 224 sewing)</td></tr>
-                                <tr><td>Factory footprint</td><td>8,500 m² (single-site, no offsite subcontracting)</td></tr>
-                                <tr><td>Bulk lead time (OEM)</td><td>35-42 days (fabric on stock) · 48-58 days (fabric to-order)</td></tr>
-                                <tr><td>Sample lead time</td><td>5 working days (fabric on stock) · 12 working days (fabric to-order)</td></tr>
-                                <tr><td>On-time delivery (12-mo rolling)</td><td>92.4%</td></tr>
-                                <tr><td>Pre-shipment AQL 2.5 pass rate</td><td>98.5% (12-month avg)</td></tr>
-                                <tr><td>Years on the floor</td><td>8 (since 2017)</td></tr>
-                            </tbody>
-                        </table>
-                        <p class="mt-3 text-muted" style="font-size:0.9375rem;">Want this as a one-page PDF? <a href="#section-7-mid-cta" style="color:var(--bra-primary);text-decoration:none;font-weight:600;">Section below &darr;</a></p>
-                    </div>
-                    <div class="col-lg-5 bra-fade-up">
-                        <div class="cap-floorshot" role="img" aria-label="Factory overhead — production lines, cut-and-sew stations, finished goods packaging area">
-                            <img src="/assets/images/factory-overhead.webp" alt="Factory overhead view showing production lines, cut-and-sew stations, and packaging area" loading="lazy" width="800" height="600">
-                        </div>
-                    </div>
-                </div>
+            <div class="cert-detail__right">
+              <span class="cert-detail__id">Cert no. 23.HCN.74521</span>
+              <a href="#inquiry" class="cert-detail__link">Request PDF &rarr;</a>
             </div>
-        </section>
-
-        <!-- ============================================== -->
-        <!-- Section 7 - Mid-Page CTA [60vh, red bg] -->
-        <!-- ============================================== -->
-        <section id="section-7-mid-cta" class="mid-cta-section bra-section-break" aria-labelledby="mid-cta-h2">
-            <div class="bra-container" style="width:100%;">
-                <h2 id="mid-cta-h2" class="mid-cta-h2 bra-fade-up">Want the production numbers before sales?</h2>
-                <p class="mid-cta-sub bra-fade-up">One-page PDF capacity datasheet — direct download, no email gate. Forward it to your sourcing director or operations lead.</p>
-                <div class="bra-fade-up">
-                    <a href="/assets/files/capacity-datasheet.pdf" class="btn btn-bra-white">
-                        <i class="bi bi-file-earmark-pdf me-2" aria-hidden="true"></i>Download capacity datasheet (PDF)
-                    </a>
-                </div>
-                <p class="mid-cta-note bra-fade-up">No form. Direct PDF, 280 KB. Updated quarterly.</p>
+          </div>
+          <div class="cert-detail-row">
+            <div>
+              <p class="cert-detail__name">BSCI</p>
+              <p class="cert-detail__desc">Social compliance audit, Class B+ rating in the August 2024 renewal. Covers our main facility and dormitory.</p>
             </div>
-        </section>
-
-        <!-- ============================================== -->
-        <!-- Section 8 - Differentiation [100vh, #F9FAFB bg] -->
-        <!-- ============================================== -->
-        <section id="section-8-comparison" class="comparison-section bra-section-full" aria-labelledby="cmp-h2">
-            <div class="bra-container" style="width:100%;">
-                <div class="section-header-center bra-fade-up">
-                    <span class="eyebrow">What we publish vs what most factories hide</span>
-                    <h2 id="cmp-h2" class="section-h2">Four lines the rest of the industry won't put on a webpage</h2>
-                    <p class="section-sub">Not a knock on other factories — this is just what we made public. Compare on your shortlist scorecard.</p>
-                </div>
-                <div class="cmp-table bra-fade-up">
-                    <div class="cmp-header-row">
-                        <span></span>
-                        <span>Industry Standard</span>
-                        <span>Berun</span>
-                    </div>
-                    <div class="cmp-row">
-                        <div class="cmp-row-label">Tolerance commitment</div>
-                        <div class="cmp-row-industry">Tolerance numbers live inside the MSA, not on the website. You see them after you've already signed.</div>
-                        <div class="cmp-row-berun"><strong>&plusmn;5% GSM, ΔE ≤ 1.5, &plusmn;0.5 cm</strong> — printed on this page, written into every PO, attached as report per shipment.</div>
-                    </div>
-                    <div class="cmp-row">
-                        <div class="cmp-row-label">MOQ math</div>
-                        <div class="cmp-row-industry">MOQ 300 / SKU often reads as 300 × 5 sizes = 1,500 unit minimum once your size curve splits.</div>
-                        <div class="cmp-row-berun"><strong>MOQ 300 is the total piece count.</strong> Split XS-XXL however your size curve actually sells.</div>
-                    </div>
-                    <div class="cmp-row">
-                        <div class="cmp-row-label">Sampling start</div>
-                        <div class="cmp-row-industry">Sample fee plus a 5-10 piece minimum to even open a sample order.</div>
-                        <div class="cmp-row-berun"><strong>One piece per sample. USD 45 fee.</strong> 5 working days on fabric-on-stock styles.</div>
-                    </div>
-                    <div class="cmp-row">
-                        <div class="cmp-row-label">On-time accountability</div>
-                        <div class="cmp-row-industry">OTD% lives in the contract; you find out it slipped after the second late PO.</div>
-                        <div class="cmp-row-berun"><strong>92.4% rolling OTD published quarterly.</strong> Monthly PDF report for active accounts under NDA.</div>
-                    </div>
-                </div>
+            <div class="cert-detail__right">
+              <span class="cert-detail__id">Audit no. BSCI-CN-2024-08-15</span>
+              <a href="#inquiry" class="cert-detail__link">Request PDF &rarr;</a>
             </div>
-        </section>
-
-        <!-- ============================================== -->
-        <!-- Section 9 - Certifications [100vh, white bg] -->
-        <!-- ============================================== -->
-        <section id="section-9-certifications" class="cert-section bra-section-full" aria-labelledby="cert-h2">
-            <div class="bra-container" style="width:100%;">
-                <div class="section-header-center bra-fade-up">
-                    <span class="eyebrow">Audited annually</span>
-                    <h2 id="cert-h2" class="section-h2">Five certifications on file — request the PDFs by name</h2>
-                    <p class="section-sub">Sourcing for US retailers, EU marketplaces, or Amazon brand-registry compliance? These are the five audit-checked annually.</p>
-                </div>
-                <div class="cert-badge-row bra-fade-up" role="list">
-                    <div class="cert-badge" role="listitem">OEKO-TEX<br>Standard 100</div>
-                    <div class="cert-badge" role="listitem">BSCI</div>
-                    <div class="cert-badge" role="listitem">WRAP<br>Gold</div>
-                    <div class="cert-badge" role="listitem">GRS</div>
-                    <div class="cert-badge" role="listitem">Higg FEM</div>
-                </div>
-                <div class="cert-list bra-fade-up">
-                    <div class="cert-row">
-                        <div>
-                            <div class="cert-name">OEKO-TEX Standard 100</div>
-                            <div class="cert-desc">Fabric tested for harmful substances per Annex 6, covering our knit and woven main fabrics.</div>
-                        </div>
-                        <div class="cert-action">Cert no. 23.HCN.74521<a href="/contact?req=oekotex">Request PDF &rarr;</a></div>
-                    </div>
-                    <div class="cert-row">
-                        <div>
-                            <div class="cert-name">BSCI</div>
-                            <div class="cert-desc">Social compliance audit, Class B+ rating in the August 2024 renewal. Covers our main facility and dormitory.</div>
-                        </div>
-                        <div class="cert-action">Audit no. BSCI-CN-2024-08-15<a href="/contact?req=bsci">Request PDF &rarr;</a></div>
-                    </div>
-                    <div class="cert-row">
-                        <div>
-                            <div class="cert-name">WRAP Gold</div>
-                            <div class="cert-desc">Worldwide Responsible Accredited Production certification at Gold tier — the highest of three tiers.</div>
-                        </div>
-                        <div class="cert-action">Cert no. WRAP-GLD-156823<a href="/contact?req=wrap">Request PDF &rarr;</a></div>
-                    </div>
-                    <div class="cert-row">
-                        <div>
-                            <div class="cert-name">GRS</div>
-                            <div class="cert-desc">Global Recycled Standard for our recycled-polyester product line — rPET jerseys, leggings, training tops.</div>
-                        </div>
-                        <div class="cert-action">Cert no. CU 1014387 GRS-2024<a href="/contact?req=grs">Request PDF &rarr;</a></div>
-                    </div>
-                    <div class="cert-row">
-                        <div>
-                            <div class="cert-name">Higg FEM</div>
-                            <div class="cert-desc">Higg Facility Environmental Module, score 82 / 100 in the 2024 SLCP-verified assessment.</div>
-                        </div>
-                        <div class="cert-action">Assessment no. HIG-FEM-2024-CN-08<a href="/contact?req=higg">Request PDF &rarr;</a></div>
-                    </div>
-                </div>
-                <div class="text-center mt-4 bra-fade-up">
-                    <a href="/contact?req=all-certs" style="color:var(--bra-primary);font-weight:600;text-decoration:none;">Get all five as a zipped pack &rarr;</a>
-                </div>
+          </div>
+          <div class="cert-detail-row">
+            <div>
+              <p class="cert-detail__name">WRAP Gold</p>
+              <p class="cert-detail__desc">Worldwide Responsible Accredited Production certification at Gold tier &mdash; the highest of three tiers.</p>
             </div>
-        </section>
-
-        <!-- ============================================== -->
-        <!-- Section 10 - Client Voice [60vh, #F9FAFB bg] -->
-        <!-- ============================================== -->
-        <section id="section-10-quotes" class="quote-section bra-section-break" aria-labelledby="quote-h2">
-            <div class="bra-container" style="width:100%;">
-                <h2 id="quote-h2" class="quote-section-eyebrow bra-fade-up">What our sourcing-side counterparts say after PO 3</h2>
-                <div class="row g-4">
-                    <div class="col-md-6 bra-fade-up">
-                        <div class="quote-card">
-                            <div class="quote-mark" aria-hidden="true">&ldquo;</div>
-                            <p class="quote-text">Two factories ago, batch-to-batch GSM drift was killing my Amazon BSR — 14% variance across one PO. We switched 3 SKUs to Berun. First PO: 4,200 pieces across 4 colors, OTD 17 days, lab dip passed on the first round. Reordered 11K pieces 6 weeks later. The pre-shipment AQL report comes with every PO — I cut my third-party inspection budget in half.</p>
-                            <hr class="quote-divider">
-                            <div class="quote-attr">
-                                <div class="quote-avatar" aria-hidden="true">MR</div>
-                                <div>Maya R., Senior Sourcing Director<br><span style="color:var(--bra-muted);font-weight:400;">Boulder CO athleisure brand ($18M ARR)</span></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 bra-fade-up">
-                        <div class="quote-card">
-                            <div class="quote-mark" aria-hidden="true">&ldquo;</div>
-                            <p class="quote-text">Most factories quote MOQ 300 per SKU but actually mean 300 × 5 sizes = 1,500 units. That math killed 6 SKU launches for us in 2023. Berun split 300 across XS-XXL on our first PO — we launched 5 SKUs in Q1 2024 and hit 88% sell-through within 60 days. They send a monthly OTD report unprompted; I forward it to my CFO every month.</p>
-                            <hr class="quote-divider">
-                            <div class="quote-attr">
-                                <div class="quote-avatar" aria-hidden="true">LH</div>
-                                <div>Lukas H., Brand Founder<br><span style="color:var(--bra-muted);font-weight:400;">Berlin EU DTC athleisure ($3.8M ARR)</span></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="cert-detail__right">
+              <span class="cert-detail__id">Cert no. WRAP-GLD-156823</span>
+              <a href="#inquiry" class="cert-detail__link">Request PDF &rarr;</a>
             </div>
-        </section>
-
-        <!-- ============================================== -->
-        <!-- Section 11 - Markets Served [100vh, dark bg] -->
-        <!-- ============================================== -->
-        <section id="section-11-markets" class="markets-section bra-section-full" aria-labelledby="markets-h2">
-            <div class="bra-container" style="width:100%;">
-                <div class="section-header-center bra-fade-up">
-                    <span class="eyebrow">Eight years on the floor</span>
-                    <h2 id="markets-h2" class="section-h2">Eight years, five regions, five buyer types</h2>
-                    <p class="section-sub">Where the goods land and who's behind the POs. Twelve client brands listed below — full reference list available after intro call.</p>
-                </div>
-                <div class="logo-wall bra-fade-up" role="list" aria-label="Twelve client brand names">
-                    <div class="logo-item" role="listitem">AKARRA ACTIVE</div>
-                    <div class="logo-item" role="listitem">ASPEN ATHLETIC CO.</div>
-                    <div class="logo-item" role="listitem">BERLIN MILE CLUB</div>
-                    <div class="logo-item" role="listitem">CAPELLA SPORT</div>
-                    <div class="logo-item" role="listitem">COASTLINE PERFORMANCE</div>
-                    <div class="logo-item" role="listitem">FORGE LAB ATHLETICS</div>
-                    <div class="logo-item" role="listitem">GRANITE RUN</div>
-                    <div class="logo-item" role="listitem">KINDRED STRENGTH</div>
-                    <div class="logo-item" role="listitem">MERIDIAN MOVE</div>
-                    <div class="logo-item" role="listitem">NORTHCREST OUTDOOR</div>
-                    <div class="logo-item" role="listitem">SEQUOIA SWEAT</div>
-                    <div class="logo-item" role="listitem">VERDANT ATHLETICS</div>
-                </div>
-                <div class="row g-5 bra-fade-up">
-                    <div class="col-md-6">
-                        <h3 class="market-col-h3">Markets shipped (% 2024 volume)</h3>
-                        <ul class="market-list">
-                            <li>North America (US, CA)<span class="market-pct">42%</span></li>
-                            <li>Europe (UK, DE, FR, NL)<span class="market-pct">28%</span></li>
-                            <li>Oceania (AU, NZ)<span class="market-pct">14%</span></li>
-                            <li>Middle East (UAE, SA)<span class="market-pct">10%</span></li>
-                            <li>LATAM (MX, BR)<span class="market-pct">6%</span></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-6">
-                        <h3 class="market-col-h3">Client type mix (% active accounts)</h3>
-                        <ul class="market-list">
-                            <li>Established sportswear / athleisure ($5-50M ARR)<span class="market-pct">38%</span></li>
-                            <li>DTC athleisure new brand (0-3 yr)<span class="market-pct">22%</span></li>
-                            <li>Fitness studio chain<span class="market-pct">18%</span></li>
-                            <li>Sports team / club / box<span class="market-pct">12%</span></li>
-                            <li>Wholesale distributor<span class="market-pct">10%</span></li>
-                        </ul>
-                    </div>
-                </div>
+          </div>
+          <div class="cert-detail-row">
+            <div>
+              <p class="cert-detail__name">GRS</p>
+              <p class="cert-detail__desc">Global Recycled Standard for our recycled-polyester product line &mdash; rPET jerseys, leggings, training tops.</p>
             </div>
-        </section>
-
-        <!-- ============================================== -->
-        <!-- Section 12 - Final CTA [60vh, gradient dark-to-red bg] -->
-        <!-- ============================================== -->
-        <section id="section-12-final-cta" class="final-cta-section bra-section-break" aria-labelledby="final-h2">
-            <div class="bra-container" style="width:100%;">
-                <h2 id="final-h2" class="final-cta-h2 bra-fade-up">Ready to put a real factory on your shortlist?</h2>
-                <p class="final-cta-sub bra-fade-up">Send your tech-pack and we'll come back within one business day with a per-size MOQ split, sampling timeline, and an FOB quote. Or book a 30-min sourcing call with our engineering lead first.</p>
-                <div class="final-cta-btns bra-fade-up">
-                    <a href="/contact?type=call" class="btn btn-bra-white">Book a 30-min sourcing call</a>
-                    <a href="/assets/files/spec-template.xlsx" class="btn btn-bra-outline-white">Download spec template (XLSX)</a>
-                </div>
-                <p class="final-cta-trust bra-fade-up">Replies within 1 business day · NDA on request · Sample fee waived after first PO</p>
+            <div class="cert-detail__right">
+              <span class="cert-detail__id">Cert no. CU 1014387 GRS-2024</span>
+              <a href="#inquiry" class="cert-detail__link">Request PDF &rarr;</a>
             </div>
-        </section>
+          </div>
+          <div class="cert-detail-row">
+            <div>
+              <p class="cert-detail__name">Higg FEM</p>
+              <p class="cert-detail__desc">Higg Facility Environmental Module, score 82 / 100 in the 2024 SLCP-verified assessment.</p>
+            </div>
+            <div class="cert-detail__right">
+              <span class="cert-detail__id">Assessment no. HIG-FEM-2024-CN-08</span>
+              <a href="#inquiry" class="cert-detail__link">Request PDF &rarr;</a>
+            </div>
+          </div>
+        </div>
 
-    </main>
+        <div style="text-align:center; margin-top:clamp(24px,3vw,36px);">
+          <a href="#inquiry" class="inline-link">Get all five as a zipped pack &rarr;</a>
+        </div>
+      </div>
+    </section>
 
-    <!-- Footer -->
-    <div id="footer-container"></div>
+    <!-- ============== S10 — Client Voice ============== -->
+    <section class="section-corp section-corp--tint section-corp--compact" style="padding:clamp(64px,8vh,100px) 0;" aria-labelledby="s10-h2">
+      <div class="container-bra" style="width:100%;">
+        <div class="section-head">
+          <span class="section-rail">Client Voice</span>
+          <h2 class="section-h2" id="s10-h2">What our sourcing-side counterparts say after PO 3</h2>
+        </div>
 
-    <!-- Scripts -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="/assets/topbar.js"></script>
-    <script src="/assets/dynamic-menu.js"></script>
-    <script src="/assets/footer.js"></script>
-    <script src="/assets/whatsapp-widget.js"></script>
+        <div class="testimonial-grid">
+          <div class="testimonial-card">
+            <div class="testimonial-card__mark">&ldquo;</div>
+            <p class="testimonial-card__quote">Two factories ago, batch-to-batch GSM drift was killing my Amazon BSR &mdash; 14% variance across one PO. We switched 3 SKUs to Berun. First PO: 4,200 pieces across 4 colors, OTD 17 days, lab dip passed on the first round. Reordered 11K pieces 6 weeks later. The pre-shipment AQL report comes with every PO &mdash; I cut my third-party inspection budget in half.</p>
+            <div class="testimonial-card__attr">
+              <p class="testimonial-card__name">Maya R.</p>
+              <p class="testimonial-card__role">Senior Sourcing Director, Boulder CO athleisure brand ($18M ARR)</p>
+            </div>
+          </div>
 
-    <!-- Entrance Animations (IntersectionObserver) -->
-    <script>
-    (function() {
-        var els = document.querySelectorAll('.bra-fade-up');
-        if (!els.length) return;
-        if (!('IntersectionObserver' in window)) {
-            els.forEach(function(el) { el.classList.add('is-visible'); });
-            return;
-        }
-        var observer = new IntersectionObserver(function(entries) {
-            entries.forEach(function(entry) {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('is-visible');
-                    observer.unobserve(entry.target);
-                }
-            });
-        }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
-        els.forEach(function(el) { observer.observe(el); });
-    })();
-    </script>
+          <div class="testimonial-card">
+            <div class="testimonial-card__mark">&ldquo;</div>
+            <p class="testimonial-card__quote">Most factories quote MOQ 300 per SKU but actually mean 300 &times; 5 sizes = 1,500 units. That math killed 6 SKU launches for us in 2023. Berun split 300 across XS-XXL on our first PO &mdash; we launched 5 SKUs in Q1 2024 and hit 88% sell-through within 60 days. They send a monthly OTD report unprompted; I forward it to my CFO every month.</p>
+            <div class="testimonial-card__attr">
+              <p class="testimonial-card__name">Lukas H.</p>
+              <p class="testimonial-card__role">Brand Founder, Berlin EU DTC athleisure ($3.8M ARR)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== S11 — Markets & Clients (dark) ============== -->
+    <section class="section-corp section-corp--ink" aria-labelledby="s11-h2">
+      <div class="container-bra" style="width:100%;">
+        <div class="section-head">
+          <span class="section-rail" style="color:var(--color-accent);">Markets &amp; Clients</span>
+          <h2 class="section-h2" id="s11-h2" style="color:#FFFFFF;">Eight years, five regions, five buyer types</h2>
+          <p class="section-sub" style="color:rgba(250,247,242,0.72);">Where the goods land and who's behind the POs. Twelve client brands listed below &mdash; full reference list available after intro call.</p>
+        </div>
+
+        <!-- Logo wall -->
+        <div class="client-wall-grid">
+          <div class="client-wall-logo"><span>Akarra Active</span></div>
+          <div class="client-wall-logo"><span>Aspen Athletic Co.</span></div>
+          <div class="client-wall-logo"><span>Berlin Mile Club</span></div>
+          <div class="client-wall-logo"><span>Capella Sport</span></div>
+          <div class="client-wall-logo"><span>Coastline Performance</span></div>
+          <div class="client-wall-logo"><span>Forge Lab Athletics</span></div>
+          <div class="client-wall-logo"><span>Granite Run</span></div>
+          <div class="client-wall-logo"><span>Kindred Strength</span></div>
+          <div class="client-wall-logo"><span>Meridian Move</span></div>
+          <div class="client-wall-logo"><span>Northcrest Outdoor</span></div>
+          <div class="client-wall-logo"><span>Sequoia Sweat</span></div>
+          <div class="client-wall-logo"><span>Verdant Athletics</span></div>
+        </div>
+
+        <!-- Market + Client type split -->
+        <div class="markets-split">
+          <div>
+            <h3 class="markets-col__title">Markets Shipped (% of 2024 volume)</h3>
+            <div class="markets-row">
+              <span class="markets-row__label">North America (US, CA)</span>
+              <span class="markets-row__value">42%</span>
+            </div>
+            <div class="markets-row">
+              <span class="markets-row__label">Europe (UK, DE, FR, NL)</span>
+              <span class="markets-row__value">28%</span>
+            </div>
+            <div class="markets-row">
+              <span class="markets-row__label">Oceania (AU, NZ)</span>
+              <span class="markets-row__value">14%</span>
+            </div>
+            <div class="markets-row">
+              <span class="markets-row__label">Middle East (UAE, SA)</span>
+              <span class="markets-row__value">10%</span>
+            </div>
+            <div class="markets-row">
+              <span class="markets-row__label">LATAM (MX, BR)</span>
+              <span class="markets-row__value">6%</span>
+            </div>
+          </div>
+          <div>
+            <h3 class="markets-col__title">Client Type Mix (% of active accounts)</h3>
+            <div class="markets-row">
+              <span class="markets-row__label">Established sportswear / athleisure brand ($5-50M ARR)</span>
+              <span class="markets-row__value">38%</span>
+            </div>
+            <div class="markets-row">
+              <span class="markets-row__label">DTC athleisure new brand (0-3 yr)</span>
+              <span class="markets-row__value">22%</span>
+            </div>
+            <div class="markets-row">
+              <span class="markets-row__label">Fitness studio chain</span>
+              <span class="markets-row__value">18%</span>
+            </div>
+            <div class="markets-row">
+              <span class="markets-row__label">Sports team / club / box</span>
+              <span class="markets-row__value">12%</span>
+            </div>
+            <div class="markets-row">
+              <span class="markets-row__label">Wholesale distributor</span>
+              <span class="markets-row__value">10%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== S12 — Final CTA ============== -->
+    <section class="final-cta" id="inquiry" aria-labelledby="s12-h2">
+      <div class="container-bra">
+        <h2 class="final-cta__h2" id="s12-h2">Ready to put a real factory on your shortlist?</h2>
+        <p class="final-cta__sub">Send your tech-pack and we'll come back within one business day with a per-size MOQ split, sampling timeline, and an FOB quote. Or book a 30-min sourcing call with our engineering lead first.</p>
+        <div class="final-cta__btns">
+          <a href="mailto:sales@berunactivewear.com" class="btn-corp btn-corp--primary btn-corp--accent">Book a 30-min sourcing call</a>
+          <a href="#" class="btn-corp btn-corp--ghost">Download spec template (XLSX)</a>
+        </div>
+        <p class="final-cta__trust">Replies within 1 business day <span>&middot;</span> NDA on request <span>&middot;</span> Sample fee waived after first PO</p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer plugin -->
+  <div id="footer-container"></div>
+  <script src="/assets/footer.js" defer></script>
+
+  <!-- WhatsApp Widget -->
+  <script>
+    window.WhatsAppWidgetConfig = {
+      configFile: '/assets/whatsapp-config.json'
+    };
+  </script>
+  <script src="/assets/whatsapp-widget.js" defer></script>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" defer></script>
 </body>
 </html>
