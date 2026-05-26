@@ -581,6 +581,9 @@
     @media (max-width: 991px) {
       .data-wall-grid { grid-template-columns: repeat(2, 1fr); }
     }
+    @media (max-width: 991px) {
+      .data-wall-grid { grid-template-columns: repeat(2, 1fr); }
+    }
     @media (max-width: 575px) {
       .data-wall-grid { grid-template-columns: repeat(2, 1fr); }
       .data-wall-card__num { font-size: clamp(2.5rem, 10vw, 3.25rem); }
@@ -1734,36 +1737,41 @@
           <h2 class="section-h2" id="s2-h2">Quality &amp; Tolerance Standards</h2>
           <p class="section-sub">If the supplier you're replacing won't share these in writing, you already know why the third PO drifted.</p>
         </div>
-        <div class="data-wall-grid">
-          <div class="data-wall-card">
-            <span class="data-wall-card__icon"><i class="bi bi-speedometer2"></i></span>
-            <p class="data-wall-card__num">&plusmn;5<small>% GSM</small></p>
-            <p class="data-wall-card__desc">Per-batch fabric weight tolerance vs spec. Lab report attached to every PO.</p>
+        <div style="display:grid; grid-template-columns:1fr 40%; gap:clamp(24px,4vw,48px); align-items:start;">
+          <div class="data-wall-grid">
+            <div class="data-wall-card">
+              <span class="data-wall-card__icon"><i class="bi bi-speedometer2"></i></span>
+              <p class="data-wall-card__num">&plusmn;5<small>% GSM</small></p>
+              <p class="data-wall-card__desc">Per-batch fabric weight tolerance vs spec. Lab report attached to every PO.</p>
+            </div>
+            <div class="data-wall-card">
+              <span class="data-wall-card__icon"><i class="bi bi-palette"></i></span>
+              <p class="data-wall-card__num">&Delta;E &le; 1.5</p>
+              <p class="data-wall-card__desc">Spectrophotometer color delta vs your approved lab dip. Black-on-black, neon, marl &mdash; same rule.</p>
+            </div>
+            <div class="data-wall-card">
+              <span class="data-wall-card__icon"><i class="bi bi-rulers"></i></span>
+              <p class="data-wall-card__num">&plusmn;0.5<small> cm</small></p>
+              <p class="data-wall-card__desc">Garment measurement tolerance on POM points: chest, waist, inseam, sleeve.</p>
+            </div>
+            <div class="data-wall-card">
+              <span class="data-wall-card__icon"><i class="bi bi-calendar-check"></i></span>
+              <p class="data-wall-card__num">92.4<small>%</small></p>
+              <p class="data-wall-card__desc">12-month rolling on-time delivery. Quarterly PDF report shareable under NDA.</p>
+            </div>
+            <div class="data-wall-card">
+              <span class="data-wall-card__icon"><i class="bi bi-clipboard2-check"></i></span>
+              <p class="data-wall-card__num">98.5<small>%</small></p>
+              <p class="data-wall-card__desc">AQL 2.5 pre-shipment inspection pass rate. SGS and Bureau Veritas compatible.</p>
+            </div>
+            <div class="data-wall-card">
+              <span class="data-wall-card__icon"><i class="bi bi-box-seam"></i></span>
+              <p class="data-wall-card__num">300<small> / SKU</small></p>
+              <p class="data-wall-card__desc">Total piece count, not per size. Split XS-XXL however your size curve reads.</p>
+            </div>
           </div>
-          <div class="data-wall-card">
-            <span class="data-wall-card__icon"><i class="bi bi-palette"></i></span>
-            <p class="data-wall-card__num">&Delta;E &le; 1.5</p>
-            <p class="data-wall-card__desc">Spectrophotometer color delta vs your approved lab dip. Black-on-black, neon, marl &mdash; same rule.</p>
-          </div>
-          <div class="data-wall-card">
-            <span class="data-wall-card__icon"><i class="bi bi-rulers"></i></span>
-            <p class="data-wall-card__num">&plusmn;0.5<small> cm</small></p>
-            <p class="data-wall-card__desc">Garment measurement tolerance on POM points: chest, waist, inseam, sleeve.</p>
-          </div>
-          <div class="data-wall-card">
-            <span class="data-wall-card__icon"><i class="bi bi-calendar-check"></i></span>
-            <p class="data-wall-card__num">92.4<small>%</small></p>
-            <p class="data-wall-card__desc">12-month rolling on-time delivery. Quarterly PDF report shareable under NDA.</p>
-          </div>
-          <div class="data-wall-card">
-            <span class="data-wall-card__icon"><i class="bi bi-clipboard2-check"></i></span>
-            <p class="data-wall-card__num">98.5<small>%</small></p>
-            <p class="data-wall-card__desc">AQL 2.5 pre-shipment inspection pass rate. SGS and Bureau Veritas compatible.</p>
-          </div>
-          <div class="data-wall-card">
-            <span class="data-wall-card__icon"><i class="bi bi-box-seam"></i></span>
-            <p class="data-wall-card__num">300<small> / SKU</small></p>
-            <p class="data-wall-card__desc">Total piece count, not per size. Split XS-XXL however your size curve reads.</p>
+          <div style="position:sticky; top:120px;">
+            <img src="/assets/images/factory-overhead.webp" alt="QC inspection lab and sewing floor" width="600" height="450" loading="lazy" style="border-radius:12px; width:100%; height:auto; object-fit:cover; box-shadow:0 8px 24px rgba(15,31,30,0.12);">
           </div>
         </div>
       </div>
@@ -1906,7 +1914,7 @@
             <span class="service-card__hot">Most Popular</span>
             <span class="service-card__icon"><i class="bi bi-scissors"></i></span>
             <h3 class="service-card__title">OEM (Cut-and-Sew)</h3>
-            <p class="service-card__desc">You send tech-pack and approved lab dip; we cut-and-sew to spec.</p>
+            <p class="service-card__desc">You send tech-pack and approved lab dip; we cut-and-sew to spec. Inline QC at every station, pre-shipment AQL 2.5 inspection included. MOQ 300 per SKU, split across XS-XXL. Lead time 35-42 days with fabric on stock.</p>
             <p class="service-card__moq">MOQ 300 / SKU &middot; lead time 35-42 days</p>
             <a href="/services/oem-cut-and-sew" class="service-card__link">See service spec &rarr;</a>
           </article>
@@ -1915,7 +1923,7 @@
           <article class="service-card">
             <span class="service-card__icon"><i class="bi bi-pencil-square"></i></span>
             <h3 class="service-card__title">ODM</h3>
-            <p class="service-card__desc">Pick from our pattern library, swap color, fabric or logo, skip the pattern-making cycle.</p>
+            <p class="service-card__desc">Pick from 200+ base patterns in our library. Swap color, fabric, or logo &mdash; skip the pattern-making cycle entirely. MOQ 200 per SKU, 30-40 days. Best for brands launching without a tech-pack.</p>
             <p class="service-card__moq">MOQ 200 / SKU &middot; lead time 30-40 days</p>
             <a href="/services/odm" class="service-card__link">See service spec &rarr;</a>
           </article>
@@ -1924,7 +1932,7 @@
           <article class="service-card">
             <span class="service-card__icon"><i class="bi bi-tag"></i></span>
             <h3 class="service-card__title">Private Label</h3>
-            <p class="service-card__desc">Your hangtag, care label, polybag and master carton &mdash; full label kit assembled by us.</p>
+            <p class="service-card__desc">Your hangtag, care label, polybag, and master carton &mdash; full label kit assembled during packing. Add-on to any OEM or ODM order, no extra MOQ. Artwork in vector format (AI/PDF).</p>
             <p class="service-card__moq">Add-on to OEM / ODM &middot; no extra MOQ</p>
             <a href="/services/private-label" class="service-card__link">See service spec &rarr;</a>
           </article>
@@ -1933,7 +1941,7 @@
           <article class="service-card">
             <span class="service-card__icon"><i class="bi bi-lightning"></i></span>
             <h3 class="service-card__title">Small-Batch Sampling</h3>
-            <p class="service-card__desc">One piece per sample. Sample fee USD 45. Fabric-on-stock turn in 5 working days.</p>
+            <p class="service-card__desc">One piece per sample. USD 45 fee, 5 working days on fabric-on-stock styles. Includes finished garment, lab-dip swatch, measurement sheet, and fabric test report. Fee waived on first PO.</p>
             <p class="service-card__moq">1 piece per sample &middot; 5 working days</p>
             <a href="/services/small-batch-sampling" class="service-card__link">See service spec &rarr;</a>
           </article>
@@ -1942,7 +1950,7 @@
           <article class="service-card">
             <span class="service-card__icon"><i class="bi bi-printer"></i></span>
             <h3 class="service-card__title">Custom Print &amp; Embroidery</h3>
-            <p class="service-card__desc">Sublimation, DTG, silicone, 3D embossed, flat embroidery, heat transfer &mdash; all in-house.</p>
+            <p class="service-card__desc">Sublimation, DTG, silicone, 3D embossed, flat embroidery, and heat transfer &mdash; all six methods in-house. Combinable on the same PO. No separate MOQ for decoration.</p>
             <p class="service-card__moq">Combinable on the same PO &middot; no separate MOQ</p>
             <a href="/services/custom-print-embroidery" class="service-card__link">See service spec &rarr;</a>
           </article>
@@ -1951,7 +1959,7 @@
           <article class="service-card">
             <span class="service-card__icon"><i class="bi bi-people"></i></span>
             <h3 class="service-card__title">Team Customization</h3>
-            <p class="service-card__desc">Per-piece number, name, crest, sponsor block driven by your roster CSV.</p>
+            <p class="service-card__desc">Per-piece number, name, crest, and sponsor block driven by your roster CSV. MOQ 50 pieces, 18-25 days. Full-bleed sublimation on polyester.</p>
             <p class="service-card__moq">MOQ 50 pieces &middot; 18-25 days</p>
             <a href="/services/team-customization" class="service-card__link">See service spec &rarr;</a>
           </article>
@@ -1960,10 +1968,14 @@
           <article class="service-card">
             <span class="service-card__icon"><i class="bi bi-rulers"></i></span>
             <h3 class="service-card__title">Tech-Pack &amp; Pattern Service</h3>
-            <p class="service-card__desc">No tech-pack yet? Our 16 pattern-makers build one from a reference sample or your sketch.</p>
+            <p class="service-card__desc">No tech-pack yet? Our 16 pattern-makers build one from a reference sample, sketch, or photo. Pattern fee USD 220, 7-14 days. Graded XS-5XL.</p>
             <p class="service-card__moq">1 pattern fee USD 220 &middot; 7-14 days</p>
             <a href="/services/tech-pack-pattern" class="service-card__link">See service spec &rarr;</a>
           </article>
+        </div>
+
+        <div style="margin-top:clamp(32px,4vw,48px); border-radius:12px; overflow:hidden;">
+          <img src="/assets/images/factory-overhead.webp" alt="Production lines running multiple service tracks simultaneously" width="1200" height="500" loading="lazy" style="width:100%; height:auto; object-fit:cover; max-height:400px;">
         </div>
       </div>
     </section>
@@ -2005,9 +2017,10 @@
             </p>
           </div>
           <div class="datasheet-img">
-            <img loading="lazy" width="800" height="600"
-                 alt="Berun Active Wear factory overhead — production lines and finishing area"
-                 src="/assets/images/factory-overhead.webp">
+            <img loading="lazy" width="600" height="450"
+                 alt="Factory floor with 12 production lines"
+                 src="/assets/images/factory.jpg"
+                 style="border-radius:12px; width:100%; height:auto; object-fit:cover;">
           </div>
         </div>
       </div>
@@ -2072,6 +2085,10 @@
             <span class="process-step__days">per destination</span>
           </div>
         </div>
+
+        <div style="margin-top:clamp(32px,4vw,48px); border-radius:12px; overflow:hidden;">
+          <img src="/assets/images/factory-overhead.webp" alt="Factory floor during bulk production phase" width="1200" height="400" loading="lazy" style="width:100%; height:auto; object-fit:cover; max-height:350px;">
+        </div>
       </div>
     </section>
 
@@ -2084,36 +2101,40 @@
           <p class="section-sub">The technical capabilities behind every garment we ship.</p>
         </div>
 
+        <div style="margin-bottom:clamp(24px,3vw,40px); border-radius:12px; overflow:hidden; max-height:300px;">
+          <img src="/assets/images/product-training-performance.webp" alt="Close-up of four-way stretch performance fabric" width="1200" height="300" loading="lazy" style="width:100%; height:auto; object-fit:cover;">
+        </div>
+
         <div class="tech-grid">
           <div class="tech-card">
             <span class="tech-card__icon"><i class="bi bi-arrows-fullscreen"></i></span>
             <h3 class="tech-card__title">4-Way Stretch Knit</h3>
-            <p class="tech-card__desc">Nylon/spandex blends with &ge;40% elongation for leggings, bras, and compression tops.</p>
+            <p class="tech-card__desc">180-280 GSM nylon/spandex blends. Minimum 40% elongation in warp and weft. OEKO-TEX certified yarns. Built for leggings, sports bras, and compression tops.</p>
           </div>
           <div class="tech-card">
             <span class="tech-card__icon"><i class="bi bi-droplet"></i></span>
             <h3 class="tech-card__title">Moisture-Wicking Finish</h3>
-            <p class="tech-card__desc">Hydrophilic coating on polyester and blends. Wicks perspiration from skin to fabric surface.</p>
+            <p class="tech-card__desc">Hydrophilic treatment on 100% polyester and poly/spandex blends. Dries 3x faster than untreated cotton. Wicks perspiration from skin to fabric surface.</p>
           </div>
           <div class="tech-card">
             <span class="tech-card__icon"><i class="bi bi-recycle"></i></span>
             <h3 class="tech-card__title">Recycled Polyester (GRS)</h3>
-            <p class="tech-card__desc">GRS-certified rPET yarn for eco-conscious product lines. Chain-of-custody documented.</p>
+            <p class="tech-card__desc">GRS-certified rPET yarn (cert no. CU 1014387 GRS-2024). Post-consumer PET bottles to fiber. Available in 150-300 GSM. Chain-of-custody documented.</p>
           </div>
           <div class="tech-card">
             <span class="tech-card__icon"><i class="bi bi-palette2"></i></span>
             <h3 class="tech-card__title">Sublimation Printing</h3>
-            <p class="tech-card__desc">Full-bleed dye sublimation on polyester. Unlimited colors, zero hand feel, wash-fast.</p>
+            <p class="tech-card__desc">Calender press at 200&deg;C, 45-second dwell. Color gamut covers 95% Pantone textile range on white polyester base. Unlimited colors, zero hand feel, wash-fast.</p>
           </div>
           <div class="tech-card">
             <span class="tech-card__icon"><i class="bi bi-lightning"></i></span>
             <h3 class="tech-card__title">Compression Grade</h3>
-            <p class="tech-card__desc">Graduated compression panels in 180&ndash;280 GSM nylon/spandex for performance and recovery wear.</p>
+            <p class="tech-card__desc">Graduated compression 15-25 mmHg. Tested per ASTM D2594 for stretch recovery. Medical-grade optional. 180&ndash;280 GSM nylon/spandex for performance and recovery wear.</p>
           </div>
           <div class="tech-card">
             <span class="tech-card__icon"><i class="bi bi-shield-check"></i></span>
             <h3 class="tech-card__title">DWR &amp; Bonded Seam</h3>
-            <p class="tech-card__desc">Durable water repellent coating + bonded/welded seams for outdoor and running shells.</p>
+            <p class="tech-card__desc">C0 eco-friendly or C6 performance grade. 80+ washes before retreatment. Seam-sealed with hot-air tape. Built for outdoor and running shells.</p>
           </div>
         </div>
       </div>
@@ -2136,6 +2157,10 @@
           <span class="section-rail">Competitive Edge</span>
           <h2 class="section-h2" id="s10-h2">Why Brands Switch to Us</h2>
           <p class="section-sub">Not a knock on other factories &mdash; this is just what we made public. Compare on your shortlist scorecard.</p>
+        </div>
+
+        <div style="margin-bottom:clamp(24px,3vw,40px); border-radius:12px; overflow:hidden; max-height:280px;">
+          <img src="/assets/images/factory.jpg" alt="Berun factory quality control inspection station" width="1200" height="280" loading="lazy" style="width:100%; height:auto; object-fit:cover;">
         </div>
 
         <table class="compare-table">
@@ -2239,41 +2264,53 @@
         </div>
 
         <div class="industry-grid">
-          <div class="industry-card">
-            <span class="industry-card__icon"><i class="bi bi-trophy"></i></span>
-            <h3 class="industry-card__title">Gym &amp; Fitness</h3>
-            <p class="industry-card__desc">Performance leggings, sports bras, and training shorts for gym brands.</p>
-            <a href="/products/training-performance" class="industry-card__link">Explore &rarr;</a>
+          <div class="industry-card" style="padding:0; overflow:hidden;">
+            <img src="/assets/images/product-training-performance.webp" alt="Gym and fitness performance leggings and sports bras" width="400" height="250" loading="lazy" style="width:100%; height:200px; object-fit:cover; border-radius:12px 12px 0 0;">
+            <div style="padding:clamp(18px,2vw,24px);">
+              <h3 class="industry-card__title">Gym &amp; Fitness</h3>
+              <p class="industry-card__desc">Performance leggings, sports bras, and training shorts for gym brands. Anti-pilling, moisture-wicking fabrics built for high-rep workouts. MOQ 300/SKU with size splits from XS to XXL.</p>
+              <a href="/products/training-performance" class="industry-card__link">Explore &rarr;</a>
+            </div>
           </div>
-          <div class="industry-card">
-            <span class="industry-card__icon"><i class="bi bi-peace"></i></span>
-            <h3 class="industry-card__title">Yoga &amp; Pilates</h3>
-            <p class="industry-card__desc">High-stretch, second-skin fits with four-way stretch and moisture management.</p>
-            <a href="/products/training-performance" class="industry-card__link">Explore &rarr;</a>
+          <div class="industry-card" style="padding:0; overflow:hidden;">
+            <img src="/assets/images/product-training-performance.webp" alt="Yoga and pilates high-stretch activewear" width="400" height="250" loading="lazy" style="width:100%; height:200px; object-fit:cover; border-radius:12px 12px 0 0;">
+            <div style="padding:clamp(18px,2vw,24px);">
+              <h3 class="industry-card__title">Yoga &amp; Pilates</h3>
+              <p class="industry-card__desc">High-stretch, second-skin fits with four-way stretch and moisture management. Nylon/spandex blends with &ge;40% elongation for unrestricted movement. Buttery-soft hand feel across 180-240 GSM weight range.</p>
+              <a href="/products/training-performance" class="industry-card__link">Explore &rarr;</a>
+            </div>
           </div>
-          <div class="industry-card">
-            <span class="industry-card__icon"><i class="bi bi-people-fill"></i></span>
-            <h3 class="industry-card__title">Team Sports</h3>
-            <p class="industry-card__desc">Sublimated jerseys, training tees, and warm-up sets with roster personalization.</p>
-            <a href="/products/team-club" class="industry-card__link">Explore &rarr;</a>
+          <div class="industry-card" style="padding:0; overflow:hidden;">
+            <img src="/assets/images/product-team-club.webp" alt="Team sports sublimated jerseys" width="400" height="250" loading="lazy" style="width:100%; height:200px; object-fit:cover; border-radius:12px 12px 0 0;">
+            <div style="padding:clamp(18px,2vw,24px);">
+              <h3 class="industry-card__title">Team Sports</h3>
+              <p class="industry-card__desc">Sublimated jerseys, training tees, and warm-up sets with roster personalization. Per-piece name, number, and crest driven by your CSV. MOQ 50 pieces with full-bleed sublimation on polyester.</p>
+              <a href="/products/team-club" class="industry-card__link">Explore &rarr;</a>
+            </div>
           </div>
-          <div class="industry-card">
-            <span class="industry-card__icon"><i class="bi bi-compass"></i></span>
-            <h3 class="industry-card__title">Outdoor &amp; Running</h3>
-            <p class="industry-card__desc">DWR-coated shells, reflective tights, and technical singlets.</p>
-            <a href="/products/outdoor-running" class="industry-card__link">Explore &rarr;</a>
+          <div class="industry-card" style="padding:0; overflow:hidden;">
+            <img src="/assets/images/product-outdoor-running.webp" alt="Outdoor and running windbreakers and technical tights" width="400" height="250" loading="lazy" style="width:100%; height:200px; object-fit:cover; border-radius:12px 12px 0 0;">
+            <div style="padding:clamp(18px,2vw,24px);">
+              <h3 class="industry-card__title">Outdoor &amp; Running</h3>
+              <p class="industry-card__desc">DWR-coated shells, reflective tights, and technical singlets for trail and road brands. C0 eco-friendly or C6 performance water repellent options. Seam-sealed with hot-air tape for full weather protection.</p>
+              <a href="/products/outdoor-running" class="industry-card__link">Explore &rarr;</a>
+            </div>
           </div>
-          <div class="industry-card">
-            <span class="industry-card__icon"><i class="bi bi-bag"></i></span>
-            <h3 class="industry-card__title">Athleisure &amp; Lifestyle</h3>
-            <p class="industry-card__desc">French terry hoodies, joggers, and oversized tees for off-gym wear.</p>
-            <a href="/products/athleisure" class="industry-card__link">Explore &rarr;</a>
+          <div class="industry-card" style="padding:0; overflow:hidden;">
+            <img src="/assets/images/product-athleisure.webp" alt="Athleisure hoodies and lifestyle tees" width="400" height="250" loading="lazy" style="width:100%; height:200px; object-fit:cover; border-radius:12px 12px 0 0;">
+            <div style="padding:clamp(18px,2vw,24px);">
+              <h3 class="industry-card__title">Athleisure &amp; Lifestyle</h3>
+              <p class="industry-card__desc">French terry hoodies, joggers, and oversized tees for off-gym wear. Heavier-weight knits in 280-380 GSM for premium hand feel. Available in cotton/poly blends and fleece with custom dye lots.</p>
+              <a href="/products/athleisure" class="industry-card__link">Explore &rarr;</a>
+            </div>
           </div>
-          <div class="industry-card">
-            <span class="industry-card__icon"><i class="bi bi-building"></i></span>
-            <h3 class="industry-card__title">Corporate &amp; Events</h3>
-            <p class="industry-card__desc">Branded team gear, event merchandise, and company uniforms.</p>
-            <a href="/contact" class="industry-card__link">Explore &rarr;</a>
+          <div class="industry-card" style="padding:0; overflow:hidden;">
+            <img src="/assets/images/product-accessories.webp" alt="Corporate branded accessories and event merchandise" width="400" height="250" loading="lazy" style="width:100%; height:200px; object-fit:cover; border-radius:12px 12px 0 0;">
+            <div style="padding:clamp(18px,2vw,24px);">
+              <h3 class="industry-card__title">Corporate &amp; Events</h3>
+              <p class="industry-card__desc">Branded team gear, event merchandise, and company uniforms. Full private label kit with custom hangtags, care labels, and packaging. Matched to your corporate color palette across all items.</p>
+              <a href="/contact" class="industry-card__link">Explore &rarr;</a>
+            </div>
           </div>
         </div>
       </div>
@@ -2286,6 +2323,15 @@
           <span class="section-rail">Compliance</span>
           <h2 class="section-h2" id="s12-h2">Certifications &amp; Compliance</h2>
           <p class="section-sub">Sourcing for US retailers, EU marketplaces, or Amazon brand-registry compliance? These are the five audit-checked annually.</p>
+        </div>
+
+        <!-- Visual certification circles -->
+        <div style="display:flex; justify-content:center; gap:24px; margin-bottom:32px; flex-wrap:wrap;">
+          <div style="width:80px; height:80px; border-radius:50%; background:#DC2626; display:flex; align-items:center; justify-content:center; color:#fff; font-weight:800; font-size:0.6875rem; text-align:center; line-height:1.2;">OEKO-<br>TEX</div>
+          <div style="width:80px; height:80px; border-radius:50%; background:#DC2626; display:flex; align-items:center; justify-content:center; color:#fff; font-weight:800; font-size:0.6875rem; text-align:center; line-height:1.2;">BSCI</div>
+          <div style="width:80px; height:80px; border-radius:50%; background:#DC2626; display:flex; align-items:center; justify-content:center; color:#fff; font-weight:800; font-size:0.6875rem; text-align:center; line-height:1.2;">WRAP<br>GOLD</div>
+          <div style="width:80px; height:80px; border-radius:50%; background:#DC2626; display:flex; align-items:center; justify-content:center; color:#fff; font-weight:800; font-size:0.6875rem; text-align:center; line-height:1.2;">GRS</div>
+          <div style="width:80px; height:80px; border-radius:50%; background:#DC2626; display:flex; align-items:center; justify-content:center; color:#fff; font-weight:800; font-size:0.6875rem; text-align:center; line-height:1.2;">HIGG<br>FEM</div>
         </div>
 
         <!-- Badge row -->
@@ -2382,21 +2428,27 @@
 
         <div class="testimonial-grid">
           <div class="testimonial-card">
+            <div style="display:flex; align-items:center; gap:16px; margin-bottom:16px;">
+              <div style="width:56px;height:56px;border-radius:50%;background:#DC2626;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:1rem;flex-shrink:0;">MR</div>
+              <div>
+                <p class="testimonial-card__name" style="margin:0;">Maya R.</p>
+                <p class="testimonial-card__role" style="margin:0;">Senior Sourcing Director, Boulder CO athleisure brand ($18M ARR)</p>
+              </div>
+            </div>
             <div class="testimonial-card__mark">&ldquo;</div>
             <p class="testimonial-card__quote">Two factories ago, batch-to-batch GSM drift was killing my Amazon BSR &mdash; 14% variance across one PO. We switched 3 SKUs to Berun. First PO: 4,200 pieces across 4 colors, OTD 17 days, lab dip passed on the first round. Reordered 11K pieces 6 weeks later. The pre-shipment AQL report comes with every PO &mdash; I cut my third-party inspection budget in half.</p>
-            <div class="testimonial-card__attr">
-              <p class="testimonial-card__name">Maya R.</p>
-              <p class="testimonial-card__role">Senior Sourcing Director, Boulder CO athleisure brand ($18M ARR)</p>
-            </div>
           </div>
 
           <div class="testimonial-card">
+            <div style="display:flex; align-items:center; gap:16px; margin-bottom:16px;">
+              <div style="width:56px;height:56px;border-radius:50%;background:#DC2626;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:1rem;flex-shrink:0;">LH</div>
+              <div>
+                <p class="testimonial-card__name" style="margin:0;">Lukas H.</p>
+                <p class="testimonial-card__role" style="margin:0;">Brand Founder, Berlin EU DTC athleisure ($3.8M ARR)</p>
+              </div>
+            </div>
             <div class="testimonial-card__mark">&ldquo;</div>
             <p class="testimonial-card__quote">Most factories quote MOQ 300 per SKU but actually mean 300 &times; 5 sizes = 1,500 units. That math killed 6 SKU launches for us in 2023. Berun split 300 across XS-XXL on our first PO &mdash; we launched 5 SKUs in Q1 2024 and hit 88% sell-through within 60 days. They send a monthly OTD report unprompted; I forward it to my CFO every month.</p>
-            <div class="testimonial-card__attr">
-              <p class="testimonial-card__name">Lukas H.</p>
-              <p class="testimonial-card__role">Brand Founder, Berlin EU DTC athleisure ($3.8M ARR)</p>
-            </div>
           </div>
         </div>
       </div>
@@ -2409,6 +2461,18 @@
           <span class="section-rail" style="color:var(--color-accent);">Markets &amp; Clients</span>
           <h2 class="section-h2" id="s14-h2" style="color:#FFFFFF;">Markets Served &amp; Client Profile</h2>
           <p class="section-sub" style="color:rgba(250,247,242,0.72);">Where the goods land and who's behind the POs. Twelve client brands listed below &mdash; full reference list available after intro call.</p>
+        </div>
+
+        <!-- Global reach visualization -->
+        <div style="background:#2D3748; border-radius:12px; padding:32px; margin-bottom:32px; text-align:center;">
+          <p style="color:#9CA3AF; font-size:0.875rem; letter-spacing:0.08em; text-transform:uppercase; margin-bottom:16px;">Global Reach &mdash; 5 Continents</p>
+          <div style="display:flex; justify-content:center; gap:32px; flex-wrap:wrap;">
+            <span style="color:#FCD34D; font-weight:700;">North America 42%</span>
+            <span style="color:#FCD34D; font-weight:700;">Europe 28%</span>
+            <span style="color:#FCD34D; font-weight:700;">Oceania 14%</span>
+            <span style="color:#FCD34D; font-weight:700;">Middle East 10%</span>
+            <span style="color:#FCD34D; font-weight:700;">LATAM 6%</span>
+          </div>
         </div>
 
         <!-- Logo wall -->
