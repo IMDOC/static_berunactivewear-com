@@ -111,6 +111,19 @@
           "name": "Berun Active Wear",
           "publisher": {"@id": "https://www.berunactivewear.com/#org"},
           "inLanguage": "en"
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {"@type": "Question", "name": "What is your minimum order quantity?", "acceptedAnswer": {"@type": "Answer", "text": "MOQ is 300 pieces per SKU for OEM cut-and-sew, split across your size curve from XS to XXL. Team orders start at 50 pieces. Sampling starts at 1 piece."}},
+            {"@type": "Question", "name": "Can you produce small-batch samples?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. One piece per sample, USD 45 fee, 5 working days for fabric-on-stock styles. Sample fee is waived on your first production order."}},
+            {"@type": "Question", "name": "What certifications do you hold?", "acceptedAnswer": {"@type": "Answer", "text": "OEKO-TEX Standard 100, BSCI, WRAP Gold, GRS, and Higg FEM (score 82/100). Certificate numbers and PDFs available on request."}},
+            {"@type": "Question", "name": "What is your production lead time?", "acceptedAnswer": {"@type": "Answer", "text": "35–42 days for OEM with fabric on stock. 48–58 days when fabric is made to order. Team orders: 18–25 days."}},
+            {"@type": "Question", "name": "Can I visit the factory?", "acceptedAnswer": {"@type": "Answer", "text": "Virtual factory tours are available by appointment. In-person visits can be arranged with 5 business days’ notice."}},
+            {"@type": "Question", "name": "What fabrics do you work with?", "acceptedAnswer": {"@type": "Answer", "text": "Nylon/spandex, polyester, cotton/poly blends, French terry, fleece, ripstop nylon, recycled polyester (GRS certified). Custom fabric sourcing available."}},
+            {"@type": "Question", "name": "What printing and decoration methods do you offer?", "acceptedAnswer": {"@type": "Answer", "text": "Sublimation, DTG, screen print, silicone, 3D embossed, flat embroidery, and heat transfer — all in-house."}},
+            {"@type": "Question", "name": "What packaging options are available?", "acceptedAnswer": {"@type": "Answer", "text": "Individual poly-bag, hangtag, care label, size label, master carton with your branding. Full private label kit included at no extra MOQ."}}
+          ]
         }
       ]
     }
@@ -1239,6 +1252,257 @@
       transition: background-size .35s ease;
     }
     a.inline-link:hover { background-size: 100% 1px; }
+
+    /* ===== Hero cert badges ===== */
+    .hero-cert-badges {
+      display: inline-flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 8px;
+    }
+    .hero-cert-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      border: 1px solid rgba(255,255,255,0.35);
+      padding: 6px 12px;
+      border-radius: 4px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: #FFFFFF;
+      letter-spacing: 0.02em;
+    }
+    .hero-cert-badge i { font-size: 0.8125rem; }
+    @media (max-width: 575px) {
+      .hero-cert-badges { gap: 6px; }
+      .hero-cert-badge { padding: 4px 8px; font-size: 0.6875rem; }
+    }
+
+    /* ===== S7: Production Process Timeline ===== */
+    .process-timeline {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      position: relative;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    .process-timeline::before {
+      content: "";
+      position: absolute;
+      top: 28px;
+      left: 28px;
+      right: 28px;
+      height: 2px;
+      background: var(--color-border);
+      z-index: 0;
+    }
+    .process-step {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      flex: 1;
+      position: relative;
+      z-index: 1;
+      padding: 0 8px;
+    }
+    .process-step__circle {
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      background: var(--color-primary);
+      color: #FFFFFF;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.25rem;
+      margin-bottom: 14px;
+      box-shadow: 0 4px 12px rgba(220,38,38,0.18);
+      position: relative;
+    }
+    .process-step__num {
+      position: absolute;
+      top: -8px;
+      right: -4px;
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      background: var(--color-accent);
+      color: var(--color-secondary);
+      font-size: 0.6875rem;
+      font-weight: 800;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .process-step__title {
+      font-size: 0.9375rem;
+      font-weight: 700;
+      color: #0F1F1E;
+      margin: 0 0 4px;
+    }
+    .process-step__days {
+      font-family: 'SF Mono', 'Fira Code', monospace;
+      font-size: 0.8125rem;
+      color: var(--color-primary);
+      font-weight: 600;
+    }
+    @media (max-width: 991px) {
+      .process-timeline {
+        flex-wrap: wrap;
+        gap: 24px 0;
+      }
+      .process-timeline::before { display: none; }
+      .process-step { flex: 0 0 33.333%; }
+    }
+    @media (max-width: 575px) {
+      .process-step { flex: 0 0 50%; }
+    }
+
+    /* ===== S8: Fabric & Technology cards ===== */
+    .tech-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: clamp(16px, 2vw, 24px);
+    }
+    .tech-card {
+      padding: clamp(24px, 2.5vw, 32px);
+      background: #FFFFFF;
+      border: 1px solid var(--color-border);
+      border-radius: 12px;
+      transition: transform .25s ease, box-shadow .25s ease;
+    }
+    .tech-card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--corp-shadow-2);
+    }
+    .tech-card__icon {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 48px; height: 48px;
+      border-radius: 10px;
+      background: rgba(220,38,38,0.08);
+      color: var(--color-primary);
+      font-size: 1.25rem;
+      margin-bottom: 14px;
+    }
+    .tech-card__title {
+      font-size: 1.0625rem;
+      font-weight: 700;
+      color: #0F1F1E;
+      margin: 0 0 8px;
+    }
+    .tech-card__desc {
+      font-size: 0.9375rem;
+      line-height: 1.55;
+      color: var(--color-muted);
+      margin: 0;
+    }
+    @media (max-width: 991px) {
+      .tech-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (max-width: 575px) {
+      .tech-grid { grid-template-columns: 1fr; }
+    }
+
+    /* ===== S11: Industries We Serve ===== */
+    .industry-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: clamp(16px, 2vw, 24px);
+    }
+    .industry-card {
+      padding: clamp(24px, 2.5vw, 32px);
+      background: #FFFFFF;
+      border: 1px solid var(--color-border);
+      border-radius: 12px;
+      display: flex;
+      flex-direction: column;
+      transition: transform .25s ease, box-shadow .25s ease;
+    }
+    .industry-card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--corp-shadow-2);
+    }
+    .industry-card__icon {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 48px; height: 48px;
+      border-radius: 10px;
+      background: rgba(220,38,38,0.08);
+      color: var(--color-primary);
+      font-size: 1.25rem;
+      margin-bottom: 14px;
+    }
+    .industry-card__title {
+      font-size: 1.0625rem;
+      font-weight: 700;
+      color: #0F1F1E;
+      margin: 0 0 8px;
+    }
+    .industry-card__desc {
+      font-size: 0.9375rem;
+      line-height: 1.55;
+      color: var(--color-muted);
+      margin: 0 0 14px;
+      flex: 1;
+    }
+    .industry-card__link {
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: var(--color-primary);
+      text-decoration: none;
+    }
+    .industry-card__link:hover { color: var(--color-primary-dark); }
+    @media (max-width: 991px) {
+      .industry-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (max-width: 575px) {
+      .industry-grid { grid-template-columns: 1fr; }
+    }
+
+    /* ===== S15: FAQ Accordion ===== */
+    .faq-accordion {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .faq-accordion .accordion-item {
+      background: #FFFFFF;
+      border: 1px solid var(--color-border);
+      border-radius: 12px !important;
+      margin-bottom: 12px;
+      overflow: hidden;
+    }
+    .faq-accordion .accordion-button {
+      font-family: var(--font-sans);
+      font-size: 1rem;
+      font-weight: 600;
+      color: #0F1F1E;
+      background: #FFFFFF;
+      padding: 20px 24px;
+      box-shadow: none;
+    }
+    .faq-accordion .accordion-button:not(.collapsed) {
+      background: #FFFFFF;
+      color: var(--color-primary);
+      box-shadow: none;
+    }
+    .faq-accordion .accordion-button::after {
+      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23DC2626'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    }
+    .faq-accordion .accordion-body {
+      font-size: 0.9375rem;
+      line-height: 1.65;
+      color: var(--color-muted);
+      padding: 0 24px 20px;
+    }
+    @media (max-width: 575px) {
+      .faq-accordion .accordion-button { font-size: 0.9375rem; padding: 16px 18px; }
+      .faq-accordion .accordion-body { padding: 0 18px 16px; }
+    }
     </style>
 </head>
 <body>
@@ -1270,6 +1534,13 @@
           <div class="hero-corp__ctas anim-rise anim-d4">
             <a href="#inquiry" class="btn-corp btn-corp--primary btn-corp--accent">Send your tech-pack</a>
             <a href="#inquiry" class="btn-corp btn-corp--ghost">Request capability deck</a>
+          </div>
+          <div class="hero-cert-badges anim-rise anim-d5">
+            <span class="hero-cert-badge"><i class="bi bi-shield-check"></i> OEKO-TEX</span>
+            <span class="hero-cert-badge"><i class="bi bi-shield-check"></i> BSCI</span>
+            <span class="hero-cert-badge"><i class="bi bi-shield-check"></i> WRAP Gold</span>
+            <span class="hero-cert-badge"><i class="bi bi-shield-check"></i> GRS</span>
+            <span class="hero-cert-badge"><i class="bi bi-shield-check"></i> Higg FEM</span>
           </div>
         </div>
       </div>
@@ -1605,22 +1876,128 @@
       </div>
     </section>
 
-    <!-- ============== S7 — Mid-Page CTA ============== -->
-    <section class="mid-cta" id="mid-cta" aria-labelledby="s7-h2">
+    <!-- ============== S7 — Production Process Timeline ============== -->
+    <section class="section-corp section-corp--white" aria-labelledby="s7-h2">
+      <div class="container-bra" style="width:100%;">
+        <div class="section-head">
+          <span class="section-rail">Order Workflow</span>
+          <h2 class="section-h2" id="s7-h2">From Inquiry to Shipment &mdash; Six Production Stages</h2>
+          <p class="section-sub">Every order follows the same six-stage workflow. Timelines shown are for OEM cut-and-sew with fabric on stock.</p>
+        </div>
+
+        <div class="process-timeline">
+          <div class="process-step">
+            <div class="process-step__circle">
+              <i class="bi bi-envelope-open"></i>
+              <span class="process-step__num">1</span>
+            </div>
+            <h3 class="process-step__title">Inquiry &amp; Spec Review</h3>
+            <span class="process-step__days">1 business day</span>
+          </div>
+          <div class="process-step">
+            <div class="process-step__circle">
+              <i class="bi bi-palette"></i>
+              <span class="process-step__num">2</span>
+            </div>
+            <h3 class="process-step__title">Lab Dip &amp; Sample</h3>
+            <span class="process-step__days">5&ndash;12 working days</span>
+          </div>
+          <div class="process-step">
+            <div class="process-step__circle">
+              <i class="bi bi-tools"></i>
+              <span class="process-step__num">3</span>
+            </div>
+            <h3 class="process-step__title">Pre-Production</h3>
+            <span class="process-step__days">3&ndash;5 days</span>
+          </div>
+          <div class="process-step">
+            <div class="process-step__circle">
+              <i class="bi bi-gear"></i>
+              <span class="process-step__num">4</span>
+            </div>
+            <h3 class="process-step__title">Bulk Production</h3>
+            <span class="process-step__days">35&ndash;42 days</span>
+          </div>
+          <div class="process-step">
+            <div class="process-step__circle">
+              <i class="bi bi-clipboard-check"></i>
+              <span class="process-step__num">5</span>
+            </div>
+            <h3 class="process-step__title">Pre-Shipment QC</h3>
+            <span class="process-step__days">2&ndash;3 days</span>
+          </div>
+          <div class="process-step">
+            <div class="process-step__circle">
+              <i class="bi bi-truck"></i>
+              <span class="process-step__num">6</span>
+            </div>
+            <h3 class="process-step__title">FOB Shipment</h3>
+            <span class="process-step__days">per destination</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== S8 — Fabric & Technology ============== -->
+    <section class="section-corp section-corp--tint" aria-labelledby="s8-h2">
+      <div class="container-bra" style="width:100%;">
+        <div class="section-head">
+          <span class="section-rail">Materials &amp; Methods</span>
+          <h2 class="section-h2" id="s8-h2">Fabric and Production Technology</h2>
+          <p class="section-sub">The technical capabilities behind every garment we ship.</p>
+        </div>
+
+        <div class="tech-grid">
+          <div class="tech-card">
+            <span class="tech-card__icon"><i class="bi bi-arrows-fullscreen"></i></span>
+            <h3 class="tech-card__title">4-Way Stretch Knit</h3>
+            <p class="tech-card__desc">Nylon/spandex blends with &ge;40% elongation for leggings, bras, and compression tops.</p>
+          </div>
+          <div class="tech-card">
+            <span class="tech-card__icon"><i class="bi bi-droplet"></i></span>
+            <h3 class="tech-card__title">Moisture-Wicking Finish</h3>
+            <p class="tech-card__desc">Hydrophilic coating on polyester and blends. Wicks perspiration from skin to fabric surface.</p>
+          </div>
+          <div class="tech-card">
+            <span class="tech-card__icon"><i class="bi bi-recycle"></i></span>
+            <h3 class="tech-card__title">Recycled Polyester (GRS)</h3>
+            <p class="tech-card__desc">GRS-certified rPET yarn for eco-conscious product lines. Chain-of-custody documented.</p>
+          </div>
+          <div class="tech-card">
+            <span class="tech-card__icon"><i class="bi bi-palette2"></i></span>
+            <h3 class="tech-card__title">Sublimation Printing</h3>
+            <p class="tech-card__desc">Full-bleed dye sublimation on polyester. Unlimited colors, zero hand feel, wash-fast.</p>
+          </div>
+          <div class="tech-card">
+            <span class="tech-card__icon"><i class="bi bi-lightning"></i></span>
+            <h3 class="tech-card__title">Compression Grade</h3>
+            <p class="tech-card__desc">Graduated compression panels in 180&ndash;280 GSM nylon/spandex for performance and recovery wear.</p>
+          </div>
+          <div class="tech-card">
+            <span class="tech-card__icon"><i class="bi bi-shield-check"></i></span>
+            <h3 class="tech-card__title">DWR &amp; Bonded Seam</h3>
+            <p class="tech-card__desc">Durable water repellent coating + bonded/welded seams for outdoor and running shells.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== S9 — Mid-Page CTA ============== -->
+    <section class="mid-cta" id="mid-cta" aria-labelledby="s9-h2">
       <div class="container-bra">
-        <h2 class="mid-cta__h2" id="s7-h2">Download Capacity Datasheet</h2>
+        <h2 class="mid-cta__h2" id="s9-h2">Download Capacity Datasheet</h2>
         <p class="mid-cta__sub">One-page PDF capacity datasheet &mdash; direct download, no email gate. Forward it to your sourcing director or operations lead.</p>
         <a href="#" class="btn-corp btn-corp--white"><i class="bi bi-file-earmark-pdf"></i> Download capacity datasheet (PDF)</a>
         <p class="mid-cta__note">No form. Direct PDF, 280 KB. Updated quarterly.</p>
       </div>
     </section>
 
-    <!-- ============== S8 — Differentiation ============== -->
-    <section class="section-corp section-corp--tint section-corp--compact" style="padding:clamp(64px,8vh,100px) 0;" aria-labelledby="s8-h2">
+    <!-- ============== S10 — Differentiation ============== -->
+    <section class="section-corp section-corp--tint section-corp--compact" style="padding:clamp(64px,8vh,100px) 0;" aria-labelledby="s10-h2">
       <div class="container-bra" style="width:100%;">
         <div class="section-head">
           <span class="section-rail">Competitive Edge</span>
-          <h2 class="section-h2" id="s8-h2">Why Brands Switch to Us</h2>
+          <h2 class="section-h2" id="s10-h2">Why Brands Switch to Us</h2>
           <p class="section-sub">Not a knock on other factories &mdash; this is just what we made public. Compare on your shortlist scorecard.</p>
         </div>
 
@@ -1677,17 +2054,100 @@
                 <strong>92.4% rolling OTD published quarterly.</strong> Monthly PDF report for active accounts under NDA.
               </td>
             </tr>
+            <tr>
+              <td>Fabric sourcing</td>
+              <td class="compare-industry" data-label="Industry Standard">
+                <span class="compare-icon compare-icon--x"><i class="bi bi-x"></i></span>
+                You source your own fabric or accept what the factory offers.
+              </td>
+              <td class="compare-berun" data-label="Berun">
+                <span class="compare-icon compare-icon--check"><i class="bi bi-check2"></i></span>
+                <strong>In-house fabric library + custom sourcing.</strong> GRS-certified rPET available.
+              </td>
+            </tr>
+            <tr>
+              <td>Decoration methods</td>
+              <td class="compare-industry" data-label="Industry Standard">
+                <span class="compare-icon compare-icon--x"><i class="bi bi-x"></i></span>
+                Outsourced printing or limited in-house options.
+              </td>
+              <td class="compare-berun" data-label="Berun">
+                <span class="compare-icon compare-icon--check"><i class="bi bi-check2"></i></span>
+                <strong>Six in-house methods:</strong> sublimation, DTG, screen, silicone, embroidery, heat transfer.
+              </td>
+            </tr>
+            <tr>
+              <td>Size grading</td>
+              <td class="compare-industry" data-label="Industry Standard">
+                <span class="compare-icon compare-icon--x"><i class="bi bi-x"></i></span>
+                Standard XS-XL. Extended sizes quoted separately at higher MOQ.
+              </td>
+              <td class="compare-berun" data-label="Berun">
+                <span class="compare-icon compare-icon--check"><i class="bi bi-check2"></i></span>
+                <strong>Full XS-5XL grading included.</strong> Same MOQ regardless of size range.
+              </td>
+            </tr>
           </tbody>
         </table>
       </div>
     </section>
 
-    <!-- ============== S9 — Certifications ============== -->
-    <section class="section-corp section-corp--white section-corp--compact" style="padding:clamp(64px,8vh,100px) 0;" aria-labelledby="s9-h2">
+    <!-- ============== S11 — Industries We Serve ============== -->
+    <section class="section-corp section-corp--white" aria-labelledby="s11-h2">
+      <div class="container-bra" style="width:100%;">
+        <div class="section-head">
+          <span class="section-rail">Verticals</span>
+          <h2 class="section-h2" id="s11-h2">Industries We Manufacture For</h2>
+          <p class="section-sub">Six verticals, each with category-specific fabric libraries and pattern teams.</p>
+        </div>
+
+        <div class="industry-grid">
+          <div class="industry-card">
+            <span class="industry-card__icon"><i class="bi bi-trophy"></i></span>
+            <h3 class="industry-card__title">Gym &amp; Fitness</h3>
+            <p class="industry-card__desc">Performance leggings, sports bras, and training shorts for gym brands.</p>
+            <a href="/products/training-performance" class="industry-card__link">Explore &rarr;</a>
+          </div>
+          <div class="industry-card">
+            <span class="industry-card__icon"><i class="bi bi-peace"></i></span>
+            <h3 class="industry-card__title">Yoga &amp; Pilates</h3>
+            <p class="industry-card__desc">High-stretch, second-skin fits with four-way stretch and moisture management.</p>
+            <a href="/products/training-performance" class="industry-card__link">Explore &rarr;</a>
+          </div>
+          <div class="industry-card">
+            <span class="industry-card__icon"><i class="bi bi-people-fill"></i></span>
+            <h3 class="industry-card__title">Team Sports</h3>
+            <p class="industry-card__desc">Sublimated jerseys, training tees, and warm-up sets with roster personalization.</p>
+            <a href="/products/team-club" class="industry-card__link">Explore &rarr;</a>
+          </div>
+          <div class="industry-card">
+            <span class="industry-card__icon"><i class="bi bi-compass"></i></span>
+            <h3 class="industry-card__title">Outdoor &amp; Running</h3>
+            <p class="industry-card__desc">DWR-coated shells, reflective tights, and technical singlets.</p>
+            <a href="/products/outdoor-running" class="industry-card__link">Explore &rarr;</a>
+          </div>
+          <div class="industry-card">
+            <span class="industry-card__icon"><i class="bi bi-bag"></i></span>
+            <h3 class="industry-card__title">Athleisure &amp; Lifestyle</h3>
+            <p class="industry-card__desc">French terry hoodies, joggers, and oversized tees for off-gym wear.</p>
+            <a href="/products/athleisure" class="industry-card__link">Explore &rarr;</a>
+          </div>
+          <div class="industry-card">
+            <span class="industry-card__icon"><i class="bi bi-building"></i></span>
+            <h3 class="industry-card__title">Corporate &amp; Events</h3>
+            <p class="industry-card__desc">Branded team gear, event merchandise, and company uniforms.</p>
+            <a href="/contact" class="industry-card__link">Explore &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== S12 — Certifications ============== -->
+    <section class="section-corp section-corp--white section-corp--compact" style="padding:clamp(64px,8vh,100px) 0;" aria-labelledby="s12-h2">
       <div class="container-bra" style="width:100%;">
         <div class="section-head">
           <span class="section-rail">Compliance</span>
-          <h2 class="section-h2" id="s9-h2">Certifications &amp; Compliance</h2>
+          <h2 class="section-h2" id="s12-h2">Certifications &amp; Compliance</h2>
           <p class="section-sub">Sourcing for US retailers, EU marketplaces, or Amazon brand-registry compliance? These are the five audit-checked annually.</p>
         </div>
 
@@ -1775,12 +2235,12 @@
       </div>
     </section>
 
-    <!-- ============== S10 — Client Voice ============== -->
-    <section class="section-corp section-corp--tint section-corp--compact" style="padding:clamp(64px,8vh,100px) 0;" aria-labelledby="s10-h2">
+    <!-- ============== S13 — Client Voice ============== -->
+    <section class="section-corp section-corp--tint section-corp--compact" style="padding:clamp(64px,8vh,100px) 0;" aria-labelledby="s13-h2">
       <div class="container-bra" style="width:100%;">
         <div class="section-head">
           <span class="section-rail">Client Voice</span>
-          <h2 class="section-h2" id="s10-h2">Client Testimonials</h2>
+          <h2 class="section-h2" id="s13-h2">Client Testimonials</h2>
         </div>
 
         <div class="testimonial-grid">
@@ -1805,12 +2265,12 @@
       </div>
     </section>
 
-    <!-- ============== S11 — Markets & Clients (dark) ============== -->
-    <section class="section-corp section-corp--ink" aria-labelledby="s11-h2">
+    <!-- ============== S14 — Markets & Clients (dark) ============== -->
+    <section class="section-corp section-corp--ink" aria-labelledby="s14-h2">
       <div class="container-bra" style="width:100%;">
         <div class="section-head">
           <span class="section-rail" style="color:var(--color-accent);">Markets &amp; Clients</span>
-          <h2 class="section-h2" id="s11-h2" style="color:#FFFFFF;">Markets Served &amp; Client Profile</h2>
+          <h2 class="section-h2" id="s14-h2" style="color:#FFFFFF;">Markets Served &amp; Client Profile</h2>
           <p class="section-sub" style="color:rgba(250,247,242,0.72);">Where the goods land and who's behind the POs. Twelve client brands listed below &mdash; full reference list available after intro call.</p>
         </div>
 
@@ -1882,10 +2342,87 @@
       </div>
     </section>
 
-    <!-- ============== S12 — Final CTA ============== -->
-    <section class="final-cta" id="inquiry" aria-labelledby="s12-h2">
+    <!-- ============== S15 — FAQ ============== -->
+    <section class="section-corp section-corp--tint" aria-labelledby="s15-h2">
+      <div class="container-bra" style="width:100%;">
+        <div class="section-head">
+          <span class="section-rail">Common Questions</span>
+          <h2 class="section-h2" id="s15-h2">Frequently Asked Questions</h2>
+        </div>
+
+        <div class="accordion faq-accordion" id="faqAccordion">
+          <div class="accordion-item">
+            <h3 class="accordion-header" id="faq-head-1">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-body-1" aria-expanded="false" aria-controls="faq-body-1">What is your minimum order quantity?</button>
+            </h3>
+            <div id="faq-body-1" class="accordion-collapse collapse" aria-labelledby="faq-head-1" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">MOQ is 300 pieces per SKU for OEM cut-and-sew, split across your size curve from XS to XXL. Team orders start at 50 pieces. Sampling starts at 1 piece.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-header" id="faq-head-2">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-body-2" aria-expanded="false" aria-controls="faq-body-2">Can you produce small-batch samples?</button>
+            </h3>
+            <div id="faq-body-2" class="accordion-collapse collapse" aria-labelledby="faq-head-2" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">Yes. One piece per sample, USD 45 fee, 5 working days for fabric-on-stock styles. Sample fee is waived on your first production order.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-header" id="faq-head-3">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-body-3" aria-expanded="false" aria-controls="faq-body-3">What certifications do you hold?</button>
+            </h3>
+            <div id="faq-body-3" class="accordion-collapse collapse" aria-labelledby="faq-head-3" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">OEKO-TEX Standard 100, BSCI, WRAP Gold, GRS, and Higg FEM (score 82/100). Certificate numbers and PDFs available on request.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-header" id="faq-head-4">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-body-4" aria-expanded="false" aria-controls="faq-body-4">What is your production lead time?</button>
+            </h3>
+            <div id="faq-body-4" class="accordion-collapse collapse" aria-labelledby="faq-head-4" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">35&ndash;42 days for OEM with fabric on stock. 48&ndash;58 days when fabric is made to order. Team orders: 18&ndash;25 days.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-header" id="faq-head-5">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-body-5" aria-expanded="false" aria-controls="faq-body-5">Can I visit the factory?</button>
+            </h3>
+            <div id="faq-body-5" class="accordion-collapse collapse" aria-labelledby="faq-head-5" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">Virtual factory tours are available by appointment. In-person visits can be arranged with 5 business days&rsquo; notice.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-header" id="faq-head-6">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-body-6" aria-expanded="false" aria-controls="faq-body-6">What fabrics do you work with?</button>
+            </h3>
+            <div id="faq-body-6" class="accordion-collapse collapse" aria-labelledby="faq-head-6" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">Nylon/spandex, polyester, cotton/poly blends, French terry, fleece, ripstop nylon, recycled polyester (GRS certified). Custom fabric sourcing available.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-header" id="faq-head-7">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-body-7" aria-expanded="false" aria-controls="faq-body-7">What printing and decoration methods do you offer?</button>
+            </h3>
+            <div id="faq-body-7" class="accordion-collapse collapse" aria-labelledby="faq-head-7" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">Sublimation, DTG, screen print, silicone, 3D embossed, flat embroidery, and heat transfer &mdash; all in-house.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-header" id="faq-head-8">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-body-8" aria-expanded="false" aria-controls="faq-body-8">What packaging options are available?</button>
+            </h3>
+            <div id="faq-body-8" class="accordion-collapse collapse" aria-labelledby="faq-head-8" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">Individual poly-bag, hangtag, care label, size label, master carton with your branding. Full private label kit included at no extra MOQ.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== S16 — Final CTA ============== -->
+    <section class="final-cta" id="inquiry" aria-labelledby="s16-h2">
       <div class="container-bra">
-        <h2 class="final-cta__h2" id="s12-h2">Get Started</h2>
+        <h2 class="final-cta__h2" id="s16-h2">Get Started</h2>
         <p class="final-cta__sub">Send your tech-pack and we'll come back within one business day with a per-size MOQ split, sampling timeline, and an FOB quote. Or book a 30-min sourcing call with our engineering lead first.</p>
         <div class="final-cta__btns">
           <a href="mailto:sales@berunactivewear.com" class="btn-corp btn-corp--primary btn-corp--accent">Book a 30-min sourcing call</a>
