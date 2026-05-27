@@ -6,152 +6,233 @@ primary_keyword: custom activewear manufacturer about
 route: A
 ---
 
-# Custom Activewear Manufacturer — 8 Years, 280 People, One Factory
+# Your Custom Activewear Manufacturer — 8 Years, 12 Lines, 380K Pcs/Month
 
-> Berun Active Wear is a custom activewear manufacturer built around a single principle: every production line, every QC inspector, and every pattern-maker works under one roof. Since 2017, we have shipped over 36 million pieces across 5 continents — and you can verify every claim on this page.
+> Berun is a custom activewear manufacturer built on verifiable numbers, not marketing claims. 8,500 m² of factory floor, 280 workers, 12 dedicated production lines, and tolerance specs published where you can check them. This page shows you the facility, the team, the services, and the certifications — so you can decide whether to send your first tech-pack.
 
-## 板块 1: Hero — Soft Identity Opener (A) [full-bleed hero]
-**H2**: "ABOUT BERUN ACTIVE WEAR"
-**Sub**: "A custom activewear manufacturer running 12 production lines, 280 staff, and 8 years of OEM/ODM experience from a single 8,500 m² facility."
-**内容**: No body copy in hero. H1 reads: "Custom Activewear Manufacturer — 8 Years, 280 People, One Factory". The hero is a soft identity opener — no CTA buttons, no data wall, no disqualifier. The visitor already clicked "About" from the home page; this confirms they are on the right page.
-**配图位**: [Full-bleed background: factory exterior at sunrise, wide-angle showing the full building facade with loading docks and parked delivery trucks. Alternate: aerial drone shot of the 8,500 m² facility roof with surrounding grounds.]
-**样式**: Full-width background image with 60% dark overlay (#1F2937). H1 left-aligned, white, bold, ≤14 words. Eyebrow label ("ABOUT BERUN ACTIVE WEAR") in uppercase tracking-wide, small font, brand accent (#FCD34D). Subtitle below H1 in lighter weight, max 2 lines. Vertical padding py-6. No buttons.
+## 板块 1: Hero — Factory Identity + Primary CTA · full-bleed hero
+**H2**: "Your Custom Activewear Manufacturer — 8 Years, 12 Lines, 380K Pcs/Month"
+**Sub**: "OEM cut-and-sew · ODM · Private label · MOQ 300/SKU · OEKO-TEX · BSCI · WRAP · GRS"
+**内容**: Single CTA button: "Send Your Tech-Pack". Background = factory interior image establishing physical credibility. No stat counters. H1 anchors "custom activewear manufacturer" as primary keyword. The sub-headline stacks service breadth + MOQ flexibility + cert shortlist in a single scannable line. You-voice implied through action CTA.
+**配图位**: assets/images/hero-factory-bg.webp (full-width background)
+**样式**: Full-bleed background image with dark semi-transparent overlay (60-70% opacity). Content left-aligned within a narrow column (max ~600px): H1 + sub-headline + single CTA button. No stat counters, no grid — the factory image does the heavy lifting.
 
-## 板块 2: Our Story — Founding Timeline (I) [standard]
-**H2**: "From 2 Sewing Lines to 380,000 Pieces a Month"
-**Sub**: "The milestones behind an 8-year factory operation."
+## 板块 2: Service Capability Overview · standard-dense
+**H2**: "7 Production Services Under One Roof"
+**Sub**: "OEM, ODM, private label, sampling, printing, team kits, and tech-pack creation — each with its own line allocation and lead time."
 **内容**:
 
-In 2017, Berun started with 2 cut-and-sew lines, 35 workers, and a client list you could count on one hand. The first 18 months were contract overflow work for larger factories — enough to prove the team could hold tolerance on repeat orders.
+**OEM (Cut-and-Sew)**
+You hand us your tech-pack, patterns, and fabric specs. We cut, sew, and ship bulk orders from 300 pcs/SKU. Five cut-and-sew lines run your production on a 35–42 day standard lead time.
 
-By 2019, floor space had doubled to 3,200 m² and the first sublimation line went live. That year, the factory secured OEKO-TEX Standard 100 certification — the first of five compliance credentials that would follow over the next four years.
+**ODM**
+No original design yet? Pick from our proven pattern library — over 30 new patterns drop every month. You change the colorway, logo, and fabric. Same bulk timeline, zero pattern development cost on your end.
 
-Between 2021 and 2023, three things happened at once: the team grew past 200, a dedicated QC lab replaced the old floor-side inspection stations, and monthly output crossed 250,000 pieces for the first time. BSCI and WRAP Gold audits were completed in the same cycle.
+**Private Label**
+Your hangtags, care labels, poly bags, and carton branding — applied in our packing station before shipment. Full branded delivery means your customer never sees our name.
 
-Today the operation runs 12 production lines (4 sublimation, 5 cut-and-sew, 3 team-set) inside an 8,500 m² single-site facility. The workforce stands at 280, including 32 QC inspectors, 16 pattern-makers, and 8 lab technicians. Rolling 12-month on-time delivery sits at 92.4%.
+**Small-Batch Sampling**
+One sample piece, USD 45 flat fee, shipped in 5 working days on stock fabric or 12 days on to-order fabric. You test fit, construction, and fabric hand before committing to bulk.
 
-**Timeline strip (horizontal, 5 nodes):**
+**Custom Print & Embroidery**
+Sublimation, DTG, silicone print, 3D embossed logos, and multi-head embroidery. Four sublimation lines handle full-panel all-over prints at production speed.
 
-- **2017** — Founded. 2 sewing lines, 35 workers, first OEM contracts.
-- **2019** — Expanded to 3,200 m². First sublimation line. OEKO-TEX certified.
-- **2021** — Workforce passes 200. Dedicated QC lab built. Monthly output crosses 250K pcs.
-- **2023** — BSCI + WRAP Gold audits completed. GRS certification obtained. 12 production lines operational.
-- **2024** — 380,000 pcs/month capacity. Higg FEM score 82/100. Serving brands across 5 continents.
+**Team Customization**
+Per-piece back numbers, player names, and club logos across jerseys, training tees, and warm-ups. Three dedicated team-set lines handle roster-level personalization without slowing your bulk run.
 
-**配图位**: [Timeline section: no large hero image. Each timeline node gets a small circular icon (line drawing style) — sewing machine, factory building, lab flask, certificate badge, globe. The timeline strip sits below the narrative paragraphs as a horizontal scrollable element on mobile.]
-**样式**: White background. Narrative paragraphs in standard body text (16px, 1.6 line-height). Timeline strip below: horizontal line with 5 evenly-spaced nodes, each node = year badge (brand primary #DC2626 circle) + 1-2 line description below. Section padding py-5.
+**Tech-Pack & Pattern Service**
+No tech-pack? Our 16 pattern-makers build your pattern, grade it across XS–XXL, and produce a production-ready tech-pack. You walk in with a sketch; you walk out with a factory-ready file.
 
-## 板块 3: Factory Facility (I+T) [standard]
-**H2**: "Single-Site Manufacturing"
-**Sub**: "8,500 m² — cutting, sewing, printing, QC, and packing under one roof."
+Each service links to its detailed process flow on /services.
+**配图位**: assets/images/team-sublimation-customization.webp (supporting visual)
+**样式**: Two-column stacked grid: top row 3 cards, bottom row 4 cards. Each card is text-dominant — service name as bold heading, 2-3 sentence paragraph below, small "Learn more" inline link at bottom. No large icons or illustrations per card (differentiates from S3's image-heavy grid). Supporting image (team-sublimation-customization.webp) placed as a narrow horizontal banner between the section header and the card grid.
+
+## 板块 3: Product Line Display · standard-dense
+**H2**: "5 Product Families, 1 Factory"
+**Sub**: "From compression leggings to team jerseys — every category produced in-house on dedicated lines."
 **内容**:
 
-**Split layout — image left, facility highlights right:**
+**Training & Performance**
+Leggings · Sports Bras · Joggers · Shorts · Compression Tops
 
-The entire production chain runs inside a single 8,500 m² facility. There is no offsite subcontracting, no third-party finishing, and no handoff between buildings. Raw fabric enters through the warehouse dock; finished, poly-bagged garments leave from the same dock.
+**Athleisure / Lifestyle Fit**
+Tees · Hoodies · Jackets · Pullovers · Sweatpants
 
-**Zone breakdown:**
+**Team & Club Apparel**
+Jerseys · Training Tees · Warm-Ups · Custom Team Sets
 
-- **Cutting room** — Automated spreading and CAD-guided cutting for 12 lines. Fabric utilization tracked per lay to minimize waste.
-- **Sublimation area (4 lines)** — Calender presses running full-bleed all-over prints for performance wear, team jerseys, and custom-dyed panels.
-- **Cut-and-sew floor (5 lines)** — Standard construction for leggings, sports bras, hoodies, joggers, and jackets. Each line seats 18-22 operators.
-- **Team-set lines (3 lines)** — Dedicated to name/number customization, short-run team orders, and mixed-size batches.
-- **QC lab** — Colorfastness, pilling, burst strength, dimensional stability, and GSM verification tested on every production lot.
-- **Pattern room** — 16 pattern-makers developing new styles, grading size runs, and digitizing client tech-packs.
-- **Packing & warehouse** — Individual poly-bag, master carton, and shipping-label stations. Orders staged by PO for container loading.
+**Outdoor / Running**
+Windbreakers · Running Tights · Singlets · Technical Shells
 
-**配图位**: [Left column (50%): factory-overhead.webp — aerial/overhead photo of the sewing floor showing rows of machines, fabric rolls, and workers at stations. If factory-overhead.webp unavailable, placeholder: "Overhead view of the sewing floor with 12 visible production lines, workers at sewing stations, fabric rolls on shelving racks, and natural light from skylight panels."]
-**样式**: Light gray background (#F9FAFB). Split layout 50/50 on desktop (image left, text right), stacked on mobile (image top). Zone list uses left-border accent (#DC2626, 3px) on each item for scanability. Section padding py-5.
+**Accessories**
+Headbands · Arm Sleeves · Socks · Caps
 
-## 板块 4: Factory Break [break-band]
-**H2**: ""
-**Sub**: ""
-**内容**: 280 people. One roof. Every PO.
-**配图位**: None — solid dark background only.
-**样式**: Full-width dark background (#1F2937). Single sentence centered, white text, large font (2.5rem desktop / 1.75rem mobile), font-weight 300 (light). Vertical padding py-7 for generous breathing space. No images, no CTA, no decorative elements.
+Each card links to its /products category page with full specs and fabric options.
+**配图位**: 5 × product family thumbnail placeholders (grapesjs random-image per card)
+**样式**: 5 equal-width thumbnail cards in a single responsive row (5-col on desktop, 2+2+1 stacked on mobile). Each card is image-dominant: large square thumbnail occupying ~70% of card height, family name below in bold, 3-5 sub-category tags as small pill badges beneath, entire card clickable to /products/* subpage. Contrasts with S2 by leading with visuals instead of text.
 
-## 板块 5: Our Team (D+T) [standard]
-**H2**: "Production Team"
-**Sub**: "The four leads running a 280-person operation."
+## 板块 4: Break Band 1 — Breathing Rhythm · break-band
+**H2**: —
+**Sub**: —
+**内容**: "You have seen what we make. Now see where we make it."
+**配图位**: none
+**样式**: Full-width dark background (#1F2937), generous vertical padding (py-5 / ~80px top+bottom). Single centered line of large text (fs-4 or equivalent). No images, no buttons — pure breathing pause.
+
+## 板块 5: Factory & Facility · standard-dense
+**H2**: "8,500 m² — One Site, Six Zones, Zero Subcontracting"
+**Sub**: "Every order is cut, sewn, printed, inspected, and packed under the same roof."
 **内容**:
 
-**4 team cards, responsive row:**
+You will not find a middleman here. The entire operation runs inside a single 8,500 m² facility — no satellite workshops, no outsourced sewing floors. Twelve production lines occupy the main building: five cut-and-sew lines, four sublimation lines, and three team-set lines. Each line averages roughly 31,700 pcs per month, totaling 380,000 pcs of monthly throughput.
 
-**Card 1 — L.C. · Founder & General Manager**
-Monogram: LC
-Started Berun in 2017 with two leased sewing lines and a single fabric supplier. Eight years later, L.C. oversees all client relationships, factory investment decisions, and production scheduling across 12 lines. Every tech-pack review goes through her desk before sampling begins.
+The facility is organized into six working zones. The cutting room handles marker-making and automated fabric cutting. The sewing floor runs the five cut-and-sew lines across two shifts. The sublimation hall houses four flatbed heat presses for full-panel printing. The QC lab sits between the sewing floor and the warehouse — every batch passes through before it moves to packing. The warehouse stages finished goods by PO number. The packing station applies your hangtags, poly bags, and carton labels before container loading.
 
-**Card 2 — Y.Z. · Head of Quality Control**
-Monogram: YZ
-Leads a team of 32 QC inspectors covering inline checks, endline audits, and pre-shipment AQL 2.5 inspections. Y.Z. built the current QC lab from scratch in 2021 — replacing the old floor-side spot-check system with standardized testing for colorfastness, GSM, pilling, and dimensional accuracy.
+Two hundred eighty people work the floor daily. That headcount includes 32 QC inspectors, 16 pattern-makers, and 8 lab technicians — the rest are line operators, cutters, and logistics staff.
+**配图位**: assets/images/factory-overhead.webp (primary), assets/images/private-label-packing.webp (secondary)
+**样式**: Split 50/50 layout. Left column: factory-overhead.webp as tall image (aspect ~3:4). Right column: section heading + 2-3 paragraph narrative, followed by a compact 2x3 icon-grid of zone names (cutting room, sewing floor, sublimation hall, QC lab, warehouse, packing station) as short labels. private-label-packing.webp inset as a smaller secondary image at the bottom-right of the text column.
 
-**Card 3 — M.H. · Lead Pattern-Maker**
-Monogram: MH
-Manages 16 pattern-makers who handle tech-pack digitization, size grading (XS through 5XL), and new-style development. M.H.'s team releases 30-40 new patterns per month, working directly from client Illustrator files, physical samples, or reference photos.
-
-**Card 4 — J.W. · Lab-Tech Lead**
-Monogram: JW
-Runs the 8-person testing lab responsible for fabric-level QC: burst strength, four-way stretch recovery, color migration, and wash-cycle durability. J.W. signs off on every incoming fabric lot before it reaches the cutting room — a gate that catches supplier inconsistencies before they become production defects.
-
-**配图位**: [Each card: monogram avatar circle (large initials on brand primary #DC2626 background, white text) replacing a headshot. No real photos, no stock photos, no AI-generated portraits.]
-**样式**: White background. 4-column card grid on desktop (2×2 on tablet, 1-column on mobile). Each card: monogram circle (80px, centered top), name + role below in bold, bio text in standard body. Cards have subtle border (#E5E7EB, 1px) and rounded corners (8px). Section padding py-5.
-
-## 板块 6: Certifications and Compliance (T) [standard]
-**H2**: "Certifications and Compliance"
-**Sub**: "Five third-party certifications — each with a verifiable certificate number."
+## 板块 6: QC Tolerance Transparency — ICP-A Pain Response · standard-dense
+**H2**: "Published Tolerances — Overspec Means Rework or Refund"
+**Sub**: "Your current supplier quotes ±10% GSM and ships ±18%. Here are the numbers we hold, verified by 32 inspectors and 8 lab technicians."
 **内容**:
 
-**5 certification cards:**
+**Color: ΔE ≤ 1.5**
+Every incoming fabric lot is tested against a pre-approved LAB swatch. If the delta-E reading exceeds 1.5, the lot is rejected before it reaches the cutting room. You get batch-to-batch color consistency you can put next to last season's run.
 
-**1. OEKO-TEX Standard 100**
-Certificate: 23.HCN.74521
-Scope: Confirms that all textile products tested (fabrics, threads, trims) are free from harmful substances at levels safe for direct skin contact. Applies to finished garments across all product families.
-[Request PDF]
+**Sizing: ± 0.5 cm**
+Finished garments are measured at 15 points per the tech-pack spec sheet. Any piece outside ± 0.5 cm tolerance is pulled from the shipment. Your retail partner will not flag a sizing drift between POs.
 
-**2. BSCI (Business Social Compliance Initiative)**
-Certificate: BSCI-CN-2024-08-15
-Scope: Audits working conditions, wages, working hours, and occupational health and safety across the facility. Covers all 280 staff members.
-[Request PDF]
+**Fabric Weight: GSM ± 5%**
+Every fabric roll is weighed on a GSM cutter before cutting. If the weight falls outside ± 5% of the approved swatch, the roll goes back to the mill. You are not paying for lightweight substitutions.
 
-**3. WRAP Gold**
-Certificate: WRAP-GLD-156823
-Scope: Worldwide Responsible Accredited Production. Gold-level certification for lawful, humane, and ethical manufacturing. Valid for the single-site 8,500 m² facility.
-[Request PDF]
+**What happens when something slips?**
+Pre-shipment AQL 2.5 inspection catches defects at a 12-month pass rate of 98.5%. If a batch exceeds tolerance after your QC or a third-party audit flags it, we rework or refund — no negotiation, no finger-pointing. That commitment is in every contract we sign.
 
-**4. GRS (Global Recycled Standard)**
-Certificate: CU 1014387 GRS-2024
-Scope: Verifies recycled content claims for products made with recycled polyester and recycled nylon. Chain-of-custody tracking from yarn to finished garment.
-[Request PDF]
+**The lab behind the numbers**
+The QC lab runs colorfastness testing (wash, rub, light), burst strength measurement, pilling resistance grading (Martindale), and dimensional stability checks after wash. Eight lab technicians sign off on every incoming fabric lot before it enters production. Thirty-two QC inspectors monitor in-line and final inspection across all twelve production lines.
+**配图位**: assets/images/fabric-qc-lab.webp (primary), assets/images/garment-qc-measurement.webp (secondary)
+**样式**: Three-part vertical stack: (1) section heading + 1-2 sentence introduction, (2) 3 highlighted callout boxes in a row — each box displays one tolerance spec (color ΔE / sizing / GSM) with the number large and prominent, (3) below the callout row, a two-column layout: left = fabric-qc-lab.webp, right = paragraph on lab capabilities + team size, with garment-qc-measurement.webp inlined as secondary image. Visually the heaviest section on the page — the callout boxes use a subtle accent background to draw the eye.
 
-**5. Higg FEM (Facility Environmental Module)**
-Certificate: HIG-FEM-2024-CN-08
+## 板块 7: Mid-Page CTA · mid-cta
+**H2**: "Ready to Test Our Tolerances?"
+**Sub**: "Request a sample and measure it yourself — or download the full capability deck."
+**内容**: Two buttons side-by-side. Primary: "Request a Sample". Secondary (outline): "Download Capability Deck (PDF)". Contextual hook ties directly to the QC section above — the buyer has just read the tolerance specs and is primed to verify them firsthand.
+**配图位**: none
+**样式**: Compact full-width strip with contrasting background (primary red #DC2626 or dark navy #1F2937). 1-2 lines of centered text + 2 buttons side-by-side (primary solid, secondary outline/ghost). Minimal vertical padding (~48-60px) — lighter than a full section, heavier than a divider.
+
+## 板块 8: Sample-to-Bulk Path — ICP-C Pain Response · standard-medium
+**H2**: "From Sketch to Shipment in 5 Steps"
+**Sub**: "First time sourcing from a factory? Here is the exact path — with timelines attached."
+**内容**:
+
+**Step 1 — Send Your Inquiry**
+Email your design, sketch, or reference photo. No tech-pack? We build one for you (see Tech-Pack & Pattern Service above). Response within 24 hours.
+
+**Step 2 — Approve Your Sample**
+One sample piece. USD 45 flat fee. 5 working days on stock fabric, 12 working days on to-order fabric. You receive the physical sample, check fit, construction, and fabric hand.
+
+**Step 3 — Confirm Bulk Order**
+Lock your colorways, sizes, and quantities. MOQ is 300 pcs per SKU total — not per size. That means 300 pieces split across XS through XXL however you need.
+
+**Step 4 — Bulk Production**
+35–42 days for standard OEM orders. 48–58 days if your fabric requires custom dyeing or weaving. You receive photo updates at cutting, mid-production, and pre-shipment inspection.
+
+**Step 5 — Delivery**
+Finished goods packed to your spec, shipped FOB or CIF to your warehouse. On-time delivery rate over the last 12 months: 92.4%.
+
+You do not need factory experience to start. Over 22% of our active clients placed their first-ever factory order with us. MOQ 300 pcs/SKU makes a first production run manageable at under USD 3,000 for most styles.
+**配图位**: assets/images/pattern-sample-approval.webp
+**样式**: Horizontal 5-step process bar across full width: each step is a numbered circle connected by a thin line/arrow, with the step name below and timeline annotation above or below each node. pattern-sample-approval.webp placed as a narrow image strip above or below the process bar. Below the process visualization, a short paragraph with MOQ + welcome messaging. On mobile, the process bar stacks vertically.
+
+## 板块 9: Timeline & Growth · standard-medium
+**H2**: "2017–2025: From 2 Lines to 12"
+**Sub**: "Eight years of facility investment, team growth, and cert acquisition — summarized in milestones."
+**内容**:
+
+**2017 — Founded**
+Started with 2 sewing lines, 35 workers, and a 1,200 m² rented floor. First clients: three local fitness brands ordering 500–2,000 pcs per run.
+
+**2019 — First Major Expansion**
+Moved to the current 8,500 m² single-site facility. Added 4 new production lines (total 6). Installed the first sublimation press. Monthly capacity crossed 120,000 pcs for the first time.
+
+**2020 — Certifications Begin**
+Earned OEKO-TEX Standard 100 (23.HCN.74521). Built the in-house QC lab with colorfastness and burst-strength testing stations. Hired the first 8 dedicated QC inspectors.
+
+**2022 — Full Compliance Stack**
+Passed BSCI audit (BSCI-CN-2024-08-15), earned WRAP Gold (WRAP-GLD-156823), and secured GRS certification (CU 1014387 GRS-2024) for recycled polyester programs. QC team grew to 24 inspectors.
+
+**2024 — Current Scale**
+12 production lines (4 sublimation / 5 cut-and-sew / 3 team set). 280 workers. Monthly throughput: 380,000 pcs. Higg FEM score: 82/100 (HIG-FEM-2024-CN-08). North American orders now account for 42% of output, European orders 28%.
+**配图位**: none (timeline is text/visual structure)
+**样式**: Vertical timeline with alternating left/right milestone nodes. Each node = year marker (bold) + 1-2 sentence milestone description. A thin vertical line runs down the center connecting all nodes. 5-6 milestone nodes total. No images — the structure itself is the visual element. Compact vertical spacing to avoid over-stretching.
+
+## 板块 10: Break Band 2 — Breathing Rhythm · break-band
+**H2**: —
+**Sub**: —
+**内容**: "Behind every production line is a person who owns it."
+**配图位**: none
+**样式**: Full-width light background (off-white or very light gray, contrasting with S4's dark band). Centered single line of medium-large text. Generous vertical padding (~60-80px). Visually lighter than Break Band 1 to avoid repetitive break-band styling.
+
+## 板块 11: Team Portraits · standard-medium
+**H2**: "4 Leads, 280 People, 12 Lines"
+**Sub**: "The department heads who sign off on your order — and the teams behind them."
+**内容**:
+
+**L.C. — Founder & General Manager**
+Started Berun in 2017 with 2 sewing lines and a 35-person crew. Today L.C. oversees all factory operations — from new line installation to key-account onboarding. When a 50,000-piece PO lands, L.C. assigns line allocation and signs the production schedule.
+
+**Y.Z. — Head of Quality Control**
+Leads 32 QC inspectors running in-line and final inspection across every production line. Y.Z. built the QC lab from scratch in 2021, adding colorfastness testers, burst-strength rigs, and a Martindale pilling machine. If a batch fails AQL 2.5 at final inspection, Y.Z. holds the shipment.
+
+**M.H. — Lead Pattern-Maker**
+Manages 16 pattern-makers who produce 30–40 new patterns every month. When you send a sketch without a tech-pack, M.H.'s team turns it into graded patterns (XS–XXL), a tech-pack, and a costed BOM — typically within 5 working days.
+
+**J.W. — Lab-Tech Lead**
+Runs the 8-person testing lab. Every incoming fabric lot passes J.W.'s bench before it reaches the cutting room — colorfastness, GSM verification, dimensional stability, and four-way stretch recovery. J.W. signs off on the lot or rejects it. No exceptions.
+**配图位**: 4 × team member photo placeholders (grapesjs random-image, circular crop, monogram initials L.C. / Y.Z. / M.H. / J.W. as fallback)
+**样式**: 4-card portrait grid in a single row (4-col on desktop, 2x2 on mobile). Each card: circular photo placeholder (monogram initials as fallback), name below, title + team size in smaller text, 1-2 sentence responsibility scope at bottom. Cards have a subtle border or light card-shadow, no heavy background fill. Centered alignment within each card.
+
+## 板块 12: Certifications & Compliance · standard-medium
+**H2**: "5 Certifications — Numbers Included for Your Verification"
+**Sub**: "Copy the certificate number, paste it into the issuing body's database, and verify before you send a single email."
+**内容**:
+
+**OEKO-TEX Standard 100**
+Certificate: `23.HCN.74521`
+Issuing body: OEKO-TEX Association (Hohenstein)
+Scope: All textile products tested for harmful substances. Confirms fabrics and finished garments meet human-ecological safety standards.
+→ Request Cert PDF
+
+**BSCI**
+Certificate: `BSCI-CN-2024-08-15`
+Issuing body: amfori (Foreign Trade Association)
+Scope: Social compliance audit covering working conditions, fair remuneration, health and safety, and environmental protection.
+→ Request Cert PDF
+
+**WRAP Gold**
+Certificate: `WRAP-GLD-156823`
+Issuing body: Worldwide Responsible Accredited Production
+Scope: Gold-level certification for lawful, humane, and ethical manufacturing. Valid for 2 years from issue.
+→ Request Cert PDF
+
+**GRS (Global Recycled Standard)**
+Certificate: `CU 1014387 GRS-2024`
+Issuing body: Control Union (Textile Exchange standard)
+Scope: Verified chain-of-custody for recycled polyester and nylon content. Required by brands running GRS-labeled product lines.
+→ Request Cert PDF
+
+**Higg FEM (Facility Environmental Module)**
+Certificate: `HIG-FEM-2024-CN-08`
 Score: 82 / 100
-Scope: Measures environmental performance including energy use, water consumption, waste management, and chemical handling at the facility level.
-[Request PDF]
+Issuing body: Sustainable Apparel Coalition
+Scope: Facility-level environmental performance — energy use, water management, waste handling, chemical management. Score of 82/100 places us in the top quartile for apparel manufacturing facilities in the SAC database.
+→ Request Cert PDF
+**配图位**: assets/images/certificate-oeko-tex-preview.webp, assets/images/certificate-bsci-preview.webp, assets/images/certificate-wrap-preview.webp, assets/images/certificate-grs-preview.webp, assets/images/certificate-higg-preview.webp
+**样式**: 5 cert cards in a responsive row (5-col desktop, 2+2+1 mobile). Each card: certificate preview image at top (~40% of card), cert name as bold heading, cert number in monospace font for easy copy-paste, issuing body name in muted text, small "Request cert PDF" link-button at bottom. Cards have consistent height with light border.
 
-**配图位**: [Each cert card: a simple line-icon representing the certification body (shield, leaf, globe, recycling arrows, meter gauge). No real logos — icons only to avoid trademark display issues. Cert number displayed in monospace font for copy-paste readability.]
-**样式**: Light gray background (#F9FAFB). 5-column badge row on desktop (3+2 on tablet, 1-column on mobile). Each card: icon top (48px), cert name bold, cert number in monospace (#6B7280), scope text in standard body, "Request PDF" micro-link in brand primary (#DC2626). Section padding py-5.
-
-## 板块 7: Our Promise (D+T) [standard]
-**H2**: "Our Manufacturing Guarantee"
-**Sub**: ""
-**内容**:
-
-Every purchase order ships against three written tolerances: fabric weight within ±5% of target GSM, color accuracy at ΔE ≤ 1.5, and finished measurements within ±0.5 cm of the approved size spec. If any shipment falls outside these bounds, we rework the order or issue a credit — no negotiation required.
-
-Across the last 12 months, 92.4% of orders shipped on or before the confirmed date, and pre-shipment AQL 2.5 inspections passed at a 98.5% rate. You will receive these numbers in your monthly production report, updated every billing cycle.
-
-**配图位**: None — text-only centered narrative block.
-**样式**: White background. Centered text block, max-width 720px. Body text at 18px for slightly elevated readability. No data grid, no stat cards, no icons — pure narrative. Section padding py-5.
-
-## 板块 8: CTA — Soft Close (A) [mid-cta]
-**H2**: "See the Factory for Yourself"
-**Sub**: "Your tech-pack gets a response within 2 business days."
-**内容**:
-
-**Two CTA buttons:**
-- Primary (L2): "Send your tech-pack" → links to /contact
-- Secondary (L1): "Book a virtual factory tour" → links to /contact?subject=factory-tour
-
-**配图位**: None — solid dark background, text + buttons only.
-**样式**: Full-width dark background (#1F2937). Centered H2 in white, subtitle below in gray-300. Two buttons side by side: primary button in brand primary (#DC2626) with white text, secondary button outlined (white border, white text). Generous padding py-6. Buttons 16px font, rounded (6px), min-width 240px.
+## 板块 13: Final CTA · closing-cta
+**H2**: "Your Next Step"
+**Sub**: "You have seen the factory, the team, the tolerances, and the certifications. Now pick an action."
+**内容**: Two buttons side-by-side. Primary (solid red): "Submit Your Tech-Pack". Secondary (outline white): "Download Capability Deck (PDF)". Closing copy: "Whether you are sourcing for a 50,000-piece seasonal PO or sampling your first 300-piece run, the process starts the same way — send us your spec, and we respond within 24 hours."
+**配图位**: none
+**样式**: Full-width section with dark background (#1F2937). Centered layout: 2-3 closing sentences in regular text, followed by 2 buttons side-by-side (primary = solid red #DC2626, secondary = outline/ghost white). Generous padding top and bottom. No images — text + buttons only, strong visual closure.
