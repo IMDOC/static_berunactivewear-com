@@ -181,6 +181,11 @@
     .pn__m{display:grid;grid-template-columns:1fr 1fr;gap:8px}
     .pn__m--3{grid-template-columns:1fr 1fr}.pn__m--3 .pm-b{grid-column:1/-1}
     .pn__m img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:8px}
+    .pn__list{list-style:none;padding:0;margin:14px 0 0;display:flex;flex-direction:column;gap:8px}
+    .pn__list li{font-size:.875rem;line-height:1.5;color:var(--cm);padding-left:0}
+    .pn__list li strong{color:var(--ct);font-weight:600}
+    .pn__tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:16px}
+    .pn__tag{font-size:.75rem;font-weight:600;color:var(--c1);background:rgba(220,38,38,.08);border:1px solid rgba(220,38,38,.15);padding:4px 12px;border-radius:20px;white-space:nowrap}
     @media(max-width:767px){.pb{display:none}.pn{grid-template-columns:1fr}.pn--f .pn__t{order:1}.pn--f .pn__m{order:2}}
 
     /* Timeline */
@@ -353,11 +358,71 @@
         <div class="wb rv"><p>If this is your first time working with a cut-and-sew factory, this section is for you. MOQ is 300 pieces per SKU total &mdash; not per size. A single sample costs USD&nbsp;45. You don&rsquo;t need a tech-pack to start.</p></div>
         <div class="pb rv" aria-hidden="true"><div class="pd"><span>1</span><span class="pd__l">Inquiry</span><span class="pd__t">Day 0</span></div><div class="pd"><span>2</span><span class="pd__l">Sample</span><span class="pd__t">Day 1–12</span></div><div class="pd"><span>3</span><span class="pd__l">Approval</span><span class="pd__t">Day 12–15</span></div><div class="pd"><span>4</span><span class="pd__l">Bulk</span><span class="pd__t">Day 15–57</span></div><div class="pd"><span>5</span><span class="pd__l">Delivery</span><span class="pd__t">Day 57–60</span></div></div>
         <div class="pp">
-          <div class="pn rv"><div class="pn__t"><h3>1. Inquiry <small>&mdash; Day 0</small></h3><p>Send a tech-pack, sketch, or reference garment. We reply within one business day with fabric recommendation, estimated FOB price range, and sample timeline.</p></div><div class="pn__m pn__m--3"><img class="pm-b" src="https://app.grapesjs.com/api/assets/random-image?query=tech-pack-and-reference-garment&w=600&h=450" alt="Tech-pack and reference garment" width="600" height="450" loading="lazy"><img src="https://app.grapesjs.com/api/assets/random-image?query=sales-team-reply&w=300&h=225" alt="Sales team reply" width="300" height="225" loading="lazy"><img src="https://app.grapesjs.com/api/assets/random-image?query=reference-garment&w=300&h=225" alt="Reference garment" width="300" height="225" loading="lazy"></div></div>
-          <div class="pn pn--f rv"><div class="pn__t"><h3>2. Sample <small>&mdash; Day 1&ndash;12</small></h3><p>Pattern team builds from your spec (or from scratch &mdash; fee USD&nbsp;220, credited to first bulk). Single sample sewn. 5 working days on-stock, 12 if fabric sourced.</p></div><div class="pn__m pn__m--3"><img src="https://app.grapesjs.com/api/assets/random-image?query=pattern-maker-drafting&w=300&h=225" alt="Pattern maker drafting" width="300" height="225" loading="lazy"><img src="https://app.grapesjs.com/api/assets/random-image?query=sample-sewing&w=300&h=225" alt="Sample sewing" width="300" height="225" loading="lazy"><img class="pm-b" src="/assets/images/pattern-sample-approval.webp" alt="Completed sample" width="600" height="450" loading="lazy"></div></div>
-          <div class="pn rv"><div class="pn__t"><h3>3. Approval <small>&mdash; Day 12&ndash;15</small></h3><p>Check fit, color, construction. Mark changes on the sample or send notes. Revisions ship within 5 working days. Most orders go to bulk after 1&ndash;2 rounds.</p></div><div class="pn__m"><img src="https://app.grapesjs.com/api/assets/random-image?query=sample-with-tape-and-color-card&w=400&h=300" alt="Sample with tape and color card" width="400" height="300" loading="lazy"><img src="https://app.grapesjs.com/api/assets/random-image?query=client-annotation&w=400&h=300" alt="Client annotation" width="400" height="300" loading="lazy"></div></div>
-          <div class="pn pn--f rv"><div class="pn__t"><h3>4. Bulk Production <small>&mdash; Day 15&ndash;57</small></h3><p>Fabric locked, order on schedule, cutting starts. QC at three inline points. 35&ndash;42 days on-stock, 48&ndash;58 fabric-to-order.</p></div><div class="pn__m pn__m--3"><img class="pm-b" src="https://app.grapesjs.com/api/assets/random-image?query=full-production-line&w=600&h=450" alt="Full production line" width="600" height="450" loading="lazy"><img src="https://app.grapesjs.com/api/assets/random-image?query=inline-qc-check&w=300&h=225" alt="Inline QC check" width="300" height="225" loading="lazy"><img src="https://app.grapesjs.com/api/assets/random-image?query=finished-bulk-stacked&w=300&h=225" alt="Finished bulk stacked" width="300" height="225" loading="lazy"></div></div>
-          <div class="pn rv"><div class="pn__t"><h3>5. Delivery <small>&mdash; Day 57&ndash;60</small></h3><p>Final AQL 2.5. Packing per your instructions. Pre-shipment report with measurements, defect photos, packing records. Container or air &mdash; your choice.</p></div><div class="pn__m pn__m--3"><img class="pm-b" src="https://app.grapesjs.com/api/assets/random-image?query=carton-packing&w=600&h=450" alt="Carton packing" width="600" height="450" loading="lazy"><img src="https://app.grapesjs.com/api/assets/random-image?query=container-loading&w=300&h=225" alt="Container loading" width="300" height="225" loading="lazy"><img src="https://app.grapesjs.com/api/assets/random-image?query=shipping-documents&w=300&h=225" alt="Shipping documents" width="300" height="225" loading="lazy"></div></div>
+          <div class="pn rv">
+            <div class="pn__t">
+              <h3>1. Inquiry <small>&mdash; Day 0</small></h3>
+              <p>Send a tech-pack, a sketch, or a reference garment you want replicated. Anna or a member of the sales team replies within one business day with a preliminary assessment covering fabric recommendation, estimated FOB price range, MOQ split options, and sample timeline.</p>
+              <ul class="pn__list">
+                <li><strong>You send:</strong> Tech-pack, sketch, reference garment, or mood board</li>
+                <li><strong>You get back:</strong> Fabric recommendation, FOB estimate, sample timeline</li>
+                <li><strong>Questions answered:</strong> MOQ splits, size grading, fabric options, print methods</li>
+              </ul>
+              <div class="pn__tags"><span class="pn__tag">Reply within 1 day</span><span class="pn__tag">No tech-pack required</span><span class="pn__tag">Free assessment</span></div>
+            </div>
+            <div class="pn__m pn__m--3"><img class="pm-b" src="https://app.grapesjs.com/api/assets/random-image?query=tech-pack-and-reference-garment&w=600&h=450" alt="Tech-pack and reference garment" width="600" height="450" loading="lazy"><img src="https://app.grapesjs.com/api/assets/random-image?query=sales-team-reply&w=300&h=225" alt="Sales team reply" width="300" height="225" loading="lazy"><img src="https://app.grapesjs.com/api/assets/random-image?query=reference-garment&w=300&h=225" alt="Reference garment" width="300" height="225" loading="lazy"></div>
+          </div>
+          <div class="pn pn--f rv">
+            <div class="pn__t">
+              <h3>2. Sample <small>&mdash; Day 1&ndash;12</small></h3>
+              <p>M.H.&rsquo;s pattern team builds the pattern from your spec. If you don&rsquo;t have a tech-pack, they develop one from your sketch or reference garment &mdash; pattern fee USD&nbsp;220, credited toward your first bulk order. A single sample is sewn in the sample room and shipped with a measurement chart and fabric swatch.</p>
+              <ul class="pn__list">
+                <li><strong>With tech-pack:</strong> Pattern cut directly from your spec, sample sewn to match</li>
+                <li><strong>Without tech-pack:</strong> Pattern developed from reference &mdash; fee credited to first bulk</li>
+                <li><strong>Sample ships with:</strong> Measurement chart, fabric swatch, care label mockup</li>
+              </ul>
+              <div class="pn__tags"><span class="pn__tag">5 days on-stock</span><span class="pn__tag">12 days sourced</span><span class="pn__tag">USD 45 / sample</span><span class="pn__tag">USD 220 pattern fee</span></div>
+            </div>
+            <div class="pn__m pn__m--3"><img src="https://app.grapesjs.com/api/assets/random-image?query=pattern-maker-drafting&w=300&h=225" alt="Pattern maker drafting" width="300" height="225" loading="lazy"><img src="https://app.grapesjs.com/api/assets/random-image?query=sample-sewing&w=300&h=225" alt="Sample sewing" width="300" height="225" loading="lazy"><img class="pm-b" src="/assets/images/pattern-sample-approval.webp" alt="Completed sample" width="600" height="450" loading="lazy"></div>
+          </div>
+          <div class="pn rv">
+            <div class="pn__t">
+              <h3>3. Approval <small>&mdash; Day 12&ndash;15</small></h3>
+              <p>You receive the sample and check fit, color, construction, and hand-feel against your spec. Mark changes directly on the garment or send written notes. Revision samples ship within 5 working days. Most orders move to bulk after 1&ndash;2 sample rounds. You sign off on the final sample before anything hits the production line.</p>
+              <ul class="pn__list">
+                <li><strong>You check:</strong> Fit, color match, construction quality, fabric hand-feel</li>
+                <li><strong>Revision process:</strong> Mark changes on sample or send written notes</li>
+                <li><strong>Sign-off:</strong> Written approval required before bulk production starts</li>
+              </ul>
+              <div class="pn__tags"><span class="pn__tag">5-day revisions</span><span class="pn__tag">1&ndash;2 rounds typical</span><span class="pn__tag">Written sign-off</span></div>
+            </div>
+            <div class="pn__m"><img src="https://app.grapesjs.com/api/assets/random-image?query=sample-with-tape-and-color-card&w=400&h=300" alt="Sample with tape and color card" width="400" height="300" loading="lazy"><img src="https://app.grapesjs.com/api/assets/random-image?query=client-annotation&w=400&h=300" alt="Client annotation" width="400" height="300" loading="lazy"></div>
+          </div>
+          <div class="pn pn--f rv">
+            <div class="pn__t">
+              <h3>4. Bulk Production <small>&mdash; Day 15&ndash;57</small></h3>
+              <p>Fabric is locked and your order enters the production schedule. T.K. assigns it to the appropriate line based on product type. Y.Z.&rsquo;s QC team checks at three inline points &mdash; after cutting (panel count and marker accuracy), after sewing (measurements and construction), and after finishing (appearance, labels, packaging).</p>
+              <ul class="pn__list">
+                <li><strong>QC checkpoint 1:</strong> After cutting &mdash; panel count, marker accuracy</li>
+                <li><strong>QC checkpoint 2:</strong> After sewing &mdash; POM measurements, construction</li>
+                <li><strong>QC checkpoint 3:</strong> After finishing &mdash; appearance, labels, packaging</li>
+              </ul>
+              <div class="pn__tags"><span class="pn__tag">35&ndash;42 days on-stock</span><span class="pn__tag">48&ndash;58 days sourced</span><span class="pn__tag">MOQ 300 / SKU</span><span class="pn__tag">3 inline QC points</span></div>
+            </div>
+            <div class="pn__m pn__m--3"><img class="pm-b" src="https://app.grapesjs.com/api/assets/random-image?query=full-production-line&w=600&h=450" alt="Full production line" width="600" height="450" loading="lazy"><img src="https://app.grapesjs.com/api/assets/random-image?query=inline-qc-check&w=300&h=225" alt="Inline QC check" width="300" height="225" loading="lazy"><img src="https://app.grapesjs.com/api/assets/random-image?query=finished-bulk-stacked&w=300&h=225" alt="Finished bulk stacked" width="300" height="225" loading="lazy"></div>
+          </div>
+          <div class="pn rv">
+            <div class="pn__t">
+              <h3>5. Delivery <small>&mdash; Day 57&ndash;60</small></h3>
+              <p>Final AQL 2.5 inspection runs on the completed batch. Packing follows your instructions &mdash; polybag spec, hangtag insertion, carton markings, pallet configuration. A pre-shipment report is sent before the goods leave the factory. You choose the forwarder or we book on your behalf.</p>
+              <ul class="pn__list">
+                <li><strong>Pre-shipment report includes:</strong> POM measurements, defect log with photos, spectrophotometer &Delta;E readings</li>
+                <li><strong>Packing per your spec:</strong> Polybag, hangtag, carton marks, pallet config</li>
+                <li><strong>Freight options:</strong> Sea freight, air freight, or your nominated forwarder</li>
+              </ul>
+              <div class="pn__tags"><span class="pn__tag">AQL 2.5 report</span><span class="pn__tag">Defect photos included</span><span class="pn__tag">Sea or air freight</span></div>
+            </div>
+            <div class="pn__m pn__m--3"><img class="pm-b" src="https://app.grapesjs.com/api/assets/random-image?query=carton-packing&w=600&h=450" alt="Carton packing" width="600" height="450" loading="lazy"><img src="https://app.grapesjs.com/api/assets/random-image?query=container-loading&w=300&h=225" alt="Container loading" width="300" height="225" loading="lazy"><img src="https://app.grapesjs.com/api/assets/random-image?query=shipping-documents&w=300&h=225" alt="Shipping documents" width="300" height="225" loading="lazy"></div>
+          </div>
         </div>
       </div>
     </section>
