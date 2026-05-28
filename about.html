@@ -134,12 +134,29 @@
     @media(max-width:991px){.tg{grid-template-columns:repeat(2,1fr)}}
     @media(max-width:575px){.tg{grid-template-columns:1fr}}
 
-    /* Editorial */
+    /* Editorial (used in S5 QC story) */
     .ed__p{font-size:1.0625rem;line-height:1.72;color:var(--ct);margin-bottom:0}
     .ed__p a{color:var(--c1);text-decoration:underline}
     .ed__i{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:2rem 0 2.5rem}
     .ed__i img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:8px}
     @media(max-width:575px){.ed__i{grid-template-columns:1fr}}
+
+    /* Ops rows (S3 zigzag text+images) */
+    .ops{display:flex;flex-direction:column;gap:clamp(32px,4vw,56px)}
+    .ops-row{display:grid;grid-template-columns:1fr 1fr;gap:clamp(24px,4vw,48px);align-items:center}
+    .ops-row--flip .ops-row__text{order:2}.ops-row--flip .ops-row__imgs{order:1}
+    .ops-row__text h3{font-size:1.1875rem;font-weight:700;color:var(--ct);margin:0 0 10px;display:flex;align-items:center;gap:8px}
+    .ops-row__text h3 .ops-num{width:28px;height:28px;border-radius:50%;background:var(--c1);color:#fff;font-size:.75rem;font-weight:700;display:inline-flex;align-items:center;justify-content:center;flex-shrink:0}
+    .ops-row__text p{font-size:.9375rem;line-height:1.65;color:var(--cm);margin:0 0 14px}
+    .ops-row__text p a{color:var(--c1);text-decoration:underline}
+    .ops-row__tags{display:flex;flex-wrap:wrap;gap:6px}
+    .ops-tag{font-size:.75rem;font-weight:600;padding:4px 12px;border-radius:20px;white-space:nowrap}
+    .ops-tag--red{color:var(--c1);background:rgba(220,38,38,.08);border:1px solid rgba(220,38,38,.15)}
+    .ops-tag--dark{color:var(--c2);background:rgba(31,41,55,.06);border:1px solid rgba(31,41,55,.12)}
+    .ops-row__imgs{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+    .ops-row__imgs .ops-img-main{grid-column:1/-1}
+    .ops-row__imgs img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:8px}
+    @media(max-width:767px){.ops-row{grid-template-columns:1fr}.ops-row--flip .ops-row__text{order:1}.ops-row--flip .ops-row__imgs{order:2}}
 
     /* Break bands */
     .bk-d{background:var(--c2);text-align:center;padding:clamp(64px,8vh,96px) 0;border-top:1px solid #374151;border-bottom:1px solid #374151}
@@ -306,17 +323,81 @@
 
     <!-- S3: OPERATIONS & CULTURE -->
     <section class="sec sec--t" aria-labelledby="s3-h2">
-      <div class="ctr ctr--n">
+      <div class="ctr">
         <div class="shd rv"><span class="srl">Daily Operations</span><h2 class="sh2" id="s3-h2">How 280 People Run 12 Lines Every Day</h2><p class="ssu">Line allocation, shift scheduling, fabric intake, and QC rotation &mdash; the operating system behind every PO.</p></div>
-        <div>
-          <p class="ed__p rv">Every morning at 7:45, T.K. updates the production whiteboard. Each of the 12 lines has a column: current PO, daily piece target, completion percentage. Orders go by type &mdash; sublimation to lines 1&ndash;4, cut-and-sew to 5&ndash;9, team sets to 10&ndash;12. When two orders compete for the same line, the earlier ship date wins. Across these lines, we run OEM, ODM, and sublimation orders simultaneously &mdash; <a href="/services">see our full service lineup &rarr;</a></p>
-          <div class="ed__i rv"><img src="https://app.grapesjs.com/api/assets/random-image?query=production-schedule-whiteboard&w=600&h=450" alt="Production schedule whiteboard" width="600" height="450" loading="lazy"><img src="https://app.grapesjs.com/api/assets/random-image?query=supervisor-explaining-daily-targets&w=600&h=450" alt="Supervisor explaining daily targets" width="600" height="450" loading="lazy"><img src="/assets/images/factory-overhead.webp" alt="Overhead view of 12 production lines" width="600" height="450" loading="lazy"></div>
-          <p class="ed__p rv">Every fabric roll is inspected within 4 hours of arriving. The receiving team checks width, weight, and color using the same spectrophotometer the QC lab uses for finished goods. Rolls that drift beyond &Delta;E 1.0 from the approved lab dip are rejected before they reach cutting. Accepted rolls get a lot number that follows the fabric through cutting, sewing, and final inspection.</p>
-          <div class="ed__i rv"><img src="https://app.grapesjs.com/api/assets/random-image?query=fabric-receiving-inspection&w=600&h=450" alt="Fabric receiving inspection" width="600" height="450" loading="lazy"><img src="https://app.grapesjs.com/api/assets/random-image?query=labeled-fabric-rolls-on-rack&w=600&h=450" alt="Labeled fabric rolls on rack" width="600" height="450" loading="lazy"><img src="https://app.grapesjs.com/api/assets/random-image?query=pre-cut-fabric-preparation&w=600&h=450" alt="Pre-cut fabric preparation" width="600" height="450" loading="lazy"></div>
-          <p class="ed__p rv">Single-shift system: 8 hours, 6 days a week. New hires spend 3 weeks on a buddy system &mdash; paired with a senior operator, same line, same machine type. QC inspectors rotate lines every Monday. The rotation prevents blind spots &mdash; fresh eyes catch what familiar eyes normalize.</p>
-          <div class="ed__i rv"><img src="https://app.grapesjs.com/api/assets/random-image?query=senior-operator-training-new-hire&w=600&h=450" alt="Senior operator training new hire" width="600" height="450" loading="lazy"><img src="https://app.grapesjs.com/api/assets/random-image?query=qc-inspector-walking-line-with-checklist&w=600&h=450" alt="QC inspector walking line with checklist" width="600" height="450" loading="lazy"><img src="https://app.grapesjs.com/api/assets/random-image?query=shift-handover-between-teams&w=600&h=450" alt="Shift handover between teams" width="600" height="450" loading="lazy"></div>
-          <p class="ed__p rv">Every shift starts with a 5-minute standup. Supervisors call out targets, flag material issues from the previous shift, acknowledge output milestones. A monthly quality star board tracks defect rates by line and operator &mdash; lowest defect rate earns a team bonus. These aren&rsquo;t motivational posters. They&rsquo;re the reason the 12-month pre-shipment pass rate sits at 98.5%.</p>
-          <div class="ed__i rv"><img src="https://app.grapesjs.com/api/assets/random-image?query=morning-standup-meeting&w=600&h=450" alt="Morning standup meeting" width="600" height="450" loading="lazy"><img src="https://app.grapesjs.com/api/assets/random-image?query=monthly-quality-star-board&w=600&h=450" alt="Monthly quality star board" width="600" height="450" loading="lazy"><img src="https://app.grapesjs.com/api/assets/random-image?query=team-celebrating-production-milestone&w=600&h=450" alt="Team celebrating production milestone" width="600" height="450" loading="lazy"></div>
+        <div class="ops">
+          <!-- Row 1: Line Allocation — images left, text right -->
+          <div class="ops-row rv">
+            <div class="ops-row__imgs">
+              <img class="ops-img-main" src="/assets/images/factory-overhead.webp" alt="Overhead view of 12 production lines" width="600" height="450" loading="lazy">
+              <img src="https://app.grapesjs.com/api/assets/random-image?query=production-schedule-whiteboard&w=400&h=300" alt="Production schedule whiteboard" width="400" height="300" loading="lazy">
+              <img src="https://app.grapesjs.com/api/assets/random-image?query=supervisor-explaining-daily-targets&w=400&h=300" alt="Supervisor explaining daily targets" width="400" height="300" loading="lazy">
+            </div>
+            <div class="ops-row__text">
+              <h3><span class="ops-num">1</span> Line Allocation</h3>
+              <p>Every morning at 7:45, T.K. updates the production whiteboard. Each of the 12 lines has a column: current PO, daily piece target, completion percentage. Orders go by type &mdash; sublimation to lines 1&ndash;4, cut-and-sew to 5&ndash;9, team sets to 10&ndash;12. When two orders compete for the same line, the earlier ship date gets priority.</p>
+              <p>Across these lines, we run OEM, ODM, and sublimation orders simultaneously &mdash; <a href="/services">see our full service lineup &rarr;</a></p>
+              <div class="ops-row__tags">
+                <span class="ops-tag ops-tag--red">12 lines &middot; 3 types</span>
+                <span class="ops-tag ops-tag--dark">Ship-date priority</span>
+                <span class="ops-tag ops-tag--dark">Updated daily at 7:45</span>
+              </div>
+            </div>
+          </div>
+          <!-- Row 2: Fabric Control — text left, images right -->
+          <div class="ops-row ops-row--flip rv">
+            <div class="ops-row__imgs">
+              <img class="ops-img-main" src="https://app.grapesjs.com/api/assets/random-image?query=fabric-receiving-inspection&w=600&h=450" alt="Fabric receiving inspection" width="600" height="450" loading="lazy">
+              <img src="https://app.grapesjs.com/api/assets/random-image?query=labeled-fabric-rolls-on-rack&w=400&h=300" alt="Labeled fabric rolls on rack" width="400" height="300" loading="lazy">
+              <img src="https://app.grapesjs.com/api/assets/random-image?query=pre-cut-fabric-preparation&w=400&h=300" alt="Pre-cut fabric preparation" width="400" height="300" loading="lazy">
+            </div>
+            <div class="ops-row__text">
+              <h3><span class="ops-num">2</span> Fabric Control</h3>
+              <p>Every fabric roll is inspected within 4 hours of arriving at the factory. The receiving team checks width, weight, and color using the same spectrophotometer the QC lab uses for finished goods. Rolls that drift beyond &Delta;E 1.0 from the approved lab dip are rejected before they reach cutting.</p>
+              <p>Accepted rolls get a lot number that follows the fabric through cutting, sewing, and final inspection &mdash; if a client asks which roll produced a specific batch, we can trace it.</p>
+              <div class="ops-row__tags">
+                <span class="ops-tag ops-tag--red">&Delta;E 1.0 rejection threshold</span>
+                <span class="ops-tag ops-tag--dark">Inspected within 4 hours</span>
+                <span class="ops-tag ops-tag--dark">Lot-level traceability</span>
+              </div>
+            </div>
+          </div>
+          <!-- Row 3: Shifts & Training — images left, text right -->
+          <div class="ops-row rv">
+            <div class="ops-row__imgs">
+              <img class="ops-img-main" src="https://app.grapesjs.com/api/assets/random-image?query=senior-operator-training-new-hire&w=600&h=450" alt="Senior operator training new hire" width="600" height="450" loading="lazy">
+              <img src="https://app.grapesjs.com/api/assets/random-image?query=qc-inspector-walking-line-with-checklist&w=400&h=300" alt="QC inspector walking line with checklist" width="400" height="300" loading="lazy">
+              <img src="https://app.grapesjs.com/api/assets/random-image?query=shift-handover-between-teams&w=400&h=300" alt="Shift handover between teams" width="400" height="300" loading="lazy">
+            </div>
+            <div class="ops-row__text">
+              <h3><span class="ops-num">3</span> Shifts &amp; Training</h3>
+              <p>Single-shift system: 8 hours, 6 days a week. New hires spend their first 3 weeks on a buddy system &mdash; paired with a senior operator on the same line, same machine type. No one touches a client order unsupervised in their first month.</p>
+              <p>QC inspectors rotate lines every Monday. The rotation prevents inspectors from developing blind spots on a line they&rsquo;ve watched for too long &mdash; fresh eyes catch what familiar eyes normalize.</p>
+              <div class="ops-row__tags">
+                <span class="ops-tag ops-tag--red">3-week buddy system</span>
+                <span class="ops-tag ops-tag--dark">Weekly QC rotation</span>
+                <span class="ops-tag ops-tag--dark">8h &times; 6 days</span>
+              </div>
+            </div>
+          </div>
+          <!-- Row 4: Quality Culture — text left, images right -->
+          <div class="ops-row ops-row--flip rv">
+            <div class="ops-row__imgs">
+              <img class="ops-img-main" src="https://app.grapesjs.com/api/assets/random-image?query=morning-standup-meeting&w=600&h=450" alt="Morning standup meeting" width="600" height="450" loading="lazy">
+              <img src="https://app.grapesjs.com/api/assets/random-image?query=monthly-quality-star-board&w=400&h=300" alt="Monthly quality star board" width="400" height="300" loading="lazy">
+              <img src="https://app.grapesjs.com/api/assets/random-image?query=team-celebrating-production-milestone&w=400&h=300" alt="Team celebrating production milestone" width="400" height="300" loading="lazy">
+            </div>
+            <div class="ops-row__text">
+              <h3><span class="ops-num">4</span> Quality Culture</h3>
+              <p>Every shift starts with a 5-minute standup. Line supervisors call out the day&rsquo;s targets, flag material issues from the previous shift, and acknowledge individual output milestones.</p>
+              <p>A monthly quality star board tracks defect rates by line and by operator &mdash; the line with the lowest defect rate earns a team bonus. These aren&rsquo;t motivational posters. They&rsquo;re the reason the 12-month pre-shipment pass rate sits at 98.5%.</p>
+              <div class="ops-row__tags">
+                <span class="ops-tag ops-tag--red">98.5% pass rate</span>
+                <span class="ops-tag ops-tag--dark">5-min daily standup</span>
+                <span class="ops-tag ops-tag--dark">Monthly quality bonus</span>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
