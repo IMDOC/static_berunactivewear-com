@@ -425,8 +425,8 @@
           <h1 class="hero__h1 ar d2" id="home-h1">Custom Activewear Manufacturer &mdash; OEM, ODM and Private Label</h1>
           <p class="hero__sb ar d3">OEM cut-and-sew, ODM, private label and team-set sublimation &mdash; MOQ 300 total piece count split flexibly across XS-XXL, sampling at USD&nbsp;45 in 5 working days, &Delta;E &le;1.5 batch-to-batch on every PO. <a href="/services">Full service lineup &rarr;</a></p>
           <div class="hero__ct ar d4">
-            <a href="/contact" class="btn btn--p">Send your tech-pack</a>
-            <a href="/services" class="btn btn--g">Request capability deck (PDF) <span aria-hidden="true">&rarr;</span></a>
+            <a href="#inquiry-form" class="btn btn--p">Send your tech-pack</a>
+            <a href="#inquiry-form" class="btn btn--g">Request capability deck (PDF) <span aria-hidden="true">&rarr;</span></a>
           </div>
           <p class="hero__trust ar d4">Replies within 1 business day <span>&middot;</span> NDA on request <span>&middot;</span> Sample fee USD&nbsp;45, 5 working days</p>
           <div class="hero__stats ar d5" role="list" aria-label="Factory key stats">
@@ -724,26 +724,26 @@
         <div class="cl rv">
           <div class="cl__row">
             <div><h3 class="cl__nm">OEKO-TEX Standard 100</h3><p class="cl__de">Fabric tested for harmful substances per Annex 6, covering our knit and woven main fabrics.</p></div>
-            <div class="cl__rt"><span class="cl__id">23.HCN.74521</span><a href="/contact?cert=oeko-tex" class="cl__lk">Request PDF &rarr;</a></div>
+            <div class="cl__rt"><span class="cl__id">23.HCN.74521</span><a href="#inquiry-form" class="cl__lk">Request PDF &rarr;</a></div>
           </div>
           <div class="cl__row">
             <div><h3 class="cl__nm">BSCI</h3><p class="cl__de">Social compliance audit, Class B+ rating in the August 2024 renewal. Covers our main facility and dormitory.</p></div>
-            <div class="cl__rt"><span class="cl__id">BSCI-CN-2024-08-15</span><a href="/contact?cert=bsci" class="cl__lk">Request PDF &rarr;</a></div>
+            <div class="cl__rt"><span class="cl__id">BSCI-CN-2024-08-15</span><a href="#inquiry-form" class="cl__lk">Request PDF &rarr;</a></div>
           </div>
           <div class="cl__row">
             <div><h3 class="cl__nm">WRAP Gold</h3><p class="cl__de">Worldwide Responsible Accredited Production at Gold tier &mdash; the highest of three tiers.</p></div>
-            <div class="cl__rt"><span class="cl__id">WRAP-GLD-156823</span><a href="/contact?cert=wrap" class="cl__lk">Request PDF &rarr;</a></div>
+            <div class="cl__rt"><span class="cl__id">WRAP-GLD-156823</span><a href="#inquiry-form" class="cl__lk">Request PDF &rarr;</a></div>
           </div>
           <div class="cl__row">
             <div><h3 class="cl__nm">GRS</h3><p class="cl__de">Global Recycled Standard for our recycled-polyester product line &mdash; rPET jerseys, leggings, training tops.</p></div>
-            <div class="cl__rt"><span class="cl__id">CU 1014387 GRS-2024</span><a href="/contact?cert=grs" class="cl__lk">Request PDF &rarr;</a></div>
+            <div class="cl__rt"><span class="cl__id">CU 1014387 GRS-2024</span><a href="#inquiry-form" class="cl__lk">Request PDF &rarr;</a></div>
           </div>
           <div class="cl__row">
             <div><h3 class="cl__nm">Higg FEM</h3><p class="cl__de">Higg Facility Environmental Module, score 82/100 in the 2024 SLCP-verified assessment.</p></div>
-            <div class="cl__rt"><span class="cl__id">HIG-FEM-2024-CN-08</span><a href="/contact?cert=higg" class="cl__lk">Request PDF &rarr;</a></div>
+            <div class="cl__rt"><span class="cl__id">HIG-FEM-2024-CN-08</span><a href="#inquiry-form" class="cl__lk">Request PDF &rarr;</a></div>
           </div>
         </div>
-        <p class="cb__more rv"><a href="/contact?cert=all">Get all five as a zipped pack &rarr;</a></p>
+        <p class="cb__more rv"><a href="#inquiry-form">Get all five as a zipped pack &rarr;</a></p>
       </div>
     </section>
 
@@ -942,7 +942,7 @@
         <h2 class="fc__h rv" id="s15-h2">Ready to put a real factory on your shortlist?</h2>
         <p class="fc__s rv">Send your tech-pack and we'll come back within one business day with a per-size MOQ split, sampling timeline, and an FOB quote. Or book a 30-min sourcing call with our engineering lead first.</p>
         <div class="fc__b rv">
-          <a href="/contact?call=30min" class="btn btn--p">Book a 30-min sourcing call</a>
+          <a href="#inquiry-form" class="btn btn--p">Book a 30-min sourcing call</a>
           <a href="/assets/docs/berun-spec-template.xlsx" class="btn btn--g">Download spec template (XLSX) <span aria-hidden="true">&rarr;</span></a>
         </div>
         <div class="fc__form rv">
@@ -1058,6 +1058,22 @@
       } else {
         img.addEventListener('load', checkLoaded);
       }
+    });
+  })();
+  </script>
+  <script>
+  (function(){
+    document.querySelectorAll('a[href="#inquiry-form"]').forEach(function(a){
+      a.addEventListener('click', function(e){
+        e.preventDefault();
+        var form = document.getElementById('inquiry-form');
+        if(!form) return;
+        form.scrollIntoView({behavior:'smooth', block:'center'});
+        setTimeout(function(){
+          var f = form.querySelector('input:not([type="hidden"]):not([style*="display:none"]),textarea');
+          if(f) f.focus({preventScroll:true});
+        }, 600);
+      });
     });
   })();
   </script>
