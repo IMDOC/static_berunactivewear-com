@@ -91,7 +91,7 @@
     .bk-l+.sec,.bk-d+.sec,.mc+.sec,.fc+.sec{border-top:0}
     .shd{text-align:center;margin-bottom:clamp(32px,5vw,56px)}
     .srl{font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;color:var(--c1);font-weight:700;display:inline-block;margin-bottom:8px}
-    .sh2{font-size:clamp(1.75rem,3.5vw,2.75rem);font-weight:800;color:#0f1f1e;letter-spacing:-.02em;margin:8px 0 14px;line-height:1.12}
+    .sh2{font-size:clamp(1.75rem,3.5vw,2.75rem);font-weight:800;color:#0f1f1e;letter-spacing:0;margin:8px 0 14px;line-height:1.12}
     .ssu{font-size:clamp(.9375rem,1.3vw,1.125rem);line-height:1.55;color:var(--cm);max-width:60ch;margin:0 auto}
     .sec--i .sh2{color:#fff}.sec--i .ssu{color:rgba(250,247,242,.78)}
 
@@ -114,7 +114,7 @@
     .hero__in{position:relative;z-index:1;display:grid;grid-template-columns:minmax(0,1.15fr) minmax(360px,400px);gap:clamp(32px,4vw,64px);align-items:center;padding:clamp(120px,14vh,180px) 0 clamp(60px,7vh,100px)}
     .hero__cp{display:flex;flex-direction:column;gap:clamp(14px,1.6vw,22px)}
     .hero__ey{font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;font-weight:700;color:var(--c1)}
-    .hero__h1{font-size:clamp(2.125rem,3.4vw,3.5rem);font-weight:800;line-height:1.08;letter-spacing:-.025em;color:#fff;margin:0}
+    .hero__h1{font-size:clamp(2.125rem,3.4vw,3.5rem);font-weight:800;line-height:1.08;letter-spacing:0;color:#fff;margin:0}
     .hero__sb{font-size:clamp(.9375rem,.5vw+.875rem,1.125rem);line-height:1.55;color:rgba(250,247,242,.85);margin:0;max-width:560px}
     .hero__sb a{color:var(--ca);text-decoration:underline}
     .hero__ct{display:flex;flex-wrap:wrap;gap:12px;margin-top:6px}
@@ -123,13 +123,13 @@
     .hero__stat{flex:1 1 auto;min-width:120px;padding:0 clamp(12px,1.5vw,22px);position:relative;display:flex;flex-direction:column;justify-content:center}
     .hero__stat:first-child{padding-left:0}
     .hero__stat:not(:last-child)::after{content:"";position:absolute;right:0;top:50%;transform:translateY(-50%);width:1px;height:36px;background:var(--c1)}
-    .hero__stat-num{font-size:clamp(1.5rem,2.4vw,2rem);font-weight:800;color:#fff;line-height:1;letter-spacing:-.01em}
+    .hero__stat-num{font-size:clamp(1.5rem,2.4vw,2rem);font-weight:800;color:#fff;line-height:1;letter-spacing:0}
     .hero__stat-num em{font-style:normal;color:var(--c1);margin-left:1px}
     .hero__stat-lbl{margin-top:6px;font-size:.6875rem;color:rgba(250,247,242,.6);letter-spacing:.05em;text-transform:uppercase;font-weight:500;line-height:1.3}
     /* Why-choose card */
     .hero__card{background:rgba(255,255,255,.96);border-radius:14px;padding:clamp(22px,2.4vw,30px);box-shadow:0 20px 50px rgba(0,0,0,.25);backdrop-filter:blur(4px);border:1px solid rgba(255,255,255,.4)}
     .hero__card-rail{font-size:.6875rem;letter-spacing:.12em;text-transform:uppercase;font-weight:700;color:var(--c1);margin-bottom:6px}
-    .hero__card-h{font-size:1.125rem;font-weight:800;color:#0f1f1e;margin:0 0 16px;line-height:1.25;letter-spacing:-.01em}
+    .hero__card-h{font-size:1.125rem;font-weight:800;color:#0f1f1e;margin:0 0 16px;line-height:1.25;letter-spacing:0}
     .hero__card-list{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:10px}
     .hero__card-list li{display:flex;gap:10px;align-items:flex-start;font-size:.875rem;line-height:1.45;color:#1f2937}
     .hero__card-list li i{color:var(--c1);font-size:1rem;flex-shrink:0;margin-top:1px}
@@ -176,7 +176,7 @@
 
     /* Break bands */
     .bk-d{background:var(--c2);text-align:center;padding:clamp(72px,8vh,96px) 0;border-top:1px solid #374151;border-bottom:1px solid #374151}
-    .bk-d__t{font-size:clamp(1.375rem,3.2vw,2.25rem);font-weight:700;color:#fff;letter-spacing:-.01em;line-height:1.2;max-width:34ch;margin:0 auto}
+    .bk-d__t{font-size:clamp(1.375rem,3.2vw,2.25rem);font-weight:700;color:#fff;letter-spacing:0;line-height:1.2;max-width:34ch;margin:0 auto}
     .bk-l{background:#EAE3D7;text-align:center;padding:clamp(64px,7vh,88px) 0;border-bottom:1px solid rgba(15,23,42,.08)}
     .bk-l__t{font-size:clamp(1.125rem,2.5vw,1.625rem);font-weight:500;color:var(--c2);line-height:1.3;max-width:42ch;margin:0 auto}
 
@@ -288,7 +288,8 @@
     .img-ph span{font-size:.6875rem;color:#9CA3AF;font-weight:500;letter-spacing:.03em}
 
     /* Inquiry form in Final CTA */
-    .fc__form{max-width:640px;margin:28px auto 24px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:12px;padding:clamp(20px,3vw,32px)}
+    .fc__form{max-width:1080px;margin:28px auto 24px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:12px;padding:clamp(20px,3vw,32px);display:grid;grid-template-columns:minmax(0,1.18fr) minmax(300px,.82fr);gap:clamp(20px,3vw,34px);align-items:stretch;text-align:left}
+    .fc__form form{min-width:0}
     .fc__fields{display:grid;grid-template-columns:1fr 1fr;gap:14px}
     .fc__field{display:flex;flex-direction:column}
     .fc__field--full{grid-column:1/-1}
@@ -297,7 +298,105 @@
     .fc__form input::placeholder,.fc__form textarea::placeholder{color:rgba(255,255,255,.35)}
     .fc__form input:focus,.fc__form textarea:focus{outline:none;border-color:var(--c1);background:rgba(255,255,255,.1)}
     .fc__form textarea{resize:vertical;min-height:72px}
-    @media(max-width:575px){.fc__fields{grid-template-columns:1fr}}
+    .fc__side{position:relative;overflow:hidden;border:1px solid rgba(255,255,255,.14);border-radius:12px;background:linear-gradient(180deg,rgba(255,255,255,.11),rgba(255,255,255,.055));padding:clamp(20px,2.4vw,28px);display:flex;flex-direction:column;gap:18px}
+    .fc__side::after{content:"";position:absolute;right:-80px;top:-80px;width:180px;height:180px;border-radius:50%;background:radial-gradient(circle,rgba(255,209,102,.18),transparent 68%);pointer-events:none}
+    .fc__side-k{font-size:.72rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#FFD166}
+    .fc__side-h{font-size:clamp(1.15rem,1.5vw,1.45rem);line-height:1.22;color:#fff;margin:0;letter-spacing:0}
+    .fc__side-p{font-size:.92rem;line-height:1.65;color:rgba(250,247,242,.72);margin:0}
+    .fc__checks{list-style:none;padding:0;margin:2px 0 0;display:grid;gap:12px}
+    .fc__checks li{display:flex;gap:10px;align-items:flex-start;color:rgba(250,247,242,.84);font-size:.9rem;line-height:1.45}
+    .fc__checks i{color:#FFD166;flex:0 0 auto;margin-top:2px}
+    .fc__mini{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:auto}
+    .fc__mini-item{border:1px solid rgba(255,255,255,.12);border-radius:10px;padding:12px;background:rgba(0,0,0,.12)}
+    .fc__mini-num{display:block;font-size:1.25rem;font-weight:800;color:#fff;line-height:1}
+    .fc__mini-lbl{display:block;margin-top:6px;font-size:.7rem;line-height:1.3;color:rgba(250,247,242,.58);text-transform:uppercase;letter-spacing:.04em}
+    @media(max-width:767px){.fc__form{grid-template-columns:1fr}.fc__side{order:-1}.fc__fields{grid-template-columns:1fr}}
+
+    /* UI polish pass: visual hierarchy, factory-document tactility, no content changes */
+    :root{--c1:#D51F2A;--c1d:#A9151D;--c2:#111D1B;--ca:#F5BD2B;--ct:#14201E;--cm:#59646E;--bt:#F5F7F4;--bw:#fff;--bd:rgba(17,29,27,.10);--s1:0 10px 28px rgba(17,29,27,.08);--s2:0 22px 52px rgba(17,29,27,.14);--ring:0 0 0 1px rgba(17,29,27,.08)}
+    body{background:#F5F7F4;background-image:linear-gradient(180deg,rgba(255,255,255,.75),rgba(245,247,244,.92));color:var(--ct)}
+    .hero__h1,.sh2,.hero__card-h,.fc__h,.bk-d__t,.bk-l__t{letter-spacing:0}
+    .sec{padding:clamp(76px,8.5vh,116px) 0}
+    .sec--w{background:#fff}
+    .sec--t{background:linear-gradient(180deg,#F7F8F6 0%,#EEF3EE 100%)}
+    .sec+.sec--w,.sec+.sec--t{border-top:1px solid rgba(17,29,27,.08)}
+    .shd{max-width:820px;margin-inline:auto}
+    .srl{padding:6px 11px;border:1px solid rgba(213,31,42,.16);border-radius:999px;background:rgba(213,31,42,.07);color:var(--c1);letter-spacing:.08em}
+    .sh2{margin-top:14px}
+    .sh2::after{content:"";display:block;width:54px;height:3px;margin:18px auto 0;background:linear-gradient(90deg,var(--c1),var(--ca));border-radius:999px}
+    .ssu{color:#65707A}
+    .btn{border-radius:7px;box-shadow:none}
+    .btn--p{background:var(--c1);border-color:var(--c1)}
+    .btn--p:hover{background:var(--c1d);border-color:var(--c1d);box-shadow:0 12px 26px rgba(213,31,42,.24)}
+
+    .hero{min-height:min(86vh,920px);isolation:isolate;background:#111D1B}
+    .hero__bg img{filter:saturate(.92) contrast(1.08)}
+    .hero__bg::after{background:linear-gradient(90deg,rgba(9,18,17,.94) 0%,rgba(9,18,17,.80) 48%,rgba(9,18,17,.45) 100%),linear-gradient(180deg,rgba(9,18,17,.22),rgba(9,18,17,.72))}
+    .hero__in{padding:clamp(112px,13vh,164px) clamp(16px,3vw,32px) clamp(56px,7vh,88px)}
+    .hero__ey{align-self:flex-start;padding:7px 11px;border:1px solid rgba(255,255,255,.18);border-radius:999px;background:rgba(255,255,255,.08);color:#FFD166;letter-spacing:.08em}
+    .hero__h1{max-width:780px;text-wrap:balance;text-shadow:0 2px 18px rgba(0,0,0,.28)}
+    .hero__sb{max-width:620px;color:rgba(250,247,242,.88)}
+    .hero__stats{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:0;padding:18px 20px;margin-top:clamp(18px,2.2vw,30px);border:1px solid rgba(255,255,255,.14);border-radius:12px;background:rgba(8,16,15,.42);backdrop-filter:blur(10px);box-shadow:inset 0 1px 0 rgba(255,255,255,.08)}
+    .hero__stat{min-width:0;padding:4px clamp(12px,1.3vw,20px)}
+    .hero__stat-num em{color:#FFD166}
+    .hero__stat-lbl{color:rgba(250,247,242,.68);letter-spacing:.04em}
+    .hero__card{border-radius:12px;background:rgba(255,255,255,.94);border:1px solid rgba(255,255,255,.72);box-shadow:0 26px 70px rgba(0,0,0,.30),inset 0 1px 0 rgba(255,255,255,.86)}
+    .hero__card-list{gap:12px}
+    .hero__card-list li{padding:10px 0;border-top:1px solid rgba(17,29,27,.07)}
+    .hero__card-list li:first-child{border-top:0;padding-top:0}
+    .hero__card-list li i{color:var(--c1)}
+
+    .tg{gap:clamp(18px,2vw,26px)}
+    .tz{padding:10px;border:1px solid var(--bd);border-radius:12px;background:#fff;box-shadow:var(--ring);transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease}
+    .tz:hover{transform:translateY(-4px);box-shadow:var(--s2);border-color:rgba(213,31,42,.22)}
+    .tz__m,.tz__d{border-radius:9px;background:#EEF1ED}
+    .tz__m::after{content:"";position:absolute;inset:auto 0 0;height:42%;background:linear-gradient(180deg,transparent,rgba(0,0,0,.28));pointer-events:none}
+    .tz__b{z-index:1;background:rgba(17,29,27,.88);border:1px solid rgba(255,255,255,.12);backdrop-filter:blur(6px)}
+    .tz__p{padding:8px 2px 2px;color:#64707A}
+
+    .ops{gap:clamp(24px,4vw,44px)}
+    .ops-row,.pn,.zz{padding:clamp(18px,2.6vw,34px);border:1px solid rgba(17,29,27,.09);border-radius:14px;background:rgba(255,255,255,.82);box-shadow:var(--ring)}
+    .sec--t .ops-row,.sec--t .pn{background:rgba(255,255,255,.90)}
+    .ops-row:hover,.pn:hover,.zz:hover{box-shadow:var(--s1);border-color:rgba(213,31,42,.18)}
+    .ops-row__text h3,.pn__t h3,.zz__ti{color:#111D1B}
+    .ops-row__text h3 .ops-num,.pd,.tn__y{background:linear-gradient(135deg,var(--c1),#96151B);box-shadow:0 8px 18px rgba(213,31,42,.22)}
+    .ops-tag,.pn__tag{border-radius:999px}
+    .ops-tag--red,.pn__tag{background:rgba(213,31,42,.08);border-color:rgba(213,31,42,.18);color:var(--c1)}
+    .ops-tag--dark{background:rgba(17,29,27,.06);border-color:rgba(17,29,27,.12);color:#24302E}
+    .ops-row__imgs,.pn__m,.zz__i,.tn__im,.tc__im,.tsc__im{gap:10px}
+    .ops-row__imgs img,.pn__m img,.zz__i img,.tn__im img,.tsc__im img,.ed__i img,.qi2 img,.qi3 img,.qf img,.tgp img{border:1px solid rgba(17,29,27,.08);box-shadow:0 8px 20px rgba(17,29,27,.08)}
+    .ops-row{grid-template-columns:minmax(0,1.02fr) minmax(420px,.9fr);gap:clamp(30px,4.8vw,70px);align-items:stretch;position:relative;overflow:hidden;background:linear-gradient(135deg,#fff 0%,#fff 58%,#F7FAF7 100%)}
+    .ops-row::before{content:"";position:absolute;inset:0 auto 0 0;width:5px;background:linear-gradient(180deg,var(--c1),var(--ca));opacity:.95}
+    .ops-row::after{content:"";position:absolute;right:-120px;top:-120px;width:280px;height:280px;border-radius:50%;background:radial-gradient(circle,rgba(213,31,42,.08),transparent 68%);pointer-events:none}
+    .ops-row--flip{grid-template-columns:minmax(420px,.9fr) minmax(0,1.02fr)}
+    .ops-row__imgs{align-content:start}
+    .ops-row__imgs img{background:#EEF1ED}
+    .ops-row__imgs .ops-img-main{aspect-ratio:16/10;border-radius:10px}
+    .ops-row__text{align-self:center;position:relative;z-index:1;padding:clamp(22px,3vw,38px);border:1px solid rgba(17,29,27,.08);border-radius:12px;background:linear-gradient(180deg,rgba(255,255,255,.94),rgba(250,252,250,.90));box-shadow:0 16px 34px rgba(17,29,27,.08),inset 0 1px 0 rgba(255,255,255,.95)}
+    .ops-row__text::before{content:"";position:absolute;left:0;top:24px;bottom:24px;width:3px;border-radius:999px;background:linear-gradient(180deg,var(--c1),rgba(213,31,42,.18))}
+    .ops-row__text h3{font-size:clamp(1.18rem,1.35vw,1.42rem);gap:12px;margin-bottom:16px;line-height:1.25}
+    .ops-row__text h3 .ops-num{width:34px;height:34px;font-size:.82rem}
+    .ops-row__text p{max-width:62ch;font-size:clamp(.96rem,.96vw,1.04rem);line-height:1.78;color:#5B6670;margin-bottom:16px}
+    .ops-row__text p:first-of-type{color:#4F5A63}
+    .ops-row__tags{gap:9px;margin-top:18px;padding-top:18px;border-top:1px solid rgba(17,29,27,.08)}
+    .ops-tag{padding:6px 13px;font-size:.77rem;box-shadow:inset 0 1px 0 rgba(255,255,255,.75)}
+    @media(min-width:768px){.ops-row__text{min-height:360px;display:flex;flex-direction:column;justify-content:center}.ops-row__tags{margin-top:auto}}
+
+    .bk-d{background:linear-gradient(135deg,#111D1B 0%,#23322E 100%);border:0}
+    .bk-l{background:#EAF0EA;border-top:1px solid rgba(17,29,27,.08)}
+    .mc{background:linear-gradient(135deg,#C91823 0%,#E14332 100%)}
+    .cs,.wb{border:1px solid rgba(17,29,27,.09);box-shadow:var(--ring)}
+    .cc,.tc,.tm,.tsc{border-color:rgba(17,29,27,.09);box-shadow:var(--ring)}
+    .cc:hover,.tc:hover,.tm:hover,.tsc:hover{box-shadow:var(--s2);border-color:rgba(213,31,42,.18)}
+    .tm__av{border:3px solid #fff;box-shadow:0 0 0 1px rgba(17,29,27,.10),0 8px 18px rgba(17,29,27,.10)}
+    .tl::before,.pb::before{background:linear-gradient(180deg,rgba(213,31,42,.30),rgba(17,29,27,.12))}
+    .lr__i{color:#9AA2A9}
+    .fc{background:linear-gradient(135deg,#111D1B 0%,#26332F 100%)}
+    .fc__form{border-radius:14px;background:rgba(255,255,255,.075);border:1px solid rgba(255,255,255,.16);box-shadow:0 24px 60px rgba(0,0,0,.22),inset 0 1px 0 rgba(255,255,255,.08)}
+    .fc__form input,.fc__form textarea{border-radius:8px;background:rgba(255,255,255,.10);border-color:rgba(255,255,255,.18)}
+    .fc__form input:focus,.fc__form textarea:focus{border-color:#FFD166;box-shadow:0 0 0 3px rgba(255,209,102,.14)}
+    @media(max-width:767px){.ops-row,.pn,.zz{padding:18px}.ops-row,.ops-row--flip{grid-template-columns:1fr;gap:18px}.ops-row__text{padding:20px 18px}.ops-row__text::before{top:18px;bottom:18px}.hero__stats{grid-template-columns:repeat(2,minmax(0,1fr));padding:12px}.hero__stat:first-child{padding-left:clamp(10px,2vw,16px)}.hero__stat:last-child{grid-column:1/-1}.hero__ct .btn{flex:1 1 100%}.sh2::after{margin-top:14px}}
+    @media(max-width:575px){body .wa-widget{right:14px!important;bottom:14px!important}body .wa-widget-button{width:56px!important;height:56px!important;min-width:56px!important;min-height:56px!important;padding:0!important;border-radius:50%!important;justify-content:center!important}body .wa-widget-button span{display:none!important}body .wa-widget-popup{right:0!important;width:calc(100vw - 28px)!important}}
     </style>
 </head>
 <body>
@@ -353,7 +452,7 @@
             <li><i class="bi bi-check2-circle"></i><span><strong>Named QC team</strong> &mdash; 32 inspectors, 8 lab-techs, inline checkpoints</span></li>
             <li><i class="bi bi-check2-circle"></i><span><strong>Published tolerances</strong> &mdash; &Delta;E &le;1.5, &plusmn;0.5&nbsp;cm, &plusmn;5% GSM</span></li>
             <li><i class="bi bi-check2-circle"></i><span><strong>5 certifications current</strong> &mdash; OEKO-TEX, BSCI, WRAP, GRS, Higg</span></li>
-            <li><i class="bi bi-check2-circle"></i><span><strong>Sample to bulk in 5 stages</strong> &mdash; MOQ 300 / SKU, USD&nbsp;45 sample</span></li>
+            <li><i class="bi bi-check2-circle"></i><span><strong>Sample to bulk in 5 stages</strong> &mdash; USD&nbsp;45 sample</span></li>
             <li><i class="bi bi-check2-circle"></i><span><strong>Repeat-buyer tested</strong> &mdash; 98.5% pre-shipment pass rate, 5 continents</span></li>
           </ul>
         </aside>
@@ -363,7 +462,7 @@
     <!-- S2: FACTORY FLOOR TOUR -->
     <section class="sec sec--w" aria-labelledby="s2-h2">
       <div class="ctr">
-        <div class="shd rv"><span class="srl">Factory Tour</span><h2 class="sh2" id="s2-h2">Walk Through 8,500 Square Meters of Production</h2><p class="ssu">Six zones under one roof. No subcontracting, no offsite workshops. Every piece starts and finishes here.</p></div>
+        <div class="shd rv"><span class="srl">Factory Tour</span><h2 class="sh2" id="s2-h2">Activewear Manufacturer Factory Tour</h2><p class="ssu">Walk Through 8,500 Square Meters of Production &mdash; six zones under one roof. No subcontracting, no offsite workshops. Every piece starts and finishes here.</p></div>
         <div class="tg">
           <div class="tz rv"><div class="tz__m"><span class="tz__b">Cutting Room</span><img src="https://app.grapesjs.com/api/assets/random-image?query=automatic-spreading-and-cutting-machines&w=800&h=600" alt="Automatic spreading and cutting machines" width="800" height="600" loading="lazy"></div><div class="tz__d"><img src="https://app.grapesjs.com/api/assets/random-image?query=automatic-cutting-blade-close-up&w=400&h=400" alt="Automatic cutting blade close-up" width="400" height="400" loading="lazy"></div><div class="tz__d"><img src="https://app.grapesjs.com/api/assets/random-image?query=cut-panels-bundled-by-size&w=400&h=400" alt="Cut panels bundled by size" width="400" height="400" loading="lazy"></div><p class="tz__p">Up to 15,000 panels per shift. Every lay marker verified against tech-pack. Cut pieces bundled by size, tagged with lot numbers for full traceability.</p></div>
           <div class="tz rv"><div class="tz__m"><span class="tz__b">Sewing Floor</span><img src="https://app.grapesjs.com/api/assets/random-image?query=12-production-sewing-lines&w=800&h=600" alt="12 production sewing lines" width="800" height="600" loading="lazy"></div><div class="tz__d"><img src="https://app.grapesjs.com/api/assets/random-image?query=operator-at-sewing-workstation&w=400&h=400" alt="Operator at sewing workstation" width="400" height="400" loading="lazy"></div><div class="tz__d"><img src="https://app.grapesjs.com/api/assets/random-image?query=industrial-sewing-machine-detail&w=400&h=400" alt="Industrial sewing machine detail" width="400" height="400" loading="lazy"></div><p class="tz__p">12 lines: 5 cut-and-sew, 4 sublimation assembly, 3 team-set dedicated. Each line 22-24 operators plus 2-3 inline QC inspectors.</p></div>
@@ -378,7 +477,7 @@
     <!-- S3: OPERATIONS & CULTURE -->
     <section class="sec sec--t" aria-labelledby="s3-h2">
       <div class="ctr ops-parent">
-        <div class="shd rv"><span class="srl">Daily Operations</span><h2 class="sh2" id="s3-h2">How 280 People Run 12 Lines Every Day</h2><p class="ssu">Line allocation, shift scheduling, fabric intake, and QC rotation &mdash; the operating system behind every PO.</p></div>
+        <div class="shd rv"><span class="srl">Daily Operations</span><h2 class="sh2" id="s3-h2">Activewear Factory Operations</h2><p class="ssu">How 280 People Run 12 Lines Every Day &mdash; line allocation, shift scheduling, fabric intake, and QC rotation, the operating system behind every PO.</p></div>
         <div class="ops">
           <!-- Row 1: Line Allocation — images left, text right -->
           <div class="ops-row rv">
@@ -462,7 +561,7 @@
     <!-- S5: QC SYSTEM ORIGIN STORY -->
     <section class="sec sec--w" aria-labelledby="s5-h2">
       <div class="ctr ops-parent">
-        <div class="shd rv"><span class="srl">Quality System</span><h2 class="sh2" id="s5-h2">32 Inspectors and a Lab Built from One Bad Batch</h2><p class="ssu">Y.Z. started with 3 part-time inspectors in 2018. A color-drift incident that cost a client 40% of a shipment turned QC from a checklist into a system.</p></div>
+        <div class="shd rv"><span class="srl">Quality System</span><h2 class="sh2" id="s5-h2">Activewear Manufacturer QC System</h2><p class="ssu">32 Inspectors and a Lab Built from One Bad Batch. Y.Z. started with 3 part-time inspectors in 2018; a color-drift incident that cost a client 40% of a shipment turned QC from a checklist into a system.</p></div>
         <div class="ops">
           <!-- Row 1: The Incident — text left, images right -->
           <div class="ops-row ops-row--flip rv">
@@ -568,7 +667,7 @@
     <!-- S7: SAMPLE-TO-BULK JOURNEY -->
     <section class="sec sec--t" aria-labelledby="s7-h2">
       <div class="ctr">
-        <div class="shd rv"><span class="srl">Your First Order</span><h2 class="sh2" id="s7-h2">Sketch to Shipping in 5 Stages</h2><p class="ssu">Never sourced from a factory before? Here&rsquo;s what happens inside ours &mdash; department by department, checkpoint by checkpoint.</p></div>
+        <div class="shd rv"><span class="srl">Your First Order</span><h2 class="sh2" id="s7-h2">Custom Activewear Manufacturing Process</h2><p class="ssu">Sketch to Shipping in 5 Stages. Never sourced from a factory before? Here&rsquo;s what happens inside ours &mdash; department by department, checkpoint by checkpoint.</p></div>
         <div class="wb rv"><p>If this is your first time working with a cut-and-sew factory, this section is for you. MOQ is 300 pieces per SKU total &mdash; not per size. A single sample costs USD&nbsp;45. You don&rsquo;t need a tech-pack to start.</p></div>
         <div class="pb rv" aria-hidden="true"><div class="pd"><span>1</span><span class="pd__l">Inquiry</span><span class="pd__t">Day 0</span></div><div class="pd"><span>2</span><span class="pd__l">Sample</span><span class="pd__t">Day 1–12</span></div><div class="pd"><span>3</span><span class="pd__l">Approval</span><span class="pd__t">Day 12–15</span></div><div class="pd"><span>4</span><span class="pd__l">Bulk</span><span class="pd__t">Day 15–57</span></div><div class="pd"><span>5</span><span class="pd__l">Delivery</span><span class="pd__t">Day 57–60</span></div></div>
         <div class="pp">
@@ -583,7 +682,7 @@
               </ul>
               <div class="pn__tags"><span class="pn__tag">Reply within 1 day</span><span class="pn__tag">No tech-pack required</span><span class="pn__tag">Free assessment</span></div>
             </div>
-            <div class="pn__m pn__m--3"><imgsrc="https://app.grapesjs.com/api/assets/random-image?query=tech-pack-and-reference-garment&w=400&h=300" alt="Tech-pack and reference garment" width="400" height="300" loading="lazy"><img src="https://app.grapesjs.com/api/assets/random-image?query=sales-team-reply&w=400&h=300" alt="Sales team reply" width="400" height="300" loading="lazy"><img src="https://app.grapesjs.com/api/assets/random-image?query=reference-garment&w=400&h=300" alt="Reference garment" width="400" height="300" loading="lazy"></div>
+            <div class="pn__m pn__m--3"><img src="https://app.grapesjs.com/api/assets/random-image?query=tech-pack-and-reference-garment&w=400&h=300" alt="Tech-pack and reference garment" width="400" height="300" loading="lazy"><img src="https://app.grapesjs.com/api/assets/random-image?query=sales-team-reply&w=400&h=300" alt="Sales team reply" width="400" height="300" loading="lazy"><img src="https://app.grapesjs.com/api/assets/random-image?query=reference-garment&w=400&h=300" alt="Reference garment" width="400" height="300" loading="lazy"></div>
           </div>
           <div class="pn pn--f rv">
             <div class="pn__t">
@@ -596,7 +695,7 @@
               </ul>
               <div class="pn__tags"><span class="pn__tag">5 days on-stock</span><span class="pn__tag">12 days sourced</span><span class="pn__tag">USD 45 / sample</span><span class="pn__tag">USD 220 pattern fee</span></div>
             </div>
-            <div class="pn__m pn__m--3"><img src="https://app.grapesjs.com/api/assets/random-image?query=pattern-maker-drafting&w=400&h=300" alt="Pattern maker drafting" width="400" height="300" loading="lazy"><img src="https://app.grapesjs.com/api/assets/random-image?query=sample-sewing&w=400&h=300" alt="Sample sewing" width="400" height="300" loading="lazy"><imgsrc="/assets/images/pattern-sample-approval.webp" alt="Completed sample" width="400" height="300" loading="lazy"></div>
+            <div class="pn__m pn__m--3"><img src="https://app.grapesjs.com/api/assets/random-image?query=pattern-maker-drafting&w=400&h=300" alt="Pattern maker drafting" width="400" height="300" loading="lazy"><img src="https://app.grapesjs.com/api/assets/random-image?query=sample-sewing&w=400&h=300" alt="Sample sewing" width="400" height="300" loading="lazy"><img src="/assets/images/pattern-sample-approval.webp" alt="Completed sample" width="400" height="300" loading="lazy"></div>
           </div>
           <div class="pn rv">
             <div class="pn__t">
@@ -622,7 +721,7 @@
               </ul>
               <div class="pn__tags"><span class="pn__tag">35&ndash;42 days on-stock</span><span class="pn__tag">48&ndash;58 days sourced</span><span class="pn__tag">MOQ 300 / SKU</span><span class="pn__tag">3 inline QC points</span></div>
             </div>
-            <div class="pn__m pn__m--3"><imgsrc="https://app.grapesjs.com/api/assets/random-image?query=full-production-line&w=400&h=300" alt="Full production line" width="400" height="300" loading="lazy"><img src="https://app.grapesjs.com/api/assets/random-image?query=inline-qc-check&w=400&h=300" alt="Inline QC check" width="400" height="300" loading="lazy"><img src="https://app.grapesjs.com/api/assets/random-image?query=finished-bulk-stacked&w=400&h=300" alt="Finished bulk stacked" width="400" height="300" loading="lazy"></div>
+            <div class="pn__m pn__m--3"><img src="https://app.grapesjs.com/api/assets/random-image?query=full-production-line&w=400&h=300" alt="Full production line" width="400" height="300" loading="lazy"><img src="https://app.grapesjs.com/api/assets/random-image?query=inline-qc-check&w=400&h=300" alt="Inline QC check" width="400" height="300" loading="lazy"><img src="https://app.grapesjs.com/api/assets/random-image?query=finished-bulk-stacked&w=400&h=300" alt="Finished bulk stacked" width="400" height="300" loading="lazy"></div>
           </div>
           <div class="pn rv">
             <div class="pn__t">
@@ -635,7 +734,7 @@
               </ul>
               <div class="pn__tags"><span class="pn__tag">AQL 2.5 report</span><span class="pn__tag">Defect photos included</span><span class="pn__tag">Sea or air freight</span></div>
             </div>
-            <div class="pn__m pn__m--3"><imgsrc="https://app.grapesjs.com/api/assets/random-image?query=carton-packing&w=400&h=300" alt="Carton packing" width="400" height="300" loading="lazy"><img src="https://app.grapesjs.com/api/assets/random-image?query=container-loading&w=400&h=300" alt="Container loading" width="400" height="300" loading="lazy"><img src="https://app.grapesjs.com/api/assets/random-image?query=shipping-documents&w=400&h=300" alt="Shipping documents" width="400" height="300" loading="lazy"></div>
+            <div class="pn__m pn__m--3"><img src="https://app.grapesjs.com/api/assets/random-image?query=carton-packing&w=400&h=300" alt="Carton packing" width="400" height="300" loading="lazy"><img src="https://app.grapesjs.com/api/assets/random-image?query=container-loading&w=400&h=300" alt="Container loading" width="400" height="300" loading="lazy"><img src="https://app.grapesjs.com/api/assets/random-image?query=shipping-documents&w=400&h=300" alt="Shipping documents" width="400" height="300" loading="lazy"></div>
           </div>
         </div>
       </div>
@@ -644,7 +743,7 @@
     <!-- S8: TIMELINE -->
     <section class="sec sec--w" aria-labelledby="s8-h2">
       <div class="ctr">
-        <div class="shd rv"><span class="srl">Our Story</span><h2 class="sh2" id="s8-h2">2017&ndash;2025: 2 Lines and 35 People to 12 Lines and 280</h2><p class="ssu">Eight years of investment &mdash; each milestone driven by a client need, not a business plan.</p></div>
+        <div class="shd rv"><span class="srl">Our Story</span><h2 class="sh2" id="s8-h2">Activewear Manufacturer Growth Timeline</h2><p class="ssu">2017&ndash;2025: 2 Lines and 35 People to 12 Lines and 280. Eight years of investment &mdash; each milestone driven by a client need, not a business plan.</p></div>
         <div class="tl">
           <div class="tn tn--l rv"><div class="tn__c"><h3>Founded</h3><p>Left a trading company to build our own factory. 2 lines, 35 people, 1,200&nbsp;m². First-year output: 18,000 pieces/month.</p></div><div class="tn__y">2017</div><div class="tn__im tn__im--2"><img src="https://app.grapesjs.com/api/assets/random-image?query=original-factory-exterior-2017&w=400&h=300" alt="Original factory exterior 2017" width="400" height="300" loading="lazy"><img src="https://app.grapesjs.com/api/assets/random-image?query=first-10-sewing-machines&w=400&h=300" alt="First 10 sewing machines" width="400" height="300" loading="lazy"></div></div>
           <div class="tn tn--r rv"><div class="tn__im"><img src="https://app.grapesjs.com/api/assets/random-image?query=first-sublimation-press-installed&w=400&h=300" alt="First sublimation press installed" width="400" height="300" loading="lazy"></div><div class="tn__y">2018</div><div class="tn__c"><h3>First Sublimation Press</h3><p>Full-color printed jerseys, leggings, training tops. First order: 800 cycling jerseys for a German club, shipped 3 days early. Y.Z. joined to build QC.</p></div></div>
@@ -662,7 +761,7 @@
     <!-- S10: WHAT WE WON'T DO -->
     <section class="sec sec--w" aria-labelledby="s10-h2">
       <div class="ctr">
-        <div class="shd rv"><span class="srl">Our Boundaries</span><h2 class="sh2" id="s10-h2">Four Things We&rsquo;ll Tell You No To</h2><p class="ssu">Every factory says yes to everything. That&rsquo;s how the third PO goes sideways.</p></div>
+        <div class="shd rv"><span class="srl">Our Boundaries</span><h2 class="sh2" id="s10-h2">Our Activewear Manufacturing Standards</h2><p class="ssu">Four Things We&rsquo;ll Tell You No To. Every factory says yes to everything. That&rsquo;s how the third PO goes sideways.</p></div>
         <div class="zz rv"><div class="zz__t"><div class="zz__ic"><i class="bi bi-x-circle"></i></div><h3 class="zz__ti">&ldquo;We don&rsquo;t subcontract to outside workshops.&rdquo;</h3><p class="zz__de">Every piece is cut, sewn, printed, inspected, and packed inside 8,500&nbsp;m². Subcontracting splits production across different equipment, operators, and QC. When your order exceeds our capacity, we tell you the earliest slot &mdash; we don&rsquo;t farm it out.</p></div><div class="zz__i"><img src="https://app.grapesjs.com/api/assets/random-image?query=aerial-view-of-single-site-factory&w=500&h=375" alt="Aerial view of single-site factory" width="500" height="375" loading="lazy"><img src="https://app.grapesjs.com/api/assets/random-image?query=factory-entrance-single-address&w=500&h=375" alt="Factory entrance single address" width="500" height="375" loading="lazy"></div></div>
         <div class="zz zz--f rv"><div class="zz__t"><div class="zz__ic"><i class="bi bi-x-circle"></i></div><h3 class="zz__ti">&ldquo;We don&rsquo;t accept POs we can&rsquo;t deliver on time.&rdquo;</h3><p class="zz__de">When the schedule is full, we say so. An honest &ldquo;we can start in week 38&rdquo; is worth more than accepting and missing your retail window, cancelled downstream POs, and wasted ad spend.</p></div><div class="zz__i"><img src="https://app.grapesjs.com/api/assets/random-image?query=production-schedule-showing-capacity&w=500&h=375" alt="Production schedule showing capacity" width="500" height="375" loading="lazy"><img src="https://app.grapesjs.com/api/assets/random-image?query=calendar-with-blocked-slots&w=500&h=375" alt="Calendar with blocked slots" width="500" height="375" loading="lazy"></div></div>
         <div class="zz rv"><div class="zz__t"><div class="zz__ic"><i class="bi bi-x-circle"></i></div><h3 class="zz__ti">&ldquo;We don&rsquo;t hide QC failures from clients.&rdquo;</h3><p class="zz__de">Out-of-spec batch? Red-tagged, isolated, client notified within 24 hours. Root cause plus two options: rework at our cost or refund. Every PO ships with AQL report, measurement log, and defect photos &mdash; clean results or not.</p></div><div class="zz__i"><img src="https://app.grapesjs.com/api/assets/random-image?query=red-tagged-cartons-in-isolation&w=500&h=375" alt="Red-tagged cartons in isolation" width="500" height="375" loading="lazy"><img src="https://app.grapesjs.com/api/assets/random-image?query=operator-at-rework-station&w=500&h=375" alt="Operator at rework station" width="500" height="375" loading="lazy"></div></div>
@@ -673,7 +772,7 @@
     <!-- S11: TEAM PORTRAITS -->
     <section class="sec sec--t" aria-labelledby="s11-h2">
       <div class="ctr">
-        <div class="shd rv"><span class="srl">Our Team</span><h2 class="sh2" id="s11-h2">8 People You&rsquo;d Meet on a Factory Visit</h2><p class="ssu">Department heads, floor supervisors, and the people who manage your order &mdash; by name.</p></div>
+        <div class="shd rv"><span class="srl">Our Team</span><h2 class="sh2" id="s11-h2">Our Activewear Manufacturing Team</h2><p class="ssu">8 People You&rsquo;d Meet on a Factory Visit &mdash; department heads, floor supervisors, and the people who manage your order, by name.</p></div>
         <div class="t1">
           <div class="tc rv"><div class="tc__im"><svg class="tc__mono" viewBox="0 0 300 400" xmlns="http://www.w3.org/2000/svg"><rect width="300" height="400" fill="#DC2626"/><text x="150" y="220" text-anchor="middle" fill="#fff" font-family="Plus Jakarta Sans,sans-serif" font-size="96" font-weight="800">LC</text></svg><img src="https://app.grapesjs.com/api/assets/random-image?query=factory-manager-walking-sewing-floor&w=300&h=400" alt="L.C. on sewing floor" width="300" height="400" loading="lazy"></div><div class="tc__bd"><div class="tc__nm">L.C.</div><div class="tc__rl">Founder &amp; General Manager</div><div class="tc__sc">280 staff</div><p class="tc__ds">Left a trading company in 2017 to build a factory he could stand behind. Most mornings he&rsquo;s on the floor before first shift, checking line readiness with T.K.</p></div></div>
           <div class="tc rv"><div class="tc__im"><svg class="tc__mono" viewBox="0 0 300 400" xmlns="http://www.w3.org/2000/svg"><rect width="300" height="400" fill="#1F2937"/><text x="150" y="220" text-anchor="middle" fill="#fff" font-family="Plus Jakarta Sans,sans-serif" font-size="96" font-weight="800">YZ</text></svg><img src="https://app.grapesjs.com/api/assets/random-image?query=quality-inspector-checking-garment-table&w=300&h=400" alt="Y.Z. at QC table" width="300" height="400" loading="lazy"></div><div class="tc__bd"><div class="tc__nm">Y.Z.</div><div class="tc__rl">QC Head</div><div class="tc__sc">32 inspectors + 8 lab technicians</div><p class="tc__ds">Built the testing lab in 2019 after the color-drift incident. Inspectors check at three inline points. Personally signs off every rework authorization.</p></div></div>
@@ -693,7 +792,7 @@
     <!-- S12: TESTIMONIALS + LOGOS -->
     <section class="sec sec--w" aria-labelledby="s12-h2">
       <div class="ctr">
-        <div class="shd rv"><span class="srl">Client Voices</span><h2 class="sh2" id="s12-h2">What Repeat Buyers Say After the Third PO</h2><p class="ssu">Four clients, four continents. The common thread: this factory communicates before problems become surprises.</p></div>
+        <div class="shd rv"><span class="srl">Client Voices</span><h2 class="sh2" id="s12-h2">Client Reviews of Our Activewear Manufacturing</h2><p class="ssu">What Repeat Buyers Say After the Third PO &mdash; four clients, four continents. The common thread: this factory communicates before problems become surprises.</p></div>
         <div class="tsg">
           <div class="tsc rv"><div class="tsc__q">&ldquo;</div><p class="tsc__tx">Y.Z. and her team inspected our first 4,200-piece order line by line and sent 40 photos documenting every QC checkpoint. Our previous factory sent a one-page summary. That transparency is why we moved our entire legging line to Berun within 6 months.</p><p class="tsc__at">&mdash; M.R., Senior Sourcing Director, Colorado athleisure brand ($18M revenue)</p><div class="tsc__im"><img src="https://app.grapesjs.com/api/assets/random-image?query=black-leggings-flat-lay&w=400&h=300" alt="Black leggings flat-lay" width="400" height="300" loading="lazy"><img src="https://app.grapesjs.com/api/assets/random-image?query=products-on-retail-shelf&w=400&h=300" alt="Products on retail shelf" width="400" height="300" loading="lazy"></div></div>
           <div class="tsc rv"><div class="tsc__q">&ldquo;</div><p class="tsc__tx">Three weeks before deadline, L.C. told us the line was booked and proposed the team-set line with a 5-day extension. We agreed. A factory that says yes and delivers late would have cost us the tournament.</p><p class="tsc__at">&mdash; K.V., Equipment Manager, Berlin football club</p><div class="tsc__im"><img src="https://app.grapesjs.com/api/assets/random-image?query=team-jersey-set&w=400&h=300" alt="Team jersey set" width="400" height="300" loading="lazy"><img src="https://app.grapesjs.com/api/assets/random-image?query=players-in-custom-jerseys&w=400&h=300" alt="Players in custom jerseys" width="400" height="300" loading="lazy"></div></div>
@@ -734,6 +833,22 @@
             </div>
             <button type="submit" class="btn btn--p" style="width:100%;margin-top:16px;">Send Your Inquiry</button>
           </form>
+          <aside class="fc__side" aria-label="What you receive after inquiry">
+            <div>
+              <div class="fc__side-k">Factory shortlist</div>
+              <h3 class="fc__side-h">What you can ask us to verify</h3>
+              <p class="fc__side-p">Use the inquiry to request the factory evidence a sourcing team needs before moving to samples.</p>
+            </div>
+            <ul class="fc__checks">
+              <li><i class="bi bi-check2-circle"></i><span>Named contact and factory profile deck</span></li>
+              <li><i class="bi bi-check2-circle"></i><span>Certificate PDFs and current audit details</span></li>
+              <li><i class="bi bi-check2-circle"></i><span>Sample, QC, packing, and production records for RFQ review</span></li>
+            </ul>
+            <div class="fc__mini">
+              <div class="fc__mini-item"><span class="fc__mini-num">8</span><span class="fc__mini-lbl">named contacts</span></div>
+              <div class="fc__mini-item"><span class="fc__mini-num">5</span><span class="fc__mini-lbl">certs on file</span></div>
+            </div>
+          </aside>
         </div>
         <p class="fc__tr rv">Replies within 1 business day <span>&middot;</span> NDA on request <span>&middot;</span> Sample fee waived after first PO</p>
       </div>
@@ -759,7 +874,7 @@
   <script>
   (function(){
     var fallbacks=['factory-production','textile-manufacturing','garment-sewing','fabric-cutting','warehouse-logistics','quality-inspection','industrial-workshop','clothing-production'];
-    document.querySelectorAll('img[src*="grapesjs.com"]').forEach(function(img){
+    document.querySelectorAll('main img').forEach(function(img){
       img.onerror=function(){
         var el=this;
         if(el.dataset.retried) {
