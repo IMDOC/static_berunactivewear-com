@@ -16,23 +16,23 @@
       "children": [
         {
           "text": "Training & Performance",
-          "link": "/products/training-performance"
+          "link": "/products/training-performance.html"
         },
         {
           "text": "Athleisure",
-          "link": "/products/athleisure"
+          "link": "/products/athleisure.html"
         },
         {
           "text": "Team & Club",
-          "link": "/products/team-club"
+          "link": "/products/team-club.html"
         },
         {
           "text": "Outdoor & Running",
-          "link": "/products/outdoor-running"
+          "link": "/products/outdoor-running.html"
         },
         {
           "text": "Accessories",
-          "link": "/products/accessories"
+          "link": "/products/accessories.html"
         }
       ]
     },
@@ -42,50 +42,68 @@
       "children": [
         {
           "text": "OEM Cut-and-Sew",
-          "link": "/services/oem"
+          "link": "/services/oem.html"
         },
         {
           "text": "ODM",
-          "link": "/services/odm"
+          "link": "/services/odm.html"
         },
         {
           "text": "Private Label",
-          "link": "/services/private-label"
+          "link": "/services/private-label.html"
         },
         {
           "text": "Small-Batch Sampling",
-          "link": "/services/sampling"
+          "link": "/services/sampling.html"
         },
         {
           "text": "Custom Print & Embroidery",
-          "link": "/services/printing"
+          "link": "/services/printing.html"
         },
         {
           "text": "Team Customization",
-          "link": "/services/team-customization"
+          "link": "/services/team-customization.html"
         },
         {
           "text": "Tech-Pack & Pattern",
-          "link": "/services/tech-pack"
+          "link": "/services/tech-pack.html"
+        }
+      ]
+    },
+    {
+      "text": "Industries",
+      "link": "#",
+      "children": [
+        {
+          "text": "Yoga Apparel Manufacturer",
+          "link": "/yoga-apparel-manufacturer"
+        },
+        {
+          "text": "Gym Clothing Manufacturer",
+          "link": "/gym-clothing-manufacturer"
+        },
+        {
+          "text": "Cycling Apparel Manufacturer",
+          "link": "/cycling-apparel-manufacturer"
         }
       ]
     },
     {
       "text": "About",
-      "link": "/about"
+      "link": "/about.html"
     },
     {
       "text": "Blog",
-      "link": "/blog"
+      "link": "/blog.html"
     },
     {
       "text": "Contact",
-      "link": "/contact"
+      "link": "/contact.html"
     }
   ],
   "ctaButton": {
     "text": "Send Tech-Pack",
-    "link": "/contact",
+    "link": "/contact.html",
     "style": "primary"
   }
 }
