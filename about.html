@@ -142,6 +142,7 @@
     .ed__i img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:8px}
     @media(max-width:575px){.ed__i{grid-template-columns:1fr}}
 
+    .ops-parent>.shd{margin-bottom:clamp(20px,3vw,32px)}
     /* Ops rows (S3 zigzag text+images) */
     .ops{display:flex;flex-direction:column;gap:clamp(32px,4vw,56px)}
     .ops-row{display:grid;grid-template-columns:1fr 1fr;gap:clamp(24px,4vw,48px);align-items:center}
@@ -329,7 +330,7 @@
 
     <!-- S3: OPERATIONS & CULTURE -->
     <section class="sec sec--t" aria-labelledby="s3-h2">
-      <div class="ctr">
+      <div class="ctr ops-parent">
         <div class="shd rv"><span class="srl">Daily Operations</span><h2 class="sh2" id="s3-h2">How 280 People Run 12 Lines Every Day</h2><p class="ssu">Line allocation, shift scheduling, fabric intake, and QC rotation &mdash; the operating system behind every PO.</p></div>
         <div class="ops">
           <!-- Row 1: Line Allocation — images left, text right -->
@@ -413,7 +414,7 @@
 
     <!-- S5: QC SYSTEM ORIGIN STORY -->
     <section class="sec sec--w" aria-labelledby="s5-h2">
-      <div class="ctr">
+      <div class="ctr ops-parent">
         <div class="shd rv"><span class="srl">Quality System</span><h2 class="sh2" id="s5-h2">32 Inspectors and a Lab Built from One Bad Batch</h2><p class="ssu">Y.Z. started with 3 part-time inspectors in 2018. A color-drift incident that cost a client 40% of a shipment turned QC from a checklist into a system.</p></div>
         <div class="ops">
           <!-- Row 1: The Incident — text left, images right -->
