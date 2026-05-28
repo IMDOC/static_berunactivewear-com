@@ -374,7 +374,8 @@
     .fc__b{display:flex;justify-content:center;flex-wrap:wrap;gap:12px;margin-bottom:20px}
     .fc__tr{font-size:.8125rem;color:rgba(250,247,242,.55);letter-spacing:.02em}
     .fc__tr span{margin:0 6px;opacity:.4}
-    .fc__form{max-width:640px;margin:28px auto 24px;background:rgba(255,255,255,.075);border:1px solid rgba(255,255,255,.16);border-radius:14px;padding:clamp(20px,3vw,32px);box-shadow:0 24px 60px rgba(0,0,0,.22),inset 0 1px 0 rgba(255,255,255,.08)}
+    .fc__form{max-width:1080px;margin:28px auto 24px;background:rgba(255,255,255,.075);border:1px solid rgba(255,255,255,.16);border-radius:14px;padding:clamp(20px,3vw,32px);box-shadow:0 24px 60px rgba(0,0,0,.22),inset 0 1px 0 rgba(255,255,255,.08);display:grid;grid-template-columns:minmax(0,1.18fr) minmax(300px,.82fr);gap:clamp(20px,3vw,34px);align-items:stretch;text-align:left}
+    .fc__form form{min-width:0}
     .fc__fields{display:grid;grid-template-columns:1fr 1fr;gap:14px}
     .fc__field{display:flex;flex-direction:column;text-align:left}
     .fc__field--full{grid-column:1/-1}
@@ -383,7 +384,19 @@
     .fc__form input::placeholder,.fc__form textarea::placeholder{color:rgba(255,255,255,.35)}
     .fc__form input:focus,.fc__form textarea:focus{outline:none;border-color:#FFD166;background:rgba(255,255,255,.12);box-shadow:0 0 0 3px rgba(255,209,102,.14)}
     .fc__form textarea{resize:vertical;min-height:72px}
-    @media(max-width:575px){.fc__fields{grid-template-columns:1fr}}
+    .fc__side{position:relative;overflow:hidden;border:1px solid rgba(255,255,255,.14);border-radius:12px;background:linear-gradient(180deg,rgba(255,255,255,.11),rgba(255,255,255,.055));padding:clamp(20px,2.4vw,28px);display:flex;flex-direction:column;gap:18px}
+    .fc__side::after{content:"";position:absolute;right:-80px;top:-80px;width:180px;height:180px;border-radius:50%;background:radial-gradient(circle,rgba(255,209,102,.18),transparent 68%);pointer-events:none}
+    .fc__side-k{font-size:.72rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#FFD166}
+    .fc__side-h{font-size:clamp(1.15rem,1.5vw,1.45rem);line-height:1.22;color:#fff;margin:0;letter-spacing:0}
+    .fc__side-p{font-size:.92rem;line-height:1.65;color:rgba(250,247,242,.72);margin:0}
+    .fc__checks{list-style:none;padding:0;margin:2px 0 0;display:grid;gap:12px}
+    .fc__checks li{display:flex;gap:10px;align-items:flex-start;color:rgba(250,247,242,.84);font-size:.9rem;line-height:1.45}
+    .fc__checks i{color:#FFD166;flex:0 0 auto;margin-top:2px}
+    .fc__mini{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:auto}
+    .fc__mini-item{border:1px solid rgba(255,255,255,.12);border-radius:10px;padding:12px;background:rgba(0,0,0,.12)}
+    .fc__mini-num{display:block;font-size:1.25rem;font-weight:800;color:#fff;line-height:1}
+    .fc__mini-lbl{display:block;margin-top:6px;font-size:.7rem;line-height:1.3;color:rgba(250,247,242,.58);text-transform:uppercase;letter-spacing:.04em}
+    @media(max-width:767px){.fc__form{grid-template-columns:1fr}.fc__side{order:-1}.fc__fields{grid-template-columns:1fr}}
 
     /* image fallback placeholder */
     .img-ph{background:#F3F4F6;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;border-radius:8px;border:1px dashed #D1D5DB}
@@ -441,7 +454,7 @@
     <!-- S2: 5-SECOND DISQUALIFIER -->
     <section class="sec sec--t" aria-labelledby="s2-h2" id="s2">
       <div class="ctr">
-        <div class="shd rv"><span class="srl">5-second scorecard</span><h2 class="sh2" id="s2-h2">Six numbers your last factory wouldn't put on a webpage.</h2><p class="ssu">Every PO carries a per-batch AQL 2.5 report and a spectrophotometer &Delta;E log. Pull them at any stage &mdash; sample, mid-production, or pre-shipment.</p></div>
+        <div class="shd rv"><span class="srl">5-second scorecard</span><h2 class="sh2" id="s2-h2">Custom Activewear Manufacturer Tolerances</h2><p class="ssu">Six numbers your last factory wouldn't put on a webpage.</p></div>
         <div class="dw__hero rv">
           <div class="dw__hero-main"><img src="https://app.grapesjs.com/api/assets/random-image?query=textile-laboratory&w=1200&h=520&seed=s2hero" alt="Spectrophotometer reading delta E 1.3 next to fabric swatch and lab dip" width="1200" height="520" loading="lazy"></div>
           <div class="dw__hero-sm"><img src="/assets/images/garment-qc-measurement.webp" alt="QC inspector measuring garment POM points with measuring tape" width="600" height="450" loading="lazy"></div>
@@ -468,7 +481,7 @@
     <!-- S4: PRODUCT FAMILY -->
     <section class="sec sec--w" aria-labelledby="s4-h2" id="s4">
       <div class="ctr">
-        <div class="shd rv"><span class="srl">Product breadth</span><h2 class="sh2" id="s4-h2">Five families running side-by-side on the same floor.</h2><p class="ssu">Each family runs its own pattern team and fabric library, but shares the 32 QC inspectors and same lab dip lane. Click any family for subcategory specs.</p></div>
+        <div class="shd rv"><span class="srl">Product breadth</span><h2 class="sh2" id="s4-h2">Custom Activewear Product Families</h2><p class="ssu">Five families running side-by-side on the same floor.</p></div>
         <div class="pf">
           <div class="pf__c rv">
             <div class="pf__im"><img src="/assets/images/product-training-performance.webp" alt="Black performance leggings with cross-grain stretch texture" width="600" height="450" loading="lazy"></div>
@@ -522,7 +535,7 @@
     <!-- S5: PRODUCTION SERVICES -->
     <section class="sec sec--t" aria-labelledby="s5-h2" id="s5">
       <div class="ctr">
-        <div class="shd rv"><span class="srl">Service tracks</span><h2 class="sh2" id="s5-h2">Seven service tracks for repeat clients.</h2><p class="ssu">Whether you bring a tech-pack, a sketch, or a sample you want repeated &mdash; there's a track that starts where you are. Sampling at USD&nbsp;45, 5 working days on fabric-on-stock.</p></div>
+        <div class="shd rv"><span class="srl">Service tracks</span><h2 class="sh2" id="s5-h2">OEM, ODM &amp; Private Label Manufacturing Services</h2><p class="ssu">Seven service tracks for repeat clients.</p></div>
         <div class="sv">
           <div class="sv__c rv"><i class="bi bi-scissors sv__ic"></i><h3 class="sv__h">OEM (Cut-and-Sew)</h3><p class="sv__de">You send tech-pack and approved lab dip; we cut-and-sew to spec.</p><div class="sv__meta">MOQ 300/SKU total piece<br>Lead 35-42 days (fabric-on-stock)</div><a href="/services/oem-cut-and-sew" class="sv__lk">See service spec &rarr;</a></div>
           <div class="sv__c rv"><i class="bi bi-palette2 sv__ic"></i><h3 class="sv__h">ODM</h3><p class="sv__de">Pick from our pattern library, swap color, fabric or logo, skip the pattern-making cycle.</p><div class="sv__meta">MOQ 200/SKU<br>Lead 30-40 days</div><a href="/services/odm" class="sv__lk">See service spec &rarr;</a></div>
@@ -539,7 +552,7 @@
     <!-- S6: CAPACITY DATASHEET -->
     <section class="sec sec--w" aria-labelledby="s6-h2" id="s6">
       <div class="ctr">
-        <div class="shd rv"><span class="srl">Factory at a glance</span><h2 class="sh2" id="s6-h2">Copy these rows into your supplier scorecard.</h2><p class="ssu">Send this row-for-row to your sourcing manager. Every number here is audit-verifiable on-site and writable into the MSA.</p></div>
+        <div class="shd rv"><span class="srl">Factory at a glance</span><h2 class="sh2" id="s6-h2">Activewear Factory Capacity Datasheet</h2><p class="ssu">Copy these rows into your supplier scorecard.</p></div>
         <div class="cd">
           <div class="cd__tbl rv">
             <div class="cd__row"><div class="cd__lbl">Metric</div><div class="cd__val">Value</div></div>
@@ -580,7 +593,7 @@
     <!-- S8: COMMON PROBLEMS → HOW WE SOLVE -->
     <section class="sec sec--t" aria-labelledby="s8-h2" id="s8">
       <div class="ctr">
-        <div class="shd rv"><span class="srl">Problems &rarr; solutions</span><h2 class="sh2" id="s8-h2">Six problems sourcing directors keep flagging &mdash; and how our setup answers each.</h2><p class="ssu">Not a knock on other factories &mdash; this is what we made public. Compare row-for-row against your shortlist scorecard.</p></div>
+        <div class="shd rv"><span class="srl">Problems &rarr; solutions</span><h2 class="sh2" id="s8-h2">Common Activewear Manufacturing Problems Solved</h2><p class="ssu">Six problems sourcing directors keep flagging &mdash; and how our setup answers each.</p></div>
         <div class="cp rv">
           <div class="cp__head">
             <div>Problem</div>
@@ -624,7 +637,7 @@
     <!-- S9: SOURCING PROCESS -->
     <section class="sec sec--w" aria-labelledby="s9-h2" id="s9">
       <div class="ctr">
-        <div class="shd rv"><span class="srl">From inquiry to delivery</span><h2 class="sh2" id="s9-h2">From first email to delivered cartons &mdash; five steps over 50 to 58 days.</h2><p class="ssu">We welcome first-time overseas sourcing. No tech-pack? Step 1 covers that. We name what we do and what you do at every stage &mdash; no jargon.</p></div>
+        <div class="shd rv"><span class="srl">From inquiry to delivery</span><h2 class="sh2" id="s9-h2">Activewear Sourcing Process: Tech-Pack to Bulk</h2><p class="ssu">From first email to delivered cartons &mdash; five steps over 50 to 58 days.</p></div>
         <div class="ps__bar rv" aria-hidden="true">
           <div class="ps__dot"><div class="ps__d">1</div><div class="ps__l">Inquiry</div><div class="ps__t">Day 0-3</div></div>
           <div class="ps__dot"><div class="ps__d">2</div><div class="ps__l">Sample</div><div class="ps__t">Day 4-9</div></div>
@@ -700,7 +713,7 @@
     <!-- S10: CERTIFICATIONS -->
     <section class="sec sec--t" aria-labelledby="s10-h2" id="s10">
       <div class="ctr">
-        <div class="shd rv"><span class="srl">Compliance on file</span><h2 class="sh2" id="s10-h2">Five certifications on file &mdash; request the PDFs by name.</h2><p class="ssu">Sourcing for US retailers, EU marketplaces, or Amazon brand-registry compliance? These five are audit-checked annually.</p></div>
+        <div class="shd rv"><span class="srl">Compliance on file</span><h2 class="sh2" id="s10-h2">Activewear Manufacturer Certifications</h2><p class="ssu">Five certifications on file &mdash; request the PDFs by name.</p></div>
         <div class="cb rv">
           <div class="cb__c"><img src="/assets/images/certificate-oeko-tex-preview.webp" alt="OEKO-TEX Standard 100 certificate" width="200" height="133" loading="lazy"><span>OEKO-TEX</span></div>
           <div class="cb__c"><img src="/assets/images/certificate-bsci-preview.webp" alt="BSCI certificate" width="200" height="133" loading="lazy"><span>BSCI</span></div>
@@ -737,7 +750,7 @@
     <!-- S11: REAL LIFE EXAMPLES -->
     <section class="sec sec--w" aria-labelledby="s11-h2" id="s11">
       <div class="ctr">
-        <div class="shd rv"><span class="srl">Real POs</span><h2 class="sh2" id="s11-h2">Four POs that ran through this floor &mdash; anonymized but specific.</h2><p class="ssu">Different ICPs, different PO sizes, different first-orders &mdash; same line allocation, same QC team, same lab dip lane.</p></div>
+        <div class="shd rv"><span class="srl">Real POs</span><h2 class="sh2" id="s11-h2">Custom Activewear Manufacturer Case Studies</h2><p class="ssu">Different ICPs, different PO sizes, different first-orders &mdash; same line allocation, same QC team, same lab dip lane.</p></div>
         <div class="case">
           <div class="cn rv">
             <div class="cn__im"><img src="/assets/images/product-training-performance.webp" alt="4-color performance leggings stack on light background" width="700" height="420" loading="lazy"><span class="cn__tag">ICP-A &middot; Sourcing Director</span></div>
@@ -786,7 +799,7 @@
     <!-- S12: CLIENT VOICE -->
     <section class="sec sec--t" aria-labelledby="s12-h2" id="s12">
       <div class="ctr">
-        <div class="shd rv"><span class="srl">Client voice</span><h2 class="sh2" id="s12-h2">What sourcing-side counterparts say after PO 3.</h2></div>
+        <div class="shd rv"><span class="srl">Client voice</span><h2 class="sh2" id="s12-h2">Sourcing Director Reviews of Our Manufacturing</h2><p class="ssu">What sourcing-side counterparts say after PO 3.</p></div>
         <div class="qg">
           <div class="qc rv">
             <div class="qc__q">&ldquo;</div>
@@ -813,7 +826,7 @@
     <!-- S13: MARKETS + CLIENT MIX -->
     <section class="sec sec--w" aria-labelledby="s13-h2" id="s13">
       <div class="ctr">
-        <div class="shd rv"><span class="srl">Reach &amp; mix</span><h2 class="sh2" id="s13-h2">Eight years, five regions, five buyer types.</h2><p class="ssu">Twelve client brands listed below. Full reference list available after intro call.</p></div>
+        <div class="shd rv"><span class="srl">Reach &amp; mix</span><h2 class="sh2" id="s13-h2">Global Activewear Manufacturer Markets</h2><p class="ssu">Eight years, five regions, five buyer types.</p></div>
         <div class="lw rv">
           <span class="lw__i">Akarra Active</span>
           <span class="lw__i">Aspen Athletic Co.</span>
@@ -852,7 +865,7 @@
     <!-- S14: FAQ -->
     <section class="sec sec--t" aria-labelledby="s14-h2" id="s14">
       <div class="ctr">
-        <div class="shd rv"><span class="srl">FAQ</span><h2 class="sh2" id="s14-h2">Eight questions sourcing directors and first-time founders ask before PO 1.</h2><p class="ssu">Sourcing-side jargon translated in the answers. Link to the relevant section if you want depth.</p></div>
+        <div class="shd rv"><span class="srl">FAQ</span><h2 class="sh2" id="s14-h2">Custom Activewear Manufacturing FAQ</h2><p class="ssu">Eight questions sourcing directors and first-time founders ask before PO 1.</p></div>
         <div class="faq">
           <div class="faq__lead rv"><img src="https://app.grapesjs.com/api/assets/random-image?query=business-meeting-office&w=1200&h=520&seed=faq01" alt="Sourcing director seated across from Berun rep at factory office desk reviewing tech-pack documents" width="1200" height="520" loading="lazy"></div>
 
@@ -957,6 +970,22 @@
             </div>
             <button type="submit" class="btn btn--p" style="width:100%;margin-top:16px;">Send Your Inquiry</button>
           </form>
+          <aside class="fc__side" aria-label="What happens after you send the inquiry">
+            <div>
+              <div class="fc__side-k">RFQ handoff</div>
+              <h3 class="fc__side-h">What our team checks before replying</h3>
+              <p class="fc__side-p">The first reply should help you decide whether this factory is worth a deeper sourcing call.</p>
+            </div>
+            <ul class="fc__checks">
+              <li><i class="bi bi-check2-circle"></i><span>Product type, size curve, and realistic MOQ split</span></li>
+              <li><i class="bi bi-check2-circle"></i><span>Fabric direction, sample route, and pattern status</span></li>
+              <li><i class="bi bi-check2-circle"></i><span>Lead-time window, FOB assumptions, and QC records available</span></li>
+            </ul>
+            <div class="fc__mini">
+              <div class="fc__mini-item"><span class="fc__mini-num">1 day</span><span class="fc__mini-lbl">first reply</span></div>
+              <div class="fc__mini-item"><span class="fc__mini-num">NDA</span><span class="fc__mini-lbl">on request</span></div>
+            </div>
+          </aside>
         </div>
         <p class="fc__tr rv">Replies within 1 business day <span>&middot;</span> NDA on request <span>&middot;</span> Sample fee waived after first PO</p>
       </div>
