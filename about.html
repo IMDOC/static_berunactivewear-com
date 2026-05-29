@@ -397,6 +397,59 @@
     .fc__form input:focus,.fc__form textarea:focus{border-color:#FFD166;box-shadow:0 0 0 3px rgba(255,209,102,.14)}
     @media(max-width:767px){.ops-row,.pn,.zz{padding:18px}.ops-row,.ops-row--flip{grid-template-columns:1fr;gap:18px}.ops-row__text{padding:20px 18px}.ops-row__text::before{top:18px;bottom:18px}.hero__stats{grid-template-columns:repeat(2,minmax(0,1fr));padding:12px}.hero__stat:first-child{padding-left:clamp(10px,2vw,16px)}.hero__stat:last-child{grid-column:1/-1}.hero__ct .btn{flex:1 1 100%}.sh2::after{margin-top:14px}}
     @media(max-width:575px){body .wa-widget{right:14px!important;bottom:14px!important}body .wa-widget-button{width:56px!important;height:56px!important;min-width:56px!important;min-height:56px!important;padding:0!important;border-radius:50%!important;justify-content:center!important}body .wa-widget-button span{display:none!important}body .wa-widget-popup{right:0!important;width:calc(100vw - 28px)!important}}
+
+    /* ===== S1 ABOUT HERO — Single-Site Operating Record dashboard (page-unique concept) ===== */
+    .abh{position:relative;overflow:hidden;background:#0b1413;isolation:isolate;min-height:min(90vh,960px);display:flex;align-items:center}
+    .abh__bg{position:absolute;inset:0;z-index:-1}
+    .abh__bg img{width:100%;height:100%;object-fit:cover;object-position:55% 40%;filter:saturate(.85) contrast(1.05) brightness(.58)}
+    .abh__bg::after{content:"";position:absolute;inset:0;background:linear-gradient(104deg,rgba(7,14,13,.95) 0%,rgba(7,14,13,.86) 46%,rgba(7,14,13,.62) 100%),linear-gradient(180deg,rgba(7,14,13,.28),rgba(7,14,13,.82))}
+    .abh__in{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:clamp(36px,5vw,76px);align-items:center;padding:clamp(116px,14vh,170px) clamp(16px,3vw,32px) clamp(64px,8vh,96px)}
+    .abh__copy{display:flex;flex-direction:column;gap:clamp(15px,1.7vw,21px)}
+    .abh__ey{align-self:flex-start;display:inline-flex;align-items:center;gap:8px;padding:7px 13px;border:1px solid rgba(255,255,255,.18);border-radius:999px;background:rgba(255,255,255,.07);color:#F5BD2B;font-size:.72rem;font-weight:700;letter-spacing:.09em;text-transform:uppercase}
+    .abh__ey i{font-size:.85rem}
+    .abh__h1{font-size:clamp(2.05rem,3.3vw,3.35rem);font-weight:800;line-height:1.08;color:#fff;margin:0;max-width:17ch;text-wrap:balance;text-shadow:0 2px 20px rgba(0,0,0,.3)}
+    .abh__h1 em{font-style:normal;color:#F5BD2B}
+    .abh__sub{font-size:clamp(.96rem,.5vw+.88rem,1.14rem);line-height:1.62;color:rgba(245,247,244,.85);margin:0;max-width:55ch}
+    .abh__sub a{color:#F5BD2B;text-decoration:underline;text-underline-offset:2px}
+    .abh__cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:6px}
+    .abh__trust{display:flex;flex-wrap:wrap;align-items:center;gap:9px 18px;margin-top:6px;font-size:.78rem;color:rgba(245,247,244,.62);letter-spacing:.01em}
+    .abh__trust span{display:inline-flex;align-items:center}
+    .abh__trust i{color:#F5BD2B;margin-right:6px;font-size:.9rem}
+    /* operating-record dashboard panel */
+    .abh__panel{position:relative;border:1px solid rgba(255,255,255,.14);border-radius:16px;background:linear-gradient(180deg,rgba(18,30,28,.74),rgba(10,18,17,.62));backdrop-filter:blur(14px);box-shadow:0 30px 72px rgba(0,0,0,.44),inset 0 1px 0 rgba(255,255,255,.08);padding:clamp(20px,2.3vw,28px);overflow:hidden}
+    .abh__panel::after{content:"";position:absolute;right:-90px;top:-90px;width:220px;height:220px;border-radius:50%;background:radial-gradient(circle,rgba(213,31,42,.17),transparent 68%);pointer-events:none}
+    .abh__ptop{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-bottom:14px;border-bottom:1px solid rgba(255,255,255,.12)}
+    .abh__pk{font-size:.68rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:rgba(245,247,244,.6)}
+    .abh__prec{display:inline-flex;align-items:center;gap:7px;font-size:.74rem;font-weight:700;color:#fff}
+    .abh__prec b{color:#F5BD2B}
+    .abh__live{width:8px;height:8px;border-radius:50%;background:#36d399;box-shadow:0 0 0 0 rgba(54,211,153,.5);animation:abhpulse 2.4s infinite}
+    @keyframes abhpulse{0%{box-shadow:0 0 0 0 rgba(54,211,153,.5)}70%{box-shadow:0 0 0 8px rgba(54,211,153,0)}100%{box-shadow:0 0 0 0 rgba(54,211,153,0)}}
+    @media(prefers-reduced-motion:reduce){.abh__live{animation:none}}
+    /* signature visual: workforce composition bar (sums to 280) */
+    .abh__wf{margin:18px 0 4px}
+    .abh__wfh{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:11px}
+    .abh__wfh b{font-size:1.55rem;font-weight:800;color:#fff;line-height:1}
+    .abh__wfh b em{font-style:normal;color:#F5BD2B;margin-left:1px}
+    .abh__wfh span{font-size:.7rem;color:rgba(245,247,244,.58);text-transform:uppercase;letter-spacing:.05em}
+    .abh__bar{display:flex;height:16px;border-radius:6px;overflow:hidden;border:1px solid rgba(255,255,255,.16)}
+    .abh__bar i{display:block;height:100%}
+    .abh__bar i+i{border-left:1px solid rgba(7,14,13,.6)}
+    .abh__s1{background:linear-gradient(180deg,#E2434E,#C91823)}
+    .abh__s2{background:linear-gradient(180deg,#56655f,#3a4742)}
+    .abh__s3{background:linear-gradient(180deg,#83938c,#62716a)}
+    .abh__s4{background:linear-gradient(180deg,#F5BD2B,#D99A12)}
+    .abh__s5{background:linear-gradient(180deg,#9bb0a8,#778b82)}
+    .abh__legend{display:grid;grid-template-columns:1fr 1fr;gap:7px 16px;margin-top:14px}
+    .abh__lg{display:flex;align-items:center;gap:8px;font-size:.76rem;color:rgba(245,247,244,.82);line-height:1.3}
+    .abh__lg i{width:9px;height:9px;border-radius:2px;flex:0 0 auto}
+    .abh__lg b{color:#fff;font-weight:700;margin-right:3px}
+    /* mini capability cells */
+    .abh__cells{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:16px;padding-top:16px;border-top:1px solid rgba(255,255,255,.1)}
+    .abh__cell b{display:block;font-size:1.16rem;font-weight:800;color:#fff;line-height:1}
+    .abh__cell b em{font-style:normal;color:#F5BD2B}
+    .abh__cell span{display:block;margin-top:5px;font-size:.65rem;color:rgba(245,247,244,.56);text-transform:uppercase;letter-spacing:.04em;line-height:1.3}
+    @media(max-width:1099px){.abh__in{grid-template-columns:1fr;padding:clamp(104px,12vh,140px) clamp(16px,3vw,28px) clamp(52px,7vh,80px)}.abh__panel{order:2}}
+    @media(max-width:575px){.abh__h1{font-size:clamp(1.78rem,7vw,2.3rem)}.abh__cta .btn{flex:1 1 100%}.abh__legend{grid-template-columns:1fr}.abh__cells{grid-template-columns:1fr 1fr}.abh__cells .abh__cell:last-child{grid-column:1/-1}}
     </style>
 </head>
 <body>
@@ -539,43 +592,60 @@
 
   <main id="main">
 
-    <!-- S1: HERO -->
-    <section class="hero" aria-labelledby="about-h1">
-      <picture class="hero__bg" aria-hidden="true">
+    <!-- S1: HERO — Single-Site Operating Record dashboard (page-unique concept) -->
+    <section class="abh" aria-labelledby="about-h1">
+      <picture class="abh__bg" aria-hidden="true">
         <img src="/assets/images/hero-factory-bg.webp" alt="" width="1920" height="1080" loading="eager" fetchpriority="high" decoding="sync">
       </picture>
-      <div class="ctr hero__in">
-        <div class="hero__cp">
-          <span class="hero__ey ar d1">Inside the factory behind your next order</span>
-          <h1 class="hero__h1 ar d2" id="about-h1">Custom Activewear Manufacturer &mdash; 280&nbsp;People, 12&nbsp;Lines, One Factory Floor</h1>
-          <p class="hero__sb ar d3">OEM, ODM, and private label production &mdash; cut, sewn, printed, inspected, and packed in one 8,500&nbsp;m² facility. Walk the floor, meet the team, see the QC system. <a href="/services">Full service lineup &rarr;</a></p>
-          <div class="hero__ct ar d4">
+      <div class="ctr abh__in">
+        <div class="abh__copy">
+          <span class="abh__ey ar d1"><i class="bi bi-building-check" aria-hidden="true"></i>Inside Berun Active Wear &middot; Operating since 2017</span>
+          <h1 class="abh__h1 ar d2" id="about-h1">One Site. 280&nbsp;People. <em>Eight Years</em> Accountable for Every Order.</h1>
+          <p class="abh__sub ar d3">We&rsquo;ve run cutting, sewing, printing, QC, and packing under one 8,500&nbsp;m² roof since day one &mdash; no broker, no sub-contracted floor you never see. This is the team and the system behind your activewear. <a href="/services">Full service lineup &rarr;</a></p>
+          <div class="abh__cta ar d4">
             <a href="#inquiry-form" class="btn btn--p">Book a Virtual Factory Tour</a>
-            <a href="/" class="btn btn--g">See Full Capability Spec <span aria-hidden="true">&rarr;</span></a>
+            <a href="/products.html" class="btn btn--g">See What We Make <span aria-hidden="true">&rarr;</span></a>
           </div>
-          <div class="hero__stats ar d5" role="list" aria-label="Factory key stats">
-            <div class="hero__stat" role="listitem">
-              <span class="hero__stat-num">8<em>+</em></span>
-              <span class="hero__stat-lbl">Years / Since 2017</span>
-            </div>
-            <div class="hero__stat" role="listitem">
-              <span class="hero__stat-num">12</span>
-              <span class="hero__stat-lbl">Production Lines</span>
-            </div>
-            <div class="hero__stat" role="listitem">
-              <span class="hero__stat-num">280<em>+</em></span>
-              <span class="hero__stat-lbl">Skilled Workers</span>
-            </div>
-            <div class="hero__stat" role="listitem">
-              <span class="hero__stat-num">380K<em>+</em></span>
-              <span class="hero__stat-lbl">PCS Monthly</span>
-            </div>
-            <div class="hero__stat" role="listitem">
-              <span class="hero__stat-num">8,500<em>m²</em></span>
-              <span class="hero__stat-lbl">Single Site</span>
-            </div>
+          <div class="abh__trust ar d5">
+            <span><i class="bi bi-patch-check" aria-hidden="true"></i>5 audited certifications</span>
+            <span><i class="bi bi-clipboard2-check" aria-hidden="true"></i>AQL 2.5 in-house lab</span>
+            <span><i class="bi bi-geo-alt" aria-hidden="true"></i>Single owner, single floor</span>
           </div>
         </div>
+
+        <aside class="abh__panel ar d4" aria-label="Berun Active Wear operating record">
+          <div class="abh__ptop">
+            <span class="abh__pk">Operating Record</span>
+            <span class="abh__prec"><span class="abh__live" aria-hidden="true"></span>Since 2017 &middot; <b>8 yrs</b></span>
+          </div>
+
+          <div class="abh__wf">
+            <div class="abh__wfh">
+              <b>280<em>&nbsp;people</em></b>
+              <span>One payroll &middot; one floor</span>
+            </div>
+            <div class="abh__bar" role="img" aria-label="Workforce composition: 180 machinists, 36 cutting and pattern, 24 print and embroidery, 32 QC inspectors, 8 lab technicians">
+              <i class="abh__s1" style="width:64.3%"></i>
+              <i class="abh__s2" style="width:12.9%"></i>
+              <i class="abh__s3" style="width:8.6%"></i>
+              <i class="abh__s4" style="width:11.4%"></i>
+              <i class="abh__s5" style="width:2.8%"></i>
+            </div>
+            <div class="abh__legend">
+              <span class="abh__lg"><i class="abh__s1"></i><b>180</b>Machinists &middot; 12 lines</span>
+              <span class="abh__lg"><i class="abh__s2"></i><b>36</b>Cutting &amp; pattern</span>
+              <span class="abh__lg"><i class="abh__s3"></i><b>24</b>Print &amp; embroidery</span>
+              <span class="abh__lg"><i class="abh__s4"></i><b>32</b>QC inspectors</span>
+              <span class="abh__lg"><i class="abh__s5"></i><b>8</b>Lab technicians</span>
+            </div>
+          </div>
+
+          <div class="abh__cells">
+            <div class="abh__cell"><b>12</b><span>Production lines</span></div>
+            <div class="abh__cell"><b>380K<em>+</em></b><span>Pcs / month</span></div>
+            <div class="abh__cell"><b>8,500<em>&nbsp;m²</em></b><span>Single site</span></div>
+          </div>
+        </aside>
       </div>
     </section>
 
