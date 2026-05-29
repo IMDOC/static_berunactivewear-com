@@ -201,6 +201,26 @@
     .pf__lk:hover{color:var(--c1d)}
     @media(max-width:991px){.pf{grid-template-columns:repeat(2,1fr)}}
     @media(max-width:575px){.pf{grid-template-columns:1fr}}
+    /* Activewear range — category tiles linking to industry + product pages */
+    .catwrap{margin-top:clamp(30px,3.4vw,46px)}
+    .catwrap+.catwrap{margin-top:clamp(22px,2.4vw,32px)}
+    .catlbl{display:flex;align-items:center;gap:12px;font-size:.78rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--c2);margin:0 0 15px}
+    .catlbl b{color:var(--c1);font-weight:700}
+    .catlbl::after{content:"";flex:1;height:1px;background:var(--bd)}
+    .catgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .catgrid--4{grid-template-columns:repeat(4,1fr)}
+    .cat{position:relative;display:block;aspect-ratio:4/3;border-radius:12px;overflow:hidden;text-decoration:none;border:1px solid var(--bd);box-shadow:var(--ring);isolation:isolate}
+    .cat img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;background:var(--bt);transition:transform .45s ease}
+    .cat:hover img{transform:scale(1.05)}
+    .cat__ov{position:absolute;inset:0;background:linear-gradient(180deg,rgba(17,29,27,0) 26%,rgba(17,29,27,.5) 60%,rgba(17,29,27,.9) 100%)}
+    .cat__bd{position:absolute;left:0;right:0;bottom:0;z-index:1;padding:clamp(13px,1.4vw,17px)}
+    .cat__t{display:block;font-size:1rem;font-weight:800;color:#fff;margin:0;line-height:1.2;letter-spacing:-.01em}
+    .cat__s{display:block;font-size:.76rem;color:rgba(255,255,255,.84);margin:4px 0 0;line-height:1.35}
+    .cat__go{position:absolute;top:11px;right:11px;width:30px;height:30px;border-radius:50%;background:rgba(255,255,255,.94);color:var(--c1);display:grid;place-items:center;font-size:.85rem;opacity:0;transform:translateY(-5px);transition:opacity .25s ease,transform .25s ease}
+    .cat:hover .cat__go{opacity:1;transform:translateY(0)}
+    .cat:focus-visible{outline:3px solid var(--c1);outline-offset:2px}
+    @media(max-width:991px){.catgrid,.catgrid--4{grid-template-columns:repeat(2,1fr)}}
+    @media(max-width:575px){.catgrid,.catgrid--4{grid-template-columns:1fr}}
 
     /* S5 SERVICES */
     .sv{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-bottom:clamp(32px,4vw,48px)}
@@ -640,6 +660,68 @@
               <div class="pf__tags"><span class="pf__tag">headband</span><span class="pf__tag">arm sleeve</span><span class="pf__tag">socks</span><span class="pf__tag">cap</span></div>
               <a href="/products/accessories" class="pf__lk">View Family &rarr;</a>
             </div>
+          </div>
+        </div>
+
+        <div class="catwrap">
+          <p class="catlbl">Activewear we manufacture <b>by sport &amp; discipline</b></p>
+          <div class="catgrid">
+            <a class="cat rv" href="/yoga-apparel-manufacturer">
+              <img src="https://grapesjs.com/api/assets/random-image?query=custom-yoga-activewear-studio-leggings&w=600&h=450" alt="Custom yoga activewear and leggings manufacturing" width="600" height="450" loading="lazy" onerror="this.onerror=null;this.src='/assets/images/product-training-performance.webp'">
+              <span class="cat__ov"></span><span class="cat__go" aria-hidden="true">&rarr;</span>
+              <span class="cat__bd"><span class="cat__t">Yoga Apparel</span><span class="cat__s">Squat-proof yoga &amp; studio activewear</span></span>
+            </a>
+            <a class="cat rv" href="/gym-clothing-manufacturer">
+              <img src="https://grapesjs.com/api/assets/random-image?query=gym-training-sportswear-workout-athlete&w=600&h=450" alt="Custom gym training sportswear manufacturing" width="600" height="450" loading="lazy" onerror="this.onerror=null;this.src='/assets/images/product-training-performance.webp'">
+              <span class="cat__ov"></span><span class="cat__go" aria-hidden="true">&rarr;</span>
+              <span class="cat__bd"><span class="cat__t">Gym Clothing</span><span class="cat__s">Abrasion-tested gym training wear</span></span>
+            </a>
+            <a class="cat rv" href="/cycling-apparel-manufacturer">
+              <img src="https://grapesjs.com/api/assets/random-image?query=cycling-jersey-road-race-team-kit&w=600&h=450" alt="Custom cycling jersey and race kit manufacturing" width="600" height="450" loading="lazy" onerror="this.onerror=null;this.src='/assets/images/product-outdoor-running.webp'">
+              <span class="cat__ov"></span><span class="cat__go" aria-hidden="true">&rarr;</span>
+              <span class="cat__bd"><span class="cat__t">Cycling Apparel</span><span class="cat__s">Aero race-fit cycling kit</span></span>
+            </a>
+            <a class="cat rv" href="/soccer-apparel-manufacturer">
+              <img src="https://grapesjs.com/api/assets/random-image?query=soccer-team-jersey-sportswear-kit&w=600&h=450" alt="Custom soccer team jersey and kit manufacturing" width="600" height="450" loading="lazy" onerror="this.onerror=null;this.src='/assets/images/product-team-club.webp'">
+              <span class="cat__ov"></span><span class="cat__go" aria-hidden="true">&rarr;</span>
+              <span class="cat__bd"><span class="cat__t">Soccer Apparel</span><span class="cat__s">Sublimated soccer team kits</span></span>
+            </a>
+            <a class="cat rv" href="/basketball-apparel-manufacturer">
+              <img src="https://grapesjs.com/api/assets/random-image?query=basketball-team-uniform-sportswear-jersey&w=600&h=450" alt="Custom basketball team uniform manufacturing" width="600" height="450" loading="lazy" onerror="this.onerror=null;this.src='/assets/images/product-team-club.webp'">
+              <span class="cat__ov"></span><span class="cat__go" aria-hidden="true">&rarr;</span>
+              <span class="cat__bd"><span class="cat__t">Basketball Apparel</span><span class="cat__s">Reversible basketball uniforms</span></span>
+            </a>
+            <a class="cat rv" href="/custom-streetwear-manufacturer">
+              <img src="https://grapesjs.com/api/assets/random-image?query=athletic-streetwear-heavyweight-hoodie-drop&w=600&h=450" alt="Custom athletic streetwear manufacturing" width="600" height="450" loading="lazy" onerror="this.onerror=null;this.src='/assets/images/product-athleisure.webp'">
+              <span class="cat__ov"></span><span class="cat__go" aria-hidden="true">&rarr;</span>
+              <span class="cat__bd"><span class="cat__t">Custom Streetwear</span><span class="cat__s">Heavyweight athletic streetwear</span></span>
+            </a>
+          </div>
+        </div>
+
+        <div class="catwrap">
+          <p class="catlbl">Top activewear SKUs <b>by product category</b></p>
+          <div class="catgrid catgrid--4">
+            <a class="cat rv" href="/custom-yoga-pants-manufacturer">
+              <img src="https://grapesjs.com/api/assets/random-image?query=athletic-leggings-yoga-pants-activewear&w=600&h=450" alt="Custom yoga pants and leggings manufacturer" width="600" height="450" loading="lazy" onerror="this.onerror=null;this.src='/assets/images/product-training-performance.webp'">
+              <span class="cat__ov"></span><span class="cat__go" aria-hidden="true">&rarr;</span>
+              <span class="cat__bd"><span class="cat__t">Yoga Pants &amp; Leggings</span><span class="cat__s">Squat-proof performance leggings</span></span>
+            </a>
+            <a class="cat rv" href="/wholesale-sports-bras">
+              <img src="https://grapesjs.com/api/assets/random-image?query=womens-sports-bra-activewear-support&w=600&h=450" alt="Wholesale sports bra manufacturer" width="600" height="450" loading="lazy" onerror="this.onerror=null;this.src='/assets/images/product-training-performance.webp'">
+              <span class="cat__ov"></span><span class="cat__go" aria-hidden="true">&rarr;</span>
+              <span class="cat__bd"><span class="cat__t">Sports Bras</span><span class="cat__s">Low-to-high-impact activewear support</span></span>
+            </a>
+            <a class="cat rv" href="/custom-compression-clothing">
+              <img src="https://grapesjs.com/api/assets/random-image?query=athletic-compression-sportswear-baselayer&w=600&h=450" alt="Custom compression sportswear manufacturer" width="600" height="450" loading="lazy" onerror="this.onerror=null;this.src='/assets/images/product-training-performance.webp'">
+              <span class="cat__ov"></span><span class="cat__go" aria-hidden="true">&rarr;</span>
+              <span class="cat__bd"><span class="cat__t">Compression Wear</span><span class="cat__s">Graduated compression sportswear</span></span>
+            </a>
+            <a class="cat rv" href="/custom-mens-hoodies-manufacturer">
+              <img src="https://grapesjs.com/api/assets/random-image?query=mens-athletic-hoodie-sportswear-heavyweight&w=600&h=450" alt="Custom men's athletic hoodie manufacturer" width="600" height="450" loading="lazy" onerror="this.onerror=null;this.src='/assets/images/product-athleisure.webp'">
+              <span class="cat__ov"></span><span class="cat__go" aria-hidden="true">&rarr;</span>
+              <span class="cat__bd"><span class="cat__t">Men's Hoodies</span><span class="cat__s">Heavyweight men's athletic hoodies</span></span>
+            </a>
           </div>
         </div>
       </div>
