@@ -15,7 +15,7 @@
       { text: 'Home', link: '/', active: true }
     ],
 
-    containerId: 'main-menu',
+    containerId: 'dynamic-menu-container',
 
     style: 'horizontal',
 
