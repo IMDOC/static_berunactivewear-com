@@ -29,28 +29,28 @@ route: A
 
 ### Card 1 — Headbands
 
-- **image**: [TODO: image of wide and slim headbands on neutral surface]
+- **image**: /assets/images/products/accessories-headband.webp
 - **H3**: Headbands
 - **desc**: "Wide and slim profiles in 180-220 GSM moisture-wicking knit. Silicone grip strip optional. Sublimation or solid dye."
 - **fabric_weight**: 180-220 GSM
 
 ### Card 2 — Arm Sleeves
 
-- **image**: [TODO: image of compression arm sleeve pair in two colorways]
+- **image**: /assets/images/products/accessories-arm-sleeves.webp
 - **H3**: Arm Sleeves
 - **desc**: "Compression-grade 200-240 GSM nylon/spandex. UPF 50+ option. Sold in pairs, size-graded S-XL."
 - **fabric_weight**: 200-240 GSM
 
 ### Card 3 — Socks
 
-- **image**: [TODO: image of crew, ankle, and no-show sock trio]
+- **image**: /assets/images/products/accessories-socks.webp
 - **H3**: Socks
 - **desc**: "Crew, ankle, and no-show in cushioned knit. Arch support band, reinforced heel and toe. Custom colorway and jacquard logo."
 - **fabric_weight**: cushioned knit
 
 ### Card 4 — Caps
 
-- **image**: [TODO: image of 5-panel and 6-panel caps side by side]
+- **image**: /assets/images/products/accessories-cap.webp
 - **H3**: Caps
 - **desc**: "5-panel and 6-panel structured caps. Cotton twill, performance mesh, or full-sublimation polyester. Embroidered or printed logo."
 - **fabric_weight**: varies by construction

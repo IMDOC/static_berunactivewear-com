@@ -29,35 +29,35 @@ route: A
 
 ### Card 1 — Leggings (Yoga / HIIT)
 
-- **image**: [TODO: image of full-length leggings flat-lay on neutral background]
+- **image**: /assets/images/products/training-leggings.webp
 - **H3**: Leggings (Yoga / HIIT)
 - **desc**: "Full-length and 7/8 cuts in 230-280 GSM compression knit. Gusseted crotch, flatlock seams, hidden waistband pocket. Available in high-rise and mid-rise waist."
 - **fabric_weight**: 230-280 GSM
 
 ### Card 2 — Sports Bras (Low / Mid / High Impact)
 
-- **image**: [TODO: image of three sports bras arranged by support tier]
+- **image**: /assets/images/products/training-sports-bra.webp
 - **H3**: Sports Bras (Low / Mid / High Impact)
 - **desc**: "Three support tiers with adjustable straps on mid and high impact, removable pads, and moisture-wicking mesh panels. Bonded or flatlock seam options."
 - **fabric_weight**: 200-260 GSM
 
 ### Card 3 — Joggers
 
-- **image**: [TODO: image of tapered jogger folded showing elastic cuff detail]
+- **image**: /assets/images/products/training-joggers.webp
 - **H3**: Joggers
 - **desc**: "Tapered fit, elastic cuff, drawstring waist. French terry or brushed fleece construction, side pockets with reinforced bartack stitching."
 - **fabric_weight**: 280-320 GSM
 
 ### Card 4 — Shorts (Training / Running)
 
-- **image**: [TODO: image of two shorts styles, 5-inch and 7-inch inseam]
+- **image**: /assets/images/products/training-shorts.webp
 - **H3**: Shorts (Training / Running)
 - **desc**: "5-inch and 7-inch inseams with optional built-in compression liner. Laser-cut ventilation panels, flat elastic waistband, internal drawcord."
 - **fabric_weight**: 180-220 GSM
 
 ### Card 5 — Compression Tops
 
-- **image**: [TODO: image of long-sleeve and sleeveless compression tops]
+- **image**: /assets/images/product-training-performance.webp
 - **H3**: Compression Tops
 - **desc**: "Second-skin fit with flatlock construction throughout. UV-blocking fabric options rated UPF 50+. Long-sleeve and sleeveless cuts, raglan or set-in sleeve."
 - **fabric_weight**: 200-240 GSM
@@ -95,10 +95,10 @@ route: A
 | Area | Detail |
 |------|--------|
 | Fabric Weight & Composition | Choose GSM within each garment's range; swap nylon/spandex ratio or add recycled content |
-| Color | Pantone matching with variance held to deltaE 1.5 or tighter across the full run |
+| Color | Lab dip, shade band and contrast-panel placement reviewed before approval sample |
 | Print Method | Sublimation, DTG, screen print, silicone, heat transfer — method matched to fabric type |
-| Label Kit | Custom hangtag, woven care label, printed size label, branded polybag |
-| Size Grading | Standard XS-XXL included; extended grading to 5XL available at same MOQ |
+| Label Kit | Care label and polybag copy matched to stretch fabric, cup insert and wash-care requirements |
+| Size Grading | Waistband, inseam, bust support and compression grading checked against the planned size curve |
 
 ---
 

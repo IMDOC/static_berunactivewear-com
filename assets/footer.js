@@ -122,6 +122,20 @@
 
     footer.innerHTML = `
       <div class="ft-container">
+        <div class="ft-proof" aria-label="Factory snapshot">
+          <div class="ft-proof-item">
+            <span class="ft-proof-num">2017</span>
+            <span class="ft-proof-label">factory floor since</span>
+          </div>
+          <div class="ft-proof-item">
+            <span class="ft-proof-num">12</span>
+            <span class="ft-proof-label">production lines</span>
+          </div>
+          <div class="ft-proof-item">
+            <span class="ft-proof-num">QC</span>
+            <span class="ft-proof-label">files shared during RFQ</span>
+          </div>
+        </div>
         <div class="ft-grid">
           ${generateCompanyHTML()}
           ${generateColumnsHTML()}
@@ -259,36 +273,80 @@
       
       .ft-footer {
         width: 100%;
-        background: ${config.backgroundColor};
+        background: radial-gradient(circle at 18% 0%, rgba(213, 31, 42, 0.18), transparent 32%), linear-gradient(135deg, ${config.backgroundColor} 0%, #101816 100%);
         color: ${config.textColor};
-        padding: 60px 0 30px;
+        padding: 56px 0 28px;
+        border-top: 1px solid rgba(255, 255, 255, 0.08);
       }
 
       .ft-container {
-        max-width: 1200px;
+        max-width: 1280px;
         margin: 0 auto;
-        padding: 0 20px;
+        padding: 0 clamp(18px, 3vw, 32px);
+      }
+
+      .ft-proof {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 0;
+        margin-bottom: 34px;
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        border-radius: 14px;
+        overflow: hidden;
+        background: rgba(255, 255, 255, 0.055);
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08);
+      }
+
+      .ft-proof-item {
+        padding: 18px clamp(16px, 2vw, 24px);
+        min-width: 0;
+      }
+
+      .ft-proof-item:not(:last-child) {
+        border-right: 1px solid rgba(255, 255, 255, 0.10);
+      }
+
+      .ft-proof-num {
+        display: block;
+        color: #ffffff;
+        font-size: clamp(1.35rem, 2vw, 1.9rem);
+        font-weight: 800;
+        line-height: 1;
+      }
+
+      .ft-proof-label {
+        display: block;
+        margin-top: 7px;
+        color: rgba(255, 255, 255, 0.58);
+        font-size: 0.72rem;
+        font-weight: 700;
+        letter-spacing: 0.06em;
+        line-height: 1.35;
+        text-transform: uppercase;
       }
 
       .ft-grid {
         display: grid;
-        grid-template-columns: 1.5fr 1fr 1fr 1.2fr;
-        gap: 40px;
-        margin-bottom: 40px;
+        grid-template-columns: minmax(280px, 1.4fr) repeat(3, minmax(145px, 0.72fr)) minmax(250px, 1fr);
+        gap: clamp(24px, 4vw, 52px);
+        margin-bottom: 34px;
+        align-items: start;
       }
 
       .ft-column {}
 
       .ft-logo {
-        width: 180px;
-        margin-bottom: 20px;
+        width: 172px;
+        margin-bottom: 18px;
+        filter: drop-shadow(0 8px 18px rgba(0, 0, 0, 0.2));
       }
 
       .ft-desc {
-        color: ${config.linkColor};
+        color: rgba(255, 255, 255, 0.68);
         font-size: 14px;
-        line-height: 1.6;
+        line-height: 1.7;
         margin-bottom: 20px;
+        max-width: 38ch;
       }
 
       .ft-social-icons {
@@ -299,8 +357,9 @@
       .ft-social-icons a {
         width: 40px;
         height: 40px;
-        background: rgba(255, 255, 255, 0.1);
-        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.08);
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        border-radius: 10px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -314,10 +373,12 @@
       }
 
       .ft-title {
-        font-size: 18px;
+        font-size: 0.78rem;
         font-weight: 700;
-        margin-bottom: 20px;
+        margin: 0 0 16px;
         color: ${config.textColor};
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
       }
 
       .ft-links {
@@ -327,14 +388,14 @@
       }
 
       .ft-links li {
-        margin-bottom: 12px;
+        margin-bottom: 10px;
       }
 
       .ft-links a {
-        color: ${config.linkColor};
+        color: rgba(255, 255, 255, 0.66);
         font-size: 14px;
         text-decoration: none;
-        transition: all 0.3s;
+        transition: color 0.2s ease, padding-left 0.2s ease;
       }
 
       .ft-links a:hover {
@@ -349,8 +410,8 @@
       }
 
       .ft-contact-list li {
-        margin-bottom: 15px;
-        color: ${config.linkColor};
+        margin-bottom: 13px;
+        color: rgba(255, 255, 255, 0.66);
         font-size: 14px;
         display: flex;
         align-items: flex-start;
@@ -359,13 +420,13 @@
 
       .ft-contact-list svg {
         flex-shrink: 0;
-        color: ${config.textColor};
+        color: ${config.brandColor};
         margin-top: 2px;
-        opacity: 0.8;
+        opacity: 1;
       }
 
       .ft-contact-list a {
-        color: ${config.linkColor};
+        color: rgba(255, 255, 255, 0.72);
         text-decoration: none;
         transition: color 0.3s;
       }
@@ -376,10 +437,14 @@
 
       .ft-bottom {
         border-top: 1px solid rgba(255, 255, 255, 0.1);
-        padding-top: 30px;
-        text-align: center;
-        color: ${config.linkColor};
+        padding-top: 22px;
+        text-align: left;
+        color: rgba(255, 255, 255, 0.52);
         font-size: 13px;
+      }
+
+      .ft-bottom p {
+        margin: 0;
       }
 
       .ft-bottom a {
@@ -393,9 +458,25 @@
         color: ${config.hoverColor};
       }
 
-      @media (max-width: 1024px) {
+      @media (max-width: 1180px) {
         .ft-grid {
-          grid-template-columns: repeat(2, 1fr);
+          grid-template-columns: minmax(220px, 1.35fr) repeat(3, minmax(115px, 0.8fr)) minmax(190px, 1fr);
+          gap: 22px;
+        }
+
+        .ft-contact {
+          grid-column: auto;
+          padding-top: 0;
+          border-top: 0;
+        }
+
+        .ft-contact-list li {
+          margin-bottom: 13px;
+          min-width: 0;
+        }
+
+        .ft-contact-list a {
+          overflow-wrap: anywhere;
         }
       }
 
@@ -404,9 +485,34 @@
           padding: 40px 0 20px;
         }
 
+        .ft-proof {
+          grid-template-columns: 1fr;
+          margin-bottom: 28px;
+        }
+
+        .ft-proof-item:not(:last-child) {
+          border-right: 0;
+          border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+        }
+
         .ft-grid {
           grid-template-columns: 1fr;
           gap: 30px;
+        }
+
+        .ft-company,
+        .ft-contact {
+          grid-column: auto;
+          padding-top: 0;
+          border-top: 0;
+        }
+
+        .ft-contact-list {
+          display: block;
+        }
+
+        .ft-contact-list li {
+          margin-bottom: 13px;
         }
 
         .ft-logo {

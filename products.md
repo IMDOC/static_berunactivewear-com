@@ -106,7 +106,7 @@ route: A
 
 | Stat | Label |
 |------|-------|
-| 380K | pcs / month |
+| RFQ | Capacity confirmed by product mix |
 | 12 | Production Lines |
 | 5 | Product Families |
 | 300+ | Silhouettes |

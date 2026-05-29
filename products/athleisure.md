@@ -29,35 +29,35 @@ route: A
 
 ### Card 1 — Tees
 
-- **image**: [TODO: image of oversized crew-neck tee flat-lay on neutral background]
+- **image**: /assets/images/products/athleisure-sweatshirt.webp
 - **H3**: Tees
 - **desc**: "Crew, V-neck, and oversized cuts in 160-220 GSM cotton-poly or tri-blend. Pre-shrunk, enzyme-washed options. Drop-shoulder and boxy silhouettes available."
 - **fabric_weight**: 160-220 GSM
 
 ### Card 2 — Hoodies
 
-- **image**: [TODO: image of pullover hoodie showing kangaroo pocket and ribbed cuff detail]
+- **image**: /assets/images/products/athleisure-hoodie.webp
 - **H3**: Hoodies
 - **desc**: "Pullover and zip-through in 280-360 GSM French terry or brushed fleece. Kangaroo pocket, drawstring hood, ribbed cuffs. Garment-dye and pigment-dye finishes available."
 - **fabric_weight**: 280-360 GSM
 
 ### Card 3 — Jackets
 
-- **image**: [TODO: image of lightweight zip-up jacket on hanger showing lining]
+- **image**: /assets/images/products/athleisure-sports-jacket.webp
 - **H3**: Jackets
 - **desc**: "Lightweight zip-up, bomber, and windbreaker silhouettes. Woven shell with knit lining option. YKK zippers, elastic-bound cuffs, internal stash pocket."
 - **fabric_weight**: 160-240 GSM
 
 ### Card 4 — Pullovers
 
-- **image**: [TODO: image of quarter-zip pullover folded showing mock-neck collar]
+- **image**: /assets/images/product-athleisure.webp
 - **H3**: Pullovers
 - **desc**: "Quarter-zip and mock-neck in 260-300 GSM brushed knit. Raglan or set-in sleeve construction. Rib-knit collar, hem, and cuffs."
 - **fabric_weight**: 260-300 GSM
 
 ### Card 5 — Sweatpants
 
-- **image**: [TODO: image of tapered sweatpants showing ribbed ankle and drawstring waist]
+- **image**: /assets/images/products/athleisure-lounge-pants.webp
 - **H3**: Sweatpants
 - **desc**: "Tapered and straight leg in 280-320 GSM French terry. Elastic waist with drawstring, side pockets, ribbed ankle cuff. Enzyme-washed and garment-dyed options."
 - **fabric_weight**: 280-320 GSM
@@ -95,10 +95,10 @@ route: A
 | Area | Detail |
 |------|--------|
 | Fabric Weight & Composition | Choose GSM within each garment's range; swap cotton/poly ratio or add recycled content |
-| Color | Pantone matching with variance held to deltaE 1.5 or tighter across the full run |
+| Color | Dye lot, garment-wash behavior and rib trim shade reviewed before production approval |
 | Print Method | Screen print, DTG, embroidery, heat transfer, silicone print — method matched to fabric weight |
-| Label Kit | Custom hangtag, woven care label, printed size label, branded polybag |
-| Size Grading | Standard XS-XXL included; extended grading to 5XL available at same MOQ |
+| Label Kit | Neck label, hem label, hangtag and bag copy checked against heavier knit care instructions |
+| Size Grading | Oversized fit, sleeve drop, body length and cuff tension reviewed with a separate grading rule |
 
 ---
 

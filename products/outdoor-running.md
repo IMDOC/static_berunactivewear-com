@@ -29,28 +29,28 @@ route: A
 
 ### Card 1 — Windbreakers
 
-- **image**: [TODO: image of packable windbreaker flat-lay showing hood and elastic cuff]
+- **image**: /assets/images/products/outdoor-windbreaker.webp
 - **H3**: Windbreakers
 - **desc**: "Lightweight woven shell, 50-80 GSM ripstop nylon or polyester. Packable design, elastic cuff, adjustable hem. DWR coating standard."
 - **fabric_weight**: 50-80 GSM
 
 ### Card 2 — Running Tights
 
-- **image**: [TODO: image of full-length running tights with reflective trim detail]
+- **image**: /assets/images/products/outdoor-running-tights.webp
 - **H3**: Running Tights
 - **desc**: "Full-length and 3/4 compression tights in 200-260 GSM nylon/spandex. Reflective trim, key pocket, flatlock seams."
 - **fabric_weight**: 200-260 GSM
 
 ### Card 3 — Singlets
 
-- **image**: [TODO: image of race-weight singlet on flat-lay showing laser-cut armhole]
+- **image**: /assets/images/products/outdoor-breathable-tee.webp
 - **H3**: Singlets
 - **desc**: "Race-weight tank tops in 120-160 GSM moisture-wicking mesh. Laser-cut armholes, bonded hems, sublimation-ready."
 - **fabric_weight**: 120-160 GSM
 
 ### Card 4 — Technical Shells
 
-- **image**: [TODO: image of softshell jacket on hanger showing 3-layer construction]
+- **image**: /assets/images/products/outdoor-reflective-vest.webp
 - **H3**: Technical Shells
 - **desc**: "Mid-weight softshell jackets, 180-240 GSM bonded polyester. 3-layer construction: woven face, membrane, knit backing. Seam-sealed."
 - **fabric_weight**: 180-240 GSM
@@ -88,10 +88,10 @@ route: A
 | Area | Detail |
 |------|--------|
 | Shell Fabric & DWR Grade | Choose ripstop weight, DWR level (C0 eco or C6 performance), membrane breathability rating |
-| Color | Pantone matching with variance held to deltaE 1.5; hi-vis and muted trail-tone palettes |
+| Color | Hi-vis, reflective and muted trail-tone colors reviewed under daylight and low-light inspection |
 | Print Method | Sublimation for singlets, heat transfer for shells and tights, reflective logo placement |
-| Label Kit | Custom hangtag, woven care label, printed size label, branded polybag |
-| Size Grading | Standard XS-XXL included; extended grading to 5XL available at same MOQ |
+| Label Kit | Care labels matched to DWR, reflective trim, zipper and membrane requirements |
+| Size Grading | Shell ease, compression fit and layer-over fit graded with separate rules |
 
 ---
 

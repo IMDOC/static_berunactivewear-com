@@ -18,7 +18,7 @@ route: A
   - H1 (主标题, 见 H2 字段)
   - Sub (副标题, 见 Sub 字段)
   - 主 CTA (L2): "Send Your Artwork Files"
-  - 次 CTA (L1): "Download print method guide (PDF)"
+  - 次 CTA (L1): "Request print method guide"
   - 微 trust 行 (CTA 下): "6 methods · 4 sublimation lines · combinable on same PO · OEKO-TEX tested inks"
 **配图位**: [Image: sublimation heat press mid-transfer on polyester jersey panel, operator positioning fabric on the platen, steam rising, factory floor visible in background with additional presses and fabric racks, 16:9, natural overhead lighting]
 **样式**: Full-width hero, desktop left 58% text + right 42% visual (sublimation press action shot with 25% #1F2937 overlay). H1 clamp(2.25rem, 3.8vw, 3.75rem) line-height 1.12. Eyebrow #DC2626 0.75rem letter-spacing 0.12em uppercase. CTA primary #DC2626 solid, secondary text-link + arrow. 50vh min-height. Mobile single-column stack (text above, visual below), H1 clamp(1.75rem, 7vw, 2.25rem).

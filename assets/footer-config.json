@@ -2,7 +2,7 @@
   "company": {
     "logo": "/assets/images/logo.svg",
     "name": "Berun Active Wear",
-    "description": "Custom activewear and sportswear manufacturer offering one-stop OEM/ODM production for global brands, distributors, and private-label businesses. 12 production lines, 380K pcs/mo, OEKO-TEX/BSCI/WRAP/GRS/Higg FEM on file.",
+    "description": "Custom activewear and sportswear manufacturer offering OEM/ODM production for global brands, distributors, and private-label businesses. MOQ, sample, QC and compliance files are shared during RFQ.",
     "socialLinks": [
       {
         "icon": "linkedin",
@@ -17,23 +17,23 @@
       "links": [
         {
           "text": "Training & Performance",
-          "url": "/products/training-performance"
+          "url": "/products/training-performance.html"
         },
         {
           "text": "Athleisure",
-          "url": "/products/athleisure"
+          "url": "/products/athleisure.html"
         },
         {
           "text": "Team & Club",
-          "url": "/products/team-club"
+          "url": "/products/team-club.html"
         },
         {
           "text": "Outdoor & Running",
-          "url": "/products/outdoor-running"
+          "url": "/products/outdoor-running.html"
         },
         {
           "text": "Accessories",
-          "url": "/products/accessories"
+          "url": "/products/accessories.html"
         }
       ]
     },
@@ -42,23 +42,23 @@
       "links": [
         {
           "text": "OEM Cut-and-Sew",
-          "url": "/services/oem"
+          "url": "/services/oem.html"
         },
         {
           "text": "ODM",
-          "url": "/services/odm"
+          "url": "/services/odm.html"
         },
         {
           "text": "Private Label",
-          "url": "/services/private-label"
+          "url": "/services/private-label.html"
         },
         {
           "text": "Small-Batch Sampling",
-          "url": "/services/sampling"
+          "url": "/services/sampling.html"
         },
         {
           "text": "Tech-Pack & Pattern",
-          "url": "/services/tech-pack"
+          "url": "/services/tech-pack.html"
         }
       ]
     },
@@ -67,19 +67,19 @@
       "links": [
         {
           "text": "About",
-          "url": "/about"
+          "url": "/about.html"
+        },
+        {
+          "text": "Case Studies",
+          "url": "/case-studies.html"
         },
         {
           "text": "Blog",
-          "url": "/blog"
+          "url": "/blog.html"
         },
         {
           "text": "Contact",
-          "url": "/contact"
-        },
-        {
-          "text": "Privacy Policy",
-          "url": "/privacy-policy"
+          "url": "/contact.html"
         }
       ]
     }
@@ -95,15 +95,6 @@
     "year": 2026,
     "company": "Berun Active Wear",
     "text": "All rights reserved. 8 years on the floor since 2017.",
-    "links": [
-      {
-        "text": "Privacy Policy",
-        "url": "/privacy-policy"
-      },
-      {
-        "text": "Terms of Service",
-        "url": "/terms-of-service"
-      }
-    ]
+    "links": []
   }
 }

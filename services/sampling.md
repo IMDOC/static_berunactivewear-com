@@ -18,7 +18,7 @@ icp_primary: ICP-C (DTC Athleisure New Brand)
 
 **CTA**: None
 
-**Image position**: [TODO: image of sample garment flat-lay with measurement tape and swatch cards]
+**Image position**: sample garment flat-lay with measurement tape and swatch cards (`/assets/images/pattern-sample-approval.webp`)
 
 ---
 
@@ -50,7 +50,7 @@ Finished sample packed with lab-dip swatch, per-piece measurement sheet, and fab
 
 *Fabric-to-order projects add 7 working days (total 12 working days).*
 
-**Image position**: [TODO: image of factory sewing station producing a single sample piece]
+**Image position**: sample measurement and final inspection photo (`/assets/images/garment-qc-measurement.webp`)
 
 ---
 
