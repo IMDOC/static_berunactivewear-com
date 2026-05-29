@@ -78,6 +78,10 @@
           "url": "/blog.html"
         },
         {
+          "text": "FAQ",
+          "url": "/faq.html"
+        },
+        {
           "text": "Contact",
           "url": "/contact.html"
         }
@@ -95,6 +99,11 @@
     "year": 2026,
     "company": "Berun Active Wear",
     "text": "All rights reserved. 8 years on the floor since 2017.",
-    "links": []
+    "links": [
+      {
+        "text": "Privacy Policy",
+        "url": "/privacy-policy.html"
+      }
+    ]
   }
 }
