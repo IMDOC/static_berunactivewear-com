@@ -407,6 +407,45 @@
     .img-ph i{font-size:1.5rem;color:#9CA3AF}
     .img-ph span{font-size:.6875rem;color:#9CA3AF;font-weight:500;letter-spacing:.03em}
 
+    /* ===== S1 HERO — Chamois 3-Density Cross-Section (page-unique) ===== */
+    .cyh{position:relative;overflow:hidden;isolation:isolate;background:radial-gradient(125% 120% at 80% 6%,#15352f 0%,#0d211d 46%,#081411 100%)}
+    .cyh::before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(57deg,rgba(245,189,43,.055) 0 1px,transparent 1px 14px);-webkit-mask:radial-gradient(78% 72% at 82% 18%,#000,transparent 76%);mask:radial-gradient(78% 72% at 82% 18%,#000,transparent 76%);pointer-events:none}
+    .cyh::after{content:"";position:absolute;right:-10%;top:-32%;width:62%;height:124%;background:radial-gradient(closest-side,rgba(213,31,42,.20),transparent 70%);pointer-events:none;z-index:0}
+    .cyh__in{position:relative;z-index:1;display:grid;grid-template-columns:minmax(0,1.04fr) minmax(0,.96fr);gap:clamp(34px,4.4vw,72px);align-items:center;padding:clamp(112px,13vh,168px) clamp(16px,3vw,32px) clamp(60px,7vh,92px)}
+    .cyh__cp{display:flex;flex-direction:column;gap:clamp(15px,1.7vw,22px);min-width:0}
+    .cyh__ey{align-self:flex-start;font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;font-weight:800;color:var(--ca);padding:7px 13px;border:1px solid rgba(245,189,43,.32);border-radius:999px;background:rgba(245,189,43,.08)}
+    .cyh__h1{font-size:clamp(2.05rem,3.3vw,3.4rem);font-weight:800;line-height:1.07;color:#fff;margin:0;max-width:19ch;text-wrap:balance;text-shadow:0 2px 18px rgba(0,0,0,.3)}
+    .cyh__h1 em{font-style:normal;color:var(--ca)}
+    .cyh__sb{font-size:clamp(.94rem,.5vw+.86rem,1.12rem);line-height:1.6;color:rgba(240,247,243,.85);margin:0;max-width:55ch}
+    .cyh__ct{display:flex;flex-wrap:wrap;gap:12px;margin-top:4px}
+    .cyh__pills{list-style:none;display:flex;flex-wrap:wrap;gap:10px;padding:0;margin:8px 0 0}
+    .cyh-pill{display:flex;flex-direction:column;gap:2px;padding:10px 16px;border:1px solid rgba(255,255,255,.14);border-radius:11px;background:rgba(8,18,16,.5);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
+    .cyh-pill b{font-size:1.02rem;font-weight:800;color:#fff;line-height:1}
+    .cyh-pill span{font-size:.66rem;letter-spacing:.05em;text-transform:uppercase;color:rgba(240,247,243,.6)}
+    .cyh__cut{margin:0;background:linear-gradient(180deg,#fbfaf7,#f0eee8);border:1px solid rgba(255,255,255,.7);border-radius:16px;padding:clamp(20px,2.2vw,28px);box-shadow:0 30px 72px rgba(0,0,0,.44),inset 0 1px 0 rgba(255,255,255,.9)}
+    .cyh-cut__hd{display:flex;align-items:baseline;justify-content:space-between;gap:10px;flex-wrap:wrap;margin:0 0 16px;border-bottom:1px solid rgba(17,29,27,.1);padding-bottom:12px}
+    .cyh-cut__rail{font-size:.65rem;letter-spacing:.13em;text-transform:uppercase;font-weight:800;color:var(--c1)}
+    .cyh-cut__ttl{font-size:1.16rem;font-weight:800;color:var(--ct);margin:0}
+    .cyh-stack{display:flex;flex-direction:column;gap:9px;padding:2px 0 4px}
+    .cyh-lyr{display:grid;grid-template-columns:minmax(0,1fr);gap:5px}
+    .cyh-lyr__head{display:flex;align-items:baseline;justify-content:space-between;gap:10px}
+    .cyh-lyr__d{font-size:.95rem;font-weight:800;color:var(--ct);letter-spacing:0}
+    .cyh-lyr__z{font-size:.74rem;color:#5a6a64;text-align:right}
+    .cyh-lyr__bar{height:24px;border-radius:6px;width:var(--w);box-shadow:inset 0 1px 0 rgba(255,255,255,.5),inset 0 -2px 4px rgba(0,0,0,.13)}
+    .cyh-lyr--top .cyh-lyr__bar{height:12px;background:repeating-linear-gradient(90deg,var(--ca) 0 5px,#f6d573 5px 10px)}
+    .cyh-lyr--d80 .cyh-lyr__bar{background:linear-gradient(90deg,#0f2723,#1d473e)}
+    .cyh-lyr--d60 .cyh-lyr__bar{background:linear-gradient(90deg,#235049,#3c7567)}
+    .cyh-lyr--d40 .cyh-lyr__bar{background:linear-gradient(90deg,#73a89a,#a3c8bd)}
+    .cyh-stack__chan{display:flex;align-items:center;gap:8px;margin-top:11px;padding:9px 12px;border:1px dashed rgba(17,29,27,.26);border-radius:9px;font-size:.76rem;font-weight:600;color:#3a4a45;background:rgba(17,29,27,.03)}
+    .cyh-stack__chan i{color:var(--c1);font-size:.95rem}
+    .cyh-lock{margin-top:14px;padding-top:14px;border-top:1px solid rgba(17,29,27,.1);display:flex;align-items:center;gap:13px;flex-wrap:wrap}
+    .cyh-lock__sw{display:flex;gap:5px;flex-shrink:0}
+    .cyh-lock__sw span{width:26px;height:26px;border-radius:5px;background:var(--c1);box-shadow:inset 0 0 0 1px rgba(0,0,0,.08)}
+    .cyh-lock__cap{margin:0;font-size:.78rem;line-height:1.4;color:#3a4a45;flex:1;min-width:160px}
+    .cyh-lock__cap b{color:var(--ct);font-weight:800}
+    @media(max-width:1099px){.cyh__in{grid-template-columns:1fr;padding:clamp(100px,12vh,140px) clamp(16px,3vw,32px) clamp(48px,6vh,80px)}.cyh__cut{order:2}.cyh__h1{max-width:24ch}}
+    @media(max-width:575px){.cyh__h1{font-size:clamp(1.75rem,6.4vw,2.2rem)}.cyh__cp{gap:13px}.cyh__ct .btn{flex:1;width:100%}.cyh-pill{flex:1 1 100%}.cyh-lock__sw span{width:22px;height:22px}}
+
     /* WhatsApp widget mobile */
     @media(max-width:575px){body .wa-widget{right:14px!important;bottom:14px!important}body .wa-widget-button{width:56px!important;height:56px!important;min-width:56px!important;min-height:56px!important;padding:0!important;border-radius:50%!important;justify-content:center!important}body .wa-widget-button span{display:none!important}body .wa-widget-popup{right:0!important;width:calc(100vw - 28px)!important}}
     </style>
@@ -551,39 +590,53 @@
 
   <main id="main">
 
-    <!-- S1: HERO -->
-    <section class="hero" aria-labelledby="cy-h1">
-      <picture class="hero__bg" aria-hidden="true">
-        <img src="/assets/images/hero-factory-bg.webp" alt="" width="1920" height="1080" loading="eager" fetchpriority="high" decoding="sync">
-      </picture>
-      <div class="ctr hero__in">
-        <div class="hero__cp">
-          <span class="hero__ey ar d1">Cycling apparel &middot; full sublimation &middot; 6-SKU team kit</span>
-          <h1 class="hero__h1 ar d2" id="cy-h1">Cycling Apparel Manufacturer for DTC Brands and Amateur Race Teams</h1>
-          <p class="hero__sb ar d3">Italian-source chamois. &Delta;E &le;1.5 within-batch sublimation. Full 6-SKU kit from one factory in one PO.</p>
-          <div class="hero__ct ar d4">
+    <!-- S1: HERO — Chamois 3-Density Cross-Section + Within-Batch Color-Lock (page-unique) -->
+    <section class="cyh" aria-labelledby="cy-h1">
+      <div class="ctr cyh__in">
+        <div class="cyh__cp">
+          <span class="cyh__ey ar d1">Cycling apparel &middot; race kit &middot; DTC brands &amp; amateur teams</span>
+          <h1 class="cyh__h1 ar d2" id="cy-h1">A Cycling Apparel Manufacturer That Engineers the <em>Chamois</em>, Not Just the Print</h1>
+          <p class="cyh__sb ar d3">Italian-source pads built in a measured 3-density stack, full sublimation held to &Delta;E &le;1.5 within every batch, and a complete 6-SKU race kit out of one factory on one PO &mdash; the build details your last print-only supplier skipped.</p>
+          <div class="cyh__ct ar d4">
             <a href="#inquiry-form" class="btn btn--p">Send Your Cycling Tech-Pack or Design Brief</a>
             <a href="#inquiry-form" class="btn btn--g" data-prefill="teamkit">Build Your Cycling Team Kit <span aria-hidden="true">&rarr;</span></a>
           </div>
-          <div class="hero__stats ar d5" role="list" aria-label="Cycling apparel key specs">
-            <div class="hero__stat" role="listitem">
-              <span class="hero__stat-num">80<em>/60/</em>40</span>
-              <span class="hero__stat-lbl">Chamois 3-Density kg/m&sup3;</span>
-            </div>
-            <div class="hero__stat" role="listitem">
-              <span class="hero__stat-num">&Delta;E<em>&le;</em>1.5</span>
-              <span class="hero__stat-lbl">Within-Batch Sublimation</span>
-            </div>
-            <div class="hero__stat" role="listitem">
-              <span class="hero__stat-num">6<em>-SKU</em></span>
-              <span class="hero__stat-lbl">Full Kit &middot; One PM &middot; One PO</span>
-            </div>
-            <div class="hero__stat" role="listitem">
-              <span class="hero__stat-num">220<em>/PO</em></span>
-              <span class="hero__stat-lbl">Cross-SKU Team Pack MOQ</span>
-            </div>
-          </div>
+          <ul class="cyh__pills ar d5" role="list" aria-label="Cycling apparel key specs">
+            <li class="cyh-pill"><b>Italian-source</b><span>chamois pads</span></li>
+            <li class="cyh-pill"><b>&Delta;E &le;1.5</b><span>within-batch sublimation</span></li>
+            <li class="cyh-pill"><b>6-SKU / 1 PO</b><span>full multi-season kit</span></li>
+          </ul>
         </div>
+
+        <figure class="cyh__cut ar d3" role="group" aria-label="Chamois three-density cross-section build">
+          <figcaption class="cyh-cut__hd">
+            <span class="cyh-cut__rail">Chamois engineering</span>
+            <h2 class="cyh-cut__ttl">3-Density Cross-Section</h2>
+          </figcaption>
+          <div class="cyh-stack">
+            <div class="cyh-lyr cyh-lyr--top">
+              <div class="cyh-lyr__head"><span class="cyh-lyr__d">Top sheet</span><span class="cyh-lyr__z">antibacterial &middot; moisture-wicking face</span></div>
+              <span class="cyh-lyr__bar" style="--w:34%"></span>
+            </div>
+            <div class="cyh-lyr cyh-lyr--d80">
+              <div class="cyh-lyr__head"><span class="cyh-lyr__d">80 kg/m&sup3;</span><span class="cyh-lyr__z">sit-bone seat zone &middot; high density</span></div>
+              <span class="cyh-lyr__bar" style="--w:100%"></span>
+            </div>
+            <div class="cyh-lyr cyh-lyr--d60">
+              <div class="cyh-lyr__head"><span class="cyh-lyr__d">60 kg/m&sup3;</span><span class="cyh-lyr__z">mid transition &middot; flex + return</span></div>
+              <span class="cyh-lyr__bar" style="--w:74%"></span>
+            </div>
+            <div class="cyh-lyr cyh-lyr--d40">
+              <div class="cyh-lyr__head"><span class="cyh-lyr__d">40 kg/m&sup3;</span><span class="cyh-lyr__z">perimeter taper &middot; chafe-free edge</span></div>
+              <span class="cyh-lyr__bar" style="--w:52%"></span>
+            </div>
+            <div class="cyh-stack__chan"><i class="bi bi-distribute-horizontal" aria-hidden="true"></i> Molded center perineal relief channel</div>
+          </div>
+          <div class="cyh-lock" role="group" aria-label="Within-batch color consistency">
+            <span class="cyh-lock__sw" aria-hidden="true"><span></span><span></span><span></span><span></span></span>
+            <p class="cyh-lock__cap"><b>&Delta;E &le;1.5 color-lock</b> &mdash; every panel of a team order reads as one colorway, batch to batch.</p>
+          </div>
+        </figure>
       </div>
     </section>
 
