@@ -1,141 +1,141 @@
 {
-    "logo": {
-        "text": "Berun Active Wear",
-        "image": "/assets/images/logo.svg",
-        "link": "/",
-        "showText": false
+  "logo": {
+    "text": "Berun Active Wear",
+    "image": "/assets/images/logo.svg",
+    "link": "/",
+    "showText": false
+  },
+  "menuItems": [
+    {
+      "text": "Home",
+      "link": "/"
     },
-    "menuItems": [
+    {
+      "text": "Products",
+      "link": "#",
+      "children": [
         {
-            "text": "Home",
-            "link": "/"
+          "text": "Training & Performance",
+          "link": "/products/training-performance.html"
         },
         {
-            "text": "Products",
-            "link": "/products",
-            "children": [
-                {
-                    "text": "Training & Performance",
-                    "link": "/products/training-performance.html"
-                },
-                {
-                    "text": "Athleisure",
-                    "link": "/products/athleisure.html"
-                },
-                {
-                    "text": "Team & Club",
-                    "link": "/products/team-club.html"
-                },
-                {
-                    "text": "Outdoor & Running",
-                    "link": "/products/outdoor-running.html"
-                },
-                {
-                    "text": "Accessories",
-                    "link": "/products/accessories.html"
-                },
-                {
-                    "text": "Custom Yoga Pants Manufacturer",
-                    "link": "/custom-yoga-pants-manufacturer"
-                },
-                {
-                    "text": "Wholesale Sports Bras",
-                    "link": "/wholesale-sports-bras"
-                },
-                {
-                    "text": "Custom Compression Clothing",
-                    "link": "/custom-compression-clothing"
-                },
-                {
-                    "text": "Custom Mens Hoodies Manufacturer",
-                    "link": "/custom-mens-hoodies-manufacturer"
-                }
-            ]
+          "text": "Athleisure",
+          "link": "/products/athleisure.html"
         },
         {
-            "text": "Services",
-            "link": "/services",
-            "children": [
-                {
-                    "text": "OEM Cut-and-Sew",
-                    "link": "/services/oem.html"
-                },
-                {
-                    "text": "ODM",
-                    "link": "/services/odm.html"
-                },
-                {
-                    "text": "Private Label",
-                    "link": "/services/private-label.html"
-                },
-                {
-                    "text": "Small-Batch Sampling",
-                    "link": "/services/sampling.html"
-                },
-                {
-                    "text": "Custom Print & Embroidery",
-                    "link": "/services/printing.html"
-                },
-                {
-                    "text": "Team Customization",
-                    "link": "/services/team-customization.html"
-                },
-                {
-                    "text": "Tech-Pack & Pattern",
-                    "link": "/services/tech-pack.html"
-                },
-                {
-                    "text": "Wholesale Program",
-                    "link": "/services/wholesale.html"
-                }
-            ]
+          "text": "Team & Club",
+          "link": "/products/team-club.html"
         },
         {
-            "text": "Industries",
-            "link": "#",
-            "children": [
-                {
-                    "text": "Yoga Apparel Manufacturer",
-                    "link": "/yoga-apparel-manufacturer"
-                },
-                {
-                    "text": "Gym Clothing Manufacturer",
-                    "link": "/gym-clothing-manufacturer"
-                },
-                {
-                    "text": "Cycling Apparel Manufacturer",
-                    "link": "/cycling-apparel-manufacturer"
-                },
-                {
-                    "text": "Soccer Apparel Manufacturer",
-                    "link": "/soccer-apparel-manufacturer"
-                },
-                {
-                    "text": "Basketball Apparel Manufacturer",
-                    "link": "/basketball-apparel-manufacturer"
-                },
-                {
-                    "text": "Custom Streetwear Manufacturer",
-                    "link": "/custom-streetwear-manufacturer"
-                }
-            ]
+          "text": "Outdoor & Running",
+          "link": "/products/outdoor-running.html"
         },
         {
-            "text": "About",
-            "link": "/about.html"
+          "text": "Accessories",
+          "link": "/products/accessories.html"
         },
         {
-            "text": "Blog",
-            "link": "/blog.html"
+          "text": "Custom Yoga Pants Manufacturer",
+          "link": "/custom-yoga-pants-manufacturer"
         },
         {
-            "text": "Contact",
-            "link": "/contact.html"
+          "text": "Wholesale Sports Bras",
+          "link": "/wholesale-sports-bras"
+        },
+        {
+          "text": "Custom Compression Clothing",
+          "link": "/custom-compression-clothing"
+        },
+        {
+          "text": "Custom Mens Hoodies Manufacturer",
+          "link": "/custom-mens-hoodies-manufacturer"
         }
-    ],
-    "ctaButton": {
-        "text": "Send Tech-Pack",
-        "link": "/contact.html",
-        "style": "primary"
+      ]
+    },
+    {
+      "text": "Services",
+      "link": "#",
+      "children": [
+        {
+          "text": "OEM Cut-and-Sew",
+          "link": "/services/oem.html"
+        },
+        {
+          "text": "ODM",
+          "link": "/services/odm.html"
+        },
+        {
+          "text": "Private Label",
+          "link": "/services/private-label.html"
+        },
+        {
+          "text": "Small-Batch Sampling",
+          "link": "/services/sampling.html"
+        },
+        {
+          "text": "Custom Print & Embroidery",
+          "link": "/services/printing.html"
+        },
+        {
+          "text": "Team Customization",
+          "link": "/services/team-customization.html"
+        },
+        {
+          "text": "Tech-Pack & Pattern",
+          "link": "/services/tech-pack.html"
+        },
+        {
+          "text": "Wholesale Program",
+          "link": "/services/wholesale.html"
+        }
+      ]
+    },
+    {
+      "text": "Industries",
+      "link": "#",
+      "children": [
+        {
+          "text": "Yoga Apparel Manufacturer",
+          "link": "/yoga-apparel-manufacturer"
+        },
+        {
+          "text": "Gym Clothing Manufacturer",
+          "link": "/gym-clothing-manufacturer"
+        },
+        {
+          "text": "Cycling Apparel Manufacturer",
+          "link": "/cycling-apparel-manufacturer"
+        },
+        {
+          "text": "Soccer Apparel Manufacturer",
+          "link": "/soccer-apparel-manufacturer"
+        },
+        {
+          "text": "Basketball Apparel Manufacturer",
+          "link": "/basketball-apparel-manufacturer"
+        },
+        {
+          "text": "Custom Streetwear Manufacturer",
+          "link": "/custom-streetwear-manufacturer"
+        }
+      ]
+    },
+    {
+      "text": "About",
+      "link": "/about.html"
+    },
+    {
+      "text": "Blog",
+      "link": "#"
+    },
+    {
+      "text": "Contact",
+      "link": "/contact.html"
     }
+  ],
+  "ctaButton": {
+    "text": "Send Tech-Pack",
+    "link": "/contact.html",
+    "style": "primary"
+  }
 }
