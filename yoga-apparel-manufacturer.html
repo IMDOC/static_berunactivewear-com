@@ -118,7 +118,6 @@
         window.DynamicMenuConfig={menuFile:'/assets/menu-config.json',brandColor:'#DC2626',sticky:true};
         window.FooterConfig={configFile:'/assets/footer-config.json',backgroundColor:'#1F2937',brandColor:'#DC2626',hoverColor:'#DC2626'};
     </script>
-    <link rel="preload" as="image" fetchpriority="high" href="/assets/images/hero-factory-bg.webp">
 
     <style>
     :root{--c1:#D51F2A;--c1d:#A9151D;--c2:#111D1B;--ca:#F5BD2B;--ct:#14201E;--cm:#59646E;--bt:#F5F7F4;--bw:#fff;--bd:rgba(17,29,27,.10);--fs:'Plus Jakarta Sans','Inter',system-ui,sans-serif;--s1:0 10px 28px rgba(17,29,27,.08);--s2:0 22px 52px rgba(17,29,27,.14);--ring:0 0 0 1px rgba(17,29,27,.08)}
@@ -154,32 +153,54 @@
     @media(prefers-reduced-motion:reduce){.ar{opacity:1;transform:none;animation:none}}
     .rv{opacity:0;transform:translateY(24px);transition:opacity .6s ease,transform .6s ease}.rv.vis{opacity:1;transform:translateY(0)}
 
-    /* Hero */
-    .hero{position:relative;min-height:min(86vh,920px);display:flex;align-items:center;overflow:hidden;background:#111D1B;isolation:isolate}
-    .hero__bg{position:absolute;inset:0}.hero__bg img{width:100%;height:100%;object-fit:cover;object-position:55% 40%;filter:saturate(.92) contrast(1.08)}
-    .hero__bg::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(9,18,17,.94) 0%,rgba(9,18,17,.80) 48%,rgba(9,18,17,.45) 100%),linear-gradient(180deg,rgba(9,18,17,.22),rgba(9,18,17,.72))}
-    .hero__in{position:relative;z-index:1;display:grid;grid-template-columns:minmax(0,1fr);gap:clamp(32px,4vw,64px);align-items:center;padding:clamp(112px,13vh,164px) clamp(16px,3vw,32px) clamp(56px,7vh,88px)}
-    .hero__cp{display:flex;flex-direction:column;gap:clamp(14px,1.6vw,22px)}
-    .hero__ey{align-self:flex-start;font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;font-weight:700;color:#FFD166;padding:7px 11px;border:1px solid rgba(255,255,255,.18);border-radius:999px;background:rgba(255,255,255,.08)}
-    .hero__h1{font-size:clamp(2.125rem,3.4vw,3.5rem);font-weight:800;line-height:1.08;letter-spacing:0;color:#fff;margin:0;max-width:780px;text-wrap:balance;text-shadow:0 2px 18px rgba(0,0,0,.28)}
-    .hero__sb{font-size:clamp(.9375rem,.5vw+.875rem,1.125rem);line-height:1.55;color:rgba(250,247,242,.88);margin:0;max-width:620px}
-    .hero__ct{display:flex;flex-wrap:wrap;gap:12px;margin-top:6px}
-    .hero__stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0;padding:18px 20px;margin-top:clamp(18px,2.2vw,30px);border:1px solid rgba(255,255,255,.14);border-radius:12px;background:rgba(8,16,15,.42);backdrop-filter:blur(10px);box-shadow:inset 0 1px 0 rgba(255,255,255,.08)}
-    .hero__stat{min-width:0;padding:4px clamp(12px,1.3vw,20px);position:relative;display:flex;flex-direction:column;justify-content:center}
-    .hero__stat:first-child{padding-left:0}
-    .hero__stat:not(:last-child)::after{content:"";position:absolute;right:0;top:50%;transform:translateY(-50%);width:1px;height:36px;background:var(--c1)}
-    .hero__stat-num{font-size:clamp(1.25rem,2.2vw,1.875rem);font-weight:800;color:#fff;line-height:1;letter-spacing:0}
-    .hero__stat-num em{font-style:normal;color:#FFD166;margin-left:1px}
-    .hero__stat-lbl{margin-top:6px;font-size:.6875rem;color:rgba(250,247,242,.68);letter-spacing:.04em;text-transform:uppercase;font-weight:500;line-height:1.3}
-    .hero__card{background:rgba(255,255,255,.94);border-radius:12px;padding:clamp(22px,2.4vw,30px);box-shadow:0 26px 70px rgba(0,0,0,.30),inset 0 1px 0 rgba(255,255,255,.86);border:1px solid rgba(255,255,255,.72)}
-    .hero__card-rail{font-size:.6875rem;letter-spacing:.08em;text-transform:uppercase;font-weight:700;color:var(--c1);margin-bottom:6px}
-    .hero__card-h{font-size:1.125rem;font-weight:800;color:#0f1f1e;margin:0 0 16px;line-height:1.25;letter-spacing:0}
-    .hero__card-list{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:12px}
-    .hero__card-list li{display:flex;gap:10px;align-items:flex-start;font-size:.875rem;line-height:1.45;color:#1f2937;padding:10px 0;border-top:1px solid rgba(17,29,27,.07)}
-    .hero__card-list li:first-child{border-top:0;padding-top:0}
-    .hero__card-list li i{color:var(--c1);font-size:1rem;flex-shrink:0;margin-top:1px}
-    @media(max-width:1099px){.hero__in{grid-template-columns:1fr;padding:clamp(100px,12vh,140px) clamp(16px,3vw,32px) clamp(48px,6vh,80px)}.hero__card{order:2}.hero__stat:not(:last-child)::after{height:28px}}
-    @media(max-width:575px){.hero__h1{font-size:clamp(1.75rem,6.5vw,2.25rem)}.hero__cp{gap:12px}.hero__stats{grid-template-columns:repeat(2,minmax(0,1fr));padding:12px}.hero__stat{flex:1 1 45%;padding:12px clamp(10px,2vw,16px);min-width:45%}.hero__stat:not(:last-child)::after{display:none}.hero__stat-num{font-size:1.25rem}.hero__ct .btn{flex:1;width:100%}}
+    /* S1 Hero — Opacity Bench (squat-proof fail→pass proof, unique to yoga hub) */
+    .yhero{position:relative;overflow:hidden;background:linear-gradient(180deg,#FBFCFB 0%,#EAF0EA 100%);border-bottom:1px solid rgba(17,29,27,.08)}
+    .yhero__deco{position:absolute;inset:0;pointer-events:none;background:radial-gradient(640px 480px at 90% -10%,rgba(213,31,42,.10),transparent 70%),radial-gradient(560px 440px at 0% 112%,rgba(17,29,27,.09),transparent 70%)}
+    .yhero__deco::after{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(17,29,27,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(17,29,27,.04) 1px,transparent 1px);background-size:46px 46px;-webkit-mask-image:linear-gradient(180deg,transparent,#000 28%,#000 72%,transparent);mask-image:linear-gradient(180deg,transparent,#000 28%,#000 72%,transparent)}
+    .yhero__in{position:relative;z-index:1;display:grid;grid-template-columns:minmax(0,1.04fr) minmax(0,.96fr);gap:clamp(34px,4.4vw,72px);align-items:center;padding:clamp(112px,13vh,160px) clamp(16px,3vw,32px) clamp(64px,8vh,96px)}
+    .yhero__cp{display:flex;flex-direction:column;gap:clamp(15px,1.7vw,22px)}
+    .yhero__ey{align-self:flex-start;font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;font-weight:800;color:var(--c1);padding:7px 13px;border:1px solid rgba(213,31,42,.18);border-radius:999px;background:rgba(213,31,42,.07)}
+    .yhero__h1{font-size:clamp(2.125rem,3.5vw,3.5rem);font-weight:800;line-height:1.07;letter-spacing:-.01em;color:#0f1f1e;margin:0;max-width:15ch;text-wrap:balance}
+    .yhero__h1 em{font-style:normal;color:var(--c1)}
+    .yhero__sb{font-size:clamp(.9375rem,.5vw+.875rem,1.1875rem);line-height:1.58;color:#4F5A63;margin:0;max-width:54ch}
+    .yhero__ct{display:flex;flex-wrap:wrap;gap:12px;margin-top:6px}
+    .yhero__btn2{background:#fff;color:#111D1B;border-color:rgba(17,29,27,.16)}
+    .yhero__btn2:hover{background:#fff;border-color:var(--c1);color:var(--c1);transform:translateY(-1px);box-shadow:0 10px 22px rgba(17,29,27,.10)}
+    .yhero__stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0;margin-top:clamp(16px,2vw,26px);border:1px solid rgba(17,29,27,.10);border-radius:12px;background:#fff;box-shadow:var(--ring);overflow:hidden}
+    .yhero__stat{min-width:0;padding:16px clamp(11px,1.4vw,20px);position:relative}
+    .yhero__stat:not(:last-child)::after{content:"";position:absolute;right:0;top:50%;transform:translateY(-50%);width:1px;height:38px;background:rgba(17,29,27,.12)}
+    .yhero__stat-num{font-size:clamp(1.1875rem,2.1vw,1.75rem);font-weight:800;color:#111D1B;line-height:1;letter-spacing:-.01em}
+    .yhero__stat-num em{font-style:normal;color:var(--c1);margin:0 1px}
+    .yhero__stat-lbl{margin-top:7px;font-size:.6875rem;color:#65707A;letter-spacing:.04em;text-transform:uppercase;font-weight:600;line-height:1.3}
+    /* opacity bench card */
+    .yhero__bench{background:#fff;border:1px solid rgba(17,29,27,.10);border-radius:16px;padding:clamp(16px,1.9vw,24px);box-shadow:0 30px 64px rgba(17,29,27,.14),inset 0 1px 0 #fff}
+    .yb__top{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:15px}
+    .yb__rail{font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;font-weight:800;color:var(--c1)}
+    .yb__live{display:inline-flex;align-items:center;gap:7px;font-size:.68rem;font-weight:600;color:#65707A;letter-spacing:.03em}
+    .yb__live::before{content:"";width:7px;height:7px;border-radius:50%;background:#16A34A;box-shadow:0 0 0 3px rgba(22,163,74,.18)}
+    .yb__compare{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+    .yb__cell{margin:0;border:1px solid rgba(17,29,27,.10);border-radius:12px;overflow:hidden;background:#F7FAF7}
+    .yb__cell--pass{border-color:rgba(22,163,74,.42);box-shadow:0 0 0 1px rgba(22,163,74,.16)}
+    .yb__swatch{position:relative;height:clamp(116px,15vw,148px);overflow:hidden}
+    .yb__swatch::before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(45deg,#F4DBBC 0 9px,#E6C094 9px 18px)}
+    .yb__swatch::after{content:"";position:absolute;inset:0;background:linear-gradient(135deg,#163230,#0b201d),repeating-linear-gradient(0deg,rgba(255,255,255,.05) 0 2px,transparent 2px 4px);background-blend-mode:overlay}
+    .yb__swatch--thin::after{opacity:.5}
+    .yb__swatch--thick::after{opacity:1}
+    .yb__badge{position:absolute;left:10px;bottom:10px;z-index:2;font-size:.66rem;font-weight:800;letter-spacing:.03em;padding:4px 9px;border-radius:999px;color:#fff}
+    .yb__badge--fail{background:rgba(213,31,42,.94)}
+    .yb__badge--pass{background:rgba(22,163,74,.96)}
+    .yb__cap{display:flex;align-items:baseline;justify-content:space-between;gap:8px;padding:11px 13px}
+    .yb__cap-t{font-size:.8125rem;font-weight:700;color:#111D1B;line-height:1.2}
+    .yb__cap-s{font-size:.68rem;color:#65707A;white-space:nowrap}
+    .yb__meters{margin-top:14px;display:grid;gap:11px}
+    .yb__m{display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:7px 12px}
+    .yb__m-l{font-size:.75rem;color:#4F5A63;font-weight:600}
+    .yb__m-v{font-size:.78rem;font-weight:800;color:#111D1B;text-align:right}
+    .yb__m-v em{font-style:normal;color:#16A34A}
+    .yb__bar{grid-column:1/-1;height:6px;border-radius:999px;background:rgba(17,29,27,.08);overflow:hidden}
+    .yb__bar span{display:block;height:100%;border-radius:999px;background:linear-gradient(90deg,var(--c1),var(--ca))}
+    @media(max-width:1099px){.yhero__in{grid-template-columns:1fr;padding:clamp(100px,12vh,140px) clamp(16px,3vw,32px) clamp(52px,7vh,84px)}.yhero__bench{order:2;max-width:560px;width:100%}}
+    @media(max-width:575px){.yhero__h1{font-size:clamp(1.75rem,7vw,2.25rem)}.yhero__cp{gap:13px}.yhero__stats{grid-template-columns:repeat(2,minmax(0,1fr))}.yhero__stat:nth-child(2)::after{display:none}.yhero__stat:nth-child(1),.yhero__stat:nth-child(2){border-bottom:1px solid rgba(17,29,27,.10)}.yhero__stat-num{font-size:1.25rem}.yhero__ct .btn{flex:1;width:100%}}
 
     /* S2 Subcategory cards (image-top + spec tags + link) */
     .scg{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(18px,2vw,26px)}
@@ -529,36 +550,77 @@
 
   <main id="main">
 
-    <!-- S1: HERO -->
-    <section class="hero" aria-labelledby="yoga-h1">
-      <picture class="hero__bg" aria-hidden="true">
-        <img src="/assets/images/hero-factory-bg.webp" alt="" width="1920" height="1080" loading="eager" fetchpriority="high" decoding="sync">
-      </picture>
-      <div class="ctr hero__in">
-        <div class="hero__cp">
-          <span class="hero__ey ar d1">Yoga apparel &middot; cut-and-sew &middot; OEM / ODM / private label</span>
-          <h1 class="hero__h1 ar d2" id="yoga-h1">Yoga Apparel Manufacturer for DTC and Athleisure Brands</h1>
-          <p class="hero__sb ar d3">Squat-proof, color-locked, recovery-tested &mdash; three things your last factory probably didn&rsquo;t measure.</p>
-          <div class="hero__ct ar d4">
+    <!-- S1: HERO — Opacity Bench (squat-proof fail vs pass proof) -->
+    <section class="yhero" aria-labelledby="yoga-h1">
+      <div class="yhero__deco" aria-hidden="true"></div>
+      <div class="ctr yhero__in">
+        <div class="yhero__cp">
+          <span class="yhero__ey ar d1">Yoga apparel &middot; the squat-proof specialists</span>
+          <h1 class="yhero__h1 ar d2" id="yoga-h1">Yoga Apparel Manufacturer for DTC and Athleisure Brands</h1>
+          <p class="yhero__sb ar d3">Squat-proof opacity, locked color, tested elastic recovery &mdash; the three numbers your last yoga factory never put in writing. We publish all three, on every fabric lot.</p>
+          <div class="yhero__ct ar d4">
             <a href="#inquiry-form" class="btn btn--p">Send Your Yoga Tech-Pack</a>
-            <a href="#inquiry-form" class="btn btn--g">Request Capability Deck (PDF) <span aria-hidden="true">&rarr;</span></a>
+            <a href="#inquiry-form" class="btn yhero__btn2">Request Capability Deck (PDF) <span aria-hidden="true">&rarr;</span></a>
           </div>
-          <div class="hero__stats ar d5" role="list" aria-label="Yoga apparel key specs">
-            <div class="hero__stat" role="listitem">
-              <span class="hero__stat-num">280<em>&ndash;</em>320</span>
-              <span class="hero__stat-lbl">GSM Squat-Proof</span>
+          <div class="yhero__stats ar d5" role="list" aria-label="Yoga apparel key specs">
+            <div class="yhero__stat" role="listitem">
+              <span class="yhero__stat-num">280<em>&ndash;</em>320</span>
+              <span class="yhero__stat-lbl">GSM Squat-Proof</span>
             </div>
-            <div class="hero__stat" role="listitem">
-              <span class="hero__stat-num">&Delta;E<em>&le;</em>1.5</span>
-              <span class="hero__stat-lbl">Color Tolerance</span>
+            <div class="yhero__stat" role="listitem">
+              <span class="yhero__stat-num">&Delta;E<em>&le;</em>1.5</span>
+              <span class="yhero__stat-lbl">Color Tolerance</span>
             </div>
-            <div class="hero__stat" role="listitem">
-              <span class="hero__stat-num">50<em>-cycle</em></span>
-              <span class="hero__stat-lbl">Recovery Tested</span>
+            <div class="yhero__stat" role="listitem">
+              <span class="yhero__stat-num">50<em>-cyc</em></span>
+              <span class="yhero__stat-lbl">Recovery Tested</span>
             </div>
-            <div class="hero__stat" role="listitem">
-              <span class="hero__stat-num">300<em>/SKU</em></span>
-              <span class="hero__stat-lbl">MOQ Split XS&ndash;XXL</span>
+            <div class="yhero__stat" role="listitem">
+              <span class="yhero__stat-num">300<em>/SKU</em></span>
+              <span class="yhero__stat-lbl">MOQ Split XS&ndash;XXL</span>
+            </div>
+          </div>
+        </div>
+        <div class="yhero__bench ar d4" role="group" aria-label="Squat-proof opacity test bench">
+          <div class="yb__top">
+            <span class="yb__rail">The squat test</span>
+            <span class="yb__live">Per-lot &Delta;L check</span>
+          </div>
+          <div class="yb__compare">
+            <figure class="yb__cell">
+              <div class="yb__swatch yb__swatch--thin" aria-hidden="true">
+                <span class="yb__badge yb__badge--fail">FAIL &middot; &Delta;L 14%</span>
+              </div>
+              <figcaption class="yb__cap">
+                <span class="yb__cap-t">Generic 230 GSM</span>
+                <span class="yb__cap-s">light leaks</span>
+              </figcaption>
+            </figure>
+            <figure class="yb__cell yb__cell--pass">
+              <div class="yb__swatch yb__swatch--thick" aria-hidden="true">
+                <span class="yb__badge yb__badge--pass">PASS &middot; &Delta;L 6%</span>
+              </div>
+              <figcaption class="yb__cap">
+                <span class="yb__cap-t">Berun 290 GSM</span>
+                <span class="yb__cap-s">squat-proof</span>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="yb__meters">
+            <div class="yb__m">
+              <span class="yb__m-l">Opacity &Delta;L, stretched</span>
+              <span class="yb__m-v"><em>&le;8%</em> pass line</span>
+              <div class="yb__bar"><span style="width:78%"></span></div>
+            </div>
+            <div class="yb__m">
+              <span class="yb__m-l">Color drift &Delta;E vs Pantone</span>
+              <span class="yb__m-v"><em>&le;1.5</em> per lot</span>
+              <div class="yb__bar"><span style="width:88%"></span></div>
+            </div>
+            <div class="yb__m">
+              <span class="yb__m-l">Elastic recovery, 50 cycles</span>
+              <span class="yb__m-v"><em>&plusmn;5%</em> elongation</span>
+              <div class="yb__bar"><span style="width:92%"></span></div>
             </div>
           </div>
         </div>
