@@ -993,61 +993,14 @@
       </div>
     </section>
 
-    <!-- S13: FINAL CTA + INQUIRY FORM -->
-    <section class="fc" aria-labelledby="s13-h2">
-      <div class="ctr">
-        <h2 class="fc__h rv" id="s13-h2">Ready to put a real factory on your shortlist?</h2>
-        <p class="fc__s rv">Send your first inquiry and we&rsquo;ll reply within one business day with a named contact, a preliminary assessment, and a factory profile deck.</p>
-        <div class="fc__form rv">
-          <form id="inquiry-form" action="https://form.lianf.com/" method="POST" enctype="multipart/form-data">
-            <input type="hidden" name="domain" value="berunactivewear.com">
-            <input type="hidden" name="page" value="about">
-            <input type="text" name="website" style="display:none" tabindex="-1" autocomplete="off">
-            <div class="fc__fields">
-              <div class="fc__field">
-                <label for="about-name">Full Name <span style="color:var(--c1)">*</span></label>
-                <input type="text" id="about-name" name="name" required placeholder="Your full name">
-              </div>
-              <div class="fc__field">
-                <label for="about-email">Email <span style="color:var(--c1)">*</span></label>
-                <input type="email" id="about-email" name="email" required placeholder="you@company.com">
-              </div>
-              <div class="fc__field">
-                <label for="about-phone">Phone / WhatsApp</label>
-                <input type="tel" id="about-phone" name="phone" placeholder="+1 555 000 0000">
-              </div>
-              <div class="fc__field fc__field--full">
-                <label for="about-msg">Message <span style="color:var(--c1)">*</span></label>
-                <textarea id="about-msg" name="message" rows="3" required placeholder="Describe your project — quantities, styles, timeline."></textarea>
-              </div>
-            </div>
-            <button type="submit" class="btn btn--p" style="width:100%;margin-top:16px;">Send Your Inquiry</button>
-          </form>
-          <aside class="fc__side" aria-label="What you receive after inquiry">
-            <div>
-              <div class="fc__side-k">Factory shortlist</div>
-              <h3 class="fc__side-h">What you can ask us to verify</h3>
-              <p class="fc__side-p">Use the inquiry to request the factory evidence a sourcing team needs before moving to samples.</p>
-            </div>
-            <ul class="fc__checks">
-              <li><i class="bi bi-check2-circle"></i><span>Named contact and factory profile deck</span></li>
-              <li><i class="bi bi-check2-circle"></i><span>Certificate PDFs and current audit details</span></li>
-              <li><i class="bi bi-check2-circle"></i><span>Sample, QC, packing, and production records for RFQ review</span></li>
-            </ul>
-            <div class="fc__mini">
-              <div class="fc__mini-item"><span class="fc__mini-num">8</span><span class="fc__mini-lbl">named contacts</span></div>
-              <div class="fc__mini-item"><span class="fc__mini-num">5</span><span class="fc__mini-lbl">certs on file</span></div>
-            </div>
-          </aside>
-        </div>
-        <p class="fc__tr rv">Replies within 1 business day <span>&middot;</span> NDA on request <span>&middot;</span> Sample fee waived after first PO</p>
-      </div>
-    </section>
+    <!-- S13: FINAL CTA + INQUIRY FORM (rendered by /assets/form-widget.js) -->
+    <div id="inquiry-form-container" data-theme="dark" data-heading="Ready to put a real factory on your shortlist?" data-sub="Send your first inquiry and we&rsquo;ll reply within one business day with a named contact, a preliminary assessment, and a factory profile deck."></div>
 
   </main>
 
   <div id="footer-container"></div>
   <script src="/assets/footer.js" defer></script>
+  <script src="/assets/form-widget.js" defer></script>
   <script>window.WhatsAppWidgetConfig={contactsFile:'/assets/whatsapp-contacts.json'};</script>
   <script src="/assets/whatsapp-widget.js" defer></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" defer></script>
@@ -1081,33 +1034,6 @@
         var w=el.width||400,h=el.height||300;
         el.src='https://app.grapesjs.com/api/assets/random-image?query='+q+'&w='+w+'&h='+h;
       };
-    });
-  })();
-  </script>
-  <script>
-  (function(){
-    document.querySelectorAll('a[href="#inquiry-form"]').forEach(function(a){
-      a.addEventListener('click', function(e){
-        e.preventDefault();
-        var form = document.getElementById('inquiry-form');
-        if(!form) return;
-        form.scrollIntoView({behavior:'smooth', block:'center'});
-        setTimeout(function(){
-          var f = form.querySelector('input:not([type="hidden"]):not([style*="display:none"]),textarea');
-          if(f) f.focus({preventScroll:true});
-        }, 600);
-      });
-    });
-  })();
-  </script>
-  <script>
-  (function(){
-    var f=document.querySelector('#inquiry-form');
-    if(!f)return;
-    var t=Date.now();
-    f.addEventListener('submit',function(){
-      var s=document.createElement('input');s.type='hidden';s.name='submission_time';s.value=Math.floor((Date.now()-t)/1000);this.appendChild(s);
-      var p=document.createElement('input');p.type='hidden';p.name='page_url';p.value=window.location.href;this.appendChild(p);
     });
   })();
   </script>

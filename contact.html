@@ -922,110 +922,8 @@
       </div>
     </section>
 
-    <!-- ============== S2 — Inquiry Form + Contact Info ============== -->
-    <section class="inquiry-section" id="inquiry" aria-labelledby="s2-h2">
-      <div class="container-bra">
-        <div class="section-head fade-up">
-          <h2 class="section-h2" id="s2-h2">Submit Your Inquiry</h2>
-        </div>
-        <div class="inquiry-grid">
-          <!-- LEFT: Form -->
-          <div class="fade-up">
-            <form id="inquiry-form" action="https://form.lianf.com/" method="POST" >
-              <!-- Hidden fields -->
-              <input type="hidden" name="domain" value="berunactivewear.com">
-              <!-- Honeypot -->
-              <input type="text" name="website" style="display:none" tabindex="-1" autocomplete="off">
-
-              <div class="form-group">
-                <label for="full-name">Full Name <span class="required">*</span></label>
-                <input type="text" id="full-name" name="full_name" class="form-control-corp" placeholder="Your full name" required>
-              </div>
-
-              <div class="form-group">
-                <label for="email">Email Address <span class="required">*</span></label>
-                <input type="email" id="email" name="email" class="form-control-corp" placeholder="you@company.com" required>
-              </div>
-
-              <div class="form-group">
-                <label for="company">Company Name <span class="required">*</span></label>
-                <input type="text" id="company" name="company" class="form-control-corp" placeholder="Your company or brand name" required>
-              </div>
-
-              <div class="form-group">
-                <label for="order-type">Order Type <span class="required">*</span></label>
-                <select id="order-type" name="order_type" class="form-control-corp" required>
-                  <option value="" disabled selected>Select order type...</option>
-                  <option value="OEM Cut-and-Sew">OEM Cut-and-Sew</option>
-                  <option value="ODM">ODM</option>
-                  <option value="Private Label">Private Label</option>
-                  <option value="Small-Batch Sampling">Small-Batch Sampling</option>
-                  <option value="Team Customization">Team Customization</option>
-                  <option value="Other">Other</option>
-                </select>
-              </div>
-
-              <div class="form-group">
-                <label for="message">Message <span class="required">*</span></label>
-                <textarea id="message" name="message" class="form-control-corp" rows="5" placeholder="Describe your project — quantities, styles, timeline, or attach a tech-pack below." required></textarea>
-              </div>
-
-              <button type="submit" class="btn-submit">Send Your Inquiry</button>
-              <p class="form-privacy">Your information is kept confidential. We never share your data with third parties.</p>
-            </form>
-          </div>
-
-          <!-- RIGHT: Contact Cards -->
-          <div class="contact-cards fade-up">
-            <div class="contact-card">
-              <div class="contact-card__icon">
-                <i class="bi bi-envelope" aria-hidden="true"></i>
-              </div>
-              <div class="contact-card__body">
-                <p class="contact-card__title">
-                  <a href="mailto:sales@berunactivewear.com">sales@berunactivewear.com</a>
-                </p>
-                <p class="contact-card__micro">For spec sheets, tech-packs, and formal inquiries.</p>
-              </div>
-            </div>
-
-            <div class="contact-card">
-              <div class="contact-card__icon">
-                <i class="bi bi-telephone" aria-hidden="true"></i>
-              </div>
-              <div class="contact-card__body">
-                <p class="contact-card__title">
-                  <a href="tel:+8615902778636">+86-159-0277-8636</a>
-                </p>
-                <p class="contact-card__micro">Mon&ndash;Fri, 9 AM &ndash; 6 PM (GMT+8).</p>
-              </div>
-            </div>
-
-            <div class="contact-card">
-              <div class="contact-card__icon">
-                <i class="bi bi-whatsapp" aria-hidden="true"></i>
-              </div>
-              <div class="contact-card__body">
-                <p class="contact-card__title">
-                  <a href="https://wa.me/8615902778636" target="_blank" rel="noopener">Chat with Anna, Sales Manager</a>
-                </p>
-                <p class="contact-card__micro">Fastest channel for quick questions.</p>
-              </div>
-            </div>
-
-            <div class="contact-card">
-              <div class="contact-card__icon">
-                <i class="bi bi-clock" aria-hidden="true"></i>
-              </div>
-              <div class="contact-card__body">
-                <p class="contact-card__title">Within 1 business day</p>
-                <p class="contact-card__micro">Urgent? Call or WhatsApp directly.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    <!-- ============== S2 — Inquiry Form (form-widget) ============== -->
+    <div id="inquiry-form-container" data-theme="light" data-heading="Submit Your Inquiry"></div>
 
     <!-- ============== S3 — What Happens Next ============== -->
     <section class="timeline-section" id="process" aria-labelledby="s3-h2">
@@ -1113,6 +1011,9 @@
   <div id="footer-container"></div>
   <script src="/assets/footer.js" defer></script>
 
+  <!-- Form Widget plugin -->
+  <script src="/assets/form-widget.js" defer></script>
+
   <!-- WhatsApp Widget -->
   <script>
     window.WhatsAppWidgetConfig = {
@@ -1143,24 +1044,6 @@
     }, { threshold: 0.15, rootMargin: '0px 0px -40px 0px' });
     els.forEach(function(el) { observer.observe(el); });
   })();
-  </script>
-
-  <!-- Form tracking -->
-  <script>
-  var pageLoadTime = Date.now();
-  document.querySelector('form').addEventListener('submit', function(e) {
-      var submissionTime = Math.floor((Date.now() - pageLoadTime) / 1000);
-      var hiddenTime = document.createElement('input');
-      hiddenTime.type = 'hidden';
-      hiddenTime.name = 'submission_time';
-      hiddenTime.value = submissionTime;
-      this.appendChild(hiddenTime);
-      var hiddenUrl = document.createElement('input');
-      hiddenUrl.type = 'hidden';
-      hiddenUrl.name = 'page_url';
-      hiddenUrl.value = window.location.href;
-      this.appendChild(hiddenUrl);
-  });
   </script>
 
 

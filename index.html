@@ -1131,65 +1131,14 @@
       </div>
     </section>
 
-    <!-- S15: FINAL CTA + INQUIRY FORM -->
-    <section class="fc" aria-labelledby="s15-h2">
-      <div class="ctr">
-        <h2 class="fc__h rv" id="s15-h2">Ready to put a real factory on your shortlist?</h2>
-        <p class="fc__s rv">Send your tech-pack and we'll come back within one business day with a per-size MOQ split, sampling timeline, and an FOB quote. Or book a 30-min sourcing call with our engineering lead first.</p>
-        <div class="fc__b rv">
-          <a href="#inquiry-form" class="btn btn--p">Book a 30-min sourcing call</a>
-          <a href="/assets/docs/berun-spec-template.xlsx" class="btn btn--g">Download spec template (XLSX) <span aria-hidden="true">&rarr;</span></a>
-        </div>
-        <div class="fc__form rv">
-          <form id="inquiry-form" action="https://form.lianf.com/" method="POST" enctype="multipart/form-data">
-            <input type="hidden" name="domain" value="berunactivewear.com">
-            <input type="hidden" name="page" value="index">
-            <input type="text" name="website" style="display:none" tabindex="-1" autocomplete="off">
-            <div class="fc__fields">
-              <div class="fc__field">
-                <label for="home-name">Full Name <span style="color:var(--c1)">*</span></label>
-                <input type="text" id="home-name" name="name" required placeholder="Your full name">
-              </div>
-              <div class="fc__field">
-                <label for="home-email">Email <span style="color:var(--c1)">*</span></label>
-                <input type="email" id="home-email" name="email" required placeholder="you@company.com">
-              </div>
-              <div class="fc__field">
-                <label for="home-phone">Phone / WhatsApp</label>
-                <input type="tel" id="home-phone" name="phone" placeholder="+1 555 000 0000">
-              </div>
-              <div class="fc__field fc__field--full">
-                <label for="home-msg">Message <span style="color:var(--c1)">*</span></label>
-                <textarea id="home-msg" name="message" rows="3" required placeholder="Describe your project — product, quantities, timeline, tech-pack status."></textarea>
-              </div>
-            </div>
-            <button type="submit" class="btn btn--p" style="width:100%;margin-top:16px;">Send Your Inquiry</button>
-          </form>
-          <aside class="fc__side" aria-label="What happens after you send the inquiry">
-            <div>
-              <div class="fc__side-k">RFQ handoff</div>
-              <h3 class="fc__side-h">What our team checks before replying</h3>
-              <p class="fc__side-p">The first reply should help you decide whether this factory is worth a deeper sourcing call.</p>
-            </div>
-            <ul class="fc__checks">
-              <li><i class="bi bi-check2-circle"></i><span>Product type, size curve, and realistic MOQ split</span></li>
-              <li><i class="bi bi-check2-circle"></i><span>Fabric direction, sample route, and pattern status</span></li>
-              <li><i class="bi bi-check2-circle"></i><span>Lead-time window, FOB assumptions, and QC records available</span></li>
-            </ul>
-            <div class="fc__mini">
-              <div class="fc__mini-item"><span class="fc__mini-num">1 day</span><span class="fc__mini-lbl">first reply</span></div>
-              <div class="fc__mini-item"><span class="fc__mini-num">NDA</span><span class="fc__mini-lbl">on request</span></div>
-            </div>
-          </aside>
-        </div>
-        <p class="fc__tr rv">Replies within 1 business day <span>&middot;</span> NDA on request <span>&middot;</span> Sample fee waived after first PO</p>
-      </div>
-    </section>
+    <!-- S15: FINAL CTA + INQUIRY FORM (form-widget) -->
+    <div id="inquiry-form-container" data-theme="dark" data-heading="Ready to put a real factory on your shortlist?" data-sub="Send your tech-pack and we'll come back within one business day with a per-size MOQ split, sampling timeline, and an FOB quote. Or book a 30-min sourcing call with our engineering lead first."></div>
 
   </main>
 
   <div id="footer-container"></div>
   <script src="/assets/footer.js" defer></script>
+  <script src="/assets/form-widget.js" defer></script>
   <script>window.WhatsAppWidgetConfig={contactsFile:'/assets/whatsapp-contacts.json'};</script>
   <script src="/assets/whatsapp-widget.js" defer></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" defer></script>
@@ -1253,33 +1202,6 @@
       } else {
         img.addEventListener('load', checkLoaded);
       }
-    });
-  })();
-  </script>
-  <script>
-  (function(){
-    document.querySelectorAll('a[href="#inquiry-form"]').forEach(function(a){
-      a.addEventListener('click', function(e){
-        e.preventDefault();
-        var form = document.getElementById('inquiry-form');
-        if(!form) return;
-        form.scrollIntoView({behavior:'smooth', block:'center'});
-        setTimeout(function(){
-          var f = form.querySelector('input:not([type="hidden"]):not([style*="display:none"]),textarea');
-          if(f) f.focus({preventScroll:true});
-        }, 600);
-      });
-    });
-  })();
-  </script>
-  <script>
-  (function(){
-    var f=document.querySelector('#inquiry-form');
-    if(!f)return;
-    var t=Date.now();
-    f.addEventListener('submit',function(){
-      var s=document.createElement('input');s.type='hidden';s.name='submission_time';s.value=Math.floor((Date.now()-t)/1000);this.appendChild(s);
-      var p=document.createElement('input');p.type='hidden';p.name='page_url';p.value=window.location.href;this.appendChild(p);
     });
   })();
   </script>

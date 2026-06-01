@@ -1215,58 +1215,13 @@
     </section>
 
     <!-- S11: FINAL CTA + INQUIRY FORM -->
-    <section class="fc" aria-labelledby="s11-h2">
-      <div class="ctr">
-        <h2 class="fc__h rv" id="s11-h2">Start Your Cycling Apparel Production</h2>
-        <p class="fc__s rv">Send your design brief or tech-pack. Share your discipline and kit composition. We reply within one business day.</p>
-        <div class="fc__form rv">
-          <form id="inquiry-form" action="https://form.lianf.com/" method="POST" enctype="multipart/form-data">
-            <input type="hidden" name="domain" value="berunactivewear.com">
-            <input type="hidden" name="page" value="cycling-apparel-manufacturer">
-            <input type="text" name="website" style="display:none" tabindex="-1" autocomplete="off">
-            <div class="fc__fields">
-              <div class="fc__field">
-                <label for="cy-name">Full Name <span style="color:#FFD166">*</span></label>
-                <input type="text" id="cy-name" name="name" required placeholder="Your full name">
-              </div>
-              <div class="fc__field">
-                <label for="cy-email">Email <span style="color:#FFD166">*</span></label>
-                <input type="email" id="cy-email" name="email" required placeholder="you@company.com">
-              </div>
-              <div class="fc__field">
-                <label for="cy-phone">Phone / WhatsApp</label>
-                <input type="tel" id="cy-phone" name="phone" placeholder="+1 555 000 0000">
-              </div>
-              <div class="fc__field fc__field--full">
-                <label for="cy-msg">Message <span style="color:#FFD166">*</span></label>
-                <textarea id="cy-msg" name="message" rows="4" required placeholder="What cycling apparel do you need? Drop a design brief or tech-pack link, describe your kit composition (single jersey, full team kit, multi-season program), share sponsor logo files, or paste a reference photo URL. Mention your discipline (Road / Gravel / MTB / Triathlon / Indoor / Gran Fondo) and rider headcount if it's a team kit."></textarea>
-              </div>
-            </div>
-            <button type="submit" class="btn btn--p" style="width:100%;margin-top:16px;">Send Your Inquiry</button>
-          </form>
-          <aside class="fc__side" aria-label="What you receive after inquiry">
-            <div>
-              <div class="fc__side-k">Cycling spec match</div>
-              <h3 class="fc__side-h">What you get back in 24 hours</h3>
-              <p class="fc__side-p">A cycling-specific fabric, chamois, and MOQ assessment matched to your design brief or tech-pack &mdash; not a generic sales reply.</p>
-            </div>
-            <ul class="fc__checks">
-              <li><i class="bi bi-check2-circle"></i><span>Chamois series match (Sprint / Endurance / Ultra-Endurance) for your discipline</span></li>
-              <li><i class="bi bi-check2-circle"></i><span>Per-SKU MOQ split and FOB estimate (or Cycling Team Pack quote)</span></li>
-              <li><i class="bi bi-check2-circle"></i><span>Sample timeline and pattern fee (if no tech-pack)</span></li>
-              <li><i class="bi bi-check2-circle"></i><span>Cert PDFs (OEKO-TEX / GRS / Higg) on request</span></li>
-            </ul>
-          </aside>
-        </div>
-        <p class="fc__tr rv">Replies within 1 business day <span>&middot;</span> NDA on request <span>&middot;</span> Sample fee waived after first PO <span>&middot;</span> Cycling Team Pack samples across the full 6-SKU kit</p>
-        <p class="fc__alts rv">Or email <a href="mailto:sales@berunactivewear.com">sales@berunactivewear.com</a> &middot; WhatsApp <a href="https://wa.me/8615902778636">+86&nbsp;159&nbsp;0277&nbsp;8636</a> &middot; Anna, Sales Manager</p>
-      </div>
-    </section>
+    <div id="inquiry-form-container" data-theme="dark" data-heading="Start Your Cycling Apparel Production" data-sub="Send your design brief or tech-pack. Share your discipline and kit composition. We reply within one business day."></div>
 
   </main>
 
   <div id="footer-container"></div>
   <script src="/assets/footer.js" defer></script>
+  <script src="/assets/form-widget.js" defer></script>
   <script>window.WhatsAppWidgetConfig={contactsFile:'/assets/whatsapp-contacts.json'};</script>
   <script src="/assets/whatsapp-widget.js" defer></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" defer></script>
@@ -1300,38 +1255,6 @@
         var w=el.width||400,h=el.height||300;
         el.src='https://app.grapesjs.com/api/assets/random-image?query='+q+'&w='+w+'&h='+h;
       };
-    });
-  })();
-  </script>
-  <script>
-  (function(){
-    var TEAMKIT_MSG = "I'm organizing a team kit for [X] riders. I need pricing for: jersey / bib / long-sleeve / tight / vest / warmers (circle all that apply). Our season starts [date]. Discipline: [Road / Gravel / MTB / Triathlon / Indoor / Gran Fondo].";
-    document.querySelectorAll('a[href="#inquiry-form"]').forEach(function(a){
-      a.addEventListener('click', function(e){
-        e.preventDefault();
-        var form = document.getElementById('inquiry-form');
-        if(!form) return;
-        if(a.dataset.prefill === 'teamkit'){
-          var msg = form.querySelector('textarea[name="message"]');
-          if(msg && !msg.value){ msg.value = TEAMKIT_MSG; }
-        }
-        form.scrollIntoView({behavior:'smooth', block:'center'});
-        setTimeout(function(){
-          var f = form.querySelector('input:not([type="hidden"]):not([style*="display:none"]),textarea');
-          if(f) f.focus({preventScroll:true});
-        }, 600);
-      });
-    });
-  })();
-  </script>
-  <script>
-  (function(){
-    var f=document.querySelector('#inquiry-form');
-    if(!f)return;
-    var t=Date.now();
-    f.addEventListener('submit',function(){
-      var s=document.createElement('input');s.type='hidden';s.name='submission_time';s.value=Math.floor((Date.now()-t)/1000);this.appendChild(s);
-      var p=document.createElement('input');p.type='hidden';p.name='page_url';p.value=window.location.href;this.appendChild(p);
     });
   })();
   </script>

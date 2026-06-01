@@ -559,24 +559,6 @@
       font-weight: 500;
     }
 
-    /* ===== S6: CTA ===== */
-    .cta-service {
-      min-height: 30vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      background: var(--color-secondary);
-      padding: clamp(56px, 8vh, 100px) 0;
-    }
-    .cta-service .section-h2 {
-      color: #FFFFFF;
-      margin-bottom: 14px;
-    }
-    .cta-service .section-sub {
-      color: rgba(250,247,242,0.78);
-      margin-bottom: 32px;
-    }
     </style>
 </head>
 <body>
@@ -803,15 +785,8 @@
     </section>
 
     <!-- S6: CTA -->
-    <section class="cta-service" aria-labelledby="cta-heading">
-        <div class="container-bra">
-            <div class="anim-rise">
-                <h2 id="cta-heading" class="section-h2">Start Your OEM Project</h2>
-                <p class="section-sub">We reply with a per-size MOQ split and FOB quote within 2 business days.</p>
-                <a href="/contact" class="btn-corp btn-corp--primary">Start Your OEM Project <i class="bi bi-arrow-right"></i></a>
-            </div>
-        </div>
-    </section>
+    <!-- Inquiry form (reusable widget; source params auto-injected) -->
+    <div id="inquiry-form-container" data-theme="dark" data-heading="Start your OEM project with a real factory" data-sub="Send your tech-pack and we'll come back within two business days with a per-size MOQ split, sampling timeline, and an FOB quote."></div>
 
 </main>
 
@@ -825,6 +800,7 @@
 <script src="/assets/topbar.js" defer></script>
 <script src="/assets/dynamic-menu.js" defer></script>
 <script src="/assets/footer.js" defer></script>
+<script src="/assets/form-widget.js" defer></script>
 <script src="/assets/whatsapp-widget.js" defer></script>
 </body>
 </html>

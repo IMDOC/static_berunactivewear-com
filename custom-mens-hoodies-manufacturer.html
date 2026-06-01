@@ -664,59 +664,14 @@
       </div>
     </section>
 
-    <!-- S9: FINAL CTA + INQUIRY FORM -->
-    <section class="fc" aria-labelledby="s9-h2">
-      <div class="ctr">
-        <h2 class="fc__h rv" id="s9-h2">Start Your Mens Hoodie Production</h2>
-        <p class="fc__s rv">Work with a mens hoodie manufacturer that specs the build, not just the blank. Send a tech-pack, a reference photo, or just the closure, fit block, and fleece you have in mind. We confirm construction, fabric, MOQ split, and lead time within one business day.</p>
-        <div class="fc__form rv">
-          <form id="inquiry-form" action="https://form.lianf.com/" method="POST" enctype="multipart/form-data">
-            <input type="hidden" name="domain" value="berunactivewear.com">
-            <input type="hidden" name="page" value="custom-mens-hoodies-manufacturer">
-            <input type="text" name="website" style="display:none" tabindex="-1" autocomplete="off">
-            <div class="fc__fields">
-              <div class="fc__field">
-                <label for="mh-name">Full Name <span style="color:#FFD166">*</span></label>
-                <input type="text" id="mh-name" name="name" required placeholder="Your full name">
-              </div>
-              <div class="fc__field">
-                <label for="mh-email">Email <span style="color:#FFD166">*</span></label>
-                <input type="email" id="mh-email" name="email" required placeholder="you@company.com">
-              </div>
-              <div class="fc__field">
-                <label for="mh-phone">Phone / WhatsApp</label>
-                <input type="tel" id="mh-phone" name="phone" placeholder="+1 555 000 0000">
-              </div>
-              <div class="fc__field fc__field--full">
-                <label for="mh-msg">Closure, fit block &amp; fleece <span style="color:#FFD166">*</span></label>
-                <textarea id="mh-msg" name="message" rows="3" required placeholder="Send a hoodie tech-pack link, or describe the closure (pullover / zip), fit block, fleece, and quantities you need."></textarea>
-              </div>
-            </div>
-            <button type="submit" class="btn btn--p" style="width:100%;margin-top:16px;">Send your hoodie brief</button>
-          </form>
-          <aside class="fc__side" aria-label="What you receive after inquiry">
-            <div>
-              <div class="fc__side-k">Hoodie spec match</div>
-              <h3 class="fc__side-h">What you get back in 24 hours</h3>
-              <p class="fc__side-p">A hoodie-specific closure, fit-block, and construction assessment matched to your brief &mdash; not a generic sales reply.</p>
-            </div>
-            <ul class="fc__checks">
-              <li><i class="bi bi-check2-circle"></i><span>Closure, fit block, and fleece structure per style</span></li>
-              <li><i class="bi bi-check2-circle"></i><span>Construction spec, size-split MOQ, and lead time</span></li>
-              <li><i class="bi bi-check2-circle"></i><span>Sample timeline (and pattern fee if no tech-pack)</span></li>
-              <li><i class="bi bi-check2-circle"></i><span>Cert PDFs (OEKO-TEX / GRS) on request</span></li>
-            </ul>
-          </aside>
-        </div>
-        <p class="fc__tr rv">One business day reply <span>&middot;</span> NDA on request <span>&middot;</span> Sample fee waived after first PO</p>
-        <p class="fc__alts rv">Or email <a href="mailto:sales@berunactivewear.com">sales@berunactivewear.com</a> &middot; WhatsApp <a href="https://wa.me/8615902778636">+86&nbsp;159&nbsp;0277&nbsp;8636</a> &middot; Anna, Sales Manager</p>
-      </div>
-    </section>
+    <!-- S9: FINAL CTA + INQUIRY FORM (form-widget) -->
+    <div id="inquiry-form-container" data-theme="dark" data-heading="Start Your Mens Hoodie Production" data-sub="Work with a mens hoodie manufacturer that specs the build, not just the blank. Send a tech-pack, a reference photo, or just the closure, fit block, and fleece you have in mind. We confirm construction, fabric, MOQ split, and lead time within one business day."></div>
 
   </main>
 
   <div id="footer-container"></div>
   <script src="/assets/footer.js" defer></script>
+  <script src="/assets/form-widget.js" defer></script>
   <script>window.WhatsAppWidgetConfig={contactsFile:'/assets/whatsapp-contacts.json'};</script>
   <script src="/assets/whatsapp-widget.js" defer></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" defer></script>
@@ -758,33 +713,6 @@
         var w=el.width||400,h=el.height||300;
         el.src='https://app.grapesjs.com/api/assets/random-image?query='+q+'&w='+w+'&h='+h;
       };
-    });
-  })();
-  </script>
-  <script>
-  (function(){
-    document.querySelectorAll('a[href="#inquiry-form"]').forEach(function(a){
-      a.addEventListener('click', function(e){
-        e.preventDefault();
-        var form = document.getElementById('inquiry-form');
-        if(!form) return;
-        form.scrollIntoView({behavior:'smooth', block:'center'});
-        setTimeout(function(){
-          var f = form.querySelector('input:not([type="hidden"]):not([style*="display:none"]),textarea');
-          if(f) f.focus({preventScroll:true});
-        }, 600);
-      });
-    });
-  })();
-  </script>
-  <script>
-  (function(){
-    var f=document.querySelector('#inquiry-form');
-    if(!f)return;
-    var t=Date.now();
-    f.addEventListener('submit',function(){
-      var s=document.createElement('input');s.type='hidden';s.name='submission_time';s.value=Math.floor((Date.now()-t)/1000);this.appendChild(s);
-      var p=document.createElement('input');p.type='hidden';p.name='page_url';p.value=window.location.href;this.appendChild(p);
     });
   })();
   </script>
