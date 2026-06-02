@@ -103,6 +103,8 @@
     </script>
 
     <!-- DNS Prefetch & Preconnect -->
+    <link rel="preconnect" href="https://img.berunactivewear.com" crossorigin>
+    <link rel="dns-prefetch" href="//img.berunactivewear.com">
     <link rel="dns-prefetch" href="//cdn.jsdelivr.net">
     <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -620,7 +622,7 @@
   <div class="dm-container">
     
     <a href="/" class="dm-logo">
-      <img src="https://img.berunactivewear.com/assets/images/logo.svg" alt="Berun Active Wear" />
+      <img src="https://img.berunactivewear.com/assets/images/logo.svg" onerror="this.onerror=null;this.src='/assets/images/logo.svg'" alt="Berun Active Wear" />
       
     </a>
   
@@ -753,10 +755,28 @@
 
   <main id="main">
 
+    <style>
+    .bra-breadcrumb { background: #fff; border-bottom: 1px solid var(--color-border); }
+    .bra-breadcrumb ol { list-style: none; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 0; padding: 12px 0; font-size: 0.8125rem; color: var(--color-muted); }
+    .bra-breadcrumb a { color: var(--color-muted); text-decoration: none; }
+    .bra-breadcrumb a:hover { color: var(--color-primary); }
+    .bra-breadcrumb li[aria-current] { color: var(--color-text); font-weight: 600; }
+    .bra-breadcrumb .sep { opacity: 0.5; }
+    </style>
+    <nav class="bra-breadcrumb" aria-label="Breadcrumb">
+      <div class="container-bra">
+        <ol>
+          <li><a href="/">Home</a></li>
+          <li class="sep" aria-hidden="true">/</li>
+          <li aria-current="page">Products</li>
+        </ol>
+      </div>
+    </nav>
+
     <!-- ============== S1 — Hero (50vh, dark bg overlay) ============== -->
     <section class="hero-products" aria-labelledby="hero-h1">
       <picture class="hero-products__bg" aria-hidden="true">
-        <img src="https://img.berunactivewear.com/assets/images/hero-factory-bg.webp"
+        <img src="https://img.berunactivewear.com/assets/images/hero-factory-bg.webp" onerror="this.onerror=null;this.src='/assets/images/hero-factory-bg.webp'"
              alt="" width="1920" height="960" fetchpriority="high">
       </picture>
       <div class="hero-products__inner">
@@ -784,7 +804,7 @@
             </ul>
           </div>
           <figure class="service-proof-media">
-            <img src="https://img.berunactivewear.com/assets/images/fabric-qc-lab.webp" alt="Activewear fabric swatches, test tools and category review notes" width="900" height="560" loading="lazy">
+            <img src="https://img.berunactivewear.com/assets/images/fabric-qc-lab.webp" onerror="this.onerror=null;this.src='/assets/images/fabric-qc-lab.webp'" alt="Activewear fabric swatches, test tools and category review notes" width="900" height="560" loading="lazy">
             <figcaption>Fabric and construction risks are reviewed by product family before sampling.</figcaption>
           </figure>
         </div>
@@ -806,7 +826,7 @@
             <figure class="product-card__media">
               <img loading="lazy" width="800" height="600"
                    alt="Training and performance activewear — leggings, sports bras, compression top"
-                   src="https://img.berunactivewear.com/assets/images/product-training-performance.webp">
+                   src="https://img.berunactivewear.com/assets/images/product-training-performance.webp" onerror="this.onerror=null;this.src='/assets/images/product-training-performance.webp'">
             </figure>
             <div class="product-card__body">
               <h3 class="product-card__title">Training &amp; Performance</h3>
@@ -828,7 +848,7 @@
             <figure class="product-card__media">
               <img loading="lazy" width="800" height="600"
                    alt="Athleisure and lifestyle fit collection — hoodie, jacket, sweatpant"
-                   src="https://img.berunactivewear.com/assets/images/product-athleisure.webp">
+                   src="https://img.berunactivewear.com/assets/images/product-athleisure.webp" onerror="this.onerror=null;this.src='/assets/images/product-athleisure.webp'">
             </figure>
             <div class="product-card__body">
               <h3 class="product-card__title">Athleisure / Lifestyle Fit</h3>
@@ -850,7 +870,7 @@
             <figure class="product-card__media">
               <img loading="lazy" width="800" height="600"
                    alt="Team and club sublimated jerseys with number and crest personalization"
-                   src="https://img.berunactivewear.com/assets/images/product-team-club.webp">
+                   src="https://img.berunactivewear.com/assets/images/product-team-club.webp" onerror="this.onerror=null;this.src='/assets/images/product-team-club.webp'">
             </figure>
             <div class="product-card__body">
               <h3 class="product-card__title">Team &amp; Club Apparel</h3>
@@ -874,7 +894,7 @@
             <figure class="product-card__media">
               <img loading="lazy" width="800" height="600"
                    alt="Outdoor running windbreaker and technical running tights"
-                   src="https://img.berunactivewear.com/assets/images/product-outdoor-running.webp">
+                   src="https://img.berunactivewear.com/assets/images/product-outdoor-running.webp" onerror="this.onerror=null;this.src='/assets/images/product-outdoor-running.webp'">
             </figure>
             <div class="product-card__body">
               <h3 class="product-card__title">Outdoor / Running</h3>
@@ -895,7 +915,7 @@
             <figure class="product-card__media">
               <img loading="lazy" width="800" height="600"
                    alt="Activewear accessories — headband, arm sleeve, socks, cap"
-                   src="https://img.berunactivewear.com/assets/images/product-accessories.webp">
+                   src="https://img.berunactivewear.com/assets/images/product-accessories.webp" onerror="this.onerror=null;this.src='/assets/images/product-accessories.webp'">
             </figure>
             <div class="product-card__body">
               <h3 class="product-card__title">Accessories</h3>
@@ -1019,7 +1039,7 @@
     <div class="ft-grid">
       
     <div class="ft-column ft-company">
-      <img src="https://img.berunactivewear.com/assets/images/logo.svg" alt="Berun Active Wear" class="ft-logo" />
+      <img src="https://img.berunactivewear.com/assets/images/logo.svg" onerror="this.onerror=null;this.src='/assets/images/logo.svg'" alt="Berun Active Wear" class="ft-logo" />
       <p class="ft-desc">Custom activewear and sportswear manufacturer offering OEM/ODM production for global brands, distributors, and private-label businesses. MOQ, sample, QC and compliance files are shared during RFQ.</p>
       <div class="ft-social-icons">
                   <a href="https://www.linkedin.com/company/berun-active-wear" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">

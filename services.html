@@ -98,6 +98,8 @@
     </script>
 
     <!-- DNS Prefetch & Preconnect -->
+    <link rel="preconnect" href="https://img.berunactivewear.com" crossorigin>
+    <link rel="dns-prefetch" href="//img.berunactivewear.com">
     <link rel="dns-prefetch" href="//cdn.jsdelivr.net">
     <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -636,7 +638,7 @@
   <div class="dm-container">
     
     <a href="/" class="dm-logo">
-      <img src="https://img.berunactivewear.com/assets/images/logo.svg" alt="Berun Active Wear" />
+      <img src="https://img.berunactivewear.com/assets/images/logo.svg" onerror="this.onerror=null;this.src='/assets/images/logo.svg'" alt="Berun Active Wear" />
       
     </a>
   
@@ -769,10 +771,28 @@
 
   <main>
 
+    <style>
+    .bra-breadcrumb { background: #fff; border-bottom: 1px solid var(--color-border); }
+    .bra-breadcrumb ol { list-style: none; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 0; padding: 12px 0; font-size: 0.8125rem; color: var(--color-muted); }
+    .bra-breadcrumb a { color: var(--color-muted); text-decoration: none; }
+    .bra-breadcrumb a:hover { color: var(--color-primary); }
+    .bra-breadcrumb li[aria-current] { color: var(--color-text); font-weight: 600; }
+    .bra-breadcrumb .sep { opacity: 0.5; }
+    </style>
+    <nav class="bra-breadcrumb" aria-label="Breadcrumb">
+      <div class="container-bra">
+        <ol>
+          <li><a href="/">Home</a></li>
+          <li class="sep" aria-hidden="true">/</li>
+          <li aria-current="page">Services</li>
+        </ol>
+      </div>
+    </nav>
+
     <!-- ============== S1 — Hero ============== -->
     <section class="hero-services" aria-labelledby="s1-h1">
       <div class="hero-services__bg" aria-hidden="true">
-        <img src="https://img.berunactivewear.com/assets/images/hero-factory-bg.webp" alt="" width="1920" height="960" loading="eager">
+        <img src="https://img.berunactivewear.com/assets/images/hero-factory-bg.webp" onerror="this.onerror=null;this.src='/assets/images/hero-factory-bg.webp'" alt="" width="1920" height="960" loading="eager">
       </div>
       <div class="hero-services__inner">
         <div class="container-bra">
@@ -800,11 +820,11 @@
           </div>
           <div class="service-proof-stack">
             <figure class="service-proof-media">
-              <img src="https://img.berunactivewear.com/assets/images/pattern-sample-approval.webp" alt="Pattern and sample approval table for activewear service routing" width="900" height="420" loading="lazy">
+              <img src="https://img.berunactivewear.com/assets/images/pattern-sample-approval.webp" onerror="this.onerror=null;this.src='/assets/images/pattern-sample-approval.webp'" alt="Pattern and sample approval table for activewear service routing" width="900" height="420" loading="lazy">
               <figcaption>Spec, sample and pattern status decide the production route.</figcaption>
             </figure>
             <figure class="service-proof-media">
-              <img src="https://img.berunactivewear.com/assets/images/private-label-packing.webp" alt="Private label packing and carton file for activewear service routing" width="900" height="420" loading="lazy">
+              <img src="https://img.berunactivewear.com/assets/images/private-label-packing.webp" onerror="this.onerror=null;this.src='/assets/images/private-label-packing.webp'" alt="Private label packing and carton file for activewear service routing" width="900" height="420" loading="lazy">
               <figcaption>Labels, packing and compliance requests are handled as separate approval files.</figcaption>
             </figure>
           </div>
@@ -984,7 +1004,7 @@
     <div class="ft-grid">
       
     <div class="ft-column ft-company">
-      <img src="https://img.berunactivewear.com/assets/images/logo.svg" alt="Berun Active Wear" class="ft-logo" />
+      <img src="https://img.berunactivewear.com/assets/images/logo.svg" onerror="this.onerror=null;this.src='/assets/images/logo.svg'" alt="Berun Active Wear" class="ft-logo" />
       <p class="ft-desc">Custom activewear and sportswear manufacturer offering OEM/ODM production for global brands, distributors, and private-label businesses. MOQ, sample, QC and compliance files are shared during RFQ.</p>
       <div class="ft-social-icons">
                   <a href="https://www.linkedin.com/company/berun-active-wear" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
