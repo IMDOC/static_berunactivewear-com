@@ -73,6 +73,12 @@
         window.DynamicMenuConfig={menuFile:'/assets/menu-config.json',brandColor:'#DC2626',sticky:true};
         window.FooterConfig={configFile:'/assets/footer-config.json',backgroundColor:'#1F2937',brandColor:'#DC2626',hoverColor:'#DC2626'};
     </script>
+    <!-- Preconnect: image CDN (LCP) + asset/font origins -->
+    <link rel="preconnect" href="https://img.berunactivewear.com" crossorigin>
+    <link rel="dns-prefetch" href="//img.berunactivewear.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+    <link rel="dns-prefetch" href="//cdn.jsdelivr.net">
     <link rel="preload" as="image" fetchpriority="high" href="https://img.berunactivewear.com/assets/images/hero-factory-bg.webp">
 
     <style>
@@ -591,6 +597,22 @@
   <script src="/assets/dynamic-menu.js" defer></script>
 
   <main id="main">
+
+    <style>
+      .bcrumb{background:#FAF7F2;border-bottom:1px solid rgba(15,31,30,.08)}
+      .bcrumb__list{max-width:1320px;margin:0 auto;padding:10px clamp(16px,3vw,32px);list-style:none;display:flex;flex-wrap:wrap;align-items:center;gap:8px;font-size:.8125rem}
+      .bcrumb__item{display:flex;align-items:center;gap:8px;color:#5b6473}
+      .bcrumb__item:not(:first-child)::before{content:"/";color:rgba(15,31,30,.3)}
+      .bcrumb__item a{color:#5b6473;text-decoration:none}
+      .bcrumb__item a:hover{color:#DC2626;text-decoration:underline}
+      .bcrumb__item--current{color:#1F2937;font-weight:600}
+    </style>
+    <nav class="bcrumb" aria-label="Breadcrumb">
+      <ol class="bcrumb__list">
+        <li class="bcrumb__item"><a href="/">Home</a></li>
+        <li class="bcrumb__item bcrumb__item--current" aria-current="page">About</li>
+      </ol>
+    </nav>
 
     <!-- S1: HERO — Single-Site Operating Record dashboard (page-unique concept) -->
     <section class="abh" aria-labelledby="about-h1">
