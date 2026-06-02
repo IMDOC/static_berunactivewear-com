@@ -1198,59 +1198,6 @@
     els.forEach(function(el){io.observe(el)});
   })();
   </script>
-  <script>
-  (function(){
-    var fallbacks=['factory-production','textile-manufacturing','garment-sewing','fabric-cutting','warehouse-logistics','quality-inspection','industrial-workshop','clothing-production'];
-    function makePlaceholder(el){
-      var ph=document.createElement('div');
-      ph.className='img-ph';
-      ph.style.width='100%';
-      ph.style.aspectRatio=(el.width&&el.height)?(el.width+'/'+el.height):'4/3';
-      ph.innerHTML='<i class="bi bi-camera"></i><span>Photo pending</span>';
-      el.replaceWith(ph);
-    }
-    function retry(el){
-      var q=fallbacks[Math.floor(Math.random()*fallbacks.length)];
-      var w=el.width||400,h=el.height||300;
-      el.src='https://app.grapesjs.com/api/assets/random-image?query='+q+'&w='+w+'&h='+h;
-    }
-    function handleFail(el){
-      if(el.dataset.retried){ makePlaceholder(el); return; }
-      el.dataset.retried='1';
-      retry(el);
-    }
-    function isGrapesUnavailable(el){
-      // grapesjs returns a fixed-size placeholder image when no match found
-      // detection: very small natural dimensions vs requested size
-      if(!el.naturalWidth || !el.naturalHeight) return false;
-      var requestedW=el.width||0, requestedH=el.height||0;
-      if(!requestedW || !requestedH) return false;
-      // grapesjs placeholder is typically <=512px in natural size regardless of requested w/h
-      // if natural dimensions are dramatically smaller than requested (>2x diff), it's likely the placeholder
-      return el.naturalWidth < requestedW*0.5 && el.naturalHeight < requestedH*0.5;
-    }
-    document.querySelectorAll('main img').forEach(function(img){
-      // attach onerror first
-      img.addEventListener('error', function(){ handleFail(img); });
-      // check if already broken (failed before script attached)
-      if(img.complete && img.naturalWidth === 0){
-        handleFail(img);
-        return;
-      }
-      // for grapesjs placeholder detection on loaded images
-      var checkLoaded=function(){
-        if(img.src.indexOf('grapesjs.com') !== -1 && isGrapesUnavailable(img)){
-          handleFail(img);
-        }
-      };
-      if(img.complete){
-        checkLoaded();
-      } else {
-        img.addEventListener('load', checkLoaded);
-      }
-    });
-  })();
-  </script>
 
 <footer id="site-footer" class="ft-footer">
   <div class="ft-container">
