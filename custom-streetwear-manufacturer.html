@@ -33,78 +33,151 @@
 
     <script type="application/ld+json">
     {
-      "@context": "https://schema.org",
-      "@graph": [
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.berunactivewear.com/#org",
+      "name": "Berun Active Wear",
+      "url": "https://www.berunactivewear.com/",
+      "logo": "https://www.berunactivewear.com/apple-icon-180x180.png",
+      "foundingDate": "2017",
+      "numberOfEmployees": {
+        "@type": "QuantitativeValue",
+        "value": 280
+      },
+      "hasCredential": [
         {
-          "@type": "Organization",
-          "@id": "https://www.berunactivewear.com/#org",
-          "name": "Berun Active Wear",
-          "url": "https://www.berunactivewear.com/",
-          "logo": "https://www.berunactivewear.com/apple-icon-180x180.png",
-          "foundingDate": "2017",
-          "numberOfEmployees": {"@type": "QuantitativeValue", "value": 280},
-          "hasCredential": [
-            {"@type": "EducationalOccupationalCredential", "credentialCategory": "certification", "name": "OEKO-TEX Standard 100", "identifier": "23.HCN.74521"},
-            {"@type": "EducationalOccupationalCredential", "credentialCategory": "certification", "name": "BSCI", "identifier": "BSCI-CN-2024-08-15"},
-            {"@type": "EducationalOccupationalCredential", "credentialCategory": "certification", "name": "WRAP Gold", "identifier": "WRAP-GLD-156823"},
-            {"@type": "EducationalOccupationalCredential", "credentialCategory": "certification", "name": "GRS", "identifier": "CU 1014387 GRS-2024"},
-            {"@type": "EducationalOccupationalCredential", "credentialCategory": "certification", "name": "Higg FEM", "identifier": "HIG-FEM-2024-CN-08"}
-          ]
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "certification",
+          "name": "OEKO-TEX Standard 100",
+          "identifier": "23.HCN.74521"
         },
         {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.berunactivewear.com/"},
-            {"@type": "ListItem", "position": 2, "name": "Custom Streetwear Manufacturer", "item": "https://www.berunactivewear.com/custom-streetwear-manufacturer"}
-          ]
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "certification",
+          "name": "BSCI",
+          "identifier": "BSCI-CN-2024-08-15"
         },
         {
-          "@type": "FAQPage",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "What is the MOQ for custom streetwear, and how does the Streetwear Drop Pack work for a multi-style drop?",
-              "acceptedAnswer": {"@type": "Answer", "text": "Single-style MOQ is 300 pieces baseline on OEM cut-and-sew (split across sizes from that 300, not multiplied per size). It drops to 200 per style on ODM block patterns and 100 per style on private label. For a multi-style drop, ask about the Streetwear Drop Pack — 50 pieces per style minimum with a 200-piece cross-SKU floor across 3 or more styles in one drop PO, because we amortize pattern, cutting, wash, and decoration setup across the whole drop instead of charging it per single style."}
-            },
-            {
-              "@type": "Question",
-              "name": "Can I order one sample before committing to a bulk drop?",
-              "acceptedAnswer": {"@type": "Answer", "text": "Yes. One-piece sample, USD 45 fee, 5 working days when fabric is in stock (12 working days with custom fabric or wash). Sample fee is waived after your first bulk PO. We seal the approved sample — pattern, GSM, wash, every decoration method, and trims — and photograph it, so the bulk run matches the sample you signed off."}
-            },
-            {
-              "@type": "Question",
-              "name": "Do you cut and sew from my own pattern and fabric, or just print on stock blanks?",
-              "acceptedAnswer": {"@type": "Answer", "text": "Full cut-and-sew. We build from your pattern (or ours, graded to your oversized, boxy, or relaxed block), your fabric weight (400-500 GSM French terry or fleece for hoodies, 240-280 GSM single jersey for tees), and your own woven necklabel — not a print applied to a stock blank. You own the fit, the GSM, and the brand inside the garment, not just the graphic on the outside."}
-            },
-            {
-              "@type": "Question",
-              "name": "Will a 400-500 GSM heavyweight hoodie shrink or lose its boxy fit after washing?",
-              "acceptedAnswer": {"@type": "Answer", "text": "Heavyweight French terry and fleece are compacted and pre-shrunk to a residual shrinkage of 3 percent or less after 5 home washes, versus 7-10 percent on commodity blanks. The oversized boxy block is graded so the drop-shoulder seam and body-width-to-length ratio hold their proportion after washing, instead of collapsing into a standard fitted block."}
-            },
-            {
-              "@type": "Question",
-              "name": "How do you stop puff print cracking, DTG fading on black, and embroidery puckering on French terry?",
-              "acceptedAnswer": {"@type": "Answer", "text": "We match the method to the fabric. Screen print (plastisol, water-based, or discharge) is tested to 50 wash cycles for crack and peel; puff and 3D print are tested for no-crack at 30 washes; embroidery on knit uses cut-away backing at a registration tolerance of 1mm to stop puckering. On dark heavyweight fabric we recommend discharge or screen print rather than DTG, which fades on black. We tell you the right method for your fabric before bulk, not after it fails."}
-            },
-            {
-              "@type": "Question",
-              "name": "Can you produce custom woven labels, neck prints, hangtags, and other trims?",
-              "acceptedAnswer": {"@type": "Answer", "text": "Yes. Custom woven main label, neck print or screen, size and care labels, hangtags, drawcord tips, YKK custom zipper pulls, embroidered or woven patches, and hem flag labels. Send finished artwork or we develop the trims package from your brand guide so the garment reads as your label inside and out."}
-            },
-            {
-              "@type": "Question",
-              "name": "Do you offer garment-dye, acid-wash, and tie-dye finishes?",
-              "acceptedAnswer": {"@type": "Answer", "text": "Yes — an in-house wash house for garment-dye, pigment-dye, acid-wash, stone-wash, mineral-wash, and tie-dye. Wash adds 5-7 days to the timeline. We sample the wash on your fabric first, because shade and hand-feel shift with GSM and fabric construction, so the bulk wash matches the approved sample."}
-            },
-            {
-              "@type": "Question",
-              "name": "We are an established apparel brand adding a streetwear capsule. Can you produce a small capsule line?",
-              "acceptedAnswer": {"@type": "Answer", "text": "Yes. Established brands use the Streetwear Drop Pack and ODM block patterns to test a streetwear capsule at low MOQ before committing to volume. Bring your tech-pack and we match fabric, fit, decoration methods, and trims to your main-line standard, so the capsule sits alongside your existing range without a quality gap."}
-            }
-          ]
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "certification",
+          "name": "WRAP Gold",
+          "identifier": "WRAP-GLD-156823"
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "certification",
+          "name": "GRS",
+          "identifier": "CU 1014387 GRS-2024"
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "certification",
+          "name": "Higg FEM",
+          "identifier": "HIG-FEM-2024-CN-08"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.berunactivewear.com/custom-streetwear-manufacturer#service",
+      "name": "Custom Streetwear Manufacturing",
+      "serviceType": "Streetwear apparel manufacturing (OEM/ODM/private label)",
+      "provider": {
+        "@id": "https://www.berunactivewear.com/#org"
+      },
+      "areaServed": "Worldwide",
+      "description": "OEM, ODM and private-label manufacturing of heavyweight hoodies, boxy tees, sweatpants, cargos and coach jackets for emerging streetwear brands."
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.berunactivewear.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Custom Streetwear Manufacturer",
+          "item": "https://www.berunactivewear.com/custom-streetwear-manufacturer"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the MOQ for custom streetwear, and how does the Streetwear Drop Pack work for a multi-style drop?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Single-style MOQ is 300 pieces baseline on OEM cut-and-sew (split across sizes from that 300, not multiplied per size). It drops to 200 per style on ODM block patterns and 100 per style on private label. For a multi-style drop, ask about the Streetwear Drop Pack — 50 pieces per style minimum with a 200-piece cross-SKU floor across 3 or more styles in one drop PO, because we amortize pattern, cutting, wash, and decoration setup across the whole drop instead of charging it per single style."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I order one sample before committing to a bulk drop?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. One-piece sample, USD 45 fee, 5 working days when fabric is in stock (12 working days with custom fabric or wash). Sample fee is waived after your first bulk PO. We seal the approved sample — pattern, GSM, wash, every decoration method, and trims — and photograph it, so the bulk run matches the sample you signed off."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you cut and sew from my own pattern and fabric, or just print on stock blanks?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Full cut-and-sew. We build from your pattern (or ours, graded to your oversized, boxy, or relaxed block), your fabric weight (400-500 GSM French terry or fleece for hoodies, 240-280 GSM single jersey for tees), and your own woven necklabel — not a print applied to a stock blank. You own the fit, the GSM, and the brand inside the garment, not just the graphic on the outside."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will a 400-500 GSM heavyweight hoodie shrink or lose its boxy fit after washing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Heavyweight French terry and fleece are compacted and pre-shrunk to a residual shrinkage of 3 percent or less after 5 home washes, versus 7-10 percent on commodity blanks. The oversized boxy block is graded so the drop-shoulder seam and body-width-to-length ratio hold their proportion after washing, instead of collapsing into a standard fitted block."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you stop puff print cracking, DTG fading on black, and embroidery puckering on French terry?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We match the method to the fabric. Screen print (plastisol, water-based, or discharge) is tested to 50 wash cycles for crack and peel; puff and 3D print are tested for no-crack at 30 washes; embroidery on knit uses cut-away backing at a registration tolerance of 1mm to stop puckering. On dark heavyweight fabric we recommend discharge or screen print rather than DTG, which fades on black. We tell you the right method for your fabric before bulk, not after it fails."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you produce custom woven labels, neck prints, hangtags, and other trims?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Custom woven main label, neck print or screen, size and care labels, hangtags, drawcord tips, YKK custom zipper pulls, embroidered or woven patches, and hem flag labels. Send finished artwork or we develop the trims package from your brand guide so the garment reads as your label inside and out."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you offer garment-dye, acid-wash, and tie-dye finishes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes — an in-house wash house for garment-dye, pigment-dye, acid-wash, stone-wash, mineral-wash, and tie-dye. Wash adds 5-7 days to the timeline. We sample the wash on your fabric first, because shade and hand-feel shift with GSM and fabric construction, so the bulk wash matches the approved sample."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "We are an established apparel brand adding a streetwear capsule. Can you produce a small capsule line?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Established brands use the Streetwear Drop Pack and ODM block patterns to test a streetwear capsule at low MOQ before committing to volume. Bring your tech-pack and we match fabric, fit, decoration methods, and trims to your main-line standard, so the capsule sits alongside your existing range without a quality gap."
+          }
         }
       ]
     }
+  ]
+}
     </script>
 
     <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap">
@@ -561,6 +634,12 @@
   <script src="/assets/dynamic-menu.js" defer></script>
 
   <main id="main">
+    <nav class="bcrumb" aria-label="Breadcrumb">
+      <ol class="bcrumb__list">
+        <li class="bcrumb__item"><a href="/">Home</a></li>
+        <li class="bcrumb__item bcrumb__item--current" aria-current="page">Custom Streetwear Manufacturer</li>
+      </ol>
+    </nav>
 
     <!-- S1: HERO — page-unique Split Editorial (left typographic manifesto + right asymmetric drop mosaic, off-white editorial bg) -->
     <section class="sw-hero" aria-labelledby="sw-h1">
@@ -608,6 +687,22 @@
         </div>
       </div>
     </section>
+
+    <nav class="pgtoc" aria-label="On this page">
+      <div class="pgtoc__box">
+        <p class="pgtoc__t">On this page</p>
+        <ul class="pgtoc__list">
+          <li><a href="#s2-h2">Products We Make</a></li>
+          <li><a href="#s3-h2">By Brand Stage</a></li>
+          <li><a href="#s4-h2">Construction & Decoration</a></li>
+          <li><a href="#s5-h2">Failure Modes Engineered Out</a></li>
+          <li><a href="#s7-h2">OEM / ODM / Private Label</a></li>
+          <li><a href="#s8-h2">Production Path</a></li>
+          <li><a href="#s9-h2">FAQ</a></li>
+          <li><a href="#s10-h2">Certifications</a></li>
+        </ul>
+      </div>
+    </nav>
 
     <!-- S2: STREETWEAR SUBCATEGORY CARDS (6 cards) -->
     <section class="sec sec--t" aria-labelledby="s2-h2">
