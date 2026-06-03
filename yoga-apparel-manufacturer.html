@@ -33,78 +33,151 @@
 
     <script type="application/ld+json">
     {
-      "@context": "https://schema.org",
-      "@graph": [
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.berunactivewear.com/#org",
+      "name": "Berun Active Wear",
+      "url": "https://www.berunactivewear.com/",
+      "logo": "https://www.berunactivewear.com/apple-icon-180x180.png",
+      "foundingDate": "2017",
+      "numberOfEmployees": {
+        "@type": "QuantitativeValue",
+        "value": 280
+      },
+      "hasCredential": [
         {
-          "@type": "Organization",
-          "@id": "https://www.berunactivewear.com/#org",
-          "name": "Berun Active Wear",
-          "url": "https://www.berunactivewear.com/",
-          "logo": "https://www.berunactivewear.com/apple-icon-180x180.png",
-          "foundingDate": "2017",
-          "numberOfEmployees": {"@type": "QuantitativeValue", "value": 280},
-          "hasCredential": [
-            {"@type": "EducationalOccupationalCredential", "credentialCategory": "certification", "name": "OEKO-TEX Standard 100", "identifier": "23.HCN.74521"},
-            {"@type": "EducationalOccupationalCredential", "credentialCategory": "certification", "name": "BSCI", "identifier": "BSCI-CN-2024-08-15"},
-            {"@type": "EducationalOccupationalCredential", "credentialCategory": "certification", "name": "WRAP Gold", "identifier": "WRAP-GLD-156823"},
-            {"@type": "EducationalOccupationalCredential", "credentialCategory": "certification", "name": "GRS", "identifier": "CU 1014387 GRS-2024"},
-            {"@type": "EducationalOccupationalCredential", "credentialCategory": "certification", "name": "Higg FEM", "identifier": "HIG-FEM-2024-CN-08"}
-          ]
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "certification",
+          "name": "OEKO-TEX Standard 100",
+          "identifier": "23.HCN.74521"
         },
         {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.berunactivewear.com/"},
-            {"@type": "ListItem", "position": 2, "name": "Yoga Apparel Manufacturer", "item": "https://www.berunactivewear.com/yoga-apparel-manufacturer"}
-          ]
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "certification",
+          "name": "BSCI",
+          "identifier": "BSCI-CN-2024-08-15"
         },
         {
-          "@type": "FAQPage",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "What's the minimum order for yoga leggings — is it really 300?",
-              "acceptedAnswer": {"@type": "Answer", "text": "Yes. MOQ is 300 pieces per SKU, but XS through XXL split from that 300 — not multiplied per size. A 300-piece leggings PO can be 40 XS / 60 S / 80 M / 70 L / 50 XL. Applies equally to leggings, bras, tanks, shorts, and bodysuits."}
-            },
-            {
-              "@type": "Question",
-              "name": "I don't have a tech-pack yet. Can you still help?",
-              "acceptedAnswer": {"@type": "Answer", "text": "Yes — go with ODM. We have 50+ yoga-specific block patterns: high-rise leggings, three impact tiers of bras, fitted tanks, lined shorts, and full unitards. You customize color, print, fabric tier, and labels. No tech-pack required."}
-            },
-            {
-              "@type": "Question",
-              "name": "Can I order just 1 sample to test before committing to 300?",
-              "acceptedAnswer": {"@type": "Answer", "text": "Yes. 1-piece sample, USD 45 fee, produced in 5 working days when the fabric is on stock. Sample fee waived after first bulk PO. You can order samples in all 5 yoga subcategories before deciding what to scale."}
-            },
-            {
-              "@type": "Question",
-              "name": "How do I know your spandex won't bag out after 30 washes?",
-              "acceptedAnswer": {"@type": "Answer", "text": "We use Lycra T-400 or T-462 grade spandex (high elastic recovery). On request, we run a 50-cycle wash-recovery test on your sample before bulk production starts — recovery within 5% of initial elongation is our pass threshold."}
-            },
-            {
-              "@type": "Question",
-              "name": "How do you test squat-proof opacity, and what's the threshold?",
-              "acceptedAnswer": {"@type": "Answer", "text": "Pre-cut fabric inspection: ΔL <8% under stretched white-background light. Failed fabric is substituted with a higher-GSM tier before pattern cut. We log the result per fabric lot and include it in your pre-shipment QC package."}
-            },
-            {
-              "@type": "Question",
-              "name": "What's your ΔE color tolerance across multiple reorders?",
-              "acceptedAnswer": {"@type": "Answer", "text": "ΔE ≤ 1.5 against your Pantone reference, published commitment — not contract-only. Each bulk PO ships with a spectrophotometer reading per fabric lot. Color drift is the most common brand-consistency complaint we hear from inbound buyers — so this is our published number."}
-            },
-            {
-              "@type": "Question",
-              "name": "Which fabric mills do you source from for yoga apparel?",
-              "acceptedAnswer": {"@type": "Answer", "text": "Eclat Textile (four-way stretch specialist), Formosa Taffeta (recycled-poly performance), and Brookwood Performance (knit specialist). All three OEKO-TEX Standard 100 certified at the mill level. Higg-traceable on request."}
-            },
-            {
-              "@type": "Question",
-              "name": "Can you produce GRS-certified recycled polyester yoga leggings?",
-              "acceptedAnswer": {"@type": "Answer", "text": "Yes. GRS certification on file (CU 1014387 GRS-2024). Recycled polyester yoga apparel available with full chain-of-custody documentation. Used by 3 of our current customers for their eco-line capsules."}
-            }
-          ]
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "certification",
+          "name": "WRAP Gold",
+          "identifier": "WRAP-GLD-156823"
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "certification",
+          "name": "GRS",
+          "identifier": "CU 1014387 GRS-2024"
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "certification",
+          "name": "Higg FEM",
+          "identifier": "HIG-FEM-2024-CN-08"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.berunactivewear.com/yoga-apparel-manufacturer#service",
+      "name": "Custom Yoga Apparel Manufacturing",
+      "serviceType": "Yoga apparel manufacturing (OEM/ODM/private label)",
+      "provider": {
+        "@id": "https://www.berunactivewear.com/#org"
+      },
+      "areaServed": "Worldwide",
+      "description": "OEM, ODM and private-label manufacturing of yoga leggings, sports bras, tanks, shorts and bodysuits with squat-proof opacity, locked color and tested elastic recovery."
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.berunactivewear.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Yoga Apparel Manufacturer",
+          "item": "https://www.berunactivewear.com/yoga-apparel-manufacturer"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What's the minimum order for yoga leggings — is it really 300?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. MOQ is 300 pieces per SKU, but XS through XXL split from that 300 — not multiplied per size. A 300-piece leggings PO can be 40 XS / 60 S / 80 M / 70 L / 50 XL. Applies equally to leggings, bras, tanks, shorts, and bodysuits."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "I don't have a tech-pack yet. Can you still help?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes — go with ODM. We have 50+ yoga-specific block patterns: high-rise leggings, three impact tiers of bras, fitted tanks, lined shorts, and full unitards. You customize color, print, fabric tier, and labels. No tech-pack required."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I order just 1 sample to test before committing to 300?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. 1-piece sample, USD 45 fee, produced in 5 working days when the fabric is on stock. Sample fee waived after first bulk PO. You can order samples in all 5 yoga subcategories before deciding what to scale."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I know your spandex won't bag out after 30 washes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We use Lycra T-400 or T-462 grade spandex (high elastic recovery). On request, we run a 50-cycle wash-recovery test on your sample before bulk production starts — recovery within 5% of initial elongation is our pass threshold."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you test squat-proof opacity, and what's the threshold?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pre-cut fabric inspection: ΔL <8% under stretched white-background light. Failed fabric is substituted with a higher-GSM tier before pattern cut. We log the result per fabric lot and include it in your pre-shipment QC package."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What's your ΔE color tolerance across multiple reorders?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ΔE ≤ 1.5 against your Pantone reference, published commitment — not contract-only. Each bulk PO ships with a spectrophotometer reading per fabric lot. Color drift is the most common brand-consistency complaint we hear from inbound buyers — so this is our published number."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which fabric mills do you source from for yoga apparel?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Eclat Textile (four-way stretch specialist), Formosa Taffeta (recycled-poly performance), and Brookwood Performance (knit specialist). All three OEKO-TEX Standard 100 certified at the mill level. Higg-traceable on request."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you produce GRS-certified recycled polyester yoga leggings?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. GRS certification on file (CU 1014387 GRS-2024). Recycled polyester yoga apparel available with full chain-of-custody documentation. Used by 3 of our current customers for their eco-line capsules."
+          }
         }
       ]
     }
+  ]
+}
     </script>
 
     <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap">
@@ -546,6 +619,12 @@
   <script src="/assets/dynamic-menu.js" defer></script>
 
   <main id="main">
+    <nav class="bcrumb" aria-label="Breadcrumb">
+      <ol class="bcrumb__list">
+        <li class="bcrumb__item"><a href="/">Home</a></li>
+        <li class="bcrumb__item bcrumb__item--current" aria-current="page">Yoga Apparel Manufacturer</li>
+      </ol>
+    </nav>
 
     <!-- S1: HERO — Opacity Bench (squat-proof fail vs pass proof) -->
     <section class="yhero" aria-labelledby="yoga-h1">
@@ -623,6 +702,22 @@
         </div>
       </div>
     </section>
+
+    <nav class="pgtoc" aria-label="On this page">
+      <div class="pgtoc__box">
+        <p class="pgtoc__t">On this page</p>
+        <ul class="pgtoc__list">
+          <li><a href="#s2-h2">Products We Make</a></li>
+          <li><a href="#s3-h2">Practice-Type Specs</a></li>
+          <li><a href="#s4-h2">Squat-Proof Fabric</a></li>
+          <li><a href="#s5-h2">Failure Modes Engineered Out</a></li>
+          <li><a href="#s7-h2">OEM / ODM / Private Label</a></li>
+          <li><a href="#s8-h2">Manufacturing Process</a></li>
+          <li><a href="#s9-h2">FAQ</a></li>
+          <li><a href="#s10-h2">Certifications</a></li>
+        </ul>
+      </div>
+    </nav>
 
     <!-- S2: YOGA SUBCATEGORY CARDS -->
     <section class="sec sec--w" aria-labelledby="s2-h2">
