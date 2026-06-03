@@ -484,9 +484,19 @@
     /* ===== S3: Specs (icon + detail rows) ===== */
     .spec-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr));
+      grid-template-columns: repeat(6, 1fr);
       gap: clamp(16px, 2vw, 24px);
     }
+    .spec-grid > * { grid-column: span 2; }
+    .spec-grid > *:nth-child(n+4) { grid-column: span 3; }
+    @media (max-width: 760px) { .spec-grid { grid-template-columns: 1fr; } .spec-grid > * { grid-column: auto; } }
+    /* outdoor application scenes */
+    .run-scenes { display: grid; grid-template-columns: repeat(4, 1fr); gap: clamp(14px,1.6vw,22px); }
+    .run-scenes figure { margin:0; background:#fff; border:1px solid var(--color-border, rgba(15,31,30,.1)); border-radius:12px; overflow:hidden; }
+    .run-scenes img { width:100%; aspect-ratio:4/3; object-fit:cover; display:block; }
+    .run-scenes figcaption { padding:11px 12px; font-weight:600; font-size:.875rem; color:#0F1F1E; text-align:center; }
+    @media (max-width:900px){ .run-scenes { grid-template-columns: repeat(2,1fr);} }
+    @media (max-width:480px){ .run-scenes { grid-template-columns: 1fr;} }
     .spec-item {
       display: flex;
       gap: 16px;
@@ -883,6 +893,26 @@
     </section>
 
     <!-- ============== S3 — Fabric & Construction ============== -->
+    <!-- S2b — Outdoor Running Application Scenes (ERP task 484) -->
+    <section class="section-corp section-corp--compact section-corp--tint" id="run-scenes" aria-labelledby="s2b-h2">
+      <div class="container-bra">
+        <div class="section-head anim-rise">
+          <span class="section-rail">On the Road &amp; Trail</span>
+          <h2 class="section-h2" id="s2b-h2">Outdoor &amp; Running Apparel in Real Conditions</h2>
+        </div>
+        <div class="run-scenes">
+          <figure><img src="https://img.berunactivewear.com/assets/images/run-scene-trail.webp" onerror="this.onerror=null;this.src='/assets/images/run-scene-trail.webp'" alt="Trail Running apparel in use" width="600" height="450" loading="lazy"><figcaption>Trail Running</figcaption></figure>
+          <figure><img src="https://img.berunactivewear.com/assets/images/run-scene-road.webp" onerror="this.onerror=null;this.src='/assets/images/run-scene-road.webp'" alt="Road Running apparel in use" width="600" height="450" loading="lazy"><figcaption>Road Running</figcaption></figure>
+          <figure><img src="https://img.berunactivewear.com/assets/images/run-scene-park.webp" onerror="this.onerror=null;this.src='/assets/images/run-scene-park.webp'" alt="Park Run apparel in use" width="600" height="450" loading="lazy"><figcaption>Park Run</figcaption></figure>
+          <figure><img src="https://img.berunactivewear.com/assets/images/run-scene-city-morning.webp" onerror="this.onerror=null;this.src='/assets/images/run-scene-city-morning.webp'" alt="City Morning apparel in use" width="600" height="450" loading="lazy"><figcaption>City Morning</figcaption></figure>
+          <figure><img src="https://img.berunactivewear.com/assets/images/run-scene-track.webp" onerror="this.onerror=null;this.src='/assets/images/run-scene-track.webp'" alt="Track Intervals apparel in use" width="600" height="450" loading="lazy"><figcaption>Track Intervals</figcaption></figure>
+          <figure><img src="https://img.berunactivewear.com/assets/images/run-scene-mountain.webp" onerror="this.onerror=null;this.src='/assets/images/run-scene-mountain.webp'" alt="Mountain Trail apparel in use" width="600" height="450" loading="lazy"><figcaption>Mountain Trail</figcaption></figure>
+          <figure><img src="https://img.berunactivewear.com/assets/images/run-scene-beach.webp" onerror="this.onerror=null;this.src='/assets/images/run-scene-beach.webp'" alt="Coastal / Beach apparel in use" width="600" height="450" loading="lazy"><figcaption>Coastal / Beach</figcaption></figure>
+          <figure><img src="https://img.berunactivewear.com/assets/images/run-scene-winter.webp" onerror="this.onerror=null;this.src='/assets/images/run-scene-winter.webp'" alt="Winter Running apparel in use" width="600" height="450" loading="lazy"><figcaption>Winter Running</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
     <section class="section-corp section-corp--compact section-corp--tint" id="fabric" aria-labelledby="s3-h2">
       <div class="container-bra">
         <div class="section-head anim-rise anim-d1">
