@@ -33,46 +33,154 @@
 
     <script type="application/ld+json">
     {
-      "@context": "https://schema.org",
-      "@graph": [
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.berunactivewear.com/#org",
+      "name": "Berun Active Wear",
+      "url": "https://www.berunactivewear.com/",
+      "logo": "https://www.berunactivewear.com/apple-icon-180x180.png",
+      "foundingDate": "2017",
+      "numberOfEmployees": {
+        "@type": "QuantitativeValue",
+        "value": 280
+      },
+      "hasCredential": [
         {
-          "@type": "Organization",
-          "@id": "https://www.berunactivewear.com/#org",
-          "name": "Berun Active Wear",
-          "url": "https://www.berunactivewear.com/",
-          "logo": "https://www.berunactivewear.com/apple-icon-180x180.png",
-          "foundingDate": "2017",
-          "numberOfEmployees": {"@type": "QuantitativeValue", "value": 280},
-          "hasCredential": [
-            {"@type": "EducationalOccupationalCredential", "credentialCategory": "certification", "name": "OEKO-TEX Standard 100", "identifier": "23.HCN.74521"},
-            {"@type": "EducationalOccupationalCredential", "credentialCategory": "certification", "name": "BSCI", "identifier": "BSCI-CN-2024-08-15"},
-            {"@type": "EducationalOccupationalCredential", "credentialCategory": "certification", "name": "WRAP Gold", "identifier": "WRAP-GLD-156823"},
-            {"@type": "EducationalOccupationalCredential", "credentialCategory": "certification", "name": "GRS", "identifier": "CU 1014387 GRS-2024"},
-            {"@type": "EducationalOccupationalCredential", "credentialCategory": "certification", "name": "Higg FEM", "identifier": "HIG-FEM-2024-CN-08"}
-          ]
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "certification",
+          "name": "OEKO-TEX Standard 100",
+          "identifier": "23.HCN.74521"
         },
         {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.berunactivewear.com/"},
-            {"@type": "ListItem", "position": 2, "name": "Custom Compression Clothing", "item": "https://www.berunactivewear.com/custom-compression-clothing"}
-          ]
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "certification",
+          "name": "BSCI",
+          "identifier": "BSCI-CN-2024-08-15"
         },
         {
-          "@type": "FAQPage",
-          "mainEntity": [
-            {"@type": "Question", "name": "Do you make graduated and zoned compression, or only uniform tight fabric?", "acceptedAnswer": {"@type": "Answer", "text": "Graduated and zoned, in-house. We knit gradient circular-knit tights and sleeves that step pressure down distal to proximal, and we panel cut-and-sew tops and shorts with firmer zones over the calf, quad, and core. Uniform tight fabric is not real compression; a graduated profile and a zone map are what we build to your spec."}},
-            {"@type": "Question", "name": "Can you hit and verify a specific mmHg?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. We measure target pressure on an on-leg rig against your approved profile, confirm a zone target-pressure spec on the sample, and verify every production lot. Batch-to-batch tolerance is plus or minus 3 mmHg, and we re-read pressure after 30 washes. That is what lets you label a real mmHg and defend it."}},
-            {"@type": "Question", "name": "Do you make medical-grade or therapeutic compression?", "acceptedAnswer": {"@type": "Answer", "text": "No. We manufacture athletic and recovery graduated compression — roughly 8 to 25 mmHg — as sportswear, built to your target mmHg. We do not produce clinically-classified therapeutic or medical-grade compression devices, and we do not carry medical certification. That regulatory classification is the brand's responsibility, and we are glad to build to your stated athletic spec."}},
-            {"@type": "Question", "name": "Does MOQ 300 apply to a graduated tight the same as a sleeve?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. MOQ is 300 pieces per style, size-split across your size range as you choose, not 300 per size. A gradient-knit graduated tight carries the same 300 minimum as a simpler sleeve — the graduated knit program does not raise the minimum."}},
-            {"@type": "Question", "name": "How fast is a sample, and what does it cost?", "acceptedAnswer": {"@type": "Answer", "text": "A sample is 1 piece at USD 45, ready in 5 working days when the fabric is in stock, or 12 working days for to-order fabric. You approve the pressure profile, fit, fabric, and color on the sample — including the measured mmHg — before any bulk is cut."}},
-            {"@type": "Question", "name": "Can you build a full compression system to one pressure standard?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Tops, tights, shorts, and calf and arm sleeves all run on our own lines to one pressure standard and one dye batch, so a coordinated wholesale compression clothing kit reads the same mmHg across pieces and matches in color. The sleeve's 20 mmHg matches the tight's."}},
-            {"@type": "Question", "name": "What is the private label minimum for compression wear?", "acceptedAnswer": {"@type": "Answer", "text": "Private label runs on our existing compression blanks across the three tiers at a lower entry than full OEM, with your woven label, hangtag, and packaging. It is the fastest route to a first PO; send us your label kit and target pressure tiers to confirm."}},
-            {"@type": "Question", "name": "How consistent is pressure across reorders?", "acceptedAnswer": {"@type": "Answer", "text": "We hold the target mmHg to plus or minus 3 mmHg per lot and read it on the rig in your pre-shipment package, so a reorder reads the same pressure as your first run. As a recovery compression clothing manufacturer, we keep the number stable season to season, not just on the first sample."}}
-          ]
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "certification",
+          "name": "WRAP Gold",
+          "identifier": "WRAP-GLD-156823"
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "certification",
+          "name": "GRS",
+          "identifier": "CU 1014387 GRS-2024"
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "certification",
+          "name": "Higg FEM",
+          "identifier": "HIG-FEM-2024-CN-08"
+        }
+      ]
+    },
+    {
+      "@type": "Product",
+      "@id": "https://www.berunactivewear.com/custom-compression-clothing#product",
+      "name": "Custom Compression Clothing",
+      "category": "Compression apparel",
+      "brand": {
+        "@id": "https://www.berunactivewear.com/#org"
+      },
+      "manufacturer": {
+        "@id": "https://www.berunactivewear.com/#org"
+      },
+      "description": "Custom graduated and zoned compression tops, tights, shorts and sleeves manufactured to verified mmHg, in light, moderate and firm support.",
+      "image": "https://img.berunactivewear.com/assets/images/hero-factory-bg.webp"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.berunactivewear.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Custom Compression Clothing",
+          "item": "https://www.berunactivewear.com/custom-compression-clothing"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Do you make graduated and zoned compression, or only uniform tight fabric?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Graduated and zoned, in-house. We knit gradient circular-knit tights and sleeves that step pressure down distal to proximal, and we panel cut-and-sew tops and shorts with firmer zones over the calf, quad, and core. Uniform tight fabric is not real compression; a graduated profile and a zone map are what we build to your spec."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you hit and verify a specific mmHg?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We measure target pressure on an on-leg rig against your approved profile, confirm a zone target-pressure spec on the sample, and verify every production lot. Batch-to-batch tolerance is plus or minus 3 mmHg, and we re-read pressure after 30 washes. That is what lets you label a real mmHg and defend it."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you make medical-grade or therapeutic compression?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. We manufacture athletic and recovery graduated compression — roughly 8 to 25 mmHg — as sportswear, built to your target mmHg. We do not produce clinically-classified therapeutic or medical-grade compression devices, and we do not carry medical certification. That regulatory classification is the brand's responsibility, and we are glad to build to your stated athletic spec."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does MOQ 300 apply to a graduated tight the same as a sleeve?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. MOQ is 300 pieces per style, size-split across your size range as you choose, not 300 per size. A gradient-knit graduated tight carries the same 300 minimum as a simpler sleeve — the graduated knit program does not raise the minimum."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How fast is a sample, and what does it cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A sample is 1 piece at USD 45, ready in 5 working days when the fabric is in stock, or 12 working days for to-order fabric. You approve the pressure profile, fit, fabric, and color on the sample — including the measured mmHg — before any bulk is cut."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you build a full compression system to one pressure standard?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Tops, tights, shorts, and calf and arm sleeves all run on our own lines to one pressure standard and one dye batch, so a coordinated wholesale compression clothing kit reads the same mmHg across pieces and matches in color. The sleeve's 20 mmHg matches the tight's."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the private label minimum for compression wear?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Private label runs on our existing compression blanks across the three tiers at a lower entry than full OEM, with your woven label, hangtag, and packaging. It is the fastest route to a first PO; send us your label kit and target pressure tiers to confirm."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How consistent is pressure across reorders?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We hold the target mmHg to plus or minus 3 mmHg per lot and read it on the rig in your pre-shipment package, so a reorder reads the same pressure as your first run. As a recovery compression clothing manufacturer, we keep the number stable season to season, not just on the first sample."
+          }
         }
       ]
     }
+  ]
+}
     </script>
 
     <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap">
@@ -453,6 +561,12 @@
   <script src="/assets/dynamic-menu.js" defer></script>
 
   <main id="main">
+    <nav class="bcrumb" aria-label="Breadcrumb">
+      <ol class="bcrumb__list">
+        <li class="bcrumb__item"><a href="/">Home</a></li>
+        <li class="bcrumb__item bcrumb__item--current" aria-current="page">Custom Compression Clothing</li>
+      </ol>
+    </nav>
 
     <!-- S1: HERO — Pressure Body-Map -->
     <section class="cc-hero" aria-labelledby="cc-h1">
@@ -489,6 +603,21 @@
         </div>
       </div>
     </section>
+
+    <nav class="pgtoc" aria-label="On this page">
+      <div class="pgtoc__box">
+        <p class="pgtoc__t">On this page</p>
+        <ul class="pgtoc__list">
+          <li><a href="#s2-h2">Support Levels</a></li>
+          <li><a href="#s3-h2">Pieces We Make</a></li>
+          <li><a href="#s4-h2">Graduated & Zoned Build</a></li>
+          <li><a href="#s5-h2">mmHg Verification</a></li>
+          <li><a href="#s6-h2">Fabric & Pressure Specs</a></li>
+          <li><a href="#s7-h2">OEM / ODM / Private Label</a></li>
+          <li><a href="#s8-h2">FAQ</a></li>
+        </ul>
+      </div>
+    </nav>
 
     <!-- S2: PRESSURE-TIER TAXONOMY — vertical profile ladder -->
     <section class="cc-sec" aria-labelledby="s2-h2">
