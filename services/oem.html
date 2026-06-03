@@ -282,6 +282,16 @@
       border: 1.5px solid transparent;
       transition: background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
     }
+    .btn-corp--ghost {
+      background: transparent;
+      color: #FFFFFF;
+      border-color: rgba(255,255,255,0.5);
+    }
+    .btn-corp--ghost:hover {
+      background: rgba(255,255,255,0.12);
+      border-color: #FFFFFF;
+      color: #FFFFFF;
+    }
     .btn-corp--primary {
       background: var(--color-primary);
       color: #FFFFFF;
@@ -719,6 +729,10 @@
                     <div class="hero-service__eyebrow anim-rise anim-d1">OEM CUT-AND-SEW</div>
                     <h1 class="hero-service__h1 anim-rise anim-d2">OEM Activewear Manufacturing &mdash; Your Tech-Pack, Our Production Floor</h1>
                     <p class="hero-service__sub anim-rise anim-d3">Send your tech-pack and approved lab dip. We cut-and-sew to your spec across 12 production lines, run AQL 2.5 pre-shipment inspection, and ship FOB. MOQ 100-200 per SKU.</p>
+            <div class="hero-service__ctas anim-rise anim-d4" style="display:flex;flex-wrap:wrap;gap:14px;margin-top:26px">
+              <a href="/contact" class="btn-corp btn-corp--primary">Get an OEM Quote</a>
+              <a href="/contact" class="btn-corp btn-corp--ghost">Request a Sample</a>
+            </div>
                 </div>
             </div>
         </div>
