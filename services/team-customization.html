@@ -869,6 +869,38 @@
     </section>
 
     <!-- ============== S3 — Roster CSV Workflow ============== -->
+    <style>
+    .team-show { display: grid; grid-template-columns: repeat(4, 1fr); gap: clamp(14px, 1.6vw, 22px); }
+    .team-show__card { margin: 0; background: #fff; border: 1px solid var(--color-border, rgba(15,31,30,.1)); border-radius: 12px; overflow: hidden; }
+    .team-show__card img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block; }
+    .team-show__card figcaption { padding: 12px 14px; font-weight: 600; font-size: .9rem; color: #0F1F1E; text-align: center; line-height: 1.3; }
+    @media (max-width: 900px) { .team-show { grid-template-columns: repeat(3, 1fr); } }
+    @media (max-width: 600px) { .team-show { grid-template-columns: repeat(2, 1fr); } }
+    </style>
+    <!-- S2b — Team & Club Showcase (ERP task 482) -->
+    <section class="section-corp section-corp--white section-corp--compact" id="team-showcase" aria-labelledby="s2b-h2">
+      <div class="container-bra">
+        <div class="section-head anim-rise">
+          <span class="section-rail">Teams We Outfit</span>
+          <h2 class="section-h2" id="s2b-h2">Team &amp; Club Kits We Produce</h2>
+        </div>
+        <div class="team-show">
+          <figure class="team-show__card"><img src="https://img.berunactivewear.com/assets/images/bk-aau-basketball-team-photo.webp" onerror="this.onerror=null;this.src='/assets/images/bk-aau-basketball-team-photo.webp'" alt="Basketball — AAU / Travel custom kit" width="600" height="450" loading="lazy"><figcaption>Basketball — AAU / Travel</figcaption></figure>
+          <figure class="team-show__card"><img src="https://img.berunactivewear.com/assets/images/sc-amateur-soccer-team.webp" onerror="this.onerror=null;this.src='/assets/images/sc-amateur-soccer-team.webp'" alt="Soccer Club custom kit" width="600" height="450" loading="lazy"><figcaption>Soccer Club</figcaption></figure>
+          <figure class="team-show__card"><img src="https://img.berunactivewear.com/assets/images/cy-cycling-jersey-team-lineup.webp" onerror="this.onerror=null;this.src='/assets/images/cy-cycling-jersey-team-lineup.webp'" alt="Cycling Team custom kit" width="600" height="450" loading="lazy"><figcaption>Cycling Team</figcaption></figure>
+          <figure class="team-show__card"><img src="https://img.berunactivewear.com/assets/images/bk-high-school-basketball.webp" onerror="this.onerror=null;this.src='/assets/images/bk-high-school-basketball.webp'" alt="High-School Basketball custom kit" width="600" height="450" loading="lazy"><figcaption>High-School Basketball</figcaption></figure>
+          <figure class="team-show__card"><img src="https://img.berunactivewear.com/assets/images/bk-ncaa-college-basketball.webp" onerror="this.onerror=null;this.src='/assets/images/bk-ncaa-college-basketball.webp'" alt="College / NCAA custom kit" width="600" height="450" loading="lazy"><figcaption>College / NCAA</figcaption></figure>
+          <figure class="team-show__card"><img src="https://img.berunactivewear.com/assets/images/sc-goalkeeper-jersey.webp" onerror="this.onerror=null;this.src='/assets/images/sc-goalkeeper-jersey.webp'" alt="Soccer Goalkeeper Kit custom kit" width="600" height="450" loading="lazy"><figcaption>Soccer Goalkeeper Kit</figcaption></figure>
+          <figure class="team-show__card"><img src="https://img.berunactivewear.com/assets/images/bk-corporate-basketball-league.webp" onerror="this.onerror=null;this.src='/assets/images/bk-corporate-basketball-league.webp'" alt="Corporate League custom kit" width="600" height="450" loading="lazy"><figcaption>Corporate League</figcaption></figure>
+          <figure class="team-show__card"><img src="https://img.berunactivewear.com/assets/images/ab-players-in-custom-jerseys.webp" onerror="this.onerror=null;this.src='/assets/images/ab-players-in-custom-jerseys.webp'" alt="Custom Team Jerseys custom kit" width="600" height="450" loading="lazy"><figcaption>Custom Team Jerseys</figcaption></figure>
+          <figure class="team-show__card"><img src="https://img.berunactivewear.com/assets/images/ab-team-jersey-set.webp" onerror="this.onerror=null;this.src='/assets/images/ab-team-jersey-set.webp'" alt="Full Team Kit Set custom kit" width="600" height="450" loading="lazy"><figcaption>Full Team Kit Set</figcaption></figure>
+          <figure class="team-show__card"><img src="https://img.berunactivewear.com/assets/images/cy-cycling-team-kit-flatlay.webp" onerror="this.onerror=null;this.src='/assets/images/cy-cycling-team-kit-flatlay.webp'" alt="Cycling Team Kit custom kit" width="600" height="450" loading="lazy"><figcaption>Cycling Team Kit</figcaption></figure>
+          <figure class="team-show__card"><img src="https://img.berunactivewear.com/assets/images/bk-youth-basketball-team.webp" onerror="this.onerror=null;this.src='/assets/images/bk-youth-basketball-team.webp'" alt="Youth Basketball custom kit" width="600" height="450" loading="lazy"><figcaption>Youth Basketball</figcaption></figure>
+          <figure class="team-show__card"><img src="https://img.berunactivewear.com/assets/images/sc-soccer-jersey-back-numbers.webp" onerror="this.onerror=null;this.src='/assets/images/sc-soccer-jersey-back-numbers.webp'" alt="Soccer Squad Numbers custom kit" width="600" height="450" loading="lazy"><figcaption>Soccer Squad Numbers</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
     <section class="section-corp section-corp--tint section-corp--compact" id="workflow" aria-labelledby="s3-h2">
       <div class="container-bra">
         <div class="section-head anim-rise anim-d1">
