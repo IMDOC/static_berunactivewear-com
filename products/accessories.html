@@ -632,7 +632,17 @@
       max-width: 52ch;
       margin: 0 auto 28px;
     }
-    </style>
+    
+    /* accessory use-scene gallery (ERP task 495) */
+    .acc-gallery { display: grid; grid-template-columns: repeat(4, 1fr); gap: clamp(14px,1.6vw,22px); }
+    .acc-gallery figure { margin:0; background:#fff; border:1px solid var(--color-border, rgba(15,31,30,.1)); border-radius:12px; overflow:hidden; }
+    .acc-gallery a { display:block; overflow:hidden; }
+    .acc-gallery img { width:100%; aspect-ratio:4/3; object-fit:cover; display:block; transition:transform .4s ease; }
+    .acc-gallery a:hover img { transform:scale(1.06); }
+    .acc-gallery figcaption { padding:11px 12px; font-weight:600; font-size:.9rem; color:#0F1F1E; text-align:center; }
+    @media (max-width:900px){ .acc-gallery { grid-template-columns:repeat(2,1fr);} }
+    @media (max-width:480px){ .acc-gallery { grid-template-columns:1fr;} }
+</style>
 </head>
 <body>
 
@@ -889,6 +899,22 @@
     </section>
 
     <!-- ============== S3 — Fabric & Construction ============== -->
+    <!-- S2b — Accessories Use Scenes (ERP task 495) -->
+    <section class="section-corp section-corp--compact section-corp--tint" id="acc-scenes" aria-labelledby="s2b-h2">
+      <div class="container-bra">
+        <div class="section-head anim-rise">
+          <span class="section-rail">In Use</span>
+          <h2 class="section-h2" id="s2b-h2">Activewear Accessories &mdash; Headbands, Arm Sleeves, Socks &amp; Caps</h2>
+        </div>
+        <div class="acc-gallery">
+          <figure><a href="https://img.berunactivewear.com/assets/images/acc-headband.webp" target="_blank" rel="noopener"><img src="https://img.berunactivewear.com/assets/images/acc-headband.webp" onerror="this.onerror=null;this.src='/assets/images/acc-headband.webp'" alt="Headbands in use" width="600" height="450" loading="lazy"></a><figcaption>Headbands</figcaption></figure>
+          <figure><a href="https://img.berunactivewear.com/assets/images/acc-arm-sleeve.webp" target="_blank" rel="noopener"><img src="https://img.berunactivewear.com/assets/images/acc-arm-sleeve.webp" onerror="this.onerror=null;this.src='/assets/images/acc-arm-sleeve.webp'" alt="Arm Sleeves in use" width="600" height="450" loading="lazy"></a><figcaption>Arm Sleeves</figcaption></figure>
+          <figure><a href="https://img.berunactivewear.com/assets/images/acc-socks.webp" target="_blank" rel="noopener"><img src="https://img.berunactivewear.com/assets/images/acc-socks.webp" onerror="this.onerror=null;this.src='/assets/images/acc-socks.webp'" alt="Socks in use" width="600" height="450" loading="lazy"></a><figcaption>Socks</figcaption></figure>
+          <figure><a href="https://img.berunactivewear.com/assets/images/acc-cap.webp" target="_blank" rel="noopener"><img src="https://img.berunactivewear.com/assets/images/acc-cap.webp" onerror="this.onerror=null;this.src='/assets/images/acc-cap.webp'" alt="Caps in use" width="600" height="450" loading="lazy"></a><figcaption>Caps</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
     <section class="section-corp section-corp--compact section-corp--tint" id="fabric" aria-labelledby="s3-h2">
       <div class="container-bra">
         <div class="section-head anim-rise anim-d1">
