@@ -429,7 +429,7 @@
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       gap: clamp(16px, 2vw, 28px);
-      max-width: 66.666%;
+      max-width: 100%;
       margin: clamp(16px, 2vw, 28px) auto 0;
     }
     .subcat-card {
@@ -502,7 +502,7 @@
     /* ===== S3: Specs (icon + detail rows) ===== */
     .spec-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr));
+      grid-template-columns: repeat(6, 1fr);
       gap: clamp(16px, 2vw, 24px);
     }
     .spec-item {
@@ -548,7 +548,7 @@
     /* ===== S4: Customization options ===== */
     .custom-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr));
+      grid-template-columns: repeat(6, 1fr);
       gap: clamp(16px, 2vw, 24px);
     }
     .custom-card {
@@ -647,7 +647,19 @@
       max-width: 52ch;
       margin: 0 auto 28px;
     }
-    </style>
+    
+    .spec-grid > * { grid-column: span 2; }
+    .spec-grid > *:nth-child(n+4) { grid-column: span 3; }
+    .custom-grid > * { grid-column: span 2; }
+    .custom-grid > *:nth-child(n+4) { grid-column: span 3; }
+    @media (max-width: 760px) { .spec-grid, .custom-grid { grid-template-columns: 1fr; } .spec-grid > *, .custom-grid > * { grid-column: auto; } }
+    /* athleisure application scenes */
+    .scene-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: clamp(14px,1.6vw,22px); }
+    .scene-card { margin:0; background:#fff; border:1px solid var(--color-border, rgba(15,31,30,.1)); border-radius:12px; overflow:hidden; }
+    .scene-card img { width:100%; aspect-ratio:4/3; object-fit:cover; display:block; }
+    .scene-card figcaption { padding:12px 14px; font-weight:600; font-size:.9rem; color:#0F1F1E; text-align:center; }
+    @media (max-width:760px){ .scene-grid { grid-template-columns: repeat(2,1fr);} }
+</style>
 </head>
 <body>
 
@@ -918,6 +930,24 @@
     </section>
 
     <!-- ============== S3 — Fabric & Construction ============== -->
+    <!-- S2b — Athleisure Application Scenes (ERP task 486) -->
+    <section class="section-corp section-corp--compact section-corp--white" id="ath-scenes" aria-labelledby="s2b-h2">
+      <div class="container-bra">
+        <div class="section-head anim-rise">
+          <span class="section-rail">Where It's Worn</span>
+          <h2 class="section-h2" id="s2b-h2">Athleisure for Tees, Hoodies, Jackets, Pullovers &amp; Sweatpants &mdash; in Real Use</h2>
+        </div>
+        <div class="scene-grid">
+          <figure class="scene-card"><img src="https://img.berunactivewear.com/assets/images/ath-scene-lounge.webp" onerror="this.onerror=null;this.src='/assets/images/ath-scene-lounge.webp'" alt="Athleisure At-Home Lounge" width="600" height="450" loading="lazy"><figcaption>At-Home Lounge</figcaption></figure>
+          <figure class="scene-card"><img src="https://img.berunactivewear.com/assets/images/ath-scene-commute.webp" onerror="this.onerror=null;this.src='/assets/images/ath-scene-commute.webp'" alt="Athleisure City Commute" width="600" height="450" loading="lazy"><figcaption>City Commute</figcaption></figure>
+          <figure class="scene-card"><img src="https://img.berunactivewear.com/assets/images/ath-scene-cafe.webp" onerror="this.onerror=null;this.src='/assets/images/ath-scene-cafe.webp'" alt="Athleisure Café / Co-working" width="600" height="450" loading="lazy"><figcaption>Café / Co-working</figcaption></figure>
+          <figure class="scene-card"><img src="https://img.berunactivewear.com/assets/images/ath-scene-travel.webp" onerror="this.onerror=null;this.src='/assets/images/ath-scene-travel.webp'" alt="Athleisure Travel Days" width="600" height="450" loading="lazy"><figcaption>Travel Days</figcaption></figure>
+          <figure class="scene-card"><img src="https://img.berunactivewear.com/assets/images/ath-scene-weekend.webp" onerror="this.onerror=null;this.src='/assets/images/ath-scene-weekend.webp'" alt="Athleisure Weekend Errands" width="600" height="450" loading="lazy"><figcaption>Weekend Errands</figcaption></figure>
+          <figure class="scene-card"><img src="https://img.berunactivewear.com/assets/images/ath-scene-gym-to-street.webp" onerror="this.onerror=null;this.src='/assets/images/ath-scene-gym-to-street.webp'" alt="Athleisure Gym-to-Street" width="600" height="450" loading="lazy"><figcaption>Gym-to-Street</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
     <section class="section-corp section-corp--compact section-corp--tint" id="fabric" aria-labelledby="s3-h2">
       <div class="container-bra">
         <div class="section-head anim-rise anim-d1">
