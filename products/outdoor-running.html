@@ -540,9 +540,12 @@
     /* ===== S4: Customization options ===== */
     .custom-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr));
+      grid-template-columns: repeat(6, 1fr);
       gap: clamp(16px, 2vw, 24px);
     }
+    .custom-grid > * { grid-column: span 2; }
+    .custom-grid > *:nth-child(n+4) { grid-column: span 3; }
+    @media (max-width: 760px) { .custom-grid { grid-template-columns: 1fr; } .custom-grid > * { grid-column: auto; } }
     .custom-card {
       padding: clamp(24px, 3vw, 32px);
       background: #FFFFFF;
@@ -801,6 +804,10 @@
           <p class="hero-sub__eyebrow">Outdoor / Running</p>
           <h1 class="hero-sub__h1" id="hero-h1">Custom Running Apparel — Windbreakers, Tights, Singlets &amp; Technical Shells</h1>
           <p class="hero-sub__desc">Wind-blocking shells, lightweight running tights, and technical singlets for trail and road brands. Cut-and-sew with bonded seams and DWR coating. MOQ 300 per SKU.</p>
+            <div class="hero-sub__ctas anim-rise anim-d4" style="display:flex;flex-wrap:wrap;gap:14px;margin-top:26px">
+              <a href="/contact" class="btn-corp btn-corp--primary">Get a Quote</a>
+              <a href="/products" class="btn-corp btn-corp--ghost">View All Products</a>
+            </div>
         </div>
       </div>
     </section>
