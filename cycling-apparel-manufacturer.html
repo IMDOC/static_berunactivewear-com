@@ -1235,29 +1235,6 @@
     els.forEach(function(el){io.observe(el)});
   })();
   </script>
-  <script>
-  (function(){
-    var fallbacks=['cycling-jersey','cycling-bib-shorts','cyclist-road','bike-peloton','cycling-team','sublimation-fabric','cycling-apparel-detail','road-cycling'];
-    document.querySelectorAll('main img').forEach(function(img){
-      img.onerror=function(){
-        var el=this;
-        if(el.dataset.retried) {
-          var ph=document.createElement('div');
-          ph.className='img-ph';
-          ph.style.width='100%';
-          ph.style.aspectRatio=(el.width&&el.height)?(el.width+'/'+el.height):'4/3';
-          ph.innerHTML='<i class="bi bi-camera"></i><span>Photo pending</span>';
-          el.replaceWith(ph);
-          return;
-        }
-        el.dataset.retried='1';
-        var q=fallbacks[Math.floor(Math.random()*fallbacks.length)];
-        var w=el.width||400,h=el.height||300;
-        el.src='https://app.grapesjs.com/api/assets/random-image?query='+q+'&w='+w+'&h='+h;
-      };
-    });
-  })();
-  </script>
 
 <footer id="site-footer" class="ft-footer">
   <div class="ft-container">

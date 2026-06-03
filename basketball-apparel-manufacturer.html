@@ -609,7 +609,7 @@
         <div class="bb-diptych ar d2" role="img" aria-label="Reversible practice jersey single-pass double-side sublimation construction — outer face white with navy number 14, inner face navy with white number 14, same player number by construction">
           <figure class="bb-diptych__jsy bb-diptych__jsy--outer">
             <picture>
-              <img src="https://img.berunactivewear.com/assets/images/bk-basketball-reversible-jersey-white-side.webp" alt="Reversible practice jersey outer face — white body with navy number 14" loading="eager" fetchpriority="high" width="400" height="500" onerror="if(!this.dataset.f){this.dataset.f='1';this.src='https://app.grapesjs.com/api/assets/random-image?query=basketball-jersey-mockup&w=400&h=500';}else if(this.dataset.f==='1'){this.dataset.f='2';this.src='https://app.grapesjs.com/api/assets/random-image?query=basketball-jersey-tank&w=400&h=500';}else{this.style.display='none';this.parentElement.parentElement.classList.add('bb-diptych__jsy--ph');}">
+              <img src="https://img.berunactivewear.com/assets/images/bk-basketball-reversible-jersey-white-side.webp" alt="Reversible practice jersey outer face — white body with navy number 14" loading="eager" fetchpriority="high" width="400" height="500" onerror="this.onerror=null;this.src='/assets/images/bk-basketball-reversible-jersey-white-side.webp'">
             </picture>
             <figcaption class="bb-diptych__cap">Outer face &middot; white body &middot; navy #14</figcaption>
           </figure>
@@ -626,7 +626,7 @@
 
           <figure class="bb-diptych__jsy bb-diptych__jsy--inner">
             <picture>
-              <img src="https://img.berunactivewear.com/assets/images/bk-basketball-reversible-jersey-navy-side.webp" alt="Reversible practice jersey inner face — navy body with white number 14, same player number by construction" loading="eager" fetchpriority="high" width="400" height="500" onerror="if(!this.dataset.f){this.dataset.f='1';this.src='https://app.grapesjs.com/api/assets/random-image?query=basketball-jersey-mockup&w=400&h=500&seed=2';}else if(this.dataset.f==='1'){this.dataset.f='2';this.src='https://app.grapesjs.com/api/assets/random-image?query=basketball-jersey-tank&w=400&h=500&seed=2';}else{this.style.display='none';this.parentElement.parentElement.classList.add('bb-diptych__jsy--ph');}">
+              <img src="https://img.berunactivewear.com/assets/images/bk-basketball-reversible-jersey-navy-side.webp" alt="Reversible practice jersey inner face — navy body with white number 14, same player number by construction" loading="eager" fetchpriority="high" width="400" height="500" onerror="this.onerror=null;this.src='/assets/images/bk-basketball-reversible-jersey-navy-side.webp'">
             </picture>
             <figcaption class="bb-diptych__cap">Inner face &middot; navy body &middot; white #14 &middot; same player # by construction</figcaption>
           </figure>
@@ -1418,29 +1418,6 @@
       entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('vis');io.unobserve(e.target)}});
     },{threshold:.12,rootMargin:'0px 0px -40px 0px'});
     els.forEach(function(el){io.observe(el)});
-  })();
-  </script>
-  <script>
-  (function(){
-    var fallbacks=['basketball-jersey','basketball-uniform','basketball-team','reversible-basketball-jersey','basketball-practice','basketball-game','basketball-apparel-detail','basketball-tank'];
-    document.querySelectorAll('main img').forEach(function(img){
-      img.onerror=function(){
-        var el=this;
-        if(el.dataset.retried) {
-          var ph=document.createElement('div');
-          ph.className='img-ph';
-          ph.style.width='100%';
-          ph.style.aspectRatio=(el.width&&el.height)?(el.width+'/'+el.height):'4/3';
-          ph.innerHTML='<i class="bi bi-camera"></i><span>Photo pending</span>';
-          el.replaceWith(ph);
-          return;
-        }
-        el.dataset.retried='1';
-        var q=fallbacks[Math.floor(Math.random()*fallbacks.length)];
-        var w=el.width||400,h=el.height||300;
-        el.src='https://app.grapesjs.com/api/assets/random-image?query='+q+'&w='+w+'&h='+h;
-      };
-    });
   })();
   </script>
 
