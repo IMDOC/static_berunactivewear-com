@@ -33,78 +33,151 @@
 
     <script type="application/ld+json">
     {
-      "@context": "https://schema.org",
-      "@graph": [
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.berunactivewear.com/#org",
+      "name": "Berun Active Wear",
+      "url": "https://www.berunactivewear.com/",
+      "logo": "https://www.berunactivewear.com/apple-icon-180x180.png",
+      "foundingDate": "2017",
+      "numberOfEmployees": {
+        "@type": "QuantitativeValue",
+        "value": 280
+      },
+      "hasCredential": [
         {
-          "@type": "Organization",
-          "@id": "https://www.berunactivewear.com/#org",
-          "name": "Berun Active Wear",
-          "url": "https://www.berunactivewear.com/",
-          "logo": "https://www.berunactivewear.com/apple-icon-180x180.png",
-          "foundingDate": "2017",
-          "numberOfEmployees": {"@type": "QuantitativeValue", "value": 280},
-          "hasCredential": [
-            {"@type": "EducationalOccupationalCredential", "credentialCategory": "certification", "name": "OEKO-TEX Standard 100", "identifier": "23.HCN.74521"},
-            {"@type": "EducationalOccupationalCredential", "credentialCategory": "certification", "name": "BSCI", "identifier": "BSCI-CN-2024-08-15"},
-            {"@type": "EducationalOccupationalCredential", "credentialCategory": "certification", "name": "WRAP Gold", "identifier": "WRAP-GLD-156823"},
-            {"@type": "EducationalOccupationalCredential", "credentialCategory": "certification", "name": "GRS", "identifier": "CU 1014387 GRS-2024"},
-            {"@type": "EducationalOccupationalCredential", "credentialCategory": "certification", "name": "Higg FEM", "identifier": "HIG-FEM-2024-CN-08"}
-          ]
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "certification",
+          "name": "OEKO-TEX Standard 100",
+          "identifier": "23.HCN.74521"
         },
         {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.berunactivewear.com/"},
-            {"@type": "ListItem", "position": 2, "name": "Soccer Apparel Manufacturer", "item": "https://www.berunactivewear.com/soccer-apparel-manufacturer"}
-          ]
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "certification",
+          "name": "BSCI",
+          "identifier": "BSCI-CN-2024-08-15"
         },
         {
-          "@type": "FAQPage",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "What's the MOQ for a single soccer SKU like a match jersey or GK kit, and how does the Soccer Squad Pack MOQ split work?",
-              "acceptedAnswer": {"@type": "Answer", "text": "Single-SKU MOQ is 300 pieces baseline (split across XS-XXL from that 300, not multiplied per size). 200/SKU on ODM block patterns. 100/style on Private Label. For a full multi-SKU squad kit, ask about the Soccer Squad Pack rule — 220 cross-SKU one PO with jersey + shorts ≥80 each as the mandatory floor and other SKUs (socks / training shirt / GK / training bib) flexible 30-50 each."}
-            },
-            {
-              "@type": "Question",
-              "name": "Can I order 1 sample to test before committing to a 300-piece bulk?",
-              "acceptedAnswer": {"@type": "Answer", "text": "Yes. 1-piece sample, USD 45 fee, 5 working days when fabric is in stock. Sample fee waived after first bulk PO. You can sample any of the 6 soccer SKUs before deciding (match jersey, goalkeeper jersey, training shirt, shorts, socks, training bib)."}
-            },
-            {
-              "@type": "Question",
-              "name": "Do you produce goalkeeper jerseys with referee color-clash compliance?",
-              "acceptedAnswer": {"@type": "Answer", "text": "Yes — as a dedicated goalkeeper jersey manufacturer, color-clash compliance is mandatory on every GK kit we produce. We auto-check your GK kit color against both your outfield kits AND your league's referee jersey color (sourced from your league's rule book) before bulk runs. If a clash is detected, we recommend an alternate GK color within 24 hours. GK jerseys ship with long-sleeve construction + elbow pad inserts + reflective shoulder accent as standard."}
-            },
-            {
-              "@type": "Question",
-              "name": "Can you ingest a sponsor brand-standards file and verify compliance before bulk?",
-              "acceptedAnswer": {"@type": "Answer", "text": "Yes. Submit your sponsor's brand-standards PDF or vector logo file per sponsor at order entry. PM reviews against your tech-pack within 48 hours, flags clear-space / sizing / panel-seam exclusion rules, and ships a sponsor-comp pre-bulk sample (1 complete jersey with ALL sponsors + player name + number + crest + league patch on grid background with measurement tape overlay) for brand-standards sign-off before bulk PO runs."}
-            },
-            {
-              "@type": "Question",
-              "name": "How does the squad-flex re-order rule work for replacement jerseys mid-season?",
-              "acceptedAnswer": {"@type": "Answer", "text": "Squad-flex re-order allows up to 20% of your original PO volume to be re-ordered at zero added MOQ + 14-day turn. Example: your original PO was 100 pieces — you can re-order up to 20 pieces (lost / grown-out / damaged) within 12 months at zero added MOQ. Per-size specification supported. Original sublimation panel + sponsor logo file retained on our server for the 12-month window — no panel rebuild required."}
-            },
-            {
-              "@type": "Question",
-              "name": "My main sponsor rebranded mid-season. How long does a mid-season sponsor re-batch take?",
-              "acceptedAnswer": {"@type": "Answer", "text": "14 calendar days for sponsor-logo-only update on the original PO panel — base design + player name + number + crest + secondary sponsors stay untouched. We retain the original sublimation panel + per-sponsor logo file for 12 months, and our sublimation line is configured so the sponsor layer is independently re-printable without re-running the base print. Send us your new sponsor brand-standards file on day 1; we produce a sponsor-comp sample on day 5-7 for sign-off, then bulk re-print on day 9-12, ship on day 13-14."}
-            },
-            {
-              "@type": "Question",
-              "name": "What's your per-player number, name, and sponsor registration tolerance?",
-              "acceptedAnswer": {"@type": "Answer", "text": "±2mm on all 5 placement elements (player number + player name + main sponsor + secondary sponsor + league patch + crest), verified per jersey by overhead-camera registration template QC at sublimation station. Out-of-tolerance jerseys are pulled off the line and re-printed before packing. Player name entry uses double-key verification (two operators enter independently from your roster CSV; system flags discrepancies before printing) to eliminate single-operator typo failures."}
-            },
-            {
-              "@type": "Question",
-              "name": "I'm coordinating 12 teams for a regional league. Can you consolidate all 12 squad orders into one PO with per-team sponsor and crest preservation?",
-              "acceptedAnswer": {"@type": "Answer", "text": "Yes — multi-team consolidation is the core of the Soccer Squad Pack. One PM, one PO number, one invoice across all teams. Each team's sponsor + crest + player roster is preserved as a separate spec layer in the master order. Mid-season sponsor re-batches consolidate across all teams into one re-batch PO with one sponsor-comp sample sign-off cycle. Delivery typically structured per league calendar (Apertura kit ships before season opener, Clausura kit ships before mid-season break)."}
-            }
-          ]
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "certification",
+          "name": "WRAP Gold",
+          "identifier": "WRAP-GLD-156823"
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "certification",
+          "name": "GRS",
+          "identifier": "CU 1014387 GRS-2024"
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "certification",
+          "name": "Higg FEM",
+          "identifier": "HIG-FEM-2024-CN-08"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.berunactivewear.com/soccer-apparel-manufacturer#service",
+      "name": "Custom Soccer Apparel Manufacturing",
+      "serviceType": "Soccer apparel manufacturing (OEM/ODM/private label)",
+      "provider": {
+        "@id": "https://www.berunactivewear.com/#org"
+      },
+      "areaServed": "Worldwide",
+      "description": "OEM, ODM and private-label manufacturing of soccer jerseys, goalkeeper kits, training shirts, shorts and socks with per-player registration."
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.berunactivewear.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Soccer Apparel Manufacturer",
+          "item": "https://www.berunactivewear.com/soccer-apparel-manufacturer"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What's the MOQ for a single soccer SKU like a match jersey or GK kit, and how does the Soccer Squad Pack MOQ split work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Single-SKU MOQ is 300 pieces baseline (split across XS-XXL from that 300, not multiplied per size). 200/SKU on ODM block patterns. 100/style on Private Label. For a full multi-SKU squad kit, ask about the Soccer Squad Pack rule — 220 cross-SKU one PO with jersey + shorts ≥80 each as the mandatory floor and other SKUs (socks / training shirt / GK / training bib) flexible 30-50 each."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I order 1 sample to test before committing to a 300-piece bulk?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. 1-piece sample, USD 45 fee, 5 working days when fabric is in stock. Sample fee waived after first bulk PO. You can sample any of the 6 soccer SKUs before deciding (match jersey, goalkeeper jersey, training shirt, shorts, socks, training bib)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you produce goalkeeper jerseys with referee color-clash compliance?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes — as a dedicated goalkeeper jersey manufacturer, color-clash compliance is mandatory on every GK kit we produce. We auto-check your GK kit color against both your outfield kits AND your league's referee jersey color (sourced from your league's rule book) before bulk runs. If a clash is detected, we recommend an alternate GK color within 24 hours. GK jerseys ship with long-sleeve construction + elbow pad inserts + reflective shoulder accent as standard."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you ingest a sponsor brand-standards file and verify compliance before bulk?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Submit your sponsor's brand-standards PDF or vector logo file per sponsor at order entry. PM reviews against your tech-pack within 48 hours, flags clear-space / sizing / panel-seam exclusion rules, and ships a sponsor-comp pre-bulk sample (1 complete jersey with ALL sponsors + player name + number + crest + league patch on grid background with measurement tape overlay) for brand-standards sign-off before bulk PO runs."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does the squad-flex re-order rule work for replacement jerseys mid-season?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Squad-flex re-order allows up to 20% of your original PO volume to be re-ordered at zero added MOQ + 14-day turn. Example: your original PO was 100 pieces — you can re-order up to 20 pieces (lost / grown-out / damaged) within 12 months at zero added MOQ. Per-size specification supported. Original sublimation panel + sponsor logo file retained on our server for the 12-month window — no panel rebuild required."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "My main sponsor rebranded mid-season. How long does a mid-season sponsor re-batch take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "14 calendar days for sponsor-logo-only update on the original PO panel — base design + player name + number + crest + secondary sponsors stay untouched. We retain the original sublimation panel + per-sponsor logo file for 12 months, and our sublimation line is configured so the sponsor layer is independently re-printable without re-running the base print. Send us your new sponsor brand-standards file on day 1; we produce a sponsor-comp sample on day 5-7 for sign-off, then bulk re-print on day 9-12, ship on day 13-14."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What's your per-player number, name, and sponsor registration tolerance?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "±2mm on all 5 placement elements (player number + player name + main sponsor + secondary sponsor + league patch + crest), verified per jersey by overhead-camera registration template QC at sublimation station. Out-of-tolerance jerseys are pulled off the line and re-printed before packing. Player name entry uses double-key verification (two operators enter independently from your roster CSV; system flags discrepancies before printing) to eliminate single-operator typo failures."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "I'm coordinating 12 teams for a regional league. Can you consolidate all 12 squad orders into one PO with per-team sponsor and crest preservation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes — multi-team consolidation is the core of the Soccer Squad Pack. One PM, one PO number, one invoice across all teams. Each team's sponsor + crest + player roster is preserved as a separate spec layer in the master order. Mid-season sponsor re-batches consolidate across all teams into one re-batch PO with one sponsor-comp sample sign-off cycle. Delivery typically structured per league calendar (Apertura kit ships before season opener, Clausura kit ships before mid-season break)."
+          }
         }
       ]
     }
+  ]
+}
     </script>
 
     <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap">
@@ -561,6 +634,12 @@
   <script src="/assets/dynamic-menu.js" defer></script>
 
   <main id="main">
+    <nav class="bcrumb" aria-label="Breadcrumb">
+      <ol class="bcrumb__list">
+        <li class="bcrumb__item"><a href="/">Home</a></li>
+        <li class="bcrumb__item bcrumb__item--current" aria-current="page">Soccer Apparel Manufacturer</li>
+      </ol>
+    </nav>
 
     <!-- S1: HERO — Soccer Squad Registration Wall (page-unique concept) -->
     <section class="sh-hero" aria-labelledby="sc-h1">
@@ -596,6 +675,22 @@
         </div>
       </div>
     </section>
+
+    <nav class="pgtoc" aria-label="On this page">
+      <div class="pgtoc__box">
+        <p class="pgtoc__t">On this page</p>
+        <ul class="pgtoc__list">
+          <li><a href="#s2-h2">Products We Make</a></li>
+          <li><a href="#s3-h2">By Competition Tier</a></li>
+          <li><a href="#s4-h2">Squad Supply Mechanics</a></li>
+          <li><a href="#s5-h2">Failure Modes Engineered Out</a></li>
+          <li><a href="#s7-h2">OEM / ODM / Private Label</a></li>
+          <li><a href="#s8-h2">Manufacturing Process</a></li>
+          <li><a href="#s9-h2">FAQ</a></li>
+          <li><a href="#s10-h2">Certifications</a></li>
+        </ul>
+      </div>
+    </nav>
 
     <!-- S2: SOCCER SUBCATEGORY CARDS (6 cards) -->
     <section class="sec sec--w" aria-labelledby="s2-h2">
