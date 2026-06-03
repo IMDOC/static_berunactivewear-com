@@ -17,23 +17,23 @@
       "links": [
         {
           "text": "Training & Performance",
-          "url": "/products/training-performance.html"
+          "url": "/products/training-performance"
         },
         {
           "text": "Athleisure",
-          "url": "/products/athleisure.html"
+          "url": "/products/athleisure"
         },
         {
           "text": "Team & Club",
-          "url": "/products/team-club.html"
+          "url": "/products/team-club"
         },
         {
           "text": "Outdoor & Running",
-          "url": "/products/outdoor-running.html"
+          "url": "/products/outdoor-running"
         },
         {
           "text": "Accessories",
-          "url": "/products/accessories.html"
+          "url": "/products/accessories"
         }
       ]
     },
@@ -42,23 +42,23 @@
       "links": [
         {
           "text": "OEM Cut-and-Sew",
-          "url": "/services/oem.html"
+          "url": "/services/oem"
         },
         {
           "text": "ODM",
-          "url": "/services/odm.html"
+          "url": "/services/odm"
         },
         {
           "text": "Private Label",
-          "url": "/services/private-label.html"
+          "url": "/services/private-label"
         },
         {
           "text": "Small-Batch Sampling",
-          "url": "/services/sampling.html"
+          "url": "/services/sampling"
         },
         {
           "text": "Tech-Pack & Pattern",
-          "url": "/services/tech-pack.html"
+          "url": "/services/tech-pack"
         }
       ]
     },
@@ -67,23 +67,15 @@
       "links": [
         {
           "text": "About",
-          "url": "/about.html"
-        },
-        {
-          "text": "Case Studies",
-          "url": "#"
-        },
-        {
-          "text": "Blog",
-          "url": "#"
+          "url": "/about"
         },
         {
           "text": "FAQ",
-          "url": "/faq.html"
+          "url": "/faq"
         },
         {
           "text": "Contact",
-          "url": "/contact.html"
+          "url": "/contact"
         }
       ]
     }
@@ -102,7 +94,7 @@
     "links": [
       {
         "text": "Privacy Policy",
-        "url": "/privacy-policy.html"
+        "url": "/privacy-policy"
       }
     ]
   }

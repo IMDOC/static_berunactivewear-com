@@ -16,23 +16,23 @@
       "children": [
         {
           "text": "Training & Performance",
-          "link": "/products/training-performance.html"
+          "link": "/products/training-performance"
         },
         {
           "text": "Athleisure",
-          "link": "/products/athleisure.html"
+          "link": "/products/athleisure"
         },
         {
           "text": "Team & Club",
-          "link": "/products/team-club.html"
+          "link": "/products/team-club"
         },
         {
           "text": "Outdoor & Running",
-          "link": "/products/outdoor-running.html"
+          "link": "/products/outdoor-running"
         },
         {
           "text": "Accessories",
-          "link": "/products/accessories.html"
+          "link": "/products/accessories"
         },
         {
           "text": "Custom Yoga Pants Manufacturer",
@@ -58,35 +58,35 @@
       "children": [
         {
           "text": "OEM Cut-and-Sew",
-          "link": "/services/oem.html"
+          "link": "/services/oem"
         },
         {
           "text": "ODM",
-          "link": "/services/odm.html"
+          "link": "/services/odm"
         },
         {
           "text": "Private Label",
-          "link": "/services/private-label.html"
+          "link": "/services/private-label"
         },
         {
           "text": "Small-Batch Sampling",
-          "link": "/services/sampling.html"
+          "link": "/services/sampling"
         },
         {
           "text": "Custom Print & Embroidery",
-          "link": "/services/printing.html"
+          "link": "/services/printing"
         },
         {
           "text": "Team Customization",
-          "link": "/services/team-customization.html"
+          "link": "/services/team-customization"
         },
         {
           "text": "Tech-Pack & Pattern",
-          "link": "/services/tech-pack.html"
+          "link": "/services/tech-pack"
         },
         {
           "text": "Wholesale Program",
-          "link": "/services/wholesale.html"
+          "link": "/services/wholesale"
         }
       ]
     },
@@ -122,20 +122,16 @@
     },
     {
       "text": "About",
-      "link": "/about.html"
-    },
-    {
-      "text": "Blog",
-      "link": "#"
+      "link": "/about"
     },
     {
       "text": "Contact",
-      "link": "/contact.html"
+      "link": "/contact"
     }
   ],
   "ctaButton": {
     "text": "Send Tech-Pack",
-    "link": "/contact.html",
+    "link": "/contact",
     "style": "primary"
   }
 }
