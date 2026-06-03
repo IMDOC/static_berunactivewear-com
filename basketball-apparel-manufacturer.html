@@ -33,78 +33,151 @@
 
     <script type="application/ld+json">
     {
-      "@context": "https://schema.org",
-      "@graph": [
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.berunactivewear.com/#org",
+      "name": "Berun Active Wear",
+      "url": "https://www.berunactivewear.com/",
+      "logo": "https://www.berunactivewear.com/apple-icon-180x180.png",
+      "foundingDate": "2017",
+      "numberOfEmployees": {
+        "@type": "QuantitativeValue",
+        "value": 280
+      },
+      "hasCredential": [
         {
-          "@type": "Organization",
-          "@id": "https://www.berunactivewear.com/#org",
-          "name": "Berun Active Wear",
-          "url": "https://www.berunactivewear.com/",
-          "logo": "https://www.berunactivewear.com/apple-icon-180x180.png",
-          "foundingDate": "2017",
-          "numberOfEmployees": {"@type": "QuantitativeValue", "value": 280},
-          "hasCredential": [
-            {"@type": "EducationalOccupationalCredential", "credentialCategory": "certification", "name": "OEKO-TEX Standard 100", "identifier": "23.HCN.74521"},
-            {"@type": "EducationalOccupationalCredential", "credentialCategory": "certification", "name": "BSCI", "identifier": "BSCI-CN-2024-08-15"},
-            {"@type": "EducationalOccupationalCredential", "credentialCategory": "certification", "name": "WRAP Gold", "identifier": "WRAP-GLD-156823"},
-            {"@type": "EducationalOccupationalCredential", "credentialCategory": "certification", "name": "GRS", "identifier": "CU 1014387 GRS-2024"},
-            {"@type": "EducationalOccupationalCredential", "credentialCategory": "certification", "name": "Higg FEM", "identifier": "HIG-FEM-2024-CN-08"}
-          ]
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "certification",
+          "name": "OEKO-TEX Standard 100",
+          "identifier": "23.HCN.74521"
         },
         {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.berunactivewear.com/"},
-            {"@type": "ListItem", "position": 2, "name": "Basketball Apparel Manufacturer", "item": "https://www.berunactivewear.com/basketball-apparel-manufacturer"}
-          ]
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "certification",
+          "name": "BSCI",
+          "identifier": "BSCI-CN-2024-08-15"
         },
         {
-          "@type": "FAQPage",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "What's the MOQ for a single basketball SKU like a game jersey or reversible practice jersey, and how does the Basketball Squad Pack MOQ split work?",
-              "acceptedAnswer": {"@type": "Answer", "text": "Single-SKU MOQ is 300 pieces baseline (split across XS-XXL from that 300, not multiplied per size). 200/SKU on ODM block patterns. 100/style on Private Label. For a full multi-SKU squad kit, ask about the Basketball Squad Pack rule — 220 cross-SKU one PO with game jersey + game shorts ≥80 each as the mandatory floor and other SKUs (reversible practice jersey / tear-away warm-up pants / shooting shirt-or-warm-up jacket / socks+sleeve combo) flexible 30-50 each."}
-            },
-            {
-              "@type": "Question",
-              "name": "Can I order 1 sample to test the reversible double-side sublimation or tear-away 22-snap construction before committing to a 300-piece bulk?",
-              "acceptedAnswer": {"@type": "Answer", "text": "Yes. 1-piece sample, USD 45 fee, 5 working days when fabric is in stock. Sample fee waived after first bulk PO. You can sample any of the 6 basketball SKUs before deciding. For reversible practice jersey samples we ship with both faces photographed on grid background with measurement tape overlay so you can verify per-side number registration and zero bleed-through pre-tendency before bulk."}
-            },
-            {
-              "@type": "Question",
-              "name": "Do you produce reversible practice jerseys with single-pass double-side sublimation and dye-blocked dual-layer fabric construction?",
-              "acceptedAnswer": {"@type": "Answer", "text": "Yes — as a dedicated reversible basketball jersey manufacturer, single-pass double-side sublimation transfer is mandatory on every reversible practice jersey we produce (not 2-pass sequential, which is the industry-commodity bleed-through and per-side number drift root cause). Dye-blocked dual-layer reversible-fabric construction with opaque blocking layer between faces prevents dye-bleed migration. We test production batches at 60 industrial wash cycles at 60°C for outer-face bleed-through detection at 30-ft viewing distance — zero detectable bleed-through through cycle 60 is the production protocol."}
-            },
-            {
-              "@type": "Question",
-              "name": "What basketball-format number sizing standard library do you maintain for chest and back number placement?",
-              "acceptedAnswer": {"@type": "Answer", "text": "We maintain 6 rule-library standards: NFHS federal-tier (default for all 50 US states, ≥10cm chest and ≥15cm back minimum), top-5 high-school-volume state-tier (Texas UIL / California CIF / Florida FHSAA / New York NYSPHSAA / Illinois IHSA, typically 14cm chest + 28cm back default), AAU national-sponsor (Adidas Gauntlet / Nike EYBL / Under Armour Association — each with sponsor-logo-vs-number clear-space rule), NCAA varsity (12-16cm chest + 25-30cm back), and amateur-rec. You select the applicable standard at order entry; our PM configures the per-PO registration template per standard and overhead-camera-checks every jersey at sublimation station for ±2mm tolerance compliance."}
-            },
-            {
-              "@type": "Question",
-              "name": "How does the squad-flex re-order rule work for AAU summer-circuit replacement jerseys between tournament weekends?",
-              "acceptedAnswer": {"@type": "Answer", "text": "Squad-flex re-order allows up to 20% of your original PO volume to be re-ordered at zero added MOQ + 14-day turn. The 14-day turn fits the standard AAU between-event cadence: Sunday submit after Tournament 1 → Friday ship before Tournament 3 (7-day between-tournament gap with margin). Example: original PO 100 pieces across 8 AAU teams → up to 20 pieces re-ordered within 12 months at zero added MOQ. Per-size specification supported. Original sublimation panel + roster CSV + sponsor logo file retained 12 months on our server. For an emergency on-tournament-week replacement (<14-day turn), send us an inquiry-form note and we'll quote case-by-case Express Replacement pricing."}
-            },
-            {
-              "@type": "Question",
-              "name": "My AAU national sponsor (Adidas Gauntlet / Nike EYBL / Under Armour Association) rebranded mid-circuit. How long does a sponsor-logo-only re-batch take?",
-              "acceptedAnswer": {"@type": "Answer", "text": "14 calendar days for sponsor-logo-only update on the original PO panel — base design + player chest+back numbers + crest + secondary sponsors stay untouched. We retain the original sublimation panel + per-sponsor logo file for 12 months, and our sublimation line is configured so the sponsor layer is independently re-printable without re-running the base print. Send us your new AAU national sponsor brand-standards file on day 1; we produce a sponsor-comp sample on day 5-7 for sign-off, then bulk re-print on day 9-12, ship on day 13-14."}
-            },
-            {
-              "@type": "Question",
-              "name": "What's your per-jersey number registration tolerance and how is it verified at the sublimation station?",
-              "acceptedAnswer": {"@type": "Answer", "text": "±2mm on chest 12-16cm number AND ±2mm on back 25-30cm number SIMULTANEOUSLY per jersey, verified by overhead-camera registration template QC at sublimation station against the per-PO basketball-format template (configured per your selected rule-library standard). Out-of-tolerance jerseys (chest greater than ±2mm OR back greater than ±2mm) are pulled off the line and re-printed before packing. Number-and-name entry uses double-key verification (two operators enter independently from your roster CSV, system flags discrepancies before printing) to eliminate single-operator typo failures."}
-            },
-            {
-              "@type": "Question",
-              "name": "I'm coordinating 8 AAU teams + 12 HS conference schools + 8 Park & Rec teams. Can you consolidate across all three program types into one PO with per-program sponsor and crest preservation?",
-              "acceptedAnswer": {"@type": "Answer", "text": "Yes — multi-team consolidation is the core of the Basketball Squad Pack. One PM, one PO number, one invoice across all teams + schools + recreational programs. Each program's sponsor + crest + player roster is preserved as a separate spec layer in the master order. Mid-season sponsor re-batches consolidate across all affected teams into one re-batch PO with one sponsor-comp sample sign-off cycle. Delivery typically structured per program calendar (AAU spring-summer circuit tournament weekend / HS conference season opener / Park & Rec season cycle), consolidated in the same shipment window or split per delivery preference."}
-            }
-          ]
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "certification",
+          "name": "WRAP Gold",
+          "identifier": "WRAP-GLD-156823"
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "certification",
+          "name": "GRS",
+          "identifier": "CU 1014387 GRS-2024"
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "certification",
+          "name": "Higg FEM",
+          "identifier": "HIG-FEM-2024-CN-08"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.berunactivewear.com/basketball-apparel-manufacturer#service",
+      "name": "Custom Basketball Apparel Manufacturing",
+      "serviceType": "Basketball apparel manufacturing (OEM/ODM/private label)",
+      "provider": {
+        "@id": "https://www.berunactivewear.com/#org"
+      },
+      "areaServed": "Worldwide",
+      "description": "OEM, ODM and private-label manufacturing of basketball jerseys, reversible practice jerseys, tear-away warm-ups and shorts with per-number registration."
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.berunactivewear.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Basketball Apparel Manufacturer",
+          "item": "https://www.berunactivewear.com/basketball-apparel-manufacturer"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What's the MOQ for a single basketball SKU like a game jersey or reversible practice jersey, and how does the Basketball Squad Pack MOQ split work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Single-SKU MOQ is 300 pieces baseline (split across XS-XXL from that 300, not multiplied per size). 200/SKU on ODM block patterns. 100/style on Private Label. For a full multi-SKU squad kit, ask about the Basketball Squad Pack rule — 220 cross-SKU one PO with game jersey + game shorts ≥80 each as the mandatory floor and other SKUs (reversible practice jersey / tear-away warm-up pants / shooting shirt-or-warm-up jacket / socks+sleeve combo) flexible 30-50 each."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I order 1 sample to test the reversible double-side sublimation or tear-away 22-snap construction before committing to a 300-piece bulk?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. 1-piece sample, USD 45 fee, 5 working days when fabric is in stock. Sample fee waived after first bulk PO. You can sample any of the 6 basketball SKUs before deciding. For reversible practice jersey samples we ship with both faces photographed on grid background with measurement tape overlay so you can verify per-side number registration and zero bleed-through pre-tendency before bulk."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you produce reversible practice jerseys with single-pass double-side sublimation and dye-blocked dual-layer fabric construction?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes — as a dedicated reversible basketball jersey manufacturer, single-pass double-side sublimation transfer is mandatory on every reversible practice jersey we produce (not 2-pass sequential, which is the industry-commodity bleed-through and per-side number drift root cause). Dye-blocked dual-layer reversible-fabric construction with opaque blocking layer between faces prevents dye-bleed migration. We test production batches at 60 industrial wash cycles at 60°C for outer-face bleed-through detection at 30-ft viewing distance — zero detectable bleed-through through cycle 60 is the production protocol."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What basketball-format number sizing standard library do you maintain for chest and back number placement?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We maintain 6 rule-library standards: NFHS federal-tier (default for all 50 US states, ≥10cm chest and ≥15cm back minimum), top-5 high-school-volume state-tier (Texas UIL / California CIF / Florida FHSAA / New York NYSPHSAA / Illinois IHSA, typically 14cm chest + 28cm back default), AAU national-sponsor (Adidas Gauntlet / Nike EYBL / Under Armour Association — each with sponsor-logo-vs-number clear-space rule), NCAA varsity (12-16cm chest + 25-30cm back), and amateur-rec. You select the applicable standard at order entry; our PM configures the per-PO registration template per standard and overhead-camera-checks every jersey at sublimation station for ±2mm tolerance compliance."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does the squad-flex re-order rule work for AAU summer-circuit replacement jerseys between tournament weekends?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Squad-flex re-order allows up to 20% of your original PO volume to be re-ordered at zero added MOQ + 14-day turn. The 14-day turn fits the standard AAU between-event cadence: Sunday submit after Tournament 1 → Friday ship before Tournament 3 (7-day between-tournament gap with margin). Example: original PO 100 pieces across 8 AAU teams → up to 20 pieces re-ordered within 12 months at zero added MOQ. Per-size specification supported. Original sublimation panel + roster CSV + sponsor logo file retained 12 months on our server. For an emergency on-tournament-week replacement (<14-day turn), send us an inquiry-form note and we'll quote case-by-case Express Replacement pricing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "My AAU national sponsor (Adidas Gauntlet / Nike EYBL / Under Armour Association) rebranded mid-circuit. How long does a sponsor-logo-only re-batch take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "14 calendar days for sponsor-logo-only update on the original PO panel — base design + player chest+back numbers + crest + secondary sponsors stay untouched. We retain the original sublimation panel + per-sponsor logo file for 12 months, and our sublimation line is configured so the sponsor layer is independently re-printable without re-running the base print. Send us your new AAU national sponsor brand-standards file on day 1; we produce a sponsor-comp sample on day 5-7 for sign-off, then bulk re-print on day 9-12, ship on day 13-14."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What's your per-jersey number registration tolerance and how is it verified at the sublimation station?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "±2mm on chest 12-16cm number AND ±2mm on back 25-30cm number SIMULTANEOUSLY per jersey, verified by overhead-camera registration template QC at sublimation station against the per-PO basketball-format template (configured per your selected rule-library standard). Out-of-tolerance jerseys (chest greater than ±2mm OR back greater than ±2mm) are pulled off the line and re-printed before packing. Number-and-name entry uses double-key verification (two operators enter independently from your roster CSV, system flags discrepancies before printing) to eliminate single-operator typo failures."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "I'm coordinating 8 AAU teams + 12 HS conference schools + 8 Park & Rec teams. Can you consolidate across all three program types into one PO with per-program sponsor and crest preservation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes — multi-team consolidation is the core of the Basketball Squad Pack. One PM, one PO number, one invoice across all teams + schools + recreational programs. Each program's sponsor + crest + player roster is preserved as a separate spec layer in the master order. Mid-season sponsor re-batches consolidate across all affected teams into one re-batch PO with one sponsor-comp sample sign-off cycle. Delivery typically structured per program calendar (AAU spring-summer circuit tournament weekend / HS conference season opener / Park & Rec season cycle), consolidated in the same shipment window or split per delivery preference."
+          }
         }
       ]
     }
+  ]
+}
     </script>
 
     <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap">
@@ -595,6 +668,12 @@
   <script src="/assets/dynamic-menu.js" defer></script>
 
   <main id="main">
+    <nav class="bcrumb" aria-label="Breadcrumb">
+      <ol class="bcrumb__list">
+        <li class="bcrumb__item"><a href="/">Home</a></li>
+        <li class="bcrumb__item bcrumb__item--current" aria-current="page">Basketball Apparel Manufacturer</li>
+      </ol>
+    </nav>
 
     <!-- S1: HERO — Basketball-page-unique Reversible Jersey Diptych (white bg, centered single-column, structurally distinct from yoga/gym/cycling/soccer dark-overlay + 55/45 split + right-inset-card pattern) -->
     <section class="bb-hero" aria-labelledby="bb-h1">
@@ -646,6 +725,22 @@
         </ul>
       </div>
     </section>
+
+    <nav class="pgtoc" aria-label="On this page">
+      <div class="pgtoc__box">
+        <p class="pgtoc__t">On this page</p>
+        <ul class="pgtoc__list">
+          <li><a href="#s2-h2">Products We Make</a></li>
+          <li><a href="#s3-h2">By Competition Tier</a></li>
+          <li><a href="#s4-h2">Reversible & Tear-Away Build</a></li>
+          <li><a href="#s5-h2">Failure Modes Engineered Out</a></li>
+          <li><a href="#s7-h2">OEM / ODM / Private Label</a></li>
+          <li><a href="#s8-h2">Manufacturing Process</a></li>
+          <li><a href="#s9-h2">FAQ</a></li>
+          <li><a href="#s10-h2">Certifications</a></li>
+        </ul>
+      </div>
+    </nav>
 
     <!-- S2: BASKETBALL SUBCATEGORY CARDS (6 cards) -->
     <section class="sec sec--t" aria-labelledby="s2-h2">
