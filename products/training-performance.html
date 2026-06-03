@@ -435,6 +435,14 @@
       grid-template-columns: repeat(3, 1fr);
       gap: clamp(16px, 2vw, 24px);
     }
+    .subcat-grid--row2 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: clamp(16px, 2vw, 24px);
+      margin-top: clamp(16px, 2vw, 24px);
+    }
+    @media (max-width: 991px) { .subcat-grid--row2 { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 575px) { .subcat-grid--row2 { grid-template-columns: 1fr; } }
     @media (max-width: 991px) {
       .subcat-grid { grid-template-columns: repeat(2, 1fr); }
     }
@@ -538,9 +546,12 @@
     /* ===== S4: Customization Options ===== */
     .custom-list {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      grid-template-columns: repeat(5, 1fr);
       gap: clamp(16px, 2vw, 24px);
     }
+    @media (max-width: 1100px) { .custom-list { grid-template-columns: repeat(3, 1fr); } }
+    @media (max-width: 700px) { .custom-list { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 460px) { .custom-list { grid-template-columns: 1fr; } }
     .custom-item {
       display: flex;
       gap: 16px;
@@ -866,6 +877,9 @@
           </div>
 
           <!-- Card 4 — Shorts -->
+          </div>
+
+        <div class="subcat-grid--row2">
           <div class="subcat-card anim-rise anim-d4" id="shorts">
             <img class="subcat-card__img" src="https://img.berunactivewear.com/assets/images/products/training-shorts.png" alt="Deep navy training shorts flat-lay showing waistband and liner detail" width="600" height="450" loading="lazy">
             <div class="subcat-card__body">
