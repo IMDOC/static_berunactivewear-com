@@ -1,7 +1,7 @@
 {
   "logo": {
     "text": "Berun Active Wear",
-    "image": "/assets/images/logo.svg",
+    "image": "https://img.berunactivewear.com/assets/images/logo.svg",
     "link": "/",
     "showText": false
   },
