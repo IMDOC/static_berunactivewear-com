@@ -33,78 +33,151 @@
 
     <script type="application/ld+json">
     {
-      "@context": "https://schema.org",
-      "@graph": [
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.berunactivewear.com/#org",
+      "name": "Berun Active Wear",
+      "url": "https://www.berunactivewear.com/",
+      "logo": "https://www.berunactivewear.com/apple-icon-180x180.png",
+      "foundingDate": "2017",
+      "numberOfEmployees": {
+        "@type": "QuantitativeValue",
+        "value": 280
+      },
+      "hasCredential": [
         {
-          "@type": "Organization",
-          "@id": "https://www.berunactivewear.com/#org",
-          "name": "Berun Active Wear",
-          "url": "https://www.berunactivewear.com/",
-          "logo": "https://www.berunactivewear.com/apple-icon-180x180.png",
-          "foundingDate": "2017",
-          "numberOfEmployees": {"@type": "QuantitativeValue", "value": 280},
-          "hasCredential": [
-            {"@type": "EducationalOccupationalCredential", "credentialCategory": "certification", "name": "OEKO-TEX Standard 100", "identifier": "23.HCN.74521"},
-            {"@type": "EducationalOccupationalCredential", "credentialCategory": "certification", "name": "BSCI", "identifier": "BSCI-CN-2024-08-15"},
-            {"@type": "EducationalOccupationalCredential", "credentialCategory": "certification", "name": "WRAP Gold", "identifier": "WRAP-GLD-156823"},
-            {"@type": "EducationalOccupationalCredential", "credentialCategory": "certification", "name": "GRS", "identifier": "CU 1014387 GRS-2024"},
-            {"@type": "EducationalOccupationalCredential", "credentialCategory": "certification", "name": "Higg FEM", "identifier": "HIG-FEM-2024-CN-08"}
-          ]
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "certification",
+          "name": "OEKO-TEX Standard 100",
+          "identifier": "23.HCN.74521"
         },
         {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.berunactivewear.com/"},
-            {"@type": "ListItem", "position": 2, "name": "Cycling Apparel Manufacturer", "item": "https://www.berunactivewear.com/cycling-apparel-manufacturer"}
-          ]
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "certification",
+          "name": "BSCI",
+          "identifier": "BSCI-CN-2024-08-15"
         },
         {
-          "@type": "FAQPage",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "What's the MOQ for a single cycling SKU like a flagship jersey or bib short?",
-              "acceptedAnswer": {"@type": "Answer", "text": "300 pieces per SKU baseline (split across XS-XXL from that 300, not multiplied per size). 200/SKU on ODM block patterns. 100/style on Private Label. For a full multi-SKU capsule, ask about the Cycling Team Pack rule — 220 pieces cross-SKU one PO."}
-            },
-            {
-              "@type": "Question",
-              "name": "Can I order 1 sample to test before committing to a 300-piece bulk?",
-              "acceptedAnswer": {"@type": "Answer", "text": "Yes. 1-piece sample, USD 45 fee, 5 working days when fabric is in stock. Sample fee waived after first bulk PO. You can sample any of the 6 cycling SKUs before deciding (jersey, bib, long-sleeve, tight, vest, warmers)."}
-            },
-            {
-              "@type": "Question",
-              "name": "How do I verify the chamois is actually Italian-source and not generic Asian foam relabeled?",
-              "acceptedAnswer": {"@type": "Answer", "text": "We disclose the chamois supplier name on request (Cytech-affiliated or Elastic-Interface-affiliated Tier-1 European supplier). We also ship a chamois cross-section cutaway sample (one bib cut open) so you can verify the 3-density zoning and 12-panel flatlock attachment yourself before committing."}
-            },
-            {
-              "@type": "Question",
-              "name": "My capsule depends on a color story across 6 SKUs. How do you prevent cross-SKU drift?",
-              "acceptedAnswer": {"@type": "Answer", "text": "Same dye batch + same fabric mill across matching-color SKUs. Before bulk we produce 1 of each SKU in production print-run conditions, photograph them together under controlled studio lighting, and ship the 6-piece pull for sign-off. ΔE ≤ 1.5 within-batch tolerance, spectrophotometer-verified on every piece."}
-            },
-            {
-              "@type": "Question",
-              "name": "I don't have a tech-pack — I have a team design brief, sponsor logo files, and a rider headcount. Can you still produce my team kit?",
-              "acceptedAnswer": {"@type": "Answer", "text": "Yes. ODM is the entry path: 40+ cycling-cut block patterns (race-fit jersey, gravel-fit jersey, bib short with Italian-source chamois, bib tight, vest, warmers). You provide color, sublimation art, sponsor logos, rider sizes. We cut-sew and sublimate against the block pattern. No formal tech-pack required."}
-            },
-            {
-              "@type": "Question",
-              "name": "How does the Cycling Team Pack work — what's the actual MOQ split?",
-              "acceptedAnswer": {"@type": "Answer", "text": "Cycling Team Pack is our cycling-only program for full team kits. MOQ split: 50 jerseys + 50 bibs + 30 long-sleeve + 30 tights + 30 vests + 30 warmer bundles = 220 cross-SKU one PO (vs 300 baseline single-SKU). One PM, one PO number, one invoice, same dye batch across matching-color SKUs. Multi-season delivery: summer Q1, shoulder Q2, winter Q3 — all under one master spec."}
-            },
-            {
-              "@type": "Question",
-              "name": "My team has sponsor logos with brand-standards tolerance. What's your registration accuracy?",
-              "acceptedAnswer": {"@type": "Answer", "text": "±1mm tolerance on sponsor-logo placement, verified per piece pre-shipment. Before bulk we measure registration on the 6-piece cross-SKU sample pull and confirm sign-off against your sponsor's brand-standards file (if you can share it). Sponsor cancellations from logo drift are a specific failure mode we engineer out."}
-            },
-            {
-              "@type": "Question",
-              "name": "Our season opens in 3 months. Can you deliver a full team kit in time?",
-              "acceptedAnswer": {"@type": "Answer", "text": "Yes, with planning. Cycling Team Pack lead time from brief intake → chamois try-on → lab dip → sublimation batch sample → bulk ≈ 70-90 days for the summer kit (jersey + bib + warmers). Long-sleeve + vest add 30 days. Winter tights add another 30 days. For a 3-month window: prioritize summer kit, ship shoulder + winter under the same Cycling Team Pack PO."}
-            }
-          ]
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "certification",
+          "name": "WRAP Gold",
+          "identifier": "WRAP-GLD-156823"
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "certification",
+          "name": "GRS",
+          "identifier": "CU 1014387 GRS-2024"
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "certification",
+          "name": "Higg FEM",
+          "identifier": "HIG-FEM-2024-CN-08"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.berunactivewear.com/cycling-apparel-manufacturer#service",
+      "name": "Custom Cycling Apparel Manufacturing",
+      "serviceType": "Cycling apparel manufacturing (OEM/ODM/private label)",
+      "provider": {
+        "@id": "https://www.berunactivewear.com/#org"
+      },
+      "areaServed": "Worldwide",
+      "description": "OEM, ODM and private-label manufacturing of cycling jerseys, bib shorts, thermal layers, tights and vests with Italian-source chamois."
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.berunactivewear.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Cycling Apparel Manufacturer",
+          "item": "https://www.berunactivewear.com/cycling-apparel-manufacturer"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What's the MOQ for a single cycling SKU like a flagship jersey or bib short?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "300 pieces per SKU baseline (split across XS-XXL from that 300, not multiplied per size). 200/SKU on ODM block patterns. 100/style on Private Label. For a full multi-SKU capsule, ask about the Cycling Team Pack rule — 220 pieces cross-SKU one PO."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I order 1 sample to test before committing to a 300-piece bulk?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. 1-piece sample, USD 45 fee, 5 working days when fabric is in stock. Sample fee waived after first bulk PO. You can sample any of the 6 cycling SKUs before deciding (jersey, bib, long-sleeve, tight, vest, warmers)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I verify the chamois is actually Italian-source and not generic Asian foam relabeled?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We disclose the chamois supplier name on request (Cytech-affiliated or Elastic-Interface-affiliated Tier-1 European supplier). We also ship a chamois cross-section cutaway sample (one bib cut open) so you can verify the 3-density zoning and 12-panel flatlock attachment yourself before committing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "My capsule depends on a color story across 6 SKUs. How do you prevent cross-SKU drift?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Same dye batch + same fabric mill across matching-color SKUs. Before bulk we produce 1 of each SKU in production print-run conditions, photograph them together under controlled studio lighting, and ship the 6-piece pull for sign-off. ΔE ≤ 1.5 within-batch tolerance, spectrophotometer-verified on every piece."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "I don't have a tech-pack — I have a team design brief, sponsor logo files, and a rider headcount. Can you still produce my team kit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. ODM is the entry path: 40+ cycling-cut block patterns (race-fit jersey, gravel-fit jersey, bib short with Italian-source chamois, bib tight, vest, warmers). You provide color, sublimation art, sponsor logos, rider sizes. We cut-sew and sublimate against the block pattern. No formal tech-pack required."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does the Cycling Team Pack work — what's the actual MOQ split?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cycling Team Pack is our cycling-only program for full team kits. MOQ split: 50 jerseys + 50 bibs + 30 long-sleeve + 30 tights + 30 vests + 30 warmer bundles = 220 cross-SKU one PO (vs 300 baseline single-SKU). One PM, one PO number, one invoice, same dye batch across matching-color SKUs. Multi-season delivery: summer Q1, shoulder Q2, winter Q3 — all under one master spec."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "My team has sponsor logos with brand-standards tolerance. What's your registration accuracy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "±1mm tolerance on sponsor-logo placement, verified per piece pre-shipment. Before bulk we measure registration on the 6-piece cross-SKU sample pull and confirm sign-off against your sponsor's brand-standards file (if you can share it). Sponsor cancellations from logo drift are a specific failure mode we engineer out."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Our season opens in 3 months. Can you deliver a full team kit in time?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, with planning. Cycling Team Pack lead time from brief intake → chamois try-on → lab dip → sublimation batch sample → bulk ≈ 70-90 days for the summer kit (jersey + bib + warmers). Long-sleeve + vest add 30 days. Winter tights add another 30 days. For a 3-month window: prioritize summer kit, ship shoulder + winter under the same Cycling Team Pack PO."
+          }
         }
       ]
     }
+  ]
+}
     </script>
 
     <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap">
@@ -586,6 +659,12 @@
   <script src="/assets/dynamic-menu.js" defer></script>
 
   <main id="main">
+    <nav class="bcrumb" aria-label="Breadcrumb">
+      <ol class="bcrumb__list">
+        <li class="bcrumb__item"><a href="/">Home</a></li>
+        <li class="bcrumb__item bcrumb__item--current" aria-current="page">Cycling Apparel Manufacturer</li>
+      </ol>
+    </nav>
 
     <!-- S1: HERO — Chamois 3-Density Cross-Section + Within-Batch Color-Lock (page-unique) -->
     <section class="cyh" aria-labelledby="cy-h1">
@@ -636,6 +715,22 @@
         </figure>
       </div>
     </section>
+
+    <nav class="pgtoc" aria-label="On this page">
+      <div class="pgtoc__box">
+        <p class="pgtoc__t">On this page</p>
+        <ul class="pgtoc__list">
+          <li><a href="#s2-h2">Products We Make</a></li>
+          <li><a href="#s3-h2">By Discipline</a></li>
+          <li><a href="#s4-h2">Chamois Engineering</a></li>
+          <li><a href="#s5-h2">Failure Modes Engineered Out</a></li>
+          <li><a href="#s7-h2">OEM / ODM / Private Label</a></li>
+          <li><a href="#s8-h2">Manufacturing Process</a></li>
+          <li><a href="#s9-h2">FAQ</a></li>
+          <li><a href="#s10-h2">Certifications</a></li>
+        </ul>
+      </div>
+    </nav>
 
     <!-- S2: CYCLING SUBCATEGORY CARDS (6 cards) -->
     <section class="sec sec--w" aria-labelledby="s2-h2">
