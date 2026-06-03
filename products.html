@@ -410,7 +410,7 @@
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       gap: clamp(16px, 2vw, 28px);
-      max-width: 66.666%;
+      max-width: 100%;
       margin: clamp(16px, 2vw, 28px) auto 0;
     }
     .product-card {
@@ -442,6 +442,17 @@
       transition: transform .5s ease;
     }
     .product-card:hover .product-card__media img { transform: scale(1.04); }
+
+    /* S2b — sport category cards (12, 3x4) */
+    .cat-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: clamp(14px, 1.6vw, 22px); }
+    .cat-card { display: flex; flex-direction: column; background: #FFFFFF; border: 1px solid var(--color-border); border-radius: 12px; overflow: hidden; text-decoration: none; transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease; }
+    .cat-card:hover { transform: translateY(-4px); box-shadow: var(--corp-shadow-2); border-color: rgba(15,31,30,0.16); }
+    .cat-card__media { aspect-ratio: 4 / 3; overflow: hidden; background: #F0EBE4; margin: 0; }
+    .cat-card__media img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .5s ease; }
+    .cat-card:hover .cat-card__media img { transform: scale(1.04); }
+    .cat-card__name { padding: 14px 16px; font-weight: 600; color: #0F1F1E; font-size: clamp(14px, 1.1vw, 16px); text-align: center; line-height: 1.3; }
+    @media (max-width: 900px) { .cat-grid { grid-template-columns: repeat(3, 1fr); } }
+    @media (max-width: 620px) { .cat-grid { grid-template-columns: repeat(2, 1fr); } }
     .product-card__body {
       padding: clamp(18px, 2vw, 24px);
       display: flex;
@@ -931,6 +942,67 @@
               <a href="/products/accessories" class="product-card__link">Explore Accessories &rarr;</a>
             </div>
           </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== S2b — Sport-Specific Apparel (12 category cards, 3x4) ============== -->
+    <section class="section-corp section-corp--white" id="sport-categories" aria-labelledby="s2b-h2" style="padding-top: 0;">
+      <div class="container-bra" style="width:100%;">
+        <div class="section-head fade-up">
+          <span class="section-rail">By Sport</span>
+          <h2 class="section-h2" id="s2b-h2">Sport-Specific Apparel</h2>
+          <p class="section-sub">Custom manufacturing across every major sport and activity &mdash; same factory, fabric library, and decoration capabilities.</p>
+        </div>
+        <div class="cat-grid">
+          <a class="cat-card fade-up" href="/yoga-apparel-manufacturer">
+            <figure class="cat-card__media"><img loading="lazy" width="640" height="480" alt="Custom Yoga & Pilates apparel manufacturing" src="https://img.berunactivewear.com/assets/images/yp-yoga-tank.webp" onerror="this.onerror=null;this.src='/assets/images/yp-yoga-tank.webp'"></figure>
+            <div class="cat-card__name">Yoga &amp; Pilates apparel</div>
+          </a>
+          <a class="cat-card fade-up" href="/gym-clothing-manufacturer">
+            <figure class="cat-card__media"><img loading="lazy" width="640" height="480" alt="Custom Gym clothing manufacturing" src="https://img.berunactivewear.com/assets/images/gm-training-tee.webp" onerror="this.onerror=null;this.src='/assets/images/gm-training-tee.webp'"></figure>
+            <div class="cat-card__name">Gym clothing</div>
+          </a>
+          <a class="cat-card fade-up" href="/cycling-apparel-manufacturer">
+            <figure class="cat-card__media"><img loading="lazy" width="640" height="480" alt="Custom Cycling apparel manufacturing" src="https://img.berunactivewear.com/assets/images/cy-cycling-jersey.webp" onerror="this.onerror=null;this.src='/assets/images/cy-cycling-jersey.webp'"></figure>
+            <div class="cat-card__name">Cycling apparel</div>
+          </a>
+          <a class="cat-card fade-up" href="/contact">
+            <figure class="cat-card__media"><img loading="lazy" width="640" height="480" alt="Custom Fishing apparel manufacturing" src="https://img.berunactivewear.com/assets/images/cat-fishing-apparel.webp" onerror="this.onerror=null;this.src='/assets/images/cat-fishing-apparel.webp'"></figure>
+            <div class="cat-card__name">Fishing apparel</div>
+          </a>
+          <a class="cat-card fade-up" href="/contact">
+            <figure class="cat-card__media"><img loading="lazy" width="640" height="480" alt="Custom Swimming apparel manufacturing" src="https://img.berunactivewear.com/assets/images/cat-swimming-apparel.webp" onerror="this.onerror=null;this.src='/assets/images/cat-swimming-apparel.webp'"></figure>
+            <div class="cat-card__name">Swimming apparel</div>
+          </a>
+          <a class="cat-card fade-up" href="/contact">
+            <figure class="cat-card__media"><img loading="lazy" width="640" height="480" alt="Custom Hockey apparel manufacturing" src="https://img.berunactivewear.com/assets/images/cat-hockey-apparel.webp" onerror="this.onerror=null;this.src='/assets/images/cat-hockey-apparel.webp'"></figure>
+            <div class="cat-card__name">Hockey apparel</div>
+          </a>
+          <a class="cat-card fade-up" href="/contact">
+            <figure class="cat-card__media"><img loading="lazy" width="640" height="480" alt="Custom Golf apparel manufacturing" src="https://img.berunactivewear.com/assets/images/cat-golf-apparel.webp" onerror="this.onerror=null;this.src='/assets/images/cat-golf-apparel.webp'"></figure>
+            <div class="cat-card__name">Golf apparel</div>
+          </a>
+          <a class="cat-card fade-up" href="/contact">
+            <figure class="cat-card__media"><img loading="lazy" width="640" height="480" alt="Custom Tennis apparel manufacturing" src="https://img.berunactivewear.com/assets/images/cat-tennis-apparel.webp" onerror="this.onerror=null;this.src='/assets/images/cat-tennis-apparel.webp'"></figure>
+            <div class="cat-card__name">Tennis apparel</div>
+          </a>
+          <a class="cat-card fade-up" href="/contact">
+            <figure class="cat-card__media"><img loading="lazy" width="640" height="480" alt="Custom Equestrian apparel manufacturing" src="https://img.berunactivewear.com/assets/images/cat-equestrian-apparel.webp" onerror="this.onerror=null;this.src='/assets/images/cat-equestrian-apparel.webp'"></figure>
+            <div class="cat-card__name">Equestrian apparel</div>
+          </a>
+          <a class="cat-card fade-up" href="/basketball-apparel-manufacturer">
+            <figure class="cat-card__media"><img loading="lazy" width="640" height="480" alt="Custom Basketball apparel manufacturing" src="https://img.berunactivewear.com/assets/images/bk-basketball-game-jersey.webp" onerror="this.onerror=null;this.src='/assets/images/bk-basketball-game-jersey.webp'"></figure>
+            <div class="cat-card__name">Basketball apparel</div>
+          </a>
+          <a class="cat-card fade-up" href="/contact">
+            <figure class="cat-card__media"><img loading="lazy" width="640" height="480" alt="Custom Baseball apparel manufacturing" src="https://img.berunactivewear.com/assets/images/cat-baseball-apparel.webp" onerror="this.onerror=null;this.src='/assets/images/cat-baseball-apparel.webp'"></figure>
+            <div class="cat-card__name">Baseball apparel</div>
+          </a>
+          <a class="cat-card fade-up" href="/soccer-apparel-manufacturer">
+            <figure class="cat-card__media"><img loading="lazy" width="640" height="480" alt="Custom Soccer apparel manufacturing" src="https://img.berunactivewear.com/assets/images/sc-soccer-match-jersey.webp" onerror="this.onerror=null;this.src='/assets/images/sc-soccer-match-jersey.webp'"></figure>
+            <div class="cat-card__name">Soccer apparel</div>
+          </a>
         </div>
       </div>
     </section>
