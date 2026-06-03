@@ -33,46 +33,154 @@
 
     <script type="application/ld+json">
     {
-      "@context": "https://schema.org",
-      "@graph": [
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.berunactivewear.com/#org",
+      "name": "Berun Active Wear",
+      "url": "https://www.berunactivewear.com/",
+      "logo": "https://www.berunactivewear.com/apple-icon-180x180.png",
+      "foundingDate": "2017",
+      "numberOfEmployees": {
+        "@type": "QuantitativeValue",
+        "value": 280
+      },
+      "hasCredential": [
         {
-          "@type": "Organization",
-          "@id": "https://www.berunactivewear.com/#org",
-          "name": "Berun Active Wear",
-          "url": "https://www.berunactivewear.com/",
-          "logo": "https://www.berunactivewear.com/apple-icon-180x180.png",
-          "foundingDate": "2017",
-          "numberOfEmployees": {"@type": "QuantitativeValue", "value": 280},
-          "hasCredential": [
-            {"@type": "EducationalOccupationalCredential", "credentialCategory": "certification", "name": "OEKO-TEX Standard 100", "identifier": "23.HCN.74521"},
-            {"@type": "EducationalOccupationalCredential", "credentialCategory": "certification", "name": "BSCI", "identifier": "BSCI-CN-2024-08-15"},
-            {"@type": "EducationalOccupationalCredential", "credentialCategory": "certification", "name": "WRAP Gold", "identifier": "WRAP-GLD-156823"},
-            {"@type": "EducationalOccupationalCredential", "credentialCategory": "certification", "name": "GRS", "identifier": "CU 1014387 GRS-2024"},
-            {"@type": "EducationalOccupationalCredential", "credentialCategory": "certification", "name": "Higg FEM", "identifier": "HIG-FEM-2024-CN-08"}
-          ]
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "certification",
+          "name": "OEKO-TEX Standard 100",
+          "identifier": "23.HCN.74521"
         },
         {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.berunactivewear.com/"},
-            {"@type": "ListItem", "position": 2, "name": "Custom Yoga Pants Manufacturer", "item": "https://www.berunactivewear.com/custom-yoga-pants-manufacturer"}
-          ]
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "certification",
+          "name": "BSCI",
+          "identifier": "BSCI-CN-2024-08-15"
         },
         {
-          "@type": "FAQPage",
-          "mainEntity": [
-            {"@type": "Question", "name": "Are flare and wide-leg leggings made in-house?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. As a flare leggings manufacturer we cut all eight fits on our own floor — flare and wide-leg on dedicated pattern grading, seamless on a circular-knit line. Your whole range runs through one dye batch, so the black on your flare matches the black on your compression legging. No subcontracting, no cross-supplier color drift."}},
-            {"@type": "Question", "name": "What does MOQ 300 mean — per size or total?", "acceptedAnswer": {"@type": "Answer", "text": "Total. MOQ is 300 pieces per style, size-split across XS-3XL as you choose (for example 60 each across five sizes), not 300 per size. That keeps a first run realistic for a new fit without forcing 1,500 pieces."}},
-            {"@type": "Question", "name": "How fast is a sample, and what does it cost?", "acceptedAnswer": {"@type": "Answer", "text": "A sample is 1 piece at USD 45, ready in 5 working days when the fabric is in stock, or 12 working days for to-order fabric. You approve fit, fabric, and color on the sample before any bulk is cut."}},
-            {"@type": "Question", "name": "Will my plus sizes fit like the sample?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. We grade 1X-3X on a separate plus block with proportional rise, gusset, and waistband-to-hip grading — not a stretched medium. The waistband holds and the crotch sits right at 2X and 3X, where linear grading usually fails."}},
-            {"@type": "Question", "name": "How consistent is color across reorders?", "acceptedAnswer": {"@type": "Answer", "text": "We hold Pantone color to delta-E 1.5 or lower and read a spectrophotometer value per fabric lot in your pre-shipment package. Reorder black matches first-order black, so your line stays consistent season to season."}},
-            {"@type": "Question", "name": "What is the private label minimum?", "acceptedAnswer": {"@type": "Answer", "text": "Private label runs on our existing leggings blanks at a lower entry than full OEM, with your woven label, hangtag, and packaging. It is the fastest route to a first PO; send us your label kit and target fits to confirm."}},
-            {"@type": "Question", "name": "What fabrics and weights can I choose?", "acceptedAnswer": {"@type": "Answer", "text": "GSM runs 230-320 across the six fits — nylon-spandex and Lycra T-400 for compression, modal blends for relaxed, circular-knit for seamless. Recycled GRS yarn and brushed finishes are available, all certified to OEKO-TEX Standard 100 #23.HCN.74521."}},
-            {"@type": "Question", "name": "How fast are reorders once a style is approved?", "acceptedAnswer": {"@type": "Answer", "text": "Once a style is approved and the pattern is on file, bulk reorders run 35-42 days. Color and fit are locked to your approved sample, so reorders skip re-sampling and ship against the same spec."}}
-          ]
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "certification",
+          "name": "WRAP Gold",
+          "identifier": "WRAP-GLD-156823"
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "certification",
+          "name": "GRS",
+          "identifier": "CU 1014387 GRS-2024"
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "certification",
+          "name": "Higg FEM",
+          "identifier": "HIG-FEM-2024-CN-08"
+        }
+      ]
+    },
+    {
+      "@type": "Product",
+      "@id": "https://www.berunactivewear.com/custom-yoga-pants-manufacturer#product",
+      "name": "Custom Yoga Pants",
+      "category": "Yoga pants & leggings",
+      "brand": {
+        "@id": "https://www.berunactivewear.com/#org"
+      },
+      "manufacturer": {
+        "@id": "https://www.berunactivewear.com/#org"
+      },
+      "description": "Custom yoga pants and leggings in compression, high-waisted, seamless and wide-leg fits with squat-proof knits and engineered waistbands.",
+      "image": "https://img.berunactivewear.com/assets/images/hero-factory-bg.webp"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.berunactivewear.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Custom Yoga Pants Manufacturer",
+          "item": "https://www.berunactivewear.com/custom-yoga-pants-manufacturer"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Are flare and wide-leg leggings made in-house?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. As a flare leggings manufacturer we cut all eight fits on our own floor — flare and wide-leg on dedicated pattern grading, seamless on a circular-knit line. Your whole range runs through one dye batch, so the black on your flare matches the black on your compression legging. No subcontracting, no cross-supplier color drift."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does MOQ 300 mean — per size or total?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Total. MOQ is 300 pieces per style, size-split across XS-3XL as you choose (for example 60 each across five sizes), not 300 per size. That keeps a first run realistic for a new fit without forcing 1,500 pieces."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How fast is a sample, and what does it cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A sample is 1 piece at USD 45, ready in 5 working days when the fabric is in stock, or 12 working days for to-order fabric. You approve fit, fabric, and color on the sample before any bulk is cut."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will my plus sizes fit like the sample?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We grade 1X-3X on a separate plus block with proportional rise, gusset, and waistband-to-hip grading — not a stretched medium. The waistband holds and the crotch sits right at 2X and 3X, where linear grading usually fails."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How consistent is color across reorders?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We hold Pantone color to delta-E 1.5 or lower and read a spectrophotometer value per fabric lot in your pre-shipment package. Reorder black matches first-order black, so your line stays consistent season to season."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the private label minimum?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Private label runs on our existing leggings blanks at a lower entry than full OEM, with your woven label, hangtag, and packaging. It is the fastest route to a first PO; send us your label kit and target fits to confirm."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What fabrics and weights can I choose?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "GSM runs 230-320 across the six fits — nylon-spandex and Lycra T-400 for compression, modal blends for relaxed, circular-knit for seamless. Recycled GRS yarn and brushed finishes are available, all certified to OEKO-TEX Standard 100 #23.HCN.74521."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How fast are reorders once a style is approved?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Once a style is approved and the pattern is on file, bulk reorders run 35-42 days. Color and fit are locked to your approved sample, so reorders skip re-sampling and ship against the same spec."
+          }
         }
       ]
     }
+  ]
+}
     </script>
 
     <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap">
@@ -636,6 +744,12 @@
   <script src="/assets/dynamic-menu.js" defer></script>
 
   <main id="main">
+    <nav class="bcrumb" aria-label="Breadcrumb">
+      <ol class="bcrumb__list">
+        <li class="bcrumb__item"><a href="/">Home</a></li>
+        <li class="bcrumb__item bcrumb__item--current" aria-current="page">Custom Yoga Pants</li>
+      </ol>
+    </nav>
 
     <!-- S1: HERO — Annotated Product Anatomy -->
     <section class="yp-hero" aria-labelledby="yp-h1">
@@ -676,6 +790,21 @@
         </div>
       </div>
     </section>
+
+    <nav class="pgtoc" aria-label="On this page">
+      <div class="pgtoc__box">
+        <p class="pgtoc__t">On this page</p>
+        <ul class="pgtoc__list">
+          <li><a href="#s2-h2">Legging Fits</a></li>
+          <li><a href="#s3-h2">Styles We Make</a></li>
+          <li><a href="#s4-h2">Waistband Engineering</a></li>
+          <li><a href="#s5-h2">Inseam & Grading</a></li>
+          <li><a href="#s6-h2">Fabric Specs</a></li>
+          <li><a href="#s7-h2">OEM / ODM / Private Label</a></li>
+          <li><a href="#s8-h2">FAQ</a></li>
+        </ul>
+      </div>
+    </nav>
 
     <!-- S2: FIT TAXONOMY -->
     <section class="yp-sec t" aria-labelledby="s2-h2">
