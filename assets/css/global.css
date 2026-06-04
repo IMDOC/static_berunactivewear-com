@@ -26,8 +26,8 @@ body {
 
 /* ========== 2. Design Tokens - Color System ========== */
 :root {
-    --brand-primary: #1EB7E6;
-    --brand-secondary: #004E89;
+    --brand-primary: #DC2626;
+    --brand-secondary: #1F2937;
     --brand-accent: #ffc107;
     --text-primary: #333333;
     --text-secondary: #666666;

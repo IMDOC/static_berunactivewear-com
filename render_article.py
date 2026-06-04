@@ -277,10 +277,14 @@ def _render_cta_banner(soup, block: dict):
     b = html_escape(block.get('body', ''))
     bt = html_escape(block.get('button_text', 'Get in touch'))
     bl = html_escape(block.get('button_link', '/contact-us'))
+    # Inline styles guarantee readable contrast on the dark gradient regardless of
+    # CSS cache / brand-var state (the external .cta-banner CSS can be edge-cached stale).
     return BeautifulSoup(
         f'<section class="cta-banner-section"><div class="cta-banner">'
-        f'<h2>{h}</h2><p>{b}</p>'
-        f'<a href="{bl}" class="cta-button">{bt} →</a>'
+        f'<h2 style="color:#ffffff;">{h}</h2>'
+        f'<p style="color:rgba(255,255,255,0.92);">{b}</p>'
+        f'<a href="{bl}" class="cta-button" style="display:inline-block;background:#ffffff;'
+        f'color:#1F2937;font-weight:700;padding:12px 32px;border-radius:6px;text-decoration:none;">{bt} →</a>'
         f'</div></section>', 'lxml'
     ).body.contents[0]
 
