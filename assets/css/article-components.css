@@ -186,6 +186,41 @@
     text-decoration: none;
 }
 
+/* CTA banner sits inside .article-content, whose `.article-content p {color:#333}`
+   (specificity 0,1,1) otherwise darkens the CTA text into the dark gradient (invisible).
+   Force light text with higher specificity (.article-content .cta-banner ... = 0,2,1).
+   Covers both the bare <h2>/<p>/a.cta-button rendered by render_article and the
+   .cta-banner-title/-body/-button classes. */
+.article-content .cta-banner h2,
+.article-content .cta-banner .cta-banner-title {
+    color: #ffffff;
+    border: 0;
+    margin: 0 0 0.75rem;
+}
+.article-content .cta-banner p,
+.article-content .cta-banner .cta-banner-body {
+    color: rgba(255, 255, 255, 0.92);
+    margin: 0 auto 1.5rem;
+    max-width: 560px;
+}
+.article-content .cta-banner a.cta-button,
+.article-content .cta-banner .cta-banner-button {
+    display: inline-block;
+    padding: 12px 32px;
+    background: #ffffff;
+    color: #1F2937;
+    font-weight: 700;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.article-content .cta-banner a.cta-button:hover,
+.article-content .cta-banner .cta-banner-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+    color: #1F2937;
+}
+
 /* ========== Responsive Tables ========== */
 @media (max-width: 767.98px) {
     .article-content table {

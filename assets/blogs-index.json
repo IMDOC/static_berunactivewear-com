@@ -6,7 +6,7 @@
     {
       "name": "Manufacturing",
       "slug": "manufacturing",
-      "count": 1
+      "count": 2
     },
     {
       "name": "Fabric Technology",
@@ -31,7 +31,7 @@
     {
       "name": "Category Object",
       "slug": "category-object",
-      "count": 1
+      "count": 0
     }
   ],
   "latestUpdate": "2026-06-04"

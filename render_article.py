@@ -33,7 +33,9 @@ JSON schema（见 _posts/README.md 或 rules/posts.md）:
 from __future__ import annotations
 
 import json
+import json
 import re
+import urllib.parse as _urlparse
 from datetime import datetime
 from html import escape as html_escape
 from pathlib import Path
@@ -157,6 +159,10 @@ def _update_breadcrumb(soup, title: str, category: dict | None) -> None:
         active.clear()
         active.append(title)
 
+    cat = category or {}
+    cat_slug = (cat.get('slug') or '').strip()
+    cat_name = (cat.get('name') or cat.get('title') or '').strip()
+
     for bc in soup.select('ol.breadcrumb, ul.breadcrumb'):
         for a in bc.select('a[href]'):
             h = a.get('href', '')
@@ -167,17 +173,23 @@ def _update_breadcrumb(soup, title: str, category: dict | None) -> None:
             elif h.startswith('category/') and not h.startswith('/'):
                 a['href'] = '/' + h
 
-        if not category or not category.get('slug') or not category.get('name'):
+        # 清掉 shell 残留 / 重复 / 错误的分类节点（如旧 slug manufacturing-oem-odm、
+        # 未 stringify 的 "Category Object"），只保留 Home/Blog/active，再插一个正确的。
+        for li in bc.select('li.breadcrumb-item'):
+            if 'active' in (li.get('class') or []):
+                continue
+            a = li.find('a', href=True)
+            if a and '/category/' in (a.get('href') or ''):
+                li.decompose()
+
+        if not cat_slug or not cat_name:
             continue
         active_li = bc.select_one('li.breadcrumb-item.active')
         if not active_li:
             continue
-        if any((a.get('href') or '').startswith(f"/category/{category['slug']}")
-               for a in bc.select('a[href]')):
-            continue
         cat_li = soup.new_tag('li', attrs={'class': 'breadcrumb-item'})
-        cat_a = soup.new_tag('a', href=f"/category/{category['slug']}")
-        cat_a.string = category['name']
+        cat_a = soup.new_tag('a', href=f"/category/{cat_slug}")
+        cat_a.string = cat_name
         cat_li.append(cat_a)
         active_li.insert_before(cat_li)
 
@@ -462,6 +474,69 @@ def _ensure_toc_script(soup):
     body.append(tag)
 
 
+def _rebuild_jsonld(soup, post: dict):
+    """重建 BlogPosting + BreadcrumbList JSON-LD，避免沿用 shell 模板的陈旧数据
+    （旧 bug：生成文章的结构化数据残留 shell 文章的 headline / 面包屑 / 旧分类 slug）。"""
+    title = (post.get('title') or '').strip()
+    seo = post.get('seo') or {}
+    canonical = (seo.get('canonical_url') or '').strip()
+    desc = (seo.get('meta_description') or '').strip()
+    author = post.get('author') or {}
+    cat = post.get('category') or {}
+    cat_name = (cat.get('name') or cat.get('title') or '').strip()
+    cat_slug = (cat.get('slug') or '').strip()
+    hero = (post.get('hero_image') or '').strip()
+    pub_dt = post.get('publish_datetime') or post.get('publish_date') or ''
+    base = ''
+    if canonical:
+        p = _urlparse.urlparse(canonical)
+        if p.scheme and p.netloc:
+            base = f'{p.scheme}://{p.netloc}'
+
+    for sc in soup.find_all('script', attrs={'type': 'application/ld+json'}):
+        raw = sc.string or sc.get_text() or ''
+        try:
+            data = json.loads(raw)
+        except Exception:
+            continue
+        t = data.get('@type')
+        if t in ('BlogPosting', 'Article'):
+            if title:
+                data['headline'] = title
+            if desc:
+                data['description'] = desc
+            if hero:
+                data['image'] = hero
+            if canonical:
+                data['url'] = canonical
+                data['mainEntityOfPage'] = {'@type': 'WebPage', '@id': canonical}
+            if pub_dt:
+                data['datePublished'] = pub_dt
+                data['dateModified'] = pub_dt
+            if cat_name:
+                data['articleSection'] = cat_name
+            if author.get('name'):
+                a = data.get('author') if isinstance(data.get('author'), dict) else {'@type': 'Person'}
+                a['name'] = author['name']
+                if author.get('slug') and base:
+                    a['url'] = f"{base}/author/{author['slug']}"
+                data['author'] = a
+            sc.string = json.dumps(data, ensure_ascii=False, indent=2)
+        elif t == 'BreadcrumbList' and base and title:
+            items = [
+                {'@type': 'ListItem', 'position': 1, 'name': 'Home', 'item': f'{base}/'},
+                {'@type': 'ListItem', 'position': 2, 'name': 'Blog', 'item': f'{base}/blog'},
+            ]
+            pos = 3
+            if cat_name and cat_slug:
+                items.append({'@type': 'ListItem', 'position': pos,
+                              'name': cat_name, 'item': f'{base}/category/{cat_slug}'})
+                pos += 1
+            items.append({'@type': 'ListItem', 'position': pos, 'name': title})
+            data['itemListElement'] = items
+            sc.string = json.dumps(data, ensure_ascii=False, indent=2)
+
+
 def render_article_from_json(post: dict, shell_html: str, all_posts_by_slug: dict | None = None) -> str:
     """一篇文章的完整渲染：shell template + JSON data → HTML"""
     soup = BeautifulSoup(shell_html, 'lxml')
@@ -479,6 +554,7 @@ def render_article_from_json(post: dict, shell_html: str, all_posts_by_slug: dic
         reading_minutes=int(post.get('reading_minutes') or 0),
     )
     _inject_head_meta(soup, post)
+    _rebuild_jsonld(soup, post)
     _inject_plan_blocks(soup, post, all_posts_by_slug or {})
 
     # 侧边栏重建：TOC 从正文 H2/H3 再生 + 询盘表单注入
