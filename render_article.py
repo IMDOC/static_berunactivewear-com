@@ -389,15 +389,41 @@ def _ensure_inquiry_form(soup, brand_name: str = '', domain: str = ''):
     return True
 
 
+def _distribute_cta_banners(soup, article, cta_blocks):
+    """把情境化 CTA 均匀 splice 到正文各 H2 章节之间，避免全堆文末。
+    在 h2s[idx] 前插入 = 上一章节之后；idx 取正文内部均匀点（前 1..n-1 个 H2 边界，
+    天然跳过结尾段，不会全堆 conclusion 之后）。无可靠语义锚点时按章节数均匀分布，
+    每个 CTA 独占一处、不连续重复。空标题的 CTA <h2> 不会进 TOC（_regenerate_toc 跳过空文本）。"""
+    if not cta_blocks:
+        return
+    nodes = [_render_cta_banner(soup, b) for b in cta_blocks]
+    h2s = article.find_all('h2')
+    n = len(h2s)
+    c = len(nodes)
+    if n < 2:
+        for node in nodes:
+            article.append(node)
+        return
+    used = set()
+    for k, node in enumerate(nodes, start=1):
+        idx = max(1, min(n - 1, round(k * n / (c + 1))))
+        while idx in used and idx < n - 1:
+            idx += 1
+        if idx in used:
+            article.append(node)            # 无空闲内部锚点 → 落到文末
+        else:
+            used.add(idx)
+            h2s[idx].insert_before(node)     # 插到该 H2 之前 = 上一章节之后
+
+
 def _inject_plan_blocks(soup, post: dict, all_posts_by_slug: dict):
     plan = post.get('plan') or {}
     article = soup.select_one('.article-content')
     if not article:
         return
 
-    # CTA banners (appended to article content tail)
-    for block in (plan.get('cta_blocks') or []):
-        article.append(_render_cta_banner(soup, block))
+    # CTA banners — splice between H2 sections (not all appended at tail)
+    _distribute_cta_banners(soup, article, plan.get('cta_blocks') or [])
 
     # FAQ (appended after CTAs)
     if plan.get('faq_items'):
