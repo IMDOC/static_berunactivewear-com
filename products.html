@@ -299,6 +299,28 @@
       pointer-events: none;
     }
     .btn-corp--accent:hover::before { transform: translateX(120%); }
+    /* Hero secondary CTA — white outline (visible on dark hero), fills to brand-secondary on hover */
+    .btn-corp--ghost {
+      background: transparent;
+      color: #FFFFFF;
+      border-color: rgba(255,255,255,0.65);
+    }
+    .btn-corp--ghost:hover {
+      background: #FFFFFF;
+      color: #1F2937;
+      border-color: #FFFFFF;
+      transform: translateY(-1px);
+    }
+    .hero-products__cta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-top: clamp(20px, 3vw, 28px);
+    }
+    @media (max-width: 575px) {
+      .hero-products__cta { gap: 10px; }
+      .hero-products__cta .btn-corp { width: 100%; }
+    }
 
     /* ===== Animation ===== */
     @keyframes corp-rise {
@@ -791,6 +813,10 @@
             <span class="hero-products__eyebrow anim-rise anim-d1">PRODUCT CATALOG</span>
             <h1 class="hero-products__h1 anim-rise anim-d2">Custom Activewear Products &mdash; Five Families, One Factory</h1>
             <p class="hero-products__sub anim-rise anim-d3">Choose the product family first, then match the RFQ to its fabric, fit, decoration and packing risks. Each family below has a different sample and QC focus.</p>
+            <div class="hero-products__cta">
+              <a href="#families" class="btn-corp btn-corp--primary">Browse Product Families</a>
+              <a href="/services/sampling" class="btn-corp btn-corp--ghost">Request a Sample</a>
+            </div>
           </div>
         </div>
       </div>
