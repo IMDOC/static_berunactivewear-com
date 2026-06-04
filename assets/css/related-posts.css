@@ -88,7 +88,7 @@
 }
 
 .related-posts-card-link:hover {
-    color: #1EB7E6;
+    color: #DC2626;
     text-decoration: none;
 }
 
@@ -148,7 +148,7 @@
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.5px;
-    color: #1EB7E6;
+    color: #DC2626;
     margin-bottom: 0.5rem;
 }
 
@@ -166,7 +166,7 @@
 }
 
 .related-post-title a:hover {
-    color: #1EB7E6;
+    color: #DC2626;
 }
 
 .related-post-excerpt {

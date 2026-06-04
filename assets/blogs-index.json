@@ -1,0 +1,13 @@
+{
+  "totalBlogs": 1,
+  "totalPages": 1,
+  "postsPerPage": 20,
+  "categories": [
+    {
+      "name": "Manufacturing",
+      "slug": "manufacturing",
+      "count": 1
+    }
+  ],
+  "latestUpdate": "2026-06-04"
+}

@@ -1,0 +1,26 @@
+{
+  "pageNumber": 1,
+  "blogs": [
+    {
+      "title": "Custom Activewear Manufacturing: From Tech-Pack to Bulk",
+      "slug": "custom-activewear-manufacturing-process",
+      "excerpt": "A buyer's guide to custom activewear manufacturing: OEM vs ODM, tech-pack prep, USD 45 sampling, 300-pc MOQ, 35–42 day bulk lead time, and AQL 2.5 quality.",
+      "author": "Ryan Mitchell",
+      "authorTitle": "Content Writer",
+      "date": "2026-06-04",
+      "category": "Manufacturing",
+      "categorySlug": "manufacturing",
+      "thumbnail": "https://img.berunactivewear.com/assets/images/og-home.jpg",
+      "url": "custom-activewear-manufacturing-process.html",
+      "readTime": "7 min read",
+      "tags": [
+        "custom activewear manufacturing",
+        "OEM activewear",
+        "ODM activewear",
+        "activewear tech-pack"
+      ],
+      "featured": true,
+      "id": 1
+    }
+  ]
+}

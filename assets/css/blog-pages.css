@@ -1,16 +1,16 @@
 :root {
-    --bp-brand: #0F2E44;
-    --bp-brand-soft: #3A7B9E;
-    --bp-accent: #FFAA47;
-    --bp-accent-dark: #e89a3a;
+    --bp-brand: #1F2937;
+    --bp-brand-soft: #374151;
+    --bp-accent: #DC2626;
+    --bp-accent-dark: #B91C1C;
     --bp-text: #1a2332;
     --bp-text-muted: #64748b;
     --bp-bg: #ffffff;
     --bp-bg-soft: #f7f9fc;
     --bp-border: #e8edf3;
-    --bp-shadow-sm: 0 1px 3px rgba(15,46,68,0.06);
-    --bp-shadow-md: 0 4px 18px rgba(15,46,68,0.08);
-    --bp-shadow-lg: 0 16px 48px rgba(15,46,68,0.12);
+    --bp-shadow-sm: 0 1px 3px rgba(31, 41, 55,0.06);
+    --bp-shadow-md: 0 4px 18px rgba(31, 41, 55,0.08);
+    --bp-shadow-lg: 0 16px 48px rgba(31, 41, 55,0.12);
     --bp-radius: 14px;
     --bp-radius-sm: 8px;
     --bp-transition: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
@@ -36,7 +36,7 @@ body {
     content: "";
     position: absolute;
     inset: 0;
-    background: linear-gradient(180deg, rgba(15,46,68,0.35) 0%, rgba(15,46,68,0.55) 100%);
+    background: linear-gradient(180deg, rgba(31, 41, 55,0.35) 0%, rgba(31, 41, 55,0.55) 100%);
     pointer-events: none;
 }
 .page-hero-inner {

@@ -1,0 +1,19 @@
+{
+  "version": "1.0",
+  "domain": "berunactivewear.com",
+  "default_author_slug": "ryan-mitchell",
+  "picking_strategy": "default",
+  "authors": [
+    {
+      "slug": "ryan-mitchell",
+      "name": "Ryan Mitchell",
+      "title": "Head of Production & Sourcing",
+      "bio_short": "Ryan has 12+ years in activewear OEM/ODM production — performance-fabric sourcing, cut-and-sew, and tech-pack development for global sportswear brands.",
+      "expertise_tags": ["oem-odm-manufacturing", "performance-fabrics", "tech-pack-sampling", "private-label", "qc-compliance"],
+      "email": "sales@berunactivewear.com",
+      "avatar_url": "/assets/images/authors/ryan-mitchell.svg",
+      "page_url": "/author/ryan-mitchell",
+      "featured": true
+    }
+  ]
+}

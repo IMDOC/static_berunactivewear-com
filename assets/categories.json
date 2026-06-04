@@ -1,0 +1,56 @@
+{
+  "version": "1.0",
+  "domain": "berunactivewear.com",
+  "categories": [
+    {
+      "slug": "manufacturing",
+      "name": "Manufacturing",
+      "description": "How activewear gets made: cut-and-sew lines, OEM vs ODM, private-label production, MOQ and lead-time realities for sportswear brands.",
+      "icon": "bi-gear-wide-connected",
+      "featured": true,
+      "parent_topic_ids": [],
+      "parent_topic_keywords": ["manufacturing", "oem", "odm", "cut and sew", "private label", "production", "factory", "bulk production"],
+      "parent_topic_keywords_zh": ["制造", "生产", "工厂", "代工", "贴牌"]
+    },
+    {
+      "slug": "fabric-technology",
+      "name": "Fabric Technology",
+      "description": "Performance fabrics explained: moisture-wicking, four-way stretch, recycled polyester, GSM, and how fabric choice changes fit, durability and cost.",
+      "icon": "bi-droplet-half",
+      "featured": true,
+      "parent_topic_ids": [],
+      "parent_topic_keywords": ["fabric", "moisture wicking", "four way stretch", "recycled polyester", "performance fabric", "nylon spandex", "gsm", "oeko-tex"],
+      "parent_topic_keywords_zh": ["面料", "速干", "弹力", "再生聚酯"]
+    },
+    {
+      "slug": "sourcing-guides",
+      "name": "Sourcing Guides",
+      "description": "Practical buyer guides: writing a tech-pack, ordering samples, choosing a supplier, MOQ negotiation, and avoiding common sourcing mistakes.",
+      "icon": "bi-clipboard-check",
+      "featured": true,
+      "parent_topic_ids": [],
+      "parent_topic_keywords": ["sourcing", "tech pack", "sampling", "supplier", "moq", "buyer guide", "how to order", "minimum order quantity"],
+      "parent_topic_keywords_zh": ["采购", "技术包", "打样", "供应商", "起订量"]
+    },
+    {
+      "slug": "sportswear-categories",
+      "name": "Sportswear Categories",
+      "description": "Category deep-dives: yoga, gym, cycling, soccer, basketball and streetwear apparel — construction details and what to specify for each.",
+      "icon": "bi-grid-1x2",
+      "featured": false,
+      "parent_topic_ids": [],
+      "parent_topic_keywords": ["yoga", "gym", "cycling", "soccer", "basketball", "streetwear", "leggings", "sports bra", "compression", "hoodie"],
+      "parent_topic_keywords_zh": ["瑜伽", "健身", "骑行", "足球", "篮球", "潮牌"]
+    },
+    {
+      "slug": "industry-trends",
+      "name": "Industry Trends",
+      "description": "Where activewear sourcing is heading: sustainability, compliance and certifications, and market shifts that affect brands and buyers.",
+      "icon": "bi-graph-up-arrow",
+      "featured": false,
+      "parent_topic_ids": [],
+      "parent_topic_keywords": ["trends", "sustainability", "compliance", "certification", "market", "recycled", "bsci", "wrap", "grs"],
+      "parent_topic_keywords_zh": ["趋势", "可持续", "认证", "环保", "市场"]
+    }
+  ]
+}
