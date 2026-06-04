@@ -422,6 +422,20 @@ def _inject_plan_blocks(soup, post: dict, all_posts_by_slug: dict):
         article.append(BeautifulSoup(rel_html, 'lxml').body.contents[0])
 
 
+def _ensure_toc_script(soup):
+    """确保文章页加载 /assets/js/article-toc.js（点 TOC 链接后自动收起；
+    默认折叠态由 article-toc.css 控制）。幂等：已引用则跳过。"""
+    body = soup.find('body')
+    if not body:
+        return
+    for s in soup.find_all('script', src=True):
+        if 'article-toc.js' in (s.get('src') or ''):
+            return
+    tag = soup.new_tag('script', src='/assets/js/article-toc.js')
+    tag['defer'] = ''
+    body.append(tag)
+
+
 def render_article_from_json(post: dict, shell_html: str, all_posts_by_slug: dict | None = None) -> str:
     """一篇文章的完整渲染：shell template + JSON data → HTML"""
     soup = BeautifulSoup(shell_html, 'lxml')
@@ -450,6 +464,7 @@ def render_article_from_json(post: dict, shell_html: str, all_posts_by_slug: dic
         _site_domain = _up.urlparse(canonical).hostname or ''
         _site_domain = _site_domain.replace('www.', '')
     _ensure_inquiry_form(soup, brand_name='', domain=_site_domain)
+    _ensure_toc_script(soup)
 
     return str(soup)
 

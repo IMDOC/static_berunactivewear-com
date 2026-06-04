@@ -91,3 +91,18 @@
     background: rgba(30,183,230,0.05);
     text-decoration: none;
 }
+
+/* ========== Collapsible TOC (default COLLAPSED; click title row to expand) ========== */
+/* Markup: #toc-nav-container > h2.toc-title[onclick toggles .expanded] > #toc-list-content (ul) */
+.toc-title { margin: 0; }                 /* tighten so collapsed state shows only the title row */
+#toc-list-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.35s ease;
+}
+#toc-nav-container.expanded #toc-list-content {
+    max-height: 1500px;
+    margin-top: 0.875rem;                 /* breathing room below title only when open */
+    transition: max-height 0.5s ease;
+}
+.toc-toggle-icon { transition: transform 0.3s ease; }
