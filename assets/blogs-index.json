@@ -7,6 +7,26 @@
       "name": "Manufacturing",
       "slug": "manufacturing",
       "count": 1
+    },
+    {
+      "name": "Fabric Technology",
+      "slug": "fabric-technology",
+      "count": 0
+    },
+    {
+      "name": "Sourcing Guides",
+      "slug": "sourcing-guides",
+      "count": 0
+    },
+    {
+      "name": "Sportswear Categories",
+      "slug": "sportswear-categories",
+      "count": 0
+    },
+    {
+      "name": "Industry Trends",
+      "slug": "industry-trends",
+      "count": 0
     }
   ],
   "latestUpdate": "2026-06-04"

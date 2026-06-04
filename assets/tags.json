@@ -1,0 +1,67 @@
+{
+  "version": "1.0",
+  "domain": "berunactivewear.com",
+  "auto_register": false,
+  "tags": [
+    {
+      "slug": "oem",
+      "name": "OEM",
+      "description": "OEM manufacturing articles — custom activewear produced to a buyer's own brand and spec.",
+      "aliases": ["oem manufacturing", "oem activewear", "oem sportswear", "cut and sew oem"]
+    },
+    {
+      "slug": "odm",
+      "name": "ODM",
+      "description": "ODM design-plus-manufacturing articles — factory-developed styles buyers can white-label.",
+      "aliases": ["odm manufacturing", "odm sportswear", "design plus manufacturing"]
+    },
+    {
+      "slug": "private-label",
+      "name": "Private Label",
+      "description": "Private-label activewear articles — your brand label on factory-run production.",
+      "aliases": ["private label activewear", "white label activewear", "private labelling"]
+    },
+    {
+      "slug": "low-moq",
+      "name": "Low MOQ",
+      "description": "Low-MOQ and small-batch sourcing articles for emerging activewear brands.",
+      "aliases": ["low moq", "small batch", "small minimum order", "low minimum order quantity"]
+    },
+    {
+      "slug": "sampling",
+      "name": "Sampling",
+      "description": "Sampling and pre-production articles — sample cost, lead time, fit approval.",
+      "aliases": ["sample", "pre-production sample", "sampling service", "fit sample"]
+    },
+    {
+      "slug": "tech-pack",
+      "name": "Tech-Pack",
+      "description": "Tech-pack, pattern and grading articles — what to send before sampling.",
+      "aliases": ["tech pack", "techpack", "spec sheet", "pattern making", "grading"]
+    },
+    {
+      "slug": "moisture-wicking",
+      "name": "Moisture-Wicking",
+      "description": "Moisture-wicking and quick-dry performance fabric articles.",
+      "aliases": ["moisture wicking", "sweat wicking", "quick dry", "wicking fabric"]
+    },
+    {
+      "slug": "four-way-stretch",
+      "name": "Four-Way Stretch",
+      "description": "Four-way stretch fabric and construction articles for activewear fit and recovery.",
+      "aliases": ["four way stretch", "4-way stretch", "stretch fabric", "spandex blend"]
+    },
+    {
+      "slug": "recycled-fabric",
+      "name": "Recycled Fabric",
+      "description": "Recycled and sustainable fabric articles — rPET, GRS, eco-friendly activewear.",
+      "aliases": ["recycled polyester", "rpet", "sustainable fabric", "grs", "eco fabric"]
+    },
+    {
+      "slug": "sublimation",
+      "name": "Sublimation",
+      "description": "Sublimation and all-over print articles — dye-sublimation decoration for sportswear.",
+      "aliases": ["sublimation printing", "dye sublimation", "all-over print", "all over print"]
+    }
+  ]
+}
