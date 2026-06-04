@@ -431,6 +431,31 @@
       .hero-corp__ctas .btn-corp { width: 100%; text-align: center; }
     }
 
+    /* ===== S1: Hero two-column row (text left + image right), matched to tech-pack ===== */
+    .hero-corp__row {
+      display: grid;
+      grid-template-columns: 55% 45%;
+      gap: clamp(24px, 4vw, 48px);
+      align-items: center;
+      width: 100%;
+    }
+    .hero-corp__visual {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .hero-corp__visual img {
+      border-radius: 12px;
+      width: 100%;
+      max-width: 520px;
+      height: auto;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+    }
+    @media (max-width: 991px) {
+      .hero-corp__row { grid-template-columns: 1fr; }
+      .hero-corp__visual { display: none; }
+    }
+
     /* ===== S2: Method Cards ===== */
     .method-grid {
       display: grid;
@@ -844,15 +869,20 @@
       <div class="hero-corp__bg" style="background: linear-gradient(135deg, #1F2937 0%, #111827 100%);"></div>
       <div class="hero-corp__inner">
         <div class="container-bra">
-          <div class="hero-corp__copy anim-rise">
-            <span class="hero-corp__eyebrow anim-rise anim-d1">Decoration Services</span>
-            <h1 class="hero-corp__h1 anim-rise anim-d2" id="s1-h1">Custom Activewear Printing &amp; Embroidery — Six Methods, All In-House</h1>
-            <p class="hero-corp__sub anim-rise anim-d3">Sublimation &middot; DTG &middot; Screen Print &middot; Silicone &middot; Embroidery &middot; Heat Transfer — combinable on the same PO, no separate MOQ per method. One facility, one QC lane, one production schedule.</p>
-            <div class="hero-corp__ctas anim-rise anim-d4">
-              <a href="/contact" class="btn-corp btn-corp--primary btn-corp--accent">Send Your Artwork Files</a>
-              <a href="/products" class="btn-corp btn-corp--ghost">View All Products</a>
+          <div class="hero-corp__row">
+            <div class="hero-corp__copy anim-rise">
+              <span class="hero-corp__eyebrow anim-rise anim-d1">Decoration Services</span>
+              <h1 class="hero-corp__h1 anim-rise anim-d2" id="s1-h1">Custom Activewear Printing &amp; Embroidery — Six Methods, All In-House</h1>
+              <p class="hero-corp__sub anim-rise anim-d3">Sublimation &middot; DTG &middot; Screen Print &middot; Silicone &middot; Embroidery &middot; Heat Transfer — combinable on the same PO, no separate MOQ per method. One facility, one QC lane, one production schedule.</p>
+              <div class="hero-corp__ctas anim-rise anim-d4">
+                <a href="/contact" class="btn-corp btn-corp--primary btn-corp--accent">Send Your Artwork Files</a>
+                <a href="/products" class="btn-corp btn-corp--ghost">View All Products</a>
+              </div>
+              <p class="hero-corp__trust-line anim-rise anim-d5">6 methods <span>&middot;</span> 4 sublimation lines <span>&middot;</span> combinable on same PO <span>&middot;</span> OEKO-TEX tested inks</p>
             </div>
-            <p class="hero-corp__trust-line anim-rise anim-d5">6 methods <span>&middot;</span> 4 sublimation lines <span>&middot;</span> combinable on same PO <span>&middot;</span> OEKO-TEX tested inks</p>
+            <div class="hero-corp__visual anim-rise anim-d3">
+              <img src="https://img.berunactivewear.com/assets/images/cy-sublimation-print-machine.webp" onerror="this.onerror=null;this.src='/assets/images/cy-sublimation-print-machine.webp'" alt="In-house custom print and embroidery production line" width="720" height="540" loading="eager">
+            </div>
           </div>
         </div>
       </div>
