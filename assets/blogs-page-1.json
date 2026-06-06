@@ -2,6 +2,48 @@
   "pageNumber": 1,
   "blogs": [
     {
+      "title": "3 Sports Bra Summer Looks for Stylish Women in 2026",
+      "slug": "3-sports-bra-inspired-summer-looks-for-all-stylish-women-in-2026",
+      "url": "/3-sports-bra-inspired-summer-looks-for-all-stylish-women-in-2026",
+      "excerpt": "Discover 3 sports bra-inspired summer outfits for 2026 — from city blazer looks to beach cover-ups. Real formulas for intentional, stylish athleisure.",
+      "author": "Ryan Mitchell",
+      "date": "2026-06-04",
+      "category": "Category Object",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/b71b0c471ee56e7ad389c49ccfcb0738.webp",
+      "tags": [
+        {
+          "slug": "custom-bra",
+          "name": "Custom Bra"
+        },
+        {
+          "slug": "sports-bra-style",
+          "name": "Sports Bra Style"
+        },
+        {
+          "slug": "summer-looks",
+          "name": "Summer Looks"
+        },
+        {
+          "slug": "athleisure",
+          "name": "Athleisure"
+        },
+        {
+          "slug": "sports-bra-pants",
+          "name": "Sports Bra + Pants"
+        },
+        {
+          "slug": "sports-bra-cardigan",
+          "name": "Bra & Cardigan"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "category-object",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 3,
+      "featured": true
+    },
+    {
       "title": "Custom Activewear Manufacturing: From Tech-Pack to Bulk",
       "slug": "custom-activewear-manufacturing-process",
       "url": "/custom-activewear-manufacturing-process",
@@ -21,7 +63,7 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 2,
-      "featured": true
+      "featured": false
     },
     {
       "title": "Start Your Private Label Activewear Brand in 2026 – 5 Tips",

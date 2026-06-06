@@ -173,6 +173,81 @@
         "activewear brand startup",
         "activewear brand tips"
       ]
+    },
+    {
+      "slug": "sports-bra-style",
+      "name": "Sports Bra Style",
+      "description": "Explore trendy sports bra outfit ideas and styling tips for creating fashionable and comfortable summer looks.",
+      "aliases": [
+        "sports bra outfit ideas",
+        "sports bra outfits",
+        "sports bra styling",
+        "sport bra looks",
+        "athleisure bra outfits"
+      ]
+    },
+    {
+      "slug": "summer-looks",
+      "name": "Summer Looks",
+      "description": "Trendy and stylish summer outfit ideas inspired by sports bras for fashionable women in 2026 and beyond.",
+      "aliases": [
+        "sports bra summer looks 2026",
+        "summer sports bra outfits",
+        "2026 summer sports bra styles",
+        "summer looks 2026",
+        "sports bra summer fashion",
+        "summer sportswear 2026"
+      ]
+    },
+    {
+      "slug": "athleisure",
+      "name": "Athleisure",
+      "description": "Athleisure style blends athletic and casual wear for versatile, comfortable summer outfits that combine fashion and function effortlessly.",
+      "aliases": [
+        "athleisure summer style",
+        "athleisure wear",
+        "summer athleisure",
+        "athleisure fashion",
+        "athleisure outfits",
+        "athleisure clothing"
+      ]
+    },
+    {
+      "slug": "sports-bra-pants",
+      "name": "Sports Bra + Pants",
+      "description": "Articles and styling tips featuring sports bras paired with high waisted pants for trendy and comfortable summer looks in activewear.",
+      "aliases": [
+        "sports bra with high waisted pants",
+        "sports bra high waist pants",
+        "sports bra paired with pants",
+        "high waisted pants and sports bra",
+        "athleisure sports bra pants",
+        "sports bra with pants outfit"
+      ]
+    },
+    {
+      "slug": "sports-bra-cardigan",
+      "name": "Bra & Cardigan",
+      "description": "Style tips and outfits combining sports bras with cardigans for a trendy layered look in summer and transitional seasons.",
+      "aliases": [
+        "sports bra with cardigan",
+        "bra and cardigan",
+        "sports bra cardigan outfit",
+        "cardigan over sports bra",
+        "layered sports bra look"
+      ]
+    },
+    {
+      "slug": "custom-bra",
+      "name": "Custom Bra",
+      "description": "Insights and trends on custom sports bra design for tailored fit, style, and performance in activewear collections.",
+      "aliases": [
+        "custom sports bra design",
+        "custom bra design",
+        "custom sports bra",
+        "bespoke sports bra",
+        "personalized sports bra"
+      ]
     }
   ]
 }
