@@ -248,6 +248,67 @@
         "bespoke sports bra",
         "personalized sports bra"
       ]
+    },
+    {
+      "slug": "private-labelling",
+      "name": "Private Labelling",
+      "description": "Articles focused on private labelling strategies and benefits specifically tailored for fitness centres and wellness brands.",
+      "aliases": [
+        "private labelling fitness centre",
+        "private labeling fitness center",
+        "fitness centre private labelling",
+        "custom labelling fitness centre",
+        "private label fitness centre",
+        "private labelling gym apparel"
+      ]
+    },
+    {
+      "slug": "gym-private-label",
+      "name": "Gym Private Label",
+      "description": "Articles covering private labeling options tailored specifically for gym and fitness center products and apparel.",
+      "aliases": [
+        "gym private label products",
+        "fitness center private label",
+        "private labeling gym apparel",
+        "gym custom products",
+        "private label fitness gear"
+      ]
+    },
+    {
+      "slug": "brand-identity",
+      "name": "Brand Identity",
+      "description": "Insights and strategies on creating a strong fitness brand identity to enhance recognition and customer loyalty in activewear markets.",
+      "aliases": [
+        "fitness brand identity",
+        "brand identity fitness",
+        "fitness branding",
+        "brand image fitness",
+        "fitness brand strategy"
+      ]
+    },
+    {
+      "slug": "custom-gym",
+      "name": "Custom Gym",
+      "description": "Custom branded gym merchandise and apparel for fitness centers to boost brand visibility and client engagement effectively.",
+      "aliases": [
+        "custom branded gym merchandise",
+        "custom gym merchandise",
+        "branded gym apparel",
+        "gym custom branding",
+        "fitness center custom merch"
+      ]
+    },
+    {
+      "slug": "private-gym",
+      "name": "Private Gym",
+      "description": "Private label activewear designed specifically for gyms and fitness centers to enhance brand identity and customer loyalty.",
+      "aliases": [
+        "private label activewear gym",
+        "gym private label",
+        "private label gym wear",
+        "custom gym activewear",
+        "private gym apparel"
+      ]
     }
   ]
 }
