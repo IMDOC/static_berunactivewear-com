@@ -309,6 +309,95 @@
         "custom gym activewear",
         "private gym apparel"
       ]
+    },
+    {
+      "slug": "swimwear-trends",
+      "name": "Swimwear Trends",
+      "description": "Latest insights and updates on swimwear wholesale trends and styles to watch out for in 2026 and beyond.",
+      "aliases": [
+        "swimwear wholesale trends 2026",
+        "2026 swimwear trends",
+        "swimwear trends 2026",
+        "wholesale swimwear trends",
+        "swimwear fashion 2026"
+      ]
+    },
+    {
+      "slug": "swimwear",
+      "name": "Swimwear",
+      "description": "Insights and trends on swimwear wholesale, including one-piece styles and market demands for upcoming seasons.",
+      "aliases": [
+        "one-piece swimsuit wholesale",
+        "swimwear wholesale",
+        "wholesale swimsuits",
+        "one-piece swimwear",
+        "wholesale one-piece swimsuit",
+        "swimming costume wholesale"
+      ]
+    },
+    {
+      "slug": "private-swimwear",
+      "name": "Private Swimwear",
+      "description": "Insights and best practices for private label swimwear production, design, and branding in the swimwear wholesale market.",
+      "aliases": [
+        "private label swimwear",
+        "private-label swimwear",
+        "custom swimwear",
+        "swimwear private label",
+        "private swimwear branding",
+        "swimwear custom label"
+      ]
+    },
+    {
+      "slug": "custom-swimwear",
+      "name": "Custom Swimwear",
+      "description": "Custom swimwear manufacturing focuses on tailored production and unique designs for swimwear brands and private labels.",
+      "aliases": [
+        "custom swimwear manufacturing",
+        "swimwear manufacturing",
+        "custom swimwear production",
+        "private label swimwear",
+        "swimwear oem",
+        "custom swimwear maker"
+      ]
+    },
+    {
+      "slug": "sustainable-swim",
+      "name": "Sustainable Swim",
+      "description": "Sustainable swimwear wholesale trends, eco-friendly materials, and ethical production insights for the swimwear industry in 2026.",
+      "aliases": [
+        "sustainable swimwear wholesale",
+        "eco swimwear wholesale",
+        "wholesale sustainable swimwear",
+        "ethical swimwear wholesale",
+        "green swimwear wholesale"
+      ]
+    },
+    {
+      "slug": "plus-size-swim",
+      "name": "Plus Size Swim",
+      "description": "Insights and sourcing tips for plus size swimwear wholesale, focusing on trends, fit, and market demand in swimwear collections.",
+      "aliases": [
+        "plus size swimwear wholesale",
+        "plus size swimsuits wholesale",
+        "plus size swim bulk",
+        "wholesale plus size swim",
+        "plus size swimwear bulk",
+        "plus size bathing suits wholesale",
+        "plus-size swimwear wholesale"
+      ]
+    },
+    {
+      "slug": "upf-resort",
+      "name": "UPF Resort",
+      "description": "UPF resort wear wholesale focusing on sun-protective, stylish clothing perfect for resort and beach environments.",
+      "aliases": [
+        "upf resort wear wholesale",
+        "resort upf clothing",
+        "wholesale upf resort wear",
+        "upf resort apparel",
+        "sun protective resort wear"
+      ]
     }
   ]
 }
