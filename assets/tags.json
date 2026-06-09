@@ -398,6 +398,68 @@
         "upf resort apparel",
         "sun protective resort wear"
       ]
+    },
+    {
+      "slug": "nigeria-oem",
+      "name": "Nigeria OEM",
+      "description": "Leading sportswear manufacturers based in Nigeria specializing in OEM production for activewear and custom fitness apparel.",
+      "aliases": [
+        "sportswear manufacturers in nigeria",
+        "nigeria sportswear oem",
+        "nigerian activewear manufacturers",
+        "sports apparel manufacturers nigeria",
+        "nigeria fitness wear oem"
+      ]
+    },
+    {
+      "slug": "jersey-nigeria",
+      "name": "Jersey Nigeria",
+      "description": "Information and insights about jersey manufacturing companies and sportswear production in Nigeria, including top manufacturers and industry trends.",
+      "aliases": [
+        "jersey manufacturing companies nigeria",
+        "nigeria jersey manufacturers",
+        "jersey makers nigeria",
+        "sportswear manufacturers nigeria",
+        "jersey production nigeria"
+      ]
+    },
+    {
+      "slug": "nigeria-oem-2026",
+      "name": "Nigeria OEM 2026",
+      "description": "Insights and comprehensive guide on activewear manufacturers and OEM brands in Nigeria for the year 2026.",
+      "aliases": [
+        "activewear manufacturers nigeria 2026",
+        "nigeria activewear oem 2026",
+        "sportswear manufacturers nigeria 2026",
+        "nigeria oem 2026",
+        "nigeria sportswear oem 2026",
+        "activewear nigeria 2026"
+      ]
+    },
+    {
+      "slug": "bulk-supplier-ng",
+      "name": "Bulk Supplier NG",
+      "description": "Reliable bulk sportswear supplier in Nigeria offering quality products and competitive pricing for manufacturers and retailers.",
+      "aliases": [
+        "bulk sportswear supplier nigeria",
+        "bulk sportswear nigeria",
+        "sportswear bulk supplier ng",
+        "nigeria bulk sportswear",
+        "bulk sports clothing supplier nigeria"
+      ]
+    },
+    {
+      "slug": "private-sportswear",
+      "name": "Private Sportswear",
+      "description": "Insights on private label sportswear manufacturing in Nigeria, detailing custom production and branding for local sports brands.",
+      "aliases": [
+        "private label sportswear nigeria",
+        "private sportswear nigeria",
+        "sportswear private label",
+        "nigeria sportswear oem",
+        "private label athletic wear",
+        "custom sportswear nigeria"
+      ]
     }
   ]
 }
