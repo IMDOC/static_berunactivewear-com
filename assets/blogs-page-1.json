@@ -40,7 +40,7 @@
       "categorySlug": "category-object",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
-      "id": 7,
+      "id": 8,
       "featured": true
     },
     {
@@ -80,6 +80,44 @@
         {
           "slug": "loyalty-program",
           "name": "Loyalty Program"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "category-object",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 7,
+      "featured": false
+    },
+    {
+      "title": "4 Best-Selling Private Label Apparel Products to Offer in 2026",
+      "slug": "4-best-selling-apparel-products-private-label-manufacturers-should-offer-in-2026",
+      "url": "/4-best-selling-apparel-products-private-label-manufacturers-should-offer-in-2026",
+      "excerpt": "Discover the 4 highest-demand private label apparel categories for 2026 — from moisture-wicking activewear to sustainable loungewear — backed by real market data.",
+      "author": "Ryan Mitchell",
+      "date": "2026-06-04",
+      "category": "Category Object",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/1047a395-ee43-4004-ac37-9741ad2a5372.png",
+      "tags": [
+        {
+          "slug": "apparel-oem",
+          "name": "Apparel OEM"
+        },
+        {
+          "slug": "private-activewear",
+          "name": "Private Activewear"
+        },
+        {
+          "slug": "wholesale-label",
+          "name": "Wholesale Label"
+        },
+        {
+          "slug": "pls-manufacturer",
+          "name": "PLS Manufacturer"
+        },
+        {
+          "slug": "best-sellers",
+          "name": "Best Sellers"
         }
       ],
       "readTime": "7 min read",
@@ -130,8 +168,8 @@
           "name": "Private Label Brand"
         },
         {
-          "slug": "activewear-oem",
-          "name": "Activewear OEM"
+          "slug": "pls-manufacturer",
+          "name": "PLS Manufacturer"
         },
         {
           "slug": "low-moq-2",

@@ -548,6 +548,70 @@
         "niche activewear label",
         "micro-niche activewear brand"
       ]
+    },
+    {
+      "slug": "private-activewear",
+      "name": "Private Activewear",
+      "description": "Private label activewear clothing for brands seeking custom manufacturing and unique, high-quality apparel options.",
+      "aliases": [
+        "private label activewear clothing",
+        "private activewear",
+        "custom activewear",
+        "private label gymwear",
+        "custom gym apparel",
+        "private label fitness wear"
+      ]
+    },
+    {
+      "slug": "wholesale-label",
+      "name": "Wholesale Label",
+      "description": "Insights on wholesale private label activewear manufacturing, supply, and market trends for brands and retailers in 2026.",
+      "aliases": [
+        "wholesale private label activewear",
+        "private label activewear wholesale",
+        "wholesale activewear private label",
+        "private label wholesale",
+        "activewear wholesale private label"
+      ]
+    },
+    {
+      "slug": "pls-manufacturer",
+      "name": "PLS Manufacturer",
+      "description": "Insights and trends for private label sportswear manufacturers to dominate the market in 2026 with top products and strategies.",
+      "aliases": [
+        "private label sportswear manufacturer 2026",
+        "private label sportswear manufacturer",
+        "pls manufacturer 2026",
+        "private label sportswear maker",
+        "sportwear private label manufacturer",
+        "private label activewear manufacturer"
+      ]
+    },
+    {
+      "slug": "best-sellers",
+      "name": "Best Sellers",
+      "description": "Explore the most popular apparel products private label manufacturers should offer in 2026 to maximize sales and market presence.",
+      "aliases": [
+        "best-selling apparel products 2026",
+        "top selling apparel 2026",
+        "best sellers 2026",
+        "best selling clothing 2026",
+        "best apparel products",
+        "best sellers apparel"
+      ]
+    },
+    {
+      "slug": "apparel-oem",
+      "name": "Apparel OEM",
+      "description": "Insights and tips for private label apparel manufacturers aiming to offer best-selling products and grow their brand.",
+      "aliases": [
+        "private label apparel manufacturer",
+        "apparel private label manufacturer",
+        "private label clothing manufacturer",
+        "apparel oem",
+        "clothing oem",
+        "private label apparel maker"
+      ]
     }
   ]
 }
