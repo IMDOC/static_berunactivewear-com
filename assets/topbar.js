@@ -9,7 +9,7 @@
       { icon: 'linkedin', url: 'https://www.linkedin.com/company/berun-active-wear', label: 'LinkedIn' }
     ],
 
-    message: 'Activewear factory in Guangzhou · 12 production lines · QC files shared during RFQ',
+    message: 'WRAP Gold & OEKO-TEX audited factory · Quotes back within 24 hours',
 
     contacts: {
       phone: '+86-138-0000-7212',
