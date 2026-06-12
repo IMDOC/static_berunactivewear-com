@@ -9,7 +9,7 @@
       { icon: 'linkedin', url: 'https://www.linkedin.com/company/berun-active-wear', label: 'LinkedIn' }
     ],
 
-    message: 'Custom Activewear OEM/ODM | MOQ 300/SKU split XS-XXL | 12 production lines',
+    message: 'Activewear factory in Guangzhou · 12 production lines · QC files shared during RFQ',
 
     contacts: {
       phone: '+86-138-0000-7212',
