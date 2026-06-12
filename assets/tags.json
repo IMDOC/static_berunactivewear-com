@@ -612,6 +612,93 @@
         "clothing oem",
         "private label apparel maker"
       ]
+    },
+    {
+      "slug": "activewear-outside",
+      "name": "Activewear Outside",
+      "description": "Explore styling tips and trends for wearing activewear beyond the gym, blending comfort and fashion in everyday looks.",
+      "aliases": [
+        "activewear outside the gym",
+        "wear activewear outside",
+        "activewear casual",
+        "activewear everyday",
+        "styling activewear outside"
+      ]
+    },
+    {
+      "slug": "street-style",
+      "name": "Street Style",
+      "description": "Street style athleisure combines comfort and fashion for casual everyday wear that easily transitions from gym to urban life.",
+      "aliases": [
+        "athleisure street style",
+        "street style athleisure",
+        "casual athleisure",
+        "athletic streetwear",
+        "urban athleisure",
+        "activewear street style"
+      ]
+    },
+    {
+      "slug": "leggings-style",
+      "name": "Leggings Style",
+      "description": "Tips and ideas for styling leggings as everyday outfits beyond activewear and gym use.",
+      "aliases": [
+        "leggings outfit ideas everyday",
+        "everyday leggings outfits",
+        "leggings styling tips",
+        "how to wear leggings daily",
+        "casual leggings outfit",
+        "leggings fashion"
+      ]
+    },
+    {
+      "slug": "style-tips",
+      "name": "Style Tips",
+      "description": "Helpful tips and guides on how to style activewear for casual and everyday looks beyond the gym setting.",
+      "aliases": [
+        "how to style activewear",
+        "activewear styling",
+        "styling activewear tips",
+        "wear activewear outside",
+        "activewear fashion tips"
+      ]
+    },
+    {
+      "slug": "styling-tips",
+      "name": "Styling Tips",
+      "description": "Expert tips and tricks for styling athleisure and activewear beyond the gym with effortless fashion and comfort.",
+      "aliases": [
+        "athleisure styling tips",
+        "activewear styling tips",
+        "how to style athleisure",
+        "styling activewear outside gym",
+        "athleisure wear tips"
+      ]
+    },
+    {
+      "slug": "leggings-style-2",
+      "name": "Leggings Style",
+      "description": "Explore how leggings go beyond gym wear, offering versatile styling options for everyday and casual outfits.",
+      "aliases": [
+        "leggings beyond the gym",
+        "legging styles",
+        "wear leggings outside gym",
+        "leggings fashion",
+        "athleisure leggings",
+        "casual leggings wear"
+      ]
+    },
+    {
+      "slug": "outfit-formulas",
+      "name": "Outfit Formulas",
+      "description": "Outfit formulas for activewear styling, offering easy mix-and-match tips to wear gym apparel confidently outside the workout space.",
+      "aliases": [
+        "activewear outfit formulas",
+        "activewear styling formulas",
+        "activewear outfit ideas",
+        "gym outfit formulas",
+        "activewear look formulas"
+      ]
     }
   ]
 }
