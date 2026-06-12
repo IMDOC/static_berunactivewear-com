@@ -2,5 +2,9 @@
 # 注意：Pages 的 _redirects 只处理路径级重定向，不能处理 host 级
 # www → non-www 的 301 必须在 Cloudflare Dashboard 里配置 Redirect Rule
 
+
+# Phase 1.1 dedup merge (2026-06-12): yoga pants → yoga apparel
+/custom-yoga-pants-manufacturer  /yoga-apparel-manufacturer  301
+/custom-yoga-pants-manufacturer.html  /yoga-apparel-manufacturer  301
 # .html 后缀统一去除（Pages 默认已处理，此条为显式保险）
 /*.html  /:splat  301

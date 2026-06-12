@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <script>document.documentElement.classList.add('jsrv')</script>
     <meta http-equiv="Content-Language" content="en">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://img.berunactivewear.com" crossorigin>
@@ -81,7 +82,7 @@
     .ar{opacity:0;transform:translateY(18px);animation:rise .7s cubic-bezier(.2,.8,.2,1) forwards}
     .d1{animation-delay:.05s}.d2{animation-delay:.18s}.d3{animation-delay:.3s}.d4{animation-delay:.42s}.d5{animation-delay:.55s}
     @media(prefers-reduced-motion:reduce){.ar{opacity:1;transform:none;animation:none}}
-    .rv{opacity:0;transform:translateY(24px);transition:opacity .6s ease,transform .6s ease}.rv.vis{opacity:1;transform:translateY(0)}
+    .jsrv .rv{opacity:0;transform:translateY(24px);transition:opacity .6s ease,transform .6s ease}.jsrv .rv.vis{opacity:1;transform:translateY(0)}
 
     /* S1 Hero — Opacity Bench (squat-proof fail→pass proof, unique to yoga hub) */
     .yhero{position:relative;overflow:hidden;background:linear-gradient(180deg,#FBFCFB 0%,#EAF0EA 100%);border-bottom:1px solid rgba(17,29,27,.08)}
@@ -338,6 +339,148 @@
 
     /* WhatsApp widget mobile */
     @media(max-width:575px){body .wa-widget{right:14px!important;bottom:14px!important}body .wa-widget-button{width:56px!important;height:56px!important;min-width:56px!important;min-height:56px!important;padding:0!important;border-radius:50%!important;justify-content:center!important}body .wa-widget-button span{display:none!important}body .wa-widget-popup{right:0!important;width:calc(100vw - 28px)!important}}
+
+    /* ===== merged from custom-yoga-pants (Phase 1.1 dedup, 2026-06-12) ===== */
+/* ===== custom-yoga-pants page-specific (yp-) ===== */
+    .yp-eyebrow{display:inline-block;font:700 12px/1 var(--fs);letter-spacing:.14em;text-transform:uppercase;color:var(--c1);margin:0 0 14px}
+    .yp-sec{padding:clamp(60px,8vw,100px) 0;background:#fff}
+    .yp-sec.t{background:#FAF7F2}
+    .yp-sec.dense{padding:clamp(72px,9vw,110px) 0}
+    .yp-btn-ghost{background:transparent;border:1.5px solid var(--c2);color:var(--c2);border-radius:10px;padding:13px 22px;font:700 15px var(--fs);text-decoration:none;display:inline-flex;align-items:center;transition:.2s}
+    .yp-btn-ghost:hover{background:var(--c2);color:#fff}
+    /* Hero anatomy */
+    .yp-hero{background:#FAF7F2;background-image:linear-gradient(180deg,#FBF9F5,#F3F1EC);padding:clamp(40px,6vw,72px) 0;min-height:72vh;display:flex;align-items:center}
+    .yp-hero__grid{display:grid;grid-template-columns:42% 58%;gap:clamp(24px,4vw,56px);align-items:center;width:100%}
+    .yp-hero__h1{font:800 clamp(30px,4.4vw,50px)/1.08 var(--fs);color:var(--c2);margin:0 0 18px;letter-spacing:-.02em}
+    .yp-hero__sub{font:400 clamp(16px,1.4vw,19px)/1.55 var(--fs);color:var(--cm);margin:0 0 26px;max-width:46ch}
+    .yp-stats{display:flex;gap:0;margin:0 0 28px;flex-wrap:wrap}
+    .yp-stat{padding:0 20px;border-left:3px solid var(--c1)}
+    .yp-stat:first-child{padding-left:0;border-left:none}
+    .yp-stat b{display:block;font:800 clamp(22px,2.4vw,30px) var(--fs);color:var(--c2);line-height:1}
+    .yp-stat span{font:500 13px var(--fs);color:var(--cm)}
+    .yp-hero__cta{display:flex;gap:14px;flex-wrap:wrap}
+    .yp-hero__media{position:relative}
+    .yp-anat{position:relative;width:100%;max-width:560px;margin-inline:auto}
+    .yp-anat__img{width:100%;border-radius:14px;box-shadow:var(--s2);display:block;background:#ECEAE4}
+    .yp-anat__lines{position:absolute;inset:0;width:100%;height:100%;overflow:visible;pointer-events:none}
+    .yp-anat__lines line{stroke:var(--c1);stroke-width:.5;stroke-dasharray:160;stroke-dashoffset:160;animation:ypDraw .5s ease forwards}
+    .yp-anat__lines circle{fill:var(--c1);opacity:0;animation:ypDot .3s ease forwards}
+    .yp-anat__lbl{position:absolute;z-index:3;background:#fff;border:1px solid var(--bd);box-shadow:var(--s1);border-radius:8px;padding:7px 11px;font:600 12px/1.3 var(--fs);color:var(--c2);max-width:178px;opacity:0;transform:translateY(4px);animation:ypLbl .4s ease forwards}
+    .yp-anat__lbl::before{content:"";position:absolute;width:7px;height:7px;border-radius:50%;background:var(--c1)}
+    .yp-anat__lbl.l1{top:-2%;right:-4%}.yp-anat__lbl.l1::before{left:-12px;top:12px}
+    .yp-anat__lbl.l2{top:20%;left:-8%}.yp-anat__lbl.l2::before{right:-12px;top:12px}
+    .yp-anat__lbl.l3{top:38%;right:-8%}.yp-anat__lbl.l3::before{left:-12px;top:12px}
+    .yp-anat__lbl.l4{top:56%;right:-6%}.yp-anat__lbl.l4::before{left:-12px;top:12px}
+    .yp-anat__lbl.l5{bottom:0;left:-8%}.yp-anat__lbl.l5::before{right:-12px;top:12px}
+    .yp-anat__lines line:nth-of-type(1){animation-delay:.5s}.yp-anat__lbl.l1{animation-delay:.8s}
+    .yp-anat__lines line:nth-of-type(2){animation-delay:.7s}.yp-anat__lbl.l2{animation-delay:1.0s}
+    .yp-anat__lines line:nth-of-type(3){animation-delay:.9s}.yp-anat__lbl.l3{animation-delay:1.2s}
+    .yp-anat__lines line:nth-of-type(4){animation-delay:1.1s}.yp-anat__lbl.l4{animation-delay:1.4s}
+    .yp-anat__lines line:nth-of-type(5){animation-delay:1.3s}.yp-anat__lbl.l5{animation-delay:1.6s}
+    .yp-anat__img{opacity:0;animation:ypFade .6s ease forwards}
+    .yp-anat__chips{display:none}
+    @keyframes ypDraw{to{stroke-dashoffset:0}}
+    @keyframes ypDot{to{opacity:1}}
+    @keyframes ypLbl{to{opacity:1;transform:translateY(0)}}
+    @keyframes ypFade{to{opacity:1}}
+    /* Fit spectrum axis */
+    .yp-axis{margin-top:36px;position:relative}
+    .yp-axis__track{position:absolute;top:26px;left:6%;right:6%;height:4px;border-radius:4px;background:linear-gradient(90deg,var(--c1),#E5A9AD,#C9CDD2)}
+    .yp-axis__row{display:grid;grid-template-columns:repeat(6,1fr);gap:18px;position:relative}
+    .yp-node{text-align:center}
+    .yp-node__dot{width:18px;height:18px;border-radius:50%;background:#fff;border:4px solid var(--c1);margin:18px auto 14px;position:relative;z-index:2}
+    .yp-node:nth-child(2) .yp-node__dot{border-color:#D85A60}
+    .yp-node:nth-child(3) .yp-node__dot{border-color:#C97E82}
+    .yp-node:nth-child(4) .yp-node__dot{border-color:#B79AA0}
+    .yp-node:nth-child(5) .yp-node__dot{border-color:#A6AAB2}
+    .yp-node:nth-child(6) .yp-node__dot{border-color:#8B9098}
+    .yp-node h3{font:800 16px var(--fs);color:var(--c2);margin:0 0 6px}
+    .yp-node p{font:400 13px/1.45 var(--fs);color:var(--cm);margin:0}
+    .yp-node .yp-node__who{display:block;margin-top:7px;font:600 12px var(--fs);color:var(--c1)}
+    .yp-axis__note{margin-top:30px;font:500 14px/1.5 var(--fs);color:var(--cm);text-align:center;max-width:80ch;margin-inline:auto}
+    /* Style gallery */
+    .yp-gal{display:grid;grid-template-columns:repeat(4,1fr);gap:22px;margin-top:38px}
+    .yp-card{background:#fff;border:1px solid var(--bd);border-radius:8px;overflow:hidden;transition:.22s;display:flex;flex-direction:column}
+    .yp-card:hover{transform:translateY(-3px);box-shadow:var(--s2)}
+    .yp-card img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block;background:#ECEAE4;border-radius:0}
+    .yp-card__b{padding:16px 16px 18px}
+    .yp-card__b h3{font:800 16px var(--fs);color:var(--c2);margin:0 0 7px}
+    .yp-card__b p{font:400 13px/1.45 var(--fs);color:var(--cm);margin:0}
+    /* Construction split */
+    .yp-build{display:grid;grid-template-columns:1fr 1fr;gap:clamp(24px,3.5vw,48px);margin-top:38px;align-items:start}
+    .yp-build__fig img{width:100%;border-radius:12px;box-shadow:var(--s1);background:#ECEAE4}
+    .yp-mtx{width:100%;border-collapse:collapse;font:400 14px var(--fs)}
+    .yp-mtx caption{text-align:left;font:800 18px var(--fs);color:var(--c2);margin-bottom:12px}
+    .yp-mtx th{background:var(--c2);color:#fff;text-align:left;padding:11px 13px;font-weight:700}
+    .yp-mtx td{padding:10px 13px;border-bottom:1px solid var(--bd);color:var(--ct)}
+    .yp-mtx tbody tr:nth-child(even){background:#FAF7F2}
+    .yp-detail{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:34px}
+    .yp-detail__c{background:#FAF7F2;border-radius:10px;padding:20px 22px}
+    .yp-detail__c h3{font:800 16px var(--fs);color:var(--c2);margin:0 0 12px}
+    .yp-detail__c li{font:400 14px/1.5 var(--fs);color:var(--ct);margin-bottom:7px}
+    /* mid-cta strip */
+    .yp-strip{margin-top:46px;background:var(--c1);border-radius:14px;padding:clamp(30px,4vw,46px);text-align:center;color:#fff}
+    .yp-strip h2{font:800 clamp(20px,2.4vw,28px) var(--fs);margin:0 0 10px;color:#fff}
+    .yp-strip p{font:400 15px/1.5 var(--fs);margin:0 auto 20px;max-width:60ch;color:rgba(255,255,255,.92)}
+    .yp-strip a{background:#fff;color:var(--c1);border-radius:10px;padding:13px 26px;font:700 15px var(--fs);text-decoration:none;display:inline-block;transition:.2s}
+    .yp-strip a:hover{background:var(--ca);color:var(--c2)}
+    /* Inseam ruler */
+    .yp-ruler{margin-top:36px;position:relative;padding:0 4%}
+    .yp-ruler__bar{height:6px;border-radius:6px;background:linear-gradient(90deg,#F3C2C5,var(--c1));position:relative}
+    .yp-ruler__row{display:grid;grid-template-columns:repeat(6,1fr);margin-top:10px}
+    .yp-ruler__m{text-align:center;position:relative}
+    .yp-ruler__m::before{content:"";position:absolute;top:-16px;left:50%;width:2px;height:12px;background:var(--c2);transform:translateX(-50%)}
+    .yp-ruler__m b{display:block;font:800 17px var(--fs);color:var(--c2)}
+    .yp-ruler__m span{font:500 12px var(--fs);color:var(--cm)}
+    .yp-grade{margin-top:34px;display:grid;grid-template-columns:1fr 1fr;gap:24px}
+    .yp-grade p{font:400 15px/1.6 var(--fs);color:var(--ct);margin:0 0 14px}
+    .yp-chart{width:100%;border-collapse:collapse;font:400 14px var(--fs)}
+    .yp-chart th{background:var(--c2);color:#fff;padding:10px;text-align:center}
+    .yp-chart td{padding:9px;border-bottom:1px solid var(--bd);text-align:center;color:var(--ct)}
+    .yp-chart tbody tr:nth-child(even){background:#FAF7F2}
+    /* Customization cards + strip */
+    .yp-models{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:38px}
+    .yp-model{background:#fff;border:1px solid var(--bd);border-radius:10px;padding:24px 22px;transition:.22s}
+    .yp-model:hover{transform:translateY(-3px);box-shadow:var(--s2)}
+    .yp-model i{font-size:30px;color:var(--c1)}
+    .yp-model h3{font:800 18px var(--fs);color:var(--c2);margin:12px 0 8px}
+    .yp-model p{font:400 14px/1.5 var(--fs);color:var(--cm);margin:0 0 14px}
+    .yp-model__best{font:600 13px var(--fs);color:var(--ct);font-style:italic;margin:0 0 14px}
+    .yp-model a{font:700 14px var(--fs);color:var(--c1);text-decoration:none}
+    .yp-custrow{margin-top:30px;background:#FAF7F2;border-radius:10px;padding:20px 24px;font:500 15px/1.6 var(--fs);color:var(--ct)}
+    .yp-ordstrip{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:26px;background:var(--c2);border-radius:12px;overflow:hidden}
+    .yp-ord{padding:22px 20px;border-left:3px solid var(--c1)}
+    .yp-ord:first-child{border-left:none}
+    .yp-ord b{display:block;font:800 16px var(--fs);color:#fff;margin-bottom:4px}
+    .yp-ord span{font:500 13px var(--fs);color:rgba(255,255,255,.78)}
+    /* FAQ accordion */
+    .yp-faq{max-width:880px;margin:34px auto 0}
+    .yp-faq details{border:1px solid var(--bd);border-radius:10px;margin-bottom:12px;background:#fff;overflow:hidden}
+    .yp-faq summary{cursor:pointer;padding:18px 22px;font:700 16px var(--fs);color:var(--c2);list-style:none;position:relative}
+    .yp-faq summary::-webkit-details-marker{display:none}
+    .yp-faq summary::after{content:"+";position:absolute;right:22px;top:16px;font-size:22px;color:var(--c1);font-weight:700}
+    .yp-faq details[open] summary::after{content:"\2212"}
+    .yp-faq details p{padding:0 22px 20px;margin:0;font:400 15px/1.6 var(--fs);color:var(--ct)}
+    @media(max-width:991px){
+      .yp-hero__grid{grid-template-columns:1fr;gap:30px}
+      .yp-hero__media{order:-1}
+      .yp-anat__lines,.yp-anat__lbl{display:none}
+      .yp-anat__chips{display:flex;flex-wrap:wrap;gap:8px;margin:16px auto 0;max-width:560px;list-style:none;padding:0}
+      .yp-anat__chips li{background:#fff;border:1px solid var(--bd);border-radius:20px;padding:7px 13px;font:600 12px var(--fs);color:var(--c2)}
+      .yp-gal{grid-template-columns:repeat(2,1fr)}
+      .yp-build,.yp-detail,.yp-grade{grid-template-columns:1fr}
+      .yp-models{grid-template-columns:1fr}
+      .yp-ordstrip{grid-template-columns:1fr 1fr}
+      .yp-axis__track{display:none}
+      .yp-axis__row{grid-template-columns:1fr;gap:10px;border-left:3px solid var(--c1);padding-left:18px}
+      .yp-node{text-align:left}.yp-node__dot{margin:0 0 8px}
+      .yp-ruler__row{grid-template-columns:repeat(3,1fr);gap:14px}
+      .yp-mtx,.yp-chart{display:block;overflow-x:auto;white-space:nowrap}
+    }
+    @media(max-width:575px){.yp-gal{grid-template-columns:1fr}.yp-ordstrip{grid-template-columns:1fr}.yp-stats{gap:0}}
+    @media(prefers-reduced-motion:reduce){
+      .yp-anat__lines line,.yp-anat__lbl,.yp-anat__img,.yp-anat__lines circle{animation:none!important;stroke-dashoffset:0!important;opacity:1!important;transform:none!important}
+    }
     </style>
 </head>
 <body>
@@ -378,7 +521,7 @@
               <a href="/products/accessories" class="dm-dropdown-item ">
                 Accessories
               </a>
-              <a href="/custom-yoga-pants-manufacturer" class="dm-dropdown-item ">
+              <a href="/yoga-apparel-manufacturer" class="dm-dropdown-item ">
                 Custom Yoga Pants Manufacturer
               </a>
               <a href="/wholesale-sports-bras" class="dm-dropdown-item ">
@@ -651,6 +794,159 @@
         </div>
       </div>
     </section>
+
+    <!-- MERGED FROM custom-yoga-pants-manufacturer (Phase 1.1 dedup, 2026-06-12) -->
+    <!-- S2: FIT TAXONOMY -->
+    <section class="yp-sec t" aria-labelledby="ynew-fits-h2">
+      <div class="ctr">
+        <div class="shd rv">
+          <span class="srl">Fit range</span>
+          <h2 class="sh2" id="ynew-fits-h2">Six Custom Leggings Fits, From Compression to Wide-Leg</h2>
+          <p class="ssu">Most factories cut two compression blocks and outsource the rest. As a custom leggings manufacturer we pattern six distinct fits, so your full legging range ships from one floor.</p>
+        </div>
+        <div class="yp-axis rv">
+          <div class="yp-axis__track"></div>
+          <div class="yp-axis__row">
+            <div class="yp-node"><div class="yp-node__dot"></div><h3>Compression</h3><p>Tightest hold, 18&ndash;22% spandex, sculpts through deep squats.<span class="yp-node__who">Performance &amp; HIIT lines</span></p></div>
+            <div class="yp-node"><div class="yp-node__dot"></div><h3>Sculpt</h3><p>Contour-seamed shaping with firm hold, 16&ndash;20% spandex.<span class="yp-node__who">Shape-focused athleisure</span></p></div>
+            <div class="yp-node"><div class="yp-node__dot"></div><h3>Relaxed</h3><p>Soft mid-hold, 12&ndash;16% spandex, all-day comfort.<span class="yp-node__who">Lounge-leaning yoga</span></p></div>
+            <div class="yp-node"><div class="yp-node__dot"></div><h3>Flare</h3><p>Fitted thigh, flared hem, studio-to-street silhouette.<span class="yp-node__who">Trend-led capsules</span></p></div>
+            <div class="yp-node"><div class="yp-node__dot"></div><h3>Wide-Leg</h3><p>Loose drape, mid-rise drawcord, palazzo flow.<span class="yp-node__who">Relaxed &amp; restorative</span></p></div>
+            <div class="yp-node"><div class="yp-node__dot"></div><h3>Seamless</h3><p>Circular-knit, bonded edges, second-skin feel.<span class="yp-node__who">Minimal-seam lines</span></p></div>
+          </div>
+        </div>
+        <p class="yp-axis__note rv">Cut-and-sew fits run on our 5 cut-and-sew lines; seamless runs on a dedicated circular-knit line &mdash; one dye batch across the whole range.</p>
+      </div>
+    </section>
+
+    <!-- S3: STYLE GALLERY -->
+    <section class="yp-sec" aria-labelledby="ynew-styles-h2">
+      <div class="ctr">
+        <div class="shd rv">
+          <span class="srl">Style library</span>
+          <h2 class="sh2" id="ynew-styles-h2">High-Waisted Leggings and 7 More Styles We Cut and Sew</h2>
+          <p class="ssu">The silhouette library of a high-waisted leggings manufacturer &mdash; every block already patterned and graded, so your fabric and branding drop into a fit that exists.</p>
+        </div>
+        <div class="yp-gal rv">
+          <div class="yp-card"><img src="https://img.berunactivewear.com/assets/images/products/training-leggings.webp" alt="High-waist full-length leggings" width="560" height="420" loading="lazy"><div class="yp-card__b"><h3>High-Waist Full-Length</h3><p>280&ndash;320 GSM compression &middot; 28&Prime; inseam &middot; no-roll high-rise &middot; all-day staple.</p></div></div>
+          <div class="yp-card"><img src="https://img.berunactivewear.com/assets/images/yp-cropped-leggings.webp" alt="7/8 crop leggings" width="560" height="420" loading="lazy"><div class="yp-card__b"><h3>7/8 Crop</h3><p>260&ndash;300 GSM &middot; 25&Prime; inseam &middot; high-rise &middot; vinyasa and training.</p></div></div>
+          <div class="yp-card"><img src="https://img.berunactivewear.com/assets/images/yp-biker-shorts.webp" alt="Biker short leggings" width="560" height="420" loading="lazy"><div class="yp-card__b"><h3>Biker Short</h3><p>280&ndash;320 GSM &middot; 5&Prime; inseam &middot; high-rise &middot; hot yoga and layering.</p></div></div>
+          <div class="yp-card"><img src="https://img.berunactivewear.com/assets/images/yp-flare-leggings.webp" alt="Flare leggings" width="560" height="420" loading="lazy"><div class="yp-card__b"><h3>Flare</h3><p>240&ndash;280 GSM &middot; 30&Prime; inseam &middot; fitted thigh, flared hem &middot; studio-to-street.</p></div></div>
+          <div class="yp-card"><img src="https://img.berunactivewear.com/assets/images/yp-wide-leg-pants.webp" alt="Wide-leg palazzo yoga pants" width="560" height="420" loading="lazy"><div class="yp-card__b"><h3>Wide-Leg Palazzo</h3><p>230&ndash;260 GSM &middot; full-length &middot; mid-rise drawcord &middot; relaxed flow.</p></div></div>
+          <div class="yp-card"><img src="https://img.berunactivewear.com/assets/images/yp-seamless-leggings.webp" alt="Seamless leggings" width="560" height="420" loading="lazy"><div class="yp-card__b"><h3>Seamless</h3><p>250&ndash;290 GSM circular-knit &middot; 25&ndash;28&Prime; &middot; bonded waistband &middot; second-skin feel.</p></div></div>
+          <div class="yp-card"><img src="https://img.berunactivewear.com/assets/images/yp-cargo-leggings.webp" alt="Pocket cargo leggings" width="560" height="420" loading="lazy"><div class="yp-card__b"><h3>Pocket Cargo</h3><p>280&ndash;310 GSM &middot; 25&ndash;28&Prime; &middot; side cargo + hidden waist pocket &middot; utility.</p></div></div>
+          <div class="yp-card"><img src="https://img.berunactivewear.com/assets/images/yp-sculpt-leggings.webp" alt="Contour-sculpt leggings" width="560" height="420" loading="lazy"><div class="yp-card__b"><h3>Contour-Sculpt</h3><p>280&ndash;320 GSM &middot; 28&Prime; &middot; contour back seaming &middot; shaping.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- S4: CONSTRUCTION DEEP-DIVE + tail mid-CTA -->
+    <section class="yp-sec dense" aria-labelledby="ynew-waist-h2">
+      <div class="ctr">
+        <div class="shd rv">
+          <span class="srl">Construction</span>
+          <h2 class="sh2" id="ynew-waist-h2">The Waistband Engineering Behind Our Compression Leggings</h2>
+          <p class="ssu">The waistband is the buy decision for any compression leggings manufacturer. Here is every build option &mdash; and the gusset and seam work underneath.</p>
+        </div>
+        <div class="yp-build rv">
+          <div class="yp-build__fig"><img src="https://img.berunactivewear.com/assets/images/yp-leggings-waistband-detail.webp" alt="Annotated leggings waistband cutaway" width="560" height="640" loading="lazy"></div>
+          <table class="yp-mtx">
+            <caption>Waistband build matrix</caption>
+            <thead><tr><th>Option</th><th>Choices</th></tr></thead>
+            <tbody>
+              <tr><td>Rise (front)</td><td>low 18&nbsp;cm &middot; mid 22&nbsp;cm &middot; high 26&nbsp;cm &middot; extra-high 30&nbsp;cm</td></tr>
+              <tr><td>Band width</td><td>8&nbsp;cm &middot; 12&nbsp;cm &middot; 15&nbsp;cm contour</td></tr>
+              <tr><td>Inner build</td><td>fold-over casing &middot; bonded no-roll inner &middot; power-mesh tummy panel</td></tr>
+              <tr><td>Extras</td><td>flat drawcord &middot; hidden key pocket &middot; back zip pocket &middot; contour seaming</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="yp-detail rv">
+          <div class="yp-detail__c"><h3>Gusset construction</h3><ul>
+            <li><b>Diamond gusset</b> &mdash; range of motion through deep flexion.</li>
+            <li><b>No-front-seam</b> &mdash; clean front, no camel-toe.</li>
+            <li><b>Ergonomic</b> &mdash; curved panel for squat depth.</li></ul></div>
+          <div class="yp-detail__c"><h3>Seam construction</h3><ul>
+            <li><b>4-needle flatlock</b> &mdash; flat against skin, no chafe.</li>
+            <li><b>Bonded heat-weld</b> &mdash; no-stitch, lightest hand.</li>
+            <li><b>Coverstitch</b> &mdash; stretch-recovery at hems.</li></ul></div>
+        </div>
+        <p class="yp-axis__note rv"><b>Why rise height dictates the inner build:</b> a 26&ndash;30&nbsp;cm extra-high front rise puts the band above the natural waist, where a plain folded casing will always roll on forward bends. That is why our extra-high blocks default to the bonded no-roll inner or a power-mesh front panel, while an 18&nbsp;cm low rise can run a simple fold-over. The rise you pick is a structural decision, not a styling one &mdash; our 16 pattern-makers pattern the band, rise, and gusset placement together so the waist behaves as one system through a full vinyasa sequence.</p>
+        <p class="yp-axis__note rv"><b>Gusset geometry, briefly:</b> the diamond gusset exists to remove the four-seam junction at the crotch &mdash; the single highest-stress point in a legging. By inserting a curved panel, load spreads along two seams instead of converging on one knot, the front stays seam-free, and deep flexion stops pulling the inseam off-grain. On plus blocks we widen and re-curve the gusset rather than scaling it, which is why our 2X&ndash;3X legging squats like the sample.</p>
+        <div class="yp-strip rv">
+          <h2>Match your fits to fabric in 24 hours</h2>
+          <p>Send your fit list and target fabric. Your waistband build and gusset call come back inside one working day.</p>
+          <a href="#inquiry-form">Request a fit + fabric match</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- S5: INSEAM + GRADING -->
+    <section class="yp-sec t dense" aria-labelledby="ynew-inseam-h2">
+      <div class="ctr">
+        <div class="shd rv">
+          <span class="srl">Sizing &amp; grading</span>
+          <h2 class="sh2" id="ynew-inseam-h2">Inseam Lengths and Size Grading for Wholesale Yoga Pants</h2>
+          <p class="ssu">Biker to tall, XS to 3XL &mdash; graded on separate blocks so the plus sizes fit like the sample, not a stretched medium.</p>
+        </div>
+        <div class="yp-ruler rv">
+          <div class="yp-ruler__bar"></div>
+          <div class="yp-ruler__row">
+            <div class="yp-ruler__m"><b>5&Prime;</b><span>biker</span></div>
+            <div class="yp-ruler__m"><b>18&Prime;</b><span>short</span></div>
+            <div class="yp-ruler__m"><b>21&Prime;</b><span>crop</span></div>
+            <div class="yp-ruler__m"><b>25&Prime;</b><span>7/8</span></div>
+            <div class="yp-ruler__m"><b>28&Prime;</b><span>full</span></div>
+            <div class="yp-ruler__m"><b>30&Prime;</b><span>tall</span></div>
+          </div>
+        </div>
+        <div class="yp-grade rv">
+          <div>
+            <p><b>Grading method.</b> We grade XS&ndash;3XL on three blocks, not one linear rule &mdash; a base block (XS&ndash;XL), a separate plus block (1X&ndash;3X with proportional rise, gusset, and waistband-to-hip grading), plus petite (&minus;2.5&nbsp;cm height) and tall (+5&nbsp;cm height) blocks on request.</p>
+            <p><b>Why it matters.</b> Linear grading from a medium sags the crotch and rolls the waistband at 2X&ndash;3X. Separate blocks hold the fit your sample promised across the full range.</p>
+          </div>
+          <table class="yp-chart">
+            <caption class="sr-only">Leggings size chart XS to 3XL</caption>
+            <thead><tr><th>Size</th><th>Waist (cm)</th><th>Hip (cm)</th><th>Full inseam (cm)</th></tr></thead>
+            <tbody>
+              <tr><td>XS</td><td>60&ndash;64</td><td>84&ndash;88</td><td>71</td></tr>
+              <tr><td>S</td><td>64&ndash;68</td><td>88&ndash;92</td><td>71</td></tr>
+              <tr><td>M</td><td>68&ndash;74</td><td>92&ndash;98</td><td>71</td></tr>
+              <tr><td>L</td><td>74&ndash;80</td><td>98&ndash;104</td><td>72</td></tr>
+              <tr><td>XL</td><td>80&ndash;88</td><td>104&ndash;112</td><td>72</td></tr>
+              <tr><td>2XL</td><td>88&ndash;98</td><td>112&ndash;122</td><td>73</td></tr>
+              <tr><td>3XL</td><td>98&ndash;108</td><td>122&ndash;132</td><td>73</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- S6: FABRIC-TO-FIT MATRIX -->
+    <section class="yp-sec dense" aria-labelledby="ynew-fabric-h2">
+      <div class="ctr">
+        <div class="shd rv">
+          <span class="srl">Fabric specs</span>
+          <h2 class="sh2" id="ynew-fabric-h2">Fabric Specs for Seamless Leggings and Squat-Proof Knits</h2>
+          <p class="ssu">From a seamless leggings manufacturer&rsquo;s circular-knit to squat-proof compression, every fit is mapped to its fabric tier, opacity, and stretch &mdash; measured before the first bolt is cut.</p>
+        </div>
+        <div class="rv" style="overflow-x:auto">
+          <table class="yp-mtx" style="min-width:680px">
+            <thead><tr><th>Fit</th><th>GSM</th><th>Spandex</th><th>Stretch elong.</th><th>Squat-proof &Delta;L</th><th>Fabric</th><th>Wicking</th></tr></thead>
+            <tbody>
+              <tr><td>Compression</td><td>280&ndash;320</td><td>18&ndash;22%</td><td>65%+</td><td>&lt;8%</td><td>nylon-spandex, Lycra T-400</td><td>High</td></tr>
+              <tr><td>Sculpt</td><td>260&ndash;300</td><td>16&ndash;20%</td><td>60%+</td><td>&lt;8%</td><td>poly-spandex, bonded</td><td>High</td></tr>
+              <tr><td>Relaxed</td><td>230&ndash;260</td><td>12&ndash;16%</td><td>55%+</td><td>&lt;10%</td><td>modal-spandex</td><td>High</td></tr>
+              <tr><td>Flare</td><td>240&ndash;280</td><td>14&ndash;18%</td><td>55%+</td><td>&lt;9%</td><td>poly-spandex</td><td>Mid-high</td></tr>
+              <tr><td>Wide-Leg</td><td>230&ndash;260</td><td>10&ndash;14%</td><td>50%+</td><td>n/a (loose)</td><td>modal-poly</td><td>High</td></tr>
+              <tr><td>Seamless</td><td>250&ndash;290</td><td>16&ndash;20%</td><td>70%+</td><td>&lt;8%</td><td>nylon circular-knit</td><td>High</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="yp-axis__note rv">Opacity and elongation get bench-tested on every incoming roll, not assumed from the mill sheet. For the deeper four-way stretch fabric engineering behind these knits, see our <a href="/products/training-performance">training-and-performance leggings line</a> page.</p>
+      </div>
+    </section>
+    <!-- /MERGED -->
 
     <!-- S3: YOGA PRACTICE-TYPE MATRIX -->
     <section class="sec sec--t" aria-labelledby="s3-h2">

@@ -2,7 +2,7 @@
   "company": {
     "logo": "https://img.berunactivewear.com/assets/images/logo.svg",
     "name": "Berun Active Wear",
-    "description": "Guangzhou activewear factory producing custom runs for global brands, distributors and private-label businesses — cutting, sewing, printing, QC and packing under one roof.",
+    "description": "Guangzhou. 8,500 m² single-floor activewear factory; 280 workers across 12 production lines; 380K pcs/month capacity; MOQ 100 pcs/SKU. Five audited certifications on file — WRAP Gold · OEKO-TEX Standard 100 · GRS · Higg FEM · BSCI. OEM cut-and-sew, ODM, private label, sampling, printing/embroidery and team customization handled on the same floor plan.",
     "socialLinks": [
       {
         "icon": "linkedin",
@@ -15,68 +15,40 @@
     {
       "title": "Products",
       "links": [
-        {
-          "text": "Training & Performance",
-          "url": "/products/training-performance"
-        },
-        {
-          "text": "Athleisure",
-          "url": "/products/athleisure"
-        },
-        {
-          "text": "Team & Club",
-          "url": "/products/team-club"
-        },
-        {
-          "text": "Outdoor & Running",
-          "url": "/products/outdoor-running"
-        },
-        {
-          "text": "Accessories",
-          "url": "/products/accessories"
-        }
+        { "text": "Training & Performance", "url": "/products/training-performance" },
+        { "text": "Athleisure",              "url": "/products/athleisure" },
+        { "text": "Team & Club",             "url": "/products/team-club" },
+        { "text": "Outdoor & Running",       "url": "/products/outdoor-running" },
+        { "text": "Accessories",             "url": "/products/accessories" }
       ]
     },
     {
       "title": "Services",
       "links": [
-        {
-          "text": "OEM Cut-and-Sew",
-          "url": "/services/oem"
-        },
-        {
-          "text": "ODM",
-          "url": "/services/odm"
-        },
-        {
-          "text": "Private Label",
-          "url": "/services/private-label"
-        },
-        {
-          "text": "Small-Batch Sampling",
-          "url": "/services/sampling"
-        },
-        {
-          "text": "Tech-Pack & Pattern",
-          "url": "/services/tech-pack"
-        }
+        { "text": "OEM Cut-and-Sew",     "url": "/services/oem" },
+        { "text": "ODM",                 "url": "/services/odm" },
+        { "text": "Private Label",       "url": "/services/private-label" },
+        { "text": "Small-Batch Sampling","url": "/services/sampling" },
+        { "text": "Tech-Pack & Pattern", "url": "/services/tech-pack" }
+      ]
+    },
+    {
+      "title": "Industries",
+      "links": [
+        { "text": "Yoga Apparel",      "url": "/yoga-apparel-manufacturer" },
+        { "text": "Basketball Apparel","url": "/basketball-apparel-manufacturer" },
+        { "text": "Soccer Apparel",    "url": "/soccer-apparel-manufacturer" },
+        { "text": "Cycling Apparel",   "url": "/cycling-apparel-manufacturer" },
+        { "text": "Gym Clothing",      "url": "/gym-clothing-manufacturer" },
+        { "text": "Streetwear",        "url": "/custom-streetwear-manufacturer" }
       ]
     },
     {
       "title": "Company",
       "links": [
-        {
-          "text": "About",
-          "url": "/about"
-        },
-        {
-          "text": "FAQ",
-          "url": "/faq"
-        },
-        {
-          "text": "Contact",
-          "url": "/contact"
-        }
+        { "text": "About",   "url": "/about" },
+        { "text": "FAQ",     "url": "/faq" },
+        { "text": "Contact", "url": "/contact" }
       ]
     }
   ],
@@ -90,12 +62,9 @@
   "copyright": {
     "year": 2026,
     "company": "Berun Active Wear",
-    "text": "All rights reserved. 8 years on the floor since 2017.",
+    "text": "All rights reserved.",
     "links": [
-      {
-        "text": "Privacy Policy",
-        "url": "/privacy-policy"
-      }
+      { "text": "Privacy Policy", "url": "/privacy-policy" }
     ]
   }
 }
