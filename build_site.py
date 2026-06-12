@@ -999,7 +999,7 @@ def write_sitemap(root: Path, domain: str) -> int:
         add(p, url)
 
     # Sub-folders: blog/, category/, tag/, author/
-    for sub in ('blog', 'category', 'tag', 'author'):
+    for sub in ('blog', 'category', 'products', 'services'):  # tag/author noindex 不进 sitemap
         sub_dir = root / sub
         if sub_dir.is_dir():
             for p in sorted(sub_dir.glob('*.html')):
