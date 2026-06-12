@@ -616,7 +616,7 @@ CATEGORY_PAGE_TEMPLATE = '''<!DOCTYPE html>
     <title>{seo_title}</title>
     <meta name="description" content="{seo_description}">
     <meta name="keywords" content="{seo_keywords}">
-    <link rel="canonical" href="https://www.{domain}/category/{slug}">
+    <link rel="canonical" href="https://{domain}/category/{slug}">
 
     <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -627,7 +627,7 @@ CATEGORY_PAGE_TEMPLATE = '''<!DOCTYPE html>
     <meta property="og:type" content="website">
     <meta property="og:title" content="{og_title}">
     <meta property="og:description" content="{seo_description}">
-    <meta property="og:url" content="https://www.{domain}/category/{slug}">
+    <meta property="og:url" content="https://{domain}/category/{slug}">
     <meta property="og:site_name" content="{brand}">
     <meta property="og:image" content="{og_image}">
     <meta property="og:locale" content="en_US">
@@ -658,9 +658,9 @@ CATEGORY_PAGE_TEMPLATE = '''<!DOCTYPE html>
       "@type": "CollectionPage",
       "name": "{seo_title}",
       "description": "{seo_description}",
-      "url": "https://www.{domain}/category/{slug}",
+      "url": "https://{domain}/category/{slug}",
       "inLanguage": "en",
-      "publisher": {{ "@type": "Organization", "name": "{brand}", "url": "https://www.{domain}" }}
+      "publisher": {{ "@type": "Organization", "name": "{brand}", "url": "https://{domain}" }}
     }}
     </script>
     <script type="application/ld+json">
@@ -668,8 +668,8 @@ CATEGORY_PAGE_TEMPLATE = '''<!DOCTYPE html>
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {{ "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.{domain}/" }},
-        {{ "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.{domain}/blog" }},
+        {{ "@type": "ListItem", "position": 1, "name": "Home", "item": "https://{domain}/" }},
+        {{ "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://{domain}/blog" }},
         {{ "@type": "ListItem", "position": 3, "name": "{name}" }}
       ]
     }}
@@ -745,7 +745,7 @@ TAG_PAGE_TEMPLATE = '''<!DOCTYPE html>
     <title>{tag_title} — Articles tagged {tag_display} | {brand}</title>
     <meta name="description" content="{tag_description}">
     <meta name="keywords" content="{tag_display}, {tag_slug}">
-    <link rel="canonical" href="https://www.{domain}/tag/{tag_slug}">
+    <link rel="canonical" href="https://{domain}/tag/{tag_slug}">
 
     <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -755,7 +755,7 @@ TAG_PAGE_TEMPLATE = '''<!DOCTYPE html>
 
     <meta property="og:type" content="website">
     <meta property="og:title" content="{tag_title} — Articles tagged {tag_display}">
-    <meta property="og:url" content="https://www.{domain}/tag/{tag_slug}">
+    <meta property="og:url" content="https://{domain}/tag/{tag_slug}">
     <meta property="og:site_name" content="{brand}">
     <meta name="robots" content="{robots}">
 
@@ -784,9 +784,9 @@ TAG_PAGE_TEMPLATE = '''<!DOCTYPE html>
       "@context": "https://schema.org",
       "@type": "CollectionPage",
       "name": "{tag_title} — Articles tagged {tag_display}",
-      "url": "https://www.{domain}/tag/{tag_slug}",
+      "url": "https://{domain}/tag/{tag_slug}",
       "inLanguage": "en",
-      "publisher": {{ "@type": "Organization", "name": "{brand}", "url": "https://www.{domain}" }}
+      "publisher": {{ "@type": "Organization", "name": "{brand}", "url": "https://{domain}" }}
     }}
     </script>
 </head>
@@ -973,7 +973,7 @@ def _sitemap_entry_priority(rel_path: str) -> tuple[str, float]:
 
 def write_sitemap(root: Path, domain: str) -> int:
     from datetime import datetime as _dt
-    base = f'https://www.{domain}' if domain and not domain.startswith('http') else (domain or '')
+    base = f'https://{domain}' if domain and not domain.startswith('http') else (domain or '')
     if not base:
         return 0
 
