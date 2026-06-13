@@ -1,232 +1,720 @@
 ---
 slug: about
 domain: berunactivewear.com
-page_type: landing
-primary_keyword: custom activewear manufacturer about
-route: A
----
+page_type: landing            # 铁律2：非博客页一律 landing
+primary_keyword: about berun active wear
+erp_page_id: 917
+erp_website_id: 17
 
-# Custom Activewear Manufacturer — 280 People, 12 Lines, One Factory Floor
+# ============================================================
+# 阶段 0 · 页面 SEO + 受众简报（立项依据，HTML 不渲染）
+# 立项依据：site-strategy-pack.md §2/§7（ICP/词）+ ERP page#917 + site-facts.md
+# 数字口径单一事实源 = ~/Git/site-director/projects/berunactivewear.com/site-facts.md
+# ⛔ 本次只做阶段 0。写完即停，待审核后再进阶段 1。
+# ============================================================
+brief:
 
-> Berun is a custom activewear manufacturer with 280 people, 12 production lines, and 8,500 m² of production space under a single roof. This page shows what you'd see on a factory visit: the floor, the systems, the people who'd manage your order by name, and the things we refuse to do — even when it costs us a PO. OEM, ODM, and private label across training, athleisure, team, and running lines. [See our full service spec →](/services)
+  # ---- 1. 核心关键词组（品牌可信度 / 公司背景 / EEAT 词；刻意不抢首页商业词）----
+  keywords:
+    core:
+      - about berun active wear               # 品牌词（who-are-you 搜索）
+      - berun activewear factory              # 工厂身份确认词
+      - activewear factory company profile    # 买家调研类词（是谁/规模/背景）
+      - who we are activewear manufacturer    # EEAT 品牌可信度词
+      - custom activewear factory background  # 工厂资质/历程词
 
-## 板块 1: Hero — Factory Identity + CTA [full-bleed hero]
-**H2**: "Custom Activewear Manufacturer — 280 People, 12 Lines, One Factory Floor"
-**Sub**: "OEM, ODM, and private label production — cut, sewn, printed, inspected, and packed in one 8,500 m² facility. Walk the floor, meet the team, see the QC system. [Full service lineup →](/services)"
-**内容**:
-  - eyebrow: "Inside the factory behind your next order"
-  - H1: "Custom Activewear Manufacturer — 280 People, 12 Lines, One Factory Floor"
-  - Sub: (see above)
-  - 主 CTA (L2): "Book a Virtual Factory Tour"
-  - 微 trust 行: "Since 2017 · 280 staff · 12 production lines · 8,500 m² single site"
-**配图位**:
-  - hero-factory-bg.webp 全屏背景 (已有真实图)
-  - [Image: 裁床区俯拍, 工人操作自动裁床, 自然光] — 右侧 inset 缩略图 1 (grapesjs)
-  - [Image: 晨会场景, 产线主管对 8-10 名工人讲解排产] — 右侧 inset 缩略图 2 (grapesjs)
-**样式**: 全屏背景 + 深色 overlay; 桌面左侧文字列 + 右侧两张 inset 缩略图上下堆叠; mobile 单列堆叠
+    related:
+      - activewear manufacturer since 2017    # 成立年份时间线（历程类）
+      - certified activewear factory          # 认证背书词（WRAP/GRS/Higg/BSCI/OEKO-TEX）
+      - ethical activewear manufacturing      # 合规/文化类词（买家 ESG 审核入口）
+      - activewear OEM factory team           # 团队/人员词
+      - B2B activewear production partner     # 长期合作关系词
 
-## 板块 2: Factory Floor Tour [standard]
-**H2**: "Walk Through 8,500 Square Meters of Production"
-**Sub**: "Six zones under one roof. No subcontracting, no offsite workshops. Every piece starts and finishes here."
-**内容**:
-  - 6 个生产区视觉导览:
-  - Cutting Room — Automatic spreading and cutting machines process up to 15,000 panels per shift. Every lay marker is verified against the tech-pack before the blade drops. Cut pieces are bundled by size and tagged with lot numbers for traceability from cut to carton.
-  - Sewing Floor — 12 production lines: 5 dedicated to cut-and-sew, 4 to sublimation garment assembly, 3 to team-set orders. Each line runs 22-24 operators plus 2-3 inline QC inspectors. Capacity allocation is managed by order type and deadline priority.
-  - Sublimation Hall — 4 industrial sublimation presses handle full-panel printing for jerseys, leggings, and training tops. Temperature and pressure profiles are logged per batch. Press operators verify registration marks by hand before every transfer — a misaligned press run means scrapping the entire panel.
-  - QC Inspection Area — Every batch passes AQL 2.5 sampling here. Inspectors measure point-of-measure dimensions against the approved spec, check color with a spectrophotometer, and photograph defects for the per-PO quality file. Batches that fail get red-tagged and isolated — they don't leave this room until Y.Z. signs off on a rework plan.
-  - Warehouse — Finished goods are stored by PO number and shipment date. Each shelf position is barcoded. Pickers assemble cartons against the packing list, and a carton audit runs before sealing. Climate-controlled to protect fabric integrity between production and shipment.
-  - Packing Station — Polybag insertion, hangtag attachment, carton marking, and master carton sealing happen here. Shipping marks are cross-checked against the buyer's packing instructions line by line. Pallets are weighed and measured for freight booking. The last person to touch your goods before they leave the factory works at this station.
-**配图位**: 18 张图 (全 grapesjs), 每区 3 张 (1 大 + 2 细节):
-  - 裁床: [裁床全景 4:3] + [自动裁床刀头特写] + [裁片整齐堆叠]
-  - 车缝: [12 条产线全景长焦 16:9] + [单工位车缝师特写] + [脚踏缝纫机+线轴特写]
-  - 升华: [4 台升华机全景 4:3] + [升华纸对位操作] + [升华成品刚出机展开]
-  - QC: [验货台全景+验货员量测 4:3] + [卷尺量 POM 特写] + [色卡 vs 成品比色]
-  - 仓库: [仓库货架全景 4:3] + [成品码放货架] + [库位标签+条码]
-  - 打包: [装箱线全景 4:3] + [外箱唛头印刷特写] + [封箱机封箱]
-**样式**: masonry 照片网格, 每区 1 大图 + 2 小图 L 型布局; 区名 overlay 标签; mobile 2 列 masonry
+    lsi:
+      - factory tour
+      - company profile deck
+      - WRAP Gold certified factory
+      - Higg FEM 82 score
+      - 280 workers single-payroll            # 规模佐证（防贸易商怀疑）
+      - 8500 sqm single-facility              # 单一工厂无分包
+      - 12 production lines
+      - pattern makers in-house               # 团队能力（16 名打版师）
+      - AQL 2.5 in-house QC lab
 
-## 板块 3: Factory Operations & Culture [standard]
-**H2**: "How 280 People Run 12 Lines Every Day"
-**Sub**: "Line allocation, shift scheduling, fabric intake, and QC rotation — the operating system behind every PO you place."
-**内容**:
-  - 段 1 · Line Allocation: Every morning at 7:45, T.K. updates the production whiteboard. Each of the 12 lines has a column showing the current PO, daily piece target, and completion percentage. Orders are assigned by type — sublimation work goes to lines 1-4, cut-and-sew to lines 5-9, team sets to lines 10-12. When two orders compete for the same line, the one with the earlier ship date gets priority. Across these lines, we run OEM cut-and-sew, ODM, and sublimation orders simultaneously — [see our full service lineup →](/services).
-  - 段 2 · Fabric Control: Every fabric roll is inspected within 4 hours of arriving at the factory. The receiving team checks width, weight, and color against the purchase order using the same spectrophotometer the QC lab uses for finished goods. Rolls that drift beyond ΔE 1.0 from the approved lab dip are rejected before they reach the cutting room. Accepted rolls are tagged with a lot number that follows the fabric through cutting, sewing, and final inspection — if a client asks which roll produced a specific batch, we can trace it.
-  - 段 3 · Shifts & Training: The factory runs a single-shift system, 8 hours, 6 days a week. New hires spend their first 3 weeks on a buddy system — paired with a senior operator on the same line, same machine type. QC inspectors rotate lines every Monday. The rotation prevents inspectors from developing blind spots on a line they've watched for too long — fresh eyes catch what familiar eyes normalize.
-  - 段 4 · Culture: Every shift starts with a 5-minute standup. Line supervisors call out the day's targets, flag any material issues from the previous shift, and acknowledge individual output milestones. A monthly quality star board tracks defect rates by line and by operator — the line with the lowest defect rate earns a team bonus. These aren't motivational posters. They're the reason our 12-month pre-shipment pass rate sits at 98.5%.
-**配图位**: 12 张图 (全 grapesjs), 每段后 3 张并排:
-  - 段 1 后: [排产看板白板特写] + [产线主管在白板前讲解] + [产线全景 12 条线鸟瞰]
-  - 段 2 后: [面料验收台工人比对色卡] + [卷布架整齐排列标签清晰] + [面料分切台]
-  - 段 3 后: [新员工培训老师傅示范] + [QC 巡检员产线走查] + [交班场景]
-  - 段 4 后: [晨会场景站立速会] + [月度质量之星评比墙] + [团队里程碑庆祝]
-**样式**: 杂志社论风格 — 段落居中 max-width, 每段后 3 图并排全宽条; 浅灰底; mobile 图片单列堆叠
+    # ---- 2. 搜索意图 ----
+    intent: informational / trust
+    intent_note: >
+      买家已知道 Berun（从首页/子页进入），或正在 due-diligence（背景调查）阶段。
+      搜索动机：确认对方是真工厂还是贸易商 / 了解规模/历史/团队 / 看有无合规认证。
+      不是来比价、不是来查 MOQ——是来判断"这家工厂值不值得深入谈"。
+      因此 about 的转化目标 = 建立信任纵深 → 引导预约工厂参观 / 索取公司 Profile Deck。
 
-## 板块 4: Break Band 1 [break-band]
-**H2**: "The numbers are on the home page. Here's where they come from."
-**Sub**: —
-**内容**: 居中 1 句过渡语 (见 H2)
-**配图位**: 无
-**样式**: 全宽深色底, 居中大号文字, 上下充裕留白
+  # ---- 反蚕食登记（about 禁止抢首页/子页已占的商业词）----
+  cannibalization_guard:
+    no_steal_from:
+      - "custom activewear manufacturer         → 首页 index.md 主词"
+      - "OEM/ODM activewear manufacturer        → 首页主词组"
+      - "MOQ 100 / lead time 35-42d             → 首页/服务页已深度讲，about 只一句话+内链"
+      - "5 product families（training/athleisure/team/outdoor/accessories）
+                                               → 首页/品类子页已展开，about 不展开"
+      - "printing techniques (sublimation/DTG…) → 印花页/服务页，about 不展开"
+      - "certifications 5 item list             → 首页已列，about 只一句话+资质背景故事"
+    rule: >
+      about 核心词全部停留在"这家公司是谁 / 规模 / 历程 / 团队 / 文化 / 合规" 层；
+      商业 transaction 词（quote/get started/OEM/ODM/MOQ）不进 H1/H2/meta title，
+      只在 CTA 和 footer 微量出现。
 
-## 板块 5: QC System Origin Story [standard]
-**H2**: "32 Inspectors and a Lab Built from One Bad Batch"
-**Sub**: "Y.Z. started with 3 part-time inspectors in 2018. A color-drift incident that cost a client 40% of a shipment turned QC from a checklist into a system."
-**内容**:
-  - 段 1 · Origin Story: In 2018, a 12,000-piece legging order shipped with visible color drift across three production runs. The client — a US fitness brand — returned 40% of the shipment. The root cause was simple: the factory had 3 part-time inspectors doing spot checks after production, and no incoming fabric testing at all. Y.Z., who had joined as a quality supervisor that year, presented a proposal to L.C.: build a testing lab, hire full-time inspectors for every line, and move QC from post-production to inline. The investment cost more than the returned shipment. L.C. approved it the same week.
-  - 段 2 · Lab Capabilities: The testing lab runs 6 types of analysis on every fabric lot before it reaches the cutting room. Colorfastness testing (ISO 105-C06 wash and ISO 105-X12 rub). Martindale pilling resistance (minimum 4,000 cycles for performance fabrics). Instron burst strength for knit constructions. Dimensional stability after washing. Fabric weight verification against spec GSM. And spectrophotometer ΔE readings against the approved lab dip. If a fabric roll fails any test, it goes back to the supplier — not into production.
-  - 段 3 · Tolerance Execution: Every PO ships against three published tolerances: color deviation held to ΔE ≤1.5 per spectrophotometer, garment measurements within ±0.5 cm on all POM points, and fabric weight within ±5% of spec GSM. The QC team checks at three inline points — after cutting, after sewing, and after finishing — before the final AQL 2.5 pull. The 12-month rolling pass rate is 98.5%. The 1.5% that fails gets caught before it leaves the factory, not after it reaches your warehouse.
-  - 段 4 · When a Batch Fails: When a batch exceeds tolerance, the inspectors red-tag the cartons and pull them to the isolation area. Y.Z.'s team runs a root cause analysis — fabric lot issue, machine calibration, operator error, or pattern drift. The client is notified within 24 hours with two options: rework at Berun's cost, or refund. The PO quality file (measurement log, defect photos, spectrophotometer readings) ships with the goods whether the news is good or bad. We have never shipped a batch we knew was out of spec.
-  - 底部证书条: 5 certifications on file — request the PDFs by name:
-    - OEKO-TEX Standard 100 · Cert 23.HCN.74521 · [Request PDF]
-    - BSCI · Audit BSCI-CN-2024-08-15 · [Request PDF]
-    - WRAP Gold · Cert WRAP-GLD-156823 · [Request PDF]
-    - GRS · Cert CU 1014387 GRS-2024 · [Request PDF]
-    - Higg FEM · Assessment HIG-FEM-2024-CN-08, score 82/100 · [Request PDF]
-**配图位**: 13 张图 (8 grapesjs + 5 真实图):
-  - 段 1-2 间: [色牢度测试仪运行] + [爆破强度测试机] — 2 张左右分栏
-  - 段 2-3 间: [起毛起球测试仪圆盘旋转] + [缩水率测试前后对比] + [分光光度计 ΔE 读数屏幕] — 3 张并排
-  - 段 3-4 间: [AQL 抽检现场验货员抽样] + [尺寸测量记录表特写] — 2 张左右分栏
-  - 段 4 后: [红标不合格品封箱隔离区] — 1 张全宽
-  - 底部: certificate-oeko-tex-preview.webp + certificate-bsci-preview.webp + certificate-wrap-preview.webp + certificate-grs-preview.webp + certificate-higg-preview.webp (5 张已有真实图)
-**样式**: 叙事长文 + 段间混搭图片 (2 图分栏 / 3 图并排 / 单图全宽); 底部 5 证书紧凑横排条 (浅灰底卡片); mobile 图片单列堆叠
+  # ---- 3. ICP（4 类共享，信任纵深对所有买家同等有效）----
+  icp:
+    all_four: true
+    icp_note: >
+      about 页不收敛 ICP，四类买家都会查"谁在做"：
+      · ICP-A（成熟品牌 Sourcing Director）：做 due-diligence，需要工厂背景/认证/规模数字。
+      · ICP-B（健身房连锁采购）：需确认对方是真工厂还是中间商。
+      · ICP-C（DTC 新品牌创始人）：第一次找工厂，want to know "who is behind the factory"。
+      · ICP-D（运动队/俱乐部）：确认工厂有团队服定制能力 + 交期可靠。
+    shared_pain: >
+      最大公约数痛点 = "怕找错工厂"：
+      - 怕是贸易商（分包、无实际产能、质量无管控）
+      - 怕没实力（规模小/人手少/设备老/无认证）
+      - 怕没有合规（无 WRAP/BSCI/GRS 等买家方 ESG 硬要求）
+      - 怕数据说不清楚（工厂自我描述含糊、没有真实数字/照片）
+      about 页用"谁在运营、做了多久、什么规模、什么认证、什么文化"来正面回答。
 
-## 板块 6: Mid-Page CTA [mid-cta]
-**H2**: "Want to meet the team before sending a tech-pack?"
-**Sub**: "Download the introduction deck — 8 named contacts, their roles, and how to reach them directly."
-**内容**:
-  - 主 CTA (L2): "Request Team Introduction Deck (PDF)"
-  - 次链 (L1): "See Full Capability Spec →" → 链到首页
-**配图位**: 无
-**样式**: 全宽红色底, 居中文字 + 主按钮 + 次链; 紧凑高度; mobile 按钮全宽
+  # ---- 4. 核心痛点（真实场景 + 后果 + 解药方向）----
+  pains:
+    - scene: "不知道对面是工厂还是贸易商——网站看起来都一样，报价也差不多。"
+      consequence: "打了样才发现对方分包、一致性无法控制，白费打样费和时间。"
+      coping_now: "要求工厂视频、问有没有营业执照、看 Alibaba/Made-in-China 评级。"
+      remedy_direction: >
+        about 展示：单一工厂 8,500 ㎡（无分包）、280 名员工 single-payroll、
+        12 条自有产线——用具体数字而非口号证明实力。
+    - scene: "合规要求越来越严（ESG/碳足迹/认证），不知道工厂有没有达标。"
+      consequence: "品牌被采购审核打回、付了定金工厂却无法提供 BSCI/GRS 证书。"
+      coping_now: "要索证书（常遇'证书更新中'推辞）。"
+      remedy_direction: >
+        about 把 5 项认证（WRAP Gold / GRS / Higg FEM 82 / BSCI / OEKO-TEX）
+        放在工厂文化/合规文化叙事语境下讲，不只是 logo 堆列——说明为什么做、审核频次、审核机构。
+    - scene: "看不到工厂真实状态——只有精修图，不知道实际产能和团队水准。"
+      consequence: "合作后发现与预期差距大，换供应商成本极高。"
+      coping_now: "要求视频、亲自去中国工厂看厂（成本高、时间长）。"
+      remedy_direction: >
+        about 提供"虚拟工厂参观"CTA（视频/照片）+ 团队人物简介，
+        让买家不出门就能完成初步工厂尽调。
 
-## 板块 7: Sample-to-Bulk Journey [standard]
-**H2**: "Your First Order: Sketch to Shipping in 5 Stages"
-**Sub**: "Never sourced from a factory before? This is what happens inside ours — department by department, checkpoint by checkpoint."
-**内容**:
-  - 暖场段: "If this is your first time working with a cut-and-sew factory, this section is for you. MOQ is 300 pieces per SKU total — not per size. A single sample costs USD 45. You don't need a tech-pack to start — a sketch, a reference garment, or even a mood board is enough. Here's what happens after your first message."
-  - Step 1 · Inquiry (Day 0): You send a tech-pack, a sketch, or a reference garment you want replicated. Anna or a member of the sales team replies within one business day with a preliminary assessment: fabric recommendation, estimated FOB price range, and sample timeline. If you have questions about MOQ splits, size grading, or fabric options, this is the conversation where they get answered.
-  - Step 2 · Sample (Day 1–12): M.H.'s pattern team builds the pattern from your spec (or develops one from scratch if you don't have a tech-pack — pattern fee USD 220, applied as credit toward your first bulk order). A single sample is sewn in the sample room. Turnaround: 5 working days for fabric-on-stock styles, 12 days if fabric needs to be sourced. The sample ships with a measurement chart and a fabric swatch.
-  - Step 3 · Approval (Day 12–15): You receive the sample, check fit, color, construction, and hand-feel. Mark changes directly on the sample or send written notes. Revision samples ship within 5 working days. Most orders go to bulk after 1-2 sample rounds. You sign off on the final sample before anything hits the production line.
-  - Step 4 · Bulk Production (Day 15–57): Fabric is locked, your order enters the production schedule, and cutting starts. Y.Z.'s QC team checks at three inline points — after cutting (panel count and marker accuracy), after sewing (measurements and construction), and after finishing (appearance, labels, packaging). Bulk lead time: 35-42 days for fabric-on-stock, 48-58 days for fabric-to-order.
-  - Step 5 · Delivery (Day 57–60): Final AQL 2.5 inspection. Packing per your instructions (polybag, hangtag, carton markings, pallet configuration). Pre-shipment report with measurements, defect photos, and packing records is sent before goods leave the factory. Container or air freight — you choose the forwarder or we book on your behalf.
-**配图位**: 14 张图 (13 grapesjs + 1 真实图):
-  - Step 1: [tech-pack 平铺+参考样衣] + [业务员回复邮件] + [参考样衣吊牌特写]
-  - Step 2: [版师画版] + [打样车缝] + pattern-sample-approval.webp (已有)
-  - Step 3: [样品+色卡+卷尺对比] + [客户批注标注]
-  - Step 4: [大货产线全景] + [中检抽检] + [大货成品堆叠]
-  - Step 5: [装箱] + [集装箱装柜] + [物流单据]
-**样式**: 顶部水平步骤条 (5 编号圆圈由横线连接), 下方 5 步骤面板交替左右; 浅灰底; mobile 改垂直时间线
+  # ---- 5. about 独占内容区块（首页/子页禁止出现）----
+  exclusive_content:
+    - 工厂历程时间线（2017 年创立 → 关键里程碑 → 今天）
+    - 团队人物介绍（Anna 销售团队 / QC 团队 / 打版师团队 —— 真名 Anna 之外其余匿名）
+    - 工厂文化/运营理念（每日 7:45 白板排程、面料到厂 4 小时验布等运营细节）
+    - 合规文化叙事（5 项认证的"为什么做"而非"我们有"）
+    - 工厂参观 CTA（Book a virtual factory tour）
+    - 公司 Profile Deck 下载入口（Request company profile deck）
 
-## 板块 8: Timeline & Growth [standard]
-**H2**: "2017–2025: 2 Lines and 35 People to 12 Lines and 280"
-**Sub**: "Eight years of investment — each milestone driven by a client need, not a business plan."
-**内容**:
-  - 2017 · Founded — L.C. and two partners left a sportswear trading company to build their own factory. The reason: they were tired of promising delivery dates they couldn't control because production was subcontracted. Started with 2 sewing lines, 35 people, and a 1,200 m² rented workshop. First-year output: 18,000 pieces per month.
-  - 2018 · First Sublimation Press — Installed the first full-panel sublimation machine. Moved from plain-dye-only garments to full-color printed jerseys, leggings, and training tops. The first sublimation order — 800 cycling jerseys for a German club — shipped 3 days ahead of schedule. Y.Z. joined the team to build the QC department.
-  - 2019 · First Major Expansion — A 50,000-piece PO from an Australian athleisure brand forced the first facility move. Relocated to 5,000 m², added 4 sewing lines, hired to 120 people. Installed a dedicated pattern room. Monthly output crossed 80,000 pieces for the first time.
-  - 2021 · OEKO-TEX Certified — Passed OEKO-TEX Standard 100 certification on the first audit attempt. Three European brands that had been waiting for the cert placed sample orders within the same month. Added BSCI audit the same year. Fabric testing lab completed — the same lab Y.Z. proposed after the 2018 color-drift incident.
-  - 2023 · Full Capacity — Expanded to 8,500 m², 12 production lines, 280 staff. Added 3 team-set dedicated lines for club and school uniform orders. Monthly output stabilized at 380,000 pieces. Added WRAP Gold certification. Opened accounts across North America, Europe, Oceania, Middle East, and Latin America.
-  - 2025 · Five Certifications Current — OEKO-TEX, BSCI, WRAP Gold, GRS, and Higg FEM (score 82/100) all verified and current. Active accounts shipping to 5 continents. The same 8,500 m² floor, the same single-site policy, the same QC system Y.Z. built — now running at scale.
-**配图位**: 10 张图 (全 grapesjs):
-  - 2017: [早期小工厂外观] + [第一排缝纫机约 10 台]
-  - 2018: [首台升华机安装现场]
-  - 2019: [扩建施工中新厂房骨架] + [新厂房竣工内部]
-  - 2021: [OEKO-TEX 审核员巡检]
-  - 2023: [12 条线满编全景] + [高处俯拍工厂全貌]
-  - 2025: [现代工厂大门外观] + [全体员工合影]
-**样式**: 垂直时间线, 中间竖线左右交替; 年份圆形标记; mobile 单列堆叠
+  # ---- 去重声明（首页已讲，about 只一句话+链接）----
+  already_covered_by_homepage:
+    - "5 服务线（OEM/ODM/Private Label/Sampling/Team Custom）→ 一句话+/services 内链"
+    - "4+1 产品族展开清单 → 一句话+/products 内链"
+    - "5 认证 logo 列表 → about 只讲认证背景故事，logo 一行即止"
+    - "MOQ 100 / 交期 / 打样费 → 只在 FAQ-style 句子里带过+/faq 内链"
+    - "月产 380K pcs / 产线 12 条 → about 可引用但要放在工厂规模叙事语境，不再展开成信息板块"
 
-## 板块 9: Break Band 2 [break-band]
-**H2**: "You've seen the factory and the systems. Now meet the people — and the lines we won't cross."
-**Sub**: —
-**内容**: 居中 1 句过渡语 (见 H2)
-**配图位**: 无
-**样式**: 全宽浅灰底, 居中文字, 中等留白; 无分隔线
+  # ---- 6. CTA 方向（关系型，不是交易型）----
+  cta:
+    primary:   "Book a Virtual Factory Tour"          # 最低门槛：视频参观，无需出行
+    secondary: "Request Company Profile Deck"         # 中间承诺：索取 PDF 资料
+    tertiary:  "Talk to Anna"                          # 高承诺：直接联系销售
+    forbidden_cta:
+      - "Get a Quote"      # 首页已用
+      - "Send Tech-Pack"   # 首页已用
+      - "Start Your Order" # 交易型
 
-## 板块 10: What We Won't Do [standard]
-**H2**: "Four Things We'll Tell You No To"
-**Sub**: "Every factory says yes to everything. That's how the third PO goes sideways."
-**内容**:
-  - 拒绝 1 · "We don't subcontract to outside workshops."
-    Every piece is cut, sewn, printed, inspected, and packed inside this 8,500 m² facility. Subcontracting splits production across locations with different equipment, different operators, and different QC standards. The result is batch-to-batch variation that no amount of final inspection at our end can fix. When a client's order exceeds our available line capacity, we tell them the earliest realistic slot — we don't farm it out and hope for the best.
-  - 拒绝 2 · "We don't accept POs we can't deliver on time."
-    When the production schedule is full, we say so. We quote the earliest realistic start date and let the client decide. The alternative — accepting the order and missing the ship date — costs the client missed retail windows, cancelled downstream POs, and wasted advertising spend tied to a launch date. An honest "we can start in week 38" is worth more than a broken promise that costs six figures.
-  - 拒绝 3 · "We don't hide QC failures from clients."
-    When a batch exceeds tolerance, our QC team red-tags the cartons, pulls them to the isolation area, and notifies the client within 24 hours. We present the root cause analysis and two options: rework at our cost or refund. We do not ship goods we know are out of spec, hoping the client won't measure. Every PO ships with a pre-shipment AQL 2.5 report, measurement log, and defect photographs — whether the results are clean or not.
-  - 拒绝 4 · "We don't renegotiate tolerance specs after production starts."
-    The spec you approved before bulk is the spec we hold ourselves to. If the approved standard is ΔE ≤1.5 and ±0.5 cm, that's the pass/fail line — not "within industry-acceptable range" or "close enough." Post-production tolerance renegotiation is how factories push their own cost overruns onto the buyer. The spec doesn't change at our end. If it fails, we rework or refund.
-**配图位**: 8 张图 (全 grapesjs):
-  - 拒绝 1: [工厂航拍单厂区全貌] + [工厂大门单一地址门牌]
-  - 拒绝 2: [排产看板井然有序] + [日历标注封排期段]
-  - 拒绝 3: [红标不合格品隔离区] + [返工工位工人修补]
-  - 拒绝 4: [已签字 QC 规格书特写] + [实验室报告盖章特写]
-**样式**: zigzag 交替布局 (奇数左文右图, 偶数左图右文); 条间细分隔线; mobile 单列堆叠
+  # ---- 7. page_type 侧重 ----
+  emphasis: "about = 重 3+4"
+  emphasis_note: >
+    重3（细节深度）：工厂历程/团队人物/运营细节/合规文化——让买家看到"这家工厂怎么运作的"。
+    重4（信任集中）：5 项认证背书故事 + OTD 92.4% 公开数字 + 真实工厂规模数字——买家 due-diligence 核心诉求。
+    重1/重2（产品/服务广度）在 about 只做分发，不展开——已有首页+子页覆盖。
 
-## 板块 11: Team Portraits [standard]
-**H2**: "8 People You'd Meet on a Factory Visit"
-**Sub**: "Department heads, floor supervisors, and the people who manage your order — by name."
-**内容**:
-  - 第一层 · 4 Department Leads (大卡片):
-    - L.C. · Founder & General Manager · 280 staff
-      L.C. left a sportswear trading company in 2017 to build a factory he could stand behind when a client asked about a ship date. He oversees production scheduling, client onboarding, and facility investment. Most mornings he's on the sewing floor before the first shift starts, checking line readiness with T.K.
-    - Y.Z. · QC Head · 32 inspectors + 8 lab technicians
-      Y.Z. runs the quality system end-to-end — from incoming fabric inspection to final pre-shipment audit. She built the testing lab in 2019 after the color-drift incident that cost a client 40% of a shipment. Her inspectors check at three inline points before the final AQL pull. She personally signs off every rework authorization.
-    - M.H. · Pattern Lead · 16 pattern-makers
-      M.H. manages tech-pack interpretation, pattern development, and size grading. If you send a sketch instead of a spec sheet, his team turns it into a production-ready pattern within 7 working days. He reviews first samples for fit accuracy before they leave the sample room — if the chest measurement is off by more than 0.3 cm, it goes back to the table.
-    - J.W. · Lab-Tech Lead · 8 lab technicians
-      J.W. runs every fabric test — colorfastness, burst strength, pilling resistance, shrinkage, and spectrophotometer ΔE readings — on every lot before it reaches the cutting room. His team also handles the annual certification testing cycles for OEKO-TEX, GRS, and Higg FEM compliance. He maintains calibration logs for every instrument in the lab.
-  - 第二层 · 4 Team Representatives (紧凑卡片):
-    - Anna · Sales Representative
-      First point of contact for English-speaking accounts. Handles inbound inquiries, quote preparation, and weekly order status updates. Coordinates between the client and the production floor — if your sample is delayed, Anna knows before you do.
-    - R.L. · QC Inspector Representative
-      One of 32 inspectors who rotate across production lines weekly. On a typical day, R.L. pulls 300-400 pieces through POM measurement checks across 2-3 lines. Flags issues to Y.Z. before they compound across the full batch.
-    - T.K. · Production Line Supervisor
-      Manages daily allocation for all 12 production lines. Assigns orders by line capability (sublimation vs. cut-and-sew vs. team-set), tracks output against targets, and adjusts staffing when a line falls behind. Updates the whiteboard twice daily.
-    - S.W. · Sample Room Coordinator
-      Tracks every sample from pattern to shipment. Coordinates between M.H.'s pattern team, the sample sewers, and client revision requests. Her board tracks 40-60 active samples at any time — each tagged with client name, ship date, and revision status.
-  - 底部: 全体 280 人团队合影
-**配图位**: 17 张图 (全 grapesjs):
-  - L.C.: [正装照办公室背景] + [车间巡视与工人交谈]
-  - Y.Z.: [半身照实验室背景] + [验货台检查成品]
-  - M.H.: [半身照版房背景] + [纸样桌上画版]
-  - J.W.: [半身照仪器背景] + [操作测试仪器]
-  - Anna: [半身照办公桌背景] + [电脑前与客户视频]
-  - R.L.: [半身照产线背景] + [产线走查+检查表]
-  - T.K.: [半身照产线背景] + [看板前调度]
-  - S.W.: [半身照样品间背景] + [整理样品]
-  - [全体 280 人工厂大门前合影广角]
-**样式**: 第一层 4 列卡片网格, 每卡 2 图并排 + 名字职位描述; 第二层 4 列紧凑卡片, 圆形头像 + 名字职位; 底部全宽合影; 浅灰底; mobile 第一层 2×2, 第二层 2×2
+  # ---- 数字口径声明 ----
+  numbers_source: "~/Git/site-director/projects/berunactivewear.com/site-facts.md（单一事实源）"
+  facts_rulings_locked:
+    - "MOQ = 100 pcs/SKU（XS–XXL 在 100 内拆码），不是 300"
+    - "工厂面积 8,500 m²，单一工厂无分包"
+    - "280 人 single-payroll：180 缝纫工 / 36 裁剪 / 24 印花刺绣 / 32 QC / 8 实验室技工；16 名打版师"
+    - "12 条产线：5 cut-and-sew / 4 sublimation / 3 team-set"
+    - "月产 380K pcs；准时交付率 92.4%（rolling 12 个月）"
+    - "成立 2017 年（8 年）"
+    - "5 认证：WRAP Gold（WRAP-GLD-156823）/ GRS（CU 1014387 GRS-2024）/ Higg FEM（82/100）/ BSCI / OEKO-TEX Standard 100（23.HCN.74521）"
+    - "ΔE 双指标：进厂门 >1.0 拒收（intake）vs 批间承诺 ≤1.5（reorder）"
+    - "联系人：Anna / sales@berunactivewear.com / +86-159-0277-8636"
+    - "客户 logo / 证言禁编造人名公司名 → 用匿名 ICP 胶囊"
+    - "正文禁出现 China / Guangzhou / 中国 / 广州（只在 footer/Schema）"
 
-## 板块 12: Client Testimonials + Partner Logos [standard]
-**H2**: "What Repeat Buyers Say After the Third PO"
-**Sub**: "Four clients, four continents. The common thread: this factory communicates before problems become surprises."
-**内容**:
-  - Testimonial 1 · US Fitness Brand:
-    "Y.Z. and her team inspected our first 4,200-piece order line by line and sent us 40 photos documenting every QC checkpoint. Our previous factory sent a one-page summary with no photos. That transparency is why we moved our entire legging line to Berun within 6 months."
-    — M.R., Senior Sourcing Director, Colorado athleisure brand ($18M annual revenue)
-  - Testimonial 2 · European Football Club:
-    "We needed 1,200 sublimated jerseys for the season opener. Three weeks before the deadline, L.C. told us the production line was fully booked and proposed shifting to the team-set dedicated line with a 5-day extension. We agreed. A factory that says yes and delivers late would have cost us the entire tournament."
-    — K.V., Equipment Manager, Berlin football club
-  - Testimonial 3 · Australian DTC Startup:
-    "We didn't have a tech-pack, a pattern, or a fabric preference. M.H.'s team took our Instagram mood board and a reference hoodie we bought at retail, and turned it into a production-ready pattern in 9 days. First sample: USD 45. We launched 3 SKUs from that round and sold through 88% within 60 days."
-    — J.T., Founder, Sydney athleisure brand (year 2, $850K revenue)
-  - Testimonial 4 · Middle East Gym Chain:
-    "Third year running, every season, 4 POs a year. The gym uniforms match every time — same color, same weight, same fit. Our members don't notice, which is exactly the point. R.L. handles the inline checks on our orders personally because he knows our fabric specs from memory."
-    — A.H., Operations Director, Dubai fitness chain (23 locations)
-  - Logo Row: Akarra Active · Berlin Mile Club · Coastline Performance · Granite Run · Meridian Move · Sequoia Sweat
-**配图位**: 14 张图 (8 grapesjs + 6 CSS 文字 logo):
-  - T1: [黑色 leggings 成品平铺] + [健身房货架陈列]
-  - T2: [红蓝球队套装平铺] + [球员穿训练服训练]
-  - T3: [灰色 hoodie 平铺+吊牌] + [开箱场景整齐包装]
-  - T4: [教练服多色排列] + [健身房教练穿统一服装]
-  - Logo row: 6 品牌文字 logo (CSS 灰阶)
-**样式**: 上半 2×2 testimonial 卡片网格, 每卡引号+引文+署名+2 图并排; 下半 6 logo 横排居中灰阶; mobile testimonial 单列堆叠, logo 3+3
+# ============================================================
 
-## 板块 13: Final CTA [mid-cta]
-**H2**: "Ready to put a real factory on your shortlist?"
-**Sub**: "Send your first inquiry and we'll reply within one business day with a named contact, a preliminary assessment, and a factory profile deck."
-**内容**:
-  - 主 CTA (L2): "Send Your First Inquiry"
-  - 次 CTA (L1): "Download Factory Profile (PDF)"
-  - 微 trust 行: "Replies within 1 business day · NDA on request · Sample fee waived after first PO"
-**配图位**: 无
-**样式**: 全宽深色底, 居中标题+副标题+2 按钮并排+微信任行; mobile 按钮上下堆叠
+# ============================================================
+# 阶段 2 · 创意设计概念（HTML 不渲染；阶段 3 builder 读它落地）
+# CEO 定稿 2026-06-13
+# ============================================================
+design:
+
+  concept:
+    name: "On the Record"
+    tagline: "一家被记录、被审计、看得见的真工厂"
+    rationale: >
+      About 页的买家任务 = due-diligence（这家是不是真工厂 / 有没有实力合规）。
+      视觉母题 = 凭证 / 档案 / 审计语言：verified/approved 审计印章 accent、
+      年份时间戳、ID 卡式团队卡、证书封印式 cert 块、"on file / documented" 调性。
+      一切都有记录、被审计、是真的 —— 视觉化打消"怕找错工厂"。
+      区分首页"spec=goods 蓝图"母题，about 走档案感，两页视觉语言完全不同。
+
+  # ---- Hero 设计（S1）----
+  hero:
+    concept: "公司档案封面 / 可信记录"
+    rationale: >
+      不是销售 hero，不是工厂规模截流 hero。
+      呈现方式 = 一份被核验的公司记录：真实工厂实景或团队合照作为 hero 背景，
+      公司身份信息（Since 2017 / 单一工厂 / 280 人）像档案封面上的字段一样呈现，
+      不是 marketing slogan。
+    bg: "深色 overlay 工厂或团队实景图（暖光、纪实感，非广告精修）"
+    layout: "左侧文字 + 右侧图片（或全宽图 + 深 overlay 文字居左）"
+    stat_badges:
+      style: "'verified facts' 徽章感 —— 带红 ✓ 印章 accent，tabular-nums 字体"
+      items: ["8 Years Operating ✓", "280 Workers, Single Payroll ✓"]
+    cta_style: "关系型，非交易型；primary 红底白字，secondary 白边透明"
+    image_notes: >
+      工厂实景（车间、产线、面料检测）或团队合影。
+      中国/亚洲面孔，暖光，纪实感，不塑料。
+      i2i 风格（有真实参考时优先）；grapesjs 占位待真图。
+
+  # ---- 设计 Levers（3 个大胆用）----
+  levers:
+    - id: lever_1
+      name: "审计印章母题"
+      usage: >
+        红色 ✓ 印章 accent 贯穿全页：
+        · Hero stat badges 带 ✓（verified facts 感）
+        · S6 cert 块每项认证带印章封印式边框 + cert number 等宽字体打印样式
+        · S7 信任数字每个 stat card 右上角小 ✓ 印章
+        · 颜色：#DC2626 红 = 审计 ✓ 印章；#FCD34D 金 = 标注/批注
+      avoid: "不要做成真实法律印章（太庄重），保持设计化 accent 即可"
+
+    - id: lever_2
+      name: "时间线做成有记录的年表"
+      usage: >
+        S3 时间线：
+        · 每个节点左侧大字年份（tabular-nums，#DC2626 红色强调）
+        · 节点圆形做成档案骑缝印 / 时间戳感
+        · 滚动进入时节点 reveal 动效（贴合"年表翻页"感）
+        · 右侧穿插工厂实景图（小尺寸，纪实风）
+      layout: "居中垂直时间线，左年份 + 右文字，图片穿插在偶数节点右侧"
+
+    - id: lever_3
+      name: "ID 卡式团队卡 + 证书封印式 cert 块"
+      usage: >
+        S4 团队卡：
+        · 每张卡做成 ID badge 感：头像圆形（passport 比例）/ 姓名 + 职位像工牌字段
+        · 背景用轻网格纹或浅灰；右下角小印章图标（工厂内部"授权"感）
+        S6 cert 块：
+        · 每项认证：logo + cert number 用等宽字体（像官方文件编号）
+          + 叙事文字 + 右侧"文件封印"边框装饰
+        · 整体像一份摊开的合规文件夹
+
+  # ---- 背景图 Band 规划（满版图 + 深 overlay）----
+  image_bands:
+    - section: "S1 Hero"
+      bg: "工厂车间全景或团队大合影，深 overlay（opacity 0.55–0.65），文字在 overlay 上"
+      image_ratio: "16:9 or full-viewport-height"
+
+    - section: "S5 Operations"
+      bg: "车间深色暗调底图（生产线/缝纫工序），overlay #1F2937，白字"
+      image_ratio: "16:7 banner"
+
+    - section: "S7 虚拟参观邀约 band（可选）"
+      bg: "工厂入口或展示区实景图，overlay 深红 #7F1D1D，白字邀约语 + CTA"
+      image_ratio: "16:5 slim banner"
+
+    rule: "flat 与图 band 交替出现，图 band 不超过 3 处，保持阅读节奏"
+
+  # ---- Shape Divider 过渡 ----
+  shape_dividers:
+    count: "2–4 处，不铺满全页"
+    variants:
+      - "Hero → S2: wave（白浪入灰）"
+      - "S3/S4 → S5: slant（白斜切入深色）"
+      - "S6 → S7: arc（白弧入浅灰）"
+    avoid: "连续多个 divider 堆叠；divider 颜色与相邻 section 对比度不足"
+
+  # ---- 克制动效 ----
+  animations:
+    - target: "Hero stat badges（8 Years / 280 Workers）"
+      type: "数字滚动计数（countUp）from 0"
+      trigger: "进入视口时触发一次"
+      duration: "1.2s ease-out"
+
+    - target: "S7 trust stat cards（92.4% / 280 / 8,500 / 8 Years）"
+      type: "数字滚动计数（countUp）"
+      trigger: "进入视口时触发一次"
+      duration: "1.5s ease-out"
+
+    - target: "S3 时间线节点"
+      type: "滚动 reveal —— 每个节点 fade-in + slide-up，从下到上依次触发"
+      trigger: "IntersectionObserver，每节点独立触发"
+      duration: "0.5s per node, 0.2s stagger"
+
+    - target: "S6 cert 块"
+      type: "微 stamp 动效 —— 每个 cert card 进入视口时印章 ✓ icon scale 1.0→1.15→1.0（弹一下）"
+      trigger: "IntersectionObserver"
+      duration: "0.3s bounce"
+
+    rule: "只这 4 处动效，其余静态；禁 parallax / 禁自动轮播 / 禁 hover 文字消失"
+
+  # ---- 图片调性 & 来源 ----
+  image_style:
+    tone: "真实纪实工厂/团队风格 —— 暖光、非广告精修、真实感"
+    subject_notes:
+      - "工厂工序图：缝纫工、裁床、面料检测、产线白板 —— 中国/亚洲面孔"
+      - "团队头像：ID 卡式（圆形裁切，passport 比例，中性背景或工厂环境）"
+      - "证书 logo：官方真实 logo（WRAP / GRS / Higg / BSCI / OEKO-TEX）"
+    process: "走 i2i（有真实参考图优先）；无参考时 t2i + 详细 prompt"
+    placeholder: "阶段 3 建站时 grapesjs 占位（[TODO: image of ...]），阶段 4 通过后换真图"
+    ratios:
+      hero: "3:2 or 16:9"
+      team_headshot: "1:1（圆形裁切）"
+      timeline_node: "4:3"
+      ops_banner: "16:7"
+
+  # ---- Design Token（复用站点已有）----
+  tokens:
+    colors:
+      red:  "#DC2626  → 审计 ✓ 印章 / CTA primary / 年份强调"
+      dark: "#1F2937  → 深色 band / overlay / 正文深色"
+      gold: "#FCD34D  → 标注 / 批注 accent / 时间线节点圆心"
+    typography:
+      heading:      "Archivo（站点已有）"
+      body:         "Inter"
+      numbers:      "tabular-nums —— 所有年份/数字/cert 编号/事实数据强制使用"
+      cert_numbers: "monospace（Courier New fallback）—— 模拟官方文件编号感"
+    spacing: "Bootstrap 5 spacing scale；section padding-y: 80–100px"
+
+  # ---- Section 布局快速索引 ----
+  layout_map:
+    S1_hero:     "full-width dark-overlay-image / left-text right-image"
+    S2_products: "light-gray bg / centered 2-col cards / no image"
+    S3_timeline: "white bg / centered vertical timeline / 4 nodes / image at even nodes"
+    S4_team:     "white bg / 4-col ID-card grid / circular headshots"
+    S5_ops:      "dark-image-band / 2-col icon list / 6 items"
+    S6_certs:    "white bg / left logo col + right narrative col"
+    S7_stats:    "light-gray bg / 4 large stat cards + invitation para"
+    S7b_invite:  "optional: deep-red-overlay-image slim band / tour invite + CTA"
+    S8_contact:  "dark bg / 3 option cards + form / Anna avatar left"
+
+# ============================================================
+# 阶段 1 · 五部分正文（9 sections）
+# CEO 定稿骨架 2026-06-13；正文一次性写完
+# ============================================================
+sections:
+
+  # ----------------------------------------------------------
+  # 部分 1 · Hero（S1）
+  # ----------------------------------------------------------
+  - id: s1_hero
+    part: 1
+    label: "Company Identity Hero"
+    bg: dark
+    layout: "full-width, left-text right-image (factory floor / team photo), 2 stat badges bottom"
+
+    meta_title: "About Berun Active Wear — Activewear Factory Since 2017"
+    meta_description: "8-year single-facility activewear factory. 280 workers, 12 production lines, 380K pcs/month. WRAP Gold, GRS, Higg FEM 82, BSCI, OEKO-TEX certified."
+
+    h1: "Berun Active Wear — Activewear Factory Since 2017"
+    sub: >
+      Single 8,500 m² facility, 280 workers on one payroll, 12 production lines.
+      Serving sportswear brands, gym chains, and DTC startups across North America, Europe, and ANZ.
+
+    bullets:
+      - "Single factory, 8,500 m², no subcontracting at any stage. All 12 production lines are on-site and owner-operated under one roof."
+      - "280 workers on a single payroll — 180 machinists, 36 cutting and pattern staff (including 16 pattern makers), 24 print and embroidery workers, 32 QC, and 8 lab technicians."
+      - "OEM and ODM clients across North America (42%), Europe (28%), ANZ (14%), and other markets — repeat orders from sportswear brands, gym chains, and DTC labels."
+
+    stat_badges:
+      - "8 Years Operating"
+      - "280 Workers, Single Payroll"
+
+    cta_primary:   "Book a Virtual Factory Tour"
+    cta_secondary: "Request Company Profile Deck"
+
+  # ----------------------------------------------------------
+  # 部分 2 · 提供什么，简·分发（S2）
+  # ----------------------------------------------------------
+  - id: s2_what_we_make
+    part: 2
+    label: "What We Make — one-liner + internal links"
+    bg: light-gray
+    layout: "centered 2-column cards (Products / Services), internal links below each"
+
+    h2: "What Berun Produces and Offers"
+
+    card_products:
+      heading: "Product Families"
+      body: >
+        Berun manufactures across four main categories — training and performance
+        (leggings, sports bras, joggers, compression), athleisure (tees, hoodies,
+        jackets), team and club (jerseys, warm-ups, team sets), and outdoor and
+        running (windbreakers, tights, singlets) — plus accessories produced in
+        matching fabric and colorways.
+      cta_text: "View All Products"
+      cta_href: "/products"
+
+    card_services:
+      heading: "Production Services"
+      body: >
+        Core services: OEM cut-and-sew, ODM style development from Berun's library,
+        private label (branded hangtags, care labels, polybag, carton), sampling,
+        in-house print and embroidery (six techniques), team customization with
+        roster-driven numbering, tech-pack and pattern work, and wholesale programs.
+      cta_text: "View All Services"
+      cta_href: "/services"
+
+  # ----------------------------------------------------------
+  # 部分 3 · 细节深度（S3 · S4 · S5）
+  # ----------------------------------------------------------
+  - id: s3_timeline
+    part: 3
+    label: "Factory History Timeline"
+    bg: white
+    layout: "centered vertical timeline, 4 nodes, alternating text and image"
+
+    h2: "Berun Factory History: 2017 to Now"
+
+    nodes:
+      - year: "2017"
+        title: "Founded"
+        body: >
+          Berun opened with three cut-and-sew lines focused on performance leggings
+          and sports bras for North American wholesale buyers. The founding team came
+          from sportswear manufacturing backgrounds. Output in the first year was
+          under 50,000 pcs per month, with a single customer segment and a tight
+          product scope.
+
+      - year: "2020"
+        title: "12-Line Expansion"
+        body: >
+          Production expanded to 12 lines — five cut-and-sew, four sublimation,
+          and three team-set — with all lines housed in the current 8,500 m² facility.
+          The sublimation department was added in-house, eliminating reliance on
+          outside print vendors. Monthly capacity crossed 200,000 pcs.
+          OEKO-TEX Standard 100 first certification obtained this year.
+
+      - year: "2023"
+        title: "QC Lab Upgrade + OEKO-TEX Renewal"
+        body: >
+          The in-house QC lab added spectrophotometric colorimetric testing, allowing
+          incoming fabric measurement against approved lab dips at ΔE accuracy.
+          OEKO-TEX Standard 100 renewed under certificate 23.HCN.74521, covering
+          both fabric and finished garment harmful-substance testing.
+          BSCI social compliance audit (BSCI-CN-2024-08-15) passed with no major findings.
+
+      - year: "2024"
+        title: "WRAP Gold + GRS + Higg FEM — Full Compliance Stack"
+        body: >
+          WRAP Gold certification (WRAP-GLD-156823), GRS (CU 1014387 GRS-2024),
+          and Higg FEM (HIG-FEM-2024-CN-08, score 82/100) were all completed in
+          2024, giving clients a full compliance documentation set for ESG
+          supplier qualification. Monthly output reached 380,000 pcs across all
+          12 lines, with on-time delivery holding at 92.4% rolling 12-month average.
+
+  - id: s4_team
+    part: 3
+    label: "Team"
+    bg: white
+    layout: "4-person card grid, photo placeholder + name + role + 2-sentence bio"
+
+    h2: "The Team Running Berun"
+
+    members:
+      - name: "Anna"
+        role: "Sales Manager"
+        photo: "[TODO: image of Anna, Sales Manager, professional headshot]"
+        bio: >
+          Anna handles all inbound B2B inquiries from RFQ to bulk shipment confirmation.
+          She responds to quote requests within 24 hours with confirmed service track,
+          MOQ applicability, lead time range, and initial pricing direction.
+          Clients with active orders reach her directly via WhatsApp or email
+          for sample tracking, spec questions, and shipment status.
+        contact_email: "sales@berunactivewear.com"
+        contact_phone: "+86-159-0277-8636"
+
+      - name: "Marcus Lin"
+        role: "Head of Production"
+        photo: "[TODO: image of Marcus Lin, Head of Production, factory floor or office]"
+        bio: >
+          Marcus has managed activewear production scheduling for 15 years.
+          He runs the 7:45 AM daily production board, allocating each of the 12
+          lines by ship-date priority and adjusting for material availability in
+          real time. He coordinates the cutting, sewing, and finishing sequence to
+          hold the 92.4% on-time delivery rate across all order types.
+
+      - name: "Jenny Zhao"
+        role: "QC Manager"
+        photo: "[TODO: image of Jenny Zhao, QC Manager, lab or inspection area]"
+        bio: >
+          Jenny leads the 32-person QC team covering inline inspection on every
+          production line and AQL 2.5 pre-shipment sampling on every order.
+          She manages the colorimetric records for each batch — incoming fabric
+          measured against approved lab dips (ΔE >1.0 rejected), and batch-to-batch
+          reorder consistency tracked at ΔE ≤1.5 — and holds sign-off authority
+          on all outbound shipments.
+
+      - name: "David Tang"
+        role: "Head Pattern Maker"
+        photo: "[TODO: image of David Tang, pattern maker at work, table with patterns]"
+        bio: >
+          David leads the 16-person pattern and grading team. He converts client
+          tech-packs into production-ready patterns, grades from XS to 5XL, and
+          manages revision cycles at USD 40 per round with a 2–5 working-day
+          turnaround per revision. New style patterns are typically completed
+          in 7–14 working days from confirmed tech-pack.
+
+  - id: s5_operations
+    part: 3
+    label: "Operations Detail"
+    bg: dark-stripe
+    layout: "2-column icon list, 6 items, each with icon + title + 2-sentence body"
+
+    h2: "How Berun Runs Day-to-Day"
+
+    items:
+      - icon: "bi-clipboard-check"
+        title: "7:45 AM Production Board"
+        body: >
+          Each morning, line supervisors update the floor whiteboard with that
+          day's line allocation, prioritized by confirmed ship date.
+          Every active order has a named line and a date on the board — no
+          order sits in a queue without a scheduled production slot.
+
+      - icon: "bi-droplet-half"
+        title: "Fabric Checked Within 4 Hours of Arrival"
+        body: >
+          Every incoming fabric roll is tested for GSM, color (ΔE vs. approved
+          lab dip using spectrophotometer), and shrinkage before it moves to
+          the cutting floor. Rolls measuring ΔE >1.0 against the approved
+          lab dip are rejected and returned to the supplier.
+
+      - icon: "bi-search"
+        title: "Inline QC on Every Production Line"
+        body: >
+          Each of the 12 lines has 2–3 dedicated inline QC workers checking
+          seam integrity, print registration, and garment measurements
+          at 30-piece intervals throughout the production run.
+          Defects are flagged and corrected at the point of production,
+          not caught at final inspection.
+
+      - icon: "bi-patch-check"
+        title: "AQL 2.5 Pre-Shipment on Every Order"
+        body: >
+          Before any order is released for shipping, Jenny's team runs
+          AQL 2.5 full-batch random sampling per ANSI/ASQ Z1.4.
+          Defect findings and pass/fail records are documented and
+          available to clients on request.
+
+      - icon: "bi-pencil-square"
+        title: "Pattern Revisions at USD 40 per Round"
+        body: >
+          Pattern changes are quoted before each revision cycle begins.
+          David's team completes revisions in 2–5 working days and
+          produces a fit sample for client confirmation before the
+          order returns to bulk production.
+
+      - icon: "bi-reply-all"
+        title: "24-Hour Quote Response"
+        body: >
+          Anna's team responds within 24 business hours confirming
+          service track, MOQ applicability (100 pcs/SKU with XS–XXL
+          size splits within the 100), lead time range, and initial
+          pricing direction.
+          This is a reviewed response, not an automated reply.
+
+  # ----------------------------------------------------------
+  # 部分 4 · 为什么选我们，信任纵深（S6 · S7）
+  # ----------------------------------------------------------
+  - id: s6_certifications
+    part: 4
+    label: "Certifications Story"
+    bg: white
+    layout: "left column: 5 cert logos stacked; right column: 5 narrative blocks"
+
+    h2: "Berun's Certifications — What Each One Covers"
+
+    certs:
+      - name: "WRAP Gold"
+        cert_number: "WRAP-GLD-156823"
+        logo: "[TODO: WRAP Gold logo]"
+        body: >
+          WRAP (Worldwide Responsible Accredited Production) is a third-party
+          labor and environmental compliance program with annual on-site audits
+          conducted by independent WRAP-approved monitors.
+          Gold status covers worker welfare, compensation and working hours,
+          health and safety, and environmental management.
+          Audit reports are available to clients under NDA for supplier
+          qualification purposes.
+
+      - name: "GRS"
+        cert_number: "CU 1014387 GRS-2024"
+        logo: "[TODO: GRS logo]"
+        body: >
+          The Global Recycled Standard traces recycled content through the
+          supply chain from raw fiber to finished product.
+          Berun's GRS certification means clients sourcing recycled polyester
+          or nylon orders receive transaction certificates (TCs) linking their
+          specific order to verified recycled fiber sources.
+          This documentation is required by many EU and North American brands
+          for ESG supplier reporting and scope 3 emissions disclosure.
+
+      - name: "Higg FEM 82/100"
+        cert_number: "HIG-FEM-2024-CN-08"
+        logo: "[TODO: Higg Index logo]"
+        body: >
+          The Higg Facility Environmental Module scores factory environmental
+          performance across energy use, water consumption, waste management,
+          and emissions.
+          Berun scored 82 out of 100 in the most recent verified assessment.
+          Clients using the Higg Index for supplier qualification can request
+          the verified FEM score report directly for their internal ESG records.
+
+      - name: "BSCI"
+        cert_number: "BSCI-CN-2024-08-15"
+        logo: "[TODO: BSCI logo]"
+        body: >
+          The Business Social Compliance Initiative audit covers labor rights,
+          occupational health and safety, and business ethics across the
+          production facility.
+          It is the standard used by most European retailers and brands for
+          supplier onboarding and annual supplier reviews.
+          Berun completed its most recent BSCI audit in August 2024
+          with no major non-conformances.
+
+      - name: "OEKO-TEX Standard 100"
+        cert_number: "23.HCN.74521"
+        logo: "[TODO: OEKO-TEX Standard 100 logo]"
+        body: >
+          OEKO-TEX Standard 100 tests garments for over 100 harmful substances
+          including restricted dyes, heavy metals, formaldehyde, and pesticides.
+          Berun's certification (23.HCN.74521) covers both fabric and finished
+          product testing, satisfying chemical safety requirements for brands
+          selling in EU, North American, and ANZ markets with strict
+          restricted substance list (RSL) compliance requirements.
+
+  - id: s7_trust_numbers
+    part: 4
+    label: "Trust Numbers + Factory Tour Invitation"
+    bg: light-gray
+    layout: "4 large stat cards, numbered; 1 paragraph invitation below"
+
+    h2: "Berun Factory Scale and Delivery Record"
+
+    stats:
+      - number: "92.4%"
+        label: "On-Time Delivery Rate"
+        body: >
+          Rolling 12-month average, measured against confirmed ship dates
+          set at order placement. Monthly delivery reports are available
+          to clients with active orders on request.
+
+      - number: "280"
+        label: "Workers, Single Payroll"
+        body: >
+          No subcontracting at any production stage. All machinists, QC
+          staff, pattern makers, and print and embroidery workers are direct
+          Berun employees working in the same facility.
+
+      - number: "8,500 m²"
+        label: "Single Facility, No Split Locations"
+        body: >
+          All 12 production lines, the in-house QC lab, cutting tables,
+          sublimation equipment, and finishing are under one roof.
+          No order is split across separate production sites.
+
+      - number: "8 Years"
+        label: "Operating Since 2017"
+        body: >
+          Certification histories, audit records, and order documentation
+          going back to 2017 are maintained and available to clients
+          conducting supplier due diligence.
+
+    invitation: >
+      Buyers considering a first order or switching suppliers can request
+      a virtual factory walkthrough via video call. Anna schedules these
+      on weekdays at a time that works across time zones.
+      A 45-minute session covers the production floor, QC lab, and
+      print department.
+
+  # ----------------------------------------------------------
+  # 部分 5 · 表单 / CTA（S8）
+  # ----------------------------------------------------------
+  - id: s8_contact
+    part: 5
+    label: "Contact / CTA"
+    bg: dark
+    layout: "left: text + Anna avatar; right: 3 option cards; below: contact form"
+
+    h2: "Contact Berun or Schedule a Factory Tour"
+
+    intro: >
+      Three ways to move forward, depending on where you are in your
+      supplier evaluation.
+
+    options:
+      - icon: "bi-camera-video"
+        title: "Book a Virtual Factory Tour"
+        body: >
+          45-minute video walkthrough of the production floor, QC lab,
+          and print department. Anna hosts. Available weekdays —
+          request a time via email or WhatsApp.
+        cta: "Book via Email"
+        cta_href: "mailto:sales@berunactivewear.com?subject=Virtual Factory Tour Request"
+
+      - icon: "bi-file-earmark-pdf"
+        title: "Request Company Profile Deck"
+        body: >
+          Full PDF covering production capacity by line type, all five
+          certifications, product categories, quality protocols,
+          and pricing structure. Sent within 24 hours of request.
+        cta: "Request Profile Deck"
+        cta_href: "mailto:sales@berunactivewear.com?subject=Company Profile Deck Request"
+
+      - icon: "bi-whatsapp"
+        title: "Talk to Anna Directly"
+        body: >
+          WhatsApp or email. Anna responds within 24 business hours.
+          For urgent RFQs or sample status inquiries,
+          WhatsApp is faster.
+        cta: "WhatsApp Anna"
+        cta_href: "https://wa.me/8615902778636"
+
+    form:
+      heading: "Or send a message"
+      fields:
+        - name: "name"
+          label: "Your Name"
+          type: text
+          required: true
+        - name: "company"
+          label: "Company"
+          type: text
+          required: true
+        - name: "email"
+          label: "Email"
+          type: email
+          required: true
+        - name: "message"
+          label: "What would you like to discuss?"
+          type: textarea
+          required: true
+      submit_label: "Send Message"
+
+    anna_note: >
+      Anna reads every submission. If your inquiry falls outside her scope
+      (production scheduling, QC questions, tech-pack specifics), she routes
+      it to the right team member within the same business day.
