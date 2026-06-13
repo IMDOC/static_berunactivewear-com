@@ -42,14 +42,6 @@
         { "text": "Gym Clothing",      "url": "/gym-clothing-manufacturer" },
         { "text": "Streetwear",        "url": "/custom-streetwear-manufacturer" }
       ]
-    },
-    {
-      "title": "Company",
-      "links": [
-        { "text": "About",   "url": "/about" },
-        { "text": "FAQ",     "url": "/faq" },
-        { "text": "Contact", "url": "/contact" }
-      ]
     }
   ],
   "contact": {
@@ -64,6 +56,9 @@
     "company": "Berun Active Wear",
     "text": "All rights reserved.",
     "links": [
+      { "text": "About",          "url": "/about" },
+      { "text": "FAQ",            "url": "/faq" },
+      { "text": "Contact",        "url": "/contact" },
       { "text": "Privacy Policy", "url": "/privacy-policy" }
     ]
   }
