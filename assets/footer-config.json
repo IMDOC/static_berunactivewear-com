@@ -46,8 +46,10 @@
   ],
   "contact": {
     "title": "Contact Us",
+    "person": "Anna (Sales Manager)",
     "email": "sales@berunactivewear.com",
     "phone": "+86-159-0277-8636",
+    "whatsapp": "+86-159-0277-8636",
     "address": "Guangzhou, China",
     "hours": "Mon-Fri 9AM-6PM (GMT+8)"
   },

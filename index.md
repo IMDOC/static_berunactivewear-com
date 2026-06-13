@@ -1,422 +1,623 @@
 ---
 slug: index
 domain: berunactivewear.com
-page_type: landing
+page_type: landing            # 铁律2：非博客页一律 landing
 primary_keyword: custom activewear manufacturer
-route: A
-section_count: 15
-icp_convergence: 4-ICP-simultaneous
+erp_page_id: 908
+erp_website_id: 17
+
+# ============================================================
+# 阶段 0 · 页面 SEO + 受众简报（立项依据，HTML 不渲染）
+# 立项依据：site-strategy-pack.md §2/§7（ICP/词）+ ERP page#908 + ai_system_prompt
+# 数字口径单一事实源 = ~/Git/site-director/projects/berunactivewear.com/site-facts.md
+#   （2026-06-13 最新口径，6-12/13 二次改造收编；与 strategy-pack §3.3 冲突时以 site-facts.md 为准）
+# ⛔ 本次只做阶段 0。写完即停，待审核后再进阶段 1。
+# ============================================================
+brief:
+
+  # ---- 1. 核心关键词组（这一页要赢的一组词，全部 umbrella/服务层，刻意避开品类词以防蚕食）----
+  keywords:
+    core:
+      - custom activewear manufacturer        # 头部主词（ERP page#908 keyword + meta_title 头词）
+      - OEM activewear manufacturer
+      - ODM sportswear manufacturer
+      - private label activewear manufacturer
+      - cut-and-sew sportswear manufacturer
+
+    # ---- 2. 相关词 / 次级支撑词（仍守 umbrella + 服务修饰，不下沉到品类）----
+    related:
+      - custom sportswear manufacturer
+      - wholesale sportswear manufacturer
+      - low MOQ activewear manufacturer
+      - small batch activewear sampling
+      - activewear factory OEM ODM
+      - OEKO-TEX activewear factory
+      - team uniform manufacturer            # 通用队服词（sport-specific 队服归 soccer/basketball 子页）
+
+    # ---- 3. LSI / 语义词（生产工艺 + 采购语义，天然不与任何子页争排名）----
+    lsi:
+      - moisture-wicking fabric
+      - four-way stretch knit
+      - recycled polyester / GRS
+      - sublimation printing
+      - silicone print / 3D embossed
+      - tech-pack to bulk production
+      - pre-shipment AQL 2.5
+      - MOQ 100 per SKU (split XS–XXL within 100)
+      - factory-direct pricing
+
+    # ---- 4. 搜索意图 ----
+    intent: commercial / transactional
+    intent_note: >
+      买家已过"要不要找海外工厂"阶段，正在比选/替换供应商，准备发 RFQ / tech-pack。
+      首页是 umbrella 入口：用最宽的 manufacturer/OEM/ODM 词截流，再把品类需求分发到各子页。
+
+  # ---- 反蚕食登记（铁律：核心词组不得与已建 sibling 抢同一核心词）----
+  # 以下品类词已各有专属子页拥有其 primary_keyword，首页一律不收，只在正文做内链分发：
+  cannibalization_guard:
+    routed_to_siblings:
+      - "yoga apparel manufacturer            → yoga-apparel-manufacturer.md"
+      - "gym clothing manufacturer            → gym-clothing-manufacturer.md"
+      - "custom compression clothing / compression apparel OEM → custom-compression-clothing.md"
+      - "sports bra manufacturer / custom sports bra manufacturer → wholesale-sports-bras.md"
+      - "cycling apparel manufacturer         → cycling-apparel-manufacturer.md"
+      - "soccer apparel manufacturer          → soccer-apparel-manufacturer.md"
+      - "basketball apparel manufacturer      → basketball-apparel-manufacturer.md"
+      - "custom streetwear manufacturer       → custom-streetwear-manufacturer.md"
+      - "custom mens hoodies manufacturer     → custom-mens-hoodies-manufacturer.md"
+      - "custom yoga apparel / custom leggings manufacturer → 训练品类子页"
+    rule: "首页核心词组与相关词全部停留在 activewear/sportswear umbrella 层；品类长尾不进首页 H1/H2/related，只做内链锚分发。"
+
+  # ---- 5. Primary ICP（每页只钩 1 主，1 副可选）----
+  icp:
+    primary: >
+      ICP-A · 成熟运动/活力服品牌方的 Sourcing Director（年营收 $5M–50M，
+      北美/欧洲 multi-channel，亚马逊大卖家 / Shopify TOP 1%，自负 OEM/ODM 工厂筛选）。
+      决策心理：被前供应商在 QC 一致性 / 交期 / 沟通上踩过坑，不再信 "we can do everything"，
+      只认 spec、看实物、看产能数字。commitment 高（直接谈 OEM 合同 + 3–6 个月备货）。
+    secondary: >
+      ICP-C · 0–3 年 DTC athleisure 新品牌创始人（首次找海外工厂，可能还在 sample 阶段，
+      MOQ 越低越好，要看真实工厂图/视频/客户案例）。首页 hero 钩 A，sampling/MOQ 板块捎带 C。
+
+  # ---- 6. 该 ICP 痛点（真实场景 + 后果 + 当前应付办法 + 解药方向）----
+  pains:
+    - scene: "QC 批次不稳：上一家工厂头几批达标，量产后克重/颜色批次间漂移。"
+      consequence: "终端退货、平台差评、margin 被 chargeback 吃掉。"
+      coping_now: "每批自费请第三方验货 + 留缓冲库存兜底。"
+      remedy_direction: "可核验的 QC 服务 + 书面容差承诺（克重 ±5% / ΔE ≤ 1.5 / 尺寸 ±0.5cm）+ 报告可索。"
+    - scene: "交期不可控：工厂口头答应交期，量产却屡屡延期。"
+      consequence: "错过上新/赛季/补货窗口，断货掉排名。"
+      coping_now: "提前数月压单、自留 buffer 库存。"
+      remedy_direction: "透明排产 + 准时交付承诺（OTD 92.4% 公示 + 月报）+ 进度可见流程。"
+    - scene: "供应商沟通低效：报价含糊、改 spec 反复来回、tech-pack 落不到实物，听够了 'we can do everything'。"
+      consequence: "打样轮次多、决策周期拖长、信任建不起来。"
+      coping_now: "不停催单、靠中间商代沟通。"
+      remedy_direction: "spec-on-paper = spec-on-goods 对账式服务 + 专人对接 + NDA-friendly 资料随时可索 + source-factory 定位（无中间贸易层）。"
+
+  # ---- 7. page_type 侧重 ----
+  emphasis: "home = 重 2+3"
+  emphasis_note: >
+    首页侧重 部分2（提供什么·广度：Product Families + Production Services）
+    + 部分3（怎么做·深度：面料/工艺/流程/打样MOQ）；信任证据（产能/容差/认证/客户）收口在 部分4。
+    全页 commercial intent，hero 即给 source-factory 定位 + 双 CTA（高承诺 RFQ / 低门槛 send tech-pack）。
+
+  # ---- 数字口径声明 ----
+  numbers_source: "~/Git/site-director/projects/berunactivewear.com/site-facts.md（单一事实源，最新口径；与 strategy-pack §3.3 冲突以此为准。禁造冲突数字 / 禁占位符 / 禁假人名公司名）"
+  facts_rulings_locked:           # 阶段 1 起强制遵守（旧页全踩错，新页绝不重犯）
+    - "MOQ = 100 pcs/SKU（XS–XXL 在 100 内拆码），不是 300"
+    - "交期给天数区间：OEM 35–42 库存料 / 48–58 定制料；ODM 30–40；Team 18–25（不写 'predictable, no days'）"
+    - "打样 USD 45 起；库存料 5 天 / 定制料 12 天（双值并列）"
+    - "ΔE 双指标挂对上下文：进厂门 >1.0 拒收（intake）vs 批间承诺 ≤1.5（reorder/PO-to-PO），混用即错"
+    - "客户 logo / 证言禁编造人名公司名（旧页 Hannah Reyes + 12 假 logo 已清）→ 用匿名 ICP 胶囊（'a mid-size NA athleisure brand' 式）"
+    - "装饰工艺按 printing 页 6 种口径（裁定 B）：sublimation / DTG / screen print / silicone / embroidery(flat+3D) / heat transfer"
+    - "OTD 92.4% / AQL 2.5 / 280 人 / 12 线 / 8,500㎡ / since 2017 — 与 site-facts 一致，照用"
+
+# ============================================================
+# 阶段 2 · 网页创意设计概念（HTML 不渲染；builder 阶段 3 读它落地）
+# CEO 定稿 2026-06-13 R12 · hero 改为大气工厂规模实景（blueprint→real 概念移至 OEM 服务页）
+# ============================================================
+design:
+
+  # ---- ★ CONCEPT：一句视觉主张 + 贯穿母题 ----
+  concept:
+    thesis: "Spec on Paper Becomes Spec on Goods"
+    motif: >
+      全页母题 = tech-pack 蓝图 / 测量标注视觉语言：细精准描边线、带尺寸标签的标注箭头（如 ±0.5cm / ΔE≤1.5）、
+      四角定位/裁切 registration marks（⌐ ¬）、色卡 chips、虚线 cut-line、引线 callout。这套"技术制图词汇"像脊柱
+      串过每一节，把"纸上规格 = 成衣"视觉化。page-specific，与 yoga/gym 等 sibling 页完全不同。
+
+  # ---- ★ LEVERS：3 个大胆用，其余克制 ----
+  levers:
+    bold:
+      - "母题贯穿——tech-pack 线条/测量标注词汇穿全页：divider 做带 tick 的工程标尺、eyebrow 带 registration mark 小图标、所有 spec 数字用 tabular figures 当'尺寸标注'排。"
+      - "Blueprint→Real 蓝图转成衣（hero 招牌）。"
+      - "超大编辑字——H1 + 板块序号（01/02… 大号 Archivo Expanded）。"
+    extra_bold: "品牌红 #DC2626 当'QC 已审/approved 印章'结构件用（不只按钮）——盖在 Berun 对比列、承诺卡上。"
+    restrained: "上述之外的视觉手段一律克制：不彩虹渐变、不过度装饰、不堆动效；母题靠'重复+精准'立威，不靠花。"
+
+  # ---- ★ HERO：大气工厂规模实景（R12 重做）----
+  hero:
+    direction: >
+      工厂首页 hero 核心任务 = 5 秒传递"真实、有规模、扛得住量的源头工厂"。
+      blueprint→real 概念精彩但适合 OEM 服务页，首页不要。
+    layout: >
+      左文案 + 右大幅工厂规模实景（aspect-ratio 4/5，rounded，bh-reg 四角定位 accent）。
+      深 #1F2937 全 section 底色，ghost grid 极淡叠加（3% opacity）保留工程 DNA。
+      H1 超大粗 Archivo Expanded 白色；eyebrow 金色 #F59E0B + registration mark；
+      双 CTA（主实心红 / 次白色描边）+ 三级文字链 "Request the capability deck"（金色下划线）。
+    scene_image: >
+      主视觉 = 震撼的工厂规模实景：成排缝纫产线广角 / 裁剪车间 / 8,500㎡ 体量感 / 挂满成衣的产线。
+      中国面孔工人、暖光、广角有体量感。grapesjs 占位 query: garment-factory-production-floor。
+      左下角工程 badge "8,500 ㎡ production floor"，毛玻璃底。onerror 回退纯深色 #111827（无 Image Unavailable）。
+    metric_bar: >
+      指标条 4 数（380,000 / 12 / MOQ 100 / 92.4%）集成在 hero 底部，与 section 深色底融合，
+      半透明白色背景 + 顶边线，数字 tabular figures，醒目传递规模能力。
+    a11y_perf: >
+      ① 图片 eager-load + fetchpriority=high，显式宽高防 CLS。
+      ② onerror 回退纯深色 SVG，不露 Image Unavailable。
+      ③ prefers-reduced-motion 无影响（无动效）。
+
+  # ---- ★ DIVIDERS：母题分隔语言 ----
+  dividers:
+    default: "带 tick 刻度的工程标尺细线（section 之间）。"
+    cutline: "偶尔 dashed cut-line（呼应 cut-and-sew），用在 S3/S9 等工艺/spec 节。"
+    dark_band: "深 #1F2937 全幅 band 用于 S6 / S10 / S12。"
+    stamp: "红 #DC2626 approval 印章作结构 accent（非按钮）：盖 Berun 对比列 / signed-clause 承诺卡 / S6·S10 印章 accent。"
+
+  # ---- ★ MOTION + 开源库（克制，盯性能） ----
+  motion:
+    lib: "GSAP（core + ScrollTrigger only，CDN，defer 引）——hero draw-in + scroll 揭示；不引 GSAP 全家桶。"
+    countup: "数字 count-up：hero 指标条 + S12 data-wall；容器定宽 + tabular figures，防 count 过程宽度跳动。"
+    guard: "克制；上线盯 CLS / INP / 库体积；scroll 揭示用 once + 轻量；reduced-motion 全局降级为无动效直显。"
+    reuse_note: "⭐ 首页把这套'技术制图'视觉语言立住，其他页（含未来 sibling）复用同一组件与母题。"
+
+  # ---- ★ STYLE 基线 ----
+  style:
+    colors: >
+      #DC2626 红 = approval 印章 / CTA / Berun 列高亮；#1F2937 深 = band；#FCD34D 金 = 标注高亮（极克制）；
+      蓝图中性纸底 = off-white #F8F7F4 + 极淡 grid 纹（用 CSS background 画，不用图片，0 额外请求/重量）。
+    type: >
+      Archivo / Archivo Expanded = 大粗标题 + 板块序号；Inter = 正文；所有 spec/测量数字用 tabular figures
+      （font-variant-numeric: tabular-nums，读作技术数据）。字体 font-display: swap，防 FOIT。
+    shape: "中等圆角、克制阴影、充裕'蓝图页边'留白。"
+
+  # ---- ★ 5 部分版式呼应（避开一路居中三列卡 · 落实方向B 三节三版式） ----
+  layout_by_section:
+    S1_hero: "blueprint→real 双联 + 接缝 dimension bar（见 hero 块）。"
+    S2_product: "横向 card-band，每族卡带 tech-pack callout 标注线；9 类目链做成 'spec index' chip 网格。"
+    S3_service: "非对称——OEM/ODM/PL 三大块做成带 cut-line 的编号 stage（01/02/03）；5 支撑服务紧凑标注列表。"
+    S4_buyer: "像'选你的 spec'表单行——每个买家身份做 registration-marked 自选行；⛔ 绝不产品 gallery。"
+    S5_factory: "6 实拍模块化精密网格（contact-sheet / photo-index 感），每张带 registration-mark 小 label。"
+    S6_break: "深 #1F2937 全 band，超大宣言字 + 单红 approval 印章 accent + 软 CTA，大留白。"
+    S7_process: "横向'生产标尺'——4 checkpoint 做成标尺上的 station，天数 badge = dimension callout（母题最强落点）。"
+    S8_fabric: "swatch-chip + 标注双簇（面料 / 6 装饰）。"
+    S9_pricing: "报价构成表做成'spec sheet / 成本蓝图'；左承诺做标注 callout。表内无价格列。"
+    S10_midcta: "红 #DC2626 全 band，单按钮 + 印章 accent。"
+    S11_compare: "Berun 列四角 registration mark + 红高亮做'已审/locked'；他列灰化。"
+    S12_trust: "深 band；6 数做大 dimension-callout；逆转承诺做'signed clause'卡（微 stamp/签名感）。"
+    S13_certs: "5 证编号用 mono/tabular 当精密 ID + registration accent。"
+    S14_case: "居中 quote-card；硬指标行做标注 callout；⛔ 不放头像——用 sample hangtag/吊牌图形。"
+    S15_form: "左承诺做 approval-tick 标注清单；右表单做干净'spec submission'卡。"
+    mobile: "母题降为简单 tick divider + 单列；hero blueprint→real 改竖向堆叠（蓝图标注作真实图顶部细 accent）。"
+
+  # ---- ★ IMAGE_STYLE ----
+  image_style: >
+    真实工厂质感、亚裔工人在岗、暖光、人货平衡；产品走 ghost-mannequin / flat-lay 当主角（非 lifestyle 动作）；
+    hero 需一件成衣的蓝图线稿（SVG/插画 overlay）+ 真实产品/工厂实拍；工厂/QC/产品真实度关键图走 i2i。
+    比例：hero pieces / 产品卡 1:1 或 4:3 / 工厂 gallery 4:3。建页阶段全 grapesjs 占位，真图人工触发后替换。
+
+  # ---- ★ 母题可复用组件（首页立住, 全站复用） ----
+  reusable_components:
+    - "registration-mark 角标（⌐ ¬）— inline SVG 组件"
+    - "工程标尺 divider（带 tick 刻度）— CSS/SVG 组件"
+    - "approval 印章 stamp — 红 #DC2626 结构件"
+    - "spec callout（引线 + dimension label）— 标注组件"
+    - "blueprint grid 纸底 — CSS background（极淡 grid，无图片）"
+    - "dimension bar / 生产标尺 — hero 指标条 + S7 流程复用同一组件"
 ---
 
-# Custom Activewear Manufacturer — OEM, ODM and Private Label
+# Custom Activewear Manufacturer for OEM, ODM and Private Label Programs
 
-> Custom activewear manufacturer running OEM cut-and-sew, ODM, private label, in-house sampling and team-set sublimation under one 8,500 m² roof. MOQ 300 total piece count split flexibly across XS-XXL, one-piece sampling at USD 45 in 5 working days, six tolerance numbers (±5% GSM / ΔE ≤1.5 / ±0.5 cm / MOQ 300 / AQL 2.5 / 12-month rolling OTD 92.4%) published on this page, plus OEKO-TEX / BSCI / WRAP / GRS / Higg cert PDFs on request. Serving sourcing directors at established brands, studio and gym chain owners, DTC founders launching their first batch, and team coaches sourcing season uniforms.
+> Berun Active Wear is a custom activewear manufacturer running OEM cut-and-sew, ODM and private label programs as your source factory — sampling, bulk production, in-house decoration and QC under one payroll, so the team that quotes your spec is the team that sews it.
 
-## 板块 1: Hero — Identity + Primary CTA [full-bleed hero]
+<!-- ===================== 部分 1 · Hero ===================== -->
 
-**H2**: "Custom Activewear Manufacturer — OEM, ODM and Private Label"
+## 板块 1: Hero [full-bleed hero]
 
-**Sub**: "OEM cut-and-sew, ODM, private label and team-set sublimation — MOQ 300 total piece count split flexibly across XS-XXL, sampling at USD 45 in 5 working days, ΔE ≤1.5 batch-to-batch on every PO."
+**H2**: Custom Activewear Manufacturer for OEM, ODM and Private Label Programs
 
-**内容**:
-  - Eyebrow (above H1): "For sourcing teams that need spec on paper and spec on goods"
-  - H1: "Custom Activewear Manufacturer — OEM, ODM and Private Label"
-  - Sub: (see Sub field above)
-  - Stats bar (4 numbers horizontal, 紧贴 sub): "12 production lines · 280 staff · 8 years · 5 certifications on file"
-  - 主 CTA (L2): "Send your tech-pack"
-  - 次 CTA (L1): "Request capability deck (PDF)"
-  - 微 trust 行 (CTAs 下方): "Replies within 1 business day · NDA on request · Sample fee USD 45, 5 working days"
-  - Scroll cue (bottom-center): "↓ See the six numbers your last factory wouldn't put on a webpage" (anchors to S2)
-
-**配图位**:
-  - Hero background: [Image: 工厂 split 双景 — 上半 cutting room 长焦构图 含 pattern-maker 比对 spec sheet 与 lay marker; 下半 cut-and-sew 流水线全景 7-8 工位同时运作; fabric roll 排架虚化背景; 浅灰墙 + 自然光; 16:9; 现场拍摄风格非 stock fitness 模特]
-  - Inset thumbnail 1 (top-right corner, 25% width): [Image: fabric roll 卷布架特写 含 GSM 标签 close-up, 4:3]
-  - Inset thumbnail 2 (bottom-right corner, 25% width): [Image: 工人专注作业手部特写 缝纫机针下针道 close-up, 4:3]
-
-**样式 (方向)**: full-bleed hero, 桌面左 55% 文案区 + 右 45% 视觉区 (主图 + 2 inset 角落叠加); 主图叠 dark overlay (deep slate, 中等 opacity) 提升文案对比度; H1 字号大 (大-超大区间), eyebrow 小字 uppercase brand-red letter-spacing 宽; CTA 双按钮横向并排 (主红 + 次描边白); stats bar 在 CTA 下方 inline 横向, 数字加粗白; mobile 单列堆叠 (主图 → 文案 → CTA → stats), inset 缩成单图. 整体感: factory 门面 + 数据自信 + 4-ICP 触发器隐式覆盖.
-
-## 板块 2: 5-Second Disqualifier Check [data-wall]
-
-**H2**: "Custom Activewear Manufacturer Tolerances"
-
-**Sub**: "Six numbers your last factory wouldn't put on a webpage."
+**Sub**: We are the source factory. One team handles your tech-pack from sample to bulk.
 
 **内容**:
-  - Stat 1: **±5% GSM** / "Per-batch fabric weight tolerance vs spec. Lab report attached to every PO."
-  - Stat 2: **ΔE ≤ 1.5** / "Spectrophotometer color delta vs your approved lab dip. Black-on-black, neon, marl — same rule."
-  - Stat 3: **±0.5 cm** / "Garment measurement tolerance on POM points: chest, waist, inseam, sleeve."
-  - Stat 4: **MOQ 300 / SKU** / "Total piece count, not per size. Split XS-XXL however your size curve reads."
-  - Stat 5: **AQL 2.5** / "Pre-shipment measurement, defect photos and packing records prepared per PO."
-  - Stat 6: **Schedule log** / "12-month rolling OTD 92.4%. Delay notes reviewable under NDA."
+  - **Eyebrow**（H1 上方小号大写，钩 ICP-A + 痛点1 批次漂移）: "For sourcing teams replacing a supplier that drifted batch to batch"
+  - **H1**（含核心词头部 `custom activewear manufacturer` + umbrella 服务词 OEM/ODM/private label，10 词）: "Custom Activewear Manufacturer for OEM, ODM and Private Label Programs"
+  - **Sub**（见上方 Sub 字段 · source-factory 定位）
+  - **主 CTA**（实心红 · 硬 · L2 高承诺，4 词）: "Get a Factory-Direct Quote" → `#rfq`
+  - **次 CTA**（描边 · 软 · L1，3 词）: "Send Your Tech-Pack" → `#rfq`
+  - **三级链**（弱化文字链 · lead magnet 走表单不直链 PDF，方向C）: "Request the capability deck" → `#rfq`
+  - **微 trust 行**（CTA 下方 · **无数字** · 承接"怕被坑"逆转簇，方向A：无贸易加价 / 资料归你+NDA / 先签样后裁大货）: "Source factory, no trading margin · Your tech-pack stays yours, NDA on request · You approve the sample before we cut bulk"
+  - **Scroll cue**（底部居中）: "↓ See what we make and how we run it" → 锚到 S2
+  - 〔**5 秒答 3 问自检**：**这是什么**＝custom activewear manufacturer，做 OEM/ODM/private label（H1+Sub）｜**跟我有关吗**＝对准 ICP-A、钩痛点1「供应商批次漂移」的 sourcing director（eyebrow）｜**凭什么读下去**＝source-factory 定位 +「approve sample = ship bulk」一致性承诺 + 微 trust 逆转行 + 下方 4 硬指标给信任理由（Sub+微 trust+指标条）〕
 
-**配图位**:
-  - Section hero (上方 narrow strip): [Image: spectrophotometer 屏幕特写 显示 ΔE 实际读数 1.3 当前测样位 fabric swatch 旁边 lab dip 参考卡, 21:9 wide-format]
-  - Section secondary (右下角小图): [Image: measuring tape 量测 finished garment POM point at chest, hand 操作中, 4:3]
-  - 每个 stat 卡片角落 1 个细线 SVG icon (24×24, 灰): Stat 1=克重秤 / Stat 2=色卡光谱 / Stat 3=卷尺 / Stat 4=分尺码计数 / Stat 5=QC 印章 / Stat 6=日历日程
+**配图位**: [Image: 全屏 hero 实景——现代运动服 cut-and-sew 生产车间，成排缝纫工位 + 挂架上完成的 leggings/sports bra；前景一位亚裔 QC 人员拿成衣对着 tech-pack/色卡比对核验；明亮、专业、真实工厂质感，**禁 lifestyle/模特摆拍**。建页阶段 grapesjs 占位，真图由 image-pipeline 人工触发后替换。grapesjs query 方向: activewear+garment+factory+production+line+sewing+QC+inspection]
 
-**样式 (方向)**: 全宽浅灰底, section hero 横向 narrow strip 在顶上 (含 ΔE 读数特写 + 第二张 measuring 小图嵌入右下); 下方 6 张数字卡 3×2 grid 间距充裕; 数字字号超大 brand-red font-weight extra-bold, 单位/小数缩小同色, 下行说明 中等灰 line-height 宽松 max-width 收窄; 卡片无边框靠间距区分 (避免视觉拥挤); 卡角落 icon 浅灰细线; mobile 改 2×3 stack, 数字缩小但仍主视觉. 整体感: cold authoritative scorecard, no marketing.
+**样式**: 全屏背景图（工厂实景）+ 深色渐变叠加保证文字对比；文案块**左对齐、居中偏下**；层级 eyebrow(小号大写) → H1(大号粗) → Sub(中号) → 双 CTA 横排(主实心/次描边) → 三级文字链(弱) → 微 trust 行(小号弱化) → scroll cue(底部居中)。主 CTA 走品牌主色实心、次 CTA 描边——具体色值/字号/动效留 HTML 阶段。mobile：文案块上移、背景图等比裁切聚焦车间主体、双 CTA 堆叠全宽、三级链与 scroll cue 可隐。
 
-## 板块 3: Promise Break [break-band]
+<!-- ---- 指标条（hero 下沿薄条 · P1→P2 过渡 · 全站信任数字唯此 4 个进 hero 区） ---- -->
 
-**H2**: "Spec on paper. Spec on goods. Audit any PO."
+## 板块 1b: Key Metrics Strip [metric-strip]
 
-**Sub**: "Every shipment includes a per-batch AQL 2.5 report and a spectrophotometer ΔE log. Pull them at any stage."
+**H2**:（无独立 H2 · 薄条无标题，纯数字带）
 
-**内容**:
-  - 主宣言 (居中, 桌面单行 / mobile 3 行): "Spec on paper. Spec on goods. Audit any PO."
-  - 微注 (主宣言下方, 1 行 brand-yellow): "Every shipment includes a per-batch AQL 2.5 report and a spectrophotometer ΔE log. Pull them at any stage."
-  - 无 CTA / 无卡片 / 无 list / 无数字 — 纯 typography 承担视觉
-
-**配图位**: 无图。深色背景 + 大字号 typography 承担视觉重量。
-
-**样式 (方向)**: 全宽深色底 (slate-dark), 上下大 padding, 主宣言字号大 font-weight 700 white letter-spacing 紧凑 line-height 紧致 居中; 3 句话句号自然分隔 (不强制换行); 微注小字 brand-yellow opacity 略降低 居中距主宣言上方 1.5-2rem; 不放任何视觉元素竞争 typography; section 上下分别 1px 极细 horizontal rule (灰) 增强 break 感; 与 S2 数据密集 + S4 卡片密集形成"密 → 疏 → 密"反差. 整体感: 工厂宣言时刻，类似工人 motto 印在车间墙上.
-
-## 板块 4: Product Family [card-grid image-top]
-
-**H2**: "Custom Activewear Product Families"
-
-**Sub**: "Five families running side-by-side on the same floor."
+**Sub**:（无）
 
 **内容**:
-  - Card 1 · Training & Performance: "High-stretch performance pieces — anti-pilling, moisture-wicking, four-way stretch builds for studio and gym SKUs."
-    - chips: leggings · sports bras (low/mid/high impact) · joggers · shorts · compression top
-    - 链向: /products/training-performance — "View Family →"
-  - Card 2 · Athleisure / Lifestyle Fit: "Heavier-weight knits and looser fits for off-gym wear and lounge collections."
-    - chips: tee · hoodie · jacket · pullover · sweatpant
-    - 链向: /products/athleisure
-  - Card 3 · Team & Club Apparel: "Sublimated team sets with number, name, crest personalization built into the pattern — driven by your roster CSV."
-    - chips: jersey · training tee · warm-up · custom team set
-    - 链向: /products/team-club
-  - Card 4 · Outdoor / Running: "Wind-blocking shells, lightweight running tights, technical singlets for trail and road brands."
-    - chips: windbreaker · running tights · singlet · technical shell
-    - 链向: /products/outdoor-running
-  - Card 5 · Accessories: "Cut-and-sew accessories matched to your main collection's fabric and dye lot."
-    - chips: headband · arm sleeve · socks · cap
-    - 链向: /products/accessories
+  - **4 个硬指标**（方向D · 仅此 4 数进 hero 区；280 人 / 8,500㎡ / AQL / 五证等其余信任数字一律收口部分4，不撒进 S2/S3 正文）:
+    - **380,000** pcs — monthly capacity
+    - **12** production lines
+    - **MOQ 100** per SKU — split across XS–XXL
+    - **92.4%** on-time delivery — 12-month rolling
+  - （数字口径全部 site-facts.md；不加正文、不堆第 5 个数）
 
-**配图位**: 每卡顶部 1 张品类 hero 图 (4:3):
-  - Card 1: [Image: 黑色 leggings 平铺特写, fabric texture cross-grain stretch 可见, 室内自然光中性背景, 4:3]
-  - Card 2: [Image: 灰色 oversized hoodie 半身平铺, 室内中性灰背景, 4:3]
-  - Card 3: [Image: 红蓝撞色 sublimated jersey 平铺含 12 号背号, 4:3]
-  - Card 4: [Image: 亮黄色 windbreaker 户外背景 (公园小径或山道), 4:3]
-  - Card 5: [Image: 头带 + 袜子 + 帽子配色组合平铺 multi-piece flat-lay, 4:3]
+**配图位**:（无 · 纯数字带，不配图）
 
-**样式 (方向)**: 全宽 white 底, 居中 H2 + Sub 限制最大宽度; 下方 5 张卡 桌面 3+2 错位 grid (前 3 列等宽 + 后 2 列居中 offset, 让 row 2 看起来"留白"非 lazy); 卡片白底圆角 + 极细灰边 + 悬停升起阴影; 卡内顶部 4:3 图占 60% 高度 + 下方 padding 含 H3 family 名 + 1 句描述 + chip 群 (圆角药丸状灰底深字) + "View {Family} →" 链接 brand-red 含 arrow; mobile 单列堆叠 间距小; hover → active 触屏适配. 整体感: 干净 catalog-style, 与 S5 服务卡 icon-top 形成视觉对比.
+**样式**: hero 底沿贴一条**横向薄指标带**（桌面 4 格等分，每格 大数字 + 小写 label）；与 hero 同视觉单元或紧贴其下；深底浅字或浅底深字保证对比（色值留 HTML 阶段）。mobile：2×2 网格或横滑，数字仍醒目。不做成统计墙、不加说明段。
 
-## 板块 5: Production Services [card-grid icon-top + bottom hero]
+<!-- ============ 部分 2 · 提供什么（广度）· home 重点 ============ -->
+<!-- 方向B：S2(产品轴) / S3(服务轴) / S4(买家身份轴) 内容轴切开 + 三种不同版式 -->
 
-**H2**: "OEM, ODM & Private Label Manufacturing Services"
+## 板块 2: Product Range & Specialized Lines [standard]
+**【转化组件：Custom 垂直类目网格链子页 · 兼反蚕食内链分发】**
 
-**Sub**: "Seven service tracks for repeat clients."
+**H2**: Activewear We Manufacture
+
+**Sub**: Every product family runs through our factory on the same cutting floor and QC process. Fit and color stay consistent across your full range.
 
 **内容**:
-  - Card 1 · OEM (Cut-and-Sew): "You send tech-pack and approved lab dip; we cut-and-sew to spec."
-    - MOQ: `300/SKU total piece` · lead time: `35-42 days fabric-on-stock`
-    - 链向: /services/oem-cut-and-sew — "See service spec →"
-  - Card 2 · ODM: "Pick from our pattern library, swap color, fabric or logo, skip the pattern-making cycle."
-    - MOQ: `200/SKU` · lead time: `30-40 days`
-    - 链向: /services/odm
-  - Card 3 · Private Label: "Your hangtag, care label, polybag and master carton — full label kit assembled by us."
-    - MOQ: `add-on to OEM/ODM, no extra MOQ`
-    - 链向: /services/private-label
-  - Card 4 · Small-Batch Sampling: "One piece per sample. Sample fee USD 45. Fabric-on-stock turn in 5 working days."
-    - MOQ: `1 piece per sample` · lead time: `5 working days`
-    - 链向: /services/sampling
-  - Card 5 · Custom Print & Embroidery: "Sublimation, DTG, silicone, 3D embossed, flat embroidery, heat transfer — all in-house."
-    - MOQ: `combinable on same PO, no separate MOQ`
-    - 链向: /services/printing
-  - Card 6 · Team Customization: "Per-piece number, name, crest, sponsor block driven by your roster CSV."
-    - MOQ: `50 pieces` · lead time: `18-25 days`
-    - 链向: /services/team-customization
-  - Card 7 · Tech-Pack & Pattern Service: "No tech-pack yet? Our 16 pattern-makers build one from a reference sample or your sketch."
-    - MOQ: `1 pattern fee USD 220` · lead time: `7-14 days`
-    - 链向: /services/tech-pack
+  - **第一层 · 5 个产品族**（族名 + 子类 tag + 1 句；每族链 /products/* 深页）:
+    - **Training & Performance** — leggings, sports bras, joggers, shorts, compression. The pieces washed and stressed most. Runs in 180–320 GSM — leggings at 230–280, shorts 180–220, joggers 280–320. Every construction passes a 50-cycle wash-recovery check before production sign-off. → `/products/training-performance`
+    - **Athleisure & Lifestyle** — tees, hoodies, jackets, pullovers, sweatpants. Heavier knits with a retail hand-feel. Fabric range runs 160–360 GSM: lightweight tees at 160–220, pullovers at 260–300, hoodies at 280–360. Fabric weight and finish are a spec decision made before sampling, not a default. → `/products/athleisure`
+    - **Team & Club** — jerseys, training tees, warm-ups, full team sets. Built for per-unit names, numbers and crests at a 100-piece MOQ. Jerseys run 140–180 GSM for fast dry; warm-ups step up to 220–280. Colour is held consistent across the full roster. → `/products/team-club`
+    - **Outdoor & Running** — windbreakers, running tights, singlets, technical shells. Lighter, weather-aware builds across two weight bands: windbreakers and singlets at 50–160 GSM, softshells and running tights at 180–260. Seam placement, stretch direction and moisture management are part of the brief. → `/products/outdoor-running`
+    - **Accessories** — headbands, arm sleeves, socks, caps. Dye-lot matched to the main collection — produced from the same fabric order so colour stays consistent. Most ship with the main collection PO; standalone accessory runs are quoted at RFQ. → `/products/accessories`
+  - **第二层 · Specialized custom lines**（链 9 个品类子页 · 商业意图锚文本 · 首页不抢这些品类词只发锚）:
+    - Custom yoga apparel manufacturer → `/yoga-apparel-manufacturer`
+    - Gym clothing manufacturer → `/gym-clothing-manufacturer`
+    - Custom compression clothing → `/custom-compression-clothing`
+    - Wholesale sports bras manufacturer → `/wholesale-sports-bras`
+    - Cycling apparel manufacturer → `/cycling-apparel-manufacturer`
+    - Soccer apparel manufacturer → `/soccer-apparel-manufacturer`
+    - Basketball apparel manufacturer → `/basketball-apparel-manufacturer`
+    - Custom streetwear manufacturer → `/custom-streetwear-manufacturer`
+    - Custom men's hoodies manufacturer → `/custom-mens-hoodies-manufacturer`
+  - **微 link**: "Each line has its own spec page — fabric weights, fits and decoration for that category."
 
-**配图位**:
-  - 每卡顶部 32px 细线 SVG icon (灰深, 不用照片): Card 1=cut-and-sew 剪刀+缝纫机 / Card 2=color swatch swap / Card 3=hangtag+polybag stack / Card 4=single sample piece / Card 5=printing screen / Card 6=jersey #12 outline / Card 7=tech-pack document
-  - 全节底部 1 张大图: [Image: 流水线全景, 多工位同时跑不同服务订单 (sublimation 印台 + cut-and-sew 缝纫机 + 烫画工位 visible 同框), 工人专注作业, 16:9]
-  - 中间 detail 小图 (嵌入 4 / 5 卡之间作 visual relief): [Image: 工人手部 cutting fabric with rotary cutter close-up, 4:3]
+**配图位**: [Image: 5 张产品族缩略图——leggings / hoodie / team jersey / windbreaker / accessories 的干净棚拍产品图（平铺或挂拍），产品为主体，不要模特摆拍。grapesjs query: activewear+leggings+hoodie+jersey+windbreaker+accessory+product+flatlay]
 
-**样式 (方向)**: 全宽 white 底, 居中 H2 + Sub; 下方 7 张服务卡 桌面 4+3 grid (前行 4 列, 次行 3 列居中); 卡片极简 — 白底 + 顶部 32px line icon (灰) + H3 服务名加粗 + 1 句话描述 + 横细线分隔 + MOQ/lead time 数据行 (font-mono 紧凑) + "See service spec →" brand-red 链接 with arrow; padding 中等; radius 小; 1px 边; 关键: 与 S4 image-top card 形成对比 — S4=图卡视觉重, S5=icon+text 文字密集; 底部全宽大图 full-bleed (横向); mobile 单列堆叠.
+**样式**（版式A · 区别于 S3/S4）: 上层 5 族走**横向 band / 横滑卡带**（图在上、族名+子类 tag+1 句在下）；下层 specialized lines 做**紧凑文字链/chip 网格**（3×3 或自适应，纯锚链不配大图），与上层产品卡形成"大卡 + 细链"两层节奏。不做成一路三列大卡。
 
-## 板块 6: Capacity Datasheet [split table+image]
+## 板块 3: How You Work With Us [standard]
+**【转化组件：服务模式 OEM-ODM-私标（共 8 服务线）】**
 
-**H2**: "Activewear Factory Capacity Datasheet"
+**H2**: OEM, ODM & Private Label Services
 
-**Sub**: "Copy these rows into your supplier scorecard."
+**Sub**: Send a finished tech-pack, a rough sketch, or a reference sample, and we take it to bulk.
 
 **内容**:
-  - Row 1: **Monthly capacity** → "380,000 pieces (rolling 12-month average)"
-  - Row 2: **Single-PO capacity range** → "50,000 – 100,000 pieces"
-  - Row 3: **Production lines** → "12 (4 sublimation · 5 cut-and-sew · 3 team-set dedicated)"
-  - Row 4: **Line allocation** → "Reserved by approved sample, fabric arrival and shipment date"
-  - Row 5: **Staff on site** → "280 (32 QC · 16 pattern-makers · 8 lab-techs · 224 sewing & finishing)"
-  - Row 6: **Factory footprint** → "8,500 m² (single-site, no offsite subcontracting)"
-  - Row 7: **Bulk lead time (OEM)** → "35-42 days (fabric on stock) · 48-58 days (fabric to-order)"
-  - Row 8: **Sample lead time** → "5 working days (fabric on stock) · 12 working days (fabric to-order)"
-  - Row 9: **On-time delivery** → "12-month rolling 92.4% (NDA-reviewable monthly logs)"
-  - Row 10: **QC pass rate** → "Pre-shipment AQL 2.5, 12-month avg 98.5%"
-  - Row 11: **Years on the floor** → "8 (since 2017)"
-  - 底部链接: "Want this as a one-page PDF? Section below ↓" (anchors to S7 mid-CTA)
+  - **3 条主程序**（OEM / ODM / Private Label 重点突出 · 每条链 /services/*）:
+    - **OEM (Cut-and-Sew)** — You supply the tech-pack — measurements, seam allowances, fabric spec and artwork — and we cut, sew and finish bulk to it. Your approved sample is the line standard; QC checks every production piece against it. MOQ 100 pcs/SKU; bulk runs 35–42 days stock fabric, 48–58 days custom fabric. → `/services/oem`
+    - **ODM** — You pick a base silhouette from our block library, then specify colour, logo placement, fabric weight or finish. Skips the USD 220 pattern-drafting stage and saves 7–14 days. MOQ 100 pcs/SKU; bulk runs 30–40 days from deposit confirmation. → `/services/odm`
+    - **Private Label** — An add-on to OEM or ODM, not a separate track. You supply hangtags, woven care labels, polybags and outer-carton marks; we sew them in and pack to your retail floor-ready spec. Cost quoted per unit alongside the production line; no extra MOQ layer. → `/services/private-label`
+  - **5 条支撑服务**（密集列表 · 每条链 /services/*）:
+    - **Small-Batch Sampling** — One sewn sample before bulk. USD 45 per piece; 5 working days on stock fabric, ~12 when fabric is made to order. The fee is credited back when the order goes to bulk. → `/services/sampling`
+    - **Print & Embroidery** — Sublimation, DTG, screen print, silicone, embroidery and heat transfer, all in-house. → `/services/printing`
+    - **Team Customization** — Names, numbers and crests applied per unit from a roster CSV. MOQ 100 pieces; ships in 18–25 days from a locked roster — no custom-fabric wait. → `/services/team-customization`
+    - **Tech-Pack & Pattern** — No tech-pack yet? Our 16-person pattern team drafts the block from a sketch or reference sample. USD 220 per pattern, 7–14 days; revisions at USD 40 per round. → `/services/tech-pack`
+    - **Wholesale Program** — Repeat SKUs reordered lot-to-lot for distributors and multi-store buyers. → `/services/wholesale`
+  - **微 link**: "Not sure which track? Send the spec and we'll route it."
 
-**配图位**:
-  - Main image (桌面右 45%): [Image: 工厂厂房俯拍 (drone-angle), 流水线 + cut-and-sew 工位 + 成品包装区 一张图三段式构图, 16:9, 显出 single-site scale]
-  - Detail thumbnail 1 (image 下方小图 inset): [Image: cutting room cross-section showing lay marker on long table with operator, 4:3]
-  - Detail thumbnail 2 (image 下方小图 inset): [Image: QC inspector station with measuring tools and lab dip cards, 4:3]
+**配图位**: [Image: 多服务能力实景拼贴——打版桌 tech-pack 图纸 + 缝纫工位 + 印花机 + 贴标包装台，体现一站多服务，亚裔工人在岗。grapesjs query: garment+sewing+pattern+sublimation+printing+labeling+workshop]
 
-**样式 (方向)**: 全宽 white 底, 居中 H2 + Sub (限宽); 下方桌面 split 55/45 — 左 datasheet 表 + 右 factory 图; datasheet 表 2-column (左指标名 中等字号 加粗深字, 右数据 font-mono 等宽 数字突出); 每行间细灰线 1px; 行高 padding 充裕; 表头行加粗 + 浅灰背景; 右 main image 占 45% 完整高度 + 下方嵌入 2 张 detail thumb 横向并排; mobile 改单列堆叠 (图在上 大图全宽 + 2 thumb 横排小图 → 表在下). 整体感: cold professional scorecard, 不要 chart 不要 progress bar 不要花哨视觉.
+**样式**（版式B · 左右非对称，区别于 S2 卡带）: **左栏 3 条主程序**（OEM/ODM/Private Label 做大、视觉权重高）/ **右栏 5 条支撑服务紧凑列表**（小标题 + 1 句）；以"你的设计到哪一步 → 我们从哪接手"为框架，不做成与 S2 同款卡片网格。mobile：主程序在上、支撑列表在下。
 
-## 板块 7: Mid-Page CTA [red-strip mid-cta]
+## 板块 4: Who We Supply [standard]
+**【转化组件：行业分群 · 买家身份轴 · 严禁做成第二个产品 gallery】**
 
-**H2**: "Want the production numbers before sales calls?"
+**H2**: Industries We Supply
 
-**Sub**: "One-page PDF capacity datasheet — direct download, no email gate. Forward it to your sourcing director or operations lead."
+**Sub**: We supply established brands, fitness studios, DTC startups, sports clubs and wholesale buyers. Select your track below.
 
 **内容**:
-  - H2 (居中 white-on-red): "Want the production numbers before sales calls?"
-  - Sub (居中 white-on-red 略小字): "One-page PDF capacity datasheet — direct download, no email gate. Forward it to your sourcing director or operations lead."
-  - 单 CTA (L1): "Download capacity datasheet (PDF)" — white 实底 brand-red 文 + PDF icon
-  - 副链小字 (CTA 下方): "No form. Direct PDF, 280 KB. Updated quarterly."
+  - **5 张买家身份卡**（每张 = 你是谁 → 你最容易栽的点 → 我们把你指向哪个能力/证据；对号入座，不展示产品图）:
+    - **Established brands & sourcing directors** — Replacing a supplier that drifted batch to batch? We hold batch-to-batch colour within ΔE ≤1.5 against your Pantone reference, verified by in-house spectrophotometer before every bulk shipment. WRAP Gold and BSCI audited — compliance paperwork ready the day your retailer asks. → 锚到 S12 容差承诺 / `/about#certifications`
+    - **Fitness studios & gym chains** — Member and trainer kits that hold colour wash after wash. Fabrics pass a 50-cycle wash-recovery test before production sign-off. Low 100-piece MOQ per SKU. → `/gym-clothing-manufacturer`
+    - **DTC & first-time labels** — First overseas run? Start with a USD 45 single-piece sample — you hold the actual garment before committing to bulk. Sample fee credited back when the order goes ahead. 100-piece MOQ per SKU. → `/services/sampling`
+    - **Sports clubs & teams** — Season-dated kits with per-unit names, numbers and crests from a roster CSV. MOQ 100 pieces; turnaround 18–25 days from a locked roster — built to clear before game day. → `/services/team-customization`
+    - **Distributors & wholesale buyers** — Repeat SKUs reordered lot-to-lot: we archive your approved spec and sample so reorders match without a refit round. AQL 2.5 pre-shipment inspection on every lot; carton marks and labelling packed to your program requirements. → `/services/wholesale`
+  - **微 link**: "Not on this list? Tell us how you buy and we'll map the right track."
 
-**配图位**: 无图。强对比色背景承担视觉。
+**配图位**: [Image: 买家场景/身份图（**非产品图**）——sourcing director 看样核验 / 健身房内景教练服 / 创业者看 sample / 球队更衣室队服 / 仓储分销，亚裔为主，弱化为卡片配图不喧宾。grapesjs query: sourcing+director+reviewing+sample+gym+studio+team+locker+warehouse+buyer]
 
-**样式 (方向)**: 全宽 brand-red 底 (与 hero dark / S3 break dark / S15 final dark 形成 4 种 background palette 切换); 紧凑 padding 上下中等 (不要太大 — 这是 strip 不是 anchor section); H2 中等大字 font-weight 700 white 居中限宽 narrow; Sub white 透明度略低 max-width medium 居中; CTA 按钮 white 实底 brand-red 文 加粗 含 PDF icon; 副链 小字 white 透明度低 居中; 关键: 不放数字 grid / 不放表单 / 不放 list — 单一 CTA + supporting copy 即可; mobile 居中堆叠 CTA 全宽. 整体感: 一个红色 ribbon 横切页面提醒"还没下载？现在就下".
+**样式**（版式C · 买家自选行，区别于 S2/S3）: **身份卡做成"对号入座"行/列表**（身份名加粗 + 痛点句 + 指向链），每卡带小身份图标或弱化场景图；**绝不做产品缩略图网格**。突出"你是哪类买家 → 点这里"的自选体验。mobile：单列堆叠。
 
-## 板块 8: Common Problems → How We Solve [3-col comparison-table]
+## 板块 5: Inside the Factory [gallery]
+**【转化组件：工厂实拍 showcase 多角度】**
 
-**H2**: "Common Activewear Manufacturing Problems Solved"
+**H2**: Inside Our Activewear Factory
 
-**Sub**: "Six problems sourcing directors keep flagging — and how our setup answers each."
-
-**内容**: 6 rows comparison table (3-col: Problem / Industry Standard / Berun):
-  - Row 1 · **Tolerance enforcement**
-    - Industry Standard: "Tolerance numbers live inside the MSA, not on the website. You see them after you've already signed."
-    - Berun: "±5% GSM, ΔE ≤ 1.5, ±0.5 cm — printed on this page, written into every PO, attached as report per shipment."
-  - Row 2 · **MOQ math**
-    - Industry Standard: "MOQ 300 / SKU often reads as 300 × 5 sizes = 1,500 unit minimum once your size curve splits."
-    - Berun: "MOQ 300 is the total piece count. Split XS-XXL however your size curve actually sells. Real number for a 5 SKU pilot: 1,500 total, not 7,500."
-  - Row 3 · **Sampling start**
-    - Industry Standard: "Sample fee plus a 5-10 piece minimum to even open a sample order."
-    - Berun: "One piece per sample. USD 45 fee. 5 working days on fabric-on-stock styles. No bulk commitment required."
-  - Row 4 · **On-time delivery accountability**
-    - Industry Standard: "OTD% lives in the contract; you find out it slipped after the second late PO."
-    - Berun: "12-month rolling OTD 92.4%. Shipment schedule logs, packing records and delay notes reviewable under NDA for active buyers."
-  - Row 5 · **Single-site vs subcontracted production**
-    - Industry Standard: "'Factory' often subcontracts 40-60% of PO to third-party workshops with no QC alignment — you find out from inconsistent batches."
-    - Berun: "Single 8,500 m² site, 280 staff in-house. No offsite subcontracting. All 12 production lines under one roof, one QC team."
-  - Row 6 · **Batch-to-batch color consistency**
-    - Industry Standard: "Reorder 6 months later, ΔE drift averages 2.5-3.0 — color visibly doesn't match."
-    - Berun: "Spectrophotometer ΔE ≤ 1.5 enforced batch-to-batch. Lab dip approved once, locked into PO master file, audited every reorder."
-
-**配图位**:
-  - Section hero (上方 narrow strip): [Image: spec sheet 平铺 on production line table 含 spectrophotometer 旁边 lab dip 卡片堆 over-the-shoulder shot of QC inspector reviewing, 21:9]
-  - 6 row-icons (每行左侧 24×24 灰细线 SVG): Row 1=spec doc / Row 2=calculator / Row 3=single sample piece + dollar / Row 4=hourglass + calendar / Row 5=single building (no subcontract) / Row 6=spectrophotometer scan
-
-**样式 (方向)**: 全宽 light-grey 底, 居中 H2 + Sub 限宽; 上方 hero strip 横向 narrow; 下方 6-row comparison table 桌面 3-column (左 problem 加粗深字 / 中 industry 中等灰 含 ✗ 灰标 / 右 Berun 深字 数字加粗 brand-red + ✓ red 标); 6 行间细灰线 1px padding 充裕; 不诋毁同行 — 中列写 "industry standard" 中性描述非 attack; mobile 改上下堆叠 (每行 3 段竖排, "Industry" / "Berun" 段头小字 label 增强可读性). 整体感: 冷静 honesty, 不卖情绪 — 这是"我们承认问题存在，但我们公开承担".
-
-## 板块 9: Sourcing Process [horizontal stepper]
-
-**H2**: "Activewear Sourcing Process: Tech-Pack to Bulk"
-
-**Sub**: "From first email to delivered cartons — five steps over 50 to 58 days."
-
-**内容**: 5-step stepper (horizontal 桌面 / vertical mobile):
-  - Step 1 · **Inquiry** | Day 0-3
-    - You send: spec / tech-pack OR reference sample (no tech-pack? we build one)
-    - Berun returns: RFQ with MOQ, lead time, sample fee quote, suggested fabric options
-    - Price point: free (no obligation)
-  - Step 2 · **Sample** | Day 4-9 fabric-on-stock / Day 4-16 fabric-to-order
-    - You send: USD 45 sample fee + lab dip color spec (or pick from our library)
-    - Berun returns: 1-piece sample + pattern + fabric swatch + lab dip color match (ΔE ≤ 1.5)
-    - Price point: USD 45 sample fee
-  - Step 3 · **Approval** | Day 10-13
-    - You sign off: pattern + fit + fabric + color
-    - Berun returns: locked tech-pack + PO confirmation + 30% deposit invoice
-    - Price point: 30% deposit on PO total
-  - Step 4 · **Bulk Production** | Day 14-49 (35 days OEM, +7 buffer for printing/embroidery)
-    - You receive: WIP photos at cutting / mid-production / pre-shipment stages
-    - Berun runs: cut → sew → print/embroidery → AQL 2.5 pre-shipment QC inspection
-    - Price point: balance reminder at AQL pass
-  - Step 5 · **Delivery** | Day 50-58
-    - You receive: Pre-shipment QC report + packing photos + trackable shipment ID
-    - Berun ships: FOB or CIF per PO + 70% balance due on BL copy
-    - Price point: 70% balance on BL
-
-**配图位**: 5 step images (1 per node, 4:3 each):
-  - Step 1: [Image: tech-pack document flat-lay + RFQ printout + reference garment on desk, top-down, 4:3]
-  - Step 2: [Image: pattern-maker at table cutting sample + lab dip color card visible, 4:3]
-  - Step 3: [Image: approved sample with paper sign-off form + PO confirmation, 4:3]
-  - Step 4: [Image: production line running full with WIP garments in progress, 4:3]
-  - Step 5: [Image: packed cartons stacked + shipping label visible + container or pallet in background, 4:3]
-
-**样式 (方向)**: 全宽 white 底, 居中 H2 + Sub; 下方 horizontal stepper 5 nodes (桌面 left→right): 每 node 含 numbered badge (1-5 brand-red circle) + step title 加粗 + day range (font-mono brand-red) + 3 sub-items (You / Berun / Price) + 配图 thumbnail; nodes 间 horizontal connecting line 含 step transition; mobile 改 vertical stepper (上→下) line 改为 vertical, nodes 单列堆叠; 关键: plain-language step names (Inquiry / Sample / Approval / Bulk Production / Delivery), 不用 jargon (Quotation / Prototyping / Pre-production / Production / Logistics). 整体感: 像工业说明书但读起来人话，给 ICP-C 安全感.
-
-## 板块 10: Certifications & Compliance [badge-row + expanded list]
-
-**H2**: "Activewear Manufacturer Certifications"
-
-**Sub**: "Five certifications on file — request the PDFs by name."
+**Sub**: Our in-house cutting, printing, sewing and QC floor, where your order is produced.
 
 **内容**:
-  - Top badge row (上方横排 5 badge): OEKO-TEX Standard 100 / BSCI / WRAP Gold / GRS / Higg FEM (灰阶 hover 转彩)
-  - Expanded 5-row list (下方, 每行 1 个 cert):
-    - Row 1 · **OEKO-TEX Standard 100**: "Fabric tested for harmful substances per Annex 6, covering our knit and woven main fabrics." → Cert no. `23.HCN.74521` · "Request PDF" (L1)
-    - Row 2 · **BSCI**: "Social compliance audit, Class B+ rating in the August 2024 renewal. Covers our main facility and dormitory." → Audit no. `BSCI-CN-2024-08-15` · "Request PDF"
-    - Row 3 · **WRAP Gold**: "Worldwide Responsible Accredited Production at Gold tier — the highest of three tiers." → Cert no. `WRAP-GLD-156823` · "Request PDF"
-    - Row 4 · **GRS**: "Global Recycled Standard for our recycled-polyester product line — rPET jerseys, leggings, training tops." → Cert no. `CU 1014387 GRS-2024` · "Request PDF"
-    - Row 5 · **Higg FEM**: "Higg Facility Environmental Module, score 82/100 in the 2024 SLCP-verified assessment." → Assessment no. `HIG-FEM-2024-CN-08` · "Request PDF"
-  - 底部次 CTA (L1): "Get all five as a zipped pack" (single-click)
+  - **6 角度工厂实拍**（label + 1 句 · 图为主体、文案极简）:
+    - **Cutting & pattern** — Markers laid and panels cut on the same floor as sewing.
+    - **Sublimation lines** — Dye-sublimation printed in-house before cut, not subcontracted.
+    - **Cut-and-sew floor** — Operators and inline QC on every line.
+    - **Print & embroidery** — All six decoration methods run under the same roof.
+    - **Sampling room** — Single samples sewn before any bulk run starts.
+    - **QC & in-house lab** — Pre-shipment inspection and fabric testing on site.
+  - （不展开数字/规格——规模与产能数字归部分4 S12）
 
-**配图位**:
-  - 5 cert logo images (60-80px 横排, 灰阶 hover 转彩): OEKO-TEX / BSCI / WRAP / GRS / Higg 官方版式
-  - 5 cert preview thumbnails (列表每行右侧 inline 小图, 显示 PDF 首页 with cert number visible): 1 per row
+**配图位**: [Image: 6 张工厂多角度实拍——裁床/打版台 · 升华印花机出布 · cut-and-sew 产线广角 · 刺绣/印花工位 · 打样间挂样 · QC 验货台，亚裔工人在岗，暖光真实质感。grapesjs query: garment+factory+cutting+sublimation+sewing+line+embroidery+sampling+QC+lab+workers]
 
-**样式 (方向)**: 全宽 white 底, 居中 H2 + Sub; 上半 badge row 桌面横向 1 行 5 个 logo (灰阶 hover 转彩, mobile wrap 成 2 行 3+2); 下半 5-row list (每行 split 60/40 — 左 cert 名 + 描述, 右 cert no. + Request PDF L1 CTA + thumb preview); 行间 1px 细灰线 padding 中等; cert 名加粗深字 描述中等灰 cert 编号 inline font-mono 深字; "Request PDF" 文字链 brand-red + arrow; 底部 zipped pack CTA L1 text-link 居中; mobile list 上下堆叠 (cert+描述上, CTA 下). 整体感: 合规 list 风格, 不要花哨 — 这是给 compliance officer 看的.
+**样式**（gallery 视觉呼吸 · 图主导）: **多角度实拍网格**（桌面 3 列或 2 行，mobile 横滑/2 列）；图为视觉主体，短 label 叠图上或紧贴图下；文案极简靠图说话。与前三节文字密集节奏形成对比。
 
-## 板块 11: Real Life Examples [case-cards masonry-light]
+## 板块 6: Source-Factory [break-band]
+**【喘气块 · 单焦点宣言 + 单软 CTA】**
 
-**H2**: "Custom Activewear Manufacturer Case Studies"
+**H2**: We are the factory, not a trading company.
 
-**Sub**: "Different ICPs, different PO sizes, different first-orders — same line allocation, same QC team, same lab dip lane."
-
-**内容**: 4 case cards (2×2 masonry-light, 不等高):
-  - Case 1 (ICP-A) · **Boulder, CO** | $18M ARR Athleisure Brand
-    - PO scale: 4,200 pcs first order, 4 colors
-    - Product: Performance leggings + sports bras
-    - Key metrics: `OTD 17 days` · `Lab dip first-round pass` · `Reorder 11,000 pcs 6 weeks later`
-    - Micro-quote (≤20 words): "Cut my third-party inspection budget in half — every PO carries an AQL report."
-  - Case 2 (ICP-A + C bridge) · **Berlin, EU** | $3.8M ARR DTC Athleisure
-    - PO scale: 5 SKU first launch, MOQ 300 total split XS-XXL (60 pcs/size)
-    - Product: Performance tees + joggers (5 colorways)
-    - Key metrics: `MOQ 300 = 300 not 1,500` · `88% sell-through in 60 days` · `2nd PO 5 weeks later`
-    - Micro-quote: "Real MOQ math saved 5 SKU launches my last factory killed."
-  - Case 3 (ICP-B) · **Texas, US** | 8-Location Fitness Chain
-    - PO scale: 800 pcs trainer uniforms annually, 3-year reorder cycle
-    - Product: Trainer tees + branded zip-up jackets
-    - Key metrics: `ΔE drift <0.8 across 3 years` · `OTD 100% on annual orders` · `Same SKU reorder year 4 confirmed`
-    - Micro-quote: "Year-over-year reorders match — no scrap, no member complaints."
-  - Case 4 (ICP-D) · **Massachusetts, US** | CrossFit Box Team
-    - PO scale: 45-person team sublimated jerseys
-    - Product: Custom team set (number + name + crest, roster CSV driven)
-    - Key metrics: `Pre-season lead 35 days` · `Game-day OTD` · `Sponsor block added on amend`
-    - Micro-quote: "Roster CSV → sublimated jerseys in 35 days. Game-day ready."
-
-**配图位**:
-  - 4 product hero images (1 per case, top of card, 4:3):
-    - Case 1: [Image: 4-color performance leggings stack flat-lay on light bg, 4:3]
-    - Case 2: [Image: 5 colorway tee + jogger flat-lay mixed XS-XXL stack, 4:3]
-    - Case 3: [Image: trainer tee + jacket pair on hanger close-up, 4:3]
-    - Case 4: [Image: team jersey with #12 + surname print + crest detail, 4:3]
-  - 4 context thumbnails (each card secondary, smaller inline, 4:3):
-    - Case 1: [Image: Boulder mountain skyline silhouette / athleisure brand IG screenshot mock, 4:3]
-    - Case 2: [Image: Berlin DTC brand-style packaging or unboxing scene, 4:3]
-    - Case 3: [Image: fitness chain gym interior with trainers in branded uniforms, 4:3]
-    - Case 4: [Image: CrossFit box interior with team jerseys hanging or athletes wearing, 4:3]
-
-**样式 (方向)**: 全宽 light-grey 底, 居中 H2 + Sub; 下方 4 case cards 2×2 masonry-light grid (高度略不等增加视觉节奏, 不是死板对齐); 每 card 白底圆角 padding 充裕含: top 4:3 product image (60% high) + ICP tag chip (brand-red 圆角药丸 e.g., "ICP-A · Sourcing Director") + city + brand-type 行 (font-mono small) + PO scale + product 行 (加粗) + 3 key-metric chips (灰底深字 圆角) + micro-quote (italic 中等字号 brand-red 左侧引号装饰) + secondary thumb 小图 inline (右下角 inset); mobile 单列堆叠 不等高自然. 整体感: 案例 portfolio 风格但 data-driven 非视觉炫耀.
-
-## 板块 12: Client Voice [quote-cards 3-col]
-
-**H2**: "Sourcing Director Reviews of Our Manufacturing"
-
-**Sub**: "What sourcing-side counterparts say after PO 3."
-
-**内容**: 3 quote cards (different from about S12's 4 relationship quotes — focus on capability/delivery):
-  - Quote 1 · Maya R. | Senior Sourcing Director, Boulder CO athleisure brand ($18M ARR)
-    > "Two factories ago, batch-to-batch GSM drift was killing my Amazon BSR — 14% variance across one PO. We switched 3 SKUs to Berun. First PO: 4,200 pieces across 4 colors, OTD 17 days, lab dip passed on the first round. Reordered 11K pieces 6 weeks later. The pre-shipment AQL report comes with every PO — I cut my third-party inspection budget in half."
-  - Quote 2 · Lukas H. | Brand Founder, Berlin EU DTC athleisure ($3.8M ARR)
-    > "Most factories quote MOQ 300 per SKU but actually mean 300 × 5 sizes = 1,500 units. That math killed 6 SKU launches for us in 2023. Berun split 300 across XS-XXL on our first PO — we launched 5 SKUs in Q1 2024 and hit 88% sell-through within 60 days. They send a monthly OTD report unprompted; I forward it to my CFO every month."
-  - Quote 3 · Tate W. | Operations Director, 12-location Atlanta GA gym chain
-    > "Annual trainer uniform reorder is non-negotiable — if last year's batch and this year's batch don't match in person, members ask why. Berun's ΔE drift has stayed under 1.0 across three reorder years. We sized the new locations in year 4 and the spectrophotometer log proves the color is identical to year 1. No batch-to-batch surprises means I don't carry safety stock for color compensation."
-
-**配图位**:
-  - 3 product context images (1 per quote, no portraits to avoid stock-photo issue):
-    - Quote 1: [Image: 4-color performance leggings finished stack on warehouse shelf, 4:3]
-    - Quote 2: [Image: 5-color DTC tee flat-lay showing size split XS-XXL, 4:3]
-    - Quote 3: [Image: 3 trainer uniforms hung side-by-side showing color match across years (visually identical), 4:3]
-  - Large quote symbol SVG (brand-red opacity 低): 1 per card top-left (装饰, 非内容)
-
-**样式 (方向)**: 全宽 light-grey 底 padding 上下大; 上方居中 H2 小字 uppercase letter-spacing 宽 灰; 下方 3 quote 卡 horizontal grid (33/33/33 桌面); 每 quote 卡白底圆角 padding 大含: 顶部大引号 SVG (brand-red opacity 低 line-height 紧) + quote 文字 (中等字号 深字 line-height 宽 font-weight normal) + 横细灰线 + attribution 行 (小字 中等灰 font-weight 中等 非斜体) + 底部 product context image inline 4:3; 不要 logo / 不要 portraits / 不要 CTA; mobile 单卡堆叠居中 大引号缩小. 整体感: 朴素 testimonial wall, quote 自带说服力不靠装饰.
-
-## 板块 13: Markets Served & Client Profile [logo-wall + dual-data split]
-
-**H2**: "Global Activewear Manufacturer Markets"
-
-**Sub**: "Eight years, five regions, five buyer types."
+**Sub**:（break-band 单焦点 · 无独立 Sub，H2 即聚焦句）
 
 **内容**:
-  - Top section: Logo wall — 12 brand names (sans-serif uniform 灰阶):
-    - `Akarra Active` · `Aspen Athletic Co.` · `Berlin Mile Club` · `Capella Sport` · `Coastline Performance` · `Forge Lab Athletics` · `Granite Run` · `Kindred Strength` · `Meridian Move` · `Northcrest Outdoor` · `Sequoia Sweat` · `Verdant Athletics`
-  - Bottom section split 50/50:
-    - Left (Markets shipped, % of 2024 volume):
-      - North America (US, CA): `42%`
-      - Europe (UK, DE, FR, NL): `28%`
-      - Oceania (AU, NZ): `14%`
-      - Middle East (UAE, SA): `10%`
-      - LATAM (MX, BR): `6%`
-    - Right (Client type mix, % of active accounts):
-      - Established sportswear / athleisure brand ($5-50M ARR): `38%`
-      - DTC athleisure new brand (0-3 yr): `22%`
-      - Fitness studio chain: `18%`
-      - Sports team / club / box: `12%`
-      - Wholesale distributor: `10%`
+  - **1 段聚焦宣言**（**无数字 · 无列表 · 无 CTA 群** · 只 1 段 + 1 软 CTA）:
+    "Every quote, sample and bulk run is owned by the same people who run the lines. There's no layer in between to lose your color reference, thin your margin or quietly rewrite your spec. The answer you get is the answer from production."
+  - **软 CTA**（单个 · 宣传语式）: "See how a program runs →" → 锚到 S7
+  - （source-factory 信息的主场在此一节；hero 微 trust 行点过、S11 对比表深证，正文不再复读）
 
-**配图位**:
-  - 12 brand text-logos (uniform sans-serif typeface 灰阶 high contrast 不彩色): 3-col × 4-row grid 桌面 / 2-col × 6-row mobile
-  - 无照片 — pure typography 承担视觉
+**配图位**: [Image: 宽幅车间全景——运动服生产线广角实景，亚裔工人在岗，暖色调，单张大图作背景或衬底。grapesjs query: garment+factory+production+floor+wide+panorama+workers]
 
-**样式 (方向)**: 全宽 white 底, 居中 H2 + Sub 限宽; 上半 logo wall 桌面 6-col × 2-row grid 高度统一 灰阶 sans-serif typography 字间距充足; 下半 split 桌面 2-col (50/50): 左 markets 5-row + 右 client types 5-row; region/type 名加粗深字, % 数字 font-mono 加粗 brand-red 字号略大; 不画饼图 (容易显廉价) — pure number list; 行间细灰线 1px padding 中等; mobile logo wall 改 3-col × 4-row + 下半 split 上下堆叠. 整体感: cold data summary, 让 ICP 自己读 38% Established Brand 就知道"我属于主流客户".
+**样式**（break-band 喘气 · 1 视觉重心）: 全宽对比色 band，中央 1 段宣言（大字）+ 1 软 CTA，上下大留白；不放图墙/列表/多按钮。具体配色/是否压底图留 HTML 阶段。
 
-## 板块 14: FAQ [vertical accordion]
+<!-- ============ 部分 3 · 怎么做（深度·重点厚）· home 重点 ============ -->
 
-**H2**: "Custom Activewear Manufacturing FAQ"
+## 板块 7: How a Program Runs [timeline]
+**【转化组件：流程带天数（双值）】**
 
-**Sub**: "Eight questions sourcing directors and first-time founders ask before PO 1."
+**H2**: From Tech-Pack to Bulk in 4 Stages
 
-**内容**: 8 Q&A (vertical accordion, 默认全 collapsed):
-  - Q1: **How is MOQ split across sizes? Does 300 mean 300 per SKU or 300 × 5 sizes?**
-    > A: Our MOQ 300 is the **total piece count** for one SKU — not per size. You decide the size curve. If your sales data says XS=10% / S=20% / M=30% / L=25% / XL=15%, we cut 30/60/90/75/45 pieces. Most factories quote 300 per size, which means 1,500 pieces minimum once your size curve splits. We don't.
-    > Link: [Production Services Card 1 ↑](#s5) · [Common Problems Row 2 ↑](#s8)
-  - Q2: **What's your sampling cost and turnaround time?**
-    > A: USD 45 per sample. 5 working days on fabric we have in stock; 12 working days if your fabric is custom or sourced. You get a full one-piece sample with pattern + fabric swatch + lab dip color match. No bulk commitment required.
-    > Link: [Production Services Card 4 ↑](#s5)
-  - Q3: **I don't have a tech-pack — can I still work with you?**
-    > A: Yes. Our 16 pattern-makers can build a tech-pack from a reference sample (a garment you already own) or a sketch. The pattern fee is USD 220 and it takes 7-14 days. After that we proceed exactly the same way as a client who brought their own tech-pack.
-    > Link: [Production Services Card 7 ↑](#s5) · [Sourcing Process Step 1 ↑](#s9)
-  - Q4: **What does AQL 2.5 actually mean for my order?**
-    > A: AQL stands for Acceptable Quality Limit — it's the inspection sampling rate we use per ANSI/ASQ Z1.4. In plain English: we randomly inspect a statistically valid sample of pieces from your batch (typically 80-200 pieces depending on PO size) and check for defects. AQL 2.5 is the standard quality level retailers like Target and Costco require. We share the inspection report with every shipment.
-  - Q5: **What's your on-time delivery rate? Can I see evidence?**
-    > A: 12-month rolling OTD is 92.4%. We log every shipment with promised date, actual date, and delay reason. The full log is reviewable under NDA for active buyers. We also send monthly OTD reports to repeat clients without being asked.
-    > Link: [Capacity Datasheet Row 9 ↑](#s6) · [Common Problems Row 4 ↑](#s8)
-  - Q6: **Difference between OEM, ODM, and Private Label?**
-    > A: **OEM**: you bring the tech-pack and the design — we cut and sew to your spec. **ODM**: you pick from our pattern library and customize color / fabric / logo — we skip the pattern-making cycle so you launch faster. **Private Label**: add your hangtag, care label, polybag and master carton on top of OEM or ODM. Private Label has no extra MOQ — it's an add-on.
-    > Link: [Production Services Cards 1, 2, 3 ↑](#s5)
-  - Q7: **Payment terms and FOB/CIF options?**
-    > A: Standard PO terms: 30% deposit on PO confirmation, 70% balance on BL (bill of lading) copy. FOB is default (you arrange shipping from our nearest port). CIF available on request (we arrange shipping to your destination port). For active buyers with repeat orders, we offer NET-30 on the balance.
-  - Q8: **How do you handle batch-to-batch color consistency?**
-    > A: Every PO starts with a lab dip — your approved color sample. We measure ΔE (color delta) against the lab dip using a spectrophotometer at three checkpoints: fabric receiving, mid-production, and pre-shipment. ΔE must stay ≤ 1.5. The lab dip is stored in your client master file and pulled for every reorder — so a reorder 6 months later matches the original.
-    > Link: [5-Sec Disqualifier Stat 2 ↑](#s2)
-  - 底部链接 (FAQ 末尾): "Have another question? Send it to factory@berunactivewear.com — we reply within 1 business day." (text-link, not CTA button)
-
-**配图位**:
-  - 1 lead image (section top, 16:9): [Image: RFQ consultation scene — buyer (sourcing director) seated across from Berun rep at factory office desk reviewing tech-pack documents, friendly professional setting, humanizing FAQ context, 16:9]
-  - 无 image inside accordion items (text-only pure Q&A)
-
-**样式 (方向)**: 全宽 white 底, 居中 H2 + Sub 限宽; 上方 1 lead image 16:9 width 中等限宽 (不 full-bleed, 让 accordion 主视觉); 下方 vertical accordion 8 items 全宽 max-width medium 居中; 每 item 默认 collapsed 显示 Q (加粗深字) + ▼ icon brand-red 右对齐; click 展开 single-item (其他自动 collapse), 展开后显示 A (plain English line-height 宽 中等字号) + inline links brand-red; 行间细灰线 1px; 底部 send-question link 居中 brand-red; FAQ Schema (JSON-LD FAQPage) embedded at section end for Google rich snippets; mobile 同 vertical 不变 (accordion 本身是 mobile-friendly layout). 整体感: 静态 help-center 风格, 不要 fancy 动效 — 信息为王.
-
-## 板块 15: Final CTA [dark full-bleed final-cta]
-
-**H2**: "Ready to put a real factory on your shortlist?"
-
-**Sub**: "Send your tech-pack and we'll come back within one business day with a per-size MOQ split, sampling timeline, and an FOB quote. Or book a 30-min sourcing call with our engineering lead first."
+**Sub**: One project owner manages your order through four stages. You sign off at each, and each has a defined lead-time window.
 
 **内容**:
-  - H2 (居中 white-on-dark): "Ready to put a real factory on your shortlist?"
-  - Sub (居中 white-on-dark slightly muted): "Send your tech-pack and we'll come back within one business day with a per-size MOQ split, sampling timeline, and an FOB quote. Or book a 30-min sourcing call with our engineering lead first."
-  - 主 CTA (L2): "Book a 30-min sourcing call" (brand-red 实底 白字)
-  - 次 CTA (L1): "Download spec template (XLSX)" (outlined white 白字)
-  - 微 trust 行 (CTAs 下方): "Replies within 1 business day · NDA on request · Sample fee waived after first PO"
+  - **4 步对账式流程**（步骤号 + 标题 + 1 句 + 天数 badge · 单服务细节外送 /services）:
+    1. **Spec & Tech-Pack** — We confirm fabric, measurements and tolerances on paper, or draft the tech-pack if you don't have one (pattern service, 7–14 days). You get a quote back within 24 hours.
+    2. **Sampling** — One sewn sample to check fit, colour and hand before anything scales. USD 45 per piece, credited back when the order goes to bulk. Uses the same fabric grade as bulk — not a stand-in material. **5 working days on stock fabric, about 12 when fabric is made to order.**
+    3. **Bulk Production** — Your approved sample becomes the line standard. Inline QC on the cutting-and-sewing floor checks every piece against that sample. Lead time starts from deposit confirmation, not from when you send the spec. **OEM runs 35–42 days on stock fabric, 48–58 with custom fabric; ODM from our blocks runs 30–40.**
+    4. **Pre-Ship QC & Handover** — Pre-shipment inspection, photos and your packing files before goods leave.
+  - **Team note**（队服单独窗口）: "Team kits with per-unit names and numbers ship on an 18–25 day window from a locked roster."
+  - **微 link**: "Every step is documented and shareable. Full step-by-step per service → /services."
+  - （AQL / OTD% / 容差等 QC 信任数字归部分4 S12，此处只给流程与天数）
 
-**配图位**: 无图。dark bg + typography + CTA buttons 承担视觉。
+**配图位**: [Image: 4 步流程实景拼贴——打版/tech-pack · 打样核验 · 大货车间 · 验货装箱，亚裔人员在岗。grapesjs query: garment+pattern+sampling+approval+bulk+production+QC+inspection+workflow]
 
-**样式 (方向)**: 全宽 deep-slate-dark 底 (与 hero overlay / S3 break 同色形成"开宣言 → 中间 break → 收 CTA"三段呼应); 上下大 padding; H2 大字号 font-weight 700 white 居中 max-width narrow line-height 紧致; Sub 中等字号 white 透明度略低 max-width medium 居中 line-height 宽; CTA 区距 Sub 上方 2.5rem 横向 2 按钮 (桌面) 或上下堆叠 (mobile); 主 CTA brand-red 实底 white 文 加粗 padding 大 圆角; 次 CTA 透明底 1px white 边 white 文 同尺寸; 微 trust 行 小字 中等灰 letter-spacing 宽 居中距 CTA 上方 2rem; 关键: 与 S7 mid-CTA (red strip 单 CTA) 视觉权重区分 — S7 = 红底单 CTA 紧凑提醒, S15 = 深底双 CTA 终结型 padding 更大 字号更大; mobile 居中堆叠 CTA 全宽. 整体感: 终幕 closing 时刻 — 给买家最后 2 个明确 action.
+**样式**（timeline · 区别于卡片网格）: 4 步横向 timeline（步骤号 + 标题 + 1 句 + 天数 badge 醒目）；mobile 转竖向流程条。1 条主线不分叉；天数 badge 是本节视觉抓手。
+
+## 板块 8: Fabric & Decoration Capability [standard]
+
+**H2**: Fabrics & Decoration
+
+**Sub**: We select fabric weight and stretch for the intended use and handle all decoration in-house.
+
+**内容**:
+  - **面料性能纵深**（帮买家自筛 · 数字仅性能阈值点到为止）:
+    - **Four-way stretch** — Warp-knit constructions recover after squat-and-bend, at least 40% elongation both ways.
+    - **Moisture-wicking knits** — Poly-spandex and nylon-spandex move sweat off the skin instead of holding it.
+    - **Recovery tested** — Fabrics clear a 50-cycle wash-recovery check before sign-off, so leggings don't bag by week two.
+    - **Recycled content (GRS)** — Recycled polyester when your buyer asks for a verified chain, not just a claim.
+    - **Weight matched to use** — Lighter knits for summer training, heavier French terry and fleece for athleisure.
+  - **装饰工艺（6 种 in-house · printing 页口径）**:
+    - **Sublimation** — All-over graphics dyed into the fabric; best for team kits, won't crack or peel.
+    - **Screen print** — High-opacity flat graphics for streetwear and bold logos.
+    - **DTG** — Short-run photographic prints for sampling and small drops.
+    - **Silicone print** — Raised, durable logos that survive repeat washing.
+    - **Embroidery (flat & 3D)** — Stitched crests and wordmarks for a retail-grade finish.
+    - **Heat transfer** — Names, numbers and small placements applied per unit.
+  - **微 link**: "Tell us the effect you want; we'll match the fabric and the technique that hold up for that wash cycle. Per-category specs → /products · decoration depth → /services/printing."
+  - （色彩一致性/ΔE 容差是承诺项，归部分4 S12，此处不展开）
+
+**配图位**: [Image: 面料 + 装饰特写拼贴——多卷针织运动面料 + swatch 色卡墙 + 一只手拉伸面料测回弹；升华印花出布 + 刺绣机走线 + 硅胶印 logo 成衣特写，实景棚拍/车间。grapesjs query: activewear+fabric+knit+swatch+stretch+sublimation+embroidery+silicone+decoration]
+
+**样式**（双簇 · 区别于 timeline/对比表）: 左簇面料性能 / 右簇 6 装饰工艺（或上下两簇），每条 = 加粗小标题 + 1 句；配 1–2 张特写图。性能数字（40% / 50-cycle）嵌句中，不单列数字墙。
+
+## 板块 9: Sampling, MOQ & Pricing Structure [standard + table]
+**【转化组件：价格-MOQ 结构表（非单价 / 禁 list price）】**
+
+**H2**: Sampling, MOQ & Pricing
+
+**Sub**: Sample one piece before committing to bulk. MOQ starts at 100 pieces per SKU, split across sizes.
+
+**内容**:
+  - **左栏 · 怎么试、起做多少**（要点 · 数字嵌句中）:
+    - **Sample first, one piece** — One sewn sample, not a minimum run. USD 45 per piece; 5 working days on stock fabric, about 12 when made to order. The sample fee is credited back when the order goes to bulk.
+    - **MOQ that doesn't multiply by size** — 100 pieces per SKU, split across XS–XXL within that 100 — not 100 per size that quietly balloons into thousands.
+    - **No tech-pack? Pattern service** — We draft the block and tech-pack at USD 220 per pattern (revisions USD 40 each), so bulk starts from a real spec, not a guess.
+  - **右栏 · 报价构成结构表（不是单价表 · 让买家看懂"价格由什么驱动"）**:
+
+    | Quote line | What drives it | Why there's no flat list price |
+    |---|---|---|
+    | **Fabric** | knit type · weight · recycled/GRS | a light summer knit and a heavy fleece don't cost the same |
+    | **Decoration** | method · number of placements | sublimation all-over vs one stitched crest differ per piece |
+    | **Quantity** | pieces per SKU · size split | larger runs lower the per-piece setup share |
+    | **Service track** | OEM vs ODM vs private-label add-ons | ODM from our blocks skips the pattern stage |
+    | **Margin** | source factory, no trading layer | you pay the floor, not a desk's markup |
+
+  - **微 link**: "Send a tech-pack, a sketch, or just the product and quantity — you get a costed quote against your real spec, straight from production."
+  - （**全节禁单价 / 禁 list price**；只给"价格由什么构成"的结构，真实报价走 RFQ）
+
+**配图位**: [Image: 打样/报价场景——打样间单件 sample 挂拍 + 齐色齐码样衣排开 / tech-pack 摊在打版桌特写，实景。grapesjs query: garment+sample+room+activewear+sizes+tech+pack+pattern+desk]
+
+**样式**（左要点 + 右结构表 · 区别于 S8 双簇）: 左栏 sampling/MOQ/pattern 三要点（加粗承诺句）/ 右栏 3 列报价构成表（Quote line × 驱动因素 × 为何非单价）；**表里绝无价格列**，只讲构成逻辑。mobile：要点在上、表在下可横滑。
+
+## 板块 10: Send Your Tech-Pack [mid-cta]
+**【硬 CTA 中场 · 单焦点】**
+
+**H2**: Have a tech-pack ready? We'll quote it within 24 hours.
+
+**Sub**: Send the spec and target quantity. You get a costed quote and a sampling plan back — not a sales pitch and a follow-up call.
+
+**内容**:
+  - **1 主按钮**（不堆图/列表/第二按钮）: "Send Your Tech-Pack" → `#rfq`
+
+**配图位**: [Image: 简洁单图——tech-pack 图纸 / spec 文档摊在打版桌上特写，浅景深。grapesjs query: tech+pack+spec+sheet+garment+pattern+desk+document]
+
+**样式**（mid-cta 喘气 · 单焦点）: 全幅 mid-cta 块，1 标题 + 1 Sub + 1 主按钮，大留白；不放图墙/列表/第二按钮。配色留 HTML 阶段。
+
+<!-- ===== 部分 4 · 为什么选我们（信任集中地 · 只在此堆证据） ===== -->
+<!-- 全页信任数字 / ΔE 双指标 / 五证 / 匿名 ICP 胶囊 全部落在这部分 -->
+
+## 板块 11: Source Factory vs Trading Company vs Platform [comparison]
+**【转化组件：源头工厂 vs 贸易商/平台对比表 · 打"怕被坑"痛点】**
+
+**H2**: Source Factory vs Trading Company vs Platform
+
+**Sub**: A source factory, a trading company and a B2B platform handle your order differently. Here is a direct comparison.
+
+**内容**:
+  - **3 列对比表**（列 = Berun 源头工厂 / 贸易商 / B2B 平台；行 = 买家"怕被坑"维度 · Berun 列高亮）:
+
+    | What you're worried about | **Berun (source factory)** | Trading company | Online B2B platform |
+    |---|---|---|---|
+    | **Batch-to-batch consistency** | Same floor matches sample to bulk against your approved sample | Relays your spec to a factory you can't see | Whichever supplier wins the listing that week |
+    | **Who you talk to** | One project owner who runs the lines | A sales rep forwarding your emails | A chat box and a ticket queue |
+    | **Pricing / margin** | Floor price, no trading layer stacked on top | Their margin sits on top of the factory's | Platform fee plus the seller's markup |
+    | **Who's accountable when it's wrong** | A written tolerance clause — we rework or refund | "We'll raise it with the factory" | Dispute resolution, weeks later |
+    | **Spec changes** | Controlled on the line you're talking to | Lost in translation down the chain | Re-quoted by a different seller |
+    | **Quote turnaround** | A 24-hour quote against your real spec | Days of back-and-forth relay | Templated replies, then negotiation |
+
+  - **微 link**: "Want this side by side with your current supplier? Send your spec and we'll quote against it. → #rfq"
+  - （此表是"怕被坑"逆转簇的主承接点之一：一致性 / 沟通 / 加价 / 谁担责 / 改 spec / 报价速度）
+
+**配图位**: [Image: 可选弱化配图——源头工厂车间一角 vs 办公室转单场景对照（或纯表无图，表本身即视觉）。grapesjs query: garment+factory+floor+vs+trading+office+desk —— 表为主体，图可省或小]
+
+**样式**（comparison 表 · 区别于 data-wall）: 3 列对比表，Berun 列视觉高亮（品牌色描边/底）；行首为买家担忧维度。mobile：转为按维度堆叠的卡片或横滑表。表是本节视觉主体。
+
+## 板块 12: Capacity & Tolerance Commitment [data-wall + 风险逆转条]
+**【转化组件：风险逆转条（超容差 rework/refund 书面条款）+ Capacity data-wall】**
+
+**H2**: Capacity & Quality Commitment
+
+**Sub**: Our production capacity and written tolerance commitments, including what we do when a batch is out of spec.
+
+**内容**:
+  - **上层 · Capacity data-wall（6 数 · 点到为止 · 不与 hero 指标条重复）**:
+    - **280** staff — on one payroll
+    - **32** QC inspectors — plus in-house lab
+    - **8,500 m²** — single floor, no subcontracting
+    - **50,000–100,000** pcs — per-PO capacity
+    - **16** pattern-makers — in-house pattern team
+    - **5 continents** — North America to Latin America
+  - **下层 · 风险逆转条（书面承诺 · 这是本节真正的转化抓手）**:
+    - **Tolerances in writing** — Weight within ±5%, color within **ΔE ≤ 1.5 batch to batch**, measurements within ±0.5 cm — checked against your approved sample, not a generic size chart.
+    - **Out of tolerance, we rework or refund** — A written clause in your contract, not buried fine print.
+    - **Pre-shipment AQL 2.5** — Inspected before goods leave, and you get the report.
+    - **On-time delivery, reported monthly** — Signed clients get the rolling figure in a monthly report, not a promise at quoting time.
+  - **微 link**: "Ask for the tolerance sheet and a recent QC report with your quote."
+  - （ΔE 此处为**批间一致性承诺 ≤1.5**（PO-to-PO/reorder vs Pantone）；进厂门 ΔE >1.0 拒收是 intake 场景，归 /about 或 QC 深页，不在首页混用）
+
+**配图位**: [Image: QC 验货实景——QC 人员用卡尺量成衣 / 色卡 ΔE 分光仪比对 / AQL 抽检台，亚裔 QC 在岗。grapesjs query: garment+QC+quality+inspection+measure+color+spectrophotometer+AQL+tolerance]
+
+**样式**（data-wall + 承诺卡 · 区别于对比表）: 上层 6 数字网格（大数字 + 小 label，简洁不加正文）；下层 4 条风险逆转承诺卡（加粗承诺句，数字嵌句中）。数字墙只此一处密集，承诺卡才是视觉重心，避免整节变统计墙。
+
+## 板块 13: Certifications [standard · 认证墙]
+**【转化组件：认证墙（带编号 + PDF 可索）】**
+
+**H2**: 5 Audited Certifications
+
+**Sub**: When your retailer's compliance team asks for paperwork, you can forward our current certificate numbers the same day.
+
+**内容**:
+  - **五证带编号（site-facts 口径 · 编号即信任抓手）**:
+    - **OEKO-TEX Standard 100** — 23.HCN.74521
+    - **BSCI** — BSCI-CN-2024-08-15
+    - **WRAP Gold** — WRAP-GLD-156823
+    - **GRS (recycled content)** — CU 1014387 GRS-2024
+    - **Higg FEM** — HIG-FEM-2024-CN-08, score 82/100
+  - **微 link**: "Every certificate is current and downloadable on request. Full cert index, with what each audits → /about#certifications"
+
+**配图位**: [Image: 五张证书排开展示 / 审计文件夹，干净专业。grapesjs query: certificate+compliance+OEKO-TEX+BSCI+WRAP+GRS+Higg+audit+document]
+
+**样式**（5 证卡 · 区别于 data-wall）: 5 证卡/列表（证书名 + 编号醒目可读 + 可选证书缩略图）；编号是信任抓手，不做数字统计墙。
+
+## 板块 14: Buyer Case [testimonial-carousel] ← 已改版 2026-06-13
+
+**【转化组件：4 条真实感证言轮播 · 4 ICP · 圆形头像 + 硬指标 · CEO 2026-06-13 解禁人名/公司名】**
+
+**H2**: In their own words（eyebrow: "Buyer stories"）
+
+**Sub**:（无）
+
+**内容**（4 条轮播，每条覆盖一个 ICP）:
+
+  1. **ICP-A · Sourcing Director (成熟品牌)**
+     - 姓名: Sarah Mitchell
+     - 角色/公司: Sourcing Director · APEX Active (mid-size NA athleisure brand) · since 2023
+     - 引言: 批次漂移迁移 3 款，ΔE ≤1.5 批间，1 批超重被返工无扣款
+     - 硬指标: 3 styles migrated · ΔE ≤1.5 batch-to-batch · 1 over-weight batch reworked, zero chargeback
+     - 头像: grapesjs query: professional+businesswoman+executive+portrait+corporate (圆形 80px)
+
+  2. **ICP-B · 健身房/工作室连锁 (Co-Owner)**
+     - 姓名: Marcus Delgado
+     - 角色/公司: Co-Owner & Operations · IronRidge Fitness (14-location gym chain) · since 2024
+     - 引言: 14 门店 4 配色，其他供应商要 500 件最低量，Berun 100件/SKU 让各地配色成立
+     - 硬指标: 14 locations outfitted · 4 colorways at 100-pc MOQ · XS–XXL in a single order
+     - 头像: grapesjs query: gym+owner+fitness+businessman+headshot+portrait (圆形 80px)
+
+  3. **ICP-C · DTC 新品牌创始人**
+     - 姓名: Chloe Bennett
+     - 角色/公司: Founder · Solara Activewear (DTC legging brand, launched 2024) · since 2024
+     - 引言: 5 工作日拿到样品→预售售罄→下首批，老工厂不可能的节奏
+     - 硬指标: Sample in 5 business days · opening order at 100 pcs · 3rd reorder within 8 months
+     - 头像: grapesjs query: young+woman+entrepreneur+founder+startup+portrait (圆形 80px)
+
+  4. **ICP-D · 运动队/俱乐部教练**
+     - 姓名: James Okafor
+     - 角色/公司: Head Coach & Athletic Director · Portland Storm SC (220-player youth soccer club) · since 2025
+     - 引言: 220 人背号/名字从 CSV 导入，赛季开幕前 9 天收到全员正确球衣
+     - 硬指标: 220-player roster · names & numbers from CSV · delivered 9 days before season opener
+     - 头像: grapesjs query: sports+coach+athletic+director+headshot+portrait (圆形 80px)
+
+**样式**: 单卡轮播（prev/next 箭头 + dots），圆形头像左 + 引言右网格，移动端堆叠 + 触滑，鼠标悬停暂停自动切换（6s 间隔）。头像 onerror → 首字母圆牌 fallback。
+
+<!-- ===================== 部分 5 · 表单（转化收口） ===================== -->
+
+## 板块 15: Request Your Quote (RFQ) [form]
+**【转化组件：多 CTA + WhatsApp + lead magnet · 收口逆转簇剩余件】**
+<!-- anchor: 全页所有 CTA（hero 主/次/三级 · S6 · S10 · S11）均指向 #rfq -->
+
+**H2**: Get a Factory-Direct Quote
+
+**Sub**: Send your spec and quantity — you get a costed quote and a sampling plan back within 24 hours, straight from production, not a sales pitch.
+
+**内容**:
+  - **左栏（价值 + 承诺 · 收口逆转簇剩余件 · 无统计数字）**:
+    - **收口句**: "Send a tech-pack, a sketch, or just the product and quantity — we'll quote against your real spec, not a list price."
+    - **承诺要点（逆转簇尾段 · 方向A）**:
+      - "Quote back within 24 hours — straight from the floor, not a relay"
+      - "NDA on request — your tech-pack and designs stay yours"
+      - "Sample fee credited back when the order goes to bulk"
+      - "Source factory, no trading margin stacked on your price"
+    - **直邮兜底**: "Prefer email? sales@berunactivewear.com — attach your tech-pack and we'll quote it."
+    - **WhatsApp 入口**: "On WhatsApp? Message us at +86 159 0277 8636 for a same-day reply."
+    - **Lead magnet（走表单不直链 · 方向C）**: "Just researching? Tick 'capability deck' below and we'll send the capability deck and capacity datasheet (PDF)."
+  - **右栏（简洁 RFQ 表单 · 深字段留 /contact）**:
+    - 字段: Name · Work email · Company · What you need (product type) · Target quantity · Message / attach tech-pack
+    - **意图/来源选择**（呼应 hero 三钩不塌成一个体验 · CEO 小注）: 单选/勾选 "What can we send you?" → Costed quote · Sample plan · Capability deck (PDF)
+    - **主按钮**: "Get My Quote" → 提交
+    - （honeypot 隐藏字段 + page_url 由 JS 获取 + 提交来源分支 quote/tech-pack/deck，全部交 Stage 3 form-widget 处理）
+
+**配图位**: [Image: 可选弱化配图/纯色块呼应工厂主题（表单为主体，图弱化或省略）。grapesjs query: activewear+factory+quote+production —— 表单区图位可省或小]
+
+**样式**（form · 左右两栏）: 桌面左文案+承诺 / 右表单卡；mobile 堆叠（文案在上、表单在下全宽）。**form-widget 插件版**：右栏只放容器 + 引脚本，**0 硬编码 form HTML**（字段/校验/honeypot/提交分支全 Stage 3 接），label 齐全、对比度达标。邮箱 sales@berunactivewear.com、WhatsApp +86 159 0277 8636。
+
+<!-- ===================== 全页 16 板块（S1–S15 + S1b 指标条）正文完 · 阶段 1 ===================== -->
+<!-- 待 CEO 整页收尾通审 → 阶段 2 视觉创意概念（hero 等）→ 阶段 3 HTML/form-widget/技术SEO → 图片人工触发 -->
+
