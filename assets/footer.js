@@ -139,7 +139,6 @@
         <div class="ft-grid">
           ${generateCompanyHTML()}
           ${generateColumnsHTML()}
-          ${generateContactHTML()}
         </div>
         <div class="ft-bottom">
           ${generateCopyrightHTML()}
@@ -168,6 +167,7 @@
             `;
           }).join('')}
         </div>
+        ${generateContactHTML()}
       </div>
     `;
   }
@@ -188,7 +188,7 @@
   function generateContactHTML() {
     const contact = footerData.contact;
     return `
-      <div class="ft-column ft-contact">
+      <div class="ft-contact ft-contact--stacked">
         <h4 class="ft-title">${escapeHtml(contact.title)}</h4>
         <ul class="ft-contact-list">
           ${contact.email ? `
@@ -327,10 +327,16 @@
 
       .ft-grid {
         display: grid;
-        grid-template-columns: minmax(280px, 1.4fr) repeat(3, minmax(145px, 0.72fr)) minmax(250px, 1fr);
+        grid-template-columns: minmax(280px, 1.4fr) repeat(3, minmax(150px, 0.9fr));
         gap: clamp(24px, 4vw, 52px);
         margin-bottom: 34px;
         align-items: start;
+      }
+
+      .ft-contact--stacked {
+        margin-top: 22px;
+        padding-top: 18px;
+        border-top: 1px solid rgba(255, 255, 255, 0.10);
       }
 
       .ft-column {}
@@ -460,14 +466,13 @@
 
       @media (max-width: 1180px) {
         .ft-grid {
-          grid-template-columns: minmax(220px, 1.35fr) repeat(3, minmax(115px, 0.8fr)) minmax(190px, 1fr);
+          grid-template-columns: minmax(220px, 1.35fr) repeat(3, minmax(120px, 0.85fr));
           gap: 22px;
         }
 
-        .ft-contact {
-          grid-column: auto;
-          padding-top: 0;
-          border-top: 0;
+        .ft-contact--stacked {
+          margin-top: 18px;
+          padding-top: 14px;
         }
 
         .ft-contact-list li {
