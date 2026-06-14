@@ -335,6 +335,48 @@
       .bh-gallery-sm{height:140px}
       .bh-hero-fact{min-width:130px}
     }
+
+    /* ── S4b Team Groups ─────────────────────────────── */
+    .bh-team-groups{display:grid;grid-template-columns:repeat(2,1fr);gap:clamp(16px,2.5vw,28px)}
+    .bh-tg-card{border:1px solid var(--line);border-radius:12px;overflow:hidden;background:#fff}
+    .bh-tg-photo{position:relative;height:220px;background:#374151}
+    .bh-tg-photo img{width:100%;height:100%;object-fit:cover;display:block}
+    .bh-tg-scrim{position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.58) 0%,transparent 55%)}
+    .bh-tg-label{position:absolute;left:14px;bottom:14px;font-family:var(--ff-h);font-weight:800;font-size:.78rem;color:#fff;letter-spacing:.06em;text-transform:uppercase;z-index:2;line-height:1.3}
+    .bh-tg-label em{display:block;font-style:normal;font-size:.64rem;color:rgba(255,255,255,.78);font-weight:600;letter-spacing:.03em;margin-top:3px}
+    .bh-tg-body{padding:18px 20px}
+    .bh-tg-body p{font-size:.88rem;color:var(--ink2);line-height:1.55;margin:0}
+    .bh-tg-mini{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-top:12px}
+    .bh-tg-mini-img{aspect-ratio:1;background:#D1D5DB;border-radius:5px;overflow:hidden}
+    .bh-tg-mini-img img{width:100%;height:100%;object-fit:cover;display:block}
+
+    /* ── S4c Values ──────────────────────────────────── */
+    .bh-values-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:clamp(16px,2.5vw,28px)}
+    .bh-val-card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:clamp(22px,3vw,34px);position:relative;overflow:hidden}
+    .bh-val-card::after{content:"";position:absolute;top:0;left:0;width:4px;height:100%;background:var(--red)}
+    .bh-val-icon{width:48px;height:48px;border-radius:10px;background:rgba(220,38,38,.07);display:flex;align-items:center;justify-content:center;color:var(--red);font-size:1.4rem;margin-bottom:16px}
+    .bh-val-card h3{font-family:var(--ff-h);font-weight:800;font-size:1.08rem;color:var(--ink);margin:0 0 10px;line-height:1.2}
+    .bh-val-card p{font-size:.9rem;color:var(--ink2);line-height:1.58;margin:0}
+
+    /* ── S7c Testimonials ────────────────────────────── */
+    .bh-testi-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(16px,2.5vw,28px)}
+    .bh-testi-card{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:12px;padding:clamp(20px,2.5vw,30px);display:flex;flex-direction:column;gap:14px;position:relative}
+    .bh-testi-card::before{content:"\201C";position:absolute;top:14px;right:18px;font-size:4rem;line-height:1;color:rgba(220,38,38,.3);font-family:Georgia,serif;font-weight:700;pointer-events:none}
+    .bh-testi-quote{font-size:.93rem;color:#E5E7EB;line-height:1.62;margin:0;flex:1}
+    .bh-testi-divider{height:1px;background:rgba(255,255,255,.1)}
+    .bh-testi-person{display:flex;align-items:center;gap:12px}
+    .bh-testi-avatar{width:48px;height:48px;border-radius:50%;overflow:hidden;background:#374151;border:1.5px solid rgba(252,211,77,.3);flex-shrink:0}
+    .bh-testi-avatar img{width:100%;height:100%;object-fit:cover}
+    .bh-testi-name{font-family:var(--ff-h);font-weight:800;font-size:.88rem;color:#F9FAFB;margin:0 0 2px;line-height:1.2}
+    .bh-testi-meta{font-size:.75rem;color:#9CA3AF;margin:0;line-height:1.4}
+    .bh-testi-metric{display:inline-flex;align-items:center;gap:5px;font-family:var(--num);font-weight:700;font-size:.72rem;color:var(--gold);background:rgba(252,211,77,.08);border:1px dashed rgba(252,211,77,.3);border-radius:4px;padding:3px 7px;margin-top:6px}
+
+    /* ── Responsive additions ───────────────────────── */
+    @media(max-width:900px){
+      .bh-team-groups{grid-template-columns:1fr}
+      .bh-testi-grid{grid-template-columns:1fr}
+      .bh-values-grid{grid-template-columns:1fr}
+    }
   </style>
 </head>
 <body class="bh">
@@ -625,6 +667,158 @@
       </div>
     </section>
 
+    <!-- Shape divider: S4 → S4b (paper → white) -->
+    <div class="bh-div bh-div--slim" style="background:var(--paper)">
+      <svg viewBox="0 0 1440 28" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <polygon points="0,28 1440,0 1440,28" fill="#fff"/>
+      </svg>
+    </div>
+
+    <!-- ═══════════════════════════════════════════════════
+         S4b · TEAM GROUPS — 280 People Behind the 4 Leads
+    ════════════════════════════════════════════════════ -->
+    <section class="bh-sec bh-sec--w" aria-label="Production Team Groups">
+      <div class="bh-ctr">
+        <div class="bh-head text-center">
+          <div class="bh-eyebrow"><i class="bi bi-people"></i> The Wider Team</div>
+          <h2 class="bh-h2">The 280 People Behind Every Order</h2>
+          <p class="bh-sub" style="margin-inline:auto">Four department leads run the operation. Behind them: 280 direct employees in one building — no subcontracting at any production stage.</p>
+        </div>
+        <div class="bh-team-groups">
+
+          <!-- Sewing Production -->
+          <div class="bh-tg-card">
+            <div class="bh-tg-photo">
+              <img loading="lazy"
+                src="https://img.berunactivewear.com/assets/images/about/team-sewing-floor.webp"
+                alt="Berun sewing production team on the production floor"
+                onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'600\' height=\'400\'%3E%3Crect fill=\'%23374151\' width=\'600\' height=\'400\'/%3E%3C/svg%3E'">
+              <div class="bh-tg-scrim"></div>
+              <div class="bh-tg-label">Sewing Production<em>180 Machinists · 5 Cut-&-Sew Lines + 4 Sublimation + 3 Team-Set</em></div>
+            </div>
+            <div class="bh-tg-body">
+              <p>Every machinist is assigned to a single line for their full shift — no line mixing. Each line of 22–24 operators runs under one line supervisor who feeds into Marcus's 7:45 AM production board. No order is touched by an outside vendor at any sewing or sublimation step.</p>
+              <div class="bh-tg-mini">
+                <div class="bh-tg-mini-img">
+                  <img loading="lazy" src="https://img.berunactivewear.com/assets/images/about/team-sewing-close1.webp" alt="Machinist sewing activewear leggings" onerror="this.parentNode.style.background='#D1D5DB'">
+                </div>
+                <div class="bh-tg-mini-img">
+                  <img loading="lazy" src="https://img.berunactivewear.com/assets/images/about/team-sewing-close2.webp" alt="Sewing line running at full capacity" onerror="this.parentNode.style.background='#D1D5DB'">
+                </div>
+                <div class="bh-tg-mini-img">
+                  <img loading="lazy" src="https://img.berunactivewear.com/assets/images/about/team-sublimation-press.webp" alt="In-house sublimation print press" onerror="this.parentNode.style.background='#D1D5DB'">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- QC Team -->
+          <div class="bh-tg-card">
+            <div class="bh-tg-photo">
+              <img loading="lazy"
+                src="https://img.berunactivewear.com/assets/images/about/team-qc-floor.webp"
+                alt="Berun QC team conducting inline inspection during production"
+                onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'600\' height=\'400\'%3E%3Crect fill=\'%23374151\' width=\'600\' height=\'400\'/%3E%3C/svg%3E'">
+              <div class="bh-tg-scrim"></div>
+              <div class="bh-tg-label">Quality Control Team<em>32 QC Workers · Inline per Line + 8 Lab Technicians</em></div>
+            </div>
+            <div class="bh-tg-body">
+              <p>Jenny's 32-person QC team works at two levels: 2–3 inline QC workers per production line checking every 30-piece interval, and 8 lab technicians running pre-shipment AQL 2.5 sampling and colorimetric sign-off on every outbound order before release.</p>
+              <div class="bh-tg-mini">
+                <div class="bh-tg-mini-img">
+                  <img loading="lazy" src="https://img.berunactivewear.com/assets/images/about/team-qc-inline.webp" alt="Inline QC measurement check during production run" onerror="this.parentNode.style.background='#D1D5DB'">
+                </div>
+                <div class="bh-tg-mini-img">
+                  <img loading="lazy" src="https://img.berunactivewear.com/assets/images/about/team-qc-lab.webp" alt="Lab technician using spectrophotometer for color testing" onerror="this.parentNode.style.background='#D1D5DB'">
+                </div>
+                <div class="bh-tg-mini-img">
+                  <img loading="lazy" src="https://img.berunactivewear.com/assets/images/about/team-qc-preshipment.webp" alt="Pre-shipment AQL 2.5 random sampling" onerror="this.parentNode.style.background='#D1D5DB'">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cutting & Pattern -->
+          <div class="bh-tg-card">
+            <div class="bh-tg-photo">
+              <img loading="lazy"
+                src="https://img.berunactivewear.com/assets/images/about/team-pattern-cutting.webp"
+                alt="Berun cutting and pattern team at the cutting tables"
+                onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'600\' height=\'400\'%3E%3Crect fill=\'%23374151\' width=\'600\' height=\'400\'/%3E%3C/svg%3E'">
+              <div class="bh-tg-scrim"></div>
+              <div class="bh-tg-label">Cutting & Pattern<em>36 Cutting Workers · 16 Pattern Makers</em></div>
+            </div>
+            <div class="bh-tg-body">
+              <p>David leads 16 pattern makers converting client tech-packs to production-ready patterns (XS–5XL grading), while 36 cutting workers handle 15,000 panels per shift through the cutting room. Pattern development, grading, and revision cycles all stay in-house — no outside studio work.</p>
+            </div>
+          </div>
+
+          <!-- Sales & Client Support -->
+          <div class="bh-tg-card">
+            <div class="bh-tg-photo">
+              <img loading="lazy"
+                src="https://img.berunactivewear.com/assets/images/about/team-sales-support.webp"
+                alt="Berun sales and client support team reviewing order specs"
+                onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'600\' height=\'400\'%3E%3Crect fill=\'%23374151\' width=\'600\' height=\'400\'/%3E%3C/svg%3E'">
+              <div class="bh-tg-scrim"></div>
+              <div class="bh-tg-label">Sales & Client Support<em>24-Hour Reviewed Response · RFQ to Bulk Shipment</em></div>
+            </div>
+            <div class="bh-tg-body">
+              <p>Anna's team handles all inbound B2B inquiries — from first RFQ through sample sign-off, bulk production tracking, and shipment confirmation. Every active client has a named contact, not a shared inbox. New RFQ response: 24 business hours, reviewed — not an automated reply.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Shape divider: S4b → S4c (white → paper) -->
+    <div class="bh-div bh-div--arc" style="background:#fff">
+      <svg viewBox="0 0 1440 64" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,0 Q720,64 1440,0 L1440,64 L0,64 Z" fill="var(--paper)"/>
+      </svg>
+    </div>
+
+    <!-- ═══════════════════════════════════════════════════
+         S4c · VALUES — Four Operating Principles
+    ════════════════════════════════════════════════════ -->
+    <section class="bh-sec bh-sec--gray" aria-label="Berun Operating Principles">
+      <div class="bh-ctr">
+        <div class="bh-head text-center">
+          <div class="bh-eyebrow"><i class="bi bi-shield-check"></i> What We Stand For</div>
+          <h2 class="bh-h2">Four Principles Running Every Order</h2>
+          <p class="bh-sub" style="margin-inline:auto">Not a mission statement. Four things buyers asked us to prove — and that we have built the operation around.</p>
+        </div>
+        <div class="bh-values-grid">
+
+          <div class="bh-val-card">
+            <div class="bh-val-icon"><i class="bi bi-file-earmark-check"></i></div>
+            <h3>Spec on Paper = Spec on Goods</h3>
+            <p>What the approved tech-pack and sealed sample say is what ships. Incoming fabric is checked colorimetrically within 4 hours of arrival — rolls measuring ΔE &gt;1.0 against the approved lab dip are rejected on the spot. AQL 2.5 pre-shipment sampling closes the gap before anything leaves the floor. The standard is: not close to spec, exactly on it.</p>
+          </div>
+
+          <div class="bh-val-card">
+            <div class="bh-val-icon"><i class="bi bi-eye"></i></div>
+            <h3>One Factory, Full Transparency</h3>
+            <p>All 280 workers are on Berun's single payroll. No subcontracting at any production stage — not for overflow, not for embroidery, not for finishing. Buyers can book a factory visit, walk every production line, and see their entire order in one building. There is no second location to schedule around.</p>
+          </div>
+
+          <div class="bh-val-card">
+            <div class="bh-val-icon"><i class="bi bi-patch-check-fill"></i></div>
+            <h3>Verified, Not Claimed</h3>
+            <p>WRAP Gold, GRS, Higg FEM 82/100, BSCI, and OEKO-TEX Standard 100 are five third-party-audited certifications with certificate numbers on file. Audit reports are available to qualified clients under NDA. "We're compliant" without a certificate number is a claim — ours come with certificate numbers and independent audit trails.</p>
+          </div>
+
+          <div class="bh-val-card">
+            <div class="bh-val-icon"><i class="bi bi-clock-history"></i></div>
+            <h3>On-Time, On the Record</h3>
+            <p>92.4% on-time delivery rate, rolling 12-month average, measured against confirmed ship dates set at order placement — not against revised dates. Monthly delivery reports are available to clients with active orders on request. When a shipment runs late, the original committed date is on the record. We do not revise it retroactively.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
     <!-- ═══════════════════════════════════════════════════
          S5 · OPERATIONS — Dark image band
     ════════════════════════════════════════════════════ -->
@@ -700,6 +894,34 @@
             </div>
 
           </div>
+
+          <!-- Factory photo strip -->
+          <div class="bh-gallery" style="margin-top:44px">
+            <div class="bh-gallery-row">
+              <div class="bh-gallery-sm">
+                <img loading="lazy"
+                  src="https://img.berunactivewear.com/assets/images/ab-cutting-room-floor.webp"
+                  alt="Fabric cutting room — 15,000 panels per shift"
+                  onerror="this.parentNode.style.background='#374151'">
+                <div class="bh-gallery-scrim"></div>
+              </div>
+              <div class="bh-gallery-sm">
+                <img loading="lazy"
+                  src="https://img.berunactivewear.com/assets/images/ab-embroidery-print-station.webp"
+                  alt="In-house embroidery and sublimation print station"
+                  onerror="this.parentNode.style.background='#374151'">
+                <div class="bh-gallery-scrim"></div>
+              </div>
+              <div class="bh-gallery-sm">
+                <img loading="lazy"
+                  src="https://img.berunactivewear.com/assets/images/ab-finishing-folding-line.webp"
+                  alt="Finishing and folding line before shipment"
+                  onerror="this.parentNode.style.background='#374151'">
+                <div class="bh-gallery-scrim"></div>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>
@@ -888,15 +1110,119 @@
               <div class="bh-gallery-scrim"></div>
             </div>
           </div>
+          <!-- Second gallery row -->
+          <div class="bh-gallery-row" style="margin-top:10px">
+            <div class="bh-gallery-sm">
+              <img
+                loading="lazy"
+                src="https://img.berunactivewear.com/assets/images/ab-fabric-warehouse-rolls.webp"
+                alt="Berun fabric warehouse — GSM-sorted fabric rolls"
+                onerror="this.parentNode.style.background='#374151'">
+              <div class="bh-gallery-scrim"></div>
+            </div>
+            <div class="bh-gallery-sm">
+              <img
+                loading="lazy"
+                src="https://img.berunactivewear.com/assets/images/ab-team-set-jersey-production.webp"
+                alt="Team jersey production with roster numbering"
+                onerror="this.parentNode.style.background='#374151'">
+              <div class="bh-gallery-scrim"></div>
+            </div>
+            <div class="bh-gallery-sm">
+              <img
+                loading="lazy"
+                src="https://img.berunactivewear.com/assets/images/ab-packing-shipment-cartons.webp"
+                alt="Packing and outbound shipment cartons"
+                onerror="this.parentNode.style.background='#374151'">
+              <div class="bh-gallery-scrim"></div>
+            </div>
+          </div>
         </div>
 
       </div>
     </section>
 
-    <!-- Shape divider: S7 → S7b slant (paper → red-deep, strong contrast) -->
+    <!-- Shape divider: S7 → S7c (paper → ink) -->
     <div class="bh-div bh-div--slant" style="background:var(--paper)">
       <svg viewBox="0 0 1440 52" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-        <polygon points="0,0 1440,52 0,52" fill="var(--red-deep)"/>
+        <polygon points="0,0 1440,52 0,52" fill="var(--ink)"/>
+      </svg>
+    </div>
+
+    <!-- ═══════════════════════════════════════════════════
+         S7c · CLIENT FEEDBACK — Buyer Testimonials
+    ════════════════════════════════════════════════════ -->
+    <section class="bh-sec bh-sec--dark" aria-label="Client Feedback">
+      <div class="bh-ctr">
+        <div class="bh-head text-center">
+          <div class="bh-eyebrow" style="color:var(--gold)"><i class="bi bi-chat-quote"></i> Client Feedback</div>
+          <h2 class="bh-h2" style="color:#F9FAFB">What Buyers Say After the First Order</h2>
+          <p class="bh-sub" style="color:#CBD5E1;margin-inline:auto">Three buyers. Three different starting points. All on the record.</p>
+        </div>
+        <div class="bh-testi-grid">
+
+          <div class="bh-testi-card">
+            <p class="bh-testi-quote">"We moved to Berun after two bad runs elsewhere — wrong GSM on arrival, color shifted 2–3 ΔE from the approved sample. Berun's first bulk landed exactly matched the sealed sample. The colorimetric records they sent with the shipment documentation were exactly what our QC team needed for the supplier audit file."</p>
+            <div class="bh-testi-divider"></div>
+            <div class="bh-testi-person">
+              <div class="bh-testi-avatar">
+                <img loading="lazy"
+                  src="https://img.berunactivewear.com/assets/images/about/testimonial-buyer-1.webp"
+                  alt="Activewear brand sourcing buyer"
+                  onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'100\' height=\'100\'%3E%3Crect fill=\'%23374151\' width=\'100\' height=\'100\'/%3E%3C/svg%3E'">
+              </div>
+              <div>
+                <div class="bh-testi-name">Head of Sourcing</div>
+                <div class="bh-testi-meta">Activewear Brand · North America · OEM Cut-&-Sew</div>
+                <div class="bh-testi-metric"><i class="bi bi-check-circle"></i> 3 consecutive POs — 0 color variance rejections</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="bh-testi-card">
+            <p class="bh-testi-quote">"We run a private-label uniform program for 14 gym locations — coaches need fresh gear each quarter, so lead time and minimum order size matter. Berun worked with our 100 pcs/SKU without pushing us to inflate the order, hit the 35-day lead time on all three runs, and the team jerseys with roster numbering came out clean every time."</p>
+            <div class="bh-testi-divider"></div>
+            <div class="bh-testi-person">
+              <div class="bh-testi-avatar">
+                <img loading="lazy"
+                  src="https://img.berunactivewear.com/assets/images/about/testimonial-buyer-2.webp"
+                  alt="Gym chain operations manager"
+                  onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'100\' height=\'100\'%3E%3Crect fill=\'%23374151\' width=\'100\' height=\'100\'/%3E%3C/svg%3E'">
+              </div>
+              <div>
+                <div class="bh-testi-name">Operations Manager</div>
+                <div class="bh-testi-meta">Gym Chain · Australia · Private Label + Team Sets</div>
+                <div class="bh-testi-metric"><i class="bi bi-check-circle"></i> 14 locations · 100 pcs/SKU held across 3 runs</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="bh-testi-card">
+            <p class="bh-testi-quote">"As a DTC brand launching our first collection, we needed a factory willing to work at 100-piece minimums and not treat us like a nuisance. Anna answered every question within a day. Our first order — 400 pcs across four SKUs — arrived on time and matched the approved samples. That was all we needed to place the second order."</p>
+            <div class="bh-testi-divider"></div>
+            <div class="bh-testi-person">
+              <div class="bh-testi-avatar">
+                <img loading="lazy"
+                  src="https://img.berunactivewear.com/assets/images/about/testimonial-buyer-3.webp"
+                  alt="DTC activewear brand founder"
+                  onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'100\' height=\'100\'%3E%3Crect fill=\'%23374151\' width=\'100\' height=\'100\'/%3E%3C/svg%3E'">
+              </div>
+              <div>
+                <div class="bh-testi-name">Founder</div>
+                <div class="bh-testi-meta">DTC Activewear Brand · Europe · OEM First Order</div>
+                <div class="bh-testi-metric"><i class="bi bi-check-circle"></i> 4 SKUs, 400 pcs total — on-time, no rework</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Shape divider: S7c → S7b (ink → red-deep) -->
+    <div class="bh-div bh-div--slim" style="background:var(--ink)">
+      <svg viewBox="0 0 1440 28" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <polygon points="0,28 1440,0 1440,28" fill="var(--red-deep)"/>
       </svg>
     </div>
 

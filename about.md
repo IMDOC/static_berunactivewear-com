@@ -298,17 +298,20 @@ design:
       cert_numbers: "monospace（Courier New fallback）—— 模拟官方文件编号感"
     spacing: "Bootstrap 5 spacing scale；section padding-y: 80–100px"
 
-  # ---- Section 布局快速索引 ----
+  # ---- Section 布局快速索引（2026-06-14 扩充版）----
   layout_map:
-    S1_hero:     "full-width dark-overlay-image / left-text right-image"
-    S2_products: "light-gray bg / centered 2-col cards / no image"
-    S3_timeline: "white bg / centered vertical timeline / 4 nodes / image at even nodes"
-    S4_team:     "white bg / 4-col ID-card grid / circular headshots"
-    S5_ops:      "dark-image-band / 2-col icon list / 6 items"
-    S6_certs:    "white bg / left logo col + right narrative col"
-    S7_stats:    "light-gray bg / 4 large stat cards + invitation para"
-    S7b_invite:  "optional: deep-red-overlay-image slim band / tour invite + CTA"
-    S8_contact:  "dark bg / 3 option cards + form / Anna avatar left"
+    S1_hero:      "full-width dark-overlay-image / left-text right-image"
+    S2_products:  "light-gray bg / centered 2-col cards / no image"
+    S3_timeline:  "white bg / centered vertical timeline / 4 nodes / image at even nodes"
+    S4_team:      "paper bg / 4-col ID-card grid / circular headshots"
+    S4b_team_grp: "white bg / 2-col dept group cards (Sewing/QC/Pattern/Sales) / 4 main photos + 6 mini thumbs"
+    S4c_values:   "paper bg / 2-col 4-value cards / icon-grid / left red-stripe accent"
+    S5_ops:       "dark-image-band / 2-col icon list / 6 items + 3-photo factory strip"
+    S6_certs:     "white bg / left logo col + right narrative col"
+    S7_stats:     "paper bg / 4 stat cards + invite para + 2-row gallery (7 images total)"
+    S7c_feedback: "dark bg / 3-col testimonial cards / archive-style buyer quotes + metrics"
+    S7b_invite:   "deep-red-overlay-image slim band / tour invite + CTA"
+    S8_contact:   "dark bg / 3 option cards + form / Anna avatar left"
 
 # ============================================================
 # 阶段 1 · 五部分正文（9 sections）
@@ -476,6 +479,101 @@ sections:
           manages revision cycles at USD 40 per round with a 2–5 working-day
           turnaround per revision. New style patterns are typically completed
           in 7–14 working days from confirmed tech-pack.
+
+  # ----------------------------------------------------------
+  # 部分 3b · Team Groups — 280 人群像（S4b）2026-06-14 新增
+  # ----------------------------------------------------------
+  - id: s4b_team_groups
+    part: 3
+    label: "The 280-Person Team — Department Groups"
+    bg: white
+    layout: "2-col 4-card grid / main dept photo + optional mini thumbnail strip"
+    h2: "The 280 People Behind Every Order"
+    sub: "Four department leads run the operation. Behind them: 280 direct employees in one building, no subcontracting at any production stage."
+
+    groups:
+      - dept: "Sewing Production"
+        headcount: "180 machinists"
+        lines: "5 cut-and-sew + 4 sublimation + 3 team-set"
+        desc: >
+          Every machinist is assigned to a single line for their full shift. Each line of
+          22–24 operators runs under one line supervisor feeding Marcus's 7:45 AM board.
+          No sewing or sublimation work goes outside the facility.
+        photo: "[TODO: group photo of sewing production floor, multiple machinists at machines]"
+        mini:
+          - "[TODO: close shot of machinist sewing activewear leggings]"
+          - "[TODO: sewing line running at capacity]"
+          - "[TODO: sublimation press in operation]"
+
+      - dept: "Quality Control Team"
+        headcount: "32 QC workers + 8 lab technicians"
+        desc: >
+          Jenny's QC team runs at two levels: inline workers per production line
+          checking every 30-piece interval, and lab technicians running AQL 2.5
+          pre-shipment sampling and colorimetric sign-off before every outbound order.
+        photo: "[TODO: QC team conducting inline check, garments at inspection station]"
+        mini:
+          - "[TODO: inline QC measurement check during production run]"
+          - "[TODO: lab tech using spectrophotometer for color testing]"
+          - "[TODO: pre-shipment AQL 2.5 random sampling table]"
+
+      - dept: "Cutting & Pattern"
+        headcount: "36 cutting workers + 16 pattern makers"
+        desc: >
+          David leads 16 pattern makers converting tech-packs to production-ready patterns
+          (XS–5XL), while 36 cutting workers process 15,000 panels per shift. All grading
+          and revision cycles stay in-house.
+        photo: "[TODO: cutting room floor with fabric panels and cutting tables]"
+
+      - dept: "Sales & Client Support"
+        headcount: "Anna-led team"
+        desc: >
+          All inbound B2B inquiries — from first RFQ through sample sign-off, bulk
+          production tracking, and shipment confirmation. Every active client has a
+          named contact. New RFQ response: 24 business hours, reviewed.
+        photo: "[TODO: sales team reviewing order specs at desk, professional environment]"
+
+    image_note: "All photos: real factory workers, Asian faces, warm documentary light. No stock."
+
+  # ----------------------------------------------------------
+  # 部分 3c · Values — 经营理念（S4c）2026-06-14 新增
+  # ----------------------------------------------------------
+  - id: s4c_values
+    part: 3
+    label: "Operating Principles / What We Stand For"
+    bg: paper
+    layout: "2-col 4-value icon-cards, left red-stripe border accent"
+    h2: "Four Principles Running Every Order"
+    sub: "Not a mission statement. Four things buyers asked us to prove — and that we have built the operation around."
+
+    values:
+      - title: "Spec on Paper = Spec on Goods"
+        icon: "bi-file-earmark-check"
+        body: >
+          What the approved tech-pack and sealed sample say is what ships.
+          Incoming fabric is checked within 4 hours (ΔE >1.0 rejected), AQL 2.5
+          pre-shipment sampling before every shipment. Not close to spec — exactly on it.
+
+      - title: "One Factory, Full Transparency"
+        icon: "bi-eye"
+        body: >
+          All 280 workers on one payroll. No subcontracting at any stage — not for
+          overflow, not for embroidery, not for finishing. Book a visit; there is no
+          second location to schedule around.
+
+      - title: "Verified, Not Claimed"
+        icon: "bi-patch-check-fill"
+        body: >
+          Five third-party-audited certifications with certificate numbers on file:
+          WRAP Gold, GRS, Higg FEM 82/100, BSCI, OEKO-TEX Standard 100.
+          Audit reports available to clients under NDA. Certificate numbers, not claims.
+
+      - title: "On-Time, On the Record"
+        icon: "bi-clock-history"
+        body: >
+          92.4% on-time delivery rate, rolling 12-month average, measured against
+          committed ship dates — not revised dates. Monthly delivery reports available
+          to active clients. We do not revise the committed date retroactively.
 
   - id: s5_operations
     part: 3
@@ -649,6 +747,60 @@ sections:
       on weekdays at a time that works across time zones.
       A 45-minute session covers the production floor, QC lab, and
       print department.
+
+  # ----------------------------------------------------------
+  # 部分 4c · 客户反馈（S7c）2026-06-14 新增
+  # ----------------------------------------------------------
+  - id: s7c_testimonials
+    part: 4
+    label: "Client Feedback — Buyer Testimonials"
+    bg: dark
+    layout: "3-col archive-style testimonial cards / quote + person + hard metric"
+    h2: "What Buyers Say After the First Order"
+    sub: "Three buyers. Three different starting points. All on the record."
+
+    testimonials:
+      - quote: >
+          "We moved to Berun after two bad runs elsewhere — wrong GSM on arrival,
+          color shifted 2–3 ΔE from the approved sample. Berun's first bulk landed
+          exactly matched the sealed sample. The colorimetric records they sent with
+          the shipment documentation were exactly what our QC team needed for the
+          supplier audit file."
+        role: "Head of Sourcing"
+        buyer_type: "Activewear Brand"
+        region: "North America"
+        service: "OEM Cut-&-Sew"
+        photo: "[TODO: professional headshot, Western/European buyer, neutral background]"
+        metric: "3 consecutive POs — 0 color variance rejections"
+
+      - quote: >
+          "We run a private-label uniform program for 14 gym locations — coaches need
+          fresh gear each quarter. Berun worked with our 100 pcs/SKU without pushing
+          us to inflate the order, hit the 35-day lead time on all three runs, and
+          the team jerseys with roster numbering came out clean every time."
+        role: "Operations Manager"
+        buyer_type: "Gym Chain"
+        region: "Australia"
+        service: "Private Label + Team Sets"
+        photo: "[TODO: professional headshot, Australian/Western buyer, office setting]"
+        metric: "14 locations · 100 pcs/SKU held across 3 runs"
+
+      - quote: >
+          "As a DTC brand launching our first collection, we needed a factory willing
+          to work at 100-piece minimums and not treat us like a nuisance. Anna answered
+          every question within a day. Our first order — 400 pcs across four SKUs —
+          arrived on time and matched the approved samples. That was enough to place
+          the second order."
+        role: "Founder"
+        buyer_type: "DTC Activewear Brand"
+        region: "Europe"
+        service: "OEM First Order"
+        photo: "[TODO: professional headshot, European founder, clean background]"
+        metric: "4 SKUs, 400 pcs total — on-time, no rework"
+
+    note: >
+      Per site-facts.md: 禁编造具体公司名/人名。用匿名 ICP 胶囊（role + buyer_type + region）。
+      Fake testimonial names like "Akarra Active" 严禁。avatars = 用 AI 头像（欧美面孔，买家端）。
 
   # ----------------------------------------------------------
   # 部分 5 · 表单 / CTA（S8）
