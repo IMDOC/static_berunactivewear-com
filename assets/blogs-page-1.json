@@ -2,6 +2,48 @@
   "pageNumber": 1,
   "blogs": [
     {
+      "title": "Workout Leggings Wholesale: Top Ranges to Buy in 2024",
+      "slug": "the-hip-and-happening-workout-leggings-wholesale-range-to-die-for",
+      "url": "/the-hip-and-happening-workout-leggings-wholesale-range-to-die-for",
+      "excerpt": "Discover the top wholesale workout leggings categories for 2024—scrunch-seam, seamless, compression & plus-size lines—plus margin math and manufacturer QA tips.",
+      "author": "Ryan Mitchell",
+      "date": "2026-06-05",
+      "category": "Category Object",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/fe3279f8-6c30-484f-9d0a-6175d48efa54.png",
+      "tags": [
+        {
+          "slug": "seamless-leggings",
+          "name": "Seamless Leggings"
+        },
+        {
+          "slug": "leggings-wholesale-2",
+          "name": "Wholesale Leggings"
+        },
+        {
+          "slug": "wholesale-bulk",
+          "name": "Wholesale Bulk"
+        },
+        {
+          "slug": "leggings-oem",
+          "name": "Leggings OEM"
+        },
+        {
+          "slug": "scrunch-leggings",
+          "name": "Scrunch Leggings"
+        },
+        {
+          "slug": "compression-bulk",
+          "name": "Compression Bulk"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "category-object",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 11,
+      "featured": true
+    },
+    {
       "title": "Top 9 Yoga Wear Suppliers in China: Bulk Buying Guide",
       "slug": "top-9-yoga-wear-suppliers-in-china-a-bulk-buying-guide-for-brands",
       "url": "/top-9-yoga-wear-suppliers-in-china-a-bulk-buying-guide-for-brands",
@@ -41,7 +83,7 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 10,
-      "featured": true
+      "featured": false
     },
     {
       "title": "3 Sports Bra Summer Looks for Stylish Women in 2026",
