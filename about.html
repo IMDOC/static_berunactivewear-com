@@ -142,6 +142,7 @@
     .bh-div--wave{height:64px;margin-top:-56px}
     .bh-div--slant{height:52px}
     .bh-div--arc{height:64px;margin-top:-48px}
+    .bh-div--slim{height:28px}
 
     /* ── Image helpers ───────────────────────────────────── */
     .bh-img-wrap{position:relative;background:#2D3748;border-radius:8px;overflow:hidden}
@@ -153,16 +154,19 @@
     .bh-hero{position:relative;background:var(--ink);min-height:clamp(620px,88vh,940px);overflow:hidden;display:flex;flex-direction:column}
     .bh-hero-bg{position:absolute;inset:0;z-index:0}
     .bh-hero-bg img{width:100%;height:100%;object-fit:cover;object-position:center 30%;display:block}
-    .bh-hero-overlay{position:absolute;inset:0;z-index:2;background:linear-gradient(108deg,rgba(10,16,30,.92) 0%,rgba(10,16,30,.82) 35%,rgba(10,16,30,.58) 65%,rgba(10,16,30,.28) 100%);pointer-events:none}
+    .bh-hero-overlay{position:absolute;inset:0;z-index:2;background:linear-gradient(108deg,rgba(10,16,30,.92) 0%,rgba(10,16,30,.82) 40%,rgba(10,16,30,.70) 100%);pointer-events:none}
     .bh-hero-inner{position:relative;z-index:3;flex:1;display:flex;flex-direction:column;justify-content:center;padding:clamp(64px,7vh,90px) 0 clamp(28px,3vh,40px)}
-    .bh-hero-copy{max-width:680px}
+    .bh-hero-grid{display:grid;grid-template-columns:1fr 260px;gap:clamp(28px,4vw,52px);align-items:center}
+    .bh-hero-copy{max-width:none}
     .bh-hero-copy .bh-eyebrow{margin-bottom:14px;color:var(--gold)}
     .bh-hero-sub{font-size:clamp(1rem,1.45vw,1.22rem);line-height:1.52;color:#CBD5E1;max-width:46ch;margin:0 0 24px}
     .bh-hero .bh-tlink{color:#E5E7EB;border-bottom-color:var(--gold)}
     .bh-hero .bh-tlink:hover{color:var(--gold)}
-    .bh-hero-bullets{list-style:none;padding:0;margin:0 0 28px;display:flex;flex-direction:column;gap:10px}
-    .bh-hero-bullets li{font-size:.9rem;color:#CBD5E1;line-height:1.5;display:flex;gap:10px;align-items:flex-start}
-    .bh-hero-bullets li::before{content:"✓";color:var(--red);font-weight:800;flex-shrink:0;margin-top:1px}
+    .bh-hero-facts{display:flex;flex-direction:column;gap:12px}
+    .bh-hero-fact{background:rgba(10,16,30,.72);border:1.5px solid rgba(220,38,38,.5);border-radius:10px;padding:16px 18px;backdrop-filter:blur(10px);display:flex;align-items:center;gap:12px}
+    .bh-hero-fact-val{font-family:var(--ff-x);font-weight:800;font-size:1.55rem;color:#fff;line-height:1;white-space:nowrap}
+    .bh-hero-fact-lab{font-size:.72rem;color:#CBD5E1;font-weight:600;letter-spacing:.04em;line-height:1.35}
+    .bh-hero-fact-chk{color:var(--red);font-size:1rem;font-weight:800;margin-left:auto;flex-shrink:0}
 
     /* hero stat badges */
     .bh-badges{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:28px}
@@ -180,26 +184,24 @@
     .bh-card2 a.bh-tlink{font-size:.9rem}
 
     /* ── S3 Timeline ────────────────────────────────────── */
-    .bh-tl{position:relative;padding:0 0 0 0}
+    .bh-tl{position:relative;padding:0}
     .bh-tl::before{content:"";position:absolute;left:50%;top:0;bottom:0;width:2px;background:var(--line);transform:translateX(-50%)}
-    .bh-tl-node{display:grid;grid-template-columns:1fr 60px 1fr;gap:0;align-items:start;margin-bottom:clamp(44px,6vw,72px)}
-    .bh-tl-node.tl-revealed{animation:tlFadeIn .5s ease both}
-    .bh-tl-node:nth-child(even) .tl-left{order:3}
-    .bh-tl-node:nth-child(even) .tl-center{order:2}
-    .bh-tl-node:nth-child(even) .tl-right{order:1;text-align:right}
-    .tl-center{display:flex;flex-direction:column;align-items:center;gap:6px;padding-top:6px}
+    .bh-tl-node{display:grid;grid-template-columns:1fr 60px 1fr;align-items:start;margin-bottom:clamp(44px,6vw,72px)}
+    .tl-center{grid-column:2;display:flex;flex-direction:column;align-items:center;gap:6px;padding-top:6px}
+    .bh-tl-node[data-side="left"] .tl-content{grid-column:1;display:flex;flex-direction:column;align-items:flex-end;text-align:right;padding:6px clamp(20px,3vw,44px) 0 0}
+    .bh-tl-node[data-side="right"] .tl-content{grid-column:3;display:flex;flex-direction:column;align-items:flex-start;text-align:left;padding:6px 0 0 clamp(20px,3vw,44px)}
     .tl-dot{width:28px;height:28px;border-radius:50%;background:var(--ink);border:3px solid var(--gold);display:flex;align-items:center;justify-content:center;flex-shrink:0;position:relative;z-index:2}
     .tl-dot::after{content:"";position:absolute;inset:-5px;border-radius:50%;border:1px dashed rgba(252,211,77,.4)}
     .tl-year{font-family:var(--ff-x);font-weight:900;font-size:2.2rem;color:var(--red);font-variant-numeric:tabular-nums;line-height:1;text-align:center}
-    .tl-left,.tl-right{padding:0 clamp(20px,3vw,44px)}
-    .tl-right{padding-top:6px}
-    .tl-left{display:flex;flex-direction:column;align-items:flex-end;text-align:right;padding-top:6px}
-    .bh-tl-node:nth-child(even) .tl-left{align-items:flex-start;text-align:left}
     .tl-title{font-family:var(--ff-h);font-weight:800;font-size:1.08rem;color:var(--ink);margin:0 0 8px;display:flex;align-items:center;gap:6px}
     .tl-body{font-size:.9rem;color:var(--ink2);line-height:1.55;margin:0}
-    .tl-img{aspect-ratio:4/3;border-radius:8px;overflow:hidden;background:#374151;margin-top:14px;position:relative}
+    .tl-img{aspect-ratio:4/3;border-radius:8px;overflow:hidden;background:#374151;margin-top:14px;position:relative;width:100%;max-width:300px}
     .tl-img img{width:100%;height:100%;object-fit:cover}
     .tl-img-scrim{position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.5) 0%,transparent 60%)}
+    @keyframes tlSlideLeft{from{opacity:.3;transform:translateX(-32px)}to{opacity:1;transform:none}}
+    @keyframes tlSlideRight{from{opacity:.3;transform:translateX(32px)}to{opacity:1;transform:none}}
+    .bh-tl-node[data-side="left"].tl-revealed .tl-content{animation:tlSlideLeft .5s ease both}
+    .bh-tl-node[data-side="right"].tl-revealed .tl-content{animation:tlSlideRight .5s ease both}
 
     /* ── S4 Team ID Cards ────────────────────────────────── */
     .bh-idgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
@@ -254,6 +256,12 @@
     .bh-stat-body{font-size:.84rem;color:var(--ink2);line-height:1.5;margin:0}
     .bh-invite{background:#fff;border:1px solid var(--line);border-radius:12px;padding:clamp(22px,3vw,36px);margin-top:24px;text-align:center}
     .bh-invite p{font-size:1rem;color:var(--ink2);line-height:1.6;margin:0 0 20px;max-width:58ch;margin-inline:auto;margin-bottom:20px}
+    .bh-gallery{margin-top:36px;display:flex;flex-direction:column;gap:10px}
+    .bh-gallery-feat{position:relative;height:320px;border-radius:10px;overflow:hidden;background:#374151}
+    .bh-gallery-row{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+    .bh-gallery-sm{position:relative;height:190px;border-radius:8px;overflow:hidden;background:#374151}
+    .bh-gallery-feat img,.bh-gallery-sm img{width:100%;height:100%;object-fit:cover;display:block}
+    .bh-gallery-scrim{position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.4) 0%,transparent 55%);pointer-events:none}
 
     /* ── S7b Invite band ────────────────────────────────── */
     .bh-band-red{position:relative;background:var(--red-deep);overflow:hidden;padding:clamp(44px,7vh,72px) 0}
@@ -302,25 +310,30 @@
       .bh-contact-grid{grid-template-columns:1fr}
     }
     @media(max-width:768px){
+      .bh-hero-grid{grid-template-columns:1fr}
+      .bh-hero-facts{flex-direction:row;flex-wrap:wrap;gap:10px;margin-top:20px}
+      .bh-hero-fact{flex:1;min-width:150px}
       .bh-cards2{grid-template-columns:1fr}
       .bh-opts{grid-template-columns:1fr}
-      .bh-tl::before{left:28px}
-      .bh-tl-node{grid-template-columns:56px 1fr;gap:0}
-      .bh-tl-node:nth-child(even) .tl-left,.bh-tl-node:nth-child(even) .tl-right,
-      .bh-tl-node .tl-left,.bh-tl-node .tl-right{order:unset!important}
+      .bh-tl::before{left:22px}
+      .bh-tl-node{grid-template-columns:44px 1fr}
+      .tl-center{grid-column:1}
+      .bh-tl-node[data-side="left"] .tl-content,
+      .bh-tl-node[data-side="right"] .tl-content{grid-column:2;align-items:flex-start;text-align:left;padding:0 8px 0 16px}
       .tl-year{font-size:1.4rem}
-      .tl-left{display:none}
-      .bh-tl-node:nth-child(even) .tl-left{display:none}
-      .bh-tl-node:nth-child(even) .tl-right{text-align:left;padding-left:16px}
-      .tl-right{padding-left:16px;padding-right:8px}
+      .bh-tl-node[data-side="left"].tl-revealed .tl-content,
+      .bh-tl-node[data-side="right"].tl-revealed .tl-content{animation:tlSlideRight .4s ease both}
     }
-    @keyframes tlFadeIn{from{opacity:.4;transform:translateY(20px)}to{opacity:1;transform:none}}
     @media(max-width:640px){
       .bh-idgrid{grid-template-columns:1fr}
       .bh-stats4{grid-template-columns:1fr}
       .bh-ops-grid{grid-template-columns:1fr}
       .bh-badges{gap:8px}
       .bh-badge .bval{font-size:1.1rem}
+      .bh-gallery-feat{height:220px}
+      .bh-gallery-row{grid-template-columns:1fr 1fr}
+      .bh-gallery-sm{height:140px}
+      .bh-hero-fact{min-width:130px}
     }
   </style>
 </head>
@@ -351,61 +364,59 @@
 
       <div class="bh-hero-inner">
         <div class="bh-ctr">
-          <div class="bh-hero-copy">
-            <div class="bh-eyebrow">
-              <span class="bh-stamp" style="transform:rotate(-2deg);color:var(--gold);border-color:var(--gold);background:rgba(252,211,77,.06)">
-                <i class="bi bi-patch-check-fill"></i> On the Record
-              </span>
-            </div>
-            <h1 class="bh-h1">Berun Active Wear —&nbsp;<br><span class="hl-kw">Activewear Factory</span> Since&nbsp;2017</h1>
-            <p class="bh-hero-sub">Single 8,500&nbsp;m² facility, 280&nbsp;workers on one payroll, 12&nbsp;production lines. Serving sportswear brands, gym chains, and DTC startups across North America, Europe, and ANZ.</p>
+          <div class="bh-hero-grid">
 
-            <!-- Verified stat badges -->
-            <div class="bh-badges">
-              <div class="bh-badge">
-                <div>
-                  <div class="bval bh-num" data-count-target="8" data-count-suffix=" Years">8 Years</div>
-                  <div class="blab">Operating<br>Since 2017</div>
-                </div>
-                <span class="bchk">✓</span>
+            <!-- Left: copy + CTAs -->
+            <div class="bh-hero-copy">
+              <div class="bh-eyebrow">
+                <span class="bh-stamp" style="transform:rotate(-2deg);color:var(--gold);border-color:var(--gold);background:rgba(252,211,77,.06)">
+                  <i class="bi bi-patch-check-fill"></i> On the Record
+                </span>
               </div>
-              <div class="bh-badge">
-                <div>
-                  <div class="bval bh-num" data-count-target="280" data-count-suffix="">280</div>
-                  <div class="blab">Workers,<br>Single Payroll</div>
-                </div>
-                <span class="bchk">✓</span>
-              </div>
-              <div class="bh-badge">
-                <div>
-                  <div class="bval bh-num">8,500<span style="font-size:.55em;font-weight:600;color:var(--gold);margin-left:2px">m²</span></div>
-                  <div class="blab">Single<br>Facility</div>
-                </div>
-                <span class="bchk">✓</span>
+              <h1 class="bh-h1">Berun Active Wear —&nbsp;<br><span class="hl-kw">Activewear Factory</span> Since&nbsp;2017</h1>
+              <p class="bh-hero-sub">Single 8,500&nbsp;m² facility, 280&nbsp;workers on one payroll, 12&nbsp;production lines. Serving sportswear brands, gym chains, and DTC startups across North America, Europe, and ANZ.</p>
+              <div class="bh-cta-row">
+                <a href="mailto:sales@berunactivewear.com?subject=Virtual Factory Tour Request" class="bh-btn bh-btn--p">
+                  <i class="bi bi-camera-video"></i> Book a Virtual Factory Tour
+                </a>
+                <a href="mailto:sales@berunactivewear.com?subject=Company Profile Deck Request" class="bh-btn bh-btn--o">
+                  <i class="bi bi-file-earmark-pdf"></i> Request Company Profile Deck
+                </a>
               </div>
             </div>
 
-            <div class="bh-cta-row">
-              <a href="mailto:sales@berunactivewear.com?subject=Virtual Factory Tour Request" class="bh-btn bh-btn--p">
-                <i class="bi bi-camera-video"></i> Book a Virtual Factory Tour
-              </a>
-              <a href="mailto:sales@berunactivewear.com?subject=Company Profile Deck Request" class="bh-btn bh-btn--o">
-                <i class="bi bi-file-earmark-pdf"></i> Request Company Profile Deck
-              </a>
+            <!-- Right: verified facts card panel -->
+            <div class="bh-hero-facts">
+              <div class="bh-hero-fact">
+                <div>
+                  <div class="bh-hero-fact-val bh-num" data-count-target="8" data-count-suffix=" Yrs">8 Yrs</div>
+                  <div class="bh-hero-fact-lab">Operating<br>Since 2017</div>
+                </div>
+                <span class="bh-hero-fact-chk">✓</span>
+              </div>
+              <div class="bh-hero-fact">
+                <div>
+                  <div class="bh-hero-fact-val bh-num" data-count-target="280" data-count-suffix="">280</div>
+                  <div class="bh-hero-fact-lab">Workers,<br>Single Payroll</div>
+                </div>
+                <span class="bh-hero-fact-chk">✓</span>
+              </div>
+              <div class="bh-hero-fact">
+                <div>
+                  <div class="bh-hero-fact-val">8,500<span style="font-size:.5em;font-weight:600;color:var(--gold);margin-left:2px">m²</span></div>
+                  <div class="bh-hero-fact-lab">Single<br>Facility</div>
+                </div>
+                <span class="bh-hero-fact-chk">✓</span>
+              </div>
             </div>
 
-            <ul class="bh-hero-bullets">
-              <li>Single factory, 8,500&nbsp;m², no subcontracting at any stage. All 12&nbsp;production lines are on-site and owner-operated under one roof.</li>
-              <li>280&nbsp;workers on a single payroll — 180&nbsp;machinists, 36&nbsp;cutting and pattern staff (including 16&nbsp;pattern makers), 24&nbsp;print and embroidery workers, 32&nbsp;QC, and 8&nbsp;lab technicians.</li>
-              <li>OEM and ODM clients across North America (42%), Europe (28%), ANZ (14%), and other markets — repeat orders from sportswear brands, gym chains, and DTC labels.</li>
-            </ul>
           </div>
         </div>
       </div>
     </section>
 
     <!-- Shape divider: Hero → S2 wave -->
-    <div class="bh-div bh-div--wave" style="background:var(--paper)">
+    <div class="bh-div bh-div--wave" style="background:var(--ink)">
       <svg viewBox="0 0 1440 64" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M0,40 C360,80 1080,0 1440,40 L1440,64 L0,64 Z" fill="var(--paper)"/>
       </svg>
@@ -438,6 +449,13 @@
       </div>
     </section>
 
+    <!-- Shape divider: S2 → S3 arc (paper → white) -->
+    <div class="bh-div bh-div--arc" style="background:var(--paper)">
+      <svg viewBox="0 0 1440 64" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,0 Q720,64 1440,0 L1440,64 L0,64 Z" fill="#fff"/>
+      </svg>
+    </div>
+
     <!-- ═══════════════════════════════════════════════════
          S3 · TIMELINE — Factory History Year-by-Year
     ════════════════════════════════════════════════════ -->
@@ -451,9 +469,9 @@
 
         <div class="bh-tl" id="bh-timeline">
 
-          <!-- Node 1 · 2017 -->
-          <div class="bh-tl-node" data-tl-index="0">
-            <div class="tl-left">
+          <!-- Node 1 · 2017 — content LEFT -->
+          <div class="bh-tl-node" data-tl-index="0" data-side="left">
+            <div class="tl-content">
               <div class="tl-title"><i class="bi bi-building" style="color:var(--red)"></i> Founded</div>
               <p class="tl-body">Berun opened with three cut-and-sew lines focused on performance leggings and sports bras for North American wholesale buyers. The founding team came from sportswear manufacturing backgrounds. Output in the first year was under 50,000&nbsp;pcs per month, with a single customer segment and a tight product scope.</p>
             </div>
@@ -461,17 +479,15 @@
               <div class="tl-dot"></div>
               <div class="tl-year">2017</div>
             </div>
-            <div class="tl-right"></div>
           </div>
 
-          <!-- Node 2 · 2020 (even → image right) -->
-          <div class="bh-tl-node" data-tl-index="1">
-            <div class="tl-left"></div>
+          <!-- Node 2 · 2020 — content RIGHT -->
+          <div class="bh-tl-node" data-tl-index="1" data-side="right">
             <div class="tl-center">
               <div class="tl-dot"></div>
               <div class="tl-year">2020</div>
             </div>
-            <div class="tl-right">
+            <div class="tl-content">
               <div class="tl-title"><i class="bi bi-diagram-3" style="color:var(--red)"></i> 12-Line Expansion</div>
               <p class="tl-body">Production expanded to 12&nbsp;lines — five cut-and-sew, four sublimation, and three team-set — with all lines housed in the current 8,500&nbsp;m² facility. The sublimation department was added in-house, eliminating reliance on outside print vendors. Monthly capacity crossed 200,000&nbsp;pcs. OEKO-TEX Standard&nbsp;100 first certification obtained this year.</p>
               <div class="tl-img">
@@ -485,12 +501,12 @@
             </div>
           </div>
 
-          <!-- Node 3 · 2023 -->
-          <div class="bh-tl-node" data-tl-index="2">
-            <div class="tl-left">
+          <!-- Node 3 · 2023 — content LEFT -->
+          <div class="bh-tl-node" data-tl-index="2" data-side="left">
+            <div class="tl-content">
               <div class="tl-title"><i class="bi bi-eyedropper" style="color:var(--red)"></i> QC Lab Upgrade + OEKO-TEX Renewal</div>
               <p class="tl-body">The in-house QC lab added spectrophotometric colorimetric testing, allowing incoming fabric measurement against approved lab dips at ΔE accuracy. OEKO-TEX Standard&nbsp;100 renewed under certificate 23.HCN.74521, covering both fabric and finished garment harmful-substance testing. BSCI social compliance audit (BSCI-CN-2024-08-15) passed with no major findings.</p>
-              <div class="tl-img" style="max-width:300px;margin-left:auto">
+              <div class="tl-img">
                 <img
                   loading="lazy"
                   src="https://img.berunactivewear.com/assets/images/ab-spectrophotometer-delta-e-reading.webp"
@@ -503,17 +519,15 @@
               <div class="tl-dot"></div>
               <div class="tl-year">2023</div>
             </div>
-            <div class="tl-right"></div>
           </div>
 
-          <!-- Node 4 · 2024 -->
-          <div class="bh-tl-node" data-tl-index="3">
-            <div class="tl-left"></div>
+          <!-- Node 4 · 2024 — content RIGHT -->
+          <div class="bh-tl-node" data-tl-index="3" data-side="right">
             <div class="tl-center">
               <div class="tl-dot"></div>
               <div class="tl-year">2024</div>
             </div>
-            <div class="tl-right">
+            <div class="tl-content">
               <div class="tl-title"><i class="bi bi-award" style="color:var(--red)"></i> WRAP Gold + GRS + Higg FEM — Full Compliance Stack</div>
               <p class="tl-body">WRAP Gold certification (WRAP-GLD-156823), GRS (CU&nbsp;1014387 GRS-2024), and Higg FEM (HIG-FEM-2024-CN-08, score 82/100) were all completed in 2024, giving clients a full compliance documentation set for ESG supplier qualification. Monthly output reached 380,000&nbsp;pcs across all 12&nbsp;lines, with on-time delivery holding at 92.4% rolling 12-month average.</p>
             </div>
@@ -523,10 +537,10 @@
       </div>
     </section>
 
-    <!-- Shape divider: S3 → S4 slant -->
+    <!-- Shape divider: S3 → S4 slant (white → paper) -->
     <div class="bh-div bh-div--slant" style="background:#fff">
       <svg viewBox="0 0 1440 52" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-        <polygon points="0,52 1440,0 1440,52" fill="#fff"/>
+        <polygon points="0,52 1440,0 1440,52" fill="var(--paper)"/>
       </svg>
     </div>
 
@@ -838,8 +852,53 @@
           </a>
         </div>
 
+        <!-- Factory photo collage -->
+        <div class="bh-gallery">
+          <div class="bh-gallery-feat">
+            <img
+              loading="lazy"
+              src="https://img.berunactivewear.com/assets/images/ab-aerial-view-of-factory.webp"
+              alt="Berun Active Wear factory aerial view — 8,500 m² single facility"
+              onerror="this.parentNode.style.background='#374151'">
+            <div class="bh-gallery-scrim"></div>
+          </div>
+          <div class="bh-gallery-row">
+            <div class="bh-gallery-sm">
+              <img
+                loading="lazy"
+                src="https://img.berunactivewear.com/assets/images/ab-12-production-sewing-lines.webp"
+                alt="12 production sewing lines, Berun factory"
+                onerror="this.parentNode.style.background='#374151'">
+              <div class="bh-gallery-scrim"></div>
+            </div>
+            <div class="bh-gallery-sm">
+              <img
+                loading="lazy"
+                src="https://img.berunactivewear.com/assets/images/ab-morning-standup-meeting.webp"
+                alt="Berun team morning standup — 280 workers, single payroll"
+                onerror="this.parentNode.style.background='#374151'">
+              <div class="bh-gallery-scrim"></div>
+            </div>
+            <div class="bh-gallery-sm">
+              <img
+                loading="lazy"
+                src="https://img.berunactivewear.com/assets/images/ab-spectrophotometer-delta-e-reading.webp"
+                alt="In-house QC lab colorimetric testing"
+                onerror="this.parentNode.style.background='#374151'">
+              <div class="bh-gallery-scrim"></div>
+            </div>
+          </div>
+        </div>
+
       </div>
     </section>
+
+    <!-- Shape divider: S7 → S7b slant (paper → red-deep, strong contrast) -->
+    <div class="bh-div bh-div--slant" style="background:var(--paper)">
+      <svg viewBox="0 0 1440 52" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <polygon points="0,0 1440,52 0,52" fill="var(--red-deep)"/>
+      </svg>
+    </div>
 
     <!-- ═══════════════════════════════════════════════════
          S7b · INVITE BAND — deep red slim
@@ -868,6 +927,13 @@
           </div>
         </div>
       </div>
+    </div>
+
+    <!-- Shape divider: S7b → S8 slim slant (red-deep → ink, dark→dark subtle) -->
+    <div class="bh-div bh-div--slim" style="background:var(--red-deep)">
+      <svg viewBox="0 0 1440 28" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <polygon points="0,28 1440,0 1440,28" fill="var(--ink)"/>
+      </svg>
     </div>
 
     <!-- ═══════════════════════════════════════════════════
