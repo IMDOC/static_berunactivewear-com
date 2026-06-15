@@ -874,6 +874,69 @@
         "seamless athletic leggings",
         "seamless fitness leggings"
       ]
+    },
+    {
+      "slug": "running-taboos",
+      "name": "Running Taboos",
+      "description": "Common clothing mistakes to avoid while running, plus smart replacements to enhance comfort and performance.",
+      "aliases": [
+        "what not to wear running",
+        "running clothing mistakes",
+        "running wardrobe no-nos",
+        "clothes to avoid running",
+        "running outfit taboos",
+        "running apparel mistakes"
+      ]
+    },
+    {
+      "slug": "running-mistakes",
+      "name": "Running Mistakes",
+      "description": "Common running gear mistakes beginners make and expert tips on what to avoid for a better running experience.",
+      "aliases": [
+        "running gear mistakes beginners",
+        "running mistakes",
+        "beginner running mistakes",
+        "running gear errors",
+        "mistakes when running",
+        "running apparel mistakes"
+      ]
+    },
+    {
+      "slug": "running-essentials",
+      "name": "Running Essentials",
+      "description": "Essential running clothes and gear tips tailored for beginners aiming to enhance comfort and performance during runs.",
+      "aliases": [
+        "best running clothes for beginners",
+        "running clothes beginners",
+        "beginner running gear",
+        "running essentials for beginners",
+        "running apparel beginners",
+        "starter running clothes"
+      ]
+    },
+    {
+      "slug": "running-tips",
+      "name": "Running Tips",
+      "description": "Expert advice and practical tips on running apparel to enhance comfort and performance during your runs.",
+      "aliases": [
+        "running apparel tips",
+        "running clothing advice",
+        "running gear tips",
+        "running outfit tips",
+        "tips for running clothes"
+      ]
+    },
+    {
+      "slug": "moisture-running",
+      "name": "Moisture Running",
+      "description": "Articles on moisture-wicking running gear that keeps you dry and comfortable during intense workouts and runs.",
+      "aliases": [
+        "moisture wicking running gear",
+        "running moisture wicking",
+        "moisture-wicking running clothes",
+        "moisture wicking running apparel",
+        "running gear moisture wicking"
+      ]
     }
   ]
 }
