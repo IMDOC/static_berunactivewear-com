@@ -937,6 +937,80 @@
         "moisture wicking running apparel",
         "running gear moisture wicking"
       ]
+    },
+    {
+      "slug": "hunting-uk",
+      "name": "Hunting UK",
+      "description": "Explore top hunting clothing brands available in the UK, featuring quality gear designed for outdoor enthusiasts and hunters.",
+      "aliases": [
+        "best hunting clothing brands uk",
+        "uk hunting apparel",
+        "hunting gear uk",
+        "top hunting brands uk",
+        "uk hunting clothes"
+      ]
+    },
+    {
+      "slug": "hunting-uk-2",
+      "name": "Hunting UK",
+      "description": "Insights and reviews of leading hunting clothing brands popular in the UK market and their functional apparel features.",
+      "aliases": [
+        "hunting clothing brands uk",
+        "uk hunting apparel",
+        "best hunting clothes uk",
+        "uk hunting clothing",
+        "hunting gear uk",
+        "uk hunting outfit"
+      ]
+    },
+    {
+      "slug": "field-sports",
+      "name": "Field Sports",
+      "description": "Field sports clothing, including hunting apparel and gear designed for outdoor activities in the UK environment.",
+      "aliases": [
+        "uk field sports clothing",
+        "field sports apparel uk",
+        "uk hunting clothing",
+        "field sports gear uk",
+        "uk outdoor hunting wear"
+      ]
+    },
+    {
+      "slug": "waterproof-jackets",
+      "name": "Waterproof Jackets",
+      "description": "Articles and guides on waterproof hunting jackets designed for the UK climate, combining durability and protection.",
+      "aliases": [
+        "waterproof hunting jackets uk",
+        "uk waterproof jackets",
+        "waterproof hunting coats uk",
+        "waterproof outdoor jackets uk",
+        "waterproof hunting gear uk"
+      ]
+    },
+    {
+      "slug": "hunting-uk-3",
+      "name": "Hunting UK",
+      "description": "Insights, trends, and top brands related to hunting apparel and clothing specifically focused on the UK market.",
+      "aliases": [
+        "hunting apparel uk",
+        "uk hunting clothing",
+        "hunting clothes uk",
+        "uk hunting apparel",
+        "hunting gear uk"
+      ]
+    },
+    {
+      "slug": "british-hunting",
+      "name": "British Hunting",
+      "description": "Insightful articles focused on British hunting clothing brands and gear for outdoor enthusiasts in the UK.",
+      "aliases": [
+        "british hunting clothing",
+        "uk hunting clothes",
+        "hunting apparel uk",
+        "british hunting gear",
+        "uk hunting apparel",
+        "hunting clothing uk"
+      ]
     }
   ]
 }

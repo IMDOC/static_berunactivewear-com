@@ -36,7 +36,7 @@
       "categorySlug": "category-object",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
-      "id": 12,
+      "id": 13,
       "featured": true
     },
     {
@@ -72,6 +72,44 @@
         {
           "slug": "compression-bulk",
           "name": "Compression Bulk"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "category-object",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 12,
+      "featured": false
+    },
+    {
+      "title": "Top 12 Best Hunting Clothing Brands in the UK (2025)",
+      "slug": "top-12-best-hunting-clothing-brands-in-the-uk",
+      "url": "/top-12-best-hunting-clothing-brands-in-the-uk",
+      "excerpt": "Discover the 12 best hunting clothing brands in the UK. Compare heritage labels, budget picks, and waterproof specialists for shoots, stalking, and wildfowling.",
+      "author": "Ryan Mitchell",
+      "date": "2026-06-05",
+      "category": "Category Object",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/fea334a3-5580-4ff2-b64c-615a7b3b4e40.png",
+      "tags": [
+        {
+          "slug": "british-hunting",
+          "name": "British Hunting"
+        },
+        {
+          "slug": "hunting-uk",
+          "name": "Hunting UK"
+        },
+        {
+          "slug": "hunting-uk-2",
+          "name": "Hunting UK"
+        },
+        {
+          "slug": "field-sports",
+          "name": "Field Sports"
+        },
+        {
+          "slug": "waterproof-jackets",
+          "name": "Waterproof Jackets"
         }
       ],
       "readTime": "7 min read",
