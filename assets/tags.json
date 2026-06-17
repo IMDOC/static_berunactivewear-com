@@ -1011,6 +1011,81 @@
         "uk hunting apparel",
         "hunting clothing uk"
       ]
+    },
+    {
+      "slug": "yoga-patterns",
+      "name": "Yoga Patterns",
+      "description": "Latest yoga pants pattern trends for 2026, highlighting styles and designs forecasted to dominate the market.",
+      "aliases": [
+        "yoga pants pattern trends 2026",
+        "yoga pants patterns 2026",
+        "yoga pattern trends",
+        "yoga pants design trends",
+        "2026 yoga pants styles"
+      ]
+    },
+    {
+      "slug": "geo-print",
+      "name": "Geo Print",
+      "description": "Geometric print designs on yoga pants highlighting modern pattern trends and style innovation in activewear fashion.",
+      "aliases": [
+        "geometric print yoga pants",
+        "geo print yoga pants",
+        "geometric pattern leggings",
+        "geometric leggings",
+        "geo pattern yoga pants",
+        "geometric print leggings"
+      ]
+    },
+    {
+      "slug": "botanical-print",
+      "name": "Botanical Print",
+      "description": "Botanical print activewear featuring nature-inspired patterns perfect for stylish and trendy yoga and workout apparel.",
+      "aliases": [
+        "botanical print activewear",
+        "botanical pattern activewear",
+        "floral print yoga pants",
+        "botanical leggings",
+        "nature print activewear"
+      ]
+    },
+    {
+      "slug": "digital-gradient",
+      "name": "Digital Gradient",
+      "description": "Articles and trends focused on digital gradient designs, including abstract and colorful gradients for leggings and activewear styles.",
+      "aliases": [
+        "abstract digital gradient leggings",
+        "digital gradient leggings",
+        "gradient leggings",
+        "abstract gradient pants",
+        "digital print leggings",
+        "gradient yoga pants"
+      ]
+    },
+    {
+      "slug": "print-trends",
+      "name": "Print Trends",
+      "description": "Insights and forecasts on the latest activewear print trends shaping yoga pants and athleisure styles.",
+      "aliases": [
+        "activewear print trends",
+        "print trends activewear",
+        "yoga pants print trends",
+        "athleisure print styles",
+        "pattern trends activewear",
+        "print fashion trends"
+      ]
+    },
+    {
+      "slug": "yoga-prints",
+      "name": "Yoga Prints",
+      "description": "Explore trending yoga pants prints and patterns that are shaping the latest styles in activewear fashion this season.",
+      "aliases": [
+        "trending yoga pants prints",
+        "yoga pants patterns",
+        "yoga print trends",
+        "yoga leggings prints",
+        "yoga pants designs"
+      ]
     }
   ]
 }
