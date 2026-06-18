@@ -40,7 +40,7 @@
       "categorySlug": "category-object",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
-      "id": 14,
+      "id": 15,
       "featured": true
     },
     {
@@ -78,7 +78,7 @@
       "categorySlug": "category-object",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
-      "id": 13,
+      "id": 14,
       "featured": false
     },
     {
@@ -114,6 +114,40 @@
         {
           "slug": "compression-bulk",
           "name": "Compression Bulk"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "category-object",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 13,
+      "featured": false
+    },
+    {
+      "title": "Top Wholesale Yoga Clothing Pieces for Fall",
+      "slug": "the-topmost-wholesale-yoga-clothing-pieces-for-the-ultimate-yoga-this-fall",
+      "url": "/the-topmost-wholesale-yoga-clothing-pieces-for-the-ultimate-yoga-this-fall",
+      "excerpt": "Discover the best wholesale yoga clothing categories for fall — thermal leggings, layering tops, coordinated sets & more. Source smarter for Q4 with this buyer's guide.",
+      "author": "Ryan Mitchell",
+      "date": "2026-06-05",
+      "category": "Category Object",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/178d6b97-da78-41d5-93d3-6aabbbc153c5.png",
+      "tags": [
+        {
+          "slug": "fall-collection",
+          "name": "Fall Collection"
+        },
+        {
+          "slug": "yoga-bulk",
+          "name": "Yoga Bulk"
+        },
+        {
+          "slug": "fall-yoga",
+          "name": "Fall Yoga"
+        },
+        {
+          "slug": "thermal-yoga",
+          "name": "Thermal Yoga"
         }
       ],
       "readTime": "7 min read",

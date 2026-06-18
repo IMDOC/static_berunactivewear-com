@@ -1086,6 +1086,69 @@
         "yoga leggings prints",
         "yoga pants designs"
       ]
+    },
+    {
+      "slug": "yoga-wholesale",
+      "name": "Yoga Wholesale",
+      "description": "Insights and guides on buying and selling wholesale yoga clothing for retailers and brands seeking bulk activewear.",
+      "aliases": [
+        "wholesale yoga clothing",
+        "bulk yoga apparel",
+        "yoga clothing wholesale",
+        "wholesale yoga wear",
+        "yoga activewear bulk",
+        "bulk yoga clothes"
+      ]
+    },
+    {
+      "slug": "fall-yoga",
+      "name": "Fall Yoga",
+      "description": "Wholesale yoga wear styles and collections tailored for the fall season, focusing on comfort and performance for autumn yoga practice.",
+      "aliases": [
+        "fall yoga wear wholesale",
+        "autumn yoga clothing wholesale",
+        "yoga wear fall wholesale",
+        "wholesale fall yoga apparel",
+        "fall yoga apparel wholesale"
+      ]
+    },
+    {
+      "slug": "thermal-yoga",
+      "name": "Thermal Yoga",
+      "description": "Articles about thermal yoga leggings wholesale, combining warmth and flexibility for optimal yoga performance in cooler climates.",
+      "aliases": [
+        "thermal yoga leggings wholesale",
+        "thermal yoga pants wholesale",
+        "thermal leggings for yoga",
+        "wholesale thermal yoga wear",
+        "thermal yoga apparel",
+        "warm yoga leggings wholesale"
+      ]
+    },
+    {
+      "slug": "yoga-bulk",
+      "name": "Yoga Bulk",
+      "description": "Insights and tips on bulk buying wholesale yoga activewear for retailers, studios, and fitness enthusiasts expanding their product lines.",
+      "aliases": [
+        "yoga activewear bulk buying",
+        "wholesale yoga clothing",
+        "bulk yoga apparel",
+        "yoga clothes bulk",
+        "bulk yoga wear",
+        "wholesale yoga activewear"
+      ]
+    },
+    {
+      "slug": "fall-collection",
+      "name": "Fall Collection",
+      "description": "Insights and trends on wholesale autumn activewear collections, focusing on seasonal styles for yoga and fitness clothing.",
+      "aliases": [
+        "autumn activewear collection wholesale",
+        "fall activewear wholesale",
+        "wholesale autumn yoga clothes",
+        "fall yoga clothing wholesale",
+        "autumn fitness wear wholesale"
+      ]
     }
   ]
 }
