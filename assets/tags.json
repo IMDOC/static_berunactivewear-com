@@ -1149,6 +1149,94 @@
         "fall yoga clothing wholesale",
         "autumn fitness wear wholesale"
       ]
+    },
+    {
+      "slug": "yoga-guide",
+      "name": "Yoga Guide",
+      "description": "Comprehensive guides on yoga clothing, covering fabrics, fit, and features ideal for beginners and enthusiasts alike.",
+      "aliases": [
+        "yoga clothing guide for beginners",
+        "beginner yoga clothing",
+        "yoga clothes tips",
+        "yoga outfit guide",
+        "yoga wear beginner",
+        "yoga apparel guide"
+      ]
+    },
+    {
+      "slug": "moisture-yoga",
+      "name": "Moisture Yoga",
+      "description": "Insights on moisture-wicking fabrics ideal for yoga wear, focusing on comfort, breathability, and sweat management in activewear.",
+      "aliases": [
+        "moisture-wicking yoga fabrics",
+        "yoga moisture fabrics",
+        "moisture wicking yoga",
+        "yoga sweat-wicking fabric",
+        "breathable yoga fabric"
+      ]
+    },
+    {
+      "slug": "squat-proof",
+      "name": "Squat-Proof",
+      "description": "Articles covering squat-proof yoga leggings that ensure opacity, durability, and comfort during intense workouts.",
+      "aliases": [
+        "squat-proof yoga leggings",
+        "opaque yoga leggings",
+        "durable yoga leggings",
+        "non-see-through leggings",
+        "stretch-proof leggings",
+        "squat safe leggings"
+      ]
+    },
+    {
+      "slug": "yoga-fit",
+      "name": "Yoga Fit",
+      "description": "Insights and comparisons between compression and relaxed fit yoga pants for optimal comfort and performance.",
+      "aliases": [
+        "compression vs relaxed fit yoga pants",
+        "yoga pants fit",
+        "compression yoga pants fit",
+        "relaxed fit yoga pants",
+        "yoga pant styles",
+        "yoga clothing fit"
+      ]
+    },
+    {
+      "slug": "yoga-fabrics",
+      "name": "Yoga Fabrics",
+      "description": "Comprehensive comparison and insights on the best fabrics used in yoga apparel, focusing on comfort, stretch, and breathability.",
+      "aliases": [
+        "yoga apparel fabric comparison",
+        "yoga clothing fabrics",
+        "best yoga fabrics",
+        "yoga fabric guide",
+        "yoga wear fabric types"
+      ]
+    },
+    {
+      "slug": "yoga-beginners",
+      "name": "Yoga Beginners",
+      "description": "Essential yoga clothing tips, fabrics, and fits designed specifically for beginners to start their practice comfortably and confidently.",
+      "aliases": [
+        "best yoga clothing for beginners",
+        "yoga clothes beginners",
+        "beginner yoga apparel",
+        "yoga wear for beginners",
+        "yoga beginner outfits"
+      ]
+    },
+    {
+      "slug": "yoga-fabrics-2",
+      "name": "Yoga Fabrics",
+      "description": "Comprehensive guide on yoga leggings fabrics highlighting material types, comfort, and fit to aid yoga beginners in choosing the best apparel.",
+      "aliases": [
+        "yoga leggings fabric guide",
+        "yoga leggings fabric",
+        "yoga clothing fabrics",
+        "yoga fabric guide",
+        "fabric for yoga leggings",
+        "best yoga fabrics"
+      ]
     }
   ]
 }
