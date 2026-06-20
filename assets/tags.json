@@ -1237,6 +1237,92 @@
         "fabric for yoga leggings",
         "best yoga fabrics"
       ]
+    },
+    {
+      "slug": "leotard",
+      "name": "Leotard",
+      "description": "Leotards are making a stylish comeback in fitness and dance apparel, blending comfort, function, and trend-forward designs for activewear lovers.",
+      "aliases": [
+        "leotard comeback fitness",
+        "leotard fitness",
+        "fitness leotard",
+        "dance leotard",
+        "activewear leotard"
+      ]
+    },
+    {
+      "slug": "leotards",
+      "name": "Leotards",
+      "description": "Explore the rising trend of one-piece activewear leotards, blending fitness functionality with dance-inspired style.",
+      "aliases": [
+        "one-piece activewear trend",
+        "leotards comeback",
+        "activewear leotards",
+        "fitness leotards",
+        "dance leotards"
+      ]
+    },
+    {
+      "slug": "bodysuit",
+      "name": "Bodysuit",
+      "description": "Insights and trends on bodysuit workout apparel making a comeback in fitness and dancewear fashion.",
+      "aliases": [
+        "bodysuit workout trend",
+        "workout bodysuit",
+        "fitness bodysuit",
+        "dance bodysuit",
+        "bodysuit activewear",
+        "leotard bodysuit"
+      ]
+    },
+    {
+      "slug": "leotard-vs-bra",
+      "name": "Leotard vs Bra",
+      "description": "Comparing leotards with sports bras and leggings in fitness and dance apparel, highlighting style and functional differences.",
+      "aliases": [
+        "leotard vs sports bra and leggings",
+        "leotard vs sports bra",
+        "leotard vs leggings",
+        "leotard comparison",
+        "leotard fitness wear",
+        "leotard dancewear"
+      ]
+    },
+    {
+      "slug": "dance-trends",
+      "name": "Dance Trends",
+      "description": "Explore the latest dance apparel trends for 2024, highlighting new styles, fabrics, and popular fitness-dance wear like leotards.",
+      "aliases": [
+        "dance apparel trends 2024",
+        "dance fashion 2024",
+        "dancewear trends",
+        "2024 dance apparel",
+        "dance activewear trends"
+      ]
+    },
+    {
+      "slug": "performance-leotard",
+      "name": "Performance Leotard",
+      "description": "Articles covering active performance leotards designed for fitness and dance, focusing on functionality, style, and comfort.",
+      "aliases": [
+        "active leotard performance",
+        "performance leotards",
+        "fitness leotard",
+        "dance performance leotard",
+        "leotard performance wear"
+      ]
+    },
+    {
+      "slug": "leotards-2",
+      "name": "Leotards",
+      "description": "Leotards as one-piece activewear designs ideal for training, dance, and fitness activities with style and performance.",
+      "aliases": [
+        "one-piece activewear for training",
+        "leotard activewear",
+        "leotards fitness",
+        "dance leotard",
+        "training leotards"
+      ]
     }
   ]
 }
