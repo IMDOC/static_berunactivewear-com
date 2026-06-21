@@ -1323,6 +1323,56 @@
         "dance leotard",
         "training leotards"
       ]
+    },
+    {
+      "slug": "market-growth",
+      "name": "Market Growth",
+      "description": "Insights and analysis on the growth trends and key factors driving the athletic apparel market.",
+      "aliases": [
+        "athletic apparel market growth",
+        "athletic clothing market growth",
+        "sportswear market growth",
+        "growth of athletic apparel",
+        "sports apparel market growth",
+        "athletic wear market trends"
+      ]
+    },
+    {
+      "slug": "industry-analysis",
+      "name": "Industry Analysis",
+      "description": "Insights and analysis on trends, growth factors, and market dynamics within the activewear industry.",
+      "aliases": [
+        "activewear industry analysis",
+        "athletic apparel market analysis",
+        "sportswear industry overview",
+        "activewear market insights",
+        "athletic clothing market study"
+      ]
+    },
+    {
+      "slug": "market-drivers",
+      "name": "Market Drivers",
+      "description": "Insights into the key factors and trends driving growth in the athletic clothes market and activewear industry.",
+      "aliases": [
+        "athletic clothes market drivers",
+        "activewear market drivers",
+        "athletic apparel market factors",
+        "sportswear market growth",
+        "drivers of athletic clothing market",
+        "growth factors athletic wear"
+      ]
+    },
+    {
+      "slug": "sportswear-2026",
+      "name": "Sportswear 2026",
+      "description": "Insights and trends on the sportswear market growth projected for 2026, focusing on athletic apparel demand and factors.",
+      "aliases": [
+        "sportswear market 2026",
+        "athletic clothing market 2026",
+        "sports apparel growth 2026",
+        "athletic wear market 2026",
+        "sportswear industry 2026"
+      ]
     }
   ]
 }
