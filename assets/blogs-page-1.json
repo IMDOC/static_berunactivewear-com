@@ -2,6 +2,40 @@
   "pageNumber": 1,
   "blogs": [
     {
+      "title": "Private Label vs Custom Activewear: Which Is Right for Startups?",
+      "slug": "private-label-vs-custom-activewear-which-model-is-better-for-startups",
+      "url": "/private-label-vs-custom-activewear-which-model-is-better-for-startups",
+      "excerpt": "Private label or custom activewear? Compare costs, MOQs, timelines, and risk to find the right manufacturing model for your startup stage.",
+      "author": "Ryan Mitchell",
+      "date": "2026-06-12",
+      "category": "Category Object",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/2a0f925af51449092ee443932632d362.webp",
+      "tags": [
+        {
+          "slug": "label-vs-custom",
+          "name": "Label vs Custom"
+        },
+        {
+          "slug": "activewear-oem",
+          "name": "Activewear OEM"
+        },
+        {
+          "slug": "oem-odm",
+          "name": "OEM & ODM"
+        },
+        {
+          "slug": "activewear-startup",
+          "name": "Activewear Startup"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "category-object",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 19,
+      "featured": true
+    },
+    {
       "title": "Key Factors Driving the Athletic Apparel Market Growth",
       "slug": "understanding-the-key-factors-of-the-growing-market-of-athletic-clothes",
       "url": "/understanding-the-key-factors-of-the-growing-market-of-athletic-clothes",
@@ -37,7 +71,7 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 18,
-      "featured": true
+      "featured": false
     },
     {
       "title": "Why Leotards Are Making a Comeback in Fitness & Dance",
@@ -550,8 +584,8 @@
       "thumbnail": "https://img.berunactivewear.com/assets/images/og-home.jpg",
       "tags": [
         {
-          "slug": "oem",
-          "name": "OEM"
+          "slug": "oem-odm",
+          "name": "OEM & ODM"
         }
       ],
       "readTime": "7 min read",
