@@ -2,6 +2,40 @@
   "pageNumber": 1,
   "blogs": [
     {
+      "title": "How to Choose the Right Blank Clothing Manufacturer",
+      "slug": "how-to-choose-the-right-blank-clothing-manufacturer-for-your-brand",
+      "url": "/how-to-choose-the-right-blank-clothing-manufacturer-for-your-brand",
+      "excerpt": "Use our 8-dimension scorecard to evaluate any blank clothing manufacturer — covering fabric quality, MOQs, pricing transparency, red flags, and sustainability.",
+      "author": "Ryan Mitchell",
+      "date": "2026-06-12",
+      "category": "Category Object",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/f88ab0612ef0aa983e528effb014f332.webp",
+      "tags": [
+        {
+          "slug": "choose-oem",
+          "name": "Choose OEM"
+        },
+        {
+          "slug": "wholesale-oem",
+          "name": "Wholesale OEM"
+        },
+        {
+          "slug": "blank-wholesale",
+          "name": "Blank Wholesale"
+        },
+        {
+          "slug": "blank-manufacturer",
+          "name": "Blank Manufacturer"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "category-object",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 20,
+      "featured": true
+    },
+    {
       "title": "Private Label vs Custom Activewear: Which Is Right for Startups?",
       "slug": "private-label-vs-custom-activewear-which-model-is-better-for-startups",
       "url": "/private-label-vs-custom-activewear-which-model-is-better-for-startups",
@@ -33,7 +67,7 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 19,
-      "featured": true
+      "featured": false
     },
     {
       "title": "Key Factors Driving the Athletic Apparel Market Growth",
