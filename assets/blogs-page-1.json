@@ -32,7 +32,7 @@
       "categorySlug": "category-object",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
-      "id": 20,
+      "id": 21,
       "featured": true
     },
     {
@@ -66,7 +66,7 @@
       "categorySlug": "category-object",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
-      "id": 19,
+      "id": 20,
       "featured": false
     },
     {
@@ -98,6 +98,44 @@
         {
           "slug": "market-drivers",
           "name": "Market Drivers"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "category-object",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 19,
+      "featured": false
+    },
+    {
+      "title": "Choosing a Wholesale Gym Clothing Manufacturer: Retailer Guide",
+      "slug": "what-retailers-need-to-know-before-choosing-a-wholesale-gym-clothing",
+      "url": "/what-retailers-need-to-know-before-choosing-a-wholesale-gym-clothing",
+      "excerpt": "Avoid costly sourcing mistakes. Learn how to vet wholesale gym clothing manufacturers with our step-by-step framework covering fabric quality, MOQ, and contract terms.",
+      "author": "Ryan Mitchell",
+      "date": "2026-06-12",
+      "category": "Category Object",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/65563513-753f-40e2-82bd-f5ffa468fb3d.png",
+      "tags": [
+        {
+          "slug": "gym-wholesale-2",
+          "name": "Gym Wholesale"
+        },
+        {
+          "slug": "gym-wholesale",
+          "name": "Gym Wholesale"
+        },
+        {
+          "slug": "gym-manufacturer",
+          "name": "Gym Manufacturer"
+        },
+        {
+          "slug": "moq-activewear",
+          "name": "MOQ Activewear"
+        },
+        {
+          "slug": "supplier-vetting",
+          "name": "Supplier Vetting"
         }
       ],
       "readTime": "7 min read",
@@ -620,6 +658,10 @@
         {
           "slug": "oem-odm",
           "name": "OEM & ODM"
+        },
+        {
+          "slug": "moq-activewear",
+          "name": "MOQ Activewear"
         }
       ],
       "readTime": "7 min read",
@@ -745,44 +787,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 2,
-      "featured": false
-    },
-    {
-      "title": "Why Private Labelling Matters for Your Fitness Centre",
-      "slug": "why-private-labelling-is-so-important-for-your-fitness-centre",
-      "url": "/why-private-labelling-is-so-important-for-your-fitness-centre",
-      "excerpt": "Discover why private labelling activewear and merchandise can boost your gym's brand identity, member retention, and profit margins. A complete guide for fitness centre owners.",
-      "author": "Ryan Mitchell",
-      "date": "2026-06-04",
-      "category": "Category Object",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/5711aa15-02b5-4d05-b11a-582f14cd645f.png",
-      "tags": [
-        {
-          "slug": "private-gym",
-          "name": "Private Gym"
-        },
-        {
-          "slug": "private-labelling",
-          "name": "Private Labelling"
-        },
-        {
-          "slug": "gym-private-label",
-          "name": "Gym Private Label"
-        },
-        {
-          "slug": "brand-identity",
-          "name": "Brand Identity"
-        },
-        {
-          "slug": "custom-gym",
-          "name": "Custom Gym"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "category-object",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 1,
       "featured": false
     }
   ]

@@ -1463,6 +1463,69 @@
         "picking clothing manufacturer",
         "choose garment manufacturer"
       ]
+    },
+    {
+      "slug": "gym-wholesale",
+      "name": "Gym Wholesale",
+      "description": "Insights and tips for retailers on selecting the best wholesale gym clothing manufacturers and suppliers in the activewear industry.",
+      "aliases": [
+        "wholesale gym clothing manufacturer",
+        "wholesale gym apparel",
+        "gym clothing wholesale",
+        "gym wear wholesale",
+        "wholesale activewear gym",
+        "gym wholesale supplier"
+      ]
+    },
+    {
+      "slug": "gym-manufacturer",
+      "name": "Gym Manufacturer",
+      "description": "Insights and tips for retailers on selecting the best gym clothing manufacturer for wholesale and private label needs.",
+      "aliases": [
+        "gym clothing manufacturer for retailers",
+        "gym apparel manufacturer",
+        "wholesale gym clothing maker",
+        "gymwear manufacturer",
+        "gym clothes supplier",
+        "gym apparel wholesale manufacturer"
+      ]
+    },
+    {
+      "slug": "moq-activewear",
+      "name": "MOQ Activewear",
+      "description": "Insights on minimum order quantities (MOQ) specifically for activewear manufacturers and wholesale gym clothing suppliers.",
+      "aliases": [
+        "activewear manufacturer moq",
+        "activewear moq",
+        "wholesale gym clothing moq",
+        "minimum order quantity activewear",
+        "moq for activewear manufacturers",
+        "gym clothing moq"
+      ]
+    },
+    {
+      "slug": "supplier-vetting",
+      "name": "Supplier Vetting",
+      "description": "Guides and best practices for retailers to evaluate and choose reliable wholesale activewear suppliers and manufacturers.",
+      "aliases": [
+        "wholesale activewear supplier vetting",
+        "gym clothing supplier vetting",
+        "wholesale gym supplier evaluation",
+        "activewear supplier assessment",
+        "supplier screening activewear"
+      ]
+    },
+    {
+      "slug": "gym-wholesale-2",
+      "name": "Gym Wholesale",
+      "description": "Insights and tips on selecting wholesale suppliers for gym clothing to help retailers make informed purchasing decisions.",
+      "aliases": [
+        "gym clothing wholesale supplier",
+        "wholesale gym clothing",
+        "gym apparel wholesale",
+        "wholesale gym wear",
+        "gym clothing bulk supplier"
+      ]
     }
   ]
 }
