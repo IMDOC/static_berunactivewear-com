@@ -2,6 +2,52 @@
   "pageNumber": 1,
   "blogs": [
     {
+      "title": "Fitness Apparel Trends 2026: Sourcing Guide for Brands",
+      "slug": "fitness-apparel-trends-for-2026-what-brands-should-source-next",
+      "url": "/fitness-apparel-trends-for-2026-what-brands-should-source-next",
+      "excerpt": "Plan your 2026 fitness apparel line with confidence. Explore sourcing-ready trend breakdowns covering performance fabrics, sustainable materials, silhouettes, and more.",
+      "author": "Ryan Mitchell",
+      "date": "2026-06-12",
+      "category": "Category Object",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/998979d7-2543-496b-86ec-0f35e2caca32.png",
+      "tags": [
+        {
+          "slug": "gym-to-street",
+          "name": "Gym-to-Street"
+        },
+        {
+          "slug": "fitness-trends",
+          "name": "Fitness Trends"
+        },
+        {
+          "slug": "activewear-sourcing",
+          "name": "Activewear Sourcing"
+        },
+        {
+          "slug": "perf-fabric",
+          "name": "Perf Fabric"
+        },
+        {
+          "slug": "recycled-poly",
+          "name": "Recycled Poly"
+        },
+        {
+          "slug": "seamless-sportswear",
+          "name": "Seamless Sportswear"
+        },
+        {
+          "slug": "inclusive-size",
+          "name": "Inclusive Size"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "category-object",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 22,
+      "featured": true
+    },
+    {
       "title": "How to Choose the Right Blank Clothing Manufacturer",
       "slug": "how-to-choose-the-right-blank-clothing-manufacturer-for-your-brand",
       "url": "/how-to-choose-the-right-blank-clothing-manufacturer-for-your-brand",
@@ -33,7 +79,7 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 21,
-      "featured": true
+      "featured": false
     },
     {
       "title": "Private Label vs Custom Activewear: Which Is Right for Startups?",
@@ -618,8 +664,8 @@
           "name": "Activewear Outside"
         },
         {
-          "slug": "street-style",
-          "name": "Street Style"
+          "slug": "gym-to-street",
+          "name": "Gym-to-Street"
         },
         {
           "slug": "leggings-style",
@@ -749,44 +795,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 3,
-      "featured": false
-    },
-    {
-      "title": "Top 8 Sportswear Manufacturers in Nigeria (2026)",
-      "slug": "top-8-sportswear-manufacturers-in-nigeria-2026-guide",
-      "url": "/top-8-sportswear-manufacturers-in-nigeria-2026-guide",
-      "excerpt": "Discover the top 8 sportswear manufacturers in Nigeria for 2026. Compare production capacities, MOQs, and tradeoffs to find the right supplier for your brand.",
-      "author": "Ryan Mitchell",
-      "date": "2026-06-04",
-      "category": "Category Object",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/fea774989d19f479aea50e282d842481.webp",
-      "tags": [
-        {
-          "slug": "private-sportswear",
-          "name": "Private Sportswear"
-        },
-        {
-          "slug": "nigeria-oem",
-          "name": "Nigeria OEM"
-        },
-        {
-          "slug": "jersey-nigeria",
-          "name": "Jersey Nigeria"
-        },
-        {
-          "slug": "nigeria-oem-2026",
-          "name": "Nigeria OEM 2026"
-        },
-        {
-          "slug": "bulk-supplier-ng",
-          "name": "Bulk Supplier NG"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "category-object",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 2,
       "featured": false
     }
   ]

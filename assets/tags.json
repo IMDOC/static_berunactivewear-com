@@ -1526,6 +1526,94 @@
         "wholesale gym wear",
         "gym clothing bulk supplier"
       ]
+    },
+    {
+      "slug": "fitness-trends",
+      "name": "Fitness Trends",
+      "description": "Latest insights and forecasts on fitness apparel trends for 2026, guiding brands on what to source next in activewear design.",
+      "aliases": [
+        "fitness apparel trends 2026",
+        "fitness clothing trends",
+        "2026 fitness apparel",
+        "activewear trends 2026",
+        "fitness wear trends"
+      ]
+    },
+    {
+      "slug": "activewear-sourcing",
+      "name": "Activewear Sourcing",
+      "description": "Insights and strategies for sourcing activewear materials and manufacturers in 2026 to stay ahead in fitness apparel trends.",
+      "aliases": [
+        "activewear sourcing 2026",
+        "activewear sourcing",
+        "fitness apparel sourcing",
+        "2026 activewear sourcing",
+        "activewear material sourcing",
+        "activewear manufacturer sourcing"
+      ]
+    },
+    {
+      "slug": "perf-fabric",
+      "name": "Perf Fabric",
+      "description": "Insights and updates on performance fabric technology improving durability, comfort, and moisture management in fitness apparel.",
+      "aliases": [
+        "performance fabric",
+        "performance fabric technology",
+        "performance fabrics",
+        "tech fabric",
+        "sports fabric technology",
+        "active fabric technology"
+      ]
+    },
+    {
+      "slug": "recycled-poly",
+      "name": "Recycled Poly",
+      "description": "Insightful content on recycled polyester activewear, promoting sustainable fabrics in fitness apparel and eco-friendly brand sourcing.",
+      "aliases": [
+        "recycled polyester activewear",
+        "recycled poly activewear",
+        "eco polyester activewear",
+        "sustainable polyester activewear",
+        "recycled poly fitness apparel",
+        "recycled polyester gym wear"
+      ]
+    },
+    {
+      "slug": "seamless-sportswear",
+      "name": "Seamless Sportswear",
+      "description": "Seamless knit sportswear offers comfort and flexibility, becoming a top choice for fitness apparel brands sourcing the latest trends in 2026.",
+      "aliases": [
+        "seamless knit sportswear",
+        "seamless sportswear",
+        "knit seamless activewear",
+        "seamless fitness apparel",
+        "seamless workout clothing",
+        "seamless gym wear"
+      ]
+    },
+    {
+      "slug": "inclusive-size",
+      "name": "Inclusive Size",
+      "description": "Inclusive sizing activewear options designed to fit diverse body types and promote accessibility in fitness apparel for all.",
+      "aliases": [
+        "inclusive sizing activewear",
+        "plus size activewear",
+        "extended size activewear",
+        "inclusive fitness apparel",
+        "activewear for all sizes"
+      ]
+    },
+    {
+      "slug": "gym-to-street",
+      "name": "Gym-to-Street",
+      "description": "Insights and trends in gym-to-street apparel blending functional activewear with urban fashion for versatile everyday style.",
+      "aliases": [
+        "gym to street apparel trends",
+        "gym to street fashion",
+        "gym-to-street activewear",
+        "fitness to streetwear",
+        "athleisure street style"
+      ]
     }
   ]
 }

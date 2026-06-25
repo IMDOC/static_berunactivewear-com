@@ -2,6 +2,44 @@
   "pageNumber": 2,
   "blogs": [
     {
+      "title": "Top 8 Sportswear Manufacturers in Nigeria (2026)",
+      "slug": "top-8-sportswear-manufacturers-in-nigeria-2026-guide",
+      "url": "/top-8-sportswear-manufacturers-in-nigeria-2026-guide",
+      "excerpt": "Discover the top 8 sportswear manufacturers in Nigeria for 2026. Compare production capacities, MOQs, and tradeoffs to find the right supplier for your brand.",
+      "author": "Ryan Mitchell",
+      "date": "2026-06-04",
+      "category": "Category Object",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/fea774989d19f479aea50e282d842481.webp",
+      "tags": [
+        {
+          "slug": "private-sportswear",
+          "name": "Private Sportswear"
+        },
+        {
+          "slug": "nigeria-oem",
+          "name": "Nigeria OEM"
+        },
+        {
+          "slug": "jersey-nigeria",
+          "name": "Jersey Nigeria"
+        },
+        {
+          "slug": "nigeria-oem-2026",
+          "name": "Nigeria OEM 2026"
+        },
+        {
+          "slug": "bulk-supplier-ng",
+          "name": "Bulk Supplier NG"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "category-object",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 2,
+      "featured": false
+    },
+    {
       "title": "Why Private Labelling Matters for Your Fitness Centre",
       "slug": "why-private-labelling-is-so-important-for-your-fitness-centre",
       "url": "/why-private-labelling-is-so-important-for-your-fitness-centre",
