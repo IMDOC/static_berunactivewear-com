@@ -1614,6 +1614,85 @@
         "fitness to streetwear",
         "athleisure street style"
       ]
+    },
+    {
+      "slug": "womens-gym",
+      "name": "Women’s Gym",
+      "description": "Latest trends and top-selling gym clothing pieces for women in 2026, focusing on performance, style, and comfort.",
+      "aliases": [
+        "womens gym clothing 2026",
+        "gym clothes for women",
+        "womens activewear 2026",
+        "female gym apparel",
+        "2026 womens gymwear",
+        "gym wear women",
+        "women's gym clothing 2026"
+      ]
+    },
+    {
+      "slug": "gym-leggings",
+      "name": "Gym Leggings",
+      "description": "Articles about the best gym leggings for women focused on comfort, style, and performance in activewear trends.",
+      "aliases": [
+        "best gym leggings for women",
+        "women's gym leggings",
+        "top gym leggings",
+        "gym leggings women",
+        "best workout leggings",
+        "leggings for gym"
+      ]
+    },
+    {
+      "slug": "womens-active",
+      "name": "Women's Active",
+      "description": "Latest trends and top gym clothing pieces for women activewear in 2026, focusing on style, performance, and comfort.",
+      "aliases": [
+        "women's activewear 2026",
+        "womens activewear 2026",
+        "women gym clothing 2026",
+        "female activewear 2026",
+        "women gym wear 2026",
+        "womens fitness apparel 2026"
+      ]
+    },
+    {
+      "slug": "high-waist-leggings",
+      "name": "High-Waist Leggings",
+      "description": "Articles covering high-waist gym leggings, focusing on fit, style, and popularity among women in activewear trends.",
+      "aliases": [
+        "high waist gym leggings",
+        "high-waisted leggings",
+        "high waist leggings",
+        "women's high waist leggings",
+        "high waisted gym leggings",
+        "high waist workout leggings",
+        "high-waist gym leggings"
+      ]
+    },
+    {
+      "slug": "training-bra",
+      "name": "Training Bra",
+      "description": "Articles focusing on the best sports bras designed specifically for training, emphasizing support, comfort, and performance.",
+      "aliases": [
+        "best sports bra for training",
+        "training sports bra",
+        "workout bra",
+        "gym sports bra",
+        "fitness bra"
+      ]
+    },
+    {
+      "slug": "gym-wear",
+      "name": "Gym Wear",
+      "description": "Explore the top gym clothing pieces women are buying most in 2026 for comfort, style, and performance.",
+      "aliases": [
+        "gym clothing women buy most",
+        "women's gym wear",
+        "female gym clothing",
+        "gym apparel women",
+        "gym clothes for women",
+        "gym wear female"
+      ]
     }
   ]
 }
