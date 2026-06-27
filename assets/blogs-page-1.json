@@ -2,6 +2,40 @@
   "pageNumber": 1,
   "blogs": [
     {
+      "title": "7 Things to Look for in a Sports Apparel Wholesaler",
+      "slug": "7-best-things-to-look-for-in-a-sports-apparel-wholesaler",
+      "url": "/7-best-things-to-look-for-in-a-sports-apparel-wholesaler",
+      "excerpt": "Avoid costly sourcing mistakes. Learn the 7 key things to evaluate in a sports apparel wholesaler — from fabric tech and MOQ to lead times and QC systems.",
+      "author": "Ryan Mitchell",
+      "date": "2026-06-12",
+      "category": "Category Object",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/7f2f5eb0-f53f-488d-ad9a-72ed19f9f29b.png",
+      "tags": [
+        {
+          "slug": "wholesale-oem",
+          "name": "Wholesale OEM"
+        },
+        {
+          "slug": "sports-supplier",
+          "name": "Sports Supplier"
+        },
+        {
+          "slug": "gym-wholesale-2",
+          "name": "Gym Wholesale"
+        },
+        {
+          "slug": "private-label-2",
+          "name": "Private Label"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "category-object",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 24,
+      "featured": true
+    },
+    {
       "title": "Fitness Apparel Trends 2026: Sourcing Guide for Brands",
       "slug": "fitness-apparel-trends-for-2026-what-brands-should-source-next",
       "url": "/fitness-apparel-trends-for-2026-what-brands-should-source-next",
@@ -45,7 +79,7 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 23,
-      "featured": true
+      "featured": false
     },
     {
       "title": "How to Choose the Right Blank Clothing Manufacturer",
@@ -94,6 +128,10 @@
         {
           "slug": "label-vs-custom",
           "name": "Label vs Custom"
+        },
+        {
+          "slug": "private-label-2",
+          "name": "Private Label"
         },
         {
           "slug": "activewear-oem",
@@ -757,44 +795,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 5,
-      "featured": false
-    },
-    {
-      "title": "Start Your Private Label Activewear Brand in 2026 – 5 Tips",
-      "slug": "start-your-private-label-activewear-brand-in-2026-5-simple-tips",
-      "url": "/start-your-private-label-activewear-brand-in-2026-5-simple-tips",
-      "excerpt": "Launch your private label activewear brand in 2026 with this 5-step guide. Find low MOQ manufacturers, validate your niche, and get scripts that land real responses.",
-      "author": "Ryan Mitchell",
-      "date": "2026-06-04",
-      "category": "Manufacturing",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/0eace3abb2a60ce8b5bcb579271e1704.webp",
-      "tags": [
-        {
-          "slug": "brand-launch",
-          "name": "Brand Launch"
-        },
-        {
-          "slug": "private-label-brand",
-          "name": "Private Label Brand"
-        },
-        {
-          "slug": "pls-manufacturer",
-          "name": "PLS Manufacturer"
-        },
-        {
-          "slug": "low-moq-2",
-          "name": "Low MOQ"
-        },
-        {
-          "slug": "start-brand",
-          "name": "Start Brand"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "manufacturing",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 4,
       "featured": false
     }
   ]

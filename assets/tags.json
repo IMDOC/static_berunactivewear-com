@@ -1693,6 +1693,43 @@
         "gym clothes for women",
         "gym wear female"
       ]
+    },
+    {
+      "slug": "sports-wholesale",
+      "name": "Sports Wholesale",
+      "description": "Insights and tips on sourcing from sports apparel wholesalers for quality, pricing, and reliable supply chain management.",
+      "aliases": [
+        "sports apparel wholesaler",
+        "sportswear wholesaler",
+        "wholesale sports apparel",
+        "sports clothing wholesaler",
+        "sports apparel bulk supplier"
+      ]
+    },
+    {
+      "slug": "private-label-2",
+      "name": "Private Label",
+      "description": "Articles and tips about private label athletic clothing, focusing on custom branding and wholesale apparel sourcing.",
+      "aliases": [
+        "private label athletic clothing",
+        "private label sports apparel",
+        "athletic clothing private label",
+        "custom athletic wear",
+        "private label activewear"
+      ]
+    },
+    {
+      "slug": "sports-supplier",
+      "name": "Sports Supplier",
+      "description": "Insights and tips focused on finding the best sports apparel suppliers and wholesalers for quality and reliability.",
+      "aliases": [
+        "sports apparel supplier",
+        "sportswear supplier",
+        "sports apparel wholesaler",
+        "sports clothing supplier",
+        "sports supplier",
+        "sports apparel distributor"
+      ]
     }
   ]
 }
