@@ -1730,6 +1730,44 @@
         "sports supplier",
         "sports apparel distributor"
       ]
+    },
+    {
+      "slug": "fitness-2026",
+      "name": "Fitness 2026",
+      "description": "Insights and trends driving growth in the fitness apparel industry during 2026, highlighting market dynamics and future outlook.",
+      "aliases": [
+        "fitness apparel industry 2026",
+        "fitness apparel growth 2026",
+        "2026 fitness apparel trends",
+        "fitness industry 2026",
+        "apparel fitness 2026"
+      ]
+    },
+    {
+      "slug": "market-trends",
+      "name": "Market Trends",
+      "description": "Latest insights and evolving patterns shaping the activewear market and fitness apparel industry growth in 2026.",
+      "aliases": [
+        "activewear market trends",
+        "fitness apparel trends",
+        "activewear industry growth",
+        "fitness apparel market",
+        "market trends activewear",
+        "fitness clothing trends"
+      ]
+    },
+    {
+      "slug": "fitness-market",
+      "name": "Fitness Market",
+      "description": "Insights and trends about the fitness clothing market and its rapid growth in the activewear industry through 2026.",
+      "aliases": [
+        "fitness clothing market",
+        "fitness apparel market",
+        "activewear market",
+        "fitness wear industry",
+        "sportswear market",
+        "fitness clothing industry"
+      ]
     }
   ]
 }

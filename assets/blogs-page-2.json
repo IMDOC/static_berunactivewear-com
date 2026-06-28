@@ -2,6 +2,32 @@
   "pageNumber": 2,
   "blogs": [
     {
+      "title": "Custom Activewear Manufacturing: From Tech-Pack to Bulk",
+      "slug": "custom-activewear-manufacturing-process",
+      "url": "/custom-activewear-manufacturing-process",
+      "excerpt": "A buyer's guide to custom activewear manufacturing: OEM vs ODM, tech-pack prep, USD 45 sampling, 100-pc MOQ, 35–42 day bulk lead time, and AQL 2.5 quality.",
+      "author": "Ryan Mitchell",
+      "date": "2026-06-04",
+      "category": "Manufacturing",
+      "thumbnail": "https://img.berunactivewear.com/assets/images/og-home.jpg",
+      "tags": [
+        {
+          "slug": "oem-odm",
+          "name": "OEM & ODM"
+        },
+        {
+          "slug": "moq-activewear",
+          "name": "MOQ Activewear"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "manufacturing",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 5,
+      "featured": false
+    },
+    {
       "title": "Start Your Private Label Activewear Brand in 2026 – 5 Tips",
       "slug": "start-your-private-label-activewear-brand-in-2026-5-simple-tips",
       "url": "/start-your-private-label-activewear-brand-in-2026-5-simple-tips",
