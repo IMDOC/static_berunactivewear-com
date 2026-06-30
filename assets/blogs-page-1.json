@@ -32,8 +32,50 @@
       "categorySlug": "category-object",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
-      "id": 26,
+      "id": 27,
       "featured": true
+    },
+    {
+      "title": "Dri-FIT vs Cotton T-Shirts: Best Fabric for Active Lifestyles",
+      "slug": "dri-fit-vs-cotton-t-shirts-which-is-better-for-active-lifestyles",
+      "url": "/dri-fit-vs-cotton-t-shirts-which-is-better-for-active-lifestyles",
+      "excerpt": "Dri-FIT or cotton — which T-shirt wins for your workouts? Compare moisture-wicking performance, durability, cost-per-wear, and climate fit in this data-driven guide.",
+      "author": "Ryan Mitchell",
+      "date": "2026-06-12",
+      "category": "Category Object",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/91da4a37036f65f6c9c635bb28932d67.webp",
+      "tags": [
+        {
+          "slug": "athletic-fabric",
+          "name": "Athletic Fabric"
+        },
+        {
+          "slug": "dri-fit",
+          "name": "Dri-FIT"
+        },
+        {
+          "slug": "dri-fit-2",
+          "name": "Dri-FIT"
+        },
+        {
+          "slug": "workout-fabric",
+          "name": "Workout Fabric"
+        },
+        {
+          "slug": "dry-fit",
+          "name": "Dry Fit"
+        },
+        {
+          "slug": "perf-tshirt",
+          "name": "Performance Tee"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "category-object",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 26,
+      "featured": false
     },
     {
       "title": "Fitness Apparel Trends 2026: Sourcing Guide for Brands",
@@ -769,44 +811,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 8,
-      "featured": false
-    },
-    {
-      "title": "4 Best-Selling Private Label Apparel Products to Offer in 2026",
-      "slug": "4-best-selling-apparel-products-private-label-manufacturers-should-offer-in-2026",
-      "url": "/4-best-selling-apparel-products-private-label-manufacturers-should-offer-in-2026",
-      "excerpt": "Discover the 4 highest-demand private label apparel categories for 2026 — from moisture-wicking activewear to sustainable loungewear — backed by real market data.",
-      "author": "Ryan Mitchell",
-      "date": "2026-06-04",
-      "category": "Category Object",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/1047a395-ee43-4004-ac37-9741ad2a5372.png",
-      "tags": [
-        {
-          "slug": "apparel-oem",
-          "name": "Apparel OEM"
-        },
-        {
-          "slug": "private-activewear",
-          "name": "Private Activewear"
-        },
-        {
-          "slug": "wholesale-label",
-          "name": "Wholesale Label"
-        },
-        {
-          "slug": "pls-manufacturer",
-          "name": "PLS Manufacturer"
-        },
-        {
-          "slug": "best-sellers",
-          "name": "Best Sellers"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "category-object",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 7,
       "featured": false
     }
   ]

@@ -1869,6 +1869,84 @@
         "sublimation vs screen printing",
         "best print method activewear"
       ]
+    },
+    {
+      "slug": "dri-fit",
+      "name": "Dri-FIT",
+      "description": "Insights comparing Dri-FIT fabric and cotton t-shirts for active lifestyles, focusing on breathability and moisture management benefits.",
+      "aliases": [
+        "dri-fit vs cotton t-shirt",
+        "dri fit tshirt",
+        "dri-fit shirt",
+        "cotton vs dri-fit",
+        "moisture wicking tshirt",
+        "performance tshirt"
+      ]
+    },
+    {
+      "slug": "dri-fit-2",
+      "name": "Dri-FIT",
+      "description": "Articles comparing moisture-wicking fabrics like Dri-FIT and cotton for superior active lifestyle comfort and performance.",
+      "aliases": [
+        "moisture-wicking vs cotton",
+        "dri fit vs cotton",
+        "dri-fit fabric",
+        "moisture wicking fabric",
+        "dri fit tshirts",
+        "moisture control cotton"
+      ]
+    },
+    {
+      "slug": "workout-fabric",
+      "name": "Workout Fabric",
+      "description": "Insights and comparisons on the best fabric choices for workout clothes, focusing on comfort, durability, and moisture management.",
+      "aliases": [
+        "best fabric for working out",
+        "workout fabric",
+        "best workout fabric",
+        "exercise fabric",
+        "activewear fabric",
+        "sports fabric"
+      ]
+    },
+    {
+      "slug": "dry-fit",
+      "name": "Dry Fit",
+      "description": "Dry fit shirts feature moisture-wicking technology designed to keep active lifestyles cool and comfortable during intense physical activity.",
+      "aliases": [
+        "dry fit functional shirts",
+        "dri fit shirts",
+        "dry-fit shirts",
+        "moisture-wicking shirts",
+        "functional dry fit",
+        "dry fit activewear"
+      ]
+    },
+    {
+      "slug": "perf-tshirt",
+      "name": "Performance Tee",
+      "description": "Comparing performance t-shirts like Dri-FIT and cotton to find the best fabric for active lifestyles and workout comfort.",
+      "aliases": [
+        "performance t-shirt comparison",
+        "performance tee comparison",
+        "dri-fit vs cotton",
+        "performance t-shirt",
+        "activewear t-shirt",
+        "performance workout tee"
+      ]
+    },
+    {
+      "slug": "athletic-fabric",
+      "name": "Athletic Fabric",
+      "description": "Comprehensive guide to fabrics used in athletic t-shirts, comparing performance materials like Dri-FIT and cotton for active lifestyles.",
+      "aliases": [
+        "athletic t-shirt fabric guide",
+        "activewear fabric",
+        "sports t-shirt fabric",
+        "athletic shirt fabric",
+        "performance fabric",
+        "dri-fit vs cotton"
+      ]
     }
   ]
 }
