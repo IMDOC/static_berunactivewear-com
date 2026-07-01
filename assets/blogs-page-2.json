@@ -2,6 +2,52 @@
   "pageNumber": 2,
   "blogs": [
     {
+      "title": "3 Ways Activewear Retailers Can Increase Sales in 2026",
+      "slug": "3-ways-activewear-retailers-can-increase-sales-in-2026",
+      "url": "/3-ways-activewear-retailers-can-increase-sales-in-2026",
+      "excerpt": "Discover 3 proven tactics activewear retailers under $5M can use to grow sales in 2026—micro-niche drops, fit-first DTC funnels, and loyalty studio networks.",
+      "author": "Ryan Mitchell",
+      "date": "2026-06-04",
+      "category": "Category Object",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/6349f1fc-d7ff-45ae-a682-924202fee8f5.png",
+      "tags": [
+        {
+          "slug": "micro-niche",
+          "name": "Micro-Niche"
+        },
+        {
+          "slug": "retail-sales",
+          "name": "Retail Sales"
+        },
+        {
+          "slug": "athleisure-growth",
+          "name": "Athleisure Growth"
+        },
+        {
+          "slug": "sales-growth",
+          "name": "Sales Growth"
+        },
+        {
+          "slug": "sales-tactics",
+          "name": "Sales Tactics"
+        },
+        {
+          "slug": "dtc-strategy",
+          "name": "DTC Strategy"
+        },
+        {
+          "slug": "loyalty-program",
+          "name": "Loyalty Program"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "category-object",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 8,
+      "featured": false
+    },
+    {
       "title": "4 Best-Selling Private Label Apparel Products to Offer in 2026",
       "slug": "4-best-selling-apparel-products-private-label-manufacturers-should-offer-in-2026",
       "url": "/4-best-selling-apparel-products-private-label-manufacturers-should-offer-in-2026",

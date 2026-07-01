@@ -32,7 +32,7 @@
       "categorySlug": "category-object",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
-      "id": 27,
+      "id": 28,
       "featured": true
     },
     {
@@ -74,7 +74,7 @@
       "categorySlug": "category-object",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
-      "id": 26,
+      "id": 27,
       "featured": false
     },
     {
@@ -120,7 +120,7 @@
       "categorySlug": "category-object",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
-      "id": 25,
+      "id": 26,
       "featured": false
     },
     {
@@ -154,7 +154,7 @@
       "categorySlug": "category-object",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
-      "id": 24,
+      "id": 25,
       "featured": false
     },
     {
@@ -192,7 +192,7 @@
       "categorySlug": "category-object",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
-      "id": 23,
+      "id": 24,
       "featured": false
     },
     {
@@ -238,7 +238,7 @@
       "categorySlug": "category-object",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
-      "id": 22,
+      "id": 23,
       "featured": false
     },
     {
@@ -274,6 +274,44 @@
         {
           "slug": "training-bra",
           "name": "Training Bra"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "category-object",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 22,
+      "featured": false
+    },
+    {
+      "title": "7 Proven Ways to Promote & Sell Custom Activewear",
+      "slug": "top-7-proven-ways-to-promote-and-sell-custom-activewear",
+      "url": "/top-7-proven-ways-to-promote-and-sell-custom-activewear",
+      "excerpt": "Discover 7 field-tested strategies to promote and sell custom activewear on a small budget. Real tools, timelines, and conversion data for private label brands.",
+      "author": "Ryan Mitchell",
+      "date": "2026-06-12",
+      "category": "Category Object",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/58ec13eb-9cd6-45ff-b47d-e30cf2e74c41.png",
+      "tags": [
+        {
+          "slug": "activewear-oem",
+          "name": "Activewear OEM"
+        },
+        {
+          "slug": "custom-marketing",
+          "name": "Custom Marketing"
+        },
+        {
+          "slug": "activewear-sales",
+          "name": "Activewear Sales"
+        },
+        {
+          "slug": "sell-activewear",
+          "name": "Sell Activewear"
+        },
+        {
+          "slug": "brand-promotion",
+          "name": "Brand Promotion"
         }
       ],
       "readTime": "7 min read",
@@ -765,52 +803,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 9,
-      "featured": false
-    },
-    {
-      "title": "3 Ways Activewear Retailers Can Increase Sales in 2026",
-      "slug": "3-ways-activewear-retailers-can-increase-sales-in-2026",
-      "url": "/3-ways-activewear-retailers-can-increase-sales-in-2026",
-      "excerpt": "Discover 3 proven tactics activewear retailers under $5M can use to grow sales in 2026—micro-niche drops, fit-first DTC funnels, and loyalty studio networks.",
-      "author": "Ryan Mitchell",
-      "date": "2026-06-04",
-      "category": "Category Object",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/6349f1fc-d7ff-45ae-a682-924202fee8f5.png",
-      "tags": [
-        {
-          "slug": "micro-niche",
-          "name": "Micro-Niche"
-        },
-        {
-          "slug": "retail-sales",
-          "name": "Retail Sales"
-        },
-        {
-          "slug": "athleisure-growth",
-          "name": "Athleisure Growth"
-        },
-        {
-          "slug": "sales-growth",
-          "name": "Sales Growth"
-        },
-        {
-          "slug": "sales-tactics",
-          "name": "Sales Tactics"
-        },
-        {
-          "slug": "dtc-strategy",
-          "name": "DTC Strategy"
-        },
-        {
-          "slug": "loyalty-program",
-          "name": "Loyalty Program"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "category-object",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 8,
       "featured": false
     }
   ]

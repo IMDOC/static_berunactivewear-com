@@ -1,5 +1,5 @@
 {
-  "totalBlogs": 27,
+  "totalBlogs": 28,
   "totalPages": 2,
   "postsPerPage": 20,
   "categories": [
@@ -31,7 +31,7 @@
     {
       "name": "Category Object",
       "slug": "category-object",
-      "count": 25
+      "count": 26
     }
   ],
   "latestUpdate": "2026-06-12"
