@@ -2008,6 +2008,44 @@
         "activewear brand growth",
         "custom activewear promotion"
       ]
+    },
+    {
+      "slug": "perf-fabrics",
+      "name": "Perf Fabrics",
+      "description": "Performance fabrics in activewear enhance comfort, durability, and moisture management for optimal workout efficiency and style.",
+      "aliases": [
+        "performance fabrics activewear",
+        "performance fabric",
+        "activewear performance fabrics",
+        "performance material activewear",
+        "performance textile",
+        "performance activewear fabric"
+      ]
+    },
+    {
+      "slug": "breathable-fabric",
+      "name": "Breathable Fabric",
+      "description": "Breathable workout materials designed to enhance comfort and moisture management during physical activities in activewear.",
+      "aliases": [
+        "breathable workout material",
+        "breathable fabric",
+        "performance breathable fabric",
+        "breathable sports fabric",
+        "workout breathable material"
+      ]
+    },
+    {
+      "slug": "perf-fabric-2",
+      "name": "Perf Fabric",
+      "description": "Guides and insights on performance fabrics that enhance activewear comfort, durability, and moisture management.",
+      "aliases": [
+        "activewear fabric guide",
+        "performance fabrics",
+        "performance fabric guide",
+        "activewear fabrics",
+        "performance material",
+        "perf fabrics"
+      ]
     }
   ]
 }
