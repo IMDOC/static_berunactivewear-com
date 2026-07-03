@@ -36,7 +36,7 @@
       "categorySlug": "category-object",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
-      "id": 29,
+      "id": 30,
       "featured": true
     },
     {
@@ -70,7 +70,7 @@
       "categorySlug": "category-object",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
-      "id": 28,
+      "id": 29,
       "featured": false
     },
     {
@@ -112,7 +112,7 @@
       "categorySlug": "category-object",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
-      "id": 27,
+      "id": 28,
       "featured": false
     },
     {
@@ -152,6 +152,48 @@
         {
           "slug": "inclusive-size",
           "name": "Inclusive Size"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "category-object",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 27,
+      "featured": false
+    },
+    {
+      "title": "5 Types of Fitness Training & Their Benefits for Women",
+      "slug": "five-types-of-fitness-training-and-their-benefits-for-women",
+      "url": "/five-types-of-fitness-training-and-their-benefits-for-women",
+      "excerpt": "Discover five key types of fitness training — strength, cardio, HIIT, yoga, and functional — and why each one works uniquely with the female body.",
+      "author": "Ryan Mitchell",
+      "date": "2026-06-12",
+      "category": "Category Object",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/26aef568006076525c16c196376c189e.webp",
+      "tags": [
+        {
+          "slug": "womens-workout",
+          "name": "Women's Workout"
+        },
+        {
+          "slug": "fitness-types",
+          "name": "Fitness Types"
+        },
+        {
+          "slug": "strength-training",
+          "name": "Strength Training"
+        },
+        {
+          "slug": "hiit-women",
+          "name": "HIIT Women"
+        },
+        {
+          "slug": "cardio-women",
+          "name": "Cardio Women"
+        },
+        {
+          "slug": "functional-fit",
+          "name": "Functional Fit"
         }
       ],
       "readTime": "7 min read",
@@ -757,48 +799,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 11,
-      "featured": false
-    },
-    {
-      "title": "Top 9 Yoga Wear Suppliers in China: Bulk Buying Guide",
-      "slug": "top-9-yoga-wear-suppliers-in-china-a-bulk-buying-guide-for-brands",
-      "url": "/top-9-yoga-wear-suppliers-in-china-a-bulk-buying-guide-for-brands",
-      "excerpt": "Discover the top 9 yoga wear manufacturers in China with real MOQs, lead times, and honest pros & cons — the bulk buying guide every brand founder needs.",
-      "author": "Ryan Mitchell",
-      "date": "2026-06-05",
-      "category": "Category Object",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/c17c56ae-a892-4ed9-b1d5-95a439c1fee9.png",
-      "tags": [
-        {
-          "slug": "china-supplier",
-          "name": "China Supplier"
-        },
-        {
-          "slug": "yoga-oem",
-          "name": "Yoga OEM"
-        },
-        {
-          "slug": "yoga-oem-2",
-          "name": "Yoga OEM"
-        },
-        {
-          "slug": "yoga-factory",
-          "name": "Yoga Factory"
-        },
-        {
-          "slug": "yoga-oem-cn",
-          "name": "Yoga OEM CN"
-        },
-        {
-          "slug": "yoga-moq",
-          "name": "Yoga MOQ"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "category-object",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 10,
       "featured": false
     }
   ]

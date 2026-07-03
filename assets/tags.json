@@ -2046,6 +2046,80 @@
         "performance material",
         "perf fabrics"
       ]
+    },
+    {
+      "slug": "fitness-types",
+      "name": "Fitness Types",
+      "description": "Exploring different types of fitness training for women, their benefits, and how to choose the right workout approach.",
+      "aliases": [
+        "types of fitness training for women",
+        "women fitness types",
+        "fitness training types",
+        "female fitness training",
+        "workout types for women",
+        "women workout styles"
+      ]
+    },
+    {
+      "slug": "strength-training",
+      "name": "Strength Training",
+      "description": "Insights on strength training benefits and advantages specifically tailored for women's fitness and health.",
+      "aliases": [
+        "strength training benefits for women",
+        "strength workouts for women",
+        "women strength training",
+        "female strength training benefits",
+        "strength training advantages female"
+      ]
+    },
+    {
+      "slug": "hiit-women",
+      "name": "HIIT Women",
+      "description": "High-Intensity Interval Training (HIIT) specifically tailored for women's fitness routines and benefits.",
+      "aliases": [
+        "hiit for women",
+        "hiit women",
+        "women's hiit training",
+        "hiit workouts women",
+        "female hiit exercise",
+        "hiit female fitness"
+      ]
+    },
+    {
+      "slug": "cardio-women",
+      "name": "Cardio Women",
+      "description": "Articles and guides focusing on cardio training programs specifically designed for women to improve fitness and health.",
+      "aliases": [
+        "cardio training women",
+        "women cardio workouts",
+        "female cardio training",
+        "cardio exercise women",
+        "women cardio fitness"
+      ]
+    },
+    {
+      "slug": "functional-fit",
+      "name": "Functional Fit",
+      "description": "Articles focused on functional fitness training methods, benefits, and routines designed especially for women.",
+      "aliases": [
+        "functional fitness women",
+        "functional training women",
+        "functional fitness workout",
+        "functional fitness training",
+        "women functional fitness"
+      ]
+    },
+    {
+      "slug": "womens-workout",
+      "name": "Women's Workout",
+      "description": "Comprehensive guides and tips on workout routines specifically designed to benefit women's fitness and health goals.",
+      "aliases": [
+        "women's workout guide",
+        "female workout guide",
+        "workout routines for women",
+        "fitness training women",
+        "women workout tips"
+      ]
     }
   ]
 }
