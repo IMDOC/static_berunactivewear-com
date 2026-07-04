@@ -2,6 +2,40 @@
   "pageNumber": 1,
   "blogs": [
     {
+      "title": "Top 12 Custom Athletic Clothing Manufacturers in the USA",
+      "slug": "top-12-custom-athletic-clothing-manufacturers-in-usa",
+      "url": "/top-12-custom-athletic-clothing-manufacturers-in-usa",
+      "excerpt": "Discover the top 12 custom athletic clothing manufacturers in the USA — ranked by MOQ, quality, and turnaround. Find the right supplier for your fitness brand.",
+      "author": "Ryan Mitchell",
+      "date": "2026-07-03",
+      "category": "Manufacturing",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/0af4b867-5e64-4907-8437-ab0340615bb3.png",
+      "tags": [
+        {
+          "slug": "cut-sew",
+          "name": "Cut & Sew"
+        },
+        {
+          "slug": "usa-oem",
+          "name": "USA OEM"
+        },
+        {
+          "slug": "custom-gymwear",
+          "name": "Custom Gymwear"
+        },
+        {
+          "slug": "low-moq-2",
+          "name": "Low MOQ"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "manufacturing",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 31,
+      "featured": true
+    },
+    {
       "title": "4 Reasons Performance Fabrics Matter in Activewear",
       "slug": "4-reasons-performance-fabrics-matter-in-activewear",
       "url": "/4-reasons-performance-fabrics-matter-in-activewear",
@@ -37,7 +71,7 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 30,
-      "featured": true
+      "featured": false
     },
     {
       "title": "7 Things to Look for in a Sports Apparel Wholesaler",
@@ -761,44 +795,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 12,
-      "featured": false
-    },
-    {
-      "title": "Top 12 Best Hunting Clothing Brands in the UK (2025)",
-      "slug": "top-12-best-hunting-clothing-brands-in-the-uk",
-      "url": "/top-12-best-hunting-clothing-brands-in-the-uk",
-      "excerpt": "Discover the 12 best hunting clothing brands in the UK. Compare heritage labels, budget picks, and waterproof specialists for shoots, stalking, and wildfowling.",
-      "author": "Ryan Mitchell",
-      "date": "2026-06-05",
-      "category": "Category Object",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/fea334a3-5580-4ff2-b64c-615a7b3b4e40.png",
-      "tags": [
-        {
-          "slug": "british-hunting",
-          "name": "British Hunting"
-        },
-        {
-          "slug": "hunting-uk",
-          "name": "Hunting UK"
-        },
-        {
-          "slug": "hunting-uk-2",
-          "name": "Hunting UK"
-        },
-        {
-          "slug": "field-sports",
-          "name": "Field Sports"
-        },
-        {
-          "slug": "waterproof-jackets",
-          "name": "Waterproof Jackets"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "category-object",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 11,
       "featured": false
     }
   ]

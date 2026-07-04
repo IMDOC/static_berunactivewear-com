@@ -8,7 +8,9 @@
       "description": "How activewear gets made: cut-and-sew lines, OEM vs ODM, private-label production, MOQ and lead-time realities for sportswear brands.",
       "icon": "bi-gear-wide-connected",
       "featured": true,
-      "parent_topic_ids": [],
+      "parent_topic_ids": [
+        92540
+      ],
       "parent_topic_keywords": [
         "manufacturing",
         "oem",

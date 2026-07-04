@@ -2120,6 +2120,56 @@
         "fitness training women",
         "women workout tips"
       ]
+    },
+    {
+      "slug": "custom-athletic",
+      "name": "Custom Athletic",
+      "description": "Insights and guides about custom athletic clothing manufacturers based in the USA, focusing on quality and local sourcing.",
+      "aliases": [
+        "custom athletic clothing manufacturers usa",
+        "usa custom athletic clothing",
+        "athletic wear custom usa",
+        "custom activewear manufacturers usa",
+        "usa athletic clothing manufacturers",
+        "custom sportswear usa"
+      ]
+    },
+    {
+      "slug": "custom-gymwear",
+      "name": "Custom Gymwear",
+      "description": "Insights and guides about custom gym wear manufacturers in the USA, specializing in personalized athletic apparel production.",
+      "aliases": [
+        "custom gym wear manufacturer usa",
+        "gym wear manufacturer usa",
+        "custom athletic clothing usa",
+        "custom gym apparel usa",
+        "gymwear manufacturer usa"
+      ]
+    },
+    {
+      "slug": "usa-oem",
+      "name": "USA OEM",
+      "description": "Leading private label activewear manufacturing services based in the USA, specializing in custom athletic apparel production.",
+      "aliases": [
+        "private label activewear manufacturer usa",
+        "usa activewear oem",
+        "custom athletic clothing manufacturers usa",
+        "usa private label activewear",
+        "american activewear manufacturer",
+        "us activewear oem"
+      ]
+    },
+    {
+      "slug": "cut-sew",
+      "name": "Cut & Sew",
+      "description": "Cut and sew athletic apparel manufacturing in the USA, specializing in custom, high-quality sportswear production and personalized fits.",
+      "aliases": [
+        "cut and sew athletic apparel usa",
+        "cut and sew usa",
+        "custom cut and sew",
+        "cut sew athletic clothing usa",
+        "usa cut and sew manufacturer"
+      ]
     }
   ]
 }
