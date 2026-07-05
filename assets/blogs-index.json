@@ -1,12 +1,12 @@
 {
-  "totalBlogs": 31,
+  "totalBlogs": 32,
   "totalPages": 2,
   "postsPerPage": 20,
   "categories": [
     {
       "name": "Manufacturing",
       "slug": "manufacturing",
-      "count": 3
+      "count": 4
     },
     {
       "name": "Fabric Technology",
