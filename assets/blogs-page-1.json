@@ -36,8 +36,42 @@
       "categorySlug": "manufacturing",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
-      "id": 32,
+      "id": 33,
       "featured": true
+    },
+    {
+      "title": "Seamless vs Cut-and-Sew Activewear: Which Method Is Better?",
+      "slug": "seamless-vs-cut-and-sew-activewear-which-manufacturing-method-is-better",
+      "url": "/seamless-vs-cut-and-sew-activewear-which-manufacturing-method-is-better",
+      "excerpt": "Seamless vs cut-and-sew activewear — compare performance, cost, MOQ, and design flexibility to choose the right manufacturing method for your brand.",
+      "author": "Ryan Mitchell",
+      "date": "2026-07-03",
+      "category": "Printing Techniques",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/9a2e81ebc61036f49d99635a8ae3a747.webp",
+      "tags": [
+        {
+          "slug": "seamless-moq",
+          "name": "Seamless MOQ"
+        },
+        {
+          "slug": "seamless-vs-cutsew",
+          "name": "Seamless vs Cut-Sew"
+        },
+        {
+          "slug": "cut-sew-2",
+          "name": "Cut & Sew"
+        },
+        {
+          "slug": "manufacturing",
+          "name": "Manufacturing"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "printing-techniques",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 32,
+      "featured": false
     },
     {
       "title": "Top 12 Custom Athletic Clothing Manufacturers in the USA",
@@ -757,48 +791,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 14,
-      "featured": false
-    },
-    {
-      "title": "Workout Leggings Wholesale: Top Ranges to Buy in 2024",
-      "slug": "the-hip-and-happening-workout-leggings-wholesale-range-to-die-for",
-      "url": "/the-hip-and-happening-workout-leggings-wholesale-range-to-die-for",
-      "excerpt": "Discover the top wholesale workout leggings categories for 2024—scrunch-seam, seamless, compression & plus-size lines—plus margin math and manufacturer QA tips.",
-      "author": "Ryan Mitchell",
-      "date": "2026-06-05",
-      "category": "Category Object",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/fe3279f8-6c30-484f-9d0a-6175d48efa54.png",
-      "tags": [
-        {
-          "slug": "seamless-leggings",
-          "name": "Seamless Leggings"
-        },
-        {
-          "slug": "leggings-wholesale-2",
-          "name": "Wholesale Leggings"
-        },
-        {
-          "slug": "wholesale-bulk",
-          "name": "Wholesale Bulk"
-        },
-        {
-          "slug": "leggings-oem",
-          "name": "Leggings OEM"
-        },
-        {
-          "slug": "scrunch-leggings",
-          "name": "Scrunch Leggings"
-        },
-        {
-          "slug": "compression-bulk",
-          "name": "Compression Bulk"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "category-object",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 13,
       "featured": false
     }
   ]

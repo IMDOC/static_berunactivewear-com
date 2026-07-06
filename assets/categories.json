@@ -163,6 +163,39 @@
         "cta_link": "/category/category-object"
       },
       "sections": []
+    },
+    {
+      "slug": "printing-techniques",
+      "name": "Printing Techniques",
+      "description": "Comprehensive insights into printing and crafting methods for activewear, covering types, benefits, and application tips.",
+      "icon": "bi-brush",
+      "featured": false,
+      "parent_topic_ids": [
+        92551
+      ],
+      "parent_topic_keywords": [
+        "printing",
+        "printing techniques",
+        "crafting",
+        "screen printing",
+        "heat transfer",
+        "sublimation",
+        "customization",
+        "decoration",
+        "apparel printing",
+        "design application",
+        "activewear printing",
+        "industrial printing"
+      ],
+      "parent_topic_keywords_zh": [
+        "工艺",
+        "印刷",
+        "制版",
+        "热转印",
+        "丝网印刷",
+        "数码印花",
+        "图案设计"
+      ]
     }
   ]
 }
