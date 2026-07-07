@@ -36,7 +36,7 @@
       "categorySlug": "manufacturing",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
-      "id": 33,
+      "id": 34,
       "featured": true
     },
     {
@@ -68,6 +68,44 @@
       ],
       "readTime": "7 min read",
       "categorySlug": "printing-techniques",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 33,
+      "featured": false
+    },
+    {
+      "title": "Sportswear Factory vs. Trading Company: Which Is Better?",
+      "slug": "sportswear-factory-vs-trading-company-which-is-better-for-for-your-brand",
+      "url": "/sportswear-factory-vs-trading-company-which-is-better-for-for-your-brand",
+      "excerpt": "Factory or trading company — which is right for your sportswear brand? Compare costs, quality control, MOQ, and scalability to make the right sourcing decision.",
+      "author": "Ryan Mitchell",
+      "date": "2026-07-03",
+      "category": "Manufacturing",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/a4929622671d854db6698d5417115066.webp",
+      "tags": [
+        {
+          "slug": "sportswear-factory",
+          "name": "Sportswear Factory"
+        },
+        {
+          "slug": "factory-vs-trading",
+          "name": "Factory vs Trading"
+        },
+        {
+          "slug": "pls-manufacturer",
+          "name": "PLS Manufacturer"
+        },
+        {
+          "slug": "supplier-compare",
+          "name": "Supplier Compare"
+        },
+        {
+          "slug": "sourcing-guide",
+          "name": "Sourcing Guide"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "manufacturing",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 32,
@@ -753,44 +791,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 15,
-      "featured": false
-    },
-    {
-      "title": "3 Things Not To Wear Running (And What To Wear Instead)",
-      "slug": "3-things-not-to-wear-when-running-and-their-replacements",
-      "url": "/3-things-not-to-wear-when-running-and-their-replacements",
-      "excerpt": "Avoid chafing, blisters, and soaked shirts. Discover the 3 biggest running clothing mistakes beginners make and the affordable performance replacements that fix them.",
-      "author": "Ryan Mitchell",
-      "date": "2026-06-05",
-      "category": "Category Object",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/dee38d1c-6aa7-46ac-bd31-2ce6086d2ba5.png",
-      "tags": [
-        {
-          "slug": "moisture-running",
-          "name": "Moisture Running"
-        },
-        {
-          "slug": "running-taboos",
-          "name": "Running Taboos"
-        },
-        {
-          "slug": "running-mistakes",
-          "name": "Running Mistakes"
-        },
-        {
-          "slug": "running-essentials",
-          "name": "Running Essentials"
-        },
-        {
-          "slug": "running-tips",
-          "name": "Running Tips"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "category-object",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 14,
       "featured": false
     }
   ]

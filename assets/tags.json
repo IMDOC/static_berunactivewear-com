@@ -2284,6 +2284,45 @@
         "minimum order seamless",
         "seamless minimum order quantity"
       ]
+    },
+    {
+      "slug": "factory-vs-trading",
+      "name": "Factory vs Trading",
+      "description": "Compare sportswear factories and trading companies to decide which best suits your brand’s production and sourcing needs.",
+      "aliases": [
+        "sportswear factory vs trading company",
+        "factory vs trading company",
+        "sportswear factory or trading company",
+        "factory compared to trading company",
+        "trading company vs factory",
+        "sportswear sourcing options"
+      ]
+    },
+    {
+      "slug": "supplier-compare",
+      "name": "Supplier Compare",
+      "description": "Insights and tips on comparing sportswear suppliers, including factories and trading companies, to choose the best fit for your brand.",
+      "aliases": [
+        "sportswear supplier comparison",
+        "supplier comparison",
+        "sportswear supplier compare",
+        "factory vs trading company",
+        "sportswear supplier vs trading",
+        "compare sportswear suppliers"
+      ]
+    },
+    {
+      "slug": "sportswear-factory",
+      "name": "Sportswear Factory",
+      "description": "Insights on sourcing sportswear directly from factories versus trading companies for brand growth and product control.",
+      "aliases": [
+        "direct factory sportswear",
+        "sportswear factory",
+        "sportswear manufacturer",
+        "direct sportswear factory",
+        "factory vs trading sportswear",
+        "sportswear factory sourcing"
+      ]
     }
   ]
 }
