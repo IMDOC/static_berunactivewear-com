@@ -36,7 +36,7 @@
       "categorySlug": "manufacturing",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
-      "id": 34,
+      "id": 35,
       "featured": true
     },
     {
@@ -70,7 +70,7 @@
       "categorySlug": "printing-techniques",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
-      "id": 33,
+      "id": 34,
       "featured": false
     },
     {
@@ -102,6 +102,44 @@
         {
           "slug": "sourcing-guide",
           "name": "Sourcing Guide"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "manufacturing",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 33,
+      "featured": false
+    },
+    {
+      "title": "Top 10 Fitness Clothing Manufacturers in Italy for Luxury Brands",
+      "slug": "top-10-fitness-clothing-manufacturers-in-italy-for-luxury-brands",
+      "url": "/top-10-fitness-clothing-manufacturers-in-italy-for-luxury-brands",
+      "excerpt": "Discover the top Italian fitness clothing manufacturers for luxury activewear brands. Compare heritage ateliers, seamless specialists, and sustainable producers.",
+      "author": "Ryan Mitchell",
+      "date": "2026-07-03",
+      "category": "Manufacturing",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/aa782731-4c57-4baa-8015-179b60d2b934.png",
+      "tags": [
+        {
+          "slug": "italy-oem-luxury",
+          "name": "Italy OEM Luxury"
+        },
+        {
+          "slug": "italy-oem",
+          "name": "Italy OEM"
+        },
+        {
+          "slug": "luxury-italy",
+          "name": "Luxury Italy"
+        },
+        {
+          "slug": "italy-oem-2",
+          "name": "Italy OEM"
+        },
+        {
+          "slug": "italy-oem-premium",
+          "name": "Italy Premium"
         }
       ],
       "readTime": "7 min read",
@@ -749,48 +787,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 16,
-      "featured": false
-    },
-    {
-      "title": "3 Yoga Pants Pattern Trends You Need to Try in 2026",
-      "slug": "3-pattern-trends-forecasting-that-you-need-to-try-on-yoga-pants",
-      "url": "/3-pattern-trends-forecasting-that-you-need-to-try-on-yoga-pants",
-      "excerpt": "Discover 3 rising yoga pants pattern trends — geometric, botanical, and digital gradients — and learn how to source them before they peak.",
-      "author": "Ryan Mitchell",
-      "date": "2026-06-05",
-      "category": "Category Object",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/8461c062-30ab-49da-a591-b7346c4c12c6.png",
-      "tags": [
-        {
-          "slug": "yoga-prints",
-          "name": "Yoga Prints"
-        },
-        {
-          "slug": "yoga-patterns",
-          "name": "Yoga Patterns"
-        },
-        {
-          "slug": "geo-print",
-          "name": "Geo Print"
-        },
-        {
-          "slug": "botanical-print",
-          "name": "Botanical Print"
-        },
-        {
-          "slug": "digital-gradient",
-          "name": "Digital Gradient"
-        },
-        {
-          "slug": "print-trends",
-          "name": "Print Trends"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "category-object",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 15,
       "featured": false
     }
   ]

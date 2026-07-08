@@ -2323,6 +2323,76 @@
         "factory vs trading sportswear",
         "sportswear factory sourcing"
       ]
+    },
+    {
+      "slug": "italy-oem",
+      "name": "Italy OEM",
+      "description": "Articles about Italian fitness clothing manufacturers and OEM services for luxury and high-end activewear brands.",
+      "aliases": [
+        "italian fitness clothing manufacturers",
+        "italian fitness apparel oem",
+        "fitness clothing italy",
+        "italy activewear manufacturers",
+        "italy fitness clothing oem",
+        "italian workout apparel"
+      ]
+    },
+    {
+      "slug": "luxury-italy",
+      "name": "Luxury Italy",
+      "description": "Luxury activewear manufacturers in Italy, offering premium fitness clothing production services for high-end brands seeking quality and style.",
+      "aliases": [
+        "luxury activewear manufacturers italy",
+        "italy luxury activewear",
+        "luxury fitness clothing italy",
+        "italian activewear manufacturers",
+        "luxury gymwear italy",
+        "italy premium activewear"
+      ]
+    },
+    {
+      "slug": "italy-oem-2",
+      "name": "Italy OEM",
+      "description": "Leading Italy-based sportswear manufacturers specializing in luxury activewear and fitness clothing production services.",
+      "aliases": [
+        "made in italy sportswear manufacturer",
+        "italy sportswear oem",
+        "italian fitness clothing manufacturer",
+        "italy activewear oem",
+        "luxury sportswear italy",
+        "italian fitness apparel factory"
+      ]
+    },
+    {
+      "slug": "italy-oem-premium",
+      "name": "Italy Premium",
+      "description": "Premium activewear production and luxury fitness clothing manufacturing in Italy, focusing on high-quality craftsmanship and design.",
+      "aliases": [
+        "premium activewear production italy",
+        "italy luxury activewear",
+        "premium fitness clothing italy",
+        "luxury activewear italy",
+        "italy activewear manufacturer",
+        "italy premium activewear"
+      ],
+      "related_tags": [
+        "italy-oem",
+        "luxury-italy",
+        "sportswear-factory"
+      ]
+    },
+    {
+      "slug": "italy-oem-luxury",
+      "name": "Italy OEM Luxury",
+      "description": "Premium Italian athleisure and fitness clothing manufacturing services tailored for luxury brands seeking quality and style.",
+      "aliases": [
+        "italian athleisure manufacturer",
+        "italy luxury athleisure",
+        "italy fitness clothing manufacturer",
+        "italian fitness apparel oem",
+        "luxury athleisure italy",
+        "italy oem luxury brands"
+      ]
     }
   ]
 }

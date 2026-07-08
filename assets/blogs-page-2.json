@@ -2,6 +2,48 @@
   "pageNumber": 2,
   "blogs": [
     {
+      "title": "3 Yoga Pants Pattern Trends You Need to Try in 2026",
+      "slug": "3-pattern-trends-forecasting-that-you-need-to-try-on-yoga-pants",
+      "url": "/3-pattern-trends-forecasting-that-you-need-to-try-on-yoga-pants",
+      "excerpt": "Discover 3 rising yoga pants pattern trends — geometric, botanical, and digital gradients — and learn how to source them before they peak.",
+      "author": "Ryan Mitchell",
+      "date": "2026-06-05",
+      "category": "Category Object",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/8461c062-30ab-49da-a591-b7346c4c12c6.png",
+      "tags": [
+        {
+          "slug": "yoga-prints",
+          "name": "Yoga Prints"
+        },
+        {
+          "slug": "yoga-patterns",
+          "name": "Yoga Patterns"
+        },
+        {
+          "slug": "geo-print",
+          "name": "Geo Print"
+        },
+        {
+          "slug": "botanical-print",
+          "name": "Botanical Print"
+        },
+        {
+          "slug": "digital-gradient",
+          "name": "Digital Gradient"
+        },
+        {
+          "slug": "print-trends",
+          "name": "Print Trends"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "category-object",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 15,
+      "featured": false
+    },
+    {
       "title": "3 Things Not To Wear Running (And What To Wear Instead)",
       "slug": "3-things-not-to-wear-when-running-and-their-replacements",
       "url": "/3-things-not-to-wear-when-running-and-their-replacements",
