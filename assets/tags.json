@@ -2393,6 +2393,84 @@
         "luxury athleisure italy",
         "italy oem luxury brands"
       ]
+    },
+    {
+      "slug": "heat-printing",
+      "name": "Heat Printing",
+      "description": "Exploring heat transfer and screen printing methods, comparing durability, cost, and visual appeal for logo printing.",
+      "aliases": [
+        "heat transfer vs screen printing",
+        "heat transfer printing",
+        "screen print vs heat transfer",
+        "screen printing logo",
+        "heat press printing",
+        "heat printing methods"
+      ]
+    },
+    {
+      "slug": "screen-durability",
+      "name": "Screen Durability",
+      "description": "Insights on the durability and longevity of screen printing techniques for logo and design applications on activewear.",
+      "aliases": [
+        "screen printing durability",
+        "durability of screen printing",
+        "screen print longevity",
+        "screen print wear",
+        "long-lasting screen print",
+        "screen printing wear resistance"
+      ]
+    },
+    {
+      "slug": "heat-transfer",
+      "name": "Heat Transfer",
+      "description": "Insights on heat transfer printing durability, comparing longevity and performance against screen printing methods.",
+      "aliases": [
+        "heat transfer printing longevity",
+        "heat transfer durability",
+        "heat transfer vs screen printing",
+        "heat press printing",
+        "heat transfer print life",
+        "heat transfer logo printing"
+      ]
+    },
+    {
+      "slug": "logo-printing",
+      "name": "Logo Printing",
+      "description": "Articles covering custom activewear logo printing methods including heat transfer and screen printing techniques for brands.",
+      "aliases": [
+        "custom activewear logo printing",
+        "logo printing activewear",
+        "activewear logo print",
+        "heat transfer printing",
+        "screen printing logos",
+        "custom logo print"
+      ]
+    },
+    {
+      "slug": "logo-printing-2",
+      "name": "Logo Printing",
+      "description": "Articles covering logo printing techniques and methods for sportswear, including heat transfer and screen printing comparisons.",
+      "aliases": [
+        "logo printing for sportswear",
+        "sportswear logo printing",
+        "logo print methods",
+        "heat transfer logo",
+        "screen print logo",
+        "logo printing techniques"
+      ]
+    },
+    {
+      "slug": "heat-vs-screen",
+      "name": "Heat vs Screen",
+      "description": "Comparison of heat transfer and screen printing for apparel, focusing on logo durability and print quality.",
+      "aliases": [
+        "screen printing vs heat transfer for apparel",
+        "heat transfer vs screen printing",
+        "logo printing methods",
+        "screen printing logo",
+        "heat transfer printing",
+        "screen vs heat transfer"
+      ]
     }
   ]
 }

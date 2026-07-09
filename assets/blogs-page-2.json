@@ -2,6 +2,52 @@
   "pageNumber": 2,
   "blogs": [
     {
+      "title": "Yoga Clothing Guide: Fabrics, Fit & Features for Beginners",
+      "slug": "yoga-clothing-guide-fabrics-fit-and-features-beginners-should-know",
+      "url": "/yoga-clothing-guide-fabrics-fit-and-features-beginners-should-know",
+      "excerpt": "Learn which yoga fabrics, fits, and features matter most. A beginner-friendly guide covering moisture-wicking materials, squat-proof construction, and compression vs relaxed leggings.",
+      "author": "Ryan Mitchell",
+      "date": "2026-06-12",
+      "category": "Category Object",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/14d639b0-4764-444e-b068-d60ea19ee155.png",
+      "tags": [
+        {
+          "slug": "yoga-fabrics-2",
+          "name": "Yoga Fabrics"
+        },
+        {
+          "slug": "yoga-guide",
+          "name": "Yoga Guide"
+        },
+        {
+          "slug": "moisture-yoga",
+          "name": "Moisture Yoga"
+        },
+        {
+          "slug": "squat-proof",
+          "name": "Squat-Proof"
+        },
+        {
+          "slug": "yoga-fit",
+          "name": "Yoga Fit"
+        },
+        {
+          "slug": "yoga-fabrics",
+          "name": "Yoga Fabrics"
+        },
+        {
+          "slug": "yoga-beginners",
+          "name": "Yoga Beginners"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "category-object",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 16,
+      "featured": false
+    },
+    {
       "title": "3 Yoga Pants Pattern Trends You Need to Try in 2026",
       "slug": "3-pattern-trends-forecasting-that-you-need-to-try-on-yoga-pants",
       "url": "/3-pattern-trends-forecasting-that-you-need-to-try-on-yoga-pants",
