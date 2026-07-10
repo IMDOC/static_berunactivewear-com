@@ -2471,6 +2471,69 @@
         "heat transfer printing",
         "screen vs heat transfer"
       ]
+    },
+    {
+      "slug": "usa-vs-overseas",
+      "name": "USA vs Overseas",
+      "description": "Comparing USA and overseas activewear manufacturing to help brands choose the best production location for quality and cost.",
+      "aliases": [
+        "usa vs overseas activewear manufacturing",
+        "usa vs overseas manufacturing",
+        "us vs overseas activewear",
+        "domestic vs overseas manufacturing",
+        "usa manufacturing vs overseas",
+        "activewear manufacturing usa overseas"
+      ]
+    },
+    {
+      "slug": "manufacturer-compare",
+      "name": "Manufacturer Compare",
+      "description": "Insights and comparisons between USA and overseas activewear manufacturers for better brand production decisions.",
+      "aliases": [
+        "activewear manufacturer comparison",
+        "manufacturer comparison",
+        "usa vs overseas manufacturing",
+        "activewear manufacturing comparison",
+        "compare activewear manufacturers"
+      ]
+    },
+    {
+      "slug": "overseas-factory",
+      "name": "Overseas Factory",
+      "description": "Insights and comparisons on overseas activewear manufacturing factories, focusing on quality, cost efficiency, and brand advantages.",
+      "aliases": [
+        "overseas activewear factory",
+        "foreign activewear factory",
+        "overseas apparel factory",
+        "offshore activewear manufacturing",
+        "overseas activewear manufacturing",
+        "international activewear factory"
+      ]
+    },
+    {
+      "slug": "supply-chain",
+      "name": "Supply Chain",
+      "description": "Insights and strategies on managing the activewear supply chain, including sourcing, manufacturing, and logistics for brands.",
+      "aliases": [
+        "activewear supply chain",
+        "supply chain management",
+        "activewear sourcing",
+        "activewear manufacturing supply chain",
+        "supply chain logistics"
+      ]
+    },
+    {
+      "slug": "best-manufacturer",
+      "name": "Best Manufacturer",
+      "description": "Insights on choosing the best activewear manufacturer for your brand, comparing USA and overseas production options.",
+      "aliases": [
+        "best activewear manufacturer for brand",
+        "top activewear manufacturer",
+        "best activewear maker",
+        "best manufacturer for activewear brand",
+        "best activewear supplier",
+        "best activewear production"
+      ]
     }
   ]
 }

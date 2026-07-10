@@ -2,6 +2,44 @@
   "pageNumber": 1,
   "blogs": [
     {
+      "title": "USA vs Overseas Activewear Manufacturing: Which Is Better?",
+      "slug": "usa-vs-overseas-activewear-manufacturing-which-is-better-for-your-brand",
+      "url": "/usa-vs-overseas-activewear-manufacturing-which-is-better-for-your-brand",
+      "excerpt": "Compare USA vs overseas activewear manufacturing across cost, MOQ, lead time, and quality — then use our 5-question framework to choose the right factory.",
+      "author": "Ryan Mitchell",
+      "date": "2026-07-06",
+      "category": "Manufacturing",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/b8ebcee351c0c5ff9d52fcd970b2789f.webp",
+      "tags": [
+        {
+          "slug": "best-manufacturer",
+          "name": "Best Manufacturer"
+        },
+        {
+          "slug": "usa-vs-overseas",
+          "name": "USA vs Overseas"
+        },
+        {
+          "slug": "manufacturer-compare",
+          "name": "Manufacturer Compare"
+        },
+        {
+          "slug": "overseas-factory",
+          "name": "Overseas Factory"
+        },
+        {
+          "slug": "supply-chain",
+          "name": "Supply Chain"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "manufacturing",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 37,
+      "featured": true
+    },
+    {
       "title": "China vs Vietnam Sportswear Manufacturers: Pros, Cons & How to Choose",
       "slug": "china-vs-vietnam-sportswear-manufacturers-pros-cons-how-to-choose",
       "url": "/china-vs-vietnam-sportswear-manufacturers-pros-cons-how-to-choose",
@@ -37,7 +75,7 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 36,
-      "featured": true
+      "featured": false
     },
     {
       "title": "Heat Transfer vs Screen Printing: Which Lasts Longer?",
@@ -741,44 +779,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 18,
-      "featured": false
-    },
-    {
-      "title": "Why Fitness Apparel Is Growing Faster Than Ever in 2026",
-      "slug": "why-the-fitness-apparel-industry-is-growing-faster-than-ever-in-2026",
-      "url": "/why-the-fitness-apparel-industry-is-growing-faster-than-ever-in-2026",
-      "excerpt": "Discover what's driving the fitness apparel boom in 2026 — from athleisure expansion and performance fabrics to untapped market opportunities for brands.",
-      "author": "Ryan Mitchell",
-      "date": "2026-06-12",
-      "category": "Category Object",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/550cf4ec-334b-44c8-be5f-17929b138db7.png",
-      "tags": [
-        {
-          "slug": "fitness-market",
-          "name": "Fitness Market"
-        },
-        {
-          "slug": "fitness-2026",
-          "name": "Fitness 2026"
-        },
-        {
-          "slug": "athleisure-growth",
-          "name": "Athleisure Growth"
-        },
-        {
-          "slug": "market-trends",
-          "name": "Market Trends"
-        },
-        {
-          "slug": "perf-fabric",
-          "name": "Perf Fabric"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "category-object",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 17,
       "featured": false
     }
   ]
