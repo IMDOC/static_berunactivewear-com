@@ -2,6 +2,52 @@
   "pageNumber": 2,
   "blogs": [
     {
+      "title": "Why Leotards Are Making a Comeback in Fitness & Dance",
+      "slug": "why-leotards-are-making-a-comeback-in-fitness-and-dance-apparel",
+      "url": "/why-leotards-are-making-a-comeback-in-fitness-and-dance-apparel",
+      "excerpt": "Discover why one-piece activewear is trending in fitness and dance — plus a performance comparison, styling guide, and top manufacturer tips for 2024.",
+      "author": "Ryan Mitchell",
+      "date": "2026-06-12",
+      "category": "Category Object",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/9910d97f0c0683910914a6c8e577bf7a.webp",
+      "tags": [
+        {
+          "slug": "leotards-2",
+          "name": "Leotards"
+        },
+        {
+          "slug": "leotard",
+          "name": "Leotard"
+        },
+        {
+          "slug": "leotards",
+          "name": "Leotards"
+        },
+        {
+          "slug": "bodysuit",
+          "name": "Bodysuit"
+        },
+        {
+          "slug": "leotard-vs-bra",
+          "name": "Leotard vs Bra"
+        },
+        {
+          "slug": "dance-trends",
+          "name": "Dance Trends"
+        },
+        {
+          "slug": "performance-leotard",
+          "name": "Performance Leotard"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "category-object",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 18,
+      "featured": false
+    },
+    {
       "title": "Why Fitness Apparel Is Growing Faster Than Ever in 2026",
       "slug": "why-the-fitness-apparel-industry-is-growing-faster-than-ever-in-2026",
       "url": "/why-the-fitness-apparel-industry-is-growing-faster-than-ever-in-2026",

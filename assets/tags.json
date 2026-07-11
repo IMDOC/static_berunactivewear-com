@@ -2534,6 +2534,69 @@
         "best activewear supplier",
         "best activewear production"
       ]
+    },
+    {
+      "slug": "start-cost",
+      "name": "Start Cost",
+      "description": "Insights and detailed analysis on the costs involved in launching a custom activewear brand in 2026.",
+      "aliases": [
+        "cost to start activewear brand",
+        "startup cost activewear",
+        "activewear brand cost",
+        "launch activewear budget",
+        "custom activewear startup cost"
+      ]
+    },
+    {
+      "slug": "startup-costs",
+      "name": "Startup Costs",
+      "description": "Insights and budget details on starting a custom activewear brand in 2026, covering essential expenses and planning.",
+      "aliases": [
+        "custom activewear startup costs 2026",
+        "activewear startup costs",
+        "starting activewear brand expenses",
+        "custom gymwear startup budget",
+        "activewear brand startup 2026"
+      ]
+    },
+    {
+      "slug": "brand-budget",
+      "name": "Brand Budget",
+      "description": "Insights and breakdowns of budgeting specifically for starting and running a custom activewear brand in 2026.",
+      "aliases": [
+        "activewear brand budget breakdown",
+        "activewear brand budget",
+        "brand startup cost",
+        "activewear startup budget",
+        "custom activewear budget",
+        "activewear brand costs"
+      ]
+    },
+    {
+      "slug": "mfg-costs",
+      "name": "Mfg Costs",
+      "description": "Insights and breakdowns on manufacturing costs for custom activewear brand startups in 2026 and beyond.",
+      "aliases": [
+        "activewear manufacturing costs",
+        "activewear mfg costs",
+        "custom activewear costs",
+        "activewear production cost",
+        "activewear startup costs",
+        "manufacturing costs activewear"
+      ]
+    },
+    {
+      "slug": "brand-cost",
+      "name": "Brand Cost",
+      "description": "Comprehensive insights on the costs and budget considerations involved in launching a custom activewear brand in 2026.",
+      "aliases": [
+        "how much does it cost to launch activewear brand",
+        "activewear brand cost",
+        "cost to start activewear brand",
+        "activewear brand budget",
+        "launch activewear brand cost",
+        "starting activewear brand cost"
+      ]
     }
   ]
 }

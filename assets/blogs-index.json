@@ -1,5 +1,5 @@
 {
-  "totalBlogs": 37,
+  "totalBlogs": 38,
   "totalPages": 2,
   "postsPerPage": 20,
   "categories": [
@@ -16,7 +16,7 @@
     {
       "name": "Sourcing Guides",
       "slug": "sourcing-guides",
-      "count": 0
+      "count": 1
     },
     {
       "name": "Sportswear Categories",
