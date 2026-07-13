@@ -36,7 +36,7 @@
       "categorySlug": "manufacturing",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
-      "id": 38,
+      "id": 39,
       "featured": true
     },
     {
@@ -72,6 +72,48 @@
       ],
       "readTime": "7 min read",
       "categorySlug": "manufacturing",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 38,
+      "featured": false
+    },
+    {
+      "title": "Embroidery vs Heat Seal Uniform Branding: Pros, Cons & Best Uses",
+      "slug": "embroidery-vs-heat-seal-uniform-branding-pros-cons-best-uses",
+      "url": "/embroidery-vs-heat-seal-uniform-branding-pros-cons-best-uses",
+      "excerpt": "Embroidery or heat seal for your uniforms? Compare durability, cost, fabric fit, and best uses to choose the right branding method for your team.",
+      "author": "Ryan Mitchell",
+      "date": "2026-07-03",
+      "category": "Printing Techniques",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/761f6df9ed224a65366353159d52f682.webp",
+      "tags": [
+        {
+          "slug": "heat-seal-3",
+          "name": "Heat Seal"
+        },
+        {
+          "slug": "heat-seal",
+          "name": "Heat Seal"
+        },
+        {
+          "slug": "heat-seal-2",
+          "name": "Heat Seal"
+        },
+        {
+          "slug": "embroidery",
+          "name": "Embroidery"
+        },
+        {
+          "slug": "logo-method",
+          "name": "Logo Method"
+        },
+        {
+          "slug": "uniform-decoration",
+          "name": "Uniform Decoration"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "printing-techniques",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 37,
@@ -729,44 +771,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 20,
-      "featured": false
-    },
-    {
-      "title": "Choosing a Wholesale Gym Clothing Manufacturer: Retailer Guide",
-      "slug": "what-retailers-need-to-know-before-choosing-a-wholesale-gym-clothing",
-      "url": "/what-retailers-need-to-know-before-choosing-a-wholesale-gym-clothing",
-      "excerpt": "Avoid costly sourcing mistakes. Learn how to vet wholesale gym clothing manufacturers with our step-by-step framework covering fabric quality, MOQ, and contract terms.",
-      "author": "Ryan Mitchell",
-      "date": "2026-06-12",
-      "category": "Category Object",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/65563513-753f-40e2-82bd-f5ffa468fb3d.png",
-      "tags": [
-        {
-          "slug": "gym-wholesale-2",
-          "name": "Gym Wholesale"
-        },
-        {
-          "slug": "gym-wholesale",
-          "name": "Gym Wholesale"
-        },
-        {
-          "slug": "gym-manufacturer",
-          "name": "Gym Manufacturer"
-        },
-        {
-          "slug": "moq-activewear",
-          "name": "MOQ Activewear"
-        },
-        {
-          "slug": "supplier-vetting",
-          "name": "Supplier Vetting"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "category-object",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 19,
       "featured": false
     }
   ]
