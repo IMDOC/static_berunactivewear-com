@@ -36,7 +36,7 @@
       "categorySlug": "manufacturing",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
-      "id": 39,
+      "id": 40,
       "featured": true
     },
     {
@@ -74,7 +74,7 @@
       "categorySlug": "manufacturing",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
-      "id": 38,
+      "id": 39,
       "featured": false
     },
     {
@@ -110,6 +110,48 @@
         {
           "slug": "uniform-decoration",
           "name": "Uniform Decoration"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "printing-techniques",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 38,
+      "featured": false
+    },
+    {
+      "title": "Flatlock vs Overlock Stitching for Compression Wear",
+      "slug": "flatlock-vs-overlock-stitching-which-seam-is-better-for-compression-wear",
+      "url": "/flatlock-vs-overlock-stitching-which-seam-is-better-for-compression-wear",
+      "excerpt": "Flatlock or overlock seams — which is better for compression wear? Compare chafing resistance, durability, stretch, and placement strategy in this full guide.",
+      "author": "Ryan Mitchell",
+      "date": "2026-07-03",
+      "category": "Printing Techniques",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/80ae0d23-819c-405f-bdf9-dc03e827fef6.png",
+      "tags": [
+        {
+          "slug": "stitching-guide",
+          "name": "Stitching Guide"
+        },
+        {
+          "slug": "flatlock-seam-2",
+          "name": "Flatlock Seam"
+        },
+        {
+          "slug": "overlock-stitch",
+          "name": "Overlock Stitch"
+        },
+        {
+          "slug": "compression-seams",
+          "name": "Compression Seams"
+        },
+        {
+          "slug": "compression-seam",
+          "name": "Compression Seam"
+        },
+        {
+          "slug": "flatlock-stitch",
+          "name": "Flatlock Stitch"
         }
       ],
       "readTime": "7 min read",
@@ -733,44 +775,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 21,
-      "featured": false
-    },
-    {
-      "title": "Key Factors Driving the Athletic Apparel Market Growth",
-      "slug": "understanding-the-key-factors-of-the-growing-market-of-athletic-clothes",
-      "url": "/understanding-the-key-factors-of-the-growing-market-of-athletic-clothes",
-      "excerpt": "Explore the demand, supply, and macro forces accelerating the $500B+ athletic apparel market — with data, brand proof points, and a strategic priority framework.",
-      "author": "Ryan Mitchell",
-      "date": "2026-06-12",
-      "category": "Category Object",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/4e8c3241835f5e19e57d71e93f4c6e29.webp",
-      "tags": [
-        {
-          "slug": "sportswear-2026",
-          "name": "Sportswear 2026"
-        },
-        {
-          "slug": "market-growth",
-          "name": "Market Growth"
-        },
-        {
-          "slug": "athleisure-growth",
-          "name": "Athleisure Growth"
-        },
-        {
-          "slug": "industry-analysis",
-          "name": "Industry Analysis"
-        },
-        {
-          "slug": "market-drivers",
-          "name": "Market Drivers"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "category-object",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 20,
       "featured": false
     }
   ]

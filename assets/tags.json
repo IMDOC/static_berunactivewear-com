@@ -2672,6 +2672,97 @@
         "heat seal activewear",
         "heatseal vs embroidery"
       ]
+    },
+    {
+      "slug": "flatlock-seam",
+      "name": "Flatlock Seam",
+      "description": "Compare flatlock and overlock stitching techniques, essential for durable, comfortable seams in compression and activewear garments.",
+      "aliases": [
+        "flatlock vs overlock stitching",
+        "flatlock seam",
+        "overlock seam",
+        "flatlock stitching",
+        "overlock stitching",
+        "flatlock vs overlock seam"
+      ]
+    },
+    {
+      "slug": "flatlock-seam-2",
+      "name": "Flatlock Seam",
+      "description": "Flatlock seam stitching, ideal for compression wear, provides durable, comfortable, and chafe-free seams for active apparel.",
+      "aliases": [
+        "flatlock seam compression wear",
+        "flatlock stitching",
+        "flatlock seam",
+        "flatlock seam activewear",
+        "flatlock seam garments",
+        "flatlock stitch compression"
+      ]
+    },
+    {
+      "slug": "overlock-stitch",
+      "name": "Overlock Stitch",
+      "description": "Overlock stitching techniques for activewear, focusing on durability and seam quality in compression and sports garments.",
+      "aliases": [
+        "overlock stitch activewear",
+        "overlock seam",
+        "overlock stitching",
+        "activewear overlock stitch",
+        "overlock sewing",
+        "overlock seam activewear"
+      ]
+    },
+    {
+      "slug": "compression-seams",
+      "name": "Compression Seams",
+      "description": "Insights and comparisons of seam types used in compression wear to enhance durability, fit, and performance.",
+      "aliases": [
+        "compression wear seam types",
+        "compression seams",
+        "seam types for compression wear",
+        "compression garment seams",
+        "flatlock vs overlock seams",
+        "compression wear stitching"
+      ]
+    },
+    {
+      "slug": "compression-seam",
+      "name": "Compression Seam",
+      "description": "Insights and comparisons of the best seam types used in compression tights for optimal fit, durability, and comfort.",
+      "aliases": [
+        "best seam for compression tights",
+        "compression tights seam",
+        "compression wear seams",
+        "flatlock vs overlock seam",
+        "compression seam types",
+        "best seam compression wear"
+      ]
+    },
+    {
+      "slug": "flatlock-stitch",
+      "name": "Flatlock Stitch",
+      "description": "Flatlock stitching reduces chafing and provides a smooth seam, ideal for compression wear and activewear garments.",
+      "aliases": [
+        "flatlock stitching chafing",
+        "flatlock seams",
+        "flatlock stitch",
+        "flatlock seam",
+        "flatlock sewing",
+        "flat seam stitching"
+      ]
+    },
+    {
+      "slug": "stitching-guide",
+      "name": "Stitching Guide",
+      "description": "Comprehensive guide on performance apparel stitching techniques like flatlock and overlock seams for durable compression wear.",
+      "aliases": [
+        "performance apparel stitching guide",
+        "stitching guide for activewear",
+        "flatlock vs overlock stitching",
+        "compression wear stitching",
+        "apparel seam guide",
+        "sportswear stitching techniques"
+      ]
     }
   ]
 }

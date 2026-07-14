@@ -2,6 +2,44 @@
   "pageNumber": 2,
   "blogs": [
     {
+      "title": "Key Factors Driving the Athletic Apparel Market Growth",
+      "slug": "understanding-the-key-factors-of-the-growing-market-of-athletic-clothes",
+      "url": "/understanding-the-key-factors-of-the-growing-market-of-athletic-clothes",
+      "excerpt": "Explore the demand, supply, and macro forces accelerating the $500B+ athletic apparel market — with data, brand proof points, and a strategic priority framework.",
+      "author": "Ryan Mitchell",
+      "date": "2026-06-12",
+      "category": "Category Object",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/4e8c3241835f5e19e57d71e93f4c6e29.webp",
+      "tags": [
+        {
+          "slug": "sportswear-2026",
+          "name": "Sportswear 2026"
+        },
+        {
+          "slug": "market-growth",
+          "name": "Market Growth"
+        },
+        {
+          "slug": "athleisure-growth",
+          "name": "Athleisure Growth"
+        },
+        {
+          "slug": "industry-analysis",
+          "name": "Industry Analysis"
+        },
+        {
+          "slug": "market-drivers",
+          "name": "Market Drivers"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "category-object",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 20,
+      "featured": false
+    },
+    {
       "title": "Choosing a Wholesale Gym Clothing Manufacturer: Retailer Guide",
       "slug": "what-retailers-need-to-know-before-choosing-a-wholesale-gym-clothing",
       "url": "/what-retailers-need-to-know-before-choosing-a-wholesale-gym-clothing",
