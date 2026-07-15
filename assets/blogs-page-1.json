@@ -36,8 +36,58 @@
       "categorySlug": "manufacturing",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
-      "id": 40,
+      "id": 41,
       "featured": true
+    },
+    {
+      "title": "10 Best Activewear Fabrics: Comfort & Performance Compared",
+      "slug": "10-best-activewear-fabrics-comfort-breathability-performance-compared",
+      "url": "/10-best-activewear-fabrics-comfort-breathability-performance-compared",
+      "excerpt": "Compare the 10 best activewear fabrics — polyester, nylon, spandex blends, merino wool & more. Find the right material for your workout, comfort, and durability needs.",
+      "author": "Ryan Mitchell",
+      "date": "2026-07-03",
+      "category": "Fabric Technology",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/a303d3b6-d9ce-4723-a24d-aa7c700e76c9.png",
+      "tags": [
+        {
+          "slug": "perf-fabric-3",
+          "name": "Perf Fabric"
+        },
+        {
+          "slug": "best-fabrics",
+          "name": "Best Fabrics"
+        },
+        {
+          "slug": "moisture-wicking-2",
+          "name": "Moisture Wicking"
+        },
+        {
+          "slug": "nylon-spandex",
+          "name": "Nylon Spandex"
+        },
+        {
+          "slug": "poly-spandex",
+          "name": "Poly Spandex"
+        },
+        {
+          "slug": "workout-fabric",
+          "name": "Workout Fabric"
+        },
+        {
+          "slug": "breathable-fabric",
+          "name": "Breathable Fabric"
+        },
+        {
+          "slug": "perf-fabric-2",
+          "name": "Perf Fabric"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "fabric-technology",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 40,
+      "featured": false
     },
     {
       "title": "China vs Vietnam Sportswear Manufacturers: Pros, Cons & How to Choose",
@@ -737,44 +787,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 22,
-      "featured": false
-    },
-    {
-      "title": "7 Proven Ways to Promote & Sell Custom Activewear",
-      "slug": "top-7-proven-ways-to-promote-and-sell-custom-activewear",
-      "url": "/top-7-proven-ways-to-promote-and-sell-custom-activewear",
-      "excerpt": "Discover 7 field-tested strategies to promote and sell custom activewear on a small budget. Real tools, timelines, and conversion data for private label brands.",
-      "author": "Ryan Mitchell",
-      "date": "2026-06-12",
-      "category": "Category Object",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/58ec13eb-9cd6-45ff-b47d-e30cf2e74c41.png",
-      "tags": [
-        {
-          "slug": "activewear-oem",
-          "name": "Activewear OEM"
-        },
-        {
-          "slug": "custom-marketing",
-          "name": "Custom Marketing"
-        },
-        {
-          "slug": "activewear-sales",
-          "name": "Activewear Sales"
-        },
-        {
-          "slug": "sell-activewear",
-          "name": "Sell Activewear"
-        },
-        {
-          "slug": "brand-promotion",
-          "name": "Brand Promotion"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "category-object",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 21,
       "featured": false
     }
   ]

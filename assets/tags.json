@@ -2763,6 +2763,70 @@
         "apparel seam guide",
         "sportswear stitching techniques"
       ]
+    },
+    {
+      "slug": "best-fabrics",
+      "name": "Best Fabrics",
+      "description": "Comprehensive guides and comparisons of the best activewear fabrics focusing on comfort, breathability, and performance features.",
+      "aliases": [
+        "best activewear fabrics",
+        "top activewear fabrics",
+        "activewear fabric comparison",
+        "best workout fabrics",
+        "performance fabrics",
+        "breathable activewear fabrics"
+      ]
+    },
+    {
+      "slug": "moisture-wicking-2",
+      "name": "Moisture Wicking",
+      "description": "Articles about moisture wicking fabrics that enhance gym wear by improving comfort, breathability, and performance during workouts.",
+      "aliases": [
+        "moisture wicking fabric for gym",
+        "moisture wicking gym fabric",
+        "moisture wicking activewear",
+        "wicking fabric",
+        "breathable moisture fabric",
+        "moisture management fabric"
+      ]
+    },
+    {
+      "slug": "nylon-spandex",
+      "name": "Nylon Spandex",
+      "description": "Articles and insights on nylon spandex blend fabrics known for flexibility, comfort, and moisture management in activewear leggings.",
+      "aliases": [
+        "nylon spandex blend leggings",
+        "nylon spandex leggings",
+        "nylon spandex fabric",
+        "spandex nylon blend",
+        "nylon elastane leggings",
+        "nylon spandex activewear"
+      ]
+    },
+    {
+      "slug": "poly-spandex",
+      "name": "Poly Spandex",
+      "description": "Polyester spandex activewear fabric blends known for comfort, flexibility, moisture management, and durability in athletic clothing.",
+      "aliases": [
+        "polyester spandex activewear",
+        "poly spandex fabric",
+        "spandex polyester blend",
+        "polyester spandex blend",
+        "poly spandex activewear fabric"
+      ]
+    },
+    {
+      "slug": "perf-fabric-3",
+      "name": "Perf Fabric",
+      "description": "Insights and comparisons of performance fabrics focused on comfort, breathability, and durability in activewear.",
+      "aliases": [
+        "performance fabric comparison",
+        "perf fabric comparison",
+        "activewear performance fabric",
+        "performance fabrics",
+        "performance fabric types",
+        "best performance fabric"
+      ]
     }
   ]
 }

@@ -1,0 +1,43 @@
+{
+  "pageNumber": 3,
+  "blogs": [
+    {
+      "title": "Why Private Labelling Matters for Your Fitness Centre",
+      "slug": "why-private-labelling-is-so-important-for-your-fitness-centre",
+      "url": "/why-private-labelling-is-so-important-for-your-fitness-centre",
+      "excerpt": "Discover why private labelling activewear and merchandise can boost your gym's brand identity, member retention, and profit margins. A complete guide for fitness centre owners.",
+      "author": "Ryan Mitchell",
+      "date": "2026-06-04",
+      "category": "Category Object",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/5711aa15-02b5-4d05-b11a-582f14cd645f.png",
+      "tags": [
+        {
+          "slug": "private-gym",
+          "name": "Private Gym"
+        },
+        {
+          "slug": "private-labelling",
+          "name": "Private Labelling"
+        },
+        {
+          "slug": "gym-private-label",
+          "name": "Gym Private Label"
+        },
+        {
+          "slug": "brand-identity",
+          "name": "Brand Identity"
+        },
+        {
+          "slug": "custom-gym",
+          "name": "Custom Gym"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "category-object",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 1,
+      "featured": false
+    }
+  ]
+}
