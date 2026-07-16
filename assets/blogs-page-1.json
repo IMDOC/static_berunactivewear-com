@@ -36,7 +36,7 @@
       "categorySlug": "manufacturing",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
-      "id": 41,
+      "id": 42,
       "featured": true
     },
     {
@@ -80,6 +80,56 @@
         {
           "slug": "perf-fabric-2",
           "name": "Perf Fabric"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "fabric-technology",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 41,
+      "featured": false
+    },
+    {
+      "title": "Best Fabrics For Golf Apparel in 2026: Comfort & Performance",
+      "slug": "best-fabrics-for-golf-apparel-in-2026-choosing-materials-for-comfort-performance",
+      "url": "/best-fabrics-for-golf-apparel-in-2026-choosing-materials-for-comfort-performance",
+      "excerpt": "Discover the best fabrics for golf apparel in 2026. Compare polyester knits, nylon, merino wool, and sustainable options to build a high-performance line.",
+      "author": "Ryan Mitchell",
+      "date": "2026-07-03",
+      "category": "Fabric Technology",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/f3e60b147637eb718cde31982ebcdc58.webp",
+      "tags": [
+        {
+          "slug": "golf-fabric-4",
+          "name": "Golf Fabric"
+        },
+        {
+          "slug": "golf-fabrics",
+          "name": "Golf Fabrics"
+        },
+        {
+          "slug": "golf-fabric",
+          "name": "Golf Fabric"
+        },
+        {
+          "slug": "golf-fabric-2",
+          "name": "Golf Fabric"
+        },
+        {
+          "slug": "golf-polo",
+          "name": "Golf Polo"
+        },
+        {
+          "slug": "golf-fabrics-26",
+          "name": "Golf Fabrics 26"
+        },
+        {
+          "slug": "golf-fabric-3",
+          "name": "Golf Fabric"
+        },
+        {
+          "slug": "lightweight-golf",
+          "name": "Lightweight Golf"
         }
       ],
       "readTime": "7 min read",
@@ -745,48 +795,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 23,
-      "featured": false
-    },
-    {
-      "title": "Top 10 Women's Gym Clothing Pieces to Buy in 2026",
-      "slug": "top-10-gym-clothing-pieces-women-are-buying-most-in-2026",
-      "url": "/top-10-gym-clothing-pieces-women-are-buying-most-in-2026",
-      "excerpt": "Discover the 10 best women's gym clothing pieces in 2026. From high-waist leggings to supportive sports bras — tested in real training sessions, zero filler.",
-      "author": "Ryan Mitchell",
-      "date": "2026-06-12",
-      "category": "Category Object",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/f0d2e16c-05a6-48b0-84ae-14a16135da6c.png",
-      "tags": [
-        {
-          "slug": "gym-wear",
-          "name": "Gym Wear"
-        },
-        {
-          "slug": "womens-gym",
-          "name": "Women’s Gym"
-        },
-        {
-          "slug": "gym-leggings",
-          "name": "Gym Leggings"
-        },
-        {
-          "slug": "womens-active",
-          "name": "Women's Active"
-        },
-        {
-          "slug": "high-waist-leggings",
-          "name": "High-Waist Leggings"
-        },
-        {
-          "slug": "training-bra",
-          "name": "Training Bra"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "category-object",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 22,
       "featured": false
     }
   ]

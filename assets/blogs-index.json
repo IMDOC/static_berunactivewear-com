@@ -1,5 +1,5 @@
 {
-  "totalBlogs": 41,
+  "totalBlogs": 42,
   "totalPages": 3,
   "postsPerPage": 20,
   "categories": [
@@ -11,7 +11,7 @@
     {
       "name": "Fabric Technology",
       "slug": "fabric-technology",
-      "count": 1
+      "count": 2
     },
     {
       "name": "Sourcing Guides",

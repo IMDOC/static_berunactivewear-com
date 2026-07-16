@@ -2,6 +2,48 @@
   "pageNumber": 2,
   "blogs": [
     {
+      "title": "Top 10 Women's Gym Clothing Pieces to Buy in 2026",
+      "slug": "top-10-gym-clothing-pieces-women-are-buying-most-in-2026",
+      "url": "/top-10-gym-clothing-pieces-women-are-buying-most-in-2026",
+      "excerpt": "Discover the 10 best women's gym clothing pieces in 2026. From high-waist leggings to supportive sports bras — tested in real training sessions, zero filler.",
+      "author": "Ryan Mitchell",
+      "date": "2026-06-12",
+      "category": "Category Object",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/f0d2e16c-05a6-48b0-84ae-14a16135da6c.png",
+      "tags": [
+        {
+          "slug": "gym-wear",
+          "name": "Gym Wear"
+        },
+        {
+          "slug": "womens-gym",
+          "name": "Women’s Gym"
+        },
+        {
+          "slug": "gym-leggings",
+          "name": "Gym Leggings"
+        },
+        {
+          "slug": "womens-active",
+          "name": "Women's Active"
+        },
+        {
+          "slug": "high-waist-leggings",
+          "name": "High-Waist Leggings"
+        },
+        {
+          "slug": "training-bra",
+          "name": "Training Bra"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "category-object",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 22,
+      "featured": false
+    },
+    {
       "title": "7 Proven Ways to Promote & Sell Custom Activewear",
       "slug": "top-7-proven-ways-to-promote-and-sell-custom-activewear",
       "url": "/top-7-proven-ways-to-promote-and-sell-custom-activewear",
@@ -757,44 +799,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 3,
-      "featured": false
-    },
-    {
-      "title": "Top 8 Sportswear Manufacturers in Nigeria (2026)",
-      "slug": "top-8-sportswear-manufacturers-in-nigeria-2026-guide",
-      "url": "/top-8-sportswear-manufacturers-in-nigeria-2026-guide",
-      "excerpt": "Discover the top 8 sportswear manufacturers in Nigeria for 2026. Compare production capacities, MOQs, and tradeoffs to find the right supplier for your brand.",
-      "author": "Ryan Mitchell",
-      "date": "2026-06-04",
-      "category": "Category Object",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/fea774989d19f479aea50e282d842481.webp",
-      "tags": [
-        {
-          "slug": "private-sportswear",
-          "name": "Private Sportswear"
-        },
-        {
-          "slug": "nigeria-oem",
-          "name": "Nigeria OEM"
-        },
-        {
-          "slug": "jersey-nigeria",
-          "name": "Jersey Nigeria"
-        },
-        {
-          "slug": "nigeria-oem-2026",
-          "name": "Nigeria OEM 2026"
-        },
-        {
-          "slug": "bulk-supplier-ng",
-          "name": "Bulk Supplier NG"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "category-object",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 2,
       "featured": false
     }
   ]
