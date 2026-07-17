@@ -2933,6 +2933,101 @@
         "performance golf fabric",
         "golf shirt fabric"
       ]
+    },
+    {
+      "slug": "gym-wear-cost",
+      "name": "Gym Wear Cost",
+      "description": "Insightful articles on gym wear sets' manufacturing costs, minimum order quantities, and lead times for efficient production planning.",
+      "aliases": [
+        "gym wear sets manufacturing cost",
+        "gym wear manufacturing cost",
+        "gym wear sets cost",
+        "gym wear production cost",
+        "cost of gym wear manufacturing"
+      ]
+    },
+    {
+      "slug": "gym-wear-moq",
+      "name": "Gym Wear MOQ",
+      "description": "Insights and guidelines on minimum order quantities for manufacturing gym wear sets, including cost and lead time considerations.",
+      "aliases": [
+        "gym wear set moq",
+        "gymwear moq",
+        "gym wear minimum order quantity",
+        "gym wear bulk order",
+        "gym wear set minimum order",
+        "gym wear supplier moq"
+      ]
+    },
+    {
+      "slug": "lead-time",
+      "name": "Lead Time",
+      "description": "Comprehensive insights on activewear set lead time, production schedules, and delivery timelines for gym wear manufacturing.",
+      "aliases": [
+        "activewear set lead time",
+        "activewear lead time",
+        "gym wear lead time",
+        "manufacturing lead time",
+        "production lead time",
+        "lead time for activewear"
+      ]
+    },
+    {
+      "slug": "set-cost",
+      "name": "Set Cost",
+      "description": "Insights into the unit costs, manufacturing expenses, and pricing strategies for gym wear sets in apparel production.",
+      "aliases": [
+        "gym wear set unit cost",
+        "gym wear set cost",
+        "gym set cost",
+        "gym wear manufacturing cost",
+        "gym wear unit cost"
+      ]
+    },
+    {
+      "slug": "gym-sets",
+      "name": "Gym Sets",
+      "description": "Comprehensive insights into private label gym wear sets, covering manufacturing costs, minimum order quantities, and production lead times.",
+      "aliases": [
+        "private label gym wear sets",
+        "custom gym sets",
+        "private gym wear sets",
+        "gym wear sets manufacturing",
+        "private label gym sets"
+      ],
+      "related_tags": [
+        "private-label",
+        "gym-private-label",
+        "custom-gym",
+        "private-gym",
+        "private-activewear"
+      ]
+    },
+    {
+      "slug": "mfg-cost",
+      "name": "Mfg Cost",
+      "description": "Insights and guides on activewear manufacturing costs per unit, including factors affecting pricing and budgeting.",
+      "aliases": [
+        "activewear manufacturing cost per unit",
+        "manufacturing cost",
+        "production cost",
+        "activewear mfg cost",
+        "cost per unit activewear",
+        "garment manufacturing cost"
+      ]
+    },
+    {
+      "slug": "gym-moq",
+      "name": "Gym MOQ",
+      "description": "Minimum order quantity (MOQ) requirements and considerations specifically for gym wear sets manufacturing and sourcing.",
+      "aliases": [
+        "gym wear sets minimum order quantity",
+        "gym wear moq",
+        "gym sets moq",
+        "min order gym wear",
+        "minimum order gym sets",
+        "gym minimum order quantity"
+      ]
     }
   ]
 }

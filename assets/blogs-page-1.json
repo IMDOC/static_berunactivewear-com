@@ -2,6 +2,52 @@
   "pageNumber": 1,
   "blogs": [
     {
+      "title": "Gym Wear Sets: Manufacturing Cost, MOQ & Lead Time Guide",
+      "slug": "gym-wear-sets-manufacturing-cost-moq-lead-time-a-complete-guide",
+      "url": "/gym-wear-sets-manufacturing-cost-moq-lead-time-a-complete-guide",
+      "excerpt": "Discover real per-unit costs, MOQ thresholds, and production lead times for gym wear sets. Use these benchmarks before negotiating with any activewear manufacturer.",
+      "author": "Ryan Mitchell",
+      "date": "2026-07-06",
+      "category": "Sourcing Guides",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/a5357e29b656a3b22d67a0b412413d53.webp",
+      "tags": [
+        {
+          "slug": "gym-moq",
+          "name": "Gym MOQ"
+        },
+        {
+          "slug": "gym-wear-cost",
+          "name": "Gym Wear Cost"
+        },
+        {
+          "slug": "gym-wear-moq",
+          "name": "Gym Wear MOQ"
+        },
+        {
+          "slug": "lead-time",
+          "name": "Lead Time"
+        },
+        {
+          "slug": "set-cost",
+          "name": "Set Cost"
+        },
+        {
+          "slug": "gym-sets",
+          "name": "Gym Sets"
+        },
+        {
+          "slug": "mfg-cost",
+          "name": "Mfg Cost"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "sourcing-guides",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 43,
+      "featured": true
+    },
+    {
       "title": "USA vs Overseas Activewear Manufacturing: Which Is Better?",
       "slug": "usa-vs-overseas-activewear-manufacturing-which-is-better-for-your-brand",
       "url": "/usa-vs-overseas-activewear-manufacturing-which-is-better-for-your-brand",
@@ -37,7 +83,7 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 42,
-      "featured": true
+      "featured": false
     },
     {
       "title": "10 Best Activewear Fabrics: Comfort & Performance Compared",
@@ -749,52 +795,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 24,
-      "featured": false
-    },
-    {
-      "title": "Sublimation vs Screen Printing for Custom T-Shirts",
-      "slug": "sublimation-vs-screen-printing-which-printing-method-is-better-for-custom-t",
-      "url": "/sublimation-vs-screen-printing-which-printing-method-is-better-for-custom-t",
-      "excerpt": "Compare sublimation vs screen printing for custom t-shirts. Get real cost data, durability benchmarks, MOQ structures, and scenario-matched recommendations.",
-      "author": "Ryan Mitchell",
-      "date": "2026-06-12",
-      "category": "Category Object",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/88ec4163a1cbd1d408937ceed2922a18.webp",
-      "tags": [
-        {
-          "slug": "print-method",
-          "name": "Print Method"
-        },
-        {
-          "slug": "sublimation-printing",
-          "name": "Sublimation Printing"
-        },
-        {
-          "slug": "screen-printing",
-          "name": "Screen Printing"
-        },
-        {
-          "slug": "allover-print",
-          "name": "Allover Print"
-        },
-        {
-          "slug": "plastisol-ink",
-          "name": "Plastisol Ink"
-        },
-        {
-          "slug": "print-methods-2",
-          "name": "Print Methods"
-        },
-        {
-          "slug": "print-cost",
-          "name": "Print Cost"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "category-object",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 23,
       "featured": false
     }
   ]

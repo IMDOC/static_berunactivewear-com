@@ -63,7 +63,8 @@
       "icon": "bi-clipboard-check",
       "featured": true,
       "parent_topic_ids": [
-        92549
+        92549,
+        92547
       ],
       "parent_topic_keywords": [
         "sourcing",

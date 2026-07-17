@@ -2,6 +2,52 @@
   "pageNumber": 2,
   "blogs": [
     {
+      "title": "Sublimation vs Screen Printing for Custom T-Shirts",
+      "slug": "sublimation-vs-screen-printing-which-printing-method-is-better-for-custom-t",
+      "url": "/sublimation-vs-screen-printing-which-printing-method-is-better-for-custom-t",
+      "excerpt": "Compare sublimation vs screen printing for custom t-shirts. Get real cost data, durability benchmarks, MOQ structures, and scenario-matched recommendations.",
+      "author": "Ryan Mitchell",
+      "date": "2026-06-12",
+      "category": "Category Object",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/88ec4163a1cbd1d408937ceed2922a18.webp",
+      "tags": [
+        {
+          "slug": "print-method",
+          "name": "Print Method"
+        },
+        {
+          "slug": "sublimation-printing",
+          "name": "Sublimation Printing"
+        },
+        {
+          "slug": "screen-printing",
+          "name": "Screen Printing"
+        },
+        {
+          "slug": "allover-print",
+          "name": "Allover Print"
+        },
+        {
+          "slug": "plastisol-ink",
+          "name": "Plastisol Ink"
+        },
+        {
+          "slug": "print-methods-2",
+          "name": "Print Methods"
+        },
+        {
+          "slug": "print-cost",
+          "name": "Print Cost"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "category-object",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 23,
+      "featured": false
+    },
+    {
       "title": "Top 10 Women's Gym Clothing Pieces to Buy in 2026",
       "slug": "top-10-gym-clothing-pieces-women-are-buying-most-in-2026",
       "url": "/top-10-gym-clothing-pieces-women-are-buying-most-in-2026",
@@ -757,48 +803,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 4,
-      "featured": false
-    },
-    {
-      "title": "Top Swimwear Wholesale Trends for Summer 2026",
-      "slug": "the-hottest-swimwear-wholesale-trends-to-watch-out-for-this-summer-2026",
-      "url": "/the-hottest-swimwear-wholesale-trends-to-watch-out-for-this-summer-2026",
-      "excerpt": "Discover the 5 hottest swimwear wholesale trends for summer 2026. MOQs, fabric specs, margin math, and sourcing tips for retail buyers and private label brands.",
-      "author": "Ryan Mitchell",
-      "date": "2026-06-04",
-      "category": "Category Object",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/a2d5b61e-e3f2-4323-94ff-70d64c259b23.png",
-      "tags": [
-        {
-          "slug": "upf-resort",
-          "name": "UPF Resort"
-        },
-        {
-          "slug": "swimwear-trends",
-          "name": "Swimwear Trends"
-        },
-        {
-          "slug": "swimwear",
-          "name": "Swimwear"
-        },
-        {
-          "slug": "custom-swimwear",
-          "name": "Custom Swimwear"
-        },
-        {
-          "slug": "sustainable-swim",
-          "name": "Sustainable Swim"
-        },
-        {
-          "slug": "plus-size-swim",
-          "name": "Plus Size Swim"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "category-object",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 3,
       "featured": false
     }
   ]
