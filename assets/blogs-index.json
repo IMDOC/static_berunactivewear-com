@@ -1,5 +1,5 @@
 {
-  "totalBlogs": 43,
+  "totalBlogs": 44,
   "totalPages": 3,
   "postsPerPage": 20,
   "categories": [
@@ -26,7 +26,7 @@
     {
       "name": "Industry Trends",
       "slug": "industry-trends",
-      "count": 0
+      "count": 1
     },
     {
       "name": "Category Object",

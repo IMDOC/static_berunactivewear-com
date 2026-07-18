@@ -3028,6 +3028,57 @@
         "minimum order gym sets",
         "gym minimum order quantity"
       ]
+    },
+    {
+      "slug": "premium-gymwear",
+      "name": "Premium Gymwear",
+      "description": "Insights and reviews on the best premium gymwear brands in the UK, spotlighting quality, style, and trending fitness apparel for 2026.",
+      "aliases": [
+        "best premium gymwear brands uk",
+        "premium gymwear uk",
+        "top gymwear brands uk",
+        "premium workout clothes uk",
+        "luxury gymwear uk",
+        "best gymwear uk"
+      ]
+    },
+    {
+      "slug": "premium-gymwear-2",
+      "name": "Premium Gymwear",
+      "description": "Explore top premium gymwear brands and trends in the UK for 2026, focusing on high-quality, stylish activewear options.",
+      "aliases": [
+        "premium gym wear uk 2026",
+        "premium gymwear uk",
+        "luxury gymwear uk",
+        "premium activewear uk",
+        "high-end gymwear uk",
+        "premium workout clothes uk"
+      ]
+    },
+    {
+      "slug": "gymwear-uk",
+      "name": "Gymwear UK",
+      "description": "Insights and rankings of the best gymwear brands in the UK, focusing on premium quality and latest 2026 trends.",
+      "aliases": [
+        "best gymwear brands uk",
+        "top gymwear uk",
+        "premium gymwear uk",
+        "uk gymwear brands",
+        "best gym clothes uk",
+        "uk fitness apparel"
+      ]
+    },
+    {
+      "slug": "premium-gymwear-3",
+      "name": "Premium Gymwear",
+      "description": "Insights and guides on high-end, premium-quality gymwear and activewear available in the UK market for discerning customers.",
+      "aliases": [
+        "high-end activewear uk",
+        "premium gymwear uk",
+        "luxury activewear uk",
+        "premium workout clothes uk",
+        "high quality gymwear uk"
+      ]
     }
   ]
 }

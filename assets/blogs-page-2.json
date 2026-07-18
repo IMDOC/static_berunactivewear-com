@@ -2,6 +2,44 @@
   "pageNumber": 2,
   "blogs": [
     {
+      "title": "Private Label vs Custom Activewear: Which Is Right for Startups?",
+      "slug": "private-label-vs-custom-activewear-which-model-is-better-for-startups",
+      "url": "/private-label-vs-custom-activewear-which-model-is-better-for-startups",
+      "excerpt": "Private label or custom activewear? Compare costs, MOQs, timelines, and risk to find the right manufacturing model for your startup stage.",
+      "author": "Ryan Mitchell",
+      "date": "2026-06-12",
+      "category": "Category Object",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/2a0f925af51449092ee443932632d362.webp",
+      "tags": [
+        {
+          "slug": "label-vs-custom",
+          "name": "Label vs Custom"
+        },
+        {
+          "slug": "private-label-2",
+          "name": "Private Label"
+        },
+        {
+          "slug": "activewear-oem",
+          "name": "Activewear OEM"
+        },
+        {
+          "slug": "oem-odm",
+          "name": "OEM & ODM"
+        },
+        {
+          "slug": "activewear-startup",
+          "name": "Activewear Startup"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "category-object",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 24,
+      "featured": false
+    },
+    {
       "title": "Sublimation vs Screen Printing for Custom T-Shirts",
       "slug": "sublimation-vs-screen-printing-which-printing-method-is-better-for-custom-t",
       "url": "/sublimation-vs-screen-printing-which-printing-method-is-better-for-custom-t",
@@ -765,44 +803,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 5,
-      "featured": false
-    },
-    {
-      "title": "Start Your Private Label Activewear Brand in 2026 – 5 Tips",
-      "slug": "start-your-private-label-activewear-brand-in-2026-5-simple-tips",
-      "url": "/start-your-private-label-activewear-brand-in-2026-5-simple-tips",
-      "excerpt": "Launch your private label activewear brand in 2026 with this 5-step guide. Find low MOQ manufacturers, validate your niche, and get scripts that land real responses.",
-      "author": "Ryan Mitchell",
-      "date": "2026-06-04",
-      "category": "Manufacturing",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/0eace3abb2a60ce8b5bcb579271e1704.webp",
-      "tags": [
-        {
-          "slug": "brand-launch",
-          "name": "Brand Launch"
-        },
-        {
-          "slug": "private-label-brand",
-          "name": "Private Label Brand"
-        },
-        {
-          "slug": "pls-manufacturer",
-          "name": "PLS Manufacturer"
-        },
-        {
-          "slug": "low-moq-2",
-          "name": "Low MOQ"
-        },
-        {
-          "slug": "start-brand",
-          "name": "Start Brand"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "manufacturing",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 4,
       "featured": false
     }
   ]

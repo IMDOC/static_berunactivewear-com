@@ -2,6 +2,40 @@
   "pageNumber": 1,
   "blogs": [
     {
+      "title": "10 Best Premium Gymwear Brands in the UK (2026 Guide)",
+      "slug": "10-best-premium-gymwear-brands-in-uk-2026-guide",
+      "url": "/10-best-premium-gymwear-brands-in-uk-2026-guide",
+      "excerpt": "Discover the 10 best premium gymwear brands in the UK for 2026. From Lululemon to Berun Activewear — honest rankings, prices & what's worth buying.",
+      "author": "Ryan Mitchell",
+      "date": "2026-07-06",
+      "category": "Industry Trends",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/a2b1e27f-29e5-410d-98de-9c6b1d404f05.png",
+      "tags": [
+        {
+          "slug": "premium-gymwear-3",
+          "name": "Premium Gymwear"
+        },
+        {
+          "slug": "premium-gymwear",
+          "name": "Premium Gymwear"
+        },
+        {
+          "slug": "premium-gymwear-2",
+          "name": "Premium Gymwear"
+        },
+        {
+          "slug": "gymwear-uk",
+          "name": "Gymwear UK"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "industry-trends",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 44,
+      "featured": true
+    },
+    {
       "title": "Gym Wear Sets: Manufacturing Cost, MOQ & Lead Time Guide",
       "slug": "gym-wear-sets-manufacturing-cost-moq-lead-time-a-complete-guide",
       "url": "/gym-wear-sets-manufacturing-cost-moq-lead-time-a-complete-guide",
@@ -45,7 +79,7 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 43,
-      "featured": true
+      "featured": false
     },
     {
       "title": "USA vs Overseas Activewear Manufacturing: Which Is Better?",
@@ -757,44 +791,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 25,
-      "featured": false
-    },
-    {
-      "title": "Private Label vs Custom Activewear: Which Is Right for Startups?",
-      "slug": "private-label-vs-custom-activewear-which-model-is-better-for-startups",
-      "url": "/private-label-vs-custom-activewear-which-model-is-better-for-startups",
-      "excerpt": "Private label or custom activewear? Compare costs, MOQs, timelines, and risk to find the right manufacturing model for your startup stage.",
-      "author": "Ryan Mitchell",
-      "date": "2026-06-12",
-      "category": "Category Object",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/2a0f925af51449092ee443932632d362.webp",
-      "tags": [
-        {
-          "slug": "label-vs-custom",
-          "name": "Label vs Custom"
-        },
-        {
-          "slug": "private-label-2",
-          "name": "Private Label"
-        },
-        {
-          "slug": "activewear-oem",
-          "name": "Activewear OEM"
-        },
-        {
-          "slug": "oem-odm",
-          "name": "OEM & ODM"
-        },
-        {
-          "slug": "activewear-startup",
-          "name": "Activewear Startup"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "category-object",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 24,
       "featured": false
     }
   ]

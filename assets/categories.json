@@ -118,7 +118,9 @@
       "description": "Where activewear sourcing is heading: sustainability, compliance and certifications, and market shifts that affect brands and buyers.",
       "icon": "bi-graph-up-arrow",
       "featured": false,
-      "parent_topic_ids": [],
+      "parent_topic_ids": [
+        92541
+      ],
       "parent_topic_keywords": [
         "trends",
         "sustainability",
