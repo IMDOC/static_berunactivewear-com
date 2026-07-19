@@ -32,7 +32,7 @@
       "categorySlug": "industry-trends",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
-      "id": 44,
+      "id": 45,
       "featured": true
     },
     {
@@ -76,6 +76,52 @@
       ],
       "readTime": "7 min read",
       "categorySlug": "sourcing-guides",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 44,
+      "featured": false
+    },
+    {
+      "title": "OEM vs ODM Manufacturing: Which Model Is More Cost-Effective?",
+      "slug": "oem-vs-odm-which-manufacturing-model-is-more-cost-effective",
+      "url": "/oem-vs-odm-which-manufacturing-model-is-more-cost-effective",
+      "excerpt": "Compare OEM vs ODM manufacturing costs, MOQs, IP risk, and time-to-market for activewear brands. Find which model fits your budget and growth stage.",
+      "author": "Ryan Mitchell",
+      "date": "2026-07-06",
+      "category": "Manufacturing",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/f31b882a-3952-4fa0-8482-4e07ee94292d.png",
+      "tags": [
+        {
+          "slug": "oem-vs-odm-2",
+          "name": "OEM vs ODM"
+        },
+        {
+          "slug": "oem-vs-odm",
+          "name": "OEM vs ODM"
+        },
+        {
+          "slug": "oem-odm-2",
+          "name": "OEM vs ODM"
+        },
+        {
+          "slug": "odm-cost",
+          "name": "ODM Cost"
+        },
+        {
+          "slug": "activewear-oem-2",
+          "name": "Activewear OEM"
+        },
+        {
+          "slug": "custom-oem",
+          "name": "Custom OEM"
+        },
+        {
+          "slug": "customization-cost",
+          "name": "Customization Cost"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "manufacturing",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 43,
@@ -757,40 +803,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 26,
-      "featured": false
-    },
-    {
-      "title": "How to Choose the Right Blank Clothing Manufacturer",
-      "slug": "how-to-choose-the-right-blank-clothing-manufacturer-for-your-brand",
-      "url": "/how-to-choose-the-right-blank-clothing-manufacturer-for-your-brand",
-      "excerpt": "Use our 8-dimension scorecard to evaluate any blank clothing manufacturer — covering fabric quality, MOQs, pricing transparency, red flags, and sustainability.",
-      "author": "Ryan Mitchell",
-      "date": "2026-06-12",
-      "category": "Category Object",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/f88ab0612ef0aa983e528effb014f332.webp",
-      "tags": [
-        {
-          "slug": "choose-oem",
-          "name": "Choose OEM"
-        },
-        {
-          "slug": "wholesale-oem",
-          "name": "Wholesale OEM"
-        },
-        {
-          "slug": "blank-wholesale",
-          "name": "Blank Wholesale"
-        },
-        {
-          "slug": "blank-manufacturer",
-          "name": "Blank Manufacturer"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "category-object",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 25,
       "featured": false
     }
   ]
