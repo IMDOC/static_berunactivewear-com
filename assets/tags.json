@@ -3167,6 +3167,81 @@
         "manufacturing model comparison",
         "activewear oem odm"
       ]
+    },
+    {
+      "slug": "compression-fabric",
+      "name": "Compression Fabric",
+      "description": "Insights on the best compression wear fabrics that provide optimal support, comfort, and durability for performance apparel.",
+      "aliases": [
+        "best compression wear fabric",
+        "compression fabric",
+        "compression wear material",
+        "compression sports fabric",
+        "supportive compression fabric"
+      ]
+    },
+    {
+      "slug": "compression-fabric-2",
+      "name": "Compression Fabric",
+      "description": "Insights and comparisons of different compression fabrics used in activewear to deliver optimal support and comfort.",
+      "aliases": [
+        "compression fabric comparison",
+        "compression fabrics",
+        "supportive fabric",
+        "compression wear fabric",
+        "best compression fabric"
+      ]
+    },
+    {
+      "slug": "nylon-poly",
+      "name": "Nylon & Polyester",
+      "description": "Comparison of nylon and polyester fabrics used in compression wear focusing on support, durability, and comfort benefits.",
+      "aliases": [
+        "nylon vs polyester compression",
+        "nylon polyester compression fabric",
+        "compression nylon vs polyester",
+        "polyester vs nylon compression",
+        "compression wear nylon polyester",
+        "nylon polyester fabric comparison"
+      ]
+    },
+    {
+      "slug": "compression-fabric-3",
+      "name": "Compression Fabric",
+      "description": "Compression fabric types offering support and performance benefits for athletic and activewear compression garments.",
+      "aliases": [
+        "athletic compression fabric",
+        "compression wear fabric",
+        "compression activewear fabric",
+        "support fabric",
+        "performance compression fabric"
+      ]
+    },
+    {
+      "slug": "compression-tights",
+      "name": "Compression Tights",
+      "description": "Articles and guides about spandex blend compression tights offering support and performance in activewear fabrics.",
+      "aliases": [
+        "spandex blend compression tights",
+        "compression leggings",
+        "compression tights",
+        "spandex compression wear",
+        "support tights",
+        "compression activewear"
+      ]
+    },
+    {
+      "slug": "compression-fabric-4",
+      "name": "Compression Fabric",
+      "description": "Comprehensive guide on compression wear materials that provide optimal support, comfort, and performance in athletic and medical garments.",
+      "aliases": [
+        "compression wear material guide",
+        "compression fabric guide",
+        "compression fabric materials",
+        "best compression fabric",
+        "compression textile",
+        "supportive compression fabric"
+      ]
     }
   ]
 }
