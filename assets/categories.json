@@ -204,6 +204,45 @@
         "数码印花",
         "图案设计"
       ]
+    },
+    {
+      "slug": "brand-style-reviews",
+      "name": "Brand Style Reviews",
+      "description": "In-depth evaluations and comparisons of activewear brand styles to help buyers make informed purchasing decisions.",
+      "icon": "bi-card-checklist",
+      "featured": false,
+      "parent_topic_ids": [
+        92778
+      ],
+      "parent_topic_keywords": [
+        "brand style",
+        "reviews",
+        "comparisons",
+        "evaluation",
+        "activewear",
+        "apparel",
+        "performance",
+        "design",
+        "fit",
+        "quality",
+        "buyer guide"
+      ],
+      "parent_topic_keywords_zh": [
+        "品牌",
+        "款式",
+        "测评",
+        "对比",
+        "评价",
+        "质量",
+        "设计"
+      ],
+      "seo": {
+        "title": "Brand Style Reviews — Compare Activewear Quality | Berun Activewear"
+      },
+      "hero": {
+        "h1": "Compare and Review Brand Styles for Activewear Buying Success"
+      },
+      "sections": []
     }
   ]
 }

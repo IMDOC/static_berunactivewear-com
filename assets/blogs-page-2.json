@@ -2,6 +2,52 @@
   "pageNumber": 2,
   "blogs": [
     {
+      "title": "Fitness Apparel Trends 2026: Sourcing Guide for Brands",
+      "slug": "fitness-apparel-trends-for-2026-what-brands-should-source-next",
+      "url": "/fitness-apparel-trends-for-2026-what-brands-should-source-next",
+      "excerpt": "Plan your 2026 fitness apparel line with confidence. Explore sourcing-ready trend breakdowns covering performance fabrics, sustainable materials, silhouettes, and more.",
+      "author": "Ryan Mitchell",
+      "date": "2026-06-12",
+      "category": "Category Object",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/998979d7-2543-496b-86ec-0f35e2caca32.png",
+      "tags": [
+        {
+          "slug": "gym-to-street",
+          "name": "Gym-to-Street"
+        },
+        {
+          "slug": "fitness-trends",
+          "name": "Fitness Trends"
+        },
+        {
+          "slug": "activewear-sourcing",
+          "name": "Activewear Sourcing"
+        },
+        {
+          "slug": "perf-fabric",
+          "name": "Perf Fabric"
+        },
+        {
+          "slug": "recycled-poly",
+          "name": "Recycled Poly"
+        },
+        {
+          "slug": "seamless-sportswear",
+          "name": "Seamless Sportswear"
+        },
+        {
+          "slug": "inclusive-size",
+          "name": "Inclusive Size"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "category-object",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 27,
+      "featured": false
+    },
+    {
       "title": "5 Types of Fitness Training & Their Benefits for Women",
       "slug": "five-types-of-fitness-training-and-their-benefits-for-women",
       "url": "/five-types-of-fitness-training-and-their-benefits-for-women",
@@ -769,44 +815,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 8,
-      "featured": false
-    },
-    {
-      "title": "4 Best-Selling Private Label Apparel Products to Offer in 2026",
-      "slug": "4-best-selling-apparel-products-private-label-manufacturers-should-offer-in-2026",
-      "url": "/4-best-selling-apparel-products-private-label-manufacturers-should-offer-in-2026",
-      "excerpt": "Discover the 4 highest-demand private label apparel categories for 2026 — from moisture-wicking activewear to sustainable loungewear — backed by real market data.",
-      "author": "Ryan Mitchell",
-      "date": "2026-06-04",
-      "category": "Category Object",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/1047a395-ee43-4004-ac37-9741ad2a5372.png",
-      "tags": [
-        {
-          "slug": "apparel-oem",
-          "name": "Apparel OEM"
-        },
-        {
-          "slug": "private-activewear",
-          "name": "Private Activewear"
-        },
-        {
-          "slug": "wholesale-label",
-          "name": "Wholesale Label"
-        },
-        {
-          "slug": "pls-manufacturer",
-          "name": "PLS Manufacturer"
-        },
-        {
-          "slug": "best-sellers",
-          "name": "Best Sellers"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "category-object",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 7,
       "featured": false
     }
   ]

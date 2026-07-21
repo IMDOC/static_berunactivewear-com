@@ -40,8 +40,42 @@
       "categorySlug": "fabric-technology",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
-      "id": 46,
+      "id": 47,
       "featured": true
+    },
+    {
+      "title": "Gymshark Vital vs Adapt Leggings: Which Performs Better?",
+      "slug": "gymshark-vital-vs-adapt-leggings-which-collection-offers-better-performance",
+      "url": "/gymshark-vital-vs-adapt-leggings-which-collection-offers-better-performance",
+      "excerpt": "Gymshark Vital vs Adapt leggings compared: fabric, compression, waistband fit, and best use by workout type. Find out which collection is right for you.",
+      "author": "Ryan Mitchell",
+      "date": "2026-07-09",
+      "category": "Brand Style Reviews",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/afef1a72d8ca2148632f2e672389bfc4.webp",
+      "tags": [
+        {
+          "slug": "gymshark-leggings",
+          "name": "Gymshark Leggings"
+        },
+        {
+          "slug": "vital-leggings",
+          "name": "Vital Leggings"
+        },
+        {
+          "slug": "adapt-leggings",
+          "name": "Adapt Leggings"
+        },
+        {
+          "slug": "gymshark-leggings-2",
+          "name": "Gymshark Leggings"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "brand-style-reviews",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 46,
+      "featured": false
     },
     {
       "title": "10 Best Premium Gymwear Brands in the UK (2026 Guide)",
@@ -757,52 +791,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 28,
-      "featured": false
-    },
-    {
-      "title": "Fitness Apparel Trends 2026: Sourcing Guide for Brands",
-      "slug": "fitness-apparel-trends-for-2026-what-brands-should-source-next",
-      "url": "/fitness-apparel-trends-for-2026-what-brands-should-source-next",
-      "excerpt": "Plan your 2026 fitness apparel line with confidence. Explore sourcing-ready trend breakdowns covering performance fabrics, sustainable materials, silhouettes, and more.",
-      "author": "Ryan Mitchell",
-      "date": "2026-06-12",
-      "category": "Category Object",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/998979d7-2543-496b-86ec-0f35e2caca32.png",
-      "tags": [
-        {
-          "slug": "gym-to-street",
-          "name": "Gym-to-Street"
-        },
-        {
-          "slug": "fitness-trends",
-          "name": "Fitness Trends"
-        },
-        {
-          "slug": "activewear-sourcing",
-          "name": "Activewear Sourcing"
-        },
-        {
-          "slug": "perf-fabric",
-          "name": "Perf Fabric"
-        },
-        {
-          "slug": "recycled-poly",
-          "name": "Recycled Poly"
-        },
-        {
-          "slug": "seamless-sportswear",
-          "name": "Seamless Sportswear"
-        },
-        {
-          "slug": "inclusive-size",
-          "name": "Inclusive Size"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "category-object",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 27,
       "featured": false
     }
   ]

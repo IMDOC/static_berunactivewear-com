@@ -1,5 +1,5 @@
 {
-  "totalBlogs": 46,
+  "totalBlogs": 47,
   "totalPages": 3,
   "postsPerPage": 20,
   "categories": [
@@ -37,6 +37,11 @@
       "name": "Printing Techniques",
       "slug": "printing-techniques",
       "count": 4
+    },
+    {
+      "name": "Brand Style Reviews",
+      "slug": "brand-style-reviews",
+      "count": 1
     }
   ],
   "latestUpdate": "2026-07-09"

@@ -3242,6 +3242,61 @@
         "compression textile",
         "supportive compression fabric"
       ]
+    },
+    {
+      "slug": "gymshark-leggings",
+      "name": "Gymshark Leggings",
+      "description": "Insights and comparisons between Gymshark Vital and Adapt leggings collections focusing on performance and features.",
+      "aliases": [
+        "gymshark vital vs adapt leggings",
+        "gymshark vital leggings",
+        "gymshark adapt leggings",
+        "gymshark leggings comparison",
+        "gymshark performance leggings",
+        "gymshark leggings review"
+      ]
+    },
+    {
+      "slug": "vital-leggings",
+      "name": "Vital Leggings",
+      "description": "Reviews and comparisons of Gymshark Vital leggings, focusing on performance, comfort, and key features in activewear.",
+      "aliases": [
+        "gymshark vital leggings review",
+        "vital leggings review",
+        "gymshark vital leggings",
+        "vital leggings performance",
+        "gymshark leggings review"
+      ]
+    },
+    {
+      "slug": "adapt-leggings",
+      "name": "Adapt Leggings",
+      "description": "Reviews and performance analysis of Gymshark Adapt leggings, highlighting features and comparisons with other collections.",
+      "aliases": [
+        "gymshark adapt leggings review",
+        "adapt leggings",
+        "gymshark adapt",
+        "adapt leggings review",
+        "gymshark leggings adapt",
+        "adapt leggings performance"
+      ],
+      "related_tags": [
+        "gymshark-leggings",
+        "vital-leggings"
+      ]
+    },
+    {
+      "slug": "gymshark-leggings-2",
+      "name": "Gymshark Leggings",
+      "description": "Insights and comparisons on the best Gymshark leggings for lifting and performance in fitness and training sessions.",
+      "aliases": [
+        "best gymshark leggings for lifting",
+        "gymshark vital leggings",
+        "gymshark adapt leggings",
+        "gymshark workout leggings",
+        "gymshark lifting leggings",
+        "gymshark performance leggings"
+      ]
     }
   ]
 }
