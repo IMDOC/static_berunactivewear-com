@@ -2,6 +2,48 @@
   "pageNumber": 2,
   "blogs": [
     {
+      "title": "Dri-FIT vs Cotton T-Shirts: Best Fabric for Active Lifestyles",
+      "slug": "dri-fit-vs-cotton-t-shirts-which-is-better-for-active-lifestyles",
+      "url": "/dri-fit-vs-cotton-t-shirts-which-is-better-for-active-lifestyles",
+      "excerpt": "Dri-FIT or cotton — which T-shirt wins for your workouts? Compare moisture-wicking performance, durability, cost-per-wear, and climate fit in this data-driven guide.",
+      "author": "Ryan Mitchell",
+      "date": "2026-06-12",
+      "category": "Category Object",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/91da4a37036f65f6c9c635bb28932d67.webp",
+      "tags": [
+        {
+          "slug": "athletic-fabric",
+          "name": "Athletic Fabric"
+        },
+        {
+          "slug": "dri-fit",
+          "name": "Dri-FIT"
+        },
+        {
+          "slug": "dri-fit-2",
+          "name": "Dri-FIT"
+        },
+        {
+          "slug": "workout-fabric",
+          "name": "Workout Fabric"
+        },
+        {
+          "slug": "dry-fit",
+          "name": "Dry Fit"
+        },
+        {
+          "slug": "perf-tshirt",
+          "name": "Performance Tee"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "category-object",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 28,
+      "featured": false
+    },
+    {
       "title": "Fitness Apparel Trends 2026: Sourcing Guide for Brands",
       "slug": "fitness-apparel-trends-for-2026-what-brands-should-source-next",
       "url": "/fitness-apparel-trends-for-2026-what-brands-should-source-next",
@@ -769,52 +811,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 9,
-      "featured": false
-    },
-    {
-      "title": "3 Ways Activewear Retailers Can Increase Sales in 2026",
-      "slug": "3-ways-activewear-retailers-can-increase-sales-in-2026",
-      "url": "/3-ways-activewear-retailers-can-increase-sales-in-2026",
-      "excerpt": "Discover 3 proven tactics activewear retailers under $5M can use to grow sales in 2026—micro-niche drops, fit-first DTC funnels, and loyalty studio networks.",
-      "author": "Ryan Mitchell",
-      "date": "2026-06-04",
-      "category": "Category Object",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/6349f1fc-d7ff-45ae-a682-924202fee8f5.png",
-      "tags": [
-        {
-          "slug": "micro-niche",
-          "name": "Micro-Niche"
-        },
-        {
-          "slug": "retail-sales",
-          "name": "Retail Sales"
-        },
-        {
-          "slug": "athleisure-growth",
-          "name": "Athleisure Growth"
-        },
-        {
-          "slug": "sales-growth",
-          "name": "Sales Growth"
-        },
-        {
-          "slug": "sales-tactics",
-          "name": "Sales Tactics"
-        },
-        {
-          "slug": "dtc-strategy",
-          "name": "DTC Strategy"
-        },
-        {
-          "slug": "loyalty-program",
-          "name": "Loyalty Program"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "category-object",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 8,
       "featured": false
     }
   ]

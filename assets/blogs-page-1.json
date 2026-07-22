@@ -40,7 +40,7 @@
       "categorySlug": "fabric-technology",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
-      "id": 47,
+      "id": 48,
       "featured": true
     },
     {
@@ -68,6 +68,44 @@
         {
           "slug": "gymshark-leggings-2",
           "name": "Gymshark Leggings"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "brand-style-reviews",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 47,
+      "featured": false
+    },
+    {
+      "title": "Nike Dri-Fit Breathe Run T-Shirt Review (2026)",
+      "slug": "nike-dri-fit-breathe-run-t-shirt-review-2026-features-benefits-is-it-worth",
+      "url": "/nike-dri-fit-breathe-run-t-shirt-review-2026-features-benefits-is-it-worth",
+      "excerpt": "Honest 2026 review of the Nike Dri-Fit Breathe Run T-Shirt. Real-world sweat tests, pros & cons, who it suits, and whether it's worth buying today.",
+      "author": "Ryan Mitchell",
+      "date": "2026-07-09",
+      "category": "Brand Style Reviews",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/84ed9a50a7c19fd82ca114eac3a4b67a.webp",
+      "tags": [
+        {
+          "slug": "dri-fit-5",
+          "name": "Dri-FIT"
+        },
+        {
+          "slug": "dri-fit-3",
+          "name": "Dri-Fit"
+        },
+        {
+          "slug": "dri-fit-4",
+          "name": "Dri-Fit"
+        },
+        {
+          "slug": "breathable-run",
+          "name": "Breathable Run"
+        },
+        {
+          "slug": "nike-review",
+          "name": "Nike Review"
         }
       ],
       "readTime": "7 min read",
@@ -749,48 +787,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 29,
-      "featured": false
-    },
-    {
-      "title": "Dri-FIT vs Cotton T-Shirts: Best Fabric for Active Lifestyles",
-      "slug": "dri-fit-vs-cotton-t-shirts-which-is-better-for-active-lifestyles",
-      "url": "/dri-fit-vs-cotton-t-shirts-which-is-better-for-active-lifestyles",
-      "excerpt": "Dri-FIT or cotton — which T-shirt wins for your workouts? Compare moisture-wicking performance, durability, cost-per-wear, and climate fit in this data-driven guide.",
-      "author": "Ryan Mitchell",
-      "date": "2026-06-12",
-      "category": "Category Object",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/91da4a37036f65f6c9c635bb28932d67.webp",
-      "tags": [
-        {
-          "slug": "athletic-fabric",
-          "name": "Athletic Fabric"
-        },
-        {
-          "slug": "dri-fit",
-          "name": "Dri-FIT"
-        },
-        {
-          "slug": "dri-fit-2",
-          "name": "Dri-FIT"
-        },
-        {
-          "slug": "workout-fabric",
-          "name": "Workout Fabric"
-        },
-        {
-          "slug": "dry-fit",
-          "name": "Dry Fit"
-        },
-        {
-          "slug": "perf-tshirt",
-          "name": "Performance Tee"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "category-object",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 28,
       "featured": false
     }
   ]

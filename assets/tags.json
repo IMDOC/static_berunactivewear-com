@@ -3297,6 +3297,72 @@
         "gymshark lifting leggings",
         "gymshark performance leggings"
       ]
+    },
+    {
+      "slug": "dri-fit-3",
+      "name": "Dri-Fit",
+      "description": "Articles and reviews about Nike's Dri-Fit fabric technology and breathable sportswear performance.",
+      "aliases": [
+        "nike dri fit breathe run tshirt review",
+        "nike dri fit",
+        "dri fit shirt",
+        "dri fit tshirt",
+        "nike dri-fit",
+        "dri-fit fabric",
+        "nike dri-fit breathe run t-shirt review"
+      ]
+    },
+    {
+      "slug": "dri-fit-4",
+      "name": "Dri-Fit",
+      "description": "Dri-Fit technology in running shirts offers moisture-wicking fabric designed for breathability and comfort during intense workouts.",
+      "aliases": [
+        "nike dri-fit running shirt 2026",
+        "dri fit running shirt",
+        "dri-fit shirt",
+        "nike dri-fit shirt",
+        "dri-fit running top",
+        "nike dri-fit tee"
+      ]
+    },
+    {
+      "slug": "breathable-run",
+      "name": "Breathable Run",
+      "description": "Articles and reviews focusing on breathable running shirts that enhance comfort and performance during workouts and runs.",
+      "aliases": [
+        "best breathable running t-shirt",
+        "breathable running shirt",
+        "running breathable tee",
+        "breathable sports shirt",
+        "breathable workout shirt",
+        "breathable running top"
+      ]
+    },
+    {
+      "slug": "nike-review",
+      "name": "Nike Review",
+      "description": "Comprehensive reviews and insights on Nike running apparel, focusing on features, benefits, and overall value for activewear enthusiasts.",
+      "aliases": [
+        "nike running apparel review",
+        "nike dri-fit review",
+        "nike running gear review",
+        "nike apparel feedback",
+        "nike running clothes review"
+      ]
+    },
+    {
+      "slug": "dri-fit-5",
+      "name": "Dri-FIT",
+      "description": "Articles covering Nike's Dri-FIT technology, moisture-wicking running shirts, and breathable workout apparel reviews and features.",
+      "aliases": [
+        "moisture wicking running shirt",
+        "dri fit running shirt",
+        "nike dri fit shirt",
+        "dri fit shirt",
+        "moisture wicking shirt",
+        "running dri fit",
+        "moisture-wicking running shirt"
+      ]
     }
   ]
 }
