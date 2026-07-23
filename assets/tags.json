@@ -3363,6 +3363,95 @@
         "running dri fit",
         "moisture-wicking running shirt"
       ]
+    },
+    {
+      "slug": "lululemon-wunder",
+      "name": "Lululemon & Wunder",
+      "description": "Comparison between Lululemon Align and Wunder Train leggings focusing on comfort, performance, and training style suitability.",
+      "aliases": [
+        "lululemon align vs wunder train",
+        "lululemon align leggings",
+        "wunder train leggings",
+        "lululemon vs wunder",
+        "align vs wunder train",
+        "lululemon wonder leggings comparison"
+      ]
+    },
+    {
+      "slug": "align-wunder",
+      "name": "Align vs Wunder",
+      "description": "A comparison of Lululemon Align and Wunder Train leggings, highlighting features and fit for varied training styles.",
+      "aliases": [
+        "align leggings vs wunder train leggings",
+        "lululemon align vs wunder leggings",
+        "align vs wunder leggings",
+        "align leggings comparison",
+        "wunder train leggings review"
+      ]
+    },
+    {
+      "slug": "lululemon-leggings",
+      "name": "Lululemon Leggings",
+      "description": "Insights and comparisons of the best Lululemon leggings for various training styles and performance needs.",
+      "aliases": [
+        "best lululemon leggings for training",
+        "lululemon align leggings",
+        "wunder train leggings",
+        "lululemon training leggings",
+        "lululemon workout leggings",
+        "lululemon leggings comparison"
+      ]
+    },
+    {
+      "slug": "align-leggings",
+      "name": "Align Leggings",
+      "description": "Detailed reviews and comparisons of Lululemon Align leggings, focusing on comfort, fit, and performance for various training styles.",
+      "aliases": [
+        "lululemon align leggings review",
+        "align leggings review",
+        "lululemon align review",
+        "align leggings",
+        "lululemon align pants",
+        "align workout leggings"
+      ]
+    },
+    {
+      "slug": "wunder-train",
+      "name": "Wunder Train",
+      "description": "Reviews and comparisons of Lululemon's Wunder Train leggings, focusing on performance across various training styles and activities.",
+      "aliases": [
+        "lululemon wunder train review",
+        "wunder train leggings",
+        "lululemon wunder leggings",
+        "wunder train review",
+        "lululemon leggings review",
+        "wunder train pants"
+      ]
+    },
+    {
+      "slug": "align-vs-wunder",
+      "name": "Align vs Wunder",
+      "description": "A detailed comparison of the Lululemon Align and Wunder Train leggings focusing on different training styles and performance.",
+      "aliases": [
+        "align vs wunder train comparison",
+        "lululemon align vs wunder train",
+        "align vs wunder leggings",
+        "align leggings vs wunder train",
+        "compare align and wunder train"
+      ]
+    },
+    {
+      "slug": "training-leggings",
+      "name": "Training Leggings",
+      "description": "Insights and comparisons on leggings designed specifically for yoga and HIIT training styles with performance and comfort in focus.",
+      "aliases": [
+        "best leggings for yoga vs hiit",
+        "yoga vs hiit leggings",
+        "leggings for yoga and hiit",
+        "training leggings comparison",
+        "leggings for different training",
+        "hiit leggings vs yoga leggings"
+      ]
     }
   ]
 }

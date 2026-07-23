@@ -2,6 +2,40 @@
   "pageNumber": 2,
   "blogs": [
     {
+      "title": "7 Things to Look for in a Sports Apparel Wholesaler",
+      "slug": "7-best-things-to-look-for-in-a-sports-apparel-wholesaler",
+      "url": "/7-best-things-to-look-for-in-a-sports-apparel-wholesaler",
+      "excerpt": "Avoid costly sourcing mistakes. Learn the 7 key things to evaluate in a sports apparel wholesaler — from fabric tech and MOQ to lead times and QC systems.",
+      "author": "Ryan Mitchell",
+      "date": "2026-06-12",
+      "category": "Category Object",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/7f2f5eb0-f53f-488d-ad9a-72ed19f9f29b.png",
+      "tags": [
+        {
+          "slug": "wholesale-oem",
+          "name": "Wholesale OEM"
+        },
+        {
+          "slug": "sports-supplier",
+          "name": "Sports Supplier"
+        },
+        {
+          "slug": "gym-wholesale-2",
+          "name": "Gym Wholesale"
+        },
+        {
+          "slug": "private-label-2",
+          "name": "Private Label"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "category-object",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 29,
+      "featured": false
+    },
+    {
       "title": "Dri-FIT vs Cotton T-Shirts: Best Fabric for Active Lifestyles",
       "slug": "dri-fit-vs-cotton-t-shirts-which-is-better-for-active-lifestyles",
       "url": "/dri-fit-vs-cotton-t-shirts-which-is-better-for-active-lifestyles",
@@ -769,48 +803,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 10,
-      "featured": false
-    },
-    {
-      "title": "3 Sports Bra Summer Looks for Stylish Women in 2026",
-      "slug": "3-sports-bra-inspired-summer-looks-for-all-stylish-women-in-2026",
-      "url": "/3-sports-bra-inspired-summer-looks-for-all-stylish-women-in-2026",
-      "excerpt": "Discover 3 sports bra-inspired summer outfits for 2026 — from city blazer looks to beach cover-ups. Real formulas for intentional, stylish athleisure.",
-      "author": "Ryan Mitchell",
-      "date": "2026-06-04",
-      "category": "Category Object",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/b71b0c471ee56e7ad389c49ccfcb0738.webp",
-      "tags": [
-        {
-          "slug": "custom-bra",
-          "name": "Custom Bra"
-        },
-        {
-          "slug": "sports-bra-style",
-          "name": "Sports Bra Style"
-        },
-        {
-          "slug": "summer-looks",
-          "name": "Summer Looks"
-        },
-        {
-          "slug": "athleisure",
-          "name": "Athleisure"
-        },
-        {
-          "slug": "sports-bra-pants",
-          "name": "Sports Bra + Pants"
-        },
-        {
-          "slug": "sports-bra-cardigan",
-          "name": "Bra & Cardigan"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "category-object",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 9,
       "featured": false
     }
   ]

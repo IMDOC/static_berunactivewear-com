@@ -40,7 +40,7 @@
       "categorySlug": "fabric-technology",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
-      "id": 48,
+      "id": 49,
       "featured": true
     },
     {
@@ -68,6 +68,48 @@
         {
           "slug": "gymshark-leggings-2",
           "name": "Gymshark Leggings"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "brand-style-reviews",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 48,
+      "featured": false
+    },
+    {
+      "title": "Lululemon Align vs Wunder Train Leggings: Which Is Better?",
+      "slug": "lululemon-align-vs-wunder-train-leggings-which-is-better-for-different-training",
+      "url": "/lululemon-align-vs-wunder-train-leggings-which-is-better-for-different-training",
+      "excerpt": "Align or Wunder Train? Compare Lululemon's buttery-soft Nulu leggings vs Everlux performance tights to find the best fit for your training style.",
+      "author": "Ryan Mitchell",
+      "date": "2026-07-09",
+      "category": "Brand Style Reviews",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/4ac9ee4c-064e-45ef-a7e5-2ab38d1d75d8.png",
+      "tags": [
+        {
+          "slug": "training-leggings",
+          "name": "Training Leggings"
+        },
+        {
+          "slug": "align-vs-wunder",
+          "name": "Align vs Wunder"
+        },
+        {
+          "slug": "align-wunder",
+          "name": "Align vs Wunder"
+        },
+        {
+          "slug": "lululemon-leggings",
+          "name": "Lululemon Leggings"
+        },
+        {
+          "slug": "align-leggings",
+          "name": "Align Leggings"
+        },
+        {
+          "slug": "wunder-train",
+          "name": "Wunder Train"
         }
       ],
       "readTime": "7 min read",
@@ -753,40 +795,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 30,
-      "featured": false
-    },
-    {
-      "title": "7 Things to Look for in a Sports Apparel Wholesaler",
-      "slug": "7-best-things-to-look-for-in-a-sports-apparel-wholesaler",
-      "url": "/7-best-things-to-look-for-in-a-sports-apparel-wholesaler",
-      "excerpt": "Avoid costly sourcing mistakes. Learn the 7 key things to evaluate in a sports apparel wholesaler — from fabric tech and MOQ to lead times and QC systems.",
-      "author": "Ryan Mitchell",
-      "date": "2026-06-12",
-      "category": "Category Object",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/7f2f5eb0-f53f-488d-ad9a-72ed19f9f29b.png",
-      "tags": [
-        {
-          "slug": "wholesale-oem",
-          "name": "Wholesale OEM"
-        },
-        {
-          "slug": "sports-supplier",
-          "name": "Sports Supplier"
-        },
-        {
-          "slug": "gym-wholesale-2",
-          "name": "Gym Wholesale"
-        },
-        {
-          "slug": "private-label-2",
-          "name": "Private Label"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "category-object",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 29,
       "featured": false
     }
   ]
