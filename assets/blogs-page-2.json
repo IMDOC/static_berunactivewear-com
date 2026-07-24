@@ -2,6 +2,44 @@
   "pageNumber": 2,
   "blogs": [
     {
+      "title": "4 Reasons Performance Fabrics Matter in Activewear",
+      "slug": "4-reasons-performance-fabrics-matter-in-activewear",
+      "url": "/4-reasons-performance-fabrics-matter-in-activewear",
+      "excerpt": "Discover why performance fabrics outperform cotton in activewear. From moisture wicking to stretch recovery, here's what to look for in your next workout kit.",
+      "author": "Ryan Mitchell",
+      "date": "2026-06-12",
+      "category": "Category Object",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/a9acbf96-b5ef-486a-9542-ad7009b17b81.png",
+      "tags": [
+        {
+          "slug": "perf-fabric-2",
+          "name": "Perf Fabric"
+        },
+        {
+          "slug": "perf-fabrics",
+          "name": "Perf Fabrics"
+        },
+        {
+          "slug": "dri-fit-2",
+          "name": "Dri-FIT"
+        },
+        {
+          "slug": "breathable-fabric",
+          "name": "Breathable Fabric"
+        },
+        {
+          "slug": "workout-fabric",
+          "name": "Workout Fabric"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "category-object",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 30,
+      "featured": false
+    },
+    {
       "title": "7 Things to Look for in a Sports Apparel Wholesaler",
       "slug": "7-best-things-to-look-for-in-a-sports-apparel-wholesaler",
       "url": "/7-best-things-to-look-for-in-a-sports-apparel-wholesaler",
@@ -761,48 +799,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 11,
-      "featured": false
-    },
-    {
-      "title": "Top 9 Yoga Wear Suppliers in China: Bulk Buying Guide",
-      "slug": "top-9-yoga-wear-suppliers-in-china-a-bulk-buying-guide-for-brands",
-      "url": "/top-9-yoga-wear-suppliers-in-china-a-bulk-buying-guide-for-brands",
-      "excerpt": "Discover the top 9 yoga wear manufacturers in China with real MOQs, lead times, and honest pros & cons — the bulk buying guide every brand founder needs.",
-      "author": "Ryan Mitchell",
-      "date": "2026-06-05",
-      "category": "Category Object",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/c17c56ae-a892-4ed9-b1d5-95a439c1fee9.png",
-      "tags": [
-        {
-          "slug": "china-supplier",
-          "name": "China Supplier"
-        },
-        {
-          "slug": "yoga-oem",
-          "name": "Yoga OEM"
-        },
-        {
-          "slug": "yoga-oem-2",
-          "name": "Yoga OEM"
-        },
-        {
-          "slug": "yoga-factory",
-          "name": "Yoga Factory"
-        },
-        {
-          "slug": "yoga-oem-cn",
-          "name": "Yoga OEM CN"
-        },
-        {
-          "slug": "yoga-moq",
-          "name": "Yoga MOQ"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "category-object",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 10,
       "featured": false
     }
   ]

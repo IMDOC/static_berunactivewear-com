@@ -1,5 +1,5 @@
 {
-  "totalBlogs": 49,
+  "totalBlogs": 50,
   "totalPages": 3,
   "postsPerPage": 20,
   "categories": [
@@ -41,7 +41,7 @@
     {
       "name": "Brand Style Reviews",
       "slug": "brand-style-reviews",
-      "count": 3
+      "count": 4
     }
   ],
   "latestUpdate": "2026-07-09"
