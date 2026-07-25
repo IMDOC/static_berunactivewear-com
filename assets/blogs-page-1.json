@@ -2,6 +2,44 @@
   "pageNumber": 1,
   "blogs": [
     {
+      "title": "Adidas AEROREADY vs HEAT.RDY: Which Technology Is Better?",
+      "slug": "adidas-aeroready-vs-heat-rdy-which-performance-apparel-technology-is-better",
+      "url": "/adidas-aeroready-vs-heat-rdy-which-performance-apparel-technology-is-better",
+      "excerpt": "AEROREADY vs HEAT.RDY — find out which Adidas performance fabric technology actually keeps you cooler, fits better, and is worth the price.",
+      "author": "Ryan Mitchell",
+      "date": "2026-07-09",
+      "category": "Brand Style Reviews",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/11e7130a49c12637cee6fe53513d0185.webp",
+      "tags": [
+        {
+          "slug": "aeroready-3",
+          "name": "AEROREADY"
+        },
+        {
+          "slug": "aeroready-heat-rdy-2",
+          "name": "Aeroready vs Heat.Rdy"
+        },
+        {
+          "slug": "aeroready",
+          "name": "Aeroready"
+        },
+        {
+          "slug": "aeroready-2",
+          "name": "Aeroready"
+        },
+        {
+          "slug": "heat-rdy",
+          "name": "Heat.RDY"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "brand-style-reviews",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 51,
+      "featured": true
+    },
+    {
       "title": "Best Fabrics For Compression Wear: What Delivers Support?",
       "slug": "best-fabrics-for-compression-wear-what-delivers-the-right-support",
       "url": "/best-fabrics-for-compression-wear-what-delivers-the-right-support",
@@ -41,7 +79,7 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 50,
-      "featured": true
+      "featured": false
     },
     {
       "title": "Gymshark Vital vs Adapt Leggings: Which Performs Better?",
@@ -761,40 +799,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 32,
-      "featured": false
-    },
-    {
-      "title": "Top 12 Custom Athletic Clothing Manufacturers in the USA",
-      "slug": "top-12-custom-athletic-clothing-manufacturers-in-usa",
-      "url": "/top-12-custom-athletic-clothing-manufacturers-in-usa",
-      "excerpt": "Discover the top 12 custom athletic clothing manufacturers in the USA — ranked by MOQ, quality, and turnaround. Find the right supplier for your fitness brand.",
-      "author": "Ryan Mitchell",
-      "date": "2026-07-03",
-      "category": "Manufacturing",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/0af4b867-5e64-4907-8437-ab0340615bb3.png",
-      "tags": [
-        {
-          "slug": "cut-sew",
-          "name": "Cut & Sew"
-        },
-        {
-          "slug": "usa-oem",
-          "name": "USA OEM"
-        },
-        {
-          "slug": "custom-gymwear",
-          "name": "Custom Gymwear"
-        },
-        {
-          "slug": "low-moq-2",
-          "name": "Low MOQ"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "manufacturing",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 31,
       "featured": false
     }
   ]

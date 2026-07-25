@@ -3515,6 +3515,85 @@
         "vuori training shorts",
         "vuori casual shorts"
       ]
+    },
+    {
+      "slug": "aeroready-heat-rdy",
+      "name": "Aeroready vs Heat.Rdy",
+      "description": "Comparison of Adidas Aeroready and Heat.Rdy performance apparel technologies, highlighting features and benefits for activewear.",
+      "aliases": [
+        "adidas aeroready vs heat rdy",
+        "aeroready vs heatrdy",
+        "adidas aeroready heatrdy comparison",
+        "heat rdy vs aeroready",
+        "aeroready technology",
+        "heat rdy technology",
+        "adidas aeroready vs heat.rdy"
+      ]
+    },
+    {
+      "slug": "aeroready-heat-rdy-2",
+      "name": "Aeroready vs Heat.Rdy",
+      "description": "Comparison of Adidas Aeroready and Heat.Rdy performance apparel technologies focusing on moisture management and breathability benefits.",
+      "aliases": [
+        "aeroready vs heat.rdy comparison",
+        "aeroready and heat.rdy",
+        "aeroready heatrdy",
+        "adidas aeroready vs heat.rdy",
+        "heat.rdy vs aeroready",
+        "heat rdy vs aeroready"
+      ]
+    },
+    {
+      "slug": "aeroready",
+      "name": "Aeroready",
+      "description": "Articles about Adidas Aeroready performance fabric technology and its comparison with other activewear materials.",
+      "aliases": [
+        "best adidas performance fabric",
+        "adidas aeroready",
+        "aeroready fabric",
+        "adidas heat.rdy",
+        "heat rdy fabric",
+        "aeroready vs heat.rdy"
+      ]
+    },
+    {
+      "slug": "aeroready-2",
+      "name": "Aeroready",
+      "description": "Aeroready is a moisture-wicking activewear technology designed to keep you dry and comfortable during intense workouts and daily activities.",
+      "aliases": [
+        "moisture-wicking activewear technology",
+        "aeroready technology",
+        "aeroready activewear",
+        "moisture wicking tech",
+        "moisture control activewear",
+        "performance moisture wicking"
+      ]
+    },
+    {
+      "slug": "heat-rdy",
+      "name": "Heat.RDY",
+      "description": "Comprehensive reviews and comparisons of Adidas Heat.RDY performance apparel technology for effective moisture management and cooling.",
+      "aliases": [
+        "adidas heat.rdy review",
+        "heat rdy",
+        "heat.rdy technology",
+        "adidas heat rdy",
+        "heat.rdy apparel",
+        "heat rdy fabric"
+      ]
+    },
+    {
+      "slug": "aeroready-3",
+      "name": "AEROREADY",
+      "description": "Adidas AEROREADY is a moisture-wicking performance fabric technology designed to keep athletes dry and comfortable during workouts.",
+      "aliases": [
+        "adidas aeroready review",
+        "aeroready fabric",
+        "aeroready technology",
+        "adidas aeroready tech",
+        "aeroready moisture wicking",
+        "aeroready performance apparel"
+      ]
     }
   ]
 }
