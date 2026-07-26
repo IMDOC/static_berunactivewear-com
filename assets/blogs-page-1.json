@@ -36,7 +36,7 @@
       "categorySlug": "brand-style-reviews",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
-      "id": 51,
+      "id": 52,
       "featured": true
     },
     {
@@ -78,7 +78,7 @@
       "categorySlug": "fabric-technology",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
-      "id": 50,
+      "id": 51,
       "featured": false
     },
     {
@@ -112,7 +112,7 @@
       "categorySlug": "brand-style-reviews",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
-      "id": 49,
+      "id": 50,
       "featured": false
     },
     {
@@ -154,7 +154,7 @@
       "categorySlug": "brand-style-reviews",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
-      "id": 48,
+      "id": 49,
       "featured": false
     },
     {
@@ -186,6 +186,48 @@
         {
           "slug": "nike-review",
           "name": "Nike Review"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "brand-style-reviews",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 48,
+      "featured": false
+    },
+    {
+      "title": "UA HeatGear vs ColdGear: Which Wins in Your Climate?",
+      "slug": "under-armour-heatgear-vs-coldgear-which-collection-performs-better-in-different",
+      "url": "/under-armour-heatgear-vs-coldgear-which-collection-performs-better-in-different",
+      "excerpt": "HeatGear or ColdGear? Compare Under Armour's fabric tech, sport-specific picks, and pricing to choose the right base layer for any climate.",
+      "author": "Ryan Mitchell",
+      "date": "2026-07-09",
+      "category": "Brand Style Reviews",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/e66ebe504a1986af14781ae5e1bd1e61.webp",
+      "tags": [
+        {
+          "slug": "ua-base-layer",
+          "name": "UA Baselayer"
+        },
+        {
+          "slug": "heatgear-coldgear",
+          "name": "HeatGear & ColdGear"
+        },
+        {
+          "slug": "heatgear-coldgear-2",
+          "name": "HeatGear & ColdGear"
+        },
+        {
+          "slug": "ua-baselayer",
+          "name": "UA Base Layer"
+        },
+        {
+          "slug": "heatgear",
+          "name": "HeatGear"
+        },
+        {
+          "slug": "coldgear",
+          "name": "ColdGear"
         }
       ],
       "readTime": "7 min read",
@@ -761,44 +803,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 33,
-      "featured": false
-    },
-    {
-      "title": "Top 10 Fitness Clothing Manufacturers in Italy for Luxury Brands",
-      "slug": "top-10-fitness-clothing-manufacturers-in-italy-for-luxury-brands",
-      "url": "/top-10-fitness-clothing-manufacturers-in-italy-for-luxury-brands",
-      "excerpt": "Discover the top Italian fitness clothing manufacturers for luxury activewear brands. Compare heritage ateliers, seamless specialists, and sustainable producers.",
-      "author": "Ryan Mitchell",
-      "date": "2026-07-03",
-      "category": "Manufacturing",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/aa782731-4c57-4baa-8015-179b60d2b934.png",
-      "tags": [
-        {
-          "slug": "italy-oem-luxury",
-          "name": "Italy OEM Luxury"
-        },
-        {
-          "slug": "italy-oem",
-          "name": "Italy OEM"
-        },
-        {
-          "slug": "luxury-italy",
-          "name": "Luxury Italy"
-        },
-        {
-          "slug": "italy-oem-2",
-          "name": "Italy OEM"
-        },
-        {
-          "slug": "italy-oem-premium",
-          "name": "Italy Premium"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "manufacturing",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 32,
       "featured": false
     }
   ]

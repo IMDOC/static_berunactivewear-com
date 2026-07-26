@@ -3594,6 +3594,82 @@
         "aeroready moisture wicking",
         "aeroready performance apparel"
       ]
+    },
+    {
+      "slug": "heatgear-coldgear",
+      "name": "HeatGear & ColdGear",
+      "description": "Comparing Under Armour's HeatGear and ColdGear lines for optimal performance in varying weather conditions.",
+      "aliases": [
+        "under armour heatgear vs coldgear",
+        "heatgear vs coldgear",
+        "ua performance gear",
+        "under armour baselayers",
+        "cold weather athletic wear",
+        "warm weather athletic wear"
+      ]
+    },
+    {
+      "slug": "heatgear-coldgear-2",
+      "name": "HeatGear & ColdGear",
+      "description": "Comparing Under Armour's HeatGear and ColdGear collections for optimal performance in varied temperatures and conditions.",
+      "aliases": [
+        "heatgear vs coldgear",
+        "under armour heatgear",
+        "under armour coldgear",
+        "performance wear temperature",
+        "cold gear vs heat gear",
+        "heatgear vs coldgear comparison"
+      ]
+    },
+    {
+      "slug": "ua-baselayer",
+      "name": "UA Base Layer",
+      "description": "Explore Under Armour's HeatGear and ColdGear base layers for optimal performance in varying temperatures.",
+      "aliases": [
+        "ua base layer",
+        "under armour base layer",
+        "heatgear base layer",
+        "coldgear base layer",
+        "under armour performance base layer",
+        "best under armour base layer"
+      ]
+    },
+    {
+      "slug": "heatgear",
+      "name": "HeatGear",
+      "description": "Explore HeatGear apparel for optimal performance and comfort during intense workouts in hot and humid conditions.",
+      "aliases": [
+        "heatgear for hot weather training",
+        "heatgear hot weather",
+        "heatgear",
+        "hot weather training gear",
+        "under armour heatgear"
+      ]
+    },
+    {
+      "slug": "coldgear",
+      "name": "ColdGear",
+      "description": "Under Armour's ColdGear line offers essential warmth and insulation for cold-weather training and athletic activities.",
+      "aliases": [
+        "coldgear",
+        "cold weather training",
+        "cold weather athletic",
+        "coldgear clothing",
+        "thermal athletic gear",
+        "coldgear for cold weather training"
+      ]
+    },
+    {
+      "slug": "ua-base-layer",
+      "name": "UA Baselayer",
+      "description": "Under Armour Heatgear and Coldgear compression base layers for performance in various conditions.",
+      "aliases": [
+        "under armour compression base layer",
+        "ua heatgear",
+        "ua coldgear",
+        "under armour baselayer",
+        "ua compression"
+      ]
     }
   ]
 }

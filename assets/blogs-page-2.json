@@ -2,6 +2,44 @@
   "pageNumber": 2,
   "blogs": [
     {
+      "title": "Top 10 Fitness Clothing Manufacturers in Italy for Luxury Brands",
+      "slug": "top-10-fitness-clothing-manufacturers-in-italy-for-luxury-brands",
+      "url": "/top-10-fitness-clothing-manufacturers-in-italy-for-luxury-brands",
+      "excerpt": "Discover the top Italian fitness clothing manufacturers for luxury activewear brands. Compare heritage ateliers, seamless specialists, and sustainable producers.",
+      "author": "Ryan Mitchell",
+      "date": "2026-07-03",
+      "category": "Manufacturing",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/aa782731-4c57-4baa-8015-179b60d2b934.png",
+      "tags": [
+        {
+          "slug": "italy-oem-luxury",
+          "name": "Italy OEM Luxury"
+        },
+        {
+          "slug": "italy-oem",
+          "name": "Italy OEM"
+        },
+        {
+          "slug": "luxury-italy",
+          "name": "Luxury Italy"
+        },
+        {
+          "slug": "italy-oem-2",
+          "name": "Italy OEM"
+        },
+        {
+          "slug": "italy-oem-premium",
+          "name": "Italy Premium"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "manufacturing",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 32,
+      "featured": false
+    },
+    {
       "title": "Top 12 Custom Athletic Clothing Manufacturers in the USA",
       "slug": "top-12-custom-athletic-clothing-manufacturers-in-usa",
       "url": "/top-12-custom-athletic-clothing-manufacturers-in-usa",
@@ -761,40 +799,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 13,
-      "featured": false
-    },
-    {
-      "title": "Top Wholesale Yoga Clothing Pieces for Fall",
-      "slug": "the-topmost-wholesale-yoga-clothing-pieces-for-the-ultimate-yoga-this-fall",
-      "url": "/the-topmost-wholesale-yoga-clothing-pieces-for-the-ultimate-yoga-this-fall",
-      "excerpt": "Discover the best wholesale yoga clothing categories for fall — thermal leggings, layering tops, coordinated sets & more. Source smarter for Q4 with this buyer's guide.",
-      "author": "Ryan Mitchell",
-      "date": "2026-06-05",
-      "category": "Category Object",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/178d6b97-da78-41d5-93d3-6aabbbc153c5.png",
-      "tags": [
-        {
-          "slug": "fall-collection",
-          "name": "Fall Collection"
-        },
-        {
-          "slug": "yoga-bulk",
-          "name": "Yoga Bulk"
-        },
-        {
-          "slug": "fall-yoga",
-          "name": "Fall Yoga"
-        },
-        {
-          "slug": "thermal-yoga",
-          "name": "Thermal Yoga"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "category-object",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 12,
       "featured": false
     }
   ]
