@@ -36,8 +36,42 @@
       "categorySlug": "brand-style-reviews",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
-      "id": 52,
+      "id": 53,
       "featured": true
+    },
+    {
+      "title": "Alo Airlift vs Airbrush Leggings: What's the Difference?",
+      "slug": "alo-airlift-vs-airbrush-leggings-what-s-the-difference",
+      "url": "/alo-airlift-vs-airbrush-leggings-what-s-the-difference",
+      "excerpt": "Alo Airlift vs Airbrush leggings compared: fabric, compression, fit by body type, and best workouts for each — so you buy the right $118+ pair.",
+      "author": "Ryan Mitchell",
+      "date": "2026-07-09",
+      "category": "Brand Style Reviews",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/fa46540109f625de7079b3aee39704aa.webp",
+      "tags": [
+        {
+          "slug": "alo-leggings-2",
+          "name": "Alo Leggings"
+        },
+        {
+          "slug": "alo-airbrush",
+          "name": "Alo Airbrush"
+        },
+        {
+          "slug": "alo-airlift",
+          "name": "Alo Airlift"
+        },
+        {
+          "slug": "alo-leggings",
+          "name": "Alo Leggings"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "brand-style-reviews",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 52,
+      "featured": false
     },
     {
       "title": "Best Fabrics For Compression Wear: What Delivers Support?",
@@ -765,44 +799,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 34,
-      "featured": false
-    },
-    {
-      "title": "Sportswear Factory vs. Trading Company: Which Is Better?",
-      "slug": "sportswear-factory-vs-trading-company-which-is-better-for-for-your-brand",
-      "url": "/sportswear-factory-vs-trading-company-which-is-better-for-for-your-brand",
-      "excerpt": "Factory or trading company — which is right for your sportswear brand? Compare costs, quality control, MOQ, and scalability to make the right sourcing decision.",
-      "author": "Ryan Mitchell",
-      "date": "2026-07-03",
-      "category": "Manufacturing",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/a4929622671d854db6698d5417115066.webp",
-      "tags": [
-        {
-          "slug": "sportswear-factory",
-          "name": "Sportswear Factory"
-        },
-        {
-          "slug": "factory-vs-trading",
-          "name": "Factory vs Trading"
-        },
-        {
-          "slug": "pls-manufacturer",
-          "name": "PLS Manufacturer"
-        },
-        {
-          "slug": "supplier-compare",
-          "name": "Supplier Compare"
-        },
-        {
-          "slug": "sourcing-guide",
-          "name": "Sourcing Guide"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "manufacturing",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 33,
       "featured": false
     }
   ]

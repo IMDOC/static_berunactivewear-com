@@ -3670,6 +3670,69 @@
         "under armour baselayer",
         "ua compression"
       ]
+    },
+    {
+      "slug": "alolux",
+      "name": "Alo Lux",
+      "description": "Exploring the differences between Alo Yoga's Airlift and Airbrush legging fabrics for performance and comfort.",
+      "aliases": [
+        "alo airlift vs airbrush",
+        "alo yoga airlift",
+        "alo yoga airbrush",
+        "alo lux fabric",
+        "airlift vs airbrush"
+      ]
+    },
+    {
+      "slug": "alo-airlift",
+      "name": "Alo Airlift",
+      "description": "Exploring the Alo Airlift fabric technology, its performance benefits, and how it compares to other popular activewear materials.",
+      "aliases": [
+        "alo airlift leggings",
+        "alo airlift review",
+        "alo yoga leggings",
+        "alo airbrush vs airlift",
+        "alo airlift leggings review"
+      ]
+    },
+    {
+      "slug": "alo-airbrush",
+      "name": "Alo Airbrush",
+      "description": "Focuses on Alo Yoga's Airbrush legging line, including fit, fabric, and performance reviews.",
+      "aliases": [
+        "alo airbrush leggings",
+        "alo airbrush review",
+        "alo yoga airbrush",
+        "airbrush leggings",
+        "alo leggings",
+        "alo airlift vs airbrush",
+        "alo airbrush leggings review"
+      ]
+    },
+    {
+      "slug": "alo-leggings",
+      "name": "Alo Leggings",
+      "description": "Exploring the best Alo Yoga leggings for workouts, focusing on Airlift and Airbrush styles for peak performance.",
+      "aliases": [
+        "alo yoga leggings",
+        "best alo leggings",
+        "alo airlift leggings",
+        "alo airbrush leggings",
+        "alo workout leggings",
+        "best alo yoga leggings for workouts"
+      ]
+    },
+    {
+      "slug": "alo-leggings-2",
+      "name": "Alo Leggings",
+      "description": "Specialized content on Alo Yoga's popular Airlift and Airbrush leggings, focusing on performance and style differences.",
+      "aliases": [
+        "alo leggings comparison",
+        "alo airlift leggings",
+        "alo airbrush leggings",
+        "alo workout leggings",
+        "alo yoga leggings"
+      ]
     }
   ]
 }
