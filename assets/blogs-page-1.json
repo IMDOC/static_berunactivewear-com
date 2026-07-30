@@ -2,6 +2,78 @@
   "pageNumber": 1,
   "blogs": [
     {
+      "title": "How to Choose the Right Workout Clothes for Women",
+      "slug": "how-to-choose-the-right-workout-clothes-for-women",
+      "url": "/how-to-choose-the-right-workout-clothes-for-women",
+      "excerpt": "Stop guessing at the gym. Learn how to match fabric, fit, and sports bra support to your workout type with this step-by-step buying guide.",
+      "author": "Ryan Mitchell",
+      "date": "2026-07-29",
+      "category": "Category Object",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/e8ac1e09-f271-49e1-a48f-2f9d23a8cde3.png",
+      "tags": [
+        {
+          "slug": "minimalist-gym",
+          "name": "Minimalist Gym"
+        },
+        {
+          "slug": "womens-workout-2",
+          "name": "Women's Workout"
+        },
+        {
+          "slug": "workout-clothes",
+          "name": "Workout Clothes"
+        },
+        {
+          "slug": "bra-support",
+          "name": "Bra Support"
+        },
+        {
+          "slug": "workout-fabric-2",
+          "name": "Workout Fabric"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "category-object",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 56,
+      "featured": true
+    },
+    {
+      "title": "How to Pick the Right Swimwear for Your Body Shape",
+      "slug": "how-to-pick-the-right-swimwear-for-women-this-summer",
+      "url": "/how-to-pick-the-right-swimwear-for-women-this-summer",
+      "excerpt": "Find your body shape in seconds and discover the swimsuit cuts that flatter pear, apple, hourglass, and rectangle figures this summer.",
+      "author": "Ryan Mitchell",
+      "date": "2026-07-28",
+      "category": "Category Object",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/e6e93aad-64b1-430c-9904-c396f931fd79.png",
+      "tags": [],
+      "readTime": "7 min read",
+      "categorySlug": "category-object",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 55,
+      "featured": false
+    },
+    {
+      "title": "5 Quality Control Steps Every Activewear Brand Needs",
+      "slug": "5-key-quality-control-steps-every-activewear-brand-should-follow",
+      "url": "/5-key-quality-control-steps-every-activewear-brand-should-follow",
+      "excerpt": "Avoid costly returns and brand damage. See the 5 QC steps activewear brands must follow—from fabric testing to final AQL inspection before shipment.",
+      "author": "Ryan Mitchell",
+      "date": "2026-07-09",
+      "category": "Manufacturing",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/c30c840e-7a02-4055-abae-12936af65fec.png",
+      "tags": [],
+      "readTime": "7 min read",
+      "categorySlug": "manufacturing",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 54,
+      "featured": false
+    },
+    {
       "title": "Adidas AEROREADY vs HEAT.RDY: Which Technology Is Better?",
       "slug": "adidas-aeroready-vs-heat-rdy-which-performance-apparel-technology-is-better",
       "url": "/adidas-aeroready-vs-heat-rdy-which-performance-apparel-technology-is-better",
@@ -37,7 +109,7 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 53,
-      "featured": true
+      "featured": false
     },
     {
       "title": "Alo Airlift vs Airbrush Leggings: What's the Difference?",
@@ -693,112 +765,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 37,
-      "featured": false
-    },
-    {
-      "title": "Heat Transfer vs Screen Printing: Which Lasts Longer?",
-      "slug": "heat-transfer-vs-screen-printing-which-logo-printing-method-lasts-longer",
-      "url": "/heat-transfer-vs-screen-printing-which-logo-printing-method-lasts-longer",
-      "excerpt": "Heat transfer vs screen printing — find out which logo method survives more washes, resists cracking, and delivers better value for custom activewear.",
-      "author": "Ryan Mitchell",
-      "date": "2026-07-03",
-      "category": "Printing Techniques",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/f2364086-9ceb-4566-bd55-056533e2e1b1.png",
-      "tags": [
-        {
-          "slug": "heat-vs-screen",
-          "name": "Heat vs Screen"
-        },
-        {
-          "slug": "screen-durability",
-          "name": "Screen Durability"
-        },
-        {
-          "slug": "heat-transfer",
-          "name": "Heat Transfer"
-        },
-        {
-          "slug": "logo-printing",
-          "name": "Logo Printing"
-        },
-        {
-          "slug": "logo-printing-2",
-          "name": "Logo Printing"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "printing-techniques",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 36,
-      "featured": false
-    },
-    {
-      "title": "Cost to Start a Custom Activewear Brand in 2026",
-      "slug": "how-much-does-it-cost-to-start-a-custom-activewear-brand-in-2026-a-complete",
-      "url": "/how-much-does-it-cost-to-start-a-custom-activewear-brand-in-2026-a-complete",
-      "excerpt": "Get real 2026 numbers on launching a custom activewear brand — from sampling to logistics. Three budget tiers covered so you know exactly where to spend.",
-      "author": "Ryan Mitchell",
-      "date": "2026-07-03",
-      "category": "Sourcing Guides",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/9216a6e27961c42a3d47b66a08bc7f9c.webp",
-      "tags": [
-        {
-          "slug": "brand-cost",
-          "name": "Brand Cost"
-        },
-        {
-          "slug": "startup-costs",
-          "name": "Startup Costs"
-        },
-        {
-          "slug": "brand-budget",
-          "name": "Brand Budget"
-        },
-        {
-          "slug": "mfg-costs",
-          "name": "Mfg Costs"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "sourcing-guides",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 35,
-      "featured": false
-    },
-    {
-      "title": "Seamless vs Cut-and-Sew Activewear: Which Method Is Better?",
-      "slug": "seamless-vs-cut-and-sew-activewear-which-manufacturing-method-is-better",
-      "url": "/seamless-vs-cut-and-sew-activewear-which-manufacturing-method-is-better",
-      "excerpt": "Seamless vs cut-and-sew activewear — compare performance, cost, MOQ, and design flexibility to choose the right manufacturing method for your brand.",
-      "author": "Ryan Mitchell",
-      "date": "2026-07-03",
-      "category": "Printing Techniques",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/9a2e81ebc61036f49d99635a8ae3a747.webp",
-      "tags": [
-        {
-          "slug": "seamless-moq",
-          "name": "Seamless MOQ"
-        },
-        {
-          "slug": "seamless-vs-cutsew",
-          "name": "Seamless vs Cut-Sew"
-        },
-        {
-          "slug": "cut-sew-2",
-          "name": "Cut & Sew"
-        },
-        {
-          "slug": "manufacturing",
-          "name": "Manufacturing"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "printing-techniques",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 34,
       "featured": false
     }
   ]

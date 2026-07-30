@@ -3733,6 +3733,68 @@
         "alo workout leggings",
         "alo yoga leggings"
       ]
+    },
+    {
+      "slug": "womens-workout-2",
+      "name": "Women's Workout",
+      "description": "Discover the best workout clothes for women, including activewear, gym essentials, and fitness apparel tailored for female athletes.",
+      "aliases": [
+        "workout clothes for women",
+        "womens workout clothes",
+        "female activewear",
+        "gym clothes for women",
+        "womens fitness apparel"
+      ]
+    },
+    {
+      "slug": "workout-clothes",
+      "name": "Workout Clothes",
+      "description": "Guidance on selecting appropriate activewear, focusing on fabric, fit, and intended exercise for optimal performance and comfort.",
+      "aliases": [
+        "how to choose workout clothes",
+        "workout clothing",
+        "activewear selection",
+        "gym clothes",
+        "fitness apparel",
+        "choosing workout gear"
+      ]
+    },
+    {
+      "slug": "bra-support",
+      "name": "Bra Support",
+      "description": "Guidance on selecting sports bras based on support levels for different workout intensities and activities.",
+      "aliases": [
+        "sports bra support levels",
+        "workout bra support",
+        "support levels bra",
+        "high impact bra",
+        "medium impact bra"
+      ]
+    },
+    {
+      "slug": "workout-fabric-2",
+      "name": "Workout Fabric",
+      "description": "Guide to selecting the best performance fabrics for women's activewear and workout clothing.",
+      "aliases": [
+        "women's activewear fabric",
+        "workout clothes fabric",
+        "athletic fabric guide",
+        "performance fabric",
+        "activewear materials",
+        "women's activewear fabric guide"
+      ]
+    },
+    {
+      "slug": "minimalist-gym",
+      "name": "Minimalist Gym",
+      "description": "Creating a streamlined and functional workout wardrobe with essential, versatile pieces.",
+      "aliases": [
+        "minimalist workout wardrobe",
+        "minimalist gym wear",
+        "simple workout clothes",
+        "capsule workout wardrobe",
+        "essential gym clothes"
+      ]
     }
   ]
 }

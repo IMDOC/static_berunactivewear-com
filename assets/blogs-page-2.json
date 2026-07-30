@@ -2,6 +2,112 @@
   "pageNumber": 2,
   "blogs": [
     {
+      "title": "Heat Transfer vs Screen Printing: Which Lasts Longer?",
+      "slug": "heat-transfer-vs-screen-printing-which-logo-printing-method-lasts-longer",
+      "url": "/heat-transfer-vs-screen-printing-which-logo-printing-method-lasts-longer",
+      "excerpt": "Heat transfer vs screen printing — find out which logo method survives more washes, resists cracking, and delivers better value for custom activewear.",
+      "author": "Ryan Mitchell",
+      "date": "2026-07-03",
+      "category": "Printing Techniques",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/f2364086-9ceb-4566-bd55-056533e2e1b1.png",
+      "tags": [
+        {
+          "slug": "heat-vs-screen",
+          "name": "Heat vs Screen"
+        },
+        {
+          "slug": "screen-durability",
+          "name": "Screen Durability"
+        },
+        {
+          "slug": "heat-transfer",
+          "name": "Heat Transfer"
+        },
+        {
+          "slug": "logo-printing",
+          "name": "Logo Printing"
+        },
+        {
+          "slug": "logo-printing-2",
+          "name": "Logo Printing"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "printing-techniques",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 36,
+      "featured": false
+    },
+    {
+      "title": "Cost to Start a Custom Activewear Brand in 2026",
+      "slug": "how-much-does-it-cost-to-start-a-custom-activewear-brand-in-2026-a-complete",
+      "url": "/how-much-does-it-cost-to-start-a-custom-activewear-brand-in-2026-a-complete",
+      "excerpt": "Get real 2026 numbers on launching a custom activewear brand — from sampling to logistics. Three budget tiers covered so you know exactly where to spend.",
+      "author": "Ryan Mitchell",
+      "date": "2026-07-03",
+      "category": "Sourcing Guides",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/9216a6e27961c42a3d47b66a08bc7f9c.webp",
+      "tags": [
+        {
+          "slug": "brand-cost",
+          "name": "Brand Cost"
+        },
+        {
+          "slug": "startup-costs",
+          "name": "Startup Costs"
+        },
+        {
+          "slug": "brand-budget",
+          "name": "Brand Budget"
+        },
+        {
+          "slug": "mfg-costs",
+          "name": "Mfg Costs"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "sourcing-guides",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 35,
+      "featured": false
+    },
+    {
+      "title": "Seamless vs Cut-and-Sew Activewear: Which Method Is Better?",
+      "slug": "seamless-vs-cut-and-sew-activewear-which-manufacturing-method-is-better",
+      "url": "/seamless-vs-cut-and-sew-activewear-which-manufacturing-method-is-better",
+      "excerpt": "Seamless vs cut-and-sew activewear — compare performance, cost, MOQ, and design flexibility to choose the right manufacturing method for your brand.",
+      "author": "Ryan Mitchell",
+      "date": "2026-07-03",
+      "category": "Printing Techniques",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/9a2e81ebc61036f49d99635a8ae3a747.webp",
+      "tags": [
+        {
+          "slug": "seamless-moq",
+          "name": "Seamless MOQ"
+        },
+        {
+          "slug": "seamless-vs-cutsew",
+          "name": "Seamless vs Cut-Sew"
+        },
+        {
+          "slug": "cut-sew-2",
+          "name": "Cut & Sew"
+        },
+        {
+          "slug": "manufacturing",
+          "name": "Manufacturing"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "printing-techniques",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 34,
+      "featured": false
+    },
+    {
       "title": "Sportswear Factory vs. Trading Company: Which Is Better?",
       "slug": "sportswear-factory-vs-trading-company-which-is-better-for-for-your-brand",
       "url": "/sportswear-factory-vs-trading-company-which-is-better-for-for-your-brand",
@@ -669,132 +775,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 17,
-      "featured": false
-    },
-    {
-      "title": "Yoga Clothing Guide: Fabrics, Fit & Features for Beginners",
-      "slug": "yoga-clothing-guide-fabrics-fit-and-features-beginners-should-know",
-      "url": "/yoga-clothing-guide-fabrics-fit-and-features-beginners-should-know",
-      "excerpt": "Learn which yoga fabrics, fits, and features matter most. A beginner-friendly guide covering moisture-wicking materials, squat-proof construction, and compression vs relaxed leggings.",
-      "author": "Ryan Mitchell",
-      "date": "2026-06-12",
-      "category": "Category Object",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/14d639b0-4764-444e-b068-d60ea19ee155.png",
-      "tags": [
-        {
-          "slug": "yoga-fabrics-2",
-          "name": "Yoga Fabrics"
-        },
-        {
-          "slug": "yoga-guide",
-          "name": "Yoga Guide"
-        },
-        {
-          "slug": "moisture-yoga",
-          "name": "Moisture Yoga"
-        },
-        {
-          "slug": "squat-proof",
-          "name": "Squat-Proof"
-        },
-        {
-          "slug": "yoga-fit",
-          "name": "Yoga Fit"
-        },
-        {
-          "slug": "yoga-fabrics",
-          "name": "Yoga Fabrics"
-        },
-        {
-          "slug": "yoga-beginners",
-          "name": "Yoga Beginners"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "category-object",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 16,
-      "featured": false
-    },
-    {
-      "title": "3 Yoga Pants Pattern Trends You Need to Try in 2026",
-      "slug": "3-pattern-trends-forecasting-that-you-need-to-try-on-yoga-pants",
-      "url": "/3-pattern-trends-forecasting-that-you-need-to-try-on-yoga-pants",
-      "excerpt": "Discover 3 rising yoga pants pattern trends — geometric, botanical, and digital gradients — and learn how to source them before they peak.",
-      "author": "Ryan Mitchell",
-      "date": "2026-06-05",
-      "category": "Category Object",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/8461c062-30ab-49da-a591-b7346c4c12c6.png",
-      "tags": [
-        {
-          "slug": "yoga-prints",
-          "name": "Yoga Prints"
-        },
-        {
-          "slug": "yoga-patterns",
-          "name": "Yoga Patterns"
-        },
-        {
-          "slug": "geo-print",
-          "name": "Geo Print"
-        },
-        {
-          "slug": "botanical-print",
-          "name": "Botanical Print"
-        },
-        {
-          "slug": "digital-gradient",
-          "name": "Digital Gradient"
-        },
-        {
-          "slug": "print-trends",
-          "name": "Print Trends"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "category-object",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 15,
-      "featured": false
-    },
-    {
-      "title": "3 Things Not To Wear Running (And What To Wear Instead)",
-      "slug": "3-things-not-to-wear-when-running-and-their-replacements",
-      "url": "/3-things-not-to-wear-when-running-and-their-replacements",
-      "excerpt": "Avoid chafing, blisters, and soaked shirts. Discover the 3 biggest running clothing mistakes beginners make and the affordable performance replacements that fix them.",
-      "author": "Ryan Mitchell",
-      "date": "2026-06-05",
-      "category": "Category Object",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/dee38d1c-6aa7-46ac-bd31-2ce6086d2ba5.png",
-      "tags": [
-        {
-          "slug": "moisture-running",
-          "name": "Moisture Running"
-        },
-        {
-          "slug": "running-taboos",
-          "name": "Running Taboos"
-        },
-        {
-          "slug": "running-mistakes",
-          "name": "Running Mistakes"
-        },
-        {
-          "slug": "running-essentials",
-          "name": "Running Essentials"
-        },
-        {
-          "slug": "running-tips",
-          "name": "Running Tips"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "category-object",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 14,
       "featured": false
     }
   ]
