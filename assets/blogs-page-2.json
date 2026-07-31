@@ -2,6 +2,48 @@
   "pageNumber": 2,
   "blogs": [
     {
+      "title": "Flatlock vs Overlock Stitching for Compression Wear",
+      "slug": "flatlock-vs-overlock-stitching-which-seam-is-better-for-compression-wear",
+      "url": "/flatlock-vs-overlock-stitching-which-seam-is-better-for-compression-wear",
+      "excerpt": "Flatlock or overlock seams — which is better for compression wear? Compare chafing resistance, durability, stretch, and placement strategy in this full guide.",
+      "author": "Ryan Mitchell",
+      "date": "2026-07-03",
+      "category": "Printing Techniques",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/80ae0d23-819c-405f-bdf9-dc03e827fef6.png",
+      "tags": [
+        {
+          "slug": "stitching-guide",
+          "name": "Stitching Guide"
+        },
+        {
+          "slug": "flatlock-seam-2",
+          "name": "Flatlock Seam"
+        },
+        {
+          "slug": "overlock-stitch",
+          "name": "Overlock Stitch"
+        },
+        {
+          "slug": "compression-seams",
+          "name": "Compression Seams"
+        },
+        {
+          "slug": "compression-seam",
+          "name": "Compression Seam"
+        },
+        {
+          "slug": "flatlock-stitch",
+          "name": "Flatlock Stitch"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "printing-techniques",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 37,
+      "featured": false
+    },
+    {
       "title": "Heat Transfer vs Screen Printing: Which Lasts Longer?",
       "slug": "heat-transfer-vs-screen-printing-which-logo-printing-method-lasts-longer",
       "url": "/heat-transfer-vs-screen-printing-which-logo-printing-method-lasts-longer",
@@ -468,8 +510,8 @@
           "name": "Label vs Custom"
         },
         {
-          "slug": "private-label-2",
-          "name": "Private Label"
+          "slug": "gym-private-label-2",
+          "name": "Gym Private Label"
         },
         {
           "slug": "activewear-oem",
@@ -737,44 +779,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 18,
-      "featured": false
-    },
-    {
-      "title": "Why Fitness Apparel Is Growing Faster Than Ever in 2026",
-      "slug": "why-the-fitness-apparel-industry-is-growing-faster-than-ever-in-2026",
-      "url": "/why-the-fitness-apparel-industry-is-growing-faster-than-ever-in-2026",
-      "excerpt": "Discover what's driving the fitness apparel boom in 2026 — from athleisure expansion and performance fabrics to untapped market opportunities for brands.",
-      "author": "Ryan Mitchell",
-      "date": "2026-06-12",
-      "category": "Category Object",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/550cf4ec-334b-44c8-be5f-17929b138db7.png",
-      "tags": [
-        {
-          "slug": "fitness-market",
-          "name": "Fitness Market"
-        },
-        {
-          "slug": "fitness-2026",
-          "name": "Fitness 2026"
-        },
-        {
-          "slug": "athleisure-growth",
-          "name": "Athleisure Growth"
-        },
-        {
-          "slug": "market-trends",
-          "name": "Market Trends"
-        },
-        {
-          "slug": "perf-fabric",
-          "name": "Perf Fabric"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "category-object",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 17,
       "featured": false
     }
   ]

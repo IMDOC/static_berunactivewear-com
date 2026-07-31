@@ -2,6 +2,44 @@
   "pageNumber": 1,
   "blogs": [
     {
+      "title": "Choosing Best-Selling Custom Gym Shorts Designs",
+      "slug": "how-to-choose-best-selling-designs-for-custom-gym-shorts-collections",
+      "url": "/how-to-choose-best-selling-designs-for-custom-gym-shorts-collections",
+      "excerpt": "A data-driven checklist for picking best-selling custom gym shorts designs—fit, fabric, pockets, and color—before you commit to a full production run.",
+      "author": "Ryan Mitchell",
+      "date": "2026-07-29",
+      "category": "Category Object",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/025f3309-3eb9-4925-813c-84228ec138d4.png",
+      "tags": [
+        {
+          "slug": "color-strategy",
+          "name": "Color Strategy"
+        },
+        {
+          "slug": "custom-gym-shorts",
+          "name": "Custom Gym Shorts"
+        },
+        {
+          "slug": "gym-private-label-2",
+          "name": "Gym Private Label"
+        },
+        {
+          "slug": "gym-shorts-design",
+          "name": "Gym Shorts Design"
+        },
+        {
+          "slug": "gym-shorts-mfg",
+          "name": "Gym Shorts Manufacturer"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "category-object",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 57,
+      "featured": true
+    },
+    {
       "title": "How to Choose the Right Workout Clothes for Women",
       "slug": "how-to-choose-the-right-workout-clothes-for-women",
       "url": "/how-to-choose-the-right-workout-clothes-for-women",
@@ -37,7 +75,7 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 56,
-      "featured": true
+      "featured": false
     },
     {
       "title": "How to Pick the Right Swimwear for Your Body Shape",
@@ -723,48 +761,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 38,
-      "featured": false
-    },
-    {
-      "title": "Flatlock vs Overlock Stitching for Compression Wear",
-      "slug": "flatlock-vs-overlock-stitching-which-seam-is-better-for-compression-wear",
-      "url": "/flatlock-vs-overlock-stitching-which-seam-is-better-for-compression-wear",
-      "excerpt": "Flatlock or overlock seams — which is better for compression wear? Compare chafing resistance, durability, stretch, and placement strategy in this full guide.",
-      "author": "Ryan Mitchell",
-      "date": "2026-07-03",
-      "category": "Printing Techniques",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/80ae0d23-819c-405f-bdf9-dc03e827fef6.png",
-      "tags": [
-        {
-          "slug": "stitching-guide",
-          "name": "Stitching Guide"
-        },
-        {
-          "slug": "flatlock-seam-2",
-          "name": "Flatlock Seam"
-        },
-        {
-          "slug": "overlock-stitch",
-          "name": "Overlock Stitch"
-        },
-        {
-          "slug": "compression-seams",
-          "name": "Compression Seams"
-        },
-        {
-          "slug": "compression-seam",
-          "name": "Compression Seam"
-        },
-        {
-          "slug": "flatlock-stitch",
-          "name": "Flatlock Stitch"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "printing-techniques",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 37,
       "featured": false
     }
   ]
