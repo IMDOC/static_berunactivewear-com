@@ -3856,6 +3856,80 @@
         "design color strategy",
         "custom gym shorts colors"
       ]
+    },
+    {
+      "slug": "custom-yoga",
+      "name": "Custom Yoga",
+      "description": "Explore custom yoga clothing collections, including design, branding, and production for yoga apparel brands.",
+      "aliases": [
+        "custom yoga clothing collection",
+        "custom yoga apparel",
+        "yoga clothing customization",
+        "yoga apparel brand",
+        "private label yoga"
+      ]
+    },
+    {
+      "slug": "yoga-brand",
+      "name": "Yoga Brand",
+      "description": "Building and designing a successful custom yoga clothing collection for your brand.",
+      "aliases": [
+        "yoga clothing brand building",
+        "build yoga brand",
+        "custom yoga brand",
+        "yoga apparel brand",
+        "yoga collection brand"
+      ]
+    },
+    {
+      "slug": "custom-logo",
+      "name": "Custom Logo",
+      "description": "Articles on custom logo placement, branding, and design for your private label activewear and yoga apparel.",
+      "aliases": [
+        "custom logo yoga pants",
+        "logo printing",
+        "custom branding",
+        "private label logo",
+        "custom apparel logo"
+      ]
+    },
+    {
+      "slug": "yoga-oem-factory",
+      "name": "Yoga OEM Factory",
+      "description": "Connect with factories specializing in custom yoga clothing production for your activewear brand.",
+      "aliases": [
+        "oem yoga clothing factory",
+        "yoga apparel manufacturer",
+        "custom yoga clothing production",
+        "yoga brand factory",
+        "private label yoga wear"
+      ]
+    },
+    {
+      "slug": "sku-matrix",
+      "name": "SKU Matrix",
+      "description": "Managing SKU matrices for apparel brands, including yoga clothing collections and product variations.",
+      "aliases": [
+        "sku matrix apparel",
+        "sku matrix for brands",
+        "product catalog matrix",
+        "apparel sku management",
+        "sku matrix clothing",
+        "sku matrix for apparel brands"
+      ]
+    },
+    {
+      "slug": "moq-planning",
+      "name": "MOQ & Cash Flow",
+      "description": "Essential planning for Minimum Order Quantity (MOQ) and its impact on your business cash flow.",
+      "aliases": [
+        "moq and cash flow",
+        "moq planning",
+        "cash flow planning",
+        "minimum order quantity",
+        "moq cash flow",
+        "moq and cash flow planning"
+      ]
     }
   ]
 }

@@ -36,7 +36,7 @@
       "categorySlug": "category-object",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
-      "id": 57,
+      "id": 58,
       "featured": true
     },
     {
@@ -68,6 +68,48 @@
         {
           "slug": "workout-fabric-2",
           "name": "Workout Fabric"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "category-object",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 57,
+      "featured": false
+    },
+    {
+      "title": "How to Build a Custom Yoga Clothing Collection for Your Brand",
+      "slug": "what-type-of-custom-yoga-clothing-collection-is-suitable-for-building-a-brand",
+      "url": "/what-type-of-custom-yoga-clothing-collection-is-suitable-for-building-a-brand",
+      "excerpt": "Learn how to structure your first custom yoga clothing collection—hero, volume, support, and entry-price items—to build a strong, focused brand.",
+      "author": "Ryan Mitchell",
+      "date": "2026-07-29",
+      "category": "Category Object",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/9f6165b5f8a3e226dd792d3d1dc137bc.webp",
+      "tags": [
+        {
+          "slug": "moq-planning",
+          "name": "MOQ & Cash Flow"
+        },
+        {
+          "slug": "custom-yoga",
+          "name": "Custom Yoga"
+        },
+        {
+          "slug": "yoga-brand",
+          "name": "Yoga Brand"
+        },
+        {
+          "slug": "custom-logo",
+          "name": "Custom Logo"
+        },
+        {
+          "slug": "yoga-oem-factory",
+          "name": "Yoga OEM Factory"
+        },
+        {
+          "slug": "sku-matrix",
+          "name": "SKU Matrix"
         }
       ],
       "readTime": "7 min read",
@@ -719,48 +761,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 39,
-      "featured": false
-    },
-    {
-      "title": "Embroidery vs Heat Seal Uniform Branding: Pros, Cons & Best Uses",
-      "slug": "embroidery-vs-heat-seal-uniform-branding-pros-cons-best-uses",
-      "url": "/embroidery-vs-heat-seal-uniform-branding-pros-cons-best-uses",
-      "excerpt": "Embroidery or heat seal for your uniforms? Compare durability, cost, fabric fit, and best uses to choose the right branding method for your team.",
-      "author": "Ryan Mitchell",
-      "date": "2026-07-03",
-      "category": "Printing Techniques",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/761f6df9ed224a65366353159d52f682.webp",
-      "tags": [
-        {
-          "slug": "heat-seal-3",
-          "name": "Heat Seal"
-        },
-        {
-          "slug": "heat-seal",
-          "name": "Heat Seal"
-        },
-        {
-          "slug": "heat-seal-2",
-          "name": "Heat Seal"
-        },
-        {
-          "slug": "embroidery",
-          "name": "Embroidery"
-        },
-        {
-          "slug": "logo-method",
-          "name": "Logo Method"
-        },
-        {
-          "slug": "uniform-decoration",
-          "name": "Uniform Decoration"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "printing-techniques",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 38,
       "featured": false
     }
   ]
