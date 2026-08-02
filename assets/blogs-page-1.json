@@ -36,7 +36,7 @@
       "categorySlug": "category-object",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
-      "id": 58,
+      "id": 59,
       "featured": true
     },
     {
@@ -74,7 +74,7 @@
       "categorySlug": "category-object",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
-      "id": 57,
+      "id": 58,
       "featured": false
     },
     {
@@ -116,7 +116,7 @@
       "categorySlug": "category-object",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
-      "id": 56,
+      "id": 57,
       "featured": false
     },
     {
@@ -129,6 +129,44 @@
       "category": "Category Object",
       "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/e6e93aad-64b1-430c-9904-c396f931fd79.png",
       "tags": [],
+      "readTime": "7 min read",
+      "categorySlug": "category-object",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 56,
+      "featured": false
+    },
+    {
+      "title": "Top 3 High-Support Sports Bra Designs Compared",
+      "slug": "top-3-high-support-sports-bra-designs-your-collection-needs",
+      "url": "/top-3-high-support-sports-bra-designs-your-collection-needs",
+      "excerpt": "We tested 3 high-support sports bra designs—encapsulation, compression, and hybrid—across running, HIIT, and CrossFit to find what actually stops the bounce.",
+      "author": "Ryan Mitchell",
+      "date": "2026-07-28",
+      "category": "Category Object",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/29bb9442-cdea-4073-a714-c011d61335aa.png",
+      "tags": [
+        {
+          "slug": "molded-cup",
+          "name": "Molded Cup"
+        },
+        {
+          "slug": "high-impact-bra",
+          "name": "High Impact Bra"
+        },
+        {
+          "slug": "encapsulation-bra",
+          "name": "Encapsulation Bra"
+        },
+        {
+          "slug": "compression-bra",
+          "name": "Compression Bra"
+        },
+        {
+          "slug": "custom-bra-mfg",
+          "name": "Custom Bra Mfg"
+        }
+      ],
       "readTime": "7 min read",
       "categorySlug": "category-object",
       "authorTitle": "Head of Production & Sourcing",
@@ -723,44 +761,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 40,
-      "featured": false
-    },
-    {
-      "title": "China vs Vietnam Sportswear Manufacturers: Pros, Cons & How to Choose",
-      "slug": "china-vs-vietnam-sportswear-manufacturers-pros-cons-how-to-choose",
-      "url": "/china-vs-vietnam-sportswear-manufacturers-pros-cons-how-to-choose",
-      "excerpt": "Compare China vs Vietnam sportswear manufacturers across cost, MOQ, lead times, and tariff risk. Use our decision framework to choose the right factory for your brand.",
-      "author": "Ryan Mitchell",
-      "date": "2026-07-03",
-      "category": "Manufacturing",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/99f397b9d3c232f53a90b291774a4129.webp",
-      "tags": [
-        {
-          "slug": "sourcing-guide",
-          "name": "Sourcing Guide"
-        },
-        {
-          "slug": "china-vietnam",
-          "name": "China & Vietnam"
-        },
-        {
-          "slug": "china-manufacturer",
-          "name": "China Manufacturer"
-        },
-        {
-          "slug": "vn-manufacturer",
-          "name": "VN Manufacturer"
-        },
-        {
-          "slug": "oem-supply",
-          "name": "OEM Supply"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "manufacturing",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 39,
       "featured": false
     }
   ]

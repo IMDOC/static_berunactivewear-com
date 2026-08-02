@@ -2,6 +2,44 @@
   "pageNumber": 2,
   "blogs": [
     {
+      "title": "China vs Vietnam Sportswear Manufacturers: Pros, Cons & How to Choose",
+      "slug": "china-vs-vietnam-sportswear-manufacturers-pros-cons-how-to-choose",
+      "url": "/china-vs-vietnam-sportswear-manufacturers-pros-cons-how-to-choose",
+      "excerpt": "Compare China vs Vietnam sportswear manufacturers across cost, MOQ, lead times, and tariff risk. Use our decision framework to choose the right factory for your brand.",
+      "author": "Ryan Mitchell",
+      "date": "2026-07-03",
+      "category": "Manufacturing",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/99f397b9d3c232f53a90b291774a4129.webp",
+      "tags": [
+        {
+          "slug": "sourcing-guide",
+          "name": "Sourcing Guide"
+        },
+        {
+          "slug": "china-vietnam",
+          "name": "China & Vietnam"
+        },
+        {
+          "slug": "china-manufacturer",
+          "name": "China Manufacturer"
+        },
+        {
+          "slug": "vn-manufacturer",
+          "name": "VN Manufacturer"
+        },
+        {
+          "slug": "oem-supply",
+          "name": "OEM Supply"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "manufacturing",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 39,
+      "featured": false
+    },
+    {
       "title": "Embroidery vs Heat Seal Uniform Branding: Pros, Cons & Best Uses",
       "slug": "embroidery-vs-heat-seal-uniform-branding-pros-cons-best-uses",
       "url": "/embroidery-vs-heat-seal-uniform-branding-pros-cons-best-uses",
@@ -737,44 +775,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 20,
-      "featured": false
-    },
-    {
-      "title": "Choosing a Wholesale Gym Clothing Manufacturer: Retailer Guide",
-      "slug": "what-retailers-need-to-know-before-choosing-a-wholesale-gym-clothing",
-      "url": "/what-retailers-need-to-know-before-choosing-a-wholesale-gym-clothing",
-      "excerpt": "Avoid costly sourcing mistakes. Learn how to vet wholesale gym clothing manufacturers with our step-by-step framework covering fabric quality, MOQ, and contract terms.",
-      "author": "Ryan Mitchell",
-      "date": "2026-06-12",
-      "category": "Category Object",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/65563513-753f-40e2-82bd-f5ffa468fb3d.png",
-      "tags": [
-        {
-          "slug": "gym-wholesale-2",
-          "name": "Gym Wholesale"
-        },
-        {
-          "slug": "gym-wholesale",
-          "name": "Gym Wholesale"
-        },
-        {
-          "slug": "gym-manufacturer",
-          "name": "Gym Manufacturer"
-        },
-        {
-          "slug": "moq-activewear",
-          "name": "MOQ Activewear"
-        },
-        {
-          "slug": "supplier-vetting",
-          "name": "Supplier Vetting"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "category-object",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 19,
       "featured": false
     }
   ]

@@ -3930,6 +3930,81 @@
         "moq cash flow",
         "moq and cash flow planning"
       ]
+    },
+    {
+      "slug": "high-support-bra",
+      "name": "High Support Bra",
+      "description": "Discover high-support sports bra designs for maximum comfort and performance during intense workouts and athletic activities.",
+      "aliases": [
+        "high support sports bra",
+        "supportive sports bra",
+        "high impact sports bra",
+        "sports bra high support",
+        "best high support bra"
+      ]
+    },
+    {
+      "slug": "encapsulation-bra",
+      "name": "Encapsulation Bra",
+      "description": "Explore high-support sports bras featuring encapsulation designs for maximum comfort and performance during intense workouts.",
+      "aliases": [
+        "encapsulation sports bra",
+        "high support sports bra",
+        "sports bra encapsulation",
+        "supportive sports bra",
+        "sports bra design"
+      ]
+    },
+    {
+      "slug": "compression-bra",
+      "name": "Compression Bra",
+      "description": "Focuses on high-support sports bras with compression technology, essential for intense workouts and athletic performance.",
+      "aliases": [
+        "compression sports bra design",
+        "high support sports bra",
+        "compression bra design",
+        "sports bra compression",
+        "workout bra compression"
+      ]
+    },
+    {
+      "slug": "high-impact-bra",
+      "name": "High Impact Bra",
+      "description": "High-impact sports bra designs offering superior support for intense activities like running and HIIT.",
+      "aliases": [
+        "high impact running bra",
+        "high support sports bra",
+        "impact bra",
+        "running bra",
+        "sports bra",
+        "high-impact running bra"
+      ],
+      "featured": true
+    },
+    {
+      "slug": "custom-bra-mfg",
+      "name": "Custom Bra Mfg",
+      "description": "Manufacturing custom sports bras, including design, support types, and fabric choices for your brand.",
+      "aliases": [
+        "custom sports bra manufacturer",
+        "sports bra custom manufacturing",
+        "private label sports bra",
+        "custom bra production",
+        "designer sports bra"
+      ]
+    },
+    {
+      "slug": "molded-cup",
+      "name": "Molded Cup",
+      "description": "Features and benefits of molded cup sports bras for high support and comfort in activewear.",
+      "aliases": [
+        "molded cup sports bra",
+        "molded sports bra",
+        "molded bra",
+        "cup sports bra",
+        "high support molded bra",
+        "padded sports bra"
+      ]
     }
   ]
 }
