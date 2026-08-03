@@ -36,7 +36,7 @@
       "categorySlug": "category-object",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
-      "id": 59,
+      "id": 60,
       "featured": true
     },
     {
@@ -74,7 +74,7 @@
       "categorySlug": "category-object",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
-      "id": 58,
+      "id": 59,
       "featured": false
     },
     {
@@ -110,6 +110,36 @@
         {
           "slug": "sku-matrix",
           "name": "SKU Matrix"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "category-object",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 58,
+      "featured": false
+    },
+    {
+      "title": "Gym Wear Guide for Fashion-Conscious Men",
+      "slug": "a-guide-to-gym-wear-for-fashion-conscious-men",
+      "url": "/a-guide-to-gym-wear-for-fashion-conscious-men",
+      "excerpt": "A men's gym wear guide matched to body type and workout—shirts, joggers, shoes, and outfits that go straight from weights to coffee.",
+      "author": "Ryan Mitchell",
+      "date": "2026-07-28",
+      "category": "Category Object",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/02ce228a-2a85-4a2e-96a1-8743abd71430.png",
+      "tags": [
+        {
+          "slug": "body-type-gym",
+          "name": "Body Type Gym"
+        },
+        {
+          "slug": "mens-gym-wear-3",
+          "name": "Men's Gym Wear"
+        },
+        {
+          "slug": "mens-gym-outfit",
+          "name": "Men's Gym Outfits"
         }
       ],
       "readTime": "7 min read",
@@ -711,56 +741,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 41,
-      "featured": false
-    },
-    {
-      "title": "Best Fabrics For Golf Apparel in 2026: Comfort & Performance",
-      "slug": "best-fabrics-for-golf-apparel-in-2026-choosing-materials-for-comfort-performance",
-      "url": "/best-fabrics-for-golf-apparel-in-2026-choosing-materials-for-comfort-performance",
-      "excerpt": "Discover the best fabrics for golf apparel in 2026. Compare polyester knits, nylon, merino wool, and sustainable options to build a high-performance line.",
-      "author": "Ryan Mitchell",
-      "date": "2026-07-03",
-      "category": "Fabric Technology",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/f3e60b147637eb718cde31982ebcdc58.webp",
-      "tags": [
-        {
-          "slug": "golf-fabric-4",
-          "name": "Golf Fabric"
-        },
-        {
-          "slug": "golf-fabrics",
-          "name": "Golf Fabrics"
-        },
-        {
-          "slug": "golf-fabric",
-          "name": "Golf Fabric"
-        },
-        {
-          "slug": "golf-fabric-2",
-          "name": "Golf Fabric"
-        },
-        {
-          "slug": "golf-polo",
-          "name": "Golf Polo"
-        },
-        {
-          "slug": "golf-fabrics-26",
-          "name": "Golf Fabrics 26"
-        },
-        {
-          "slug": "golf-fabric-3",
-          "name": "Golf Fabric"
-        },
-        {
-          "slug": "lightweight-golf",
-          "name": "Lightweight Golf"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "fabric-technology",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 40,
       "featured": false
     }
   ]

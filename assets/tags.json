@@ -4005,6 +4005,66 @@
         "high support molded bra",
         "padded sports bra"
       ]
+    },
+    {
+      "slug": "mens-gym-wear",
+      "name": "Men's Gym Wear",
+      "description": "Explore essential gym wear for men, focusing on style, performance, and comfort for your workouts.",
+      "aliases": [
+        "gym wear for men",
+        "mens activewear",
+        "mens workout clothes",
+        "mens gym apparel",
+        "male gym fashion"
+      ]
+    },
+    {
+      "slug": "mens-gym-wear-2",
+      "name": "Men's Gym Wear",
+      "description": "Explore men's gym wear, including workout clothes, athletic apparel, and activewear for fitness enthusiasts.",
+      "aliases": [
+        "men's workout clothes",
+        "mens activewear",
+        "mens gym apparel",
+        "mens athletic clothing",
+        "gym clothes for men"
+      ]
+    },
+    {
+      "slug": "mens-gym-outfit",
+      "name": "Men's Gym Outfits",
+      "description": "Curated gym outfit ideas and style guides for men seeking fashionable and functional workout apparel.",
+      "aliases": [
+        "gym outfit ideas for men",
+        "mens gym wear",
+        "men's workout outfits",
+        "gym clothes for men",
+        "male gym fashion"
+      ]
+    },
+    {
+      "slug": "mens-gym-wear-3",
+      "name": "Men's Gym Wear",
+      "description": "Explore curated collections and manufacturing options for men's activewear and gym apparel.",
+      "aliases": [
+        "activewear for men",
+        "mens activewear",
+        "gym wear for men",
+        "men's workout clothes",
+        "athletic wear for men"
+      ]
+    },
+    {
+      "slug": "body-type-gym",
+      "name": "Body Type Gym",
+      "description": "Choosing gym clothes tailored to specific body types for optimal fit, comfort, and style.",
+      "aliases": [
+        "gym clothes by body type",
+        "body type activewear",
+        "mens gym wear by body type",
+        "womens gym wear by body type",
+        "fit specific gym clothes"
+      ]
     }
   ]
 }

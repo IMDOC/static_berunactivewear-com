@@ -2,6 +2,56 @@
   "pageNumber": 2,
   "blogs": [
     {
+      "title": "Best Fabrics For Golf Apparel in 2026: Comfort & Performance",
+      "slug": "best-fabrics-for-golf-apparel-in-2026-choosing-materials-for-comfort-performance",
+      "url": "/best-fabrics-for-golf-apparel-in-2026-choosing-materials-for-comfort-performance",
+      "excerpt": "Discover the best fabrics for golf apparel in 2026. Compare polyester knits, nylon, merino wool, and sustainable options to build a high-performance line.",
+      "author": "Ryan Mitchell",
+      "date": "2026-07-03",
+      "category": "Fabric Technology",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/f3e60b147637eb718cde31982ebcdc58.webp",
+      "tags": [
+        {
+          "slug": "golf-fabric-4",
+          "name": "Golf Fabric"
+        },
+        {
+          "slug": "golf-fabrics",
+          "name": "Golf Fabrics"
+        },
+        {
+          "slug": "golf-fabric",
+          "name": "Golf Fabric"
+        },
+        {
+          "slug": "golf-fabric-2",
+          "name": "Golf Fabric"
+        },
+        {
+          "slug": "golf-polo",
+          "name": "Golf Polo"
+        },
+        {
+          "slug": "golf-fabrics-26",
+          "name": "Golf Fabrics 26"
+        },
+        {
+          "slug": "golf-fabric-3",
+          "name": "Golf Fabric"
+        },
+        {
+          "slug": "lightweight-golf",
+          "name": "Lightweight Golf"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "fabric-technology",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 40,
+      "featured": false
+    },
+    {
       "title": "China vs Vietnam Sportswear Manufacturers: Pros, Cons & How to Choose",
       "slug": "china-vs-vietnam-sportswear-manufacturers-pros-cons-how-to-choose",
       "url": "/china-vs-vietnam-sportswear-manufacturers-pros-cons-how-to-choose",
@@ -737,44 +787,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 21,
-      "featured": false
-    },
-    {
-      "title": "Key Factors Driving the Athletic Apparel Market Growth",
-      "slug": "understanding-the-key-factors-of-the-growing-market-of-athletic-clothes",
-      "url": "/understanding-the-key-factors-of-the-growing-market-of-athletic-clothes",
-      "excerpt": "Explore the demand, supply, and macro forces accelerating the $500B+ athletic apparel market — with data, brand proof points, and a strategic priority framework.",
-      "author": "Ryan Mitchell",
-      "date": "2026-06-12",
-      "category": "Category Object",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/4e8c3241835f5e19e57d71e93f4c6e29.webp",
-      "tags": [
-        {
-          "slug": "sportswear-2026",
-          "name": "Sportswear 2026"
-        },
-        {
-          "slug": "market-growth",
-          "name": "Market Growth"
-        },
-        {
-          "slug": "athleisure-growth",
-          "name": "Athleisure Growth"
-        },
-        {
-          "slug": "industry-analysis",
-          "name": "Industry Analysis"
-        },
-        {
-          "slug": "market-drivers",
-          "name": "Market Drivers"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "category-object",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 20,
       "featured": false
     }
   ]
