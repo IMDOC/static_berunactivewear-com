@@ -4065,6 +4065,67 @@
         "womens gym wear by body type",
         "fit specific gym clothes"
       ]
+    },
+    {
+      "slug": "aus-retail-trends",
+      "name": "Australian Retail Trends",
+      "description": "Stay updated on the latest fashion and apparel retail trends specific to the Australian market.",
+      "aliases": [
+        "australian apparel retail trends",
+        "aus fashion retail trends",
+        "australian clothing store trends",
+        "retail trends australia",
+        "aus apparel trends"
+      ]
+    },
+    {
+      "slug": "seasonal-trends",
+      "name": "Seasonal Trends",
+      "description": "Explore seasonal buying calendars and emerging trends for Australian apparel retail stores and fashion brands.",
+      "aliases": [
+        "seasonal buying calendar australia",
+        "australian seasonal trends",
+        "seasonal apparel trends",
+        "fashion seasons australia",
+        "seasonal fashion calendar"
+      ]
+    },
+    {
+      "slug": "retail-stocking",
+      "name": "Retail Stocking",
+      "description": "Strategies for effective retail stocking, seasonal trend alignment, and inventory management for apparel brands.",
+      "aliases": [
+        "retail stocking strategy",
+        "stocking strategy",
+        "apparel stocking",
+        "seasonal stocking",
+        "inventory stocking"
+      ]
+    },
+    {
+      "slug": "po-checklist",
+      "name": "PO Checklist",
+      "description": "Essential purchase order checklists for retail operations and inventory management. Ensure smooth procurement.",
+      "aliases": [
+        "purchase order checklist",
+        "retail purchase order",
+        "po checklist retail",
+        "order checklist",
+        "procurement checklist",
+        "purchase order checklist retail"
+      ]
+    },
+    {
+      "slug": "aus-fashion",
+      "name": "Australian Fashion",
+      "description": "Trends and buying patterns for apparel retailers in the Southern Hemisphere, focusing on Australian markets.",
+      "aliases": [
+        "southern hemisphere fashion buying",
+        "australian apparel trends",
+        "australian fashion buying",
+        "aus fashion trends",
+        "australia retail fashion"
+      ]
     }
   ]
 }

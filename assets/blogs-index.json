@@ -1,6 +1,6 @@
 {
-  "totalBlogs": 60,
-  "totalPages": 3,
+  "totalBlogs": 61,
+  "totalPages": 4,
   "postsPerPage": 20,
   "categories": [
     {
@@ -31,7 +31,7 @@
     {
       "name": "Category Object",
       "slug": "category-object",
-      "count": 34
+      "count": 35
     },
     {
       "name": "Printing Techniques",

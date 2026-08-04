@@ -36,7 +36,7 @@
       "categorySlug": "category-object",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
-      "id": 60,
+      "id": 61,
       "featured": true
     },
     {
@@ -74,7 +74,7 @@
       "categorySlug": "category-object",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
-      "id": 59,
+      "id": 60,
       "featured": false
     },
     {
@@ -116,7 +116,7 @@
       "categorySlug": "category-object",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
-      "id": 58,
+      "id": 59,
       "featured": false
     },
     {
@@ -146,7 +146,7 @@
       "categorySlug": "category-object",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
-      "id": 57,
+      "id": 58,
       "featured": false
     },
     {
@@ -163,7 +163,7 @@
       "categorySlug": "category-object",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
-      "id": 56,
+      "id": 57,
       "featured": false
     },
     {
@@ -195,6 +195,44 @@
         {
           "slug": "custom-bra-mfg",
           "name": "Custom Bra Mfg"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "category-object",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 56,
+      "featured": false
+    },
+    {
+      "title": "Seasonal Buying Guide for Australian Apparel Retailers",
+      "slug": "top-seasonal-trends-for-australian-apparel-retail-stores",
+      "url": "/top-seasonal-trends-for-australian-apparel-retail-stores",
+      "excerpt": "A season-by-season stocking calendar for Australian apparel retailers, with lead times, buying windows, and a purchase-order checklist for each quarter.",
+      "author": "Ryan Mitchell",
+      "date": "2026-07-28",
+      "category": "Category Object",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/3270d116-ad8d-4146-a454-e7fab99d3f50.png",
+      "tags": [
+        {
+          "slug": "aus-fashion",
+          "name": "Australian Fashion"
+        },
+        {
+          "slug": "aus-retail-trends",
+          "name": "Australian Retail Trends"
+        },
+        {
+          "slug": "seasonal-trends",
+          "name": "Seasonal Trends"
+        },
+        {
+          "slug": "retail-stocking",
+          "name": "Retail Stocking"
+        },
+        {
+          "slug": "po-checklist",
+          "name": "PO Checklist"
         }
       ],
       "readTime": "7 min read",
@@ -691,56 +729,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 42,
-      "featured": false
-    },
-    {
-      "title": "10 Best Activewear Fabrics: Comfort & Performance Compared",
-      "slug": "10-best-activewear-fabrics-comfort-breathability-performance-compared",
-      "url": "/10-best-activewear-fabrics-comfort-breathability-performance-compared",
-      "excerpt": "Compare the 10 best activewear fabrics — polyester, nylon, spandex blends, merino wool & more. Find the right material for your workout, comfort, and durability needs.",
-      "author": "Ryan Mitchell",
-      "date": "2026-07-03",
-      "category": "Fabric Technology",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/a303d3b6-d9ce-4723-a24d-aa7c700e76c9.png",
-      "tags": [
-        {
-          "slug": "perf-fabric-3",
-          "name": "Perf Fabric"
-        },
-        {
-          "slug": "best-fabrics",
-          "name": "Best Fabrics"
-        },
-        {
-          "slug": "moisture-wicking-2",
-          "name": "Moisture Wicking"
-        },
-        {
-          "slug": "nylon-spandex",
-          "name": "Nylon Spandex"
-        },
-        {
-          "slug": "poly-spandex",
-          "name": "Poly Spandex"
-        },
-        {
-          "slug": "workout-fabric",
-          "name": "Workout Fabric"
-        },
-        {
-          "slug": "breathable-fabric",
-          "name": "Breathable Fabric"
-        },
-        {
-          "slug": "perf-fabric-2",
-          "name": "Perf Fabric"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "fabric-technology",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 41,
       "featured": false
     }
   ]
