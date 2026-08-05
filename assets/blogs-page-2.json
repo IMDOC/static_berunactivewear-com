@@ -2,6 +2,44 @@
   "pageNumber": 2,
   "blogs": [
     {
+      "title": "USA vs Overseas Activewear Manufacturing: Which Is Better?",
+      "slug": "usa-vs-overseas-activewear-manufacturing-which-is-better-for-your-brand",
+      "url": "/usa-vs-overseas-activewear-manufacturing-which-is-better-for-your-brand",
+      "excerpt": "Compare USA vs overseas activewear manufacturing across cost, MOQ, lead time, and quality — then use our 5-question framework to choose the right factory.",
+      "author": "Ryan Mitchell",
+      "date": "2026-07-06",
+      "category": "Manufacturing",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/b8ebcee351c0c5ff9d52fcd970b2789f.webp",
+      "tags": [
+        {
+          "slug": "best-manufacturer",
+          "name": "Best Manufacturer"
+        },
+        {
+          "slug": "usa-vs-overseas",
+          "name": "USA vs Overseas"
+        },
+        {
+          "slug": "manufacturer-compare",
+          "name": "Manufacturer Compare"
+        },
+        {
+          "slug": "overseas-factory",
+          "name": "Overseas Factory"
+        },
+        {
+          "slug": "supply-chain",
+          "name": "Supply Chain"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "manufacturing",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 42,
+      "featured": false
+    },
+    {
       "title": "10 Best Activewear Fabrics: Comfort & Performance Compared",
       "slug": "10-best-activewear-fabrics-comfort-breathability-performance-compared",
       "url": "/10-best-activewear-fabrics-comfort-breathability-performance-compared",
@@ -757,48 +795,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 23,
-      "featured": false
-    },
-    {
-      "title": "Top 10 Women's Gym Clothing Pieces to Buy in 2026",
-      "slug": "top-10-gym-clothing-pieces-women-are-buying-most-in-2026",
-      "url": "/top-10-gym-clothing-pieces-women-are-buying-most-in-2026",
-      "excerpt": "Discover the 10 best women's gym clothing pieces in 2026. From high-waist leggings to supportive sports bras — tested in real training sessions, zero filler.",
-      "author": "Ryan Mitchell",
-      "date": "2026-06-12",
-      "category": "Category Object",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/f0d2e16c-05a6-48b0-84ae-14a16135da6c.png",
-      "tags": [
-        {
-          "slug": "gym-wear",
-          "name": "Gym Wear"
-        },
-        {
-          "slug": "womens-gym",
-          "name": "Women’s Gym"
-        },
-        {
-          "slug": "gym-leggings",
-          "name": "Gym Leggings"
-        },
-        {
-          "slug": "womens-active",
-          "name": "Women's Active"
-        },
-        {
-          "slug": "high-waist-leggings",
-          "name": "High-Waist Leggings"
-        },
-        {
-          "slug": "training-bra",
-          "name": "Training Bra"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "category-object",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 22,
       "featured": false
     }
   ]

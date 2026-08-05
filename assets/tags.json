@@ -4126,6 +4126,81 @@
         "aus fashion trends",
         "australia retail fashion"
       ]
+    },
+    {
+      "slug": "custom-yoga-2",
+      "name": "Custom Yoga",
+      "description": "Information on custom yoga pants manufacturers, custom yoga wear production, and made-to-order yoga apparel.",
+      "aliases": [
+        "custom yoga pants manufacturer",
+        "custom yoga pants",
+        "yoga pants manufacturer",
+        "made to order yoga pants",
+        "custom yoga wear",
+        "yoga apparel manufacturer"
+      ]
+    },
+    {
+      "slug": "yoga-pants-mfg",
+      "name": "Yoga Pants Mfg.",
+      "description": "Explore custom yoga pants manufacturing, timelines, and production processes with reliable suppliers.",
+      "aliases": [
+        "yoga pants production timeline",
+        "custom yoga pants production",
+        "yoga pants manufacturing",
+        "yoga pants lead time",
+        "yoga pants timeline"
+      ]
+    },
+    {
+      "slug": "mfg-checklist",
+      "name": "Mfg Checklist",
+      "description": "Essential checklists for selecting and working with activewear manufacturers, ensuring quality and timely production.",
+      "aliases": [
+        "activewear manufacturer checklist",
+        "custom yoga pants checklist",
+        "manufacturer checklist",
+        "factory checklist",
+        "apparel manufacturer checklist",
+        "production checklist"
+      ]
+    },
+    {
+      "slug": "yoga-pants-moq",
+      "name": "Yoga Pants MOQ",
+      "description": "Understanding the minimum order quantity requirements for custom yoga pants manufacturing and sourcing.",
+      "aliases": [
+        "yoga pants moq",
+        "yoga pants minimum order quantity",
+        "custom yoga pants moq",
+        "wholesale yoga pants moq",
+        "yoga pants factory moq"
+      ]
+    },
+    {
+      "slug": "seamless-cutsew",
+      "name": "Seamless vs Cut & Sew",
+      "description": "Understanding the differences between seamless and cut-and-sew manufacturing for activewear and yoga pants.",
+      "aliases": [
+        "seamless vs cutsew",
+        "seamless vs cut-and-sew",
+        "cutsew vs seamless",
+        "seamless manufacturing",
+        "cut and sew manufacturing",
+        "seamless vs cut-and-sew leggings"
+      ]
+    },
+    {
+      "slug": "yoga-pants-cost",
+      "name": "Yoga Pants Cost",
+      "description": "Understand the cost per pair for custom yoga pants, including manufacturing and sourcing considerations.",
+      "aliases": [
+        "yoga pants cost per pair",
+        "custom yoga pants cost",
+        "yoga pants price",
+        "wholesale yoga pants cost",
+        "yoga pants manufacturing cost"
+      ]
     }
   ]
 }

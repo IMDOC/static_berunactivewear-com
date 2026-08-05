@@ -36,7 +36,7 @@
       "categorySlug": "category-object",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
-      "id": 61,
+      "id": 62,
       "featured": true
     },
     {
@@ -74,7 +74,7 @@
       "categorySlug": "category-object",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
-      "id": 60,
+      "id": 61,
       "featured": false
     },
     {
@@ -116,7 +116,7 @@
       "categorySlug": "category-object",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
-      "id": 59,
+      "id": 60,
       "featured": false
     },
     {
@@ -140,6 +140,48 @@
         {
           "slug": "mens-gym-outfit",
           "name": "Men's Gym Outfits"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "category-object",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 59,
+      "featured": false
+    },
+    {
+      "title": "Custom Yoga Pants Manufacturers: Full Ordering Guide",
+      "slug": "custom-yoga-pants-to-order-from-your-manufacturers-today",
+      "url": "/custom-yoga-pants-to-order-from-your-manufacturers-today",
+      "excerpt": "Order custom yoga pants with confidence: get the day-by-day production timeline, cost breakdown, and factory vetting checklist before wiring a deposit.",
+      "author": "Ryan Mitchell",
+      "date": "2026-07-28",
+      "category": "Category Object",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/06bada3e-d784-45f1-a94c-989f29326762.png",
+      "tags": [
+        {
+          "slug": "yoga-pants-cost",
+          "name": "Yoga Pants Cost"
+        },
+        {
+          "slug": "custom-yoga-2",
+          "name": "Custom Yoga"
+        },
+        {
+          "slug": "yoga-pants-mfg",
+          "name": "Yoga Pants Mfg."
+        },
+        {
+          "slug": "mfg-checklist",
+          "name": "Mfg Checklist"
+        },
+        {
+          "slug": "yoga-pants-moq",
+          "name": "Yoga Pants MOQ"
+        },
+        {
+          "slug": "seamless-cutsew",
+          "name": "Seamless vs Cut & Sew"
         }
       ],
       "readTime": "7 min read",
@@ -691,44 +733,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 43,
-      "featured": false
-    },
-    {
-      "title": "USA vs Overseas Activewear Manufacturing: Which Is Better?",
-      "slug": "usa-vs-overseas-activewear-manufacturing-which-is-better-for-your-brand",
-      "url": "/usa-vs-overseas-activewear-manufacturing-which-is-better-for-your-brand",
-      "excerpt": "Compare USA vs overseas activewear manufacturing across cost, MOQ, lead time, and quality — then use our 5-question framework to choose the right factory.",
-      "author": "Ryan Mitchell",
-      "date": "2026-07-06",
-      "category": "Manufacturing",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/b8ebcee351c0c5ff9d52fcd970b2789f.webp",
-      "tags": [
-        {
-          "slug": "best-manufacturer",
-          "name": "Best Manufacturer"
-        },
-        {
-          "slug": "usa-vs-overseas",
-          "name": "USA vs Overseas"
-        },
-        {
-          "slug": "manufacturer-compare",
-          "name": "Manufacturer Compare"
-        },
-        {
-          "slug": "overseas-factory",
-          "name": "Overseas Factory"
-        },
-        {
-          "slug": "supply-chain",
-          "name": "Supply Chain"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "manufacturing",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 42,
       "featured": false
     }
   ]
