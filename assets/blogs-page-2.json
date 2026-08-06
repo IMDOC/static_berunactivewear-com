@@ -2,6 +2,52 @@
   "pageNumber": 2,
   "blogs": [
     {
+      "title": "OEM vs ODM Manufacturing: Which Model Is More Cost-Effective?",
+      "slug": "oem-vs-odm-which-manufacturing-model-is-more-cost-effective",
+      "url": "/oem-vs-odm-which-manufacturing-model-is-more-cost-effective",
+      "excerpt": "Compare OEM vs ODM manufacturing costs, MOQs, IP risk, and time-to-market for activewear brands. Find which model fits your budget and growth stage.",
+      "author": "Ryan Mitchell",
+      "date": "2026-07-06",
+      "category": "Manufacturing",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/f31b882a-3952-4fa0-8482-4e07ee94292d.png",
+      "tags": [
+        {
+          "slug": "oem-vs-odm-2",
+          "name": "OEM vs ODM"
+        },
+        {
+          "slug": "oem-vs-odm",
+          "name": "OEM vs ODM"
+        },
+        {
+          "slug": "oem-odm-2",
+          "name": "OEM vs ODM"
+        },
+        {
+          "slug": "odm-cost",
+          "name": "ODM Cost"
+        },
+        {
+          "slug": "activewear-oem-2",
+          "name": "Activewear OEM"
+        },
+        {
+          "slug": "custom-oem",
+          "name": "Custom OEM"
+        },
+        {
+          "slug": "customization-cost",
+          "name": "Customization Cost"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "manufacturing",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 43,
+      "featured": false
+    },
+    {
       "title": "USA vs Overseas Activewear Manufacturing: Which Is Better?",
       "slug": "usa-vs-overseas-activewear-manufacturing-which-is-better-for-your-brand",
       "url": "/usa-vs-overseas-activewear-manufacturing-which-is-better-for-your-brand",
@@ -749,52 +795,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 24,
-      "featured": false
-    },
-    {
-      "title": "Sublimation vs Screen Printing for Custom T-Shirts",
-      "slug": "sublimation-vs-screen-printing-which-printing-method-is-better-for-custom-t",
-      "url": "/sublimation-vs-screen-printing-which-printing-method-is-better-for-custom-t",
-      "excerpt": "Compare sublimation vs screen printing for custom t-shirts. Get real cost data, durability benchmarks, MOQ structures, and scenario-matched recommendations.",
-      "author": "Ryan Mitchell",
-      "date": "2026-06-12",
-      "category": "Category Object",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/88ec4163a1cbd1d408937ceed2922a18.webp",
-      "tags": [
-        {
-          "slug": "print-method",
-          "name": "Print Method"
-        },
-        {
-          "slug": "sublimation-printing",
-          "name": "Sublimation Printing"
-        },
-        {
-          "slug": "screen-printing",
-          "name": "Screen Printing"
-        },
-        {
-          "slug": "allover-print",
-          "name": "Allover Print"
-        },
-        {
-          "slug": "plastisol-ink",
-          "name": "Plastisol Ink"
-        },
-        {
-          "slug": "print-methods-2",
-          "name": "Print Methods"
-        },
-        {
-          "slug": "print-cost",
-          "name": "Print Cost"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "category-object",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 23,
       "featured": false
     }
   ]

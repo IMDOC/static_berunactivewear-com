@@ -4201,6 +4201,66 @@
         "wholesale yoga pants cost",
         "yoga pants manufacturing cost"
       ]
+    },
+    {
+      "slug": "workout-retailers",
+      "name": "Workout Retailers",
+      "description": "Trends and investment opportunities for workout gear retailers, focusing on the 2026 market.",
+      "aliases": [
+        "workout gear retailers 2026",
+        "best workout gear retailers",
+        "athletic apparel retailers",
+        "fitness equipment retailers"
+      ]
+    },
+    {
+      "slug": "fitness-trends-2",
+      "name": "Fitness Trends",
+      "description": "Explore emerging fitness industry trends for 2026, focusing on wearable tech and sustainable activewear.",
+      "aliases": [
+        "fitness industry trends 2026",
+        "fitness trends 2026",
+        "workout gear trends",
+        "activewear trends"
+      ],
+      "featured": true
+    },
+    {
+      "slug": "fitness-wholesale",
+      "name": "Fitness Wholesale",
+      "description": "Wholesale fitness equipment and apparel sourcing for retailers and gyms. Explore bulk purchasing options.",
+      "aliases": [
+        "wholesale fitness equipment",
+        "fitness equipment wholesale",
+        "bulk fitness gear",
+        "gym equipment wholesale",
+        "wholesale sports equipment"
+      ]
+    },
+    {
+      "slug": "gym-accessories",
+      "name": "Gym Accessories",
+      "description": "Wholesale gym accessories, including bags, bottles, and equipment for retailers and brands.",
+      "aliases": [
+        "gym accessories wholesale",
+        "workout accessories wholesale",
+        "fitness accessories wholesale",
+        "gym gear wholesale",
+        "wholesale gym accessories 2026",
+        "gym accessories wholesale 2026"
+      ]
+    },
+    {
+      "slug": "home-gym-retail",
+      "name": "Home Gym Retail",
+      "description": "Retail strategies and investment opportunities for home gym equipment, focusing on quality and market trends.",
+      "aliases": [
+        "home gym equipment retail",
+        "retail home gym",
+        "home fitness retail",
+        "gym equipment sales",
+        "workout gear retail"
+      ]
     }
   ]
 }

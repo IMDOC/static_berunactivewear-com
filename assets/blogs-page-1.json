@@ -36,7 +36,7 @@
       "categorySlug": "category-object",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
-      "id": 62,
+      "id": 63,
       "featured": true
     },
     {
@@ -74,7 +74,7 @@
       "categorySlug": "category-object",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
-      "id": 61,
+      "id": 62,
       "featured": false
     },
     {
@@ -116,7 +116,7 @@
       "categorySlug": "category-object",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
-      "id": 60,
+      "id": 61,
       "featured": false
     },
     {
@@ -146,7 +146,7 @@
       "categorySlug": "category-object",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
-      "id": 59,
+      "id": 60,
       "featured": false
     },
     {
@@ -188,7 +188,7 @@
       "categorySlug": "category-object",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
-      "id": 58,
+      "id": 59,
       "featured": false
     },
     {
@@ -201,6 +201,48 @@
       "category": "Category Object",
       "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/e6e93aad-64b1-430c-9904-c396f931fd79.png",
       "tags": [],
+      "readTime": "7 min read",
+      "categorySlug": "category-object",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 58,
+      "featured": false
+    },
+    {
+      "title": "Best Workout Gear Retailers Should Stock in 2026",
+      "slug": "the-best-workout-gear-that-retailers-should-invest-in-2026",
+      "url": "/the-best-workout-gear-that-retailers-should-invest-in-2026",
+      "excerpt": "A data-backed 2026 buying guide for retailers: which workout gear categories have real demand, what markup they support, and which trends to avoid.",
+      "author": "Ryan Mitchell",
+      "date": "2026-07-28",
+      "category": "Category Object",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/9766633a-74be-40e3-b865-a7436c734b54.png",
+      "tags": [
+        {
+          "slug": "home-gym-retail",
+          "name": "Home Gym Retail"
+        },
+        {
+          "slug": "workout-retailers",
+          "name": "Workout Retailers"
+        },
+        {
+          "slug": "fitness-trends-2",
+          "name": "Fitness Trends"
+        },
+        {
+          "slug": "fitness-wholesale",
+          "name": "Fitness Wholesale"
+        },
+        {
+          "slug": "pls-manufacturer",
+          "name": "PLS Manufacturer"
+        },
+        {
+          "slug": "gym-accessories",
+          "name": "Gym Accessories"
+        }
+      ],
       "readTime": "7 min read",
       "categorySlug": "category-object",
       "authorTitle": "Head of Production & Sourcing",
@@ -687,52 +729,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 44,
-      "featured": false
-    },
-    {
-      "title": "OEM vs ODM Manufacturing: Which Model Is More Cost-Effective?",
-      "slug": "oem-vs-odm-which-manufacturing-model-is-more-cost-effective",
-      "url": "/oem-vs-odm-which-manufacturing-model-is-more-cost-effective",
-      "excerpt": "Compare OEM vs ODM manufacturing costs, MOQs, IP risk, and time-to-market for activewear brands. Find which model fits your budget and growth stage.",
-      "author": "Ryan Mitchell",
-      "date": "2026-07-06",
-      "category": "Manufacturing",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/f31b882a-3952-4fa0-8482-4e07ee94292d.png",
-      "tags": [
-        {
-          "slug": "oem-vs-odm-2",
-          "name": "OEM vs ODM"
-        },
-        {
-          "slug": "oem-vs-odm",
-          "name": "OEM vs ODM"
-        },
-        {
-          "slug": "oem-odm-2",
-          "name": "OEM vs ODM"
-        },
-        {
-          "slug": "odm-cost",
-          "name": "ODM Cost"
-        },
-        {
-          "slug": "activewear-oem-2",
-          "name": "Activewear OEM"
-        },
-        {
-          "slug": "custom-oem",
-          "name": "Custom OEM"
-        },
-        {
-          "slug": "customization-cost",
-          "name": "Customization Cost"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "manufacturing",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 43,
       "featured": false
     }
   ]
