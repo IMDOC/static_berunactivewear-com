@@ -36,7 +36,7 @@
       "categorySlug": "category-object",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
-      "id": 63,
+      "id": 64,
       "featured": true
     },
     {
@@ -68,6 +68,40 @@
         {
           "slug": "workout-fabric-2",
           "name": "Workout Fabric"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "category-object",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 63,
+      "featured": false
+    },
+    {
+      "title": "What to Wear to Your First Yoga Class (Beginner Guide)",
+      "slug": "what-to-wear-for-your-first-yoga-class",
+      "url": "/what-to-wear-for-your-first-yoga-class",
+      "excerpt": "Nervous about your first yoga class? Avoid 3 rookie outfit mistakes and see 3 ready-to-wear plans for every budget before you hit the mat.",
+      "author": "Ryan Mitchell",
+      "date": "2026-07-29",
+      "category": "Category Object",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/2c1c5b238bc7ea37f90b1f3ae9799bac.webp",
+      "tags": [
+        {
+          "slug": "yoga-outfit",
+          "name": "Yoga Outfit"
+        },
+        {
+          "slug": "yoga-attire",
+          "name": "Yoga Attire"
+        },
+        {
+          "slug": "first-yoga-outfit",
+          "name": "First Yoga Outfit"
+        },
+        {
+          "slug": "yoga-beginner",
+          "name": "Yoga Beginner"
         }
       ],
       "readTime": "7 min read",
@@ -683,52 +717,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 45,
-      "featured": false
-    },
-    {
-      "title": "Gym Wear Sets: Manufacturing Cost, MOQ & Lead Time Guide",
-      "slug": "gym-wear-sets-manufacturing-cost-moq-lead-time-a-complete-guide",
-      "url": "/gym-wear-sets-manufacturing-cost-moq-lead-time-a-complete-guide",
-      "excerpt": "Discover real per-unit costs, MOQ thresholds, and production lead times for gym wear sets. Use these benchmarks before negotiating with any activewear manufacturer.",
-      "author": "Ryan Mitchell",
-      "date": "2026-07-06",
-      "category": "Sourcing Guides",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/a5357e29b656a3b22d67a0b412413d53.webp",
-      "tags": [
-        {
-          "slug": "gym-moq",
-          "name": "Gym MOQ"
-        },
-        {
-          "slug": "gym-wear-cost",
-          "name": "Gym Wear Cost"
-        },
-        {
-          "slug": "gym-wear-moq",
-          "name": "Gym Wear MOQ"
-        },
-        {
-          "slug": "lead-time",
-          "name": "Lead Time"
-        },
-        {
-          "slug": "set-cost",
-          "name": "Set Cost"
-        },
-        {
-          "slug": "gym-sets",
-          "name": "Gym Sets"
-        },
-        {
-          "slug": "mfg-cost",
-          "name": "Mfg Cost"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "sourcing-guides",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 44,
       "featured": false
     }
   ]

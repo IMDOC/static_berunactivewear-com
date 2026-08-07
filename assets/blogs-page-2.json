@@ -2,6 +2,52 @@
   "pageNumber": 2,
   "blogs": [
     {
+      "title": "Gym Wear Sets: Manufacturing Cost, MOQ & Lead Time Guide",
+      "slug": "gym-wear-sets-manufacturing-cost-moq-lead-time-a-complete-guide",
+      "url": "/gym-wear-sets-manufacturing-cost-moq-lead-time-a-complete-guide",
+      "excerpt": "Discover real per-unit costs, MOQ thresholds, and production lead times for gym wear sets. Use these benchmarks before negotiating with any activewear manufacturer.",
+      "author": "Ryan Mitchell",
+      "date": "2026-07-06",
+      "category": "Sourcing Guides",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/a5357e29b656a3b22d67a0b412413d53.webp",
+      "tags": [
+        {
+          "slug": "gym-moq",
+          "name": "Gym MOQ"
+        },
+        {
+          "slug": "gym-wear-cost",
+          "name": "Gym Wear Cost"
+        },
+        {
+          "slug": "gym-wear-moq",
+          "name": "Gym Wear MOQ"
+        },
+        {
+          "slug": "lead-time",
+          "name": "Lead Time"
+        },
+        {
+          "slug": "set-cost",
+          "name": "Set Cost"
+        },
+        {
+          "slug": "gym-sets",
+          "name": "Gym Sets"
+        },
+        {
+          "slug": "mfg-cost",
+          "name": "Mfg Cost"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "sourcing-guides",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 44,
+      "featured": false
+    },
+    {
       "title": "OEM vs ODM Manufacturing: Which Model Is More Cost-Effective?",
       "slug": "oem-vs-odm-which-manufacturing-model-is-more-cost-effective",
       "url": "/oem-vs-odm-which-manufacturing-model-is-more-cost-effective",
@@ -757,44 +803,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 25,
-      "featured": false
-    },
-    {
-      "title": "Private Label vs Custom Activewear: Which Is Right for Startups?",
-      "slug": "private-label-vs-custom-activewear-which-model-is-better-for-startups",
-      "url": "/private-label-vs-custom-activewear-which-model-is-better-for-startups",
-      "excerpt": "Private label or custom activewear? Compare costs, MOQs, timelines, and risk to find the right manufacturing model for your startup stage.",
-      "author": "Ryan Mitchell",
-      "date": "2026-06-12",
-      "category": "Category Object",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/2a0f925af51449092ee443932632d362.webp",
-      "tags": [
-        {
-          "slug": "label-vs-custom",
-          "name": "Label vs Custom"
-        },
-        {
-          "slug": "gym-private-label-2",
-          "name": "Gym Private Label"
-        },
-        {
-          "slug": "activewear-oem",
-          "name": "Activewear OEM"
-        },
-        {
-          "slug": "oem-odm",
-          "name": "OEM & ODM"
-        },
-        {
-          "slug": "activewear-startup",
-          "name": "Activewear Startup"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "category-object",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 24,
       "featured": false
     }
   ]

@@ -4261,6 +4261,55 @@
         "gym equipment sales",
         "workout gear retail"
       ]
+    },
+    {
+      "slug": "yoga-attire",
+      "name": "Yoga Attire",
+      "description": "Guidance on choosing the perfect yoga outfits, including fabric, fit, and style considerations for your practice.",
+      "aliases": [
+        "what to wear to yoga class",
+        "yoga class outfit",
+        "yoga wear",
+        "what to wear for yoga",
+        "yoga apparel",
+        "yoga outfits"
+      ]
+    },
+    {
+      "slug": "first-yoga-outfit",
+      "name": "First Yoga Outfit",
+      "description": "Guidance on selecting the perfect attire for your inaugural yoga session, focusing on comfort and function.",
+      "aliases": [
+        "first yoga class outfit",
+        "what to wear for first yoga class",
+        "beginner yoga clothes",
+        "yoga outfit for beginners",
+        "new to yoga outfit"
+      ]
+    },
+    {
+      "slug": "yoga-beginner",
+      "name": "Yoga Beginner",
+      "description": "Guidance for new yoga practitioners, covering attire, common mistakes, and essential tips for a great start.",
+      "aliases": [
+        "yoga beginner mistakes",
+        "first yoga class",
+        "new to yoga",
+        "yoga for beginners",
+        "beginner yoga tips"
+      ]
+    },
+    {
+      "slug": "yoga-outfit",
+      "name": "Yoga Outfit",
+      "description": "Outfit ideas and essentials for your first yoga class, covering comfort, style, and performance.",
+      "aliases": [
+        "yoga class outfit ideas",
+        "what to wear for yoga",
+        "yoga attire",
+        "first yoga outfit",
+        "yoga class wear"
+      ]
     }
   ]
 }
