@@ -2,6 +2,40 @@
   "pageNumber": 2,
   "blogs": [
     {
+      "title": "10 Best Premium Gymwear Brands in the UK (2026 Guide)",
+      "slug": "10-best-premium-gymwear-brands-in-uk-2026-guide",
+      "url": "/10-best-premium-gymwear-brands-in-uk-2026-guide",
+      "excerpt": "Discover the 10 best premium gymwear brands in the UK for 2026. From Lululemon to Berun Activewear — honest rankings, prices & what's worth buying.",
+      "author": "Ryan Mitchell",
+      "date": "2026-07-06",
+      "category": "Industry Trends",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/a2b1e27f-29e5-410d-98de-9c6b1d404f05.png",
+      "tags": [
+        {
+          "slug": "premium-gymwear-3",
+          "name": "Premium Gymwear"
+        },
+        {
+          "slug": "premium-gymwear",
+          "name": "Premium Gymwear"
+        },
+        {
+          "slug": "premium-gymwear-2",
+          "name": "Premium Gymwear"
+        },
+        {
+          "slug": "gymwear-uk",
+          "name": "Gymwear UK"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "industry-trends",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 45,
+      "featured": false
+    },
+    {
       "title": "Gym Wear Sets: Manufacturing Cost, MOQ & Lead Time Guide",
       "slug": "gym-wear-sets-manufacturing-cost-moq-lead-time-a-complete-guide",
       "url": "/gym-wear-sets-manufacturing-cost-moq-lead-time-a-complete-guide",
@@ -769,40 +803,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 26,
-      "featured": false
-    },
-    {
-      "title": "How to Choose the Right Blank Clothing Manufacturer",
-      "slug": "how-to-choose-the-right-blank-clothing-manufacturer-for-your-brand",
-      "url": "/how-to-choose-the-right-blank-clothing-manufacturer-for-your-brand",
-      "excerpt": "Use our 8-dimension scorecard to evaluate any blank clothing manufacturer — covering fabric quality, MOQs, pricing transparency, red flags, and sustainability.",
-      "author": "Ryan Mitchell",
-      "date": "2026-06-12",
-      "category": "Category Object",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/f88ab0612ef0aa983e528effb014f332.webp",
-      "tags": [
-        {
-          "slug": "choose-oem",
-          "name": "Choose OEM"
-        },
-        {
-          "slug": "wholesale-oem",
-          "name": "Wholesale OEM"
-        },
-        {
-          "slug": "blank-wholesale",
-          "name": "Blank Wholesale"
-        },
-        {
-          "slug": "blank-manufacturer",
-          "name": "Blank Manufacturer"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "category-object",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 25,
       "featured": false
     }
   ]
