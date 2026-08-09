@@ -44,7 +44,7 @@
       "categorySlug": "category-object",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
-      "id": 65,
+      "id": 66,
       "featured": true
     },
     {
@@ -82,7 +82,7 @@
       "categorySlug": "category-object",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
-      "id": 64,
+      "id": 65,
       "featured": false
     },
     {
@@ -114,6 +114,44 @@
         {
           "slug": "workout-fabric-2",
           "name": "Workout Fabric"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "category-object",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 64,
+      "featured": false
+    },
+    {
+      "title": "How to Design Private Label Yoga Pants: Full Guide",
+      "slug": "how-to-design-your-private-label-yoga-pants",
+      "url": "/how-to-design-your-private-label-yoga-pants",
+      "excerpt": "Learn how to design private label yoga pants with the right fabric, tech pack, stitching, logo placement, and MOQ strategy factories expect.",
+      "author": "Ryan Mitchell",
+      "date": "2026-07-29",
+      "category": "Category Object",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/6e8c3b7e-b129-4546-b187-92653e204821.png",
+      "tags": [
+        {
+          "slug": "compression-leggings",
+          "name": "Compression Leggings"
+        },
+        {
+          "slug": "custom-yoga-pants",
+          "name": "Custom Yoga Pants"
+        },
+        {
+          "slug": "yoga-tech-pack",
+          "name": "Yoga Tech Pack"
+        },
+        {
+          "slug": "yoga-pants-moq",
+          "name": "Yoga Pants MOQ"
+        },
+        {
+          "slug": "yoga-oem-3",
+          "name": "Yoga OEM"
         }
       ],
       "readTime": "7 min read",
@@ -691,44 +729,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 47,
-      "featured": false
-    },
-    {
-      "title": "Vuori Kore vs Banks Short: Training & Everyday Wear Compared",
-      "slug": "vuori-kore-vs-banks-short-which-is-better-for-training-and-everyday-wear",
-      "url": "/vuori-kore-vs-banks-short-which-is-better-for-training-and-everyday-wear",
-      "excerpt": "Kore or Banks Short? We compare Vuori's two best-sellers across training performance, fit, comfort, and everyday wear to help you pick the right pair.",
-      "author": "Ryan Mitchell",
-      "date": "2026-07-09",
-      "category": "Brand Style Reviews",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/6f6a97e4-0016-4a6e-bca5-df97ee034426.png",
-      "tags": [
-        {
-          "slug": "vuori-shorts-2",
-          "name": "Vuori Shorts"
-        },
-        {
-          "slug": "vuori-kore",
-          "name": "Vuori Kore"
-        },
-        {
-          "slug": "vuori-kore-2",
-          "name": "Vuori Kore"
-        },
-        {
-          "slug": "vuori-banks",
-          "name": "Vuori Banks"
-        },
-        {
-          "slug": "vuori-shorts",
-          "name": "Vuori Shorts"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "brand-style-reviews",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 46,
       "featured": false
     }
   ]

@@ -4383,6 +4383,66 @@
         "scrunch-fit leggings",
         "wholesale scrunch leggings"
       ]
+    },
+    {
+      "slug": "private-yoga",
+      "name": "Private Label Yoga",
+      "description": "Create your own private label yoga pants and apparel with custom branding and design. Explore design options and manufacturing.",
+      "aliases": [
+        "private label yoga pants",
+        "custom yoga pants",
+        "yoga pants private label",
+        "private label yoga apparel",
+        "design your own yoga pants"
+      ]
+    },
+    {
+      "slug": "custom-yoga-pants",
+      "name": "Custom Yoga Pants",
+      "description": "Design and manufacture custom yoga pants, including private label options and unique design elements.",
+      "aliases": [
+        "custom yoga pants design",
+        "private label yoga pants",
+        "design yoga pants",
+        "yoga pants customization",
+        "your own yoga pants"
+      ]
+    },
+    {
+      "slug": "yoga-tech-pack",
+      "name": "Yoga Tech Pack",
+      "description": "Create custom yoga pants by understanding tech pack essentials for design, sizing, and manufacturing specifications.",
+      "aliases": [
+        "yoga pants tech pack",
+        "yoga pant design specs",
+        "tech pack for yoga wear",
+        "yoga apparel tech pack",
+        "private label yoga pants tech pack"
+      ]
+    },
+    {
+      "slug": "yoga-oem-3",
+      "name": "Yoga OEM",
+      "description": "Partner with yoga apparel OEM manufacturers for custom yoga pants, leggings, and activewear.",
+      "aliases": [
+        "oem yoga pants manufacturer",
+        "yoga pants oem",
+        "custom yoga pants",
+        "yoga apparel manufacturer",
+        "yoga activewear oem"
+      ]
+    },
+    {
+      "slug": "compression-leggings",
+      "name": "Compression Leggings",
+      "description": "Explore the design principles and manufacturing of compression leggings for activewear brands.",
+      "aliases": [
+        "compression leggings design",
+        "design compression leggings",
+        "compression yoga pants",
+        "high compression leggings",
+        "custom compression leggings"
+      ]
     }
   ]
 }

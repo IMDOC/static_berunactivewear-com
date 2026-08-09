@@ -2,6 +2,44 @@
   "pageNumber": 2,
   "blogs": [
     {
+      "title": "Vuori Kore vs Banks Short: Training & Everyday Wear Compared",
+      "slug": "vuori-kore-vs-banks-short-which-is-better-for-training-and-everyday-wear",
+      "url": "/vuori-kore-vs-banks-short-which-is-better-for-training-and-everyday-wear",
+      "excerpt": "Kore or Banks Short? We compare Vuori's two best-sellers across training performance, fit, comfort, and everyday wear to help you pick the right pair.",
+      "author": "Ryan Mitchell",
+      "date": "2026-07-09",
+      "category": "Brand Style Reviews",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/6f6a97e4-0016-4a6e-bca5-df97ee034426.png",
+      "tags": [
+        {
+          "slug": "vuori-shorts-2",
+          "name": "Vuori Shorts"
+        },
+        {
+          "slug": "vuori-kore",
+          "name": "Vuori Kore"
+        },
+        {
+          "slug": "vuori-kore-2",
+          "name": "Vuori Kore"
+        },
+        {
+          "slug": "vuori-banks",
+          "name": "Vuori Banks"
+        },
+        {
+          "slug": "vuori-shorts",
+          "name": "Vuori Shorts"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "brand-style-reviews",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 46,
+      "featured": false
+    },
+    {
       "title": "10 Best Premium Gymwear Brands in the UK (2026 Guide)",
       "slug": "10-best-premium-gymwear-brands-in-uk-2026-guide",
       "url": "/10-best-premium-gymwear-brands-in-uk-2026-guide",
@@ -761,48 +799,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 27,
-      "featured": false
-    },
-    {
-      "title": "5 Types of Fitness Training & Their Benefits for Women",
-      "slug": "five-types-of-fitness-training-and-their-benefits-for-women",
-      "url": "/five-types-of-fitness-training-and-their-benefits-for-women",
-      "excerpt": "Discover five key types of fitness training — strength, cardio, HIIT, yoga, and functional — and why each one works uniquely with the female body.",
-      "author": "Ryan Mitchell",
-      "date": "2026-06-12",
-      "category": "Category Object",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/26aef568006076525c16c196376c189e.webp",
-      "tags": [
-        {
-          "slug": "womens-workout",
-          "name": "Women's Workout"
-        },
-        {
-          "slug": "fitness-types",
-          "name": "Fitness Types"
-        },
-        {
-          "slug": "strength-training",
-          "name": "Strength Training"
-        },
-        {
-          "slug": "hiit-women",
-          "name": "HIIT Women"
-        },
-        {
-          "slug": "cardio-women",
-          "name": "Cardio Women"
-        },
-        {
-          "slug": "functional-fit",
-          "name": "Functional Fit"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "category-object",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 26,
       "featured": false
     }
   ]
