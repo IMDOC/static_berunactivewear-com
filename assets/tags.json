@@ -4443,6 +4443,84 @@
         "high compression leggings",
         "custom compression leggings"
       ]
+    },
+    {
+      "slug": "marathon-running",
+      "name": "Marathon Running",
+      "description": "Specialized apparel and gear designed for marathon runners, focusing on performance and comfort for long-distance races.",
+      "aliases": [
+        "marathon running apparel",
+        "marathon running collection",
+        "marathon apparel 2026",
+        "running apparel for marathons",
+        "marathon gear",
+        "marathon running apparel collection 2026"
+      ]
+    },
+    {
+      "slug": "sku-matrix-2",
+      "name": "SKU Matrix",
+      "description": "Understanding SKU matrix for activewear to manage product variations, inventory, and collections effectively.",
+      "aliases": [
+        "sku matrix",
+        "activewear sku matrix",
+        "stock keeping unit matrix",
+        "product variation management",
+        "sku planning",
+        "inventory sku"
+      ]
+    },
+    {
+      "slug": "moisture-wicking-3",
+      "name": "Moisture Wicking",
+      "description": "Explore moisture-wicking fabric technology for athletic apparel, keeping you dry and comfortable during intense workouts.",
+      "aliases": [
+        "moisture wicking fabric technology",
+        "wicking fabric",
+        "sweat-wicking",
+        "moisture management",
+        "dri-fit",
+        "dry-wicking",
+        "moisture-wicking fabric technology"
+      ]
+    },
+    {
+      "slug": "wear-testing",
+      "name": "Wear Testing",
+      "description": "Articles on wear-testing schedules and best practices for apparel development and quality assurance.",
+      "aliases": [
+        "wear-testing schedule",
+        "apparel wear testing",
+        "testing schedule",
+        "product testing",
+        "performance wear testing",
+        "wear-testing schedule apparel"
+      ]
+    },
+    {
+      "slug": "running-dev",
+      "name": "Running Apparel Dev",
+      "description": "Developing running apparel collections, from initial concept and product development to market launch.",
+      "aliases": [
+        "running apparel product development",
+        "running apparel collection development",
+        "running apparel design",
+        "marathon apparel development",
+        "running clothing development"
+      ]
+    },
+    {
+      "slug": "marathon-apparel",
+      "name": "Marathon Apparel",
+      "description": "Sourcing and manufacturing strategies for high-performance marathon running apparel, focusing on 2026 trends and collections.",
+      "aliases": [
+        "marathon apparel sourcing",
+        "2026 marathon apparel",
+        "running apparel collection",
+        "marathon gear sourcing",
+        "performance marathon wear",
+        "2026 marathon apparel sourcing"
+      ]
     }
   ]
 }

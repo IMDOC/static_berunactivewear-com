@@ -2,6 +2,48 @@
   "pageNumber": 2,
   "blogs": [
     {
+      "title": "UA HeatGear vs ColdGear: Which Wins in Your Climate?",
+      "slug": "under-armour-heatgear-vs-coldgear-which-collection-performs-better-in-different",
+      "url": "/under-armour-heatgear-vs-coldgear-which-collection-performs-better-in-different",
+      "excerpt": "HeatGear or ColdGear? Compare Under Armour's fabric tech, sport-specific picks, and pricing to choose the right base layer for any climate.",
+      "author": "Ryan Mitchell",
+      "date": "2026-07-09",
+      "category": "Brand Style Reviews",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/e66ebe504a1986af14781ae5e1bd1e61.webp",
+      "tags": [
+        {
+          "slug": "ua-base-layer",
+          "name": "UA Baselayer"
+        },
+        {
+          "slug": "heatgear-coldgear",
+          "name": "HeatGear & ColdGear"
+        },
+        {
+          "slug": "heatgear-coldgear-2",
+          "name": "HeatGear & ColdGear"
+        },
+        {
+          "slug": "ua-baselayer",
+          "name": "UA Base Layer"
+        },
+        {
+          "slug": "heatgear",
+          "name": "HeatGear"
+        },
+        {
+          "slug": "coldgear",
+          "name": "ColdGear"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "brand-style-reviews",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 47,
+      "featured": false
+    },
+    {
       "title": "Vuori Kore vs Banks Short: Training & Everyday Wear Compared",
       "slug": "vuori-kore-vs-banks-short-which-is-better-for-training-and-everyday-wear",
       "url": "/vuori-kore-vs-banks-short-which-is-better-for-training-and-everyday-wear",
@@ -753,52 +795,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 28,
-      "featured": false
-    },
-    {
-      "title": "Fitness Apparel Trends 2026: Sourcing Guide for Brands",
-      "slug": "fitness-apparel-trends-for-2026-what-brands-should-source-next",
-      "url": "/fitness-apparel-trends-for-2026-what-brands-should-source-next",
-      "excerpt": "Plan your 2026 fitness apparel line with confidence. Explore sourcing-ready trend breakdowns covering performance fabrics, sustainable materials, silhouettes, and more.",
-      "author": "Ryan Mitchell",
-      "date": "2026-06-12",
-      "category": "Category Object",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/998979d7-2543-496b-86ec-0f35e2caca32.png",
-      "tags": [
-        {
-          "slug": "gym-to-street",
-          "name": "Gym-to-Street"
-        },
-        {
-          "slug": "fitness-trends",
-          "name": "Fitness Trends"
-        },
-        {
-          "slug": "activewear-sourcing",
-          "name": "Activewear Sourcing"
-        },
-        {
-          "slug": "perf-fabric",
-          "name": "Perf Fabric"
-        },
-        {
-          "slug": "recycled-poly",
-          "name": "Recycled Poly"
-        },
-        {
-          "slug": "seamless-sportswear",
-          "name": "Seamless Sportswear"
-        },
-        {
-          "slug": "inclusive-size",
-          "name": "Inclusive Size"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "category-object",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 27,
       "featured": false
     }
   ]
