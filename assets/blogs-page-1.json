@@ -44,7 +44,7 @@
       "categorySlug": "category-object",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
-      "id": 67,
+      "id": 68,
       "featured": true
     },
     {
@@ -86,7 +86,7 @@
       "categorySlug": "category-object",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
-      "id": 66,
+      "id": 67,
       "featured": false
     },
     {
@@ -124,7 +124,7 @@
       "categorySlug": "category-object",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
-      "id": 65,
+      "id": 66,
       "featured": false
     },
     {
@@ -162,7 +162,7 @@
       "categorySlug": "category-object",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
-      "id": 64,
+      "id": 65,
       "featured": false
     },
     {
@@ -194,6 +194,48 @@
         {
           "slug": "yoga-oem-3",
           "name": "Yoga OEM"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "category-object",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 64,
+      "featured": false
+    },
+    {
+      "title": "Top 5 Proven Strategies to Increase Swimwear Sales in 2026",
+      "slug": "top-5-proven-strategies-to-increase-swimwear-sales-in-2026",
+      "url": "/top-5-proven-strategies-to-increase-swimwear-sales-in-2026",
+      "excerpt": "5 data-backed swimwear sales tactics for 2026 — fit quizzes, weather-triggered campaigns, email flows, and cart recovery to cut returns and boost revenue.",
+      "author": "Ryan Mitchell",
+      "date": "2026-07-29",
+      "category": "Category Object",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/c690ed3d65c71bb4d78c7d3f83135a04.webp",
+      "tags": [
+        {
+          "slug": "cart-recovery",
+          "name": "Cart Recovery"
+        },
+        {
+          "slug": "swimwear-sales",
+          "name": "Swimwear Sales"
+        },
+        {
+          "slug": "swimwear-sales-2",
+          "name": "Swimwear Sales"
+        },
+        {
+          "slug": "swimwear-fit",
+          "name": "Swimwear Fit"
+        },
+        {
+          "slug": "swimwear-fit-2",
+          "name": "Swimwear Fit"
+        },
+        {
+          "slug": "weather-marketing",
+          "name": "Weather Marketing"
         }
       ],
       "readTime": "7 min read",
@@ -691,44 +733,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 49,
-      "featured": false
-    },
-    {
-      "title": "Nike Dri-Fit Breathe Run T-Shirt Review (2026)",
-      "slug": "nike-dri-fit-breathe-run-t-shirt-review-2026-features-benefits-is-it-worth",
-      "url": "/nike-dri-fit-breathe-run-t-shirt-review-2026-features-benefits-is-it-worth",
-      "excerpt": "Honest 2026 review of the Nike Dri-Fit Breathe Run T-Shirt. Real-world sweat tests, pros & cons, who it suits, and whether it's worth buying today.",
-      "author": "Ryan Mitchell",
-      "date": "2026-07-09",
-      "category": "Brand Style Reviews",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/84ed9a50a7c19fd82ca114eac3a4b67a.webp",
-      "tags": [
-        {
-          "slug": "dri-fit-5",
-          "name": "Dri-FIT"
-        },
-        {
-          "slug": "dri-fit-3",
-          "name": "Dri-Fit"
-        },
-        {
-          "slug": "dri-fit-4",
-          "name": "Dri-Fit"
-        },
-        {
-          "slug": "breathable-run",
-          "name": "Breathable Run"
-        },
-        {
-          "slug": "nike-review",
-          "name": "Nike Review"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "brand-style-reviews",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 48,
       "featured": false
     }
   ]
