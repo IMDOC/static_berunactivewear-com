@@ -4595,6 +4595,82 @@
         "reduce cart abandonment",
         "cart abandonment strategies"
       ]
+    },
+    {
+      "slug": "cold-weather",
+      "name": "Cold Weather",
+      "description": "Articles on workout clothing designed for cold weather training, offering warmth and performance.",
+      "aliases": [
+        "cold weather workout clothing",
+        "winter workout gear",
+        "cold weather activewear",
+        "winter athletic apparel",
+        "cold weather training"
+      ]
+    },
+    {
+      "slug": "cold-weather-2",
+      "name": "Cold Weather",
+      "description": "Gear and apparel recommendations for effective workout routines during cold weather conditions.",
+      "aliases": [
+        "cold weather training",
+        "cold weather gear",
+        "winter training clothes",
+        "cold weather activewear",
+        "cold weather apparel",
+        "cold weather training gear"
+      ]
+    },
+    {
+      "slug": "moisture-wicking-4",
+      "name": "Moisture Wicking",
+      "description": "Explore moisture-wicking fabrics and apparel for optimal comfort and performance during workouts and outdoor activities.",
+      "aliases": [
+        "moisture wicking base layer",
+        "sweat-wicking",
+        "moisture management",
+        "wicking fabric",
+        "dry-fit"
+      ]
+    },
+    {
+      "slug": "winter-running",
+      "name": "Winter Running",
+      "description": "Gear and apparel for cold weather running, including layering strategies and performance fabrics.",
+      "aliases": [
+        "winter running layers 2026",
+        "cold weather running",
+        "winter running gear",
+        "running in winter",
+        "cold weather athletic wear",
+        "winter running apparel"
+      ]
+    },
+    {
+      "slug": "cold-weather-gear",
+      "name": "Cold Weather Gear",
+      "description": "Discover the best activewear and brands for staying warm and comfortable during cold weather workouts and outdoor activities.",
+      "aliases": [
+        "cold weather brands",
+        "best cold weather brands 2026",
+        "winter activewear",
+        "cold weather clothing",
+        "warm workout gear",
+        "cold weather apparel"
+      ],
+      "featured": true
+    },
+    {
+      "slug": "cold-layering",
+      "name": "Cold Layering",
+      "description": "Optimizing workout performance with effective layering strategies for cold weather training and activewear.",
+      "aliases": [
+        "layering formula for cold workouts",
+        "cold weather layering",
+        "workout layering",
+        "layering for cold",
+        "winter workout layers"
+      ]
     }
   ]
 }

@@ -44,7 +44,7 @@
       "categorySlug": "category-object",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
-      "id": 68,
+      "id": 69,
       "featured": true
     },
     {
@@ -80,6 +80,48 @@
         {
           "slug": "running-dev",
           "name": "Running Apparel Dev"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "category-object",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 68,
+      "featured": false
+    },
+    {
+      "title": "Best Cold Weather Training Clothing Styles (2026 Guide)",
+      "slug": "best-workout-clothing-styles-for-cold-weather-training-in-2026",
+      "url": "/best-workout-clothing-styles-for-cold-weather-training-in-2026",
+      "excerpt": "Discover the best cold weather workout clothing for 2026, from moisture-wicking base layers to top brand picks like Nike, Patagonia, and Arc'teryx.",
+      "author": "Ryan Mitchell",
+      "date": "2026-07-29",
+      "category": "Category Object",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/6c5f0742-aa57-4071-b941-7c3a44cfee63.png",
+      "tags": [
+        {
+          "slug": "cold-layering",
+          "name": "Cold Layering"
+        },
+        {
+          "slug": "cold-weather",
+          "name": "Cold Weather"
+        },
+        {
+          "slug": "cold-weather-2",
+          "name": "Cold Weather"
+        },
+        {
+          "slug": "moisture-wicking-4",
+          "name": "Moisture Wicking"
+        },
+        {
+          "slug": "winter-running",
+          "name": "Winter Running"
+        },
+        {
+          "slug": "cold-weather-gear",
+          "name": "Cold Weather Gear"
         }
       ],
       "readTime": "7 min read",
@@ -691,48 +733,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 50,
-      "featured": false
-    },
-    {
-      "title": "Lululemon Align vs Wunder Train Leggings: Which Is Better?",
-      "slug": "lululemon-align-vs-wunder-train-leggings-which-is-better-for-different-training",
-      "url": "/lululemon-align-vs-wunder-train-leggings-which-is-better-for-different-training",
-      "excerpt": "Align or Wunder Train? Compare Lululemon's buttery-soft Nulu leggings vs Everlux performance tights to find the best fit for your training style.",
-      "author": "Ryan Mitchell",
-      "date": "2026-07-09",
-      "category": "Brand Style Reviews",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/4ac9ee4c-064e-45ef-a7e5-2ab38d1d75d8.png",
-      "tags": [
-        {
-          "slug": "training-leggings",
-          "name": "Training Leggings"
-        },
-        {
-          "slug": "align-vs-wunder",
-          "name": "Align vs Wunder"
-        },
-        {
-          "slug": "align-wunder",
-          "name": "Align vs Wunder"
-        },
-        {
-          "slug": "lululemon-leggings",
-          "name": "Lululemon Leggings"
-        },
-        {
-          "slug": "align-leggings",
-          "name": "Align Leggings"
-        },
-        {
-          "slug": "wunder-train",
-          "name": "Wunder Train"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "brand-style-reviews",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 49,
       "featured": false
     }
   ]
