@@ -4671,6 +4671,42 @@
         "layering for cold",
         "winter workout layers"
       ]
+    },
+    {
+      "slug": "bodybuilding-diet",
+      "name": "Bodybuilding Diet",
+      "description": "Dietary strategies for bodybuilding competitors, focusing on pre-contest nutrition and physique goals.",
+      "aliases": [
+        "bodybuilding competition diet",
+        "bodybuilding contest diet",
+        "bodybuilding nutrition",
+        "contest prep diet",
+        "competition bodybuilding diet"
+      ]
+    },
+    {
+      "slug": "physique-training",
+      "name": "Physique Training",
+      "description": "Training methods, diet, and competition strategies for physique athletes, distinct from bodybuilding.",
+      "aliases": [
+        "physique division training",
+        "physique vs bodybuilding",
+        "physique athlete training",
+        "bodybuilding vs physique",
+        "physique training differences"
+      ]
+    },
+    {
+      "slug": "contest-prep",
+      "name": "Contest Prep",
+      "description": "Guides to bodybuilding contest prep timelines, diets, and training strategies for peak physique.",
+      "aliases": [
+        "bodybuilding contest prep timeline",
+        "contest prep bodybuilding",
+        "bodybuilding competition prep",
+        "physique contest prep",
+        "competition prep timeline"
+      ]
     }
   ]
 }

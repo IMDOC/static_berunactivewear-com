@@ -44,7 +44,7 @@
       "categorySlug": "category-object",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
-      "id": 69,
+      "id": 70,
       "featured": true
     },
     {
@@ -86,7 +86,7 @@
       "categorySlug": "category-object",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
-      "id": 68,
+      "id": 69,
       "featured": false
     },
     {
@@ -128,7 +128,7 @@
       "categorySlug": "category-object",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
-      "id": 67,
+      "id": 68,
       "featured": false
     },
     {
@@ -166,7 +166,7 @@
       "categorySlug": "category-object",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
-      "id": 66,
+      "id": 67,
       "featured": false
     },
     {
@@ -204,7 +204,7 @@
       "categorySlug": "category-object",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
-      "id": 65,
+      "id": 66,
       "featured": false
     },
     {
@@ -236,6 +236,36 @@
         {
           "slug": "yoga-oem-3",
           "name": "Yoga OEM"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "category-object",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 65,
+      "featured": false
+    },
+    {
+      "title": "Physique vs Bodybuilding: Key Differences Explained",
+      "slug": "physique-vs-bodybuilding-key-differences-in-training-diet-and-competition",
+      "url": "/physique-vs-bodybuilding-key-differences-in-training-diet-and-competition",
+      "excerpt": "Physique or Bodybuilding? A 3-part self-assessment on body proportions, training age, and diet tolerance to pick your next competition division.",
+      "author": "Ryan Mitchell",
+      "date": "2026-07-29",
+      "category": "Category Object",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/6b537e9863b7089a65727cc8cd244237.webp",
+      "tags": [
+        {
+          "slug": "contest-prep",
+          "name": "Contest Prep"
+        },
+        {
+          "slug": "physique-training",
+          "name": "Physique Training"
+        },
+        {
+          "slug": "bodybuilding-diet",
+          "name": "Bodybuilding Diet"
         }
       ],
       "readTime": "7 min read",
@@ -699,40 +729,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 51,
-      "featured": false
-    },
-    {
-      "title": "Gymshark Vital vs Adapt Leggings: Which Performs Better?",
-      "slug": "gymshark-vital-vs-adapt-leggings-which-collection-offers-better-performance",
-      "url": "/gymshark-vital-vs-adapt-leggings-which-collection-offers-better-performance",
-      "excerpt": "Gymshark Vital vs Adapt leggings compared: fabric, compression, waistband fit, and best use by workout type. Find out which collection is right for you.",
-      "author": "Ryan Mitchell",
-      "date": "2026-07-09",
-      "category": "Brand Style Reviews",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/afef1a72d8ca2148632f2e672389bfc4.webp",
-      "tags": [
-        {
-          "slug": "gymshark-leggings",
-          "name": "Gymshark Leggings"
-        },
-        {
-          "slug": "vital-leggings",
-          "name": "Vital Leggings"
-        },
-        {
-          "slug": "adapt-leggings",
-          "name": "Adapt Leggings"
-        },
-        {
-          "slug": "gymshark-leggings-2",
-          "name": "Gymshark Leggings"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "brand-style-reviews",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 50,
       "featured": false
     }
   ]
