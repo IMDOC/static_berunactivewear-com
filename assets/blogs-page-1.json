@@ -2,6 +2,48 @@
   "pageNumber": 1,
   "blogs": [
     {
+      "title": "Choosing the Right Activewear: Benefits & Fabric Guide",
+      "slug": "the-benefits-of-choosing-the-right-activewear-garments",
+      "url": "/the-benefits-of-choosing-the-right-activewear-garments",
+      "excerpt": "Discover how the right activewear fabrics fix chafing, overheating, and see-through leggings so you can train harder in comfort that lasts.",
+      "author": "Ryan Mitchell",
+      "date": "2026-08-12",
+      "category": "Category Object",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/9deaad189b02aa8289bf8ff42f3cf1b6.webp",
+      "tags": [
+        {
+          "slug": "activewear-fit",
+          "name": "Activewear Fit"
+        },
+        {
+          "slug": "moisture-wicking-2",
+          "name": "Moisture Wicking"
+        },
+        {
+          "slug": "breathable-fabric",
+          "name": "Breathable Fabric"
+        },
+        {
+          "slug": "compression-fabric-3",
+          "name": "Compression Fabric"
+        },
+        {
+          "slug": "gym-fabric",
+          "name": "Gym Fabric"
+        },
+        {
+          "slug": "workout-fabric",
+          "name": "Workout Fabric"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "category-object",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 71,
+      "featured": true
+    },
+    {
       "title": "Best Workout Leggings Suppliers 2026: High-Margin Guide",
       "slug": "10-best-workout-leggings-for-activewear-brands-to-sell-in-2026-high-margin",
       "url": "/10-best-workout-leggings-for-activewear-brands-to-sell-in-2026-high-margin",
@@ -45,7 +87,7 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 70,
-      "featured": true
+      "featured": false
     },
     {
       "title": "5 Tips: Build a Marathon-Ready Running Apparel Collection 2026",
@@ -687,48 +729,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 52,
-      "featured": false
-    },
-    {
-      "title": "Best Fabrics For Compression Wear: What Delivers Support?",
-      "slug": "best-fabrics-for-compression-wear-what-delivers-the-right-support",
-      "url": "/best-fabrics-for-compression-wear-what-delivers-the-right-support",
-      "excerpt": "Compare nylon, polyester, and cotton-spandex compression fabrics. Find out which blends deliver the best support, breathability, and moisture control for your sport.",
-      "author": "Ryan Mitchell",
-      "date": "2026-07-09",
-      "category": "Fabric Technology",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/db6cc89462c47a121172b56c1f60da56.webp",
-      "tags": [
-        {
-          "slug": "compression-fabric-4",
-          "name": "Compression Fabric"
-        },
-        {
-          "slug": "compression-fabric",
-          "name": "Compression Fabric"
-        },
-        {
-          "slug": "compression-fabric-2",
-          "name": "Compression Fabric"
-        },
-        {
-          "slug": "nylon-poly",
-          "name": "Nylon & Polyester"
-        },
-        {
-          "slug": "compression-fabric-3",
-          "name": "Compression Fabric"
-        },
-        {
-          "slug": "compression-tights",
-          "name": "Compression Tights"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "fabric-technology",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 51,
       "featured": false
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "totalBlogs": 70,
+  "totalBlogs": 71,
   "totalPages": 4,
   "postsPerPage": 20,
   "categories": [
@@ -31,7 +31,7 @@
     {
       "name": "Category Object",
       "slug": "category-object",
-      "count": 44
+      "count": 45
     },
     {
       "name": "Printing Techniques",
@@ -44,5 +44,5 @@
       "count": 7
     }
   ],
-  "latestUpdate": "2026-07-29"
+  "latestUpdate": "2026-08-12"
 }

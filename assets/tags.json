@@ -4707,6 +4707,30 @@
         "physique contest prep",
         "competition prep timeline"
       ]
+    },
+    {
+      "slug": "gym-fabric",
+      "name": "Gym Fabric",
+      "description": "Explore the best materials for gym clothing, focusing on performance, durability, and comfort for your workout needs.",
+      "aliases": [
+        "gym clothing materials",
+        "activewear fabrics",
+        "workout garment materials",
+        "fitness apparel fabric",
+        "athletic wear materials"
+      ]
+    },
+    {
+      "slug": "activewear-fit",
+      "name": "Activewear Fit",
+      "description": "Explore articles on achieving the perfect activewear fit, ensuring comfort, performance, and durability for all workouts.",
+      "aliases": [
+        "activewear fit and durability",
+        "activewear fit",
+        "athletic wear fit",
+        "performance fit activewear",
+        "durable activewear fit"
+      ]
     }
   ]
 }

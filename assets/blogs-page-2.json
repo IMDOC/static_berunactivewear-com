@@ -2,6 +2,48 @@
   "pageNumber": 2,
   "blogs": [
     {
+      "title": "Best Fabrics For Compression Wear: What Delivers Support?",
+      "slug": "best-fabrics-for-compression-wear-what-delivers-the-right-support",
+      "url": "/best-fabrics-for-compression-wear-what-delivers-the-right-support",
+      "excerpt": "Compare nylon, polyester, and cotton-spandex compression fabrics. Find out which blends deliver the best support, breathability, and moisture control for your sport.",
+      "author": "Ryan Mitchell",
+      "date": "2026-07-09",
+      "category": "Fabric Technology",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/db6cc89462c47a121172b56c1f60da56.webp",
+      "tags": [
+        {
+          "slug": "compression-fabric-4",
+          "name": "Compression Fabric"
+        },
+        {
+          "slug": "compression-fabric",
+          "name": "Compression Fabric"
+        },
+        {
+          "slug": "compression-fabric-2",
+          "name": "Compression Fabric"
+        },
+        {
+          "slug": "nylon-poly",
+          "name": "Nylon & Polyester"
+        },
+        {
+          "slug": "compression-fabric-3",
+          "name": "Compression Fabric"
+        },
+        {
+          "slug": "compression-tights",
+          "name": "Compression Tights"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "fabric-technology",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 51,
+      "featured": false
+    },
+    {
       "title": "Gymshark Vital vs Adapt Leggings: Which Performs Better?",
       "slug": "gymshark-vital-vs-adapt-leggings-which-collection-offers-better-performance",
       "url": "/gymshark-vital-vs-adapt-leggings-which-collection-offers-better-performance",
@@ -761,40 +803,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 32,
-      "featured": false
-    },
-    {
-      "title": "Top 12 Custom Athletic Clothing Manufacturers in the USA",
-      "slug": "top-12-custom-athletic-clothing-manufacturers-in-usa",
-      "url": "/top-12-custom-athletic-clothing-manufacturers-in-usa",
-      "excerpt": "Discover the top 12 custom athletic clothing manufacturers in the USA — ranked by MOQ, quality, and turnaround. Find the right supplier for your fitness brand.",
-      "author": "Ryan Mitchell",
-      "date": "2026-07-03",
-      "category": "Manufacturing",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/0af4b867-5e64-4907-8437-ab0340615bb3.png",
-      "tags": [
-        {
-          "slug": "cut-sew",
-          "name": "Cut & Sew"
-        },
-        {
-          "slug": "usa-oem",
-          "name": "USA OEM"
-        },
-        {
-          "slug": "custom-gymwear",
-          "name": "Custom Gymwear"
-        },
-        {
-          "slug": "low-moq-2",
-          "name": "Low MOQ"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "manufacturing",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 31,
       "featured": false
     }
   ]
