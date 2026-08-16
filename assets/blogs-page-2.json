@@ -2,6 +2,40 @@
   "pageNumber": 2,
   "blogs": [
     {
+      "title": "Alo Airlift vs Airbrush Leggings: What's the Difference?",
+      "slug": "alo-airlift-vs-airbrush-leggings-what-s-the-difference",
+      "url": "/alo-airlift-vs-airbrush-leggings-what-s-the-difference",
+      "excerpt": "Alo Airlift vs Airbrush leggings compared: fabric, compression, fit by body type, and best workouts for each — so you buy the right $118+ pair.",
+      "author": "Ryan Mitchell",
+      "date": "2026-07-09",
+      "category": "Brand Style Reviews",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/fa46540109f625de7079b3aee39704aa.webp",
+      "tags": [
+        {
+          "slug": "alo-leggings-2",
+          "name": "Alo Leggings"
+        },
+        {
+          "slug": "alo-airbrush",
+          "name": "Alo Airbrush"
+        },
+        {
+          "slug": "alo-airlift",
+          "name": "Alo Airlift"
+        },
+        {
+          "slug": "alo-leggings",
+          "name": "Alo Leggings"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "brand-style-reviews",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 52,
+      "featured": false
+    },
+    {
       "title": "Best Fabrics For Compression Wear: What Delivers Support?",
       "slug": "best-fabrics-for-compression-wear-what-delivers-the-right-support",
       "url": "/best-fabrics-for-compression-wear-what-delivers-the-right-support",
@@ -765,44 +799,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 33,
-      "featured": false
-    },
-    {
-      "title": "Top 10 Fitness Clothing Manufacturers in Italy for Luxury Brands",
-      "slug": "top-10-fitness-clothing-manufacturers-in-italy-for-luxury-brands",
-      "url": "/top-10-fitness-clothing-manufacturers-in-italy-for-luxury-brands",
-      "excerpt": "Discover the top Italian fitness clothing manufacturers for luxury activewear brands. Compare heritage ateliers, seamless specialists, and sustainable producers.",
-      "author": "Ryan Mitchell",
-      "date": "2026-07-03",
-      "category": "Manufacturing",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/aa782731-4c57-4baa-8015-179b60d2b934.png",
-      "tags": [
-        {
-          "slug": "italy-oem-luxury",
-          "name": "Italy OEM Luxury"
-        },
-        {
-          "slug": "italy-oem",
-          "name": "Italy OEM"
-        },
-        {
-          "slug": "luxury-italy",
-          "name": "Luxury Italy"
-        },
-        {
-          "slug": "italy-oem-2",
-          "name": "Italy OEM"
-        },
-        {
-          "slug": "italy-oem-premium",
-          "name": "Italy Premium"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "manufacturing",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 32,
       "featured": false
     }
   ]

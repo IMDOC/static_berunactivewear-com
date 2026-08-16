@@ -4731,6 +4731,90 @@
         "performance fit activewear",
         "durable activewear fit"
       ]
+    },
+    {
+      "slug": "swimwear-trends-2",
+      "name": "Swimwear Trends",
+      "description": "Exploring the latest swimwear trends and styles for the upcoming seasons, from popular cuts to emerging color palettes.",
+      "aliases": [
+        "swimwear trends 2024",
+        "latest swimwear trends",
+        "swimsuit trends",
+        "hot swimwear trends",
+        "swimwear fashion"
+      ]
+    },
+    {
+      "slug": "cutout-bikini",
+      "name": "Cutout Bikini",
+      "description": "Explore the latest trends in cutout bikinis, from daring designs to chic styles for your swimwear collection.",
+      "aliases": [
+        "cut-out bikinis",
+        "cutout swimwear",
+        "bikini cutout styles",
+        "trendy bikinis",
+        "fashion bikinis"
+      ]
+    },
+    {
+      "slug": "retro-bikini",
+      "name": "Retro Bikini",
+      "description": "Explore high-waisted retro bikini styles, vintage swimwear trends, and flattering fits for poolside fashion.",
+      "aliases": [
+        "high-waisted retro bikinis",
+        "retro swimwear",
+        "vintage bikinis",
+        "high-waisted swimwear",
+        "retro bikini styles"
+      ]
+    },
+    {
+      "slug": "neon-swim",
+      "name": "Neon Swim",
+      "description": "Vibrant neon swimwear styles for making a bold statement by the pool or at the beach. Explore trending bright colors.",
+      "aliases": [
+        "neon swimwear",
+        "bright swimwear",
+        "fluorescent swim",
+        "vibrant swimwear",
+        "hot pink swimwear"
+      ]
+    },
+    {
+      "slug": "crochet-swim",
+      "name": "Crochet Swim",
+      "description": "Explore the trendy world of crochet swimwear, perfect for adding a unique texture and vintage vibe to your beach or poolside look.",
+      "aliases": [
+        "crochet swimwear",
+        "crochet bikini",
+        "crochet swimsuit",
+        "crocheted swimwear",
+        "handmade crochet swim"
+      ]
+    },
+    {
+      "slug": "string-bikinis",
+      "name": "String Bikinis",
+      "description": "Explore the latest string bikini trends for 2024, from vibrant colors to unique designs. Stay stylish by the pool and beach.",
+      "aliases": [
+        "string bikinis 2024",
+        "string bikini trends",
+        "minimalist bikinis",
+        "barely there bikinis",
+        "string bikini styles"
+      ]
+    },
+    {
+      "slug": "eco-swim",
+      "name": "Eco Swim",
+      "description": "Articles on sustainable swimwear, eco-friendly fabrics, and ethical production in the swimwear industry.",
+      "aliases": [
+        "sustainable swimwear",
+        "eco swimwear",
+        "ethical swimwear",
+        "recycled swimwear",
+        "sustainable swim"
+      ]
     }
   ]
 }

@@ -40,8 +40,54 @@
       "categorySlug": "category-object",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
-      "id": 71,
+      "id": 72,
       "featured": true
+    },
+    {
+      "title": "Hot Swimwear Trends To Wear Poolside This 2024",
+      "slug": "the-hot-swimwear-trends-to-burn-poolside-this-2024",
+      "url": "/the-hot-swimwear-trends-to-burn-poolside-this-2024",
+      "excerpt": "Cut-outs, neon, crochet, and string bikinis—here are the 7 swimwear trends actually worth wearing poolside in 2024, and who they flatter.",
+      "author": "Ryan Mitchell",
+      "date": "2026-08-12",
+      "category": "Category Object",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/5920d9644cadc305fafeec7379beda3f.webp",
+      "tags": [
+        {
+          "slug": "eco-swim",
+          "name": "Eco Swim"
+        },
+        {
+          "slug": "swimwear-trends-2",
+          "name": "Swimwear Trends"
+        },
+        {
+          "slug": "cutout-bikini",
+          "name": "Cutout Bikini"
+        },
+        {
+          "slug": "retro-bikini",
+          "name": "Retro Bikini"
+        },
+        {
+          "slug": "neon-swim",
+          "name": "Neon Swim"
+        },
+        {
+          "slug": "crochet-swim",
+          "name": "Crochet Swim"
+        },
+        {
+          "slug": "string-bikinis",
+          "name": "String Bikinis"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "category-object",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 71,
+      "featured": false
     },
     {
       "title": "Best Workout Leggings Suppliers 2026: High-Margin Guide",
@@ -695,40 +741,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 53,
-      "featured": false
-    },
-    {
-      "title": "Alo Airlift vs Airbrush Leggings: What's the Difference?",
-      "slug": "alo-airlift-vs-airbrush-leggings-what-s-the-difference",
-      "url": "/alo-airlift-vs-airbrush-leggings-what-s-the-difference",
-      "excerpt": "Alo Airlift vs Airbrush leggings compared: fabric, compression, fit by body type, and best workouts for each — so you buy the right $118+ pair.",
-      "author": "Ryan Mitchell",
-      "date": "2026-07-09",
-      "category": "Brand Style Reviews",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/fa46540109f625de7079b3aee39704aa.webp",
-      "tags": [
-        {
-          "slug": "alo-leggings-2",
-          "name": "Alo Leggings"
-        },
-        {
-          "slug": "alo-airbrush",
-          "name": "Alo Airbrush"
-        },
-        {
-          "slug": "alo-airlift",
-          "name": "Alo Airlift"
-        },
-        {
-          "slug": "alo-leggings",
-          "name": "Alo Leggings"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "brand-style-reviews",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 52,
       "featured": false
     }
   ]
