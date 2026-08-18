@@ -2,6 +2,44 @@
   "pageNumber": 1,
   "blogs": [
     {
+      "title": "3 Activewear Pieces to Look Great at the Gym",
+      "slug": "3-activewear-apparels-to-choose-if-you-want-to-look-great-in-the-gym",
+      "url": "/3-activewear-apparels-to-choose-if-you-want-to-look-great-in-the-gym",
+      "excerpt": "Discover the 3 activewear essentials—Nike Dri-FIT tops, Under Armour HeatGear leggings, and more—that help you look sharp and perform better at the gym.",
+      "author": "Ryan Mitchell",
+      "date": "2026-08-12",
+      "category": "Category Object",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/e8eceb0d2c5cb2936d0282e9f81cd411.webp",
+      "tags": [
+        {
+          "slug": "workout-apparel",
+          "name": "Workout Apparel"
+        },
+        {
+          "slug": "gym-activewear",
+          "name": "Gym Activewear"
+        },
+        {
+          "slug": "dri-fit-6",
+          "name": "Dri-FIT"
+        },
+        {
+          "slug": "ua-heatgear",
+          "name": "UA HeatGear"
+        },
+        {
+          "slug": "gym-essentials",
+          "name": "Gym Essentials"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "category-object",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 73,
+      "featured": true
+    },
+    {
       "title": "Choosing the Right Activewear: Benefits & Fabric Guide",
       "slug": "the-benefits-of-choosing-the-right-activewear-garments",
       "url": "/the-benefits-of-choosing-the-right-activewear-garments",
@@ -41,7 +79,7 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 72,
-      "featured": true
+      "featured": false
     },
     {
       "title": "Hot Swimwear Trends To Wear Poolside This 2024",
@@ -703,44 +741,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 54,
-      "featured": false
-    },
-    {
-      "title": "Adidas AEROREADY vs HEAT.RDY: Which Technology Is Better?",
-      "slug": "adidas-aeroready-vs-heat-rdy-which-performance-apparel-technology-is-better",
-      "url": "/adidas-aeroready-vs-heat-rdy-which-performance-apparel-technology-is-better",
-      "excerpt": "AEROREADY vs HEAT.RDY — find out which Adidas performance fabric technology actually keeps you cooler, fits better, and is worth the price.",
-      "author": "Ryan Mitchell",
-      "date": "2026-07-09",
-      "category": "Brand Style Reviews",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/11e7130a49c12637cee6fe53513d0185.webp",
-      "tags": [
-        {
-          "slug": "aeroready-3",
-          "name": "AEROREADY"
-        },
-        {
-          "slug": "aeroready-heat-rdy-2",
-          "name": "Aeroready vs Heat.Rdy"
-        },
-        {
-          "slug": "aeroready",
-          "name": "Aeroready"
-        },
-        {
-          "slug": "aeroready-2",
-          "name": "Aeroready"
-        },
-        {
-          "slug": "heat-rdy",
-          "name": "Heat.RDY"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "brand-style-reviews",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 53,
       "featured": false
     }
   ]

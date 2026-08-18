@@ -2,6 +2,44 @@
   "pageNumber": 3,
   "blogs": [
     {
+      "title": "Sportswear Factory vs. Trading Company: Which Is Better?",
+      "slug": "sportswear-factory-vs-trading-company-which-is-better-for-for-your-brand",
+      "url": "/sportswear-factory-vs-trading-company-which-is-better-for-for-your-brand",
+      "excerpt": "Factory or trading company — which is right for your sportswear brand? Compare costs, quality control, MOQ, and scalability to make the right sourcing decision.",
+      "author": "Ryan Mitchell",
+      "date": "2026-07-03",
+      "category": "Manufacturing",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/a4929622671d854db6698d5417115066.webp",
+      "tags": [
+        {
+          "slug": "sportswear-factory",
+          "name": "Sportswear Factory"
+        },
+        {
+          "slug": "factory-vs-trading",
+          "name": "Factory vs Trading"
+        },
+        {
+          "slug": "pls-manufacturer",
+          "name": "PLS Manufacturer"
+        },
+        {
+          "slug": "supplier-compare",
+          "name": "Supplier Compare"
+        },
+        {
+          "slug": "sourcing-guide",
+          "name": "Sourcing Guide"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "manufacturing",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 33,
+      "featured": false
+    },
+    {
       "title": "Top 10 Fitness Clothing Manufacturers in Italy for Luxury Brands",
       "slug": "top-10-fitness-clothing-manufacturers-in-italy-for-luxury-brands",
       "url": "/top-10-fitness-clothing-manufacturers-in-italy-for-luxury-brands",
@@ -757,52 +795,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 14,
-      "featured": false
-    },
-    {
-      "title": "Workout Leggings Wholesale: Top Ranges to Buy in 2024",
-      "slug": "the-hip-and-happening-workout-leggings-wholesale-range-to-die-for",
-      "url": "/the-hip-and-happening-workout-leggings-wholesale-range-to-die-for",
-      "excerpt": "Discover the top wholesale workout leggings categories for 2024—scrunch-seam, seamless, compression & plus-size lines—plus margin math and manufacturer QA tips.",
-      "author": "Ryan Mitchell",
-      "date": "2026-06-05",
-      "category": "Category Object",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/fe3279f8-6c30-484f-9d0a-6175d48efa54.png",
-      "tags": [
-        {
-          "slug": "seamless-leggings",
-          "name": "Seamless Leggings"
-        },
-        {
-          "slug": "leggings-wholesale-2",
-          "name": "Wholesale Leggings"
-        },
-        {
-          "slug": "leggings-wholesale-3",
-          "name": "Leggings Wholesale"
-        },
-        {
-          "slug": "wholesale-bulk",
-          "name": "Wholesale Bulk"
-        },
-        {
-          "slug": "leggings-oem",
-          "name": "Leggings OEM"
-        },
-        {
-          "slug": "scrunch-leggings",
-          "name": "Scrunch Leggings"
-        },
-        {
-          "slug": "compression-bulk",
-          "name": "Compression Bulk"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "category-object",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 13,
       "featured": false
     }
   ]

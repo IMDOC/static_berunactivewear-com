@@ -2,6 +2,44 @@
   "pageNumber": 2,
   "blogs": [
     {
+      "title": "Adidas AEROREADY vs HEAT.RDY: Which Technology Is Better?",
+      "slug": "adidas-aeroready-vs-heat-rdy-which-performance-apparel-technology-is-better",
+      "url": "/adidas-aeroready-vs-heat-rdy-which-performance-apparel-technology-is-better",
+      "excerpt": "AEROREADY vs HEAT.RDY — find out which Adidas performance fabric technology actually keeps you cooler, fits better, and is worth the price.",
+      "author": "Ryan Mitchell",
+      "date": "2026-07-09",
+      "category": "Brand Style Reviews",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/11e7130a49c12637cee6fe53513d0185.webp",
+      "tags": [
+        {
+          "slug": "aeroready-3",
+          "name": "AEROREADY"
+        },
+        {
+          "slug": "aeroready-heat-rdy-2",
+          "name": "Aeroready vs Heat.Rdy"
+        },
+        {
+          "slug": "aeroready",
+          "name": "Aeroready"
+        },
+        {
+          "slug": "aeroready-2",
+          "name": "Aeroready"
+        },
+        {
+          "slug": "heat-rdy",
+          "name": "Heat.RDY"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "brand-style-reviews",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 53,
+      "featured": false
+    },
+    {
       "title": "Alo Airlift vs Airbrush Leggings: What's the Difference?",
       "slug": "alo-airlift-vs-airbrush-leggings-what-s-the-difference",
       "url": "/alo-airlift-vs-airbrush-leggings-what-s-the-difference",
@@ -761,44 +799,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 34,
-      "featured": false
-    },
-    {
-      "title": "Sportswear Factory vs. Trading Company: Which Is Better?",
-      "slug": "sportswear-factory-vs-trading-company-which-is-better-for-for-your-brand",
-      "url": "/sportswear-factory-vs-trading-company-which-is-better-for-for-your-brand",
-      "excerpt": "Factory or trading company — which is right for your sportswear brand? Compare costs, quality control, MOQ, and scalability to make the right sourcing decision.",
-      "author": "Ryan Mitchell",
-      "date": "2026-07-03",
-      "category": "Manufacturing",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/a4929622671d854db6698d5417115066.webp",
-      "tags": [
-        {
-          "slug": "sportswear-factory",
-          "name": "Sportswear Factory"
-        },
-        {
-          "slug": "factory-vs-trading",
-          "name": "Factory vs Trading"
-        },
-        {
-          "slug": "pls-manufacturer",
-          "name": "PLS Manufacturer"
-        },
-        {
-          "slug": "supplier-compare",
-          "name": "Supplier Compare"
-        },
-        {
-          "slug": "sourcing-guide",
-          "name": "Sourcing Guide"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "manufacturing",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 33,
       "featured": false
     }
   ]

@@ -4815,6 +4815,67 @@
         "recycled swimwear",
         "sustainable swim"
       ]
+    },
+    {
+      "slug": "gym-activewear",
+      "name": "Gym Activewear",
+      "description": "Selecting the best activewear for gym workouts and fitness routines, focusing on comfort, performance, and style.",
+      "aliases": [
+        "best activewear for the gym",
+        "gym wear",
+        "workout clothes",
+        "gym apparel",
+        "fitness activewear"
+      ]
+    },
+    {
+      "slug": "dri-fit-6",
+      "name": "Dri-FIT",
+      "description": "Explore the benefits and applications of Nike's Dri-FIT technology for moisture-wicking activewear.",
+      "aliases": [
+        "nike dri-fit",
+        "dri-fit training top",
+        "dri-fit fabric",
+        "moisture-wicking technology",
+        "dry-fit",
+        "nike dri-fit training top"
+      ]
+    },
+    {
+      "slug": "ua-heatgear",
+      "name": "UA HeatGear",
+      "description": "Under Armour HeatGear leggings and performance apparel for optimal training and comfort.",
+      "aliases": [
+        "under armour heatgear",
+        "ua heatgear leggings",
+        "heatgear apparel",
+        "ua performance gear",
+        "heatgear",
+        "under armour heatgear leggings"
+      ]
+    },
+    {
+      "slug": "gym-essentials",
+      "name": "Gym Essentials",
+      "description": "Essential gym clothing items and apparel to build a functional and stylish workout wardrobe.",
+      "aliases": [
+        "gym clothing essentials",
+        "gym wear essentials",
+        "workout essentials",
+        "gym apparel must-haves"
+      ]
+    },
+    {
+      "slug": "workout-apparel",
+      "name": "Workout Apparel",
+      "description": "Guides and tips for selecting the best workout apparel for your fitness needs and style.",
+      "aliases": [
+        "workout apparel guide",
+        "gym clothes",
+        "fitness apparel",
+        "activewear",
+        "training clothes"
+      ]
     }
   ]
 }
