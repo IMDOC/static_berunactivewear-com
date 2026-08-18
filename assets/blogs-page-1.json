@@ -36,8 +36,54 @@
       "categorySlug": "category-object",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
-      "id": 73,
+      "id": 74,
       "featured": true
+    },
+    {
+      "title": "Best Activewear Pieces to Buy in Bulk (Wholesale Guide)",
+      "slug": "activewear-clothing-pieces-you-need-to-buy-in-bulk",
+      "url": "/activewear-clothing-pieces-you-need-to-buy-in-bulk",
+      "excerpt": "Which activewear categories are worth your bulk order budget? A margin-by-margin breakdown of leggings, bras, shorts, and more for wholesale buyers.",
+      "author": "Ryan Mitchell",
+      "date": "2026-08-12",
+      "category": "Category Object",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/9b7394a851e621b13adf84424f109fe1.webp",
+      "tags": [
+        {
+          "slug": "moq-activewear",
+          "name": "MOQ Activewear"
+        },
+        {
+          "slug": "bulk-activewear",
+          "name": "Bulk Activewear"
+        },
+        {
+          "slug": "leggings-supplier",
+          "name": "Leggings Supplier"
+        },
+        {
+          "slug": "wholesale-activewear",
+          "name": "Wholesale Activewear"
+        },
+        {
+          "slug": "bulk-activewear-2",
+          "name": "Bulk Activewear"
+        },
+        {
+          "slug": "sports-bra-wholesale",
+          "name": "Wholesale Sports Bras"
+        },
+        {
+          "slug": "activewear-oem",
+          "name": "Activewear OEM"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "category-object",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 73,
+      "featured": false
     },
     {
       "title": "Choosing the Right Activewear: Benefits & Fabric Guide",
@@ -724,23 +770,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 55,
-      "featured": false
-    },
-    {
-      "title": "5 Quality Control Steps Every Activewear Brand Needs",
-      "slug": "5-key-quality-control-steps-every-activewear-brand-should-follow",
-      "url": "/5-key-quality-control-steps-every-activewear-brand-should-follow",
-      "excerpt": "Avoid costly returns and brand damage. See the 5 QC steps activewear brands must follow—from fabric testing to final AQL inspection before shipment.",
-      "author": "Ryan Mitchell",
-      "date": "2026-07-09",
-      "category": "Manufacturing",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/c30c840e-7a02-4055-abae-12936af65fec.png",
-      "tags": [],
-      "readTime": "7 min read",
-      "categorySlug": "manufacturing",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 54,
       "featured": false
     }
   ]

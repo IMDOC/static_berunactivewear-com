@@ -4876,6 +4876,54 @@
         "activewear",
         "training clothes"
       ]
+    },
+    {
+      "slug": "bulk-activewear",
+      "name": "Bulk Activewear",
+      "description": "Articles on purchasing activewear in bulk, wholesale quantities, and for large orders.",
+      "aliases": [
+        "bulk activewear buying",
+        "buy activewear in bulk",
+        "wholesale activewear",
+        "activewear bulk orders",
+        "large quantity activewear"
+      ]
+    },
+    {
+      "slug": "wholesale-activewear",
+      "name": "Wholesale Activewear",
+      "description": "Sourcing activewear in bulk for your retail business, including wholesale order strategies and supplier selection.",
+      "aliases": [
+        "activewear wholesale order",
+        "bulk activewear",
+        "wholesale activewear clothing",
+        "activewear bulk buy",
+        "wholesale athletic apparel"
+      ]
+    },
+    {
+      "slug": "bulk-activewear-2",
+      "name": "Bulk Activewear",
+      "description": "Bulk purchasing strategies and benefits for activewear to maximize value and stock.",
+      "aliases": [
+        "bulk buy clothing activewear",
+        "wholesale activewear",
+        "bulk activewear clothing",
+        "activewear bulk buy",
+        "buy activewear in bulk"
+      ]
+    },
+    {
+      "slug": "sports-bra-wholesale",
+      "name": "Wholesale Sports Bras",
+      "description": "Bulk purchasing and wholesale options for sports bras, ideal for retailers and activewear brands.",
+      "aliases": [
+        "wholesale sports bras",
+        "bulk sports bras",
+        "sports bra wholesale",
+        "sports bra bulk buy",
+        "wholesale bra activewear"
+      ]
     }
   ]
 }

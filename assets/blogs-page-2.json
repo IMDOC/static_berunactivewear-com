@@ -2,6 +2,23 @@
   "pageNumber": 2,
   "blogs": [
     {
+      "title": "5 Quality Control Steps Every Activewear Brand Needs",
+      "slug": "5-key-quality-control-steps-every-activewear-brand-should-follow",
+      "url": "/5-key-quality-control-steps-every-activewear-brand-should-follow",
+      "excerpt": "Avoid costly returns and brand damage. See the 5 QC steps activewear brands must follow—from fabric testing to final AQL inspection before shipment.",
+      "author": "Ryan Mitchell",
+      "date": "2026-07-09",
+      "category": "Manufacturing",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/c30c840e-7a02-4055-abae-12936af65fec.png",
+      "tags": [],
+      "readTime": "7 min read",
+      "categorySlug": "manufacturing",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 54,
+      "featured": false
+    },
+    {
       "title": "Adidas AEROREADY vs HEAT.RDY: Which Technology Is Better?",
       "slug": "adidas-aeroready-vs-heat-rdy-which-performance-apparel-technology-is-better",
       "url": "/adidas-aeroready-vs-heat-rdy-which-performance-apparel-technology-is-better",
@@ -765,40 +782,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 35,
-      "featured": false
-    },
-    {
-      "title": "Seamless vs Cut-and-Sew Activewear: Which Method Is Better?",
-      "slug": "seamless-vs-cut-and-sew-activewear-which-manufacturing-method-is-better",
-      "url": "/seamless-vs-cut-and-sew-activewear-which-manufacturing-method-is-better",
-      "excerpt": "Seamless vs cut-and-sew activewear — compare performance, cost, MOQ, and design flexibility to choose the right manufacturing method for your brand.",
-      "author": "Ryan Mitchell",
-      "date": "2026-07-03",
-      "category": "Printing Techniques",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/9a2e81ebc61036f49d99635a8ae3a747.webp",
-      "tags": [
-        {
-          "slug": "seamless-moq",
-          "name": "Seamless MOQ"
-        },
-        {
-          "slug": "seamless-vs-cutsew",
-          "name": "Seamless vs Cut-Sew"
-        },
-        {
-          "slug": "cut-sew-2",
-          "name": "Cut & Sew"
-        },
-        {
-          "slug": "manufacturing",
-          "name": "Manufacturing"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "printing-techniques",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 34,
       "featured": false
     }
   ]
