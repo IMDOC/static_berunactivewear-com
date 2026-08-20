@@ -4924,6 +4924,69 @@
         "sports bra bulk buy",
         "wholesale bra activewear"
       ]
+    },
+    {
+      "slug": "womens-bottoms",
+      "name": "Women's Bottoms",
+      "description": "Explore articles on selecting the perfect women's bottoms, including leggings, shorts, and pants for various activities.",
+      "aliases": [
+        "women's bottom wear",
+        "ladies bottoms",
+        "bottom wear for women",
+        "womens active bottoms",
+        "womens workout bottoms"
+      ]
+    },
+    {
+      "slug": "body-type-bottoms",
+      "name": "Body Type Bottoms",
+      "description": "Guidance on selecting the ideal women's bottom wear based on individual body types and flattering fits.",
+      "aliases": [
+        "body type bottom wear",
+        "bottom wear for body type",
+        "choose bottom wear",
+        "flattering bottoms",
+        "body type guide",
+        "how to choose bottom wear for body type"
+      ]
+    },
+    {
+      "slug": "leg-cut",
+      "name": "Leg Cut",
+      "description": "Exploring the differences between wide-leg and straight-leg pant cuts for women's activewear and casual bottoms.",
+      "aliases": [
+        "wide-leg vs straight-leg pants",
+        "pant leg styles",
+        "straight leg pants",
+        "wide leg pants",
+        "leg opening styles",
+        "bottom wear cuts"
+      ]
+    },
+    {
+      "slug": "body-shape-pants",
+      "name": "Body Shape Pants",
+      "description": "Find the perfect pants and bottoms tailored to your specific body shape, including pear, apple, and hourglass figures.",
+      "aliases": [
+        "pants for pear shape",
+        "pants for apple shape",
+        "pants for hourglass shape",
+        "body type pants",
+        "best pants for body shape",
+        "best pants for pear apple hourglass shape"
+      ]
+    },
+    {
+      "slug": "pants-fit",
+      "name": "Pants Fit",
+      "description": "Guidance on ensuring the perfect fit for women's pants, including essential checks before purchase.",
+      "aliases": [
+        "fitting room checklist for pants",
+        "pants fitting guide",
+        "how to choose pants fit",
+        "women's pants fit",
+        "pants fit guide"
+      ]
     }
   ]
 }
