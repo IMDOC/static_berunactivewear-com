@@ -2,6 +2,40 @@
   "pageNumber": 3,
   "blogs": [
     {
+      "title": "Cost to Start a Custom Activewear Brand in 2026",
+      "slug": "how-much-does-it-cost-to-start-a-custom-activewear-brand-in-2026-a-complete",
+      "url": "/how-much-does-it-cost-to-start-a-custom-activewear-brand-in-2026-a-complete",
+      "excerpt": "Get real 2026 numbers on launching a custom activewear brand — from sampling to logistics. Three budget tiers covered so you know exactly where to spend.",
+      "author": "Ryan Mitchell",
+      "date": "2026-07-03",
+      "category": "Sourcing Guides",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/9216a6e27961c42a3d47b66a08bc7f9c.webp",
+      "tags": [
+        {
+          "slug": "brand-cost",
+          "name": "Brand Cost"
+        },
+        {
+          "slug": "startup-costs",
+          "name": "Startup Costs"
+        },
+        {
+          "slug": "brand-budget",
+          "name": "Brand Budget"
+        },
+        {
+          "slug": "mfg-costs",
+          "name": "Mfg Costs"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "sourcing-guides",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 35,
+      "featured": false
+    },
+    {
       "title": "Seamless vs Cut-and-Sew Activewear: Which Method Is Better?",
       "slug": "seamless-vs-cut-and-sew-activewear-which-manufacturing-method-is-better",
       "url": "/seamless-vs-cut-and-sew-activewear-which-manufacturing-method-is-better",
@@ -749,48 +783,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 16,
-      "featured": false
-    },
-    {
-      "title": "3 Yoga Pants Pattern Trends You Need to Try in 2026",
-      "slug": "3-pattern-trends-forecasting-that-you-need-to-try-on-yoga-pants",
-      "url": "/3-pattern-trends-forecasting-that-you-need-to-try-on-yoga-pants",
-      "excerpt": "Discover 3 rising yoga pants pattern trends — geometric, botanical, and digital gradients — and learn how to source them before they peak.",
-      "author": "Ryan Mitchell",
-      "date": "2026-06-05",
-      "category": "Category Object",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/8461c062-30ab-49da-a591-b7346c4c12c6.png",
-      "tags": [
-        {
-          "slug": "yoga-prints",
-          "name": "Yoga Prints"
-        },
-        {
-          "slug": "yoga-patterns",
-          "name": "Yoga Patterns"
-        },
-        {
-          "slug": "geo-print",
-          "name": "Geo Print"
-        },
-        {
-          "slug": "botanical-print",
-          "name": "Botanical Print"
-        },
-        {
-          "slug": "digital-gradient",
-          "name": "Digital Gradient"
-        },
-        {
-          "slug": "print-trends",
-          "name": "Print Trends"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "category-object",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 15,
       "featured": false
     }
   ]

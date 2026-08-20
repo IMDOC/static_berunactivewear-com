@@ -2,6 +2,44 @@
   "pageNumber": 1,
   "blogs": [
     {
+      "title": "How to Choose the Right Women's Bottom Wear: Fit Guide",
+      "slug": "how-to-choose-the-right-women-s-bottom-wear",
+      "url": "/how-to-choose-the-right-women-s-bottom-wear",
+      "excerpt": "A practical fit guide to choosing women's bottom wear by body type, occasion, and fabric—plus a fitting-room checklist to get it right every time.",
+      "author": "Ryan Mitchell",
+      "date": "2026-08-13",
+      "category": "Category Object",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/11980e347831a0f1dc6ab772c5d63d3f.webp",
+      "tags": [
+        {
+          "slug": "pants-fit",
+          "name": "Pants Fit"
+        },
+        {
+          "slug": "womens-bottoms",
+          "name": "Women's Bottoms"
+        },
+        {
+          "slug": "body-type-bottoms",
+          "name": "Body Type Bottoms"
+        },
+        {
+          "slug": "leg-cut",
+          "name": "Leg Cut"
+        },
+        {
+          "slug": "body-shape-pants",
+          "name": "Body Shape Pants"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "category-object",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 75,
+      "featured": true
+    },
+    {
       "title": "3 Activewear Pieces to Look Great at the Gym",
       "slug": "3-activewear-apparels-to-choose-if-you-want-to-look-great-in-the-gym",
       "url": "/3-activewear-apparels-to-choose-if-you-want-to-look-great-in-the-gym",
@@ -37,7 +75,7 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 74,
-      "featured": true
+      "featured": false
     },
     {
       "title": "Best Activewear Pieces to Buy in Bulk (Wholesale Guide)",
@@ -732,44 +770,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 56,
-      "featured": false
-    },
-    {
-      "title": "Seasonal Buying Guide for Australian Apparel Retailers",
-      "slug": "top-seasonal-trends-for-australian-apparel-retail-stores",
-      "url": "/top-seasonal-trends-for-australian-apparel-retail-stores",
-      "excerpt": "A season-by-season stocking calendar for Australian apparel retailers, with lead times, buying windows, and a purchase-order checklist for each quarter.",
-      "author": "Ryan Mitchell",
-      "date": "2026-07-28",
-      "category": "Category Object",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/3270d116-ad8d-4146-a454-e7fab99d3f50.png",
-      "tags": [
-        {
-          "slug": "aus-fashion",
-          "name": "Australian Fashion"
-        },
-        {
-          "slug": "aus-retail-trends",
-          "name": "Australian Retail Trends"
-        },
-        {
-          "slug": "seasonal-trends",
-          "name": "Seasonal Trends"
-        },
-        {
-          "slug": "retail-stocking",
-          "name": "Retail Stocking"
-        },
-        {
-          "slug": "po-checklist",
-          "name": "PO Checklist"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "category-object",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 55,
       "featured": false
     }
   ]
