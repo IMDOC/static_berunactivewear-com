@@ -4987,6 +4987,78 @@
         "women's pants fit",
         "pants fit guide"
       ]
+    },
+    {
+      "slug": "strength-training-2",
+      "name": "Strength Training",
+      "description": "Articles on choosing the best activewear for strength training, powerlifting, and weightlifting workouts.",
+      "aliases": [
+        "activewear for strength training",
+        "strength training activewear",
+        "weightlifting apparel",
+        "powerlifting gear",
+        "gym strength training"
+      ]
+    },
+    {
+      "slug": "moisture-wicking-5",
+      "name": "Moisture Wicking",
+      "description": "Articles about moisture-wicking fabrics and their benefits for activewear to keep you dry and comfortable during workouts.",
+      "aliases": [
+        "moisture wicking",
+        "moisture-wicking leggings",
+        "sweat-wicking",
+        "quick-dry fabric",
+        "moisture management"
+      ]
+    },
+    {
+      "slug": "yoga-leggings",
+      "name": "Yoga Leggings",
+      "description": "Discover the best yoga leggings, focusing on fit, fabric, and performance for your practice.",
+      "aliases": [
+        "best yoga leggings",
+        "yoga leggings",
+        "leggings for yoga",
+        "yoga pants",
+        "seamless yoga leggings"
+      ]
+    },
+    {
+      "slug": "hiit-wear",
+      "name": "HIIT Wear",
+      "description": "High-intensity interval training (HIIT) activewear for intense workouts and peak performance.",
+      "aliases": [
+        "hiit workout clothes",
+        "hiit activewear",
+        "clothes for hiit",
+        "hiit training gear",
+        "high intensity interval training"
+      ]
+    },
+    {
+      "slug": "running-womens",
+      "name": "Running Women's",
+      "description": "Activewear for women runners, covering performance gear, comfort, and style for all running levels.",
+      "aliases": [
+        "running activewear for women",
+        "womens running gear",
+        "running apparel for ladies",
+        "female running clothes",
+        "activewear for female runners"
+      ]
+    },
+    {
+      "slug": "womens-active-2",
+      "name": "Women's Activewear",
+      "description": "Find the perfect activewear for women, covering style, fabric, and fit for all your fitness needs.",
+      "aliases": [
+        "women's activewear guide",
+        "womens activewear",
+        "ladies activewear",
+        "activewear for women",
+        "women's fitness apparel"
+      ]
     }
   ]
 }
