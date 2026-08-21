@@ -2,6 +2,44 @@
   "pageNumber": 2,
   "blogs": [
     {
+      "title": "Top 3 High-Support Sports Bra Designs Compared",
+      "slug": "top-3-high-support-sports-bra-designs-your-collection-needs",
+      "url": "/top-3-high-support-sports-bra-designs-your-collection-needs",
+      "excerpt": "We tested 3 high-support sports bra designs—encapsulation, compression, and hybrid—across running, HIIT, and CrossFit to find what actually stops the bounce.",
+      "author": "Ryan Mitchell",
+      "date": "2026-07-28",
+      "category": "Category Object",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/29bb9442-cdea-4073-a714-c011d61335aa.png",
+      "tags": [
+        {
+          "slug": "molded-cup",
+          "name": "Molded Cup"
+        },
+        {
+          "slug": "high-impact-bra",
+          "name": "High Impact Bra"
+        },
+        {
+          "slug": "encapsulation-bra",
+          "name": "Encapsulation Bra"
+        },
+        {
+          "slug": "compression-bra",
+          "name": "Compression Bra"
+        },
+        {
+          "slug": "custom-bra-mfg",
+          "name": "Custom Bra Mfg"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "category-object",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 56,
+      "featured": false
+    },
+    {
       "title": "Seasonal Buying Guide for Australian Apparel Retailers",
       "slug": "top-seasonal-trends-for-australian-apparel-retail-stores",
       "url": "/top-seasonal-trends-for-australian-apparel-retail-stores",
@@ -748,44 +786,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 37,
-      "featured": false
-    },
-    {
-      "title": "Heat Transfer vs Screen Printing: Which Lasts Longer?",
-      "slug": "heat-transfer-vs-screen-printing-which-logo-printing-method-lasts-longer",
-      "url": "/heat-transfer-vs-screen-printing-which-logo-printing-method-lasts-longer",
-      "excerpt": "Heat transfer vs screen printing — find out which logo method survives more washes, resists cracking, and delivers better value for custom activewear.",
-      "author": "Ryan Mitchell",
-      "date": "2026-07-03",
-      "category": "Printing Techniques",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/f2364086-9ceb-4566-bd55-056533e2e1b1.png",
-      "tags": [
-        {
-          "slug": "heat-vs-screen",
-          "name": "Heat vs Screen"
-        },
-        {
-          "slug": "screen-durability",
-          "name": "Screen Durability"
-        },
-        {
-          "slug": "heat-transfer",
-          "name": "Heat Transfer"
-        },
-        {
-          "slug": "logo-printing",
-          "name": "Logo Printing"
-        },
-        {
-          "slug": "logo-printing-2",
-          "name": "Logo Printing"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "printing-techniques",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 36,
       "featured": false
     }
   ]

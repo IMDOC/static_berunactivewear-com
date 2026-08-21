@@ -36,8 +36,50 @@
       "categorySlug": "category-object",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
-      "id": 75,
+      "id": 76,
       "featured": true
+    },
+    {
+      "title": "The Right Activewear Pieces for Fitness-Loving Women",
+      "slug": "the-right-activewear-pieces-for-the-fitness-crazy-ladies",
+      "url": "/the-right-activewear-pieces-for-the-fitness-crazy-ladies",
+      "excerpt": "A workout-by-workout guide to picking the right activewear — from squat-proof leggings to sweat-proof HIIT layers and chafe-free running gear.",
+      "author": "Ryan Mitchell",
+      "date": "2026-08-13",
+      "category": "Category Object",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/b5fcfe49-0910-421a-89ae-662bc9089744.png",
+      "tags": [
+        {
+          "slug": "womens-active-2",
+          "name": "Women's Activewear"
+        },
+        {
+          "slug": "strength-training-2",
+          "name": "Strength Training"
+        },
+        {
+          "slug": "moisture-wicking-5",
+          "name": "Moisture Wicking"
+        },
+        {
+          "slug": "yoga-leggings",
+          "name": "Yoga Leggings"
+        },
+        {
+          "slug": "hiit-wear",
+          "name": "HIIT Wear"
+        },
+        {
+          "slug": "running-womens",
+          "name": "Running Women's"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "category-object",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 75,
+      "featured": false
     },
     {
       "title": "3 Activewear Pieces to Look Great at the Gym",
@@ -732,44 +774,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 57,
-      "featured": false
-    },
-    {
-      "title": "Top 3 High-Support Sports Bra Designs Compared",
-      "slug": "top-3-high-support-sports-bra-designs-your-collection-needs",
-      "url": "/top-3-high-support-sports-bra-designs-your-collection-needs",
-      "excerpt": "We tested 3 high-support sports bra designs—encapsulation, compression, and hybrid—across running, HIIT, and CrossFit to find what actually stops the bounce.",
-      "author": "Ryan Mitchell",
-      "date": "2026-07-28",
-      "category": "Category Object",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/29bb9442-cdea-4073-a714-c011d61335aa.png",
-      "tags": [
-        {
-          "slug": "molded-cup",
-          "name": "Molded Cup"
-        },
-        {
-          "slug": "high-impact-bra",
-          "name": "High Impact Bra"
-        },
-        {
-          "slug": "encapsulation-bra",
-          "name": "Encapsulation Bra"
-        },
-        {
-          "slug": "compression-bra",
-          "name": "Compression Bra"
-        },
-        {
-          "slug": "custom-bra-mfg",
-          "name": "Custom Bra Mfg"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "category-object",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 56,
       "featured": false
     }
   ]
