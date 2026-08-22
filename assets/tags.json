@@ -5059,6 +5059,69 @@
         "activewear for women",
         "women's fitness apparel"
       ]
+    },
+    {
+      "slug": "workout-sweatpants",
+      "name": "Workout Sweatpants",
+      "description": "Explore the benefits of wearing sweatpants during workouts, focusing on comfort and performance for men.",
+      "aliases": [
+        "sweatpants during workout",
+        "mens workout sweatpants",
+        "athletic sweatpants",
+        "gym sweatpants",
+        "workout pants men"
+      ]
+    },
+    {
+      "slug": "sweatpant-moisture",
+      "name": "Moisture-Wicking Sweatpants",
+      "description": "Explore sweatpants designed with moisture-wicking properties for enhanced comfort during workouts and daily wear.",
+      "aliases": [
+        "moisture-wicking sweatpants",
+        "sweatpants for workouts",
+        "moisture management pants",
+        "sweatpants moisture",
+        "breathable sweatpants"
+      ]
+    },
+    {
+      "slug": "thermal-retention",
+      "name": "Thermal Retention",
+      "description": "Clothing designed to retain body heat during exercise, ideal for cold-weather workouts and building muscle mass.",
+      "aliases": [
+        "thermal retention exercise clothing",
+        "thermal retention workout clothes",
+        "heat retention apparel",
+        "body heat retention",
+        "cold weather workout gear",
+        "thermal-retention exercise clothing"
+      ]
+    },
+    {
+      "slug": "mens-gymwear",
+      "name": "Men's Gymwear",
+      "description": "Explore men's gymwear, including workout apparel, performance fabrics, and training essentials for effective workouts.",
+      "aliases": [
+        "men's workout apparel",
+        "mens gym clothing",
+        "mens activewear",
+        "workout clothes for men",
+        "mens training gear",
+        "men's athletic wear"
+      ]
+    },
+    {
+      "slug": "sweatpants",
+      "name": "Sweatpants",
+      "description": "Exploring the benefits of sweatpants for workouts, focusing on comfort, warmth, and performance for men.",
+      "aliases": [
+        "benefits of sweatpants for gym",
+        "sweatpants for workout",
+        "mens gym sweatpants",
+        "workout sweatpants",
+        "gym trousers",
+        "joggers for gym"
+      ]
     }
   ]
 }
