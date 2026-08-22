@@ -36,7 +36,7 @@
       "categorySlug": "category-object",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
-      "id": 76,
+      "id": 77,
       "featured": true
     },
     {
@@ -72,6 +72,44 @@
         {
           "slug": "running-womens",
           "name": "Running Women's"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "category-object",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 76,
+      "featured": false
+    },
+    {
+      "title": "5 Benefits of Wearing Sweatpants During Workouts for Men",
+      "slug": "top-five-benefits-of-wearing-sweatpants-during-workout-for-men",
+      "url": "/top-five-benefits-of-wearing-sweatpants-during-workout-for-men",
+      "excerpt": "5 science-backed reasons men wear sweatpants at the gym—warm-up, skin protection, sweat control—plus when to skip them.",
+      "author": "Ryan Mitchell",
+      "date": "2026-08-13",
+      "category": "Category Object",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/079d319de63229f078305a5d21a81142.webp",
+      "tags": [
+        {
+          "slug": "sweatpants",
+          "name": "Sweatpants"
+        },
+        {
+          "slug": "workout-sweatpants",
+          "name": "Workout Sweatpants"
+        },
+        {
+          "slug": "sweatpant-moisture",
+          "name": "Moisture-Wicking Sweatpants"
+        },
+        {
+          "slug": "thermal-retention",
+          "name": "Thermal Retention"
+        },
+        {
+          "slug": "mens-gymwear",
+          "name": "Men's Gymwear"
         }
       ],
       "readTime": "7 min read",
@@ -732,48 +770,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 58,
-      "featured": false
-    },
-    {
-      "title": "Best Workout Gear Retailers Should Stock in 2026",
-      "slug": "the-best-workout-gear-that-retailers-should-invest-in-2026",
-      "url": "/the-best-workout-gear-that-retailers-should-invest-in-2026",
-      "excerpt": "A data-backed 2026 buying guide for retailers: which workout gear categories have real demand, what markup they support, and which trends to avoid.",
-      "author": "Ryan Mitchell",
-      "date": "2026-07-28",
-      "category": "Category Object",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/9766633a-74be-40e3-b865-a7436c734b54.png",
-      "tags": [
-        {
-          "slug": "home-gym-retail",
-          "name": "Home Gym Retail"
-        },
-        {
-          "slug": "workout-retailers",
-          "name": "Workout Retailers"
-        },
-        {
-          "slug": "fitness-trends-2",
-          "name": "Fitness Trends"
-        },
-        {
-          "slug": "fitness-wholesale",
-          "name": "Fitness Wholesale"
-        },
-        {
-          "slug": "pls-manufacturer",
-          "name": "PLS Manufacturer"
-        },
-        {
-          "slug": "gym-accessories",
-          "name": "Gym Accessories"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "category-object",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 57,
       "featured": false
     }
   ]

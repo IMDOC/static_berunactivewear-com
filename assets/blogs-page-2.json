@@ -2,6 +2,48 @@
   "pageNumber": 2,
   "blogs": [
     {
+      "title": "Best Workout Gear Retailers Should Stock in 2026",
+      "slug": "the-best-workout-gear-that-retailers-should-invest-in-2026",
+      "url": "/the-best-workout-gear-that-retailers-should-invest-in-2026",
+      "excerpt": "A data-backed 2026 buying guide for retailers: which workout gear categories have real demand, what markup they support, and which trends to avoid.",
+      "author": "Ryan Mitchell",
+      "date": "2026-07-28",
+      "category": "Category Object",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/9766633a-74be-40e3-b865-a7436c734b54.png",
+      "tags": [
+        {
+          "slug": "home-gym-retail",
+          "name": "Home Gym Retail"
+        },
+        {
+          "slug": "workout-retailers",
+          "name": "Workout Retailers"
+        },
+        {
+          "slug": "fitness-trends-2",
+          "name": "Fitness Trends"
+        },
+        {
+          "slug": "fitness-wholesale",
+          "name": "Fitness Wholesale"
+        },
+        {
+          "slug": "pls-manufacturer",
+          "name": "PLS Manufacturer"
+        },
+        {
+          "slug": "gym-accessories",
+          "name": "Gym Accessories"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "category-object",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 57,
+      "featured": false
+    },
+    {
       "title": "Top 3 High-Support Sports Bra Designs Compared",
       "slug": "top-3-high-support-sports-bra-designs-your-collection-needs",
       "url": "/top-3-high-support-sports-bra-designs-your-collection-needs",
@@ -744,48 +786,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 38,
-      "featured": false
-    },
-    {
-      "title": "Flatlock vs Overlock Stitching for Compression Wear",
-      "slug": "flatlock-vs-overlock-stitching-which-seam-is-better-for-compression-wear",
-      "url": "/flatlock-vs-overlock-stitching-which-seam-is-better-for-compression-wear",
-      "excerpt": "Flatlock or overlock seams — which is better for compression wear? Compare chafing resistance, durability, stretch, and placement strategy in this full guide.",
-      "author": "Ryan Mitchell",
-      "date": "2026-07-03",
-      "category": "Printing Techniques",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/80ae0d23-819c-405f-bdf9-dc03e827fef6.png",
-      "tags": [
-        {
-          "slug": "stitching-guide",
-          "name": "Stitching Guide"
-        },
-        {
-          "slug": "flatlock-seam-2",
-          "name": "Flatlock Seam"
-        },
-        {
-          "slug": "overlock-stitch",
-          "name": "Overlock Stitch"
-        },
-        {
-          "slug": "compression-seams",
-          "name": "Compression Seams"
-        },
-        {
-          "slug": "compression-seam",
-          "name": "Compression Seam"
-        },
-        {
-          "slug": "flatlock-stitch",
-          "name": "Flatlock Stitch"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "printing-techniques",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 37,
       "featured": false
     }
   ]
