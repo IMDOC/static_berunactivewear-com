@@ -5122,6 +5122,41 @@
         "gym trousers",
         "joggers for gym"
       ]
+    },
+    {
+      "slug": "leggings-outfit",
+      "name": "Leggings Outfits",
+      "description": "Outfit ideas and styling tips for leggings, from athletic wear to casual looks.",
+      "aliases": [
+        "leggings outfit ideas",
+        "outfit ideas for leggings",
+        "leggings style",
+        "how to style leggings",
+        "leggings outfits"
+      ]
+    },
+    {
+      "slug": "new-year-style",
+      "name": "New Year Style",
+      "description": "Curated collections and style guides for your perfect New Year's Eve and New Year's Day outfits.",
+      "aliases": [
+        "new year outfit ideas",
+        "new year outfits",
+        "new year style guide",
+        "new year fashion"
+      ]
+    },
+    {
+      "slug": "holiday-leggings",
+      "name": "Holiday Leggings",
+      "description": "Discover festive leggings perfect for holiday outfits and New Year's style, offering comfort and seasonal flair.",
+      "aliases": [
+        "holiday leggings outfits",
+        "festive leggings",
+        "new year leggings",
+        "christmas leggings",
+        "holiday leggings style"
+      ]
     }
   ]
 }
