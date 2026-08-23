@@ -2,6 +2,40 @@
   "pageNumber": 1,
   "blogs": [
     {
+      "title": "Leggings Outfits for New Year: Style Guide by Occasion",
+      "slug": "fab-leggings-that-are-perfect-for-your-new-year-style",
+      "url": "/fab-leggings-that-are-perfect-for-your-new-year-style",
+      "excerpt": "Fab leggings outfits for every New Year event—cozy family nights, parties, and countdown looks—with tops, shoes, and color-pairing tips.",
+      "author": "Ryan Mitchell",
+      "date": "2026-08-14",
+      "category": "Category Object",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/9288560fadeea3876969ab71fc3ac6cd.webp",
+      "tags": [
+        {
+          "slug": "styling-tips",
+          "name": "Styling Tips"
+        },
+        {
+          "slug": "leggings-outfit",
+          "name": "Leggings Outfits"
+        },
+        {
+          "slug": "new-year-style",
+          "name": "New Year Style"
+        },
+        {
+          "slug": "holiday-leggings",
+          "name": "Holiday Leggings"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "category-object",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 78,
+      "featured": true
+    },
+    {
       "title": "How to Choose the Right Women's Bottom Wear: Fit Guide",
       "slug": "how-to-choose-the-right-women-s-bottom-wear",
       "url": "/how-to-choose-the-right-women-s-bottom-wear",
@@ -37,7 +71,7 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 77,
-      "featured": true
+      "featured": false
     },
     {
       "title": "The Right Activewear Pieces for Fitness-Loving Women",
@@ -753,23 +787,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 59,
-      "featured": false
-    },
-    {
-      "title": "How to Pick the Right Swimwear for Your Body Shape",
-      "slug": "how-to-pick-the-right-swimwear-for-women-this-summer",
-      "url": "/how-to-pick-the-right-swimwear-for-women-this-summer",
-      "excerpt": "Find your body shape in seconds and discover the swimsuit cuts that flatter pear, apple, hourglass, and rectangle figures this summer.",
-      "author": "Ryan Mitchell",
-      "date": "2026-07-28",
-      "category": "Category Object",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/e6e93aad-64b1-430c-9904-c396f931fd79.png",
-      "tags": [],
-      "readTime": "7 min read",
-      "categorySlug": "category-object",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 58,
       "featured": false
     }
   ]

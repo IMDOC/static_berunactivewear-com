@@ -2,6 +2,23 @@
   "pageNumber": 2,
   "blogs": [
     {
+      "title": "How to Pick the Right Swimwear for Your Body Shape",
+      "slug": "how-to-pick-the-right-swimwear-for-women-this-summer",
+      "url": "/how-to-pick-the-right-swimwear-for-women-this-summer",
+      "excerpt": "Find your body shape in seconds and discover the swimsuit cuts that flatter pear, apple, hourglass, and rectangle figures this summer.",
+      "author": "Ryan Mitchell",
+      "date": "2026-07-28",
+      "category": "Category Object",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/e6e93aad-64b1-430c-9904-c396f931fd79.png",
+      "tags": [],
+      "readTime": "7 min read",
+      "categorySlug": "category-object",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 58,
+      "featured": false
+    },
+    {
       "title": "Best Workout Gear Retailers Should Stock in 2026",
       "slug": "the-best-workout-gear-that-retailers-should-invest-in-2026",
       "url": "/the-best-workout-gear-that-retailers-should-invest-in-2026",
@@ -744,48 +761,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 39,
-      "featured": false
-    },
-    {
-      "title": "Embroidery vs Heat Seal Uniform Branding: Pros, Cons & Best Uses",
-      "slug": "embroidery-vs-heat-seal-uniform-branding-pros-cons-best-uses",
-      "url": "/embroidery-vs-heat-seal-uniform-branding-pros-cons-best-uses",
-      "excerpt": "Embroidery or heat seal for your uniforms? Compare durability, cost, fabric fit, and best uses to choose the right branding method for your team.",
-      "author": "Ryan Mitchell",
-      "date": "2026-07-03",
-      "category": "Printing Techniques",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/761f6df9ed224a65366353159d52f682.webp",
-      "tags": [
-        {
-          "slug": "heat-seal-3",
-          "name": "Heat Seal"
-        },
-        {
-          "slug": "heat-seal",
-          "name": "Heat Seal"
-        },
-        {
-          "slug": "heat-seal-2",
-          "name": "Heat Seal"
-        },
-        {
-          "slug": "embroidery",
-          "name": "Embroidery"
-        },
-        {
-          "slug": "logo-method",
-          "name": "Logo Method"
-        },
-        {
-          "slug": "uniform-decoration",
-          "name": "Uniform Decoration"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "printing-techniques",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 38,
       "featured": false
     }
   ]
