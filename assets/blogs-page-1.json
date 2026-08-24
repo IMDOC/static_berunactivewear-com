@@ -32,8 +32,46 @@
       "categorySlug": "category-object",
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
-      "id": 78,
+      "id": 79,
       "featured": true
+    },
+    {
+      "title": "Yoga Clothes You Should Own For Your Yoga Practice",
+      "slug": "yoga-clothes-you-should-own-for-your-yoga-regime",
+      "url": "/yoga-clothes-you-should-own-for-your-yoga-regime",
+      "excerpt": "Find the right yoga clothes for flow, hot yoga, restorative & Pilates fusion sessions—plus 3 wardrobe mistakes beginners should avoid.",
+      "author": "Ryan Mitchell",
+      "date": "2026-08-14",
+      "category": "Category Object",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/f942c409a125a50b4030e8314e00b777.webp",
+      "tags": [
+        {
+          "slug": "yoga-activewear",
+          "name": "Yoga Activewear"
+        },
+        {
+          "slug": "yoga-essentials",
+          "name": "Yoga Essentials"
+        },
+        {
+          "slug": "hot-yoga",
+          "name": "Hot Yoga"
+        },
+        {
+          "slug": "yoga-leggings",
+          "name": "Yoga Leggings"
+        },
+        {
+          "slug": "yoga-wardrobe",
+          "name": "Yoga Wardrobe"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "category-object",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 78,
+      "featured": false
     },
     {
       "title": "How to Choose the Right Women's Bottom Wear: Fit Guide",
@@ -745,48 +783,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 60,
-      "featured": false
-    },
-    {
-      "title": "Custom Yoga Pants Manufacturers: Full Ordering Guide",
-      "slug": "custom-yoga-pants-to-order-from-your-manufacturers-today",
-      "url": "/custom-yoga-pants-to-order-from-your-manufacturers-today",
-      "excerpt": "Order custom yoga pants with confidence: get the day-by-day production timeline, cost breakdown, and factory vetting checklist before wiring a deposit.",
-      "author": "Ryan Mitchell",
-      "date": "2026-07-28",
-      "category": "Category Object",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/06bada3e-d784-45f1-a94c-989f29326762.png",
-      "tags": [
-        {
-          "slug": "yoga-pants-cost",
-          "name": "Yoga Pants Cost"
-        },
-        {
-          "slug": "custom-yoga-2",
-          "name": "Custom Yoga"
-        },
-        {
-          "slug": "yoga-pants-mfg",
-          "name": "Yoga Pants Mfg."
-        },
-        {
-          "slug": "mfg-checklist",
-          "name": "Mfg Checklist"
-        },
-        {
-          "slug": "yoga-pants-moq",
-          "name": "Yoga Pants MOQ"
-        },
-        {
-          "slug": "seamless-cutsew",
-          "name": "Seamless vs Cut & Sew"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "category-object",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 59,
       "featured": false
     }
   ]
