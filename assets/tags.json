@@ -5157,6 +5157,65 @@
         "christmas leggings",
         "holiday leggings style"
       ]
+    },
+    {
+      "slug": "yoga-wear",
+      "name": "Yoga Wear",
+      "description": "Explore essential yoga apparel, including comfortable yoga clothes and attire for your practice.",
+      "aliases": [
+        "yoga clothes",
+        "yoga attire",
+        "yoga outfit",
+        "yoga apparel",
+        "yoga regime wear"
+      ]
+    },
+    {
+      "slug": "yoga-essentials",
+      "name": "Yoga Essentials",
+      "description": "Essential yoga wardrobe items and attire to build a complete and functional yoga practice collection.",
+      "aliases": [
+        "yoga wardrobe essentials",
+        "yoga clothing essentials",
+        "essential yoga wear",
+        "yoga gear essentials",
+        "must-have yoga clothes"
+      ]
+    },
+    {
+      "slug": "hot-yoga",
+      "name": "Hot Yoga",
+      "description": "Apparel and gear specifically designed for hot yoga, focusing on moisture-wicking and breathability for intense sessions.",
+      "aliases": [
+        "hot yoga clothing",
+        "hot yoga apparel",
+        "bikram yoga clothes",
+        "hot yoga wear",
+        "yoga clothes for hot yoga"
+      ]
+    },
+    {
+      "slug": "yoga-wardrobe",
+      "name": "Yoga Wardrobe",
+      "description": "Essential yoga clothing and wardrobe essentials for your practice, avoiding common mistakes. Optimize your yoga attire.",
+      "aliases": [
+        "yoga wardrobe mistakes",
+        "yoga clothing essentials",
+        "yoga attire",
+        "yoga wardrobe"
+      ]
+    },
+    {
+      "slug": "yoga-activewear",
+      "name": "Yoga Activewear",
+      "description": "Activewear specifically designed for yoga practice, offering comfort, flexibility, and support during your sessions.",
+      "aliases": [
+        "activewear for yoga practice",
+        "yoga clothes",
+        "yoga apparel",
+        "yoga gear",
+        "performance yoga wear"
+      ]
     }
   ]
 }
