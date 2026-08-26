@@ -2,6 +2,52 @@
   "pageNumber": 1,
   "blogs": [
     {
+      "title": "Must-Have Running Gear for Beginners: A Buyer's Guide",
+      "slug": "must-have-running-gears-for-all-the-apprentices",
+      "url": "/must-have-running-gears-for-all-the-apprentices",
+      "excerpt": "A no-fluff guide to the running gear beginners actually need first—shoes, socks, anti-chafe, hydration and safety gear—and what to skip.",
+      "author": "Ryan Mitchell",
+      "date": "2026-08-25",
+      "category": "Category Object",
+      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/22becc405dea67849387c60e793a93ca.webp",
+      "tags": [
+        {
+          "slug": "running-visibility",
+          "name": "Running Visibility"
+        },
+        {
+          "slug": "beginner-running",
+          "name": "Beginner Running"
+        },
+        {
+          "slug": "beginner-running-2",
+          "name": "Beginner Running"
+        },
+        {
+          "slug": "anti-chafe",
+          "name": "Anti-Chafe"
+        },
+        {
+          "slug": "running-socks",
+          "name": "Running Socks"
+        },
+        {
+          "slug": "running-bra",
+          "name": "Running Bra"
+        },
+        {
+          "slug": "hydration-gear",
+          "name": "Hydration Gear"
+        }
+      ],
+      "readTime": "7 min read",
+      "categorySlug": "category-object",
+      "authorTitle": "Head of Production & Sourcing",
+      "authorSlug": "ryan-mitchell",
+      "id": 80,
+      "featured": true
+    },
+    {
       "title": "Leggings Outfits for New Year: Style Guide by Occasion",
       "slug": "fab-leggings-that-are-perfect-for-your-new-year-style",
       "url": "/fab-leggings-that-are-perfect-for-your-new-year-style",
@@ -33,7 +79,7 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 79,
-      "featured": true
+      "featured": false
     },
     {
       "title": "Yoga Clothes You Should Own For Your Yoga Practice",
@@ -753,36 +799,6 @@
       "authorTitle": "Head of Production & Sourcing",
       "authorSlug": "ryan-mitchell",
       "id": 61,
-      "featured": false
-    },
-    {
-      "title": "Gym Wear Guide for Fashion-Conscious Men",
-      "slug": "a-guide-to-gym-wear-for-fashion-conscious-men",
-      "url": "/a-guide-to-gym-wear-for-fashion-conscious-men",
-      "excerpt": "A men's gym wear guide matched to body type and workout—shirts, joggers, shoes, and outfits that go straight from weights to coffee.",
-      "author": "Ryan Mitchell",
-      "date": "2026-07-28",
-      "category": "Category Object",
-      "thumbnail": "https://docerp.s3.us-west-1.amazonaws.com/images/p_14/d_default/02ce228a-2a85-4a2e-96a1-8743abd71430.png",
-      "tags": [
-        {
-          "slug": "body-type-gym",
-          "name": "Body Type Gym"
-        },
-        {
-          "slug": "mens-gym-wear-3",
-          "name": "Men's Gym Wear"
-        },
-        {
-          "slug": "mens-gym-outfit",
-          "name": "Men's Gym Outfits"
-        }
-      ],
-      "readTime": "7 min read",
-      "categorySlug": "category-object",
-      "authorTitle": "Head of Production & Sourcing",
-      "authorSlug": "ryan-mitchell",
-      "id": 60,
       "featured": false
     }
   ]
