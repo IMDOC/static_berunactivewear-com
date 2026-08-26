@@ -5216,6 +5216,91 @@
         "yoga gear",
         "performance yoga wear"
       ]
+    },
+    {
+      "slug": "beginner-running",
+      "name": "Beginner Running",
+      "description": "Essential running gear and tips for those just starting out, covering apparel and basic equipment.",
+      "aliases": [
+        "running gear for beginners",
+        "beginner running gear",
+        "new runner equipment",
+        "first running outfit",
+        "apprentice running gear"
+      ]
+    },
+    {
+      "slug": "beginner-running-2",
+      "name": "Beginner Running",
+      "description": "Essential running gear and tips for those just starting out in the sport.",
+      "aliases": [
+        "running shoes for beginners",
+        "beginner running shoes",
+        "new runner gear",
+        "starting to run",
+        "apprentice runner"
+      ]
+    },
+    {
+      "slug": "anti-chafe",
+      "name": "Anti-Chafe",
+      "description": "Discover anti-chafing solutions and products to prevent skin irritation during running and other physical activities.",
+      "aliases": [
+        "anti-chafe products for running",
+        "anti-chafing balm",
+        "running anti-chafing",
+        "prevent chafing",
+        "anti-chafing gear"
+      ]
+    },
+    {
+      "slug": "running-socks",
+      "name": "Running Socks",
+      "description": "Explore the best running socks for comfort, support, and performance on every stride. Essential gear for every runner.",
+      "aliases": [
+        "best running socks",
+        "running socks for men",
+        "running socks for women",
+        "athletic socks",
+        "performance running socks"
+      ]
+    },
+    {
+      "slug": "running-bra",
+      "name": "Running Bra",
+      "description": "High-impact sports bras designed for running and intense workouts, offering support and comfort.",
+      "aliases": [
+        "sports bra for running",
+        "running sports bra",
+        "high impact sports bra",
+        "workout bra for running",
+        "running support bra",
+        "athletic bra for running"
+      ]
+    },
+    {
+      "slug": "hydration-gear",
+      "name": "Hydration Gear",
+      "description": "Essential hydration packs, bottles, and belts for runners to stay hydrated during any distance.",
+      "aliases": [
+        "hydration gear for runners",
+        "running hydration",
+        "water bottle for running",
+        "hydration pack",
+        "runner hydration solutions"
+      ]
+    },
+    {
+      "slug": "running-visibility",
+      "name": "Running Visibility",
+      "description": "Enhance your safety during runs with high-visibility gear, reflective elements, and safety lighting for all conditions.",
+      "aliases": [
+        "running visibility safety gear",
+        "high visibility running",
+        "reflective running gear",
+        "safety running lights",
+        "night running visibility"
+      ]
     }
   ]
 }
